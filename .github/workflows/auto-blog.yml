@@ -4,6 +4,7 @@ on:
   schedule:
     - cron: '0 1 * * *'
     - cron: '25 13 * * *'
+
   workflow_dispatch:
 
 permissions:
@@ -13,8 +14,9 @@ jobs:
   publish-blog:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+
     env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true 
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
       - name: 📥 Checkout repository
@@ -26,22 +28,25 @@ jobs:
       - name: 🐍 Set up Python 3.11
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
-          cache: 'pip'
+          python-version: "3.11"
+          cache: "pip"
 
       - name: 📦 Install dependencies
         run: pip install -r requirements.txt
 
       - name: 🚀 Generate & publish blog post
         env:
-          GEMINI_API_KEY:      ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
         run: python scripts/generate_post.py
 
       - name: 📝 Commit and push
         run: |
-          git config --global user.name  "SluIntel Bot"
+          git config --global user.name "SluIntel Bot"
           git config --global user.email "bot@sluintel.github.io"
+
           git add -A
+
           git diff --staged --quiet || git commit -m "🤖 Auto-publish: $(date +'%Y-%m-%d')"
+
           git push
