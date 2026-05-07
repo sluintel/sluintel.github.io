@@ -7,11 +7,11 @@
 ## How It Works
 
 ```
-Google Trends  →  Claude AI  →  Unsplash  →  GitHub Actions  →  GitHub Pages
-(trending keyword)  (writes post)  (feature image)  (daily cron)  (sluintel.github.io)
+Google Trends  →  Gemini AI  →  Unsplash  →  GitHub Actions  →  GitHub Pages
+(trending keyword)  (writes post)  (feature image)  (daily cron)  (sluintel.github.io) (Sujit Luintel)
 ```
 
-Every day at **6:45 AM/ 7:10 PM Nepal time**, GitHub Actions:
+Every day at **6:45 AM and 7:10 PM Nepal time**, GitHub Actions:
 1. Fetches the most trending AI keyword from Google Trends
 2. Asks Gemini AI to write a full SEO blog post
 3. Downloads a royalty-free feature image from Unsplash
