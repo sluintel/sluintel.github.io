@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Unleash Your Inner Spielberg: Top AI Video Generators | SluIntel</title>
+  <title>Unleash Your Inner Spielberg: Top AI Video Generators | Sujit Luintel</title>
   <meta name="description" content="Transform text to stunning video, animate images, and generate entire scenes with AI. Discover the best AI video generation tools for creators, marketers, and businesses."/>
   <meta property="og:title" content="Unleash Your Inner Spielberg: Top AI Video Generators"/>
   <meta property="og:description" content="Transform text to stunning video, animate images, and generate entire scenes with AI. Discover the best AI video generation tools for creators, marketers, and businesses."/>
@@ -16,7 +16,7 @@
 <body>
   <header class="site-header">
     <nav class="nav-container">
-      <a href="../index" class="logo">Slu<span>Intel</span></a>
+      <a href="../index" class="logo">Sujit<span>Luintel</span></a>
       <div class="nav-links">
         <a href="../index">Home</a>
         <a href="../index#about">About</a>
@@ -128,7 +128,7 @@
   </main>
 
   <footer class="site-footer">
-    <p>© 2026 SluIntel · AI Tools &amp; Automation Insights</p>
+    <p>© 2026 Sujit Luintel · AI Tools &amp; Automation Insights</p>
     <p style="margin-top:.25rem;">Auto-published with AI · Powered by Gemini &amp; GitHub Actions</p>
   </footer>
 </body>
