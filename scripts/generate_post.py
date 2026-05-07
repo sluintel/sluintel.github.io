@@ -27,7 +27,7 @@ REPO_ROOT    = Path(__file__).parent.parent
 POSTS_DIR    = REPO_ROOT / "posts"
 POSTS_JSON   = REPO_ROOT / "posts.json"
 USED_KW_FILE = REPO_ROOT / "used_keywords.json"
-INDEX_HTML   = REPO_ROOT / "index.html"
+INDEX_HTML   = REPO_ROOT / "index"
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 UNSPLASH_KEY   = os.environ.get("UNSPLASH_ACCESS_KEY", "")
@@ -115,43 +115,37 @@ def get_trending_keyword():
 def generate_blog_post(keyword):
     client = genai.Client(api_key=GEMINI_API_KEY)
 
-    # Call 1: metadata only (small, clean JSON — no HTML inside)
-    meta_prompt = f"""You are an SEO expert. For a blog post about "{keyword}", return ONLY a JSON object with these fields:
-- title: engaging title under 65 characters
-- meta_description: compelling description under 155 characters
-- slug: url-friendly-slug-with-hyphens-only (lowercase, no special chars)
-- tags: array of exactly 3 short tag strings
-- reading_time: e.g. "5 min read"
+    prompt = f"""You are an expert tech blogger specialising in AI tools and automation.
+Write a comprehensive, SEO-optimised blog post about: "{keyword}"
 
-Return ONLY the JSON object. No explanation."""
+Return ONLY a valid JSON object — no markdown fences, no preamble, no trailing text.
 
-    meta_response = client.models.generate_content(
+JSON structure:
+{{
+  "title": "Engaging, click-worthy title under 65 characters",
+  "meta_description": "Compelling meta description under 155 characters",
+  "slug": "url-friendly-slug-with-hyphens-only",
+  "tags": ["tag1", "tag2", "tag3"],
+  "reading_time": "X min read",
+  "content_html": "<p>Full blog post in HTML...</p> (800-1100 words, use h2 h3 p ul li strong em — no outer title or feature image)"
+}}
+
+Writing style: clear, practical, slightly opinionated. Include a compelling intro, 4-6 h2 sections with real value, bullet lists where helpful, and a strong conclusion with a CTA."""
+
+    response = client.models.generate_content(
         model="gemini-2.5-flash",
-        contents=meta_prompt,
-        config={"response_mime_type": "application/json"}
+        contents=prompt
     )
-    data = json.loads(meta_response.text.strip())
+
+    raw = response.text.strip()
+    raw = re.sub(r'^```json\s*', '', raw)
+    raw = re.sub(r'\s*```$', '', raw)
+
+    data = json.loads(raw)
     data['slug'] = re.sub(r'[^a-z0-9\-]', '', data['slug'].lower().replace(' ', '-'))
-
-    # Call 2: HTML content separately (no JSON wrapping)
-    content_prompt = f"""You are an expert tech blogger specialising in AI tools and automation.
-Write a comprehensive, SEO-optimised blog post body about: "{keyword}"
-
-Rules:
-- 800-1100 words
-- Use h2, h3, p, ul, li, strong, em tags
-- Do NOT include the main title or a feature image
-- Include a compelling intro, 4-6 h2 sections with real value, bullet lists, strong conclusion with CTA
-- Return ONLY the raw HTML. No explanation, no markdown, no wrapper tags."""
-
-    content_response = client.models.generate_content(
-        model="gemini-2.5-flash",
-        contents=content_prompt
-    )
-    data['content_html'] = content_response.text.strip()
-
     print(f"✅ Post generated: {data['title']}")
     return data
+
 
 # ─────────────────────────────────────────
 # 3. FETCH FEATURE IMAGE (UNSPLASH)
@@ -268,7 +262,7 @@ def build_post_html(post, img_url, img_credit, date_str):
 # ─────────────────────────────────────────
 def update_posts_json(post, img_url, date_str):
     posts = json.loads(POSTS_JSON.read_text()) if POSTS_JSON.exists() else []
-    filename = f"{date_str}-{post['slug']}.html"
+    filename = f"{date_str}-{post['slug']}"
     entry = {
         "title":            post['title'],
         "slug":             post['slug'],
@@ -316,11 +310,12 @@ def build_index_html(posts):
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="google-site-verification" content="JQTOXeyvg5ypfjq2nyjXH_H0OXcKh3QdcYPPrbh7mh4" />
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>SluIntel — AI Tools &amp; Automation Insights</title>
-  <meta name="description" content="Daily insights on AI tools, automation software, and the future of intelligent workflows. Stay ahead with SluIntel."/>
-  <meta property="og:title" content="SluIntel — AI Tools &amp; Automation"/>
+  <title>Sujit Luintel— AI Tools &amp; Automation Insights</title>
+  <meta name="description" content="Daily insights on AI tools, automation software, and the future of intelligent workflows. Stay ahead with Sujit Luintel."/>
+  <meta property="og:title" content="Sujit Luintel — AI Tools &amp; Automation"/>
   <meta property="og:description" content="Daily AI tools and automation insights, auto-published every day."/>
   <link rel="stylesheet" href="style.css"/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -340,7 +335,7 @@ def build_index_html(posts):
 
   <section class="hero">
     <div class="hero-content">
-      <div class="hero-badge">🤖 Fully Automated AI Blog</div>
+      <div class="hero-badge">Fully Automated AI Blog</div>
       <h1>AI Tools &amp; Automation<br/><span class="gradient-text">Insights That Matter</span></h1>
       <p>Daily deep-dives on AI tools, automation workflows, and intelligent software — auto-curated, auto-written, always fresh.</p>
       <div class="hero-stats">
@@ -357,6 +352,7 @@ def build_index_html(posts):
           <p><span class="t-green">✓</span> Generating blog post with AI…</p>
           <p><span class="t-green">✓</span> Fetching royalty-free image…</p>
           <p><span class="t-cyan">→</span> Publishing to sluintel.github.io</p>
+          <p><span class="t-cyan">→</span> learning new always, Sujit Luintel</p>
           <p class="t-blink">_</p>
         </div>
       </div>
@@ -375,7 +371,7 @@ def build_index_html(posts):
 
   <section class="about-section" id="about">
     <div class="about-content">
-      <h2>Sujit Luintel</h2>
+      <h2> Sujit Luintel</h2>
       <p>This is a fully automated AI blog that discovers trending topics in AI and automation, writes insightful articles, and publishes them — every single day, with zero human intervention.</p>
       <p>Powered by <strong>Gemini AI</strong> · <strong>Google Trends</strong> · <strong>GitHub Actions</strong> · <strong>Unsplash</strong></p>
     </div>
@@ -394,7 +390,7 @@ def build_index_html(posts):
 # MAIN
 # ─────────────────────────────────────────
 def main():
-    print("\n Sujit Luintel - Auto Blog Generator starting…\n")
+    print("\n Auto Blog Generator starting…\n")
     POSTS_DIR.mkdir(exist_ok=True)
 
     keyword  = get_trending_keyword()
