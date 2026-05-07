@@ -27,7 +27,7 @@ REPO_ROOT    = Path(__file__).parent.parent
 POSTS_DIR    = REPO_ROOT / "posts"
 POSTS_JSON   = REPO_ROOT / "posts.json"
 USED_KW_FILE = REPO_ROOT / "used_keywords.json"
-INDEX_HTML   = REPO_ROOT / "index.html"   # ← FIXED: was "index" (no extension)
+INDEX_HTML   = REPO_ROOT / "index.html"  
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 UNSPLASH_KEY   = os.environ.get("UNSPLASH_ACCESS_KEY", "")
