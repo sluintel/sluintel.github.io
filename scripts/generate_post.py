@@ -27,7 +27,7 @@ REPO_ROOT    = Path(__file__).parent.parent
 POSTS_DIR    = REPO_ROOT / "posts"
 POSTS_JSON   = REPO_ROOT / "posts.json"
 USED_KW_FILE = REPO_ROOT / "used_keywords.json"
-INDEX_HTML   = REPO_ROOT / "index.html"  
+INDEX_HTML   = REPO_ROOT / "index.html"
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 UNSPLASH_KEY   = os.environ.get("UNSPLASH_ACCESS_KEY", "")
@@ -66,7 +66,12 @@ TREND_SEEDS = [
 # ─────────────────────────────────────────
 def load_used_keywords():
     if USED_KW_FILE.exists():
-        return json.loads(USED_KW_FILE.read_text())
+        try:
+            content = USED_KW_FILE.read_text().strip()
+            if content:
+                return json.loads(content)
+        except (json.JSONDecodeError, ValueError):
+            print("⚠️  used_keywords.json was malformed — resetting it")
     return []
 
 def save_used_keyword(kw):
@@ -198,7 +203,7 @@ def build_post_html(post, img_url, img_credit, date_str):
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>{post['title']} | Sujit Luintel</title>
+  <title>{post['title']} | SluIntel</title>
   <meta name="description" content="{post['meta_description']}"/>
   <meta property="og:title" content="{post['title']}"/>
   <meta property="og:description" content="{post['meta_description']}"/>
@@ -250,7 +255,7 @@ def build_post_html(post, img_url, img_credit, date_str):
   </main>
 
   <footer class="site-footer">
-    <p>© {year} Sujit Luintel · AI Tools &amp; Automation Insights</p>
+    <p>© {year} SluIntel · AI Tools &amp; Automation Insights</p>
     <p style="margin-top:.25rem;">Auto-published with AI · Powered by Gemini &amp; GitHub Actions</p>
   </footer>
 </body>
@@ -262,7 +267,7 @@ def build_post_html(post, img_url, img_credit, date_str):
 # ─────────────────────────────────────────
 def update_posts_json(post, img_url, date_str):
     posts = json.loads(POSTS_JSON.read_text()) if POSTS_JSON.exists() else []
-    filename = f"{date_str}-{post['slug']}.html"   # ← FIXED: always .html extension
+    filename = f"{date_str}-{post['slug']}.html"
     entry = {
         "title":            post['title'],
         "slug":             post['slug'],
@@ -271,7 +276,7 @@ def update_posts_json(post, img_url, date_str):
         "tags":             post['tags'],
         "image_url":        img_url,
         "reading_time":     post.get('reading_time', '5 min read'),
-        "url":              f"posts/{filename}"     # ← FIXED: includes .html
+        "url":              f"posts/{filename}"     # filename already has .html
     }
     posts.insert(0, entry)
     POSTS_JSON.write_text(json.dumps(posts, indent=2))
@@ -280,7 +285,7 @@ def update_posts_json(post, img_url, date_str):
 
 
 # ─────────────────────────────────────────
-# 6. REGENERATE index.html
+# 6. REGENERATE index
 # ─────────────────────────────────────────
 def build_index_html(posts):
     cards = ""
@@ -303,7 +308,7 @@ def build_index_html(posts):
         </div>
       </article>"""
 
-    grid_inner = cards if cards else '<p class="no-posts"> Post is being generated…</p>'
+    grid_inner = cards if cards else '<p class="no-posts">Post is being generated…</p>'
     year  = datetime.now().year
     total = len(posts)
 
@@ -313,7 +318,7 @@ def build_index_html(posts):
   <meta name="google-site-verification" content="JQTOXeyvg5ypfjq2nyjXH_H0OXcKh3QdcYPPrbh7mh4" />
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sujit Luintel — AI Tools &amp; Automation Insights</title>
+  <title>Sujit Luintel— AI Tools &amp; Automation Insights</title>
   <meta name="description" content="Daily insights on AI tools, automation software, and the future of intelligent workflows. Stay ahead with Sujit Luintel."/>
   <meta property="og:title" content="Sujit Luintel — AI Tools &amp; Automation"/>
   <meta property="og:description" content="Daily AI tools and automation insights, auto-published every day."/>
@@ -335,7 +340,7 @@ def build_index_html(posts):
 
   <section class="hero">
     <div class="hero-content">
-      <div class="hero-badge">🤖 Fully Automated AI Blog</div>
+      <div class="hero-badge">Fully Automated AI Blog</div>
       <h1>AI Tools &amp; Automation<br/><span class="gradient-text">Insights That Matter</span></h1>
       <p>Daily deep-dives on AI tools, automation workflows, and intelligent software — auto-curated, auto-written, always fresh.</p>
       <div class="hero-stats">
@@ -352,7 +357,7 @@ def build_index_html(posts):
           <p><span class="t-green">✓</span> Generating blog post with AI…</p>
           <p><span class="t-green">✓</span> Fetching royalty-free image…</p>
           <p><span class="t-cyan">→</span> Publishing to sluintel.github.io</p>
-          <p><span class="t-cyan">→</span> Learning new things daily · Sujit Luintel</p>
+          <p><span class="t-cyan">→</span> learning new always, Sujit Luintel</p>
           <p class="t-blink">_</p>
         </div>
       </div>
@@ -371,7 +376,7 @@ def build_index_html(posts):
 
   <section class="about-section" id="about">
     <div class="about-content">
-      <h2>Sujit Luintel</h2>
+      <h2> Sujit Luintel</h2>
       <p>This is a fully automated AI blog that discovers trending topics in AI and automation, writes insightful articles, and publishes them — every single day, with zero human intervention.</p>
       <p>Powered by <strong>Gemini AI</strong> · <strong>Google Trends</strong> · <strong>GitHub Actions</strong> · <strong>Unsplash</strong></p>
     </div>
@@ -390,7 +395,7 @@ def build_index_html(posts):
 # MAIN
 # ─────────────────────────────────────────
 def main():
-    print("\n🤖 Auto Blog Generator starting…\n")
+    print("\n Auto Blog Generator starting…\n")
     POSTS_DIR.mkdir(exist_ok=True)
 
     keyword  = get_trending_keyword()
@@ -407,7 +412,7 @@ def main():
 
     index = build_index_html(posts)
     INDEX_HTML.write_text(index, encoding='utf-8')
-    print("✅ index.html regenerated")
+    print("✅ index regenerated")
 
     print(f"\n🎉 Done! '{post['title']}' is live at posts/{filename}\n")
 
