@@ -16,10 +16,10 @@
 <body>
   <header class="site-header">
     <nav class="nav-container">
-      <a href="../index" class="logo">Slu<span>Intel</span></a>
+      <a href="/" class="logo">Slu<span>Intel</span></a>
       <div class="nav-links">
-        <a href="../index">Home</a>
-        <a href="../index#about">About</a>
+        <a href="/">Home</a>
+        <a href="/#about">About</a>
       </div>
     </nav>
   </header>
@@ -48,7 +48,7 @@
 
       <div class="post-footer">
         <div class="post-tags"><strong>Tags:</strong> <span class="tag">AI SEO</span><span class="tag">SEO Tools</span><span class="tag">Generative AI</span><span class="tag">Predictive Analytics</span><span class="tag">Digital Marketing</span></div>
-        <a href="../index" class="back-link">← Back to Home</a>
+        <a href="/" class="back-link">← Back to Home</a>
       </div>
 
     </article>
