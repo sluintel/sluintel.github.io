@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-SluIntel Auto Blog Generator
+Sujit Luintel Auto Blog Generator
 Niche: AI Tools & Automation
 Runs daily via GitHub Actions
 """
@@ -34,7 +34,7 @@ ANTHROPIC_API_KEY  = os.environ.get("ANTHROPIC_API_KEY", "")
 UNSPLASH_KEY       = os.environ.get("UNSPLASH_ACCESS_KEY", "")
 
 FALLBACK_KEYWORDS = [
-    "best AI tools 2025",
+    "best AI tools 2026",
     "AI automation for small business",
     "ChatGPT vs Claude vs Gemini",
     "no-code automation tools review",
@@ -43,12 +43,12 @@ FALLBACK_KEYWORDS = [
     "free AI image generation tools",
     "AI productivity tools for remote work",
     "how to automate your business with AI",
-    "top AI SEO tools 2025",
+    "top AI SEO tools 2026",
     "AI tools for content creators",
     "make money with AI automation",
     "AI agents explained simply",
     "Zapier vs Make vs n8n comparison",
-    "best AI code assistants 2025",
+    "best AI code assistants 2026",
     "AI tools for email marketing",
     "how to use Claude AI effectively",
     "AI research tools for students",
