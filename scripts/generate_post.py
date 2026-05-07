@@ -19,8 +19,6 @@ try:
 except ImportError:
     PYTRENDS_AVAILABLE = False
 
-import anthropic
-
 # ─────────────────────────────────────────
 # CONFIG
 # ─────────────────────────────────────────
@@ -113,10 +111,15 @@ def get_trending_keyword():
 
 
 # ─────────────────────────────────────────
-# 2. GENERATE BLOG POST WITH CLAUDE
+# 2. GENERATE BLOG POST WITH Gemini
 # ─────────────────────────────────────────
+import google.generativeai as genai
+
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+
 def generate_blog_post(keyword):
-    client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+    genai.configure(api_key=GEMINI_API_KEY)
+    model = genai.GenerativeModel("gemini-2.0-flash")
 
     prompt = f"""You are an expert tech blogger specialising in AI tools and automation.
 Write a comprehensive, SEO-optimised blog post about: "{keyword}"
@@ -135,22 +138,15 @@ JSON structure:
 
 Writing style: clear, practical, slightly opinionated. Include a compelling intro, 4-6 h2 sections with real value, bullet lists where helpful, and a strong conclusion with a CTA."""
 
-    msg = client.messages.create(
-        model="claude-sonnet-4-20250514",
-        max_tokens=4000,
-        messages=[{"role": "user", "content": prompt}]
-    )
-
-    raw = msg.content[0].text.strip()
+    response = model.generate_content(prompt)
+    raw = response.text.strip()
     raw = re.sub(r'^```json\s*', '', raw)
     raw = re.sub(r'\s*```$', '', raw)
 
     data = json.loads(raw)
-    # Sanitise slug
     data['slug'] = re.sub(r'[^a-z0-9\-]', '', data['slug'].lower().replace(' ', '-'))
     print(f"✅ Post generated: {data['title']}")
     return data
-
 
 # ─────────────────────────────────────────
 # 3. FETCH FEATURE IMAGE (UNSPLASH)
