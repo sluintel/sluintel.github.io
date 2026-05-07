@@ -1,10 +1,12 @@
-name: 🤖 Auto Blog Publisher
+name: Auto Blog Publisher
 
 on:
   schedule:
-    # Runs daily at 01:15 UTC = 06:45 AM Nepal Time (NPT is UTC+5:45)
-    - cron: '15 1 * * *'
-  workflow_dispatch:   # ← also lets you trigger manually from GitHub UI
+    # 06:45 AM Nepal Time = 01:00 AM UTC
+    - cron: '0 1 * * *'
+    # 07:10 PM Nepal Time = 13:25 PM UTC
+    - cron: '25 13 * * *'
+  workflow_dispatch:  # ← also lets you trigger manually from GitHub UI
 
 permissions:
   contents: write      # needed to commit & push new posts
