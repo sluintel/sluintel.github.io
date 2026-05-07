@@ -118,29 +118,25 @@ def generate_blog_post(keyword):
     prompt = f"""You are an expert tech blogger specialising in AI tools and automation.
 Write a comprehensive, SEO-optimised blog post about: "{keyword}"
 
-Return ONLY a valid JSON object — no markdown fences, no preamble, no trailing text.
-
-JSON structure:
-{{
-  "title": "Engaging, click-worthy title under 65 characters",
-  "meta_description": "Compelling meta description under 155 characters",
-  "slug": "url-friendly-slug-with-hyphens-only",
-  "tags": ["tag1", "tag2", "tag3"],
-  "reading_time": "X min read",
-  "content_html": "<p>Full blog post in HTML...</p> (800-1100 words, use h2 h3 p ul li strong em — no outer title or feature image)"
-}}
+Return a JSON object with these exact fields:
+- title: engaging title under 65 characters
+- meta_description: compelling description under 155 characters
+- slug: url-friendly-slug-with-hyphens-only
+- tags: array of 3 strings
+- reading_time: e.g. "5 min read"
+- content_html: full blog post as an HTML string (800-1100 words, use h2 h3 p ul li strong em, no outer title or feature image)
 
 Writing style: clear, practical, slightly opinionated. Include a compelling intro, 4-6 h2 sections with real value, bullet lists where helpful, and a strong conclusion with a CTA."""
 
     response = client.models.generate_content(
         model="gemini-2.5-flash",
-        contents=prompt
+        contents=prompt,
+        config={
+            "response_mime_type": "application/json"
+        }
     )
 
     raw = response.text.strip()
-    raw = re.sub(r'^```json\s*', '', raw)
-    raw = re.sub(r'\s*```$', '', raw)
-
     data = json.loads(raw)
     data['slug'] = re.sub(r'[^a-z0-9\-]', '', data['slug'].lower().replace(' ', '-'))
     print(f"✅ Post generated: {data['title']}")
