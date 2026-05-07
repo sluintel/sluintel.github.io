@@ -1,0 +1,12 @@
+# GitHub Pages configuration
+# This tells Jekyll to serve .html files without the extension in the URL
+# e.g. /posts/2026-05-07-my-post.html is accessible as /posts/2026-05-07-my-post
+
+permalink: pretty
+
+# Exclude files that shouldn't be published
+exclude:
+  - scripts/
+  - requirements.txt
+  - used_keywords.json
+  - README.md
