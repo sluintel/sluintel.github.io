@@ -12,6 +12,7 @@ import random
 import requests
 from datetime import datetime
 from pathlib import Path
+from google import genai
 
 try:
     from pytrends.request import TrendReq
@@ -22,14 +23,14 @@ except ImportError:
 # ─────────────────────────────────────────
 # CONFIG
 # ─────────────────────────────────────────
-REPO_ROOT       = Path(__file__).parent.parent
-POSTS_DIR       = REPO_ROOT / "posts"
-POSTS_JSON      = REPO_ROOT / "posts.json"
-USED_KW_FILE    = REPO_ROOT / "used_keywords.json"
-INDEX_HTML      = REPO_ROOT / "index.html"
+REPO_ROOT    = Path(__file__).parent.parent
+POSTS_DIR    = REPO_ROOT / "posts"
+POSTS_JSON   = REPO_ROOT / "posts.json"
+USED_KW_FILE = REPO_ROOT / "used_keywords.json"
+INDEX_HTML   = REPO_ROOT / "index.html"
 
-ANTHROPIC_API_KEY  = os.environ.get("ANTHROPIC_API_KEY", "")
-UNSPLASH_KEY       = os.environ.get("UNSPLASH_ACCESS_KEY", "")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+UNSPLASH_KEY   = os.environ.get("UNSPLASH_ACCESS_KEY", "")
 
 FALLBACK_KEYWORDS = [
     "best AI tools 2026",
@@ -84,7 +85,6 @@ def get_trending_keyword():
             df = pytrends.interest_over_time()
             if not df.empty:
                 top_kw = df.drop(columns=['isPartial'], errors='ignore').mean().idxmax()
-                # Try to get a more specific related query
                 pytrends.build_payload([top_kw], timeframe='now 7-d')
                 related = pytrends.related_queries()
                 rising = related.get(top_kw, {}).get('rising')
@@ -99,7 +99,6 @@ def get_trending_keyword():
         except Exception as e:
             print(f"⚠️  Google Trends error: {e} — using fallback pool")
 
-    # Fallback: pick unused keyword from pool
     used = load_used_keywords()
     available = [k for k in FALLBACK_KEYWORDS if k not in used]
     if not available:
@@ -111,12 +110,8 @@ def get_trending_keyword():
 
 
 # ─────────────────────────────────────────
-# 2. GENERATE BLOG POST WITH Gemini
+# 2. GENERATE BLOG POST WITH GEMINI
 # ─────────────────────────────────────────
-from google import genai
-
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
-
 def generate_blog_post(keyword):
     client = genai.Client(api_key=GEMINI_API_KEY)
 
@@ -151,6 +146,7 @@ Writing style: clear, practical, slightly opinionated. Include a compelling intr
     print(f"✅ Post generated: {data['title']}")
     return data
 
+
 # ─────────────────────────────────────────
 # 3. FETCH FEATURE IMAGE (UNSPLASH)
 # ─────────────────────────────────────────
@@ -174,10 +170,10 @@ def get_feature_image(keyword):
             )
             if r.status_code == 200:
                 d = r.json()
-                img_url  = d['urls']['regular']
-                name     = d['user']['name']
-                link     = d['links']['html']
-                credit   = f'Photo by <a href="{link}?utm_source=sluintel&utm_medium=referral" target="_blank" rel="noopener">{name}</a> on <a href="https://unsplash.com?utm_source=sluintel&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a>'
+                img_url = d['urls']['regular']
+                name    = d['user']['name']
+                link    = d['links']['html']
+                credit  = f'Photo by <a href="{link}?utm_source=sluintel&utm_medium=referral" target="_blank" rel="noopener">{name}</a> on <a href="https://unsplash.com?utm_source=sluintel&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a>'
                 print(f"✅ Image by {name} from Unsplash")
                 return img_url, credit
         except Exception as e:
@@ -193,9 +189,9 @@ def get_feature_image(keyword):
 # 4. BUILD POST HTML FILE
 # ─────────────────────────────────────────
 def build_post_html(post, img_url, img_credit, date_str):
-    tags_html   = "".join(f'<span class="tag">{t}</span>' for t in post['tags'])
-    date_nice   = datetime.strptime(date_str, '%Y-%m-%d').strftime('%B %d, %Y')
-    year        = datetime.now().year
+    tags_html = "".join(f'<span class="tag">{t}</span>' for t in post['tags'])
+    date_nice = datetime.strptime(date_str, '%Y-%m-%d').strftime('%B %d, %Y')
+    year      = datetime.now().year
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -215,10 +211,10 @@ def build_post_html(post, img_url, img_credit, date_str):
 <body>
   <header class="site-header">
     <nav class="nav-container">
-      <a href="../index.html" class="logo">Slu<span>Intel</span></a>
+      <a href="../index" class="logo">Slu<span>Intel</span></a>
       <div class="nav-links">
-        <a href="../index.html">Home</a>
-        <a href="../index.html#about">About</a>
+        <a href="../index">Home</a>
+        <a href="../index#about">About</a>
       </div>
     </nav>
   </header>
@@ -247,7 +243,7 @@ def build_post_html(post, img_url, img_credit, date_str):
 
       <div class="post-footer">
         <div class="post-tags"><strong>Tags:</strong> {tags_html}</div>
-        <a href="../index.html" class="back-link">← Back to Home</a>
+        <a href="../index" class="back-link">← Back to Home</a>
       </div>
 
     </article>
@@ -255,7 +251,7 @@ def build_post_html(post, img_url, img_credit, date_str):
 
   <footer class="site-footer">
     <p>© {year} SluIntel · AI Tools &amp; Automation Insights</p>
-    <p style="margin-top:.25rem;">Auto-published with AI · Powered by Claude &amp; GitHub Actions</p>
+    <p style="margin-top:.25rem;">Auto-published with AI · Powered by Gemini &amp; GitHub Actions</p>
   </footer>
 </body>
 </html>"""
@@ -284,12 +280,12 @@ def update_posts_json(post, img_url, date_str):
 
 
 # ─────────────────────────────────────────
-# 6. REGENERATE index.html
+# 6. REGENERATE index
 # ─────────────────────────────────────────
 def build_index_html(posts):
     cards = ""
     for i, p in enumerate(posts):
-        featured = " featured-card" if i == 0 else ""
+        featured  = " featured-card" if i == 0 else ""
         tags_html = "".join(f'<span class="tag">{t}</span>' for t in p['tags'][:2])
         cards += f"""
       <article class="post-card{featured}">
@@ -308,7 +304,7 @@ def build_index_html(posts):
       </article>"""
 
     grid_inner = cards if cards else '<p class="no-posts">🚀 First post is being generated…</p>'
-    year = datetime.now().year
+    year  = datetime.now().year
     total = len(posts)
 
     return f"""<!DOCTYPE html>
@@ -328,7 +324,7 @@ def build_index_html(posts):
 
   <header class="site-header">
     <nav class="nav-container">
-      <a href="index.html" class="logo">Slu<span>Intel</span></a>
+      <a href="index" class="logo">Sujit<span>Luintel</span></a>
       <div class="nav-links">
         <a href="#latest">Latest</a>
         <a href="#about">About</a>
@@ -373,15 +369,15 @@ def build_index_html(posts):
 
   <section class="about-section" id="about">
     <div class="about-content">
-      <h2>About SluIntel</h2>
-      <p>SluIntel is a fully automated AI blog that discovers trending topics in AI and automation, writes insightful articles, and publishes them — every single day, with zero human intervention.</p>
-      <p>Powered by <strong>Claude AI</strong> · <strong>Google Trends</strong> · <strong>GitHub Actions</strong> · <strong>Unsplash</strong></p>
+      <h2>Sujit Luintel</h2>
+      <p>This is a fully automated AI blog that discovers trending topics in AI and automation, writes insightful articles, and publishes them — every single day, with zero human intervention.</p>
+      <p>Powered by <strong>Gemini AI</strong> · <strong>Google Trends</strong> · <strong>GitHub Actions</strong> · <strong>Unsplash</strong></p>
     </div>
   </section>
 
   <footer class="site-footer">
-    <p>© {year} SluIntel · AI Tools &amp; Automation Insights</p>
-    <p style="margin-top:.25rem;">Auto-published with AI · Powered by Claude &amp; GitHub Actions</p>
+    <p>© {year} Sujit Luintel · AI Tools &amp; Automation Insights</p>
+    <p style="margin-top:.25rem;">Auto-published with AI · Powered by Gemini &amp; GitHub Actions</p>
   </footer>
 
 </body>
@@ -392,19 +388,13 @@ def build_index_html(posts):
 # MAIN
 # ─────────────────────────────────────────
 def main():
-    print("\n🚀 SluIntel Auto Blog Generator starting…\n")
+    print("\n Sujit Luintel - Auto Blog Generator starting…\n")
     POSTS_DIR.mkdir(exist_ok=True)
 
-    # 1. Keyword
-    keyword = get_trending_keyword()
-
-    # 2. Blog post
-    post = generate_blog_post(keyword)
-
-    # 3. Image
+    keyword  = get_trending_keyword()
+    post     = generate_blog_post(keyword)
     img_url, img_credit = get_feature_image(keyword)
 
-    # 4. Write post file
     date_str  = datetime.now().strftime('%Y-%m-%d')
     post_html = build_post_html(post, img_url, img_credit, date_str)
     posts, filename = update_posts_json(post, img_url, date_str)
@@ -413,10 +403,9 @@ def main():
     post_path.write_text(post_html, encoding='utf-8')
     print(f"✅ Post written → posts/{filename}")
 
-    # 5. Regenerate index
     index = build_index_html(posts)
     INDEX_HTML.write_text(index, encoding='utf-8')
-    print("✅ index.html regenerated")
+    print("✅ index regenerated")
 
     print(f"\n🎉 Done! '{post['title']}' is live at posts/{filename}\n")
 
