@@ -115,33 +115,43 @@ def get_trending_keyword():
 def generate_blog_post(keyword):
     client = genai.Client(api_key=GEMINI_API_KEY)
 
-    prompt = f"""You are an expert tech blogger specialising in AI tools and automation.
-Write a comprehensive, SEO-optimised blog post about: "{keyword}"
-
-Return a JSON object with these exact fields:
+    # Call 1: metadata only (small, clean JSON — no HTML inside)
+    meta_prompt = f"""You are an SEO expert. For a blog post about "{keyword}", return ONLY a JSON object with these fields:
 - title: engaging title under 65 characters
 - meta_description: compelling description under 155 characters
-- slug: url-friendly-slug-with-hyphens-only
-- tags: array of 3 strings
+- slug: url-friendly-slug-with-hyphens-only (lowercase, no special chars)
+- tags: array of exactly 3 short tag strings
 - reading_time: e.g. "5 min read"
-- content_html: full blog post as an HTML string (800-1100 words, use h2 h3 p ul li strong em, no outer title or feature image)
 
-Writing style: clear, practical, slightly opinionated. Include a compelling intro, 4-6 h2 sections with real value, bullet lists where helpful, and a strong conclusion with a CTA."""
+Return ONLY the JSON object. No explanation."""
 
-    response = client.models.generate_content(
+    meta_response = client.models.generate_content(
         model="gemini-2.5-flash",
-        contents=prompt,
-        config={
-            "response_mime_type": "application/json"
-        }
+        contents=meta_prompt,
+        config={"response_mime_type": "application/json"}
     )
-
-    raw = response.text.strip()
-    data = json.loads(raw)
+    data = json.loads(meta_response.text.strip())
     data['slug'] = re.sub(r'[^a-z0-9\-]', '', data['slug'].lower().replace(' ', '-'))
+
+    # Call 2: HTML content separately (no JSON wrapping)
+    content_prompt = f"""You are an expert tech blogger specialising in AI tools and automation.
+Write a comprehensive, SEO-optimised blog post body about: "{keyword}"
+
+Rules:
+- 800-1100 words
+- Use h2, h3, p, ul, li, strong, em tags
+- Do NOT include the main title or a feature image
+- Include a compelling intro, 4-6 h2 sections with real value, bullet lists, strong conclusion with CTA
+- Return ONLY the raw HTML. No explanation, no markdown, no wrapper tags."""
+
+    content_response = client.models.generate_content(
+        model="gemini-2.5-flash",
+        contents=content_prompt
+    )
+    data['content_html'] = content_response.text.strip()
+
     print(f"✅ Post generated: {data['title']}")
     return data
-
 
 # ─────────────────────────────────────────
 # 3. FETCH FEATURE IMAGE (UNSPLASH)
