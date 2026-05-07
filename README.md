@@ -1,4 +1,4 @@
-# SluIntel — Automated AI Blog
+# Sujit Luintel — Automated AI Blog
 
 > **AI Tools & Automation** insights, auto-published daily to GitHub Pages.
 
@@ -11,9 +11,9 @@ Google Trends  →  Claude AI  →  Unsplash  →  GitHub Actions  →  GitHub P
 (trending keyword)  (writes post)  (feature image)  (daily cron)  (sluintel.github.io)
 ```
 
-Every day at **6:45 AM Nepal time**, GitHub Actions:
+Every day at **6:45 AM/ 7:10 PM Nepal time**, GitHub Actions:
 1. Fetches the most trending AI keyword from Google Trends
-2. Asks Claude AI to write a full SEO blog post
+2. Asks Gemini AI to write a full SEO blog post
 3. Downloads a royalty-free feature image from Unsplash
 4. Commits the new HTML post to the repo
 5. Regenerates `index.html` with the new post card
@@ -26,12 +26,11 @@ Every day at **6:45 AM Nepal time**, GitHub Actions:
 
 ### Step 1 — Get Your API Keys
 
-#### A. Anthropic (Claude) API Key
-1. Go to [console.anthropic.com](https://console.anthropic.com)
+#### A. Gemini API Key
+1. Go to (https://aistudio.google.com/api-keys)
 2. Sign up / log in
 3. Click **"API Keys"** in the left sidebar
-4. Click **"Create Key"** → copy the key (starts with `sk-ant-...`)
-5. New accounts get **$5 free credits** (≈ 100+ blog posts)
+4. Click **"Create Key"** → copy the key (starts with `A...`)
 
 #### B. Unsplash API Key
 1. Go to [unsplash.com/developers](https://unsplash.com/developers)
@@ -94,7 +93,7 @@ git push
 
 | Secret Name | Value |
 |---|---|
-| `ANTHROPIC_API_KEY` | Your Claude API key (`sk-ant-...`) |
+| `GEMINI_API_KEY` | Your Gemini API key (`A...`) |
 | `UNSPLASH_ACCESS_KEY` | Your Unsplash Access Key |
 
 ---
@@ -149,9 +148,7 @@ sluintel.github.io/
 | GitHub Pages | **Free** |
 | GitHub Actions | **Free** (2,000 min/month included) |
 | Unsplash API | **Free** (50 req/hour) |
-| Claude API | ~$0.50–$2/month (for 30 posts) |
-
-**Total: Under $2/month** (just the Claude API calls)
+| Gemini API | Gemini 2.0 Flash (1,500 requests/day, free forever)) |
 
 ---
 
