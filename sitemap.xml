@@ -15,14 +15,34 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://sluintel.github.io/posts/2026-05-08-unleash-remote-potential-ai-productivity-tools</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1775994121020-86426451f8bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyMTMwMDl8&ixlib=rb-4.1.0&q=80&w=1080</image:loc>
+      <image:title>Unleash Remote Potential: Top AI Productivity Tools</image:title>
+      <image:caption>Struggling with remote work efficiency? Discover the ultimate AI productivity tools that will transform your workflow, boost collaboration, and reclaim your time.</image:caption>
+    </image:image>
+    <news:news>
+      <news:publication>
+        <news:name>Sujit Luintel</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-08T00:00:00+05:45</news:publication_date>
+      <news:title>Unleash Remote Potential: Top AI Productivity Tools</news:title>
+      <news:keywords>AI tools, remote work, productivity, automation, future of work, AI for business, efficiency</news:keywords>
+    </news:news>
+  </url>
+  <url>
     <loc>https://sluintel.github.io/posts/2026-05-07-how-to-use-chatgpt-effectively-pro-guide</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&auto=format&fit=crop</image:loc>
-      <image:title>How to Use ChatGPT Effectively: The Pro Guide</image:title>
-      <image:caption>Master ChatGPT with pro tips, prompt strategies, and workflow hacks to get better results faster — for work, content, coding, and more.</image:caption>
+      <image:loc>https://images.unsplash.com/photo-1675557009317-bb59e35aba82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgxOTgwNTN8&ixlib=rb-4.1.0&q=80&w=1080</image:loc>
+      <image:title>Unlock ChatGPT's Full Potential: A Pro User's Guide</image:title>
+      <image:caption>Master ChatGPT with expert tips! Learn advanced prompting, effective workflows, and ethical use for peak productivity. Your ultimate guide to AI mastery.</image:caption>
     </image:image>
     <news:news>
       <news:publication>
@@ -30,8 +50,8 @@
         <news:language>en</news:language>
       </news:publication>
       <news:publication_date>2026-05-07T00:00:00+05:45</news:publication_date>
-      <news:title>How to Use ChatGPT Effectively: The Pro Guide</news:title>
-      <news:keywords>ChatGPT, AI Tools, Productivity, Prompt Engineering</news:keywords>
+      <news:title>Unlock ChatGPT's Full Potential: A Pro User's Guide</news:title>
+      <news:keywords>ChatGPT, AI tools, Prompt Engineering, Automation, Productivity, Generative AI, Tech Tips</news:keywords>
     </news:news>
   </url>
   <url>
@@ -40,9 +60,9 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgxNTY4ODl8&ixlib=rb-4.1.0&q=80&w=1080</image:loc>
-      <image:title>AI SEO Tools 2026: Master Search with Next-Gen Intelligence</image:title>
-      <image:caption>Uncover the top AI SEO tools of 2026 that redefine search optimisation. From predictive analytics to autonomous content, stay ahead with cutting-edge AI for SEO.</image:caption>
+      <image:loc>https://images.unsplash.com/photo-1750365919971-7dd273e7b317?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgxOTc1MzV8&ixlib=rb-4.1.0&q=80&w=1080</image:loc>
+      <image:title>AI SEO Tools 2026: Outrank, Outsmart, Outperform</image:title>
+      <image:caption>Uncover the top AI SEO tools of 2026. Discover how AI transforms keyword research, content optimization, and predictive analytics to dominate SERPs.</image:caption>
     </image:image>
     <news:news>
       <news:publication>
@@ -50,8 +70,8 @@
         <news:language>en</news:language>
       </news:publication>
       <news:publication_date>2026-05-07T00:00:00+05:45</news:publication_date>
-      <news:title>AI SEO Tools 2026: Master Search with Next-Gen Intelligence</news:title>
-      <news:keywords>AI SEO, SEO Tools, Generative AI, Predictive Analytics, Digital Marketing</news:keywords>
+      <news:title>AI SEO Tools 2026: Outrank, Outsmart, Outperform</news:title>
+      <news:keywords>AI SEO, SEO tools, future of SEO, AI automation, content marketing, digital marketing, predictive analytics</news:keywords>
     </news:news>
   </url>
   <url>
