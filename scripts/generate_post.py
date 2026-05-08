@@ -277,9 +277,9 @@ def load_posts():
 
 def update_posts_json(post, img_url, date_str):
     posts = load_posts()
-    # No .html extension — GitHub Pages serves extension-less files natively
-    # when .nojekyll is present, giving clean URLs like /posts/2026-05-07-slug
-    filename = f"{date_str}-{post['slug']}"
+    # Always use .html extension — GitHub Pages requires it to serve files as HTML.
+    # .nojekyll only disables Jekyll processing; it does NOT enable extension-less URLs.
+    filename = f"{date_str}-{post['slug']}.html"
     entry = {
         "title":            post['title'],
         "slug":             post['slug'],
