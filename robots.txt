@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block scripts and data files from indexing
+Disallow: /scripts/
+Disallow: /used_keywords.json
+Disallow: /posts.json
+
+Sitemap: https://sluintel.github.io/sitemap.xml
