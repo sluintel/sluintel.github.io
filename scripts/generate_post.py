@@ -319,7 +319,7 @@ def build_index_html(posts):
         </div>
       </article>"""
 
-    grid_inner = cards if cards else '<p class="no-posts">Post is being generated…</p>'
+    grid_inner = cards if cards else '<p class="no-posts">🚀 First post is being generated…</p>'
     year  = datetime.now().year
     total = len(posts)
 
@@ -426,7 +426,7 @@ def build_sitemap(posts):
     post_urls = []
     for p in posts:
         # Normalise the URL: strip leading slash or reconstruct cleanly
-        rel = p["url"].lstrip("/").removesuffix(".html")  # clean URL, no extension
+        rel = p["url"].lstrip("/")  # keep .html — GitHub Pages requires it; extension-less URLs return binary downloads
         loc = f"{SITE_URL}/{rel}"
 
         # Prefer the post's own date as lastmod; fall back to today
