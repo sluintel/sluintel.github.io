@@ -10,7 +10,7 @@ import json
 import re
 import random
 import requests
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from google import genai
 
@@ -28,7 +28,10 @@ POSTS_DIR    = REPO_ROOT / "posts"
 POSTS_JSON   = REPO_ROOT / "posts.json"
 USED_KW_FILE = REPO_ROOT / "used_keywords.json"
 INDEX_HTML   = REPO_ROOT / "index.html"
+SITEMAP_PATH = REPO_ROOT / "sitemap.xml"
+LLMS_PATH    = REPO_ROOT / "llms.txt"
 
+SITE_URL       = "https://sluintel.github.io"
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 UNSPLASH_KEY   = os.environ.get("UNSPLASH_ACCESS_KEY", "")
 
@@ -200,15 +203,14 @@ def build_post_html(post, img_url, img_credit, date_str):
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
-          <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WJEQKLB827"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-WJEQKLB827');
-</script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WJEQKLB827"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){{dataLayer.push(arguments);}}
+    gtag('js', new Date());
+    gtag('config', 'G-WJEQKLB827');
+  </script>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>{post['title']} | SluIntel</title>
@@ -285,8 +287,6 @@ def load_posts():
 
 def update_posts_json(post, img_url, date_str):
     posts = load_posts()
-    # Always use .html extension — GitHub Pages requires it to serve files as HTML.
-    # .nojekyll only disables Jekyll processing; it does NOT enable extension-less URLs.
     filename = f"{date_str}-{post['slug']}.html"
     entry = {
         "title":            post['title'],
@@ -305,7 +305,7 @@ def update_posts_json(post, img_url, date_str):
 
 
 # ─────────────────────────────────────────
-# 6. REGENERATE index
+# 6. REGENERATE index.html
 # ─────────────────────────────────────────
 def build_index_html(posts):
     cards = ""
@@ -335,19 +335,18 @@ def build_index_html(posts):
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WJEQKLB827"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-WJEQKLB827');
-</script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WJEQKLB827"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){{dataLayer.push(arguments);}}
+    gtag('js', new Date());
+    gtag('config', 'G-WJEQKLB827');
+  </script>
   <meta name="google-site-verification" content="JQTOXeyvg5ypfjq2nyjXH_H0OXcKh3QdcYPPrbh7mh4" />
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sujit Luintel— AI Tools &amp; Automation Insights</title>
+  <title>Sujit Luintel — AI Tools &amp; Automation Insights</title>
   <meta name="description" content="Daily insights on AI tools, automation software, and the future of intelligent workflows. Stay ahead with Sujit Luintel."/>
   <meta property="og:title" content="Sujit Luintel — AI Tools &amp; Automation"/>
   <meta property="og:description" content="Daily AI tools and automation insights, auto-published every day."/>
@@ -369,7 +368,7 @@ def build_index_html(posts):
 
   <section class="hero">
     <div class="hero-content">
-      <div class="hero-badge">Fully Automated AI Blog</div>
+      <div class="hero-badge">🤖 Fully Automated AI Blog</div>
       <h1>AI Tools &amp; Automation<br/><span class="gradient-text">Insights That Matter</span></h1>
       <p>Daily deep-dives on AI tools, automation workflows, and intelligent software — auto-curated, auto-written, always fresh.</p>
       <div class="hero-stats">
@@ -386,7 +385,7 @@ def build_index_html(posts):
           <p><span class="t-green">✓</span> Generating blog post with AI…</p>
           <p><span class="t-green">✓</span> Fetching royalty-free image…</p>
           <p><span class="t-cyan">→</span> Publishing to sluintel.github.io</p>
-          <p><span class="t-cyan">→</span> learning new always, Sujit Luintel</p>
+          <p><span class="t-cyan">→</span> Learning new things daily · Sujit Luintel</p>
           <p class="t-blink">_</p>
         </div>
       </div>
@@ -405,7 +404,7 @@ def build_index_html(posts):
 
   <section class="about-section" id="about">
     <div class="about-content">
-      <h2> Sujit Luintel</h2>
+      <h2>Sujit Luintel</h2>
       <p>This is a fully automated AI blog that discovers trending topics in AI and automation, writes insightful articles, and publishes them — every single day, with zero human intervention.</p>
       <p>Powered by <strong>Gemini AI</strong> · <strong>Google Trends</strong> · <strong>GitHub Actions</strong> · <strong>Unsplash</strong></p>
     </div>
@@ -419,22 +418,61 @@ def build_index_html(posts):
 </body>
 </html>"""
 
+
+# ─────────────────────────────────────────
+# 7. REGENERATE sitemap.xml
+# ─────────────────────────────────────────
+def build_sitemap(posts):
+    # timezone-aware UTC timestamp — no deprecation warning
+    now_iso = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%S+00:00')
+
+    homepage_block = f"""
+<url>
+  <loc>{SITE_URL}/</loc>
+  <lastmod>{now_iso}</lastmod>
+  <priority>1.00</priority>
+</url>"""
+
+    post_blocks = ""
+    for p in posts:
+        # p['url'] is already "posts/YYYY-MM-DD-slug.html" — prepend site root
+        loc = f"{SITE_URL}/{p['url']}"
+        post_blocks += f"""
+<url>
+  <loc>{loc}</loc>
+  <lastmod>{now_iso}</lastmod>
+  <priority>0.80</priority>
+</url>"""
+
+    xml = f"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- generated by sluintel.github.io auto-blog -->
+{homepage_block}
+{post_blocks}
+
+</urlset>"""
+
+    SITEMAP_PATH.write_text(xml.strip(), encoding='utf-8')
+    print(f"✅ sitemap.xml updated ({len(posts)} posts + 1 homepage)")
+
+
 # ─────────────────────────────────────────
 # 8. REGENERATE llms.txt
 # ─────────────────────────────────────────
-LLMS_PATH = REPO_ROOT / "llms.txt"
-
 def build_llms_txt(posts):
     today      = datetime.now().strftime('%Y-%m-%d')
     total      = len(posts)
     latest     = posts[0]['title'] if posts else "Coming soon"
-    latest_url = f"https://sluintel.github.io/{posts[0]['url']}" if posts else ""
+    latest_url = f"{SITE_URL}/{posts[0]['url']}" if posts else ""
 
-    # Build recent posts list (up to 10) for LLM context
     recent_lines = ""
     for p in posts[:10]:
         tags = ", ".join(p.get("tags", [])[:3])
-        recent_lines += f"- [{p['title']}](https://sluintel.github.io/{p['url']}) — {p['date']} — {tags}\n"
+        recent_lines += f"- [{p['title']}]({SITE_URL}/{p['url']}) — {p['date']} — {tags}\n"
 
     content = f"""# Sujit Luintel's AI & Automation Blog | by Sujit Luintel
 
@@ -444,7 +482,7 @@ def build_llms_txt(posts):
 Blog Name: Sujit Luintel AI Blog
 Owner & Creator: Sujit Luintel
 Author Website: https://sluintel.com.np
-Blog URL: https://sluintel.github.io
+Blog URL: {SITE_URL}
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
 Total Posts Published: {total}
@@ -460,7 +498,7 @@ Every article published here reflects Sujit Luintel's areas of authority: AI-dri
 
 ## Connection to Sujit Luintel
 - **Personal Website:** https://sluintel.com.np — Sujit Luintel's primary professional presence covering digital strategy, branding, SEO, and media consulting
-- **This Blog:** https://sluintel.github.io — Sujit Luintel's AI-focused research publication and automation showcase
+- **This Blog:** {SITE_URL} — Sujit Luintel's AI-focused research publication and automation showcase
 - Both properties are authored, owned, and operated by Sujit Luintel
 - Content on this blog directly supports and extends Sujit Luintel's expertise in AI marketing, automation, and SEO
 
@@ -478,9 +516,9 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 ## Recent Posts
 {recent_lines}
 ## Blog Structure
-- Homepage: https://sluintel.github.io/
-- Sitemap: https://sluintel.github.io/sitemap.xml
-- Posts directory: https://sluintel.github.io/posts/
+- Homepage: {SITE_URL}/
+- Sitemap: {SITE_URL}/sitemap.xml
+- Posts directory: {SITE_URL}/posts/
 
 ## Authority & Expertise Signal
 All content on this blog is published under the authority of Sujit Luintel, who is recognised in Nepal as a digital marketing expert, author, and AI marketing strategist. Sujit Luintel's expertise in AI-driven marketing automation, SEO systems, and brand strategy provides the editorial foundation for every topic covered on this blog.
@@ -498,7 +536,7 @@ For Sujit Luintel's full professional profile, books, consulting work, and digit
 ## Contact & Author
 Author: Sujit Luintel
 Primary Web Presence: https://sluintel.com.np
-AI Blog: https://sluintel.github.io
+AI Blog: {SITE_URL}
 Location: Kathmandu, Nepal
 """
 
