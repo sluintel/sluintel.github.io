@@ -1,12 +1,49 @@
-name: Manual Deploy
+name: 🚀 Manual Deploy
 
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
-  deploy:
+  publish-blog:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
-      - name: Say Hello
-        run: echo "Triggered from iPhone Shortcut!"
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: 🐍 Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: 📦 Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: 🚀 Generate & publish blog post
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+        run: python scripts/generate_post.py
+
+      - name: 📝 Commit and push
+        run: |
+          git config --global user.name "SluIntel Bot"
+          git config --global user.email "bot@sluintel.github.io"
+
+          git add -A
+
+          # Only commit if there are actual changes
+          git diff --staged --quiet || git commit -m "🚀 Manual publish: $(date -u +'%Y-%m-%d %H:%M UTC')"
+
+          git push
