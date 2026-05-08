@@ -477,7 +477,11 @@ def build_sitemap(posts):
     </news:news>
   </url>"""
 
-    xml = f"""<?xml version="1.0" encoding="UTF-8"?>
+    # The leading --- front matter is required so Jekyll serves this file
+    # instead of silently dropping it during the GitHub Pages build
+    xml = f"""---
+---
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
