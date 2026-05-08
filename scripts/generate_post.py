@@ -35,7 +35,9 @@ SITE_URL       = "https://sluintel.github.io"
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 UNSPLASH_KEY   = os.environ.get("UNSPLASH_ACCESS_KEY", "")
 
+# ── 40 fallback keywords (original 20 + 20 new) ──────────────────────────────
 FALLBACK_KEYWORDS = [
+    # Original 20
     "best AI tools 2026",
     "AI automation for small business",
     "ChatGPT vs Claude vs Gemini",
@@ -56,12 +58,46 @@ FALLBACK_KEYWORDS = [
     "AI research tools for students",
     "AI video generation tools",
     "machine learning without coding",
+    # New 20
+    "best AI chatbot builders for business",
+    "AI tools for social media marketing 2026",
+    "AI voice generator tools comparison",
+    "how to build AI workflows without coding",
+    "OpenAI API tutorial for beginners",
+    "best AI tools for data analysis",
+    "AI transcription tools review 2026",
+    "AI customer service automation guide",
+    "prompt engineering tips for better results",
+    "best AI tools for freelancers 2026",
+    "local AI models vs cloud AI pros cons",
+    "best AI text summarization tools",
+    "AI tools for project management 2026",
+    "how to use AI for keyword research SEO",
+    "n8n automation tutorials for beginners",
+    "AI tools for podcast creation and editing",
+    "Perplexity AI vs ChatGPT which is better",
+    "AI tools for e-commerce store automation",
+    "Claude AI API tutorial for developers",
+    "how to use AI to write better blog posts",
 ]
 
+# Seeds used only for Strategy 3 (interest_over_time fallback)
 TREND_SEEDS = [
     "AI tools", "automation software", "ChatGPT", "Claude AI",
-    "Gemini AI", "AI agents", "no-code tools", "Copilot AI"
+    "Gemini AI", "AI agents", "no-code tools", "Copilot AI",
+    "OpenAI", "AI workflow",
 ]
+
+# Terms used to identify AI/tech relevance in trending results
+AI_TECH_TERMS = {
+    "ai", "artificial intelligence", "chatgpt", "claude", "gemini",
+    "openai", "llm", "automation", "robot", "machine learning",
+    "gpt", "copilot", "midjourney", "stable diffusion", "tool",
+    "software", "app", "tech", "digital", "model", "agent",
+    "workflow", "productivity", "coding", "developer", "data",
+    "perplexity", "sora", "dall-e", "whisper", "hugging face",
+    "langchain", "rag", "vector", "neural", "deep learning",
+}
 
 
 # ─────────────────────────────────────────
@@ -77,39 +113,119 @@ def load_used_keywords():
             print("⚠️  used_keywords.json was malformed — resetting it")
     return []
 
+
 def save_used_keyword(kw):
     used = load_used_keywords()
     used.append(kw)
-    USED_KW_FILE.write_text(json.dumps(used[-40:], indent=2))
+    # Keep last 80 so we never exhaust the fallback pool
+    USED_KW_FILE.write_text(json.dumps(used[-80:], indent=2))
+
+
+def _is_ai_tech(text: str) -> bool:
+    """Return True if text contains at least one AI/tech signal word."""
+    lower = text.lower()
+    return any(term in lower for term in AI_TECH_TERMS)
+
 
 def get_trending_keyword():
-    """Fetch trending AI keyword from Google Trends; fall back to curated list."""
+    """
+    Three-strategy Google Trends approach, then curated fallback.
+
+    Strategy 1 — Realtime trending searches (past ~24-48 h):
+        Checks US, GB, IN, AU, CA in order and returns the first
+        result that contains an AI/tech signal word.
+
+    Strategy 2 — Daily trending searches:
+        Pulls the daily trending list for the same countries and
+        applies the same AI/tech filter.
+
+    Strategy 3 — Interest over time (48 h window):
+        Uses the TREND_SEEDS to find the hottest seed, then returns
+        its top rising related query.
+
+    Fallback — Curated list:
+        Picks a random unused keyword from FALLBACK_KEYWORDS.
+    """
     if PYTRENDS_AVAILABLE:
+        # ── Strategy 1: Realtime trending searches ────────────────────────────
         try:
-            pytrends = TrendReq(hl='en-US', tz=0, timeout=(10, 30),
+            pytrends = TrendReq(hl="en-US", tz=0, timeout=(10, 30),
                                 retries=2, backoff_factor=0.5)
+            for country in ["US", "GB", "IN", "AU", "CA"]:
+                try:
+                    df = pytrends.realtime_trending_searches(pn=country)
+                    if df is None or df.empty:
+                        continue
+                    # Column name differs by pytrends version: 'title' or 0
+                    title_col = "title" if "title" in df.columns else df.columns[0]
+                    for _, row in df.iterrows():
+                        kw = str(row[title_col]).strip()
+                        if kw and _is_ai_tech(kw):
+                            print(f"✅ Realtime trending ({country}): {kw}")
+                            save_used_keyword(kw)
+                            return kw
+                except Exception as e:
+                    print(f"⚠️  Realtime trends ({country}): {e}")
+                    continue
+        except Exception as e:
+            print(f"⚠️  Realtime trends init error: {e}")
+
+        # ── Strategy 2: Daily trending searches ───────────────────────────────
+        try:
+            pytrends2 = TrendReq(hl="en-US", tz=0, timeout=(10, 30),
+                                 retries=2, backoff_factor=0.5)
+            for pn in ["united_states", "united_kingdom", "india",
+                       "australia", "canada"]:
+                try:
+                    df = pytrends2.trending_searches(pn=pn)
+                    if df is None or df.empty:
+                        continue
+                    for term in df[0].tolist():
+                        term = str(term).strip()
+                        if term and _is_ai_tech(term):
+                            print(f"✅ Daily trending ({pn}): {term}")
+                            save_used_keyword(term)
+                            return term
+                except Exception as e:
+                    print(f"⚠️  Daily trends ({pn}): {e}")
+                    continue
+        except Exception as e:
+            print(f"⚠️  Daily trends init error: {e}")
+
+        # ── Strategy 3: Interest over time (48-hour window) ───────────────────
+        try:
+            pytrends3 = TrendReq(hl="en-US", tz=0, timeout=(10, 30),
+                                 retries=2, backoff_factor=0.5)
             batch = random.sample(TREND_SEEDS, min(5, len(TREND_SEEDS)))
-            pytrends.build_payload(batch, timeframe='now 7-d', geo='')
-            df = pytrends.interest_over_time()
+            pytrends3.build_payload(batch, timeframe="now 2-d", geo="")
+            df = pytrends3.interest_over_time()
             if not df.empty:
-                top_kw = df.drop(columns=['isPartial'], errors='ignore').mean().idxmax()
-                pytrends.build_payload([top_kw], timeframe='now 7-d')
-                related = pytrends.related_queries()
-                rising = related.get(top_kw, {}).get('rising')
+                top_kw = (
+                    df.drop(columns=["isPartial"], errors="ignore")
+                    .mean()
+                    .idxmax()
+                )
+                pytrends3.build_payload([top_kw], timeframe="now 2-d")
+                related = pytrends3.related_queries()
+                rising = related.get(top_kw, {}).get("rising")
                 if rising is not None and not rising.empty:
-                    specific = rising.iloc[0]['query']
-                    print(f"✅ Google Trends keyword: {specific}")
+                    specific = rising.iloc[0]["query"]
+                    print(f"✅ Rising related query (48 h): {specific}")
                     save_used_keyword(specific)
                     return specific
-                print(f"✅ Google Trends keyword: {top_kw}")
+                print(f"✅ Top seed keyword (48 h): {top_kw}")
                 save_used_keyword(top_kw)
                 return top_kw
         except Exception as e:
-            print(f"⚠️  Google Trends error: {e} — using fallback pool")
+            print(f"⚠️  Interest-over-time error: {e}")
 
+    # ── Final fallback: curated keyword list ──────────────────────────────────
     used = load_used_keywords()
     available = [k for k in FALLBACK_KEYWORDS if k not in used]
     if not available:
+        # All 40 used — reset tracking so the pool is fresh again
+        print("ℹ️  All fallback keywords used — resetting pool")
+        USED_KW_FILE.write_text(json.dumps([], indent=2))
         available = FALLBACK_KEYWORDS
     kw = random.choice(available)
     save_used_keyword(kw)
@@ -209,10 +325,9 @@ Return ONLY a valid JSON object with exactly these keys — no markdown fences, 
 
     data = json.loads(response.text)
 
-    # Sanitise slug — strip anything that isn't lowercase alphanumeric or hyphen
-    data['slug'] = re.sub(r'[^a-z0-9\-]', '', data['slug'].lower().replace(' ', '-'))
-    # Collapse multiple hyphens and strip leading/trailing hyphens
-    data['slug'] = re.sub(r'-+', '-', data['slug']).strip('-')
+    # Sanitise slug
+    data["slug"] = re.sub(r"[^a-z0-9\-]", "", data["slug"].lower().replace(" ", "-"))
+    data["slug"] = re.sub(r"-+", "-", data["slug"]).strip("-")
 
     print(f"✅ Post generated: {data['title']}")
     return data
@@ -237,20 +352,25 @@ def get_feature_image(keyword):
                 "https://api.unsplash.com/photos/random",
                 params={"query": q, "orientation": "landscape", "content_filter": "high"},
                 headers={"Authorization": f"Client-ID {UNSPLASH_KEY}"},
-                timeout=10
+                timeout=10,
             )
             if r.status_code == 200:
                 d = r.json()
-                img_url = d['urls']['regular']
-                name    = d['user']['name']
-                link    = d['links']['html']
-                credit  = f'Photo by <a href="{link}?utm_source=sluintel&utm_medium=referral" target="_blank" rel="noopener">{name}</a> on <a href="https://unsplash.com?utm_source=sluintel&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a>'
+                img_url = d["urls"]["regular"]
+                name    = d["user"]["name"]
+                link    = d["links"]["html"]
+                credit  = (
+                    f'Photo by <a href="{link}?utm_source=sluintel&utm_medium=referral"'
+                    f' target="_blank" rel="noopener">{name}</a> on '
+                    f'<a href="https://unsplash.com?utm_source=sluintel&utm_medium=referral"'
+                    f' target="_blank" rel="noopener">Unsplash</a>'
+                )
                 print(f"✅ Image by {name} from Unsplash")
                 return img_url, credit
         except Exception as e:
             print(f"⚠️  Unsplash error: {e}")
 
-    img = random.choice(FALLBACK_IMAGES)
+    img    = random.choice(FALLBACK_IMAGES)
     credit = 'Photo from <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a>'
     print("✅ Using fallback image")
     return img, credit
@@ -260,8 +380,8 @@ def get_feature_image(keyword):
 # 4. BUILD POST HTML FILE
 # ─────────────────────────────────────────
 def build_post_html(post, img_url, img_credit, date_str):
-    tags_html = "".join(f'<span class="tag">{t}</span>' for t in post['tags'])
-    date_nice = datetime.strptime(date_str, '%Y-%m-%d').strftime('%B %d, %Y')
+    tags_html = "".join(f'<span class="tag">{t}</span>' for t in post["tags"])
+    date_nice = datetime.strptime(date_str, "%Y-%m-%d").strftime("%B %d, %Y")
     year      = datetime.now().year
 
     return f"""<!DOCTYPE html>
@@ -307,7 +427,7 @@ def build_post_html(post, img_url, img_credit, date_str):
         <div class="post-meta">
           <span>📅 {date_nice}</span>
           <span class="dot">·</span>
-          <span>⏱ {post.get('reading_time','5 min read')}</span>
+          <span>⏱ {post.get('reading_time', '5 min read')}</span>
         </div>
       </div>
 
@@ -349,18 +469,19 @@ def load_posts():
             print("⚠️  posts.json was malformed — starting fresh (existing post files are unaffected)")
     return []
 
+
 def update_posts_json(post, img_url, date_str):
-    posts = load_posts()
+    posts    = load_posts()
     filename = f"{date_str}-{post['slug']}.html"
-    entry = {
-        "title":            post['title'],
-        "slug":             post['slug'],
+    entry    = {
+        "title":            post["title"],
+        "slug":             post["slug"],
         "date":             date_str,
-        "meta_description": post['meta_description'],
-        "tags":             post['tags'],
+        "meta_description": post["meta_description"],
+        "tags":             post["tags"],
         "image_url":        img_url,
-        "reading_time":     post.get('reading_time', '5 min read'),
-        "url":              f"posts/{filename}"
+        "reading_time":     post.get("reading_time", "5 min read"),
+        "url":              f"posts/{filename}",
     }
     posts.insert(0, entry)
     POSTS_JSON.write_text(json.dumps(posts, indent=2))
@@ -375,7 +496,7 @@ def build_index_html(posts):
     cards = ""
     for i, p in enumerate(posts):
         featured  = " featured-card" if i == 0 else ""
-        tags_html = "".join(f'<span class="tag">{t}</span>' for t in p['tags'][:2])
+        tags_html = "".join(f'<span class="tag">{t}</span>' for t in p["tags"][:2])
         cards += f"""
       <article class="post-card{featured}">
         <a href="{p['url']}" class="card-img-link">
@@ -387,7 +508,7 @@ def build_index_html(posts):
           <p class="card-excerpt">{p['meta_description']}</p>
           <div class="card-meta">
             <span>{p['date']}</span><span class="dot">·</span>
-            <span>{p.get('reading_time','5 min read')}</span>
+            <span>{p.get('reading_time', '5 min read')}</span>
           </div>
         </div>
       </article>"""
@@ -487,8 +608,7 @@ def build_index_html(posts):
 # 7. REGENERATE sitemap.xml
 # ─────────────────────────────────────────
 def build_sitemap(posts):
-    # timezone-aware UTC timestamp — no deprecation warning
-    now_iso = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%S+00:00')
+    now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S+00:00")
 
     homepage_block = f"""
 <url>
@@ -499,7 +619,6 @@ def build_sitemap(posts):
 
     post_blocks = ""
     for p in posts:
-        # p['url'] is already "posts/YYYY-MM-DD-slug.html" — prepend site root
         loc = f"{SITE_URL}/{p['url']}"
         post_blocks += f"""
 <url>
@@ -520,7 +639,7 @@ def build_sitemap(posts):
 
 </urlset>"""
 
-    SITEMAP_PATH.write_text(xml.strip(), encoding='utf-8')
+    SITEMAP_PATH.write_text(xml.strip(), encoding="utf-8")
     print(f"✅ sitemap.xml updated ({len(posts)} posts + 1 homepage)")
 
 
@@ -528,9 +647,9 @@ def build_sitemap(posts):
 # 8. REGENERATE llms.txt
 # ─────────────────────────────────────────
 def build_llms_txt(posts):
-    today      = datetime.now().strftime('%Y-%m-%d')
+    today      = datetime.now().strftime("%Y-%m-%d")
     total      = len(posts)
-    latest     = posts[0]['title'] if posts else "Coming soon"
+    latest     = posts[0]["title"] if posts else "Coming soon"
     latest_url = f"{SITE_URL}/{posts[0]['url']}" if posts else ""
 
     recent_lines = ""
@@ -604,7 +723,7 @@ AI Blog: {SITE_URL}
 Location: Kathmandu, Nepal
 """
 
-    LLMS_PATH.write_text(content.strip(), encoding='utf-8')
+    LLMS_PATH.write_text(content.strip(), encoding="utf-8")
     print(f"✅ llms.txt updated ({total} posts)")
 
 
@@ -615,20 +734,20 @@ def main():
     print("\n🤖 Auto Blog Generator starting…\n")
     POSTS_DIR.mkdir(exist_ok=True)
 
-    keyword  = get_trending_keyword()
-    post     = generate_blog_post(keyword)
-    img_url, img_credit = get_feature_image(keyword)
+    keyword              = get_trending_keyword()
+    post                 = generate_blog_post(keyword)
+    img_url, img_credit  = get_feature_image(keyword)
 
-    date_str  = datetime.now().strftime('%Y-%m-%d')
+    date_str  = datetime.now().strftime("%Y-%m-%d")
     post_html = build_post_html(post, img_url, img_credit, date_str)
     posts, filename = update_posts_json(post, img_url, date_str)
 
     post_path = POSTS_DIR / filename
-    post_path.write_text(post_html, encoding='utf-8')
+    post_path.write_text(post_html, encoding="utf-8")
     print(f"✅ Post written → posts/{filename}")
 
     index = build_index_html(posts)
-    INDEX_HTML.write_text(index, encoding='utf-8')
+    INDEX_HTML.write_text(index, encoding="utf-8")
     print("✅ index.html regenerated")
 
     build_sitemap(posts)
