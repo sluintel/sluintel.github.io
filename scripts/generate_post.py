@@ -125,21 +125,80 @@ def generate_blog_post(keyword):
 
     client = genai.Client(api_key=GEMINI_API_KEY)
 
-    prompt = f"""You are an expert tech blogger specialising in AI tools and automation.
+    prompt = f"""You are an expert SEO content strategist and tech blogger specialising in AI tools and automation. Your articles consistently rank on Google page 1 because you understand both search intent and reader psychology.
+
 Write a comprehensive, SEO-optimised blog post about: "{keyword}"
 
-Return a JSON object with exactly these keys:
-- title: engaging, click-worthy title under 65 characters
-- meta_description: compelling meta description under 155 characters
-- slug: url-friendly slug using hyphens only, no special characters
-- tags: array of 4-6 relevant tag strings
-- reading_time: estimated read time as "X min read"
-- content_html: full blog post as an HTML string (800-1100 words), using h2, h3, p, ul, li, strong, em tags. Do NOT include an outer <h1> title or feature image.
+━━━ CONTENT STRUCTURE (follow exactly) ━━━
 
-Writing style: clear, practical, slightly opinionated. Include a compelling intro, 4-6 h2 sections with real value, bullet lists where helpful, and a strong conclusion with a CTA."""
+1. INTRO (80-120 words)
+   - Open with a relatable problem, surprising stat, or bold opinion — NOT "In today's digital world"
+   - Clearly state what the reader will learn
+   - Include the primary keyword naturally in the first 100 words
 
-    # response_mime_type forces Gemini to return valid, properly-escaped JSON.
-    # This prevents JSONDecodeError from unescaped quotes/backslashes in content_html.
+2. SECTION 1 — "What Is / Why It Matters" (h2)
+   - Define the topic clearly for beginners
+   - Explain why it matters RIGHT NOW in 2026
+   - 1 short paragraph + 3-4 bullet points
+
+3. SECTION 2 — Core Value Section (h2) — the meat
+   - The most important practical information
+   - Use h3 subheadings to break it down
+   - Include at least one bullet list
+
+4. SECTION 3 — How-To or Deep Dive (h2)
+   - Step-by-step guidance OR a detailed comparison/breakdown
+   - Numbered list or structured bullet points
+   - Be specific — no vague advice
+
+5. SECTION 4 — Pro Tips / Common Mistakes (h2)
+   - 4-6 bullet points of actionable insider tips
+   - OR 3-4 common mistakes people make and how to avoid them
+   - This is where you show opinion and expertise
+
+6. SECTION 5 — Tools / Resources (h2) [include only if relevant]
+   - Mention 3-5 specific real tools, platforms, or resources
+   - One sentence on what each does and who it's best for
+
+7. CONCLUSION (60-80 words)
+   - Summarise the key takeaway in 1-2 sentences
+   - End with a forward-looking statement or motivating CTA
+   - Do NOT start with "In conclusion"
+
+━━━ SEO RULES ━━━
+- Primary keyword must appear in: intro paragraph, at least 2 h2 headings, and conclusion
+- Use semantic/LSI keywords naturally throughout (do NOT stuff)
+- Every h2 must be compelling enough to standalone as a social media headline
+- Sentences: mix short punchy ones with longer explanatory ones
+- Paragraphs: max 3-4 lines — never a wall of text
+- Total word count: 950-1150 words
+- Reading level: clear and accessible — avoid corporate jargon
+
+━━━ WRITING STYLE ━━━
+- Voice: knowledgeable friend, not textbook author
+- Tone: clear, practical, slightly opinionated — take a stance
+- Use "you" to address the reader directly
+- Contractions are fine (it's, you'll, don't)
+- Avoid: "In today's fast-paced world", "game-changer", "leverage", "delve", "it's worth noting"
+- Allowed: strong claims backed by logic, honest pros/cons, specific examples
+
+━━━ HTML FORMATTING ━━━
+- Use: h2, h3, p, ul, li, ol, strong, em, blockquote
+- Do NOT include: h1, img, the post title, feature image, or any inline styles
+- Wrap key terms or takeaways in <strong> for emphasis
+- Use <blockquote> for a key stat or standout quote (1 per post max)
+- Use <em> sparingly for genuine emphasis only
+
+Return ONLY a valid JSON object with exactly these keys — no markdown fences, no preamble:
+{{
+  "title": "Compelling title under 65 chars — include primary keyword near the start",
+  "meta_description": "155 chars max — include keyword, state the benefit, create curiosity",
+  "slug": "primary-keyword-slug-hyphens-only-no-special-chars",
+  "tags": ["tag1", "tag2", "tag3", "tag4", "tag5"],
+  "reading_time": "X min read",
+  "content_html": "<p>Full post HTML here...</p>"
+}}"""
+
     response = client.models.generate_content(
         model="gemini-2.5-flash",
         contents=prompt,
@@ -149,7 +208,12 @@ Writing style: clear, practical, slightly opinionated. Include a compelling intr
     )
 
     data = json.loads(response.text)
+
+    # Sanitise slug — strip anything that isn't lowercase alphanumeric or hyphen
     data['slug'] = re.sub(r'[^a-z0-9\-]', '', data['slug'].lower().replace(' ', '-'))
+    # Collapse multiple hyphens and strip leading/trailing hyphens
+    data['slug'] = re.sub(r'-+', '-', data['slug']).strip('-')
+
     print(f"✅ Post generated: {data['title']}")
     return data
 
