@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
-        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
     <loc>https://sluintel.github.io/</loc>
@@ -15,12 +13,6 @@
     <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-
-    <image:image>
-      <image:loc>https://images.unsplash.com/photo-1739115808579-332e261428bd?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyMTM5NDN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080</image:loc>
-      <image:title>Mastering Claude AI Your Guide to Smarter Automation</image:title>
-    </image:image>
-
   </url>
 
   <url>
@@ -28,12 +20,6 @@
     <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-
-    <image:image>
-      <image:loc>https://images.unsplash.com/photo-1775994121020-86426451f8bf?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyMTMwMDl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080</image:loc>
-      <image:title>Unleash Remote Potential Top AI Productivity Tools</image:title>
-    </image:image>
-
   </url>
 
   <url>
@@ -41,12 +27,6 @@
     <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-
-    <image:image>
-      <image:loc>https://images.unsplash.com/photo-1675557009317-bb59e35aba82?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgxOTgwNTN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080</image:loc>
-      <image:title>Unlock ChatGPT Full Potential A Pro Users Guide</image:title>
-    </image:image>
-
   </url>
 
   <url>
@@ -54,12 +34,6 @@
     <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-
-    <image:image>
-      <image:loc>https://images.unsplash.com/photo-1750365919971-7dd273e7b317?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgxOTc1MzV8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080</image:loc>
-      <image:title>AI SEO Tools 2026</image:title>
-    </image:image>
-
   </url>
 
   <url>
@@ -67,12 +41,6 @@
     <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-
-    <image:image>
-      <image:loc>https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&amp;auto=format&amp;fit=crop</image:loc>
-      <image:title>ChatGPT Claude Gemini AI Comparison</image:title>
-    </image:image>
-
   </url>
 
   <url>
@@ -80,12 +48,6 @@
     <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-
-    <image:image>
-      <image:loc>https://images.unsplash.com/photo-1744627049721-73c27008ad28?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgxNDg0MDN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080</image:loc>
-      <image:title>No Code Automation Tools Review</image:title>
-    </image:image>
-
   </url>
 
 </urlset>
