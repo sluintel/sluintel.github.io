@@ -308,7 +308,7 @@ def build_index_html(posts):
         </div>
       </article>"""
 
-    grid_inner = cards if cards else '<p class="no-posts">Post is being generated…</p>'
+    grid_inner = cards if cards else '<p class="no-posts">🚀 First post is being generated…</p>'
     year  = datetime.now().year
     total = len(posts)
 
@@ -392,10 +392,112 @@ def build_index_html(posts):
 
 
 # ─────────────────────────────────────────
+# 7. GENERATE sitemap.xml
+# ─────────────────────────────────────────
+SITE_URL     = "https://sluintel.github.io"
+SITEMAP_PATH = REPO_ROOT / "sitemap.xml"
+
+def build_sitemap(posts):
+    today = datetime.now().strftime('%Y-%m-%d')
+
+    # Static pages — homepage gets highest priority, about is an anchor section
+    static_urls = [
+        {
+            "loc":        f"{SITE_URL}/",
+            "lastmod":    today,
+            "changefreq": "daily",
+            "priority":   "1.0",
+            "image":      None,
+        },
+    ]
+
+    # One <url> block per post, with image metadata for Google Image Search
+    post_urls = []
+    for p in posts:
+        # Normalise the URL: strip leading slash or reconstruct cleanly
+        rel = p["url"].lstrip("/")           # e.g. posts/2026-05-07-slug.html
+        loc = f"{SITE_URL}/{rel}"
+
+        # Prefer the post's own date as lastmod; fall back to today
+        lastmod = p.get("date", today)
+
+        # Build image block only when we have an image
+        image_block = ""
+        if p.get("image_url"):
+            # Use title as image caption/title for richer indexing
+            safe_title = p["title"].replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+            image_block = f"""
+    <image:image>
+      <image:loc>{p['image_url']}</image:loc>
+      <image:title>{safe_title}</image:title>
+      <image:caption>{p.get('meta_description', safe_title)}</image:caption>
+    </image:image>"""
+
+        # Tag list as keywords (helps crawlers understand topical relevance)
+        tags_str = ", ".join(p.get("tags", []))
+
+        post_urls.append({
+            "loc":        loc,
+            "lastmod":    lastmod,
+            "changefreq": "monthly",
+            "priority":   "0.8",
+            "image":      image_block,
+            "news_title": p["title"].replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"),
+            "news_date":  lastmod,
+            "keywords":   tags_str,
+        })
+
+    # Build XML — includes Google News sitemap namespace for AI overview eligibility
+    url_blocks = ""
+
+    for s in static_urls:
+        url_blocks += f"""
+  <url>
+    <loc>{s['loc']}</loc>
+    <lastmod>{s['lastmod']}</lastmod>
+    <changefreq>{s['changefreq']}</changefreq>
+    <priority>{s['priority']}</priority>
+  </url>"""
+
+    for p in post_urls:
+        url_blocks += f"""
+  <url>
+    <loc>{p['loc']}</loc>
+    <lastmod>{p['lastmod']}</lastmod>
+    <changefreq>{p['changefreq']}</changefreq>
+    <priority>{p['priority']}</priority>{p['image']}
+    <news:news>
+      <news:publication>
+        <news:name>Sujit Luintel</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>{p['news_date']}T00:00:00+05:45</news:publication_date>
+      <news:title>{p['news_title']}</news:title>
+      <news:keywords>{p['keywords']}</news:keywords>
+    </news:news>
+  </url>"""
+
+    xml = f"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="
+    http://www.sitemaps.org/schemas/sitemap/0.9
+    http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+{url_blocks}
+</urlset>"""
+
+    SITEMAP_PATH.write_text(xml.strip(), encoding='utf-8')
+    print(f"✅ sitemap.xml updated ({len(post_urls)} posts + 1 homepage)")
+
+
+# ─────────────────────────────────────────
 # MAIN
 # ─────────────────────────────────────────
 def main():
-    print("\n Auto Blog Generator starting…\n")
+    print("\n🤖 Auto Blog Generator starting…\n")
     POSTS_DIR.mkdir(exist_ok=True)
 
     keyword  = get_trending_keyword()
@@ -412,7 +514,9 @@ def main():
 
     index = build_index_html(posts)
     INDEX_HTML.write_text(index, encoding='utf-8')
-    print("✅ index regenerated")
+    print("✅ index.html regenerated")
+
+    build_sitemap(posts)
 
     print(f"\n🎉 Done! '{post['title']}' is live at posts/{filename}\n")
 
