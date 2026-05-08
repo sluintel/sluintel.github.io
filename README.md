@@ -2,7 +2,7 @@
 
 > A fully automated AI blog by **[Sujit Luintel](https://sluintel.com.np)** — Digital Strategist, Author, and Digital Marketing Expert from Kathmandu, Nepal.
 
-**Live site:** [https://sluintel.github.io](https://sluintel.github.io)  
+**Automated Blog Post Website:** [https://sluintel.github.io](https://sluintel.github.io)  
 **Personal website:** [https://sluintel.com.np](https://sluintel.com.np)
 
 ---
