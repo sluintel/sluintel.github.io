@@ -379,7 +379,7 @@ def build_post_html(post, img_url, img_credit, date_str):
   </script>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>{post['title']} | SluIntel</title>
+  <title>{post['title']} | Sujit Luintel</title>
   <meta name="description" content="{post['meta_description']}"/>
   <meta property="og:title" content="{post['title']}"/>
   <meta property="og:description" content="{post['meta_description']}"/>
