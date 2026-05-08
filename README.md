@@ -1,122 +1,43 @@
-# Sujit Luintel — Automated AI Blog
+# 🤖 Sujit Luintel — AI Tools & Automation Blog
 
-> **AI Tools & Automation** insights, auto-published daily to GitHub Pages.
+> A fully automated AI blog by **[Sujit Luintel](https://sluintel.com.np)** — Digital Strategist, Author, and Digital Marketing Expert from Kathmandu, Nepal.
+
+**Live site:** [https://sluintel.github.io](https://sluintel.github.io)  
+**Personal website:** [https://sluintel.com.np](https://sluintel.com.np)
 
 ---
 
 ## How It Works
 
 ```
-Google Trends  →  Gemini AI  →  Unsplash  →  GitHub Actions  →  GitHub Pages
-(trending keyword)  (writes post)  (feature image)  (daily cron)  (sluintel.github.io) (Sujit Luintel)
+Google Trends → Gemini AI → Unsplash → GitHub Actions → GitHub Pages
+(keyword)       (writes post)  (image)    (twice daily)   (live site)
 ```
 
-Every day at **6:45 AM and 7:10 PM Nepal time**, GitHub Actions:
+Every day at **6:45 AM and 7:10 PM Nepal time**, GitHub Actions automatically:
+
 1. Fetches the most trending AI keyword from Google Trends
-2. Asks Gemini AI to write a full SEO blog post
+2. Generates a full SEO-optimised blog post using Gemini 2.5 Flash
 3. Downloads a royalty-free feature image from Unsplash
-4. Commits the new HTML post to the repo
-5. Regenerates `index.html` with the new post card
+4. Saves the post as an HTML file inside `posts/`
+5. Updates `posts.json`, `index.html`, `sitemap.xml`, and `llms.txt`
+6. Commits and pushes everything to GitHub Pages
 
 **Zero human interaction required.**
 
 ---
 
-## Setup Guide
+## Tech Stack
 
-### Step 1 — Get Your API Keys
-
-#### A. Gemini API Key
-1. Go to (https://aistudio.google.com/api-keys)
-2. Sign up / log in
-3. Click **"API Keys"** in the left sidebar
-4. Click **"Create Key"** → copy the key (starts with `A...`)
-
-#### B. Unsplash API Key
-1. Go to [unsplash.com/developers](https://unsplash.com/developers)
-2. Sign up / log in → click **"Your Applications"**
-3. Click **"New Application"** → accept terms
-4. Fill in: App name = `SluIntel Blog`, Description = `Auto blog images`
-5. Scroll down → copy your **Access Key** (free — 50 requests/hour)
-
----
-
-### Step 2 — Set Up GitHub Repository
-
-1. Go to [github.com](https://github.com) and log in
-2. Create a **new repository** named exactly: `sluintel.github.io`
-   - Owner: your GitHub username (must be `sluintel`)
-   - Visibility: **Public**
-   - ✅ Check "Add a README file"
-3. Click **Create repository**
-
----
-
-### Step 3 — Upload the Project Files
-
-**Option A — GitHub Web UI (easiest for beginners):**
-
-1. Download the ZIP file you received
-2. Unzip it on your computer
-3. In your GitHub repo, click **"Add file"** → **"Upload files"**
-4. Drag ALL the files/folders into the upload area:
-   - `index.html`
-   - `style.css`
-   - `404.html`
-   - `posts.json`
-   - `used_keywords.json`
-   - `requirements.txt`
-   - `scripts/` (folder with `generate_post.py`)
-   - `.github/` (folder with `workflows/auto-blog.yml`)
-5. Commit message: `Initial setup`
-6. Click **Commit changes**
-
-> ⚠️ **Important:** The `.github` folder might be hidden on your computer (Mac/Linux). Press `Cmd+Shift+.` (Mac) or enable "Show hidden files" (Windows) to see it.
-
-**Option B — Git command line:**
-```bash
-git clone https://github.com/sluintel/sluintel.github.io.git
-cd sluintel.github.io
-# Copy all project files here
-git add -A
-git commit -m "Initial setup"
-git push
-```
-
----
-
-### Step 4 — Add Secret API Keys to GitHub
-
-1. In your repo, click **Settings** (top menu)
-2. In the left sidebar → **Secrets and variables** → **Actions**
-3. Click **"New repository secret"** and add these two:
-
-| Secret Name | Value |
+| Layer | Technology |
 |---|---|
-| `GEMINI_API_KEY` | Your Gemini API key (`A...`) |
-| `UNSPLASH_ACCESS_KEY` | Your Unsplash Access Key |
-
----
-
-### Step 5 — Enable GitHub Pages
-
-1. In your repo → **Settings** → **Pages** (left sidebar)
-2. Under **Source** → select **"Deploy from a branch"**
-3. Branch: **`main`** → Folder: **`/ (root)`**
-4. Click **Save**
-5. Wait 1-2 minutes → your site is live at `https://sluintel.github.io`
-
----
-
-### Step 6 — Trigger Your First Post
-
-Don't wait for the daily cron — trigger it manually right now:
-
-1. In your repo → **Actions** tab
-2. Click **"🤖 Auto Blog Publisher"** in the left list
-3. Click **"Run workflow"** → **"Run workflow"** (green button)
-4. Watch it run! (takes about 30-60 seconds)
-5. After it finishes, visit `https://sluintel.github.io` — your first post is live! 🎉
+| Content Generation | Gemini 2.5 Flash (Google AI) |
+| Trend Discovery | Google Trends via `pytrends` |
+| Feature Images | Unsplash API |
+| Hosting | GitHub Pages |
+| Automation | GitHub Actions (cron schedule) |
+| Analytics | Google Analytics (GA4) |
+| Language | Python 3.11 |
 
 ---
 
@@ -124,59 +45,157 @@ Don't wait for the daily cron — trigger it manually right now:
 
 ```
 sluintel.github.io/
-├── index.html              ← Homepage (auto-regenerated daily)
-├── style.css               ← Dark theme styles
+├── index.html              ← Homepage (auto-regenerated on every run)
+├── style.css               ← Dark tech theme with purple/cyan accents
 ├── 404.html                ← Custom 404 page
+├── sitemap.xml             ← Auto-updated sitemap (Google Search Console)
+├── robots.txt              ← Crawler rules pointing to sitemap
+├── llms.txt                ← AI/LLM context file (auto-updated)
 ├── posts.json              ← Index of all posts (auto-updated)
-├── used_keywords.json      ← Prevents duplicate keywords
-├── requirements.txt        ← Python packages
+├── used_keywords.json      ← Prevents duplicate keyword usage
+├── requirements.txt        ← Python dependencies
+├── .nojekyll               ← Disables Jekyll; enables raw static serving
 ├── scripts/
-│   └── generate_post.py   ← Main automation script
+│   └── generate_post.py   ← Main automation script (all logic here)
 ├── posts/
-│   └── YYYY-MM-DD-slug.html  ← Generated blog posts
+│   └── YYYY-MM-DD-slug.html  ← Auto-generated blog posts
 └── .github/
     └── workflows/
-        └── auto-blog.yml  ← Daily automation schedule
+        ├── auto-blog.yml  ← Main daily publishing workflow
+        └── keep-alive.yml ← Weekly workflow to keep schedule active
 ```
 
 ---
 
-## Cost Estimate (Monthly)
+## Setup Guide
+
+### Step 1 — Get Your API Keys
+
+**Gemini API Key**
+1. Go to [aistudio.google.com/api-keys](https://aistudio.google.com/api-keys)
+2. Click **Create API Key** → copy it (starts with `AI...`)
+3. Free tier: 1,500 requests/day — more than enough
+
+**Unsplash API Key**
+1. Go to [unsplash.com/developers](https://unsplash.com/developers)
+2. Create a new application → copy your **Access Key**
+3. Free tier: 50 requests/hour
+
+---
+
+### Step 2 — Fork or Clone This Repo
+
+```bash
+git clone https://github.com/sluintel/sluintel.github.io.git
+cd sluintel.github.io
+```
+
+Or click **Fork** on GitHub to create your own copy.
+
+---
+
+### Step 3 — Add Secrets to GitHub
+
+Go to your repo → **Settings** → **Secrets and variables** → **Actions** → **New repository secret**
+
+| Secret Name | Value |
+|---|---|
+| `GEMINI_API_KEY` | Your Gemini API key |
+| `UNSPLASH_ACCESS_KEY` | Your Unsplash Access Key |
+
+---
+
+### Step 4 — Enable GitHub Pages
+
+1. Repo → **Settings** → **Pages**
+2. Source: **Deploy from a branch**
+3. Branch: `main` → Folder: `/ (root)`
+4. Click **Save**
+
+Your site goes live at `https://YOUR-USERNAME.github.io` within 2 minutes.
+
+---
+
+### Step 5 — Customise for Your Brand
+
+**Change the blog name/author**
+Edit `SITE_URL`, `BLOG_TITLE`, and author references in `scripts/generate_post.py`
+
+**Change the niche/topic**
+Edit `FALLBACK_KEYWORDS` and `TREND_SEEDS` in `scripts/generate_post.py`
+
+**Change posting frequency**
+Edit `.github/workflows/auto-blog.yml`:
+```yaml
+- cron: '0 1 * * *'     # Once daily
+- cron: '15 1 */2 * *'  # Every 2 days
+- cron: '0 1 * * 1'     # Weekly (Mondays only)
+```
+
+**Change the theme colours**
+Edit CSS variables at the top of `style.css`
+
+---
+
+### Step 6 — Trigger Your First Post
+
+1. Go to **Actions** tab in your repo
+2. Click **🤖 Auto Blog Publisher**
+3. Click **Run workflow** → **Run workflow**
+4. Wait ~60 seconds → visit your live site
+
+---
+
+## Key Features
+
+- **Duplicate prevention** — `used_keywords.json` tracks all used keywords, ensuring every post covers a fresh topic
+- **Crash-safe JSON** — both `posts.json` and `used_keywords.json` use safe-read guards that self-heal if a file becomes corrupted mid-run
+- **Auto sitemap** — `sitemap.xml` is regenerated on every run with a fresh `lastmod` timestamp, keeping Google Search Console happy
+- **llms.txt** — structured context file for AI crawlers (ChatGPT, Perplexity, Claude) linking this blog to Sujit Luintel's authority
+- **Keep-alive workflow** — a weekly GitHub Actions job prevents GitHub from disabling the cron schedule due to inactivity
+- **Fallback pool** — if Google Trends is rate-limited, the script picks from a curated keyword list and continues without failing
+
+---
+
+## Cost
 
 | Service | Cost |
 |---|---|
 | GitHub Pages | **Free** |
 | GitHub Actions | **Free** (2,000 min/month included) |
 | Unsplash API | **Free** (50 req/hour) |
-| Gemini API | Gemini 2.0 Flash (1,500 requests/day, free forever)) |
+| Gemini 2.5 Flash | **Free** (1,500 req/day) |
+| **Total** | **$0/month** |
 
 ---
 
-## Customisation
+## About the Author
 
-**Change posting frequency:** Edit `.github/workflows/auto-blog.yml`
-```yaml
-- cron: '15 1 * * *'    # Daily (current)
-- cron: '15 1 */2 * *'  # Every 2 days
-- cron: '15 1 * * 1'    # Weekly (Mondays)
-```
+**Sujit Luintel** is a Digital Strategist, Author, and Digital Marketing Expert based in Kathmandu, Nepal. He specialises in digital brand building, SEO systems, AI-driven marketing automation, and content-led growth strategies.
 
-**Change niche/topic:** Edit `FALLBACK_KEYWORDS` and `TREND_SEEDS` in `scripts/generate_post.py`
-
-**Change blog name:** Edit `BLOG_TITLE` in `generate_post.py` and update `index.html`/`style.css` logo text
+- 🌐 Personal website: [sluintel.com.np](https://sluintel.com.np)
+- 📖 Books, consulting, and digital strategy writing available at the personal site
+- 🤖 This blog demonstrates Sujit Luintel's expertise in building intelligent, fully automated content systems
 
 ---
 
 ## Troubleshooting
 
-**Action fails with API error:**
-→ Double-check your secrets in Settings → Secrets → Actions
+**Action fails with API error**
+→ Check **Settings → Secrets → Actions** — ensure both secrets are set correctly
 
-**Site not showing at sluintel.github.io:**
-→ Settings → Pages → make sure branch is set to `main`
+**Posts not appearing on homepage**
+→ The Action may have written the HTML file but failed before updating `posts.json`. Manually add the post entry to `posts.json` matching the filename in `posts/`
 
-**pytrends rate limited:**
-→ The script automatically falls back to the curated keyword pool. No action needed.
+**Google Trends rate limited**
+→ Expected and handled automatically. The script falls back to the curated keyword pool and continues without any action needed
 
-**Posts not appearing:**
-→ Check the Actions tab for error logs
+**Sitemap showing "Couldn't fetch" in Search Console**
+→ Search Console caches failures for 3–7 days. Visit `https://your-site/sitemap.xml` directly in a browser to confirm it loads, then use the refresh button in Search Console
+
+**Schedule not triggering automatically**
+→ GitHub disables cron workflows after 60 days of no activity. The included `keep-alive.yml` workflow runs every Sunday to prevent this. If it has already stopped, go to Actions → run any workflow manually once to re-register the schedule
+
+---
+
+*Auto-published with AI · Powered by Gemini & GitHub Actions*
