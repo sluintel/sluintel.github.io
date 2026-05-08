@@ -7,7 +7,6 @@
   xsi:schemaLocation="
     http://www.sitemaps.org/schemas/sitemap/0.9
     http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
   <url>
     <loc>https://sluintel.github.io/</loc>
     <lastmod>2026-05-08</lastmod>
@@ -15,7 +14,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://sluintel.github.io/posts/2026-05-08-mastering-claude-ai-effective-use-guide</loc>
+    <loc>https://sluintel.github.io/posts/2026-05-08-mastering-claude-ai-effective-use-guide.html</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -35,7 +34,7 @@
     </news:news>
   </url>
   <url>
-    <loc>https://sluintel.github.io/posts/2026-05-08-unleash-remote-potential-ai-productivity-tools</loc>
+    <loc>https://sluintel.github.io/posts/2026-05-08-unleash-remote-potential-ai-productivity-tools.html</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -55,7 +54,7 @@
     </news:news>
   </url>
   <url>
-    <loc>https://sluintel.github.io/posts/2026-05-07-how-to-use-chatgpt-effectively-pro-guide</loc>
+    <loc>https://sluintel.github.io/posts/2026-05-07-how-to-use-chatgpt-effectively-pro-guide.html</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -75,7 +74,7 @@
     </news:news>
   </url>
   <url>
-    <loc>https://sluintel.github.io/posts/2026-05-07-top-ai-seo-tools-2026</loc>
+    <loc>https://sluintel.github.io/posts/2026-05-07-top-ai-seo-tools-2026.html</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -95,7 +94,7 @@
     </news:news>
   </url>
   <url>
-    <loc>https://sluintel.github.io/posts/2026-05-07-chatgpt-vs-claude-vs-gemini-ai-comparison</loc>
+    <loc>https://sluintel.github.io/posts/2026-05-07-chatgpt-vs-claude-vs-gemini-ai-comparison.html</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -111,11 +110,11 @@
       </news:publication>
       <news:publication_date>2026-05-07T00:00:00+05:45</news:publication_date>
       <news:title>ChatGPT, Claude, Gemini: Which AI Reigns Supreme?</news:title>
-      <news:keywords>AI Comparison, LLM, Generative AI</news:keywords>
+      <news:keywords>AI Comparison, LLM, Generative AI, ChatGPT, Claude AI, Gemini</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://sluintel.github.io/posts/2026-05-07-no-code-automation-tools-review</loc>
+    <loc>https://sluintel.github.io/posts/2026-05-07-no-code-automation-tools-review.html</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
