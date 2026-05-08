@@ -19,7 +19,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://images.unsplash.com/photo-1739115808579-332e261428bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyMTM5NDN8&ixlib=rb-4.1.0&q=80&w=1080</image:loc>
+      <image:loc>https://images.unsplash.com/photo-1739115808579-332e261428bd?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyMTM5NDN8&ixlib=rb-4.1.0&q=80&w=1080</image:loc>
       <image:title>Mastering Claude AI: Your Guide to Smarter Automation</image:title>
       <image:caption>Unlock Claude AI's full potential for work and creativity. Learn expert prompting, ethical use, and integration tips to supercharge your productivity.</image:caption>
     </image:image>
