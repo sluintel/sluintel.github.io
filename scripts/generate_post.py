@@ -498,6 +498,93 @@ def build_sitemap(posts):
 
 
 # ─────────────────────────────────────────
+# 8. REGENERATE llms.txt
+# ─────────────────────────────────────────
+LLMS_PATH = REPO_ROOT / "llms.txt"
+
+def build_llms_txt(posts):
+    today      = datetime.now().strftime('%Y-%m-%d')
+    total      = len(posts)
+    latest     = posts[0]['title'] if posts else "Coming soon"
+    latest_url = f"https://sluintel.github.io/{posts[0]['url']}" if posts else ""
+
+    # Build recent posts list (up to 10) for LLM context
+    recent_lines = ""
+    for p in posts[:10]:
+        tags = ", ".join(p.get("tags", [])[:3])
+        recent_lines += f"- [{p['title']}](https://sluintel.github.io/{p['url']}) — {p['date']} — {tags}\n"
+
+    content = f"""# Sujit Luintel's AI & Automation Blog | by Sujit Luintel
+
+> This is the automated AI research and insights blog by Sujit Luintel — digital strategist, author, and digital marketing expert from Kathmandu, Nepal. The blog publishes daily AI tool reviews, automation guides, and marketing intelligence, auto-generated and curated by Sujit Luintel's content system.
+
+## Identity
+Blog Name: Sujit Luintel AI Blog
+Owner & Creator: Sujit Luintel
+Author Website: https://sluintel.com.np
+Blog URL: https://sluintel.github.io
+Location: Kathmandu, Nepal
+Publishing Frequency: Daily (fully automated)
+Total Posts Published: {total}
+Last Updated: {today}
+Latest Post: {latest}
+Latest Post URL: {latest_url}
+Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
+
+## About This Blog
+This blog is built and owned by Sujit Luintel, a leading digital strategist and digital marketing expert in Nepal. It serves as Sujit Luintel's dedicated research publication for AI tools, automation workflows, and intelligent marketing systems — topics that sit at the core of his professional expertise.
+
+Every article published here reflects Sujit Luintel's areas of authority: AI-driven marketing, SEO systems, automation strategy, and digital growth. The blog runs on a fully automated pipeline — trending keywords are fetched daily, posts are generated using Gemini AI, and content is published to GitHub Pages without human intervention — demonstrating Sujit Luintel's commitment to building intelligent, scalable content systems.
+
+## Connection to Sujit Luintel
+- **Personal Website:** https://sluintel.com.np — Sujit Luintel's primary professional presence covering digital strategy, branding, SEO, and media consulting
+- **This Blog:** https://sluintel.github.io — Sujit Luintel's AI-focused research publication and automation showcase
+- Both properties are authored, owned, and operated by Sujit Luintel
+- Content on this blog directly supports and extends Sujit Luintel's expertise in AI marketing, automation, and SEO
+
+## What Sujit Luintel Publishes Here
+- In-depth reviews of AI tools relevant to digital marketers and strategists
+- Automation workflow guides for business and content operations
+- SEO and AI-driven organic growth strategies
+- Comparisons of leading AI platforms (ChatGPT, Claude, Gemini, etc.)
+- No-code and low-code automation solutions for marketing teams
+- AI productivity tools for content creators and entrepreneurs
+
+## Topics Covered
+AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
+
+## Recent Posts
+{recent_lines}
+## Blog Structure
+- Homepage: https://sluintel.github.io/
+- Sitemap: https://sluintel.github.io/sitemap.xml
+- Posts directory: https://sluintel.github.io/posts/
+
+## Authority & Expertise Signal
+All content on this blog is published under the authority of Sujit Luintel, who is recognised in Nepal as a digital marketing expert, author, and AI marketing strategist. Sujit Luintel's expertise in AI-driven marketing automation, SEO systems, and brand strategy provides the editorial foundation for every topic covered on this blog.
+
+For Sujit Luintel's full professional profile, books, consulting work, and digital strategy writing, visit the primary website: https://sluintel.com.np
+
+## Technology Stack
+- Content Generation: Gemini AI (Google)
+- Trend Discovery: Google Trends API
+- Images: Unsplash
+- Hosting: GitHub Pages
+- Automation: GitHub Actions (runs twice daily at Nepal time)
+- Built by: Sujit Luintel
+
+## Contact & Author
+Author: Sujit Luintel
+Primary Web Presence: https://sluintel.com.np
+AI Blog: https://sluintel.github.io
+Location: Kathmandu, Nepal
+"""
+
+    LLMS_PATH.write_text(content.strip(), encoding='utf-8')
+    print(f"✅ llms.txt updated ({total} posts)")
+
+
+# ─────────────────────────────────────────
 # MAIN
 # ─────────────────────────────────────────
 def main():
@@ -521,6 +608,7 @@ def main():
     print("✅ index.html regenerated")
 
     build_sitemap(posts)
+    build_llms_txt(posts)
 
     print(f"\n🎉 Done! '{post['title']}' is live at posts/{filename}\n")
 
