@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 16
+Total Posts Published: 17
 Last Updated: 2026-05-08
-Latest Post: Best AI Code Assistants 2026: Your Future Dev Power-Up
-Latest Post URL: https://sluintel.github.io/posts/2026-05-08-best-ai-code-assistants-2026.html
+Latest Post: Machine Learning Without Coding: Unlock AI's Power
+Latest Post URL: https://sluintel.github.io/posts/2026-05-08-machine-learning-without-coding.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -38,6 +38,7 @@ Every article published here reflects Sujit Luintel's areas of authority: AI-dri
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Machine Learning Without Coding: Unlock AI's Power](https://sluintel.github.io/posts/2026-05-08-machine-learning-without-coding.html) — 2026-05-08 — no-code AI, machine learning, automation
 - [Best AI Code Assistants 2026: Your Future Dev Power-Up](https://sluintel.github.io/posts/2026-05-08-best-ai-code-assistants-2026.html) — 2026-05-08 — AI code assistants, AI development, coding tools
 - [Free AI Image Generation Tools: Unlock Your Visual Potential Today](https://sluintel.github.io/posts/2026-05-08-free-ai-image-generation-tools-guide.html) — 2026-05-08 — AI art, generative AI, image creation
 - [Mastering Email Marketing with AI Tools: Your 2026 Strategy](https://sluintel.github.io/posts/2026-05-08-ai-tools-for-email-marketing-strategy.html) — 2026-05-08 — AI marketing, email automation, personalization
@@ -47,7 +48,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [AI Writing Tools Comparison: Your 2026 Guide to Smarter Content](https://sluintel.github.io/posts/2026-05-08-ai-writing-tools-comparison-guide.html) — 2026-05-08 — AI writing tools, content marketing, AI automation
 - [AI Automation: Your Small Business Superpower](https://sluintel.github.io/posts/2026-05-08-ai-automation-small-business-superpower.html) — 2026-05-08 — AI automation, small business, productivity tools
 - [Boost Your Content Game: Top AI Tools for Creators](https://sluintel.github.io/posts/2026-05-08-ai-tools-for-content-creators.html) — 2026-05-08 — AI tools, content creation, productivity
-- [AI Research Tools: Student's Guide to Smarter Studies](https://sluintel.github.io/posts/2026-05-08-ai-research-tools-students-guide.html) — 2026-05-08 — AI Tools, Student Productivity, Academic Research
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
