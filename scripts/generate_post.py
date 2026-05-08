@@ -10,15 +10,10 @@ import json
 import re
 import random
 import requests
+import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
 from google import genai
-
-try:
-    from pytrends.request import TrendReq
-    PYTRENDS_AVAILABLE = True
-except ImportError:
-    PYTRENDS_AVAILABLE = False
 
 # ─────────────────────────────────────────
 # CONFIG
@@ -35,7 +30,7 @@ SITE_URL       = "https://sluintel.github.io"
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 UNSPLASH_KEY   = os.environ.get("UNSPLASH_ACCESS_KEY", "")
 
-# ── 40 fallback keywords (original 20 + 20 new) ──────────────────────────────
+# ── 40 fallback keywords ──────────────────────────────────────────────────────
 FALLBACK_KEYWORDS = [
     # Original 20
     "best AI tools 2026",
@@ -81,14 +76,7 @@ FALLBACK_KEYWORDS = [
     "how to use AI to write better blog posts",
 ]
 
-# Seeds used only for Strategy 3 (interest_over_time fallback)
-TREND_SEEDS = [
-    "AI tools", "automation software", "ChatGPT", "Claude AI",
-    "Gemini AI", "AI agents", "no-code tools", "Copilot AI",
-    "OpenAI", "AI workflow",
-]
-
-# Terms used to identify AI/tech relevance in trending results
+# AI/tech signal terms for filtering trending topics
 AI_TECH_TERMS = {
     "ai", "artificial intelligence", "chatgpt", "claude", "gemini",
     "openai", "llm", "automation", "robot", "machine learning",
@@ -98,6 +86,16 @@ AI_TECH_TERMS = {
     "perplexity", "sora", "dall-e", "whisper", "hugging face",
     "langchain", "rag", "vector", "neural", "deep learning",
 }
+
+# Google Trends RSS feeds — stable public endpoints, no auth needed
+# Each returns ~20 trending topics for that country
+TRENDS_RSS_FEEDS = [
+    ("US", "https://trends.google.com/trending/rss?geo=US"),
+    ("GB", "https://trends.google.com/trending/rss?geo=GB"),
+    ("IN", "https://trends.google.com/trending/rss?geo=IN"),
+    ("AU", "https://trends.google.com/trending/rss?geo=AU"),
+    ("CA", "https://trends.google.com/trending/rss?geo=CA"),
+]
 
 
 # ─────────────────────────────────────────
@@ -127,103 +125,87 @@ def _is_ai_tech(text: str) -> bool:
     return any(term in lower for term in AI_TECH_TERMS)
 
 
-def get_trending_keyword():
+def fetch_trends_rss(geo: str, url: str) -> list[str]:
     """
-    Three-strategy Google Trends approach, then curated fallback.
+    Fetch Google Trends RSS for a given country and return a list of
+    trending topic titles.  Returns an empty list on any failure.
+    """
+    try:
+        resp = requests.get(
+            url,
+            headers={
+                "User-Agent": (
+                    "Mozilla/5.0 (compatible; SluIntelBot/1.0; "
+                    "+https://sluintel.github.io)"
+                )
+            },
+            timeout=15,
+        )
+        if resp.status_code != 200:
+            print(f"⚠️  Trends RSS ({geo}): HTTP {resp.status_code}")
+            return []
 
-    Strategy 1 — Realtime trending searches (past ~24-48 h):
+        root = ET.fromstring(resp.content)
+        # RSS structure: <rss><channel><item><title>…</title></item>…</channel></rss>
+        ns   = {"ht": "https://trends.google.com/trending/rss"}
+        items = root.findall(".//item")
+        titles = []
+        for item in items:
+            title_el = item.find("title")
+            if title_el is not None and title_el.text:
+                titles.append(title_el.text.strip())
+        return titles
+
+    except ET.ParseError as e:
+        print(f"⚠️  Trends RSS ({geo}): XML parse error — {e}")
+        return []
+    except requests.RequestException as e:
+        print(f"⚠️  Trends RSS ({geo}): request error — {e}")
+        return []
+
+
+def get_trending_keyword() -> str:
+    """
+    Two-strategy approach, then curated fallback.
+
+    Strategy 1 — Google Trends RSS (stable public feed):
         Checks US, GB, IN, AU, CA in order and returns the first
-        result that contains an AI/tech signal word.
+        trending topic that contains an AI/tech signal word.
 
-    Strategy 2 — Daily trending searches:
-        Pulls the daily trending list for the same countries and
-        applies the same AI/tech filter.
-
-    Strategy 3 — Interest over time (48 h window):
-        Uses the TREND_SEEDS to find the hottest seed, then returns
-        its top rising related query.
+    Strategy 2 — Broader RSS scan (no filter):
+        If no AI topic is found across all countries, picks the
+        first available topic from any country and turns it into
+        an AI-framed blog keyword.
 
     Fallback — Curated list:
         Picks a random unused keyword from FALLBACK_KEYWORDS.
     """
-    if PYTRENDS_AVAILABLE:
-        # ── Strategy 1: Realtime trending searches ────────────────────────────
-        try:
-            pytrends = TrendReq(hl="en-US", tz=0, timeout=(10, 30),
-                                retries=2, backoff_factor=0.5)
-            for country in ["US", "GB", "IN", "AU", "CA"]:
-                try:
-                    df = pytrends.realtime_trending_searches(pn=country)
-                    if df is None or df.empty:
-                        continue
-                    # Column name differs by pytrends version: 'title' or 0
-                    title_col = "title" if "title" in df.columns else df.columns[0]
-                    for _, row in df.iterrows():
-                        kw = str(row[title_col]).strip()
-                        if kw and _is_ai_tech(kw):
-                            print(f"✅ Realtime trending ({country}): {kw}")
-                            save_used_keyword(kw)
-                            return kw
-                except Exception as e:
-                    print(f"⚠️  Realtime trends ({country}): {e}")
-                    continue
-        except Exception as e:
-            print(f"⚠️  Realtime trends init error: {e}")
+    all_titles: list[tuple[str, str]] = []   # (country, title)
 
-        # ── Strategy 2: Daily trending searches ───────────────────────────────
-        try:
-            pytrends2 = TrendReq(hl="en-US", tz=0, timeout=(10, 30),
-                                 retries=2, backoff_factor=0.5)
-            for pn in ["united_states", "united_kingdom", "india",
-                       "australia", "canada"]:
-                try:
-                    df = pytrends2.trending_searches(pn=pn)
-                    if df is None or df.empty:
-                        continue
-                    for term in df[0].tolist():
-                        term = str(term).strip()
-                        if term and _is_ai_tech(term):
-                            print(f"✅ Daily trending ({pn}): {term}")
-                            save_used_keyword(term)
-                            return term
-                except Exception as e:
-                    print(f"⚠️  Daily trends ({pn}): {e}")
-                    continue
-        except Exception as e:
-            print(f"⚠️  Daily trends init error: {e}")
+    for geo, url in TRENDS_RSS_FEEDS:
+        titles = fetch_trends_rss(geo, url)
+        for title in titles:
+            if _is_ai_tech(title):
+                print(f"✅ Trending RSS ({geo}): {title}")
+                save_used_keyword(title)
+                return title
+        # Collect non-AI results for Strategy 2
+        for title in titles:
+            all_titles.append((geo, title))
 
-        # ── Strategy 3: Interest over time (48-hour window) ───────────────────
-        try:
-            pytrends3 = TrendReq(hl="en-US", tz=0, timeout=(10, 30),
-                                 retries=2, backoff_factor=0.5)
-            batch = random.sample(TREND_SEEDS, min(5, len(TREND_SEEDS)))
-            pytrends3.build_payload(batch, timeframe="now 2-d", geo="")
-            df = pytrends3.interest_over_time()
-            if not df.empty:
-                top_kw = (
-                    df.drop(columns=["isPartial"], errors="ignore")
-                    .mean()
-                    .idxmax()
-                )
-                pytrends3.build_payload([top_kw], timeframe="now 2-d")
-                related = pytrends3.related_queries()
-                rising = related.get(top_kw, {}).get("rising")
-                if rising is not None and not rising.empty:
-                    specific = rising.iloc[0]["query"]
-                    print(f"✅ Rising related query (48 h): {specific}")
-                    save_used_keyword(specific)
-                    return specific
-                print(f"✅ Top seed keyword (48 h): {top_kw}")
-                save_used_keyword(top_kw)
-                return top_kw
-        except Exception as e:
-            print(f"⚠️  Interest-over-time error: {e}")
+    # ── Strategy 2: no AI topic found — use first available topic ──────────
+    if all_titles:
+        geo, title = all_titles[0]
+        # Reframe the topic as an AI/automation angle
+        reframed = f"how AI is changing {title.lower()} in 2026"
+        print(f"✅ Reframed trending topic ({geo}): {reframed}")
+        save_used_keyword(reframed)
+        return reframed
 
-    # ── Final fallback: curated keyword list ──────────────────────────────────
-    used = load_used_keywords()
+    # ── Final fallback: curated keyword list ───────────────────────────────
+    used      = load_used_keywords()
     available = [k for k in FALLBACK_KEYWORDS if k not in used]
     if not available:
-        # All 40 used — reset tracking so the pool is fresh again
         print("ℹ️  All fallback keywords used — resetting pool")
         USED_KW_FILE.write_text(json.dumps([], indent=2))
         available = FALLBACK_KEYWORDS
@@ -710,10 +692,10 @@ For Sujit Luintel's full professional profile, books, consulting work, and digit
 
 ## Technology Stack
 - Content Generation: Gemini AI (Google)
-- Trend Discovery: Google Trends API
+- Trend Discovery: Google Trends RSS Feed
 - Images: Unsplash
 - Hosting: GitHub Pages
-- Automation: GitHub Actions (runs twice daily at Nepal time)
+- Automation: GitHub Actions (daily at Nepal morning time)
 - Built by: Sujit Luintel
 
 ## Contact & Author
