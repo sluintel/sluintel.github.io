@@ -329,7 +329,7 @@ def build_post_html(post, img_url, img_credit, date_str):
   </main>
 
   <footer class="site-footer">
-    <p>© {year} SluIntel · AI Tools &amp; Automation Insights</p>
+    <p>© {year} Sujit Luintel · AI Tools &amp; Automation Insights</p>
     <p style="margin-top:.25rem;">Auto-published with AI · Powered by Gemini &amp; GitHub Actions</p>
   </footer>
 </body>
