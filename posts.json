@@ -1,5 +1,21 @@
 [
   {
+    "title": "Master the Claude AI API: A Developer's Tutorial for 2026",
+    "slug": "claude-ai-api-tutorial-for-developers",
+    "date": "2026-05-08",
+    "meta_description": "Unlock powerful AI! This Claude AI API tutorial for developers shows you how to integrate Anthropic's advanced models. Build cutting-edge apps and master prompt engineering.",
+    "tags": [
+      "Claude AI API",
+      "AI development",
+      "Anthropic",
+      "LLM API",
+      "developer tutorial"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1643000867361-cd545336249b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyNTc1ODd8&ixlib=rb-4.1.0&q=80&w=1080",
+    "reading_time": "5 min read",
+    "url": "posts/2026-05-08-claude-ai-api-tutorial-for-developers.html"
+  },
+  {
     "title": "Unlock Efficiency: The Future of Workflow Automation with AI",
     "slug": "workflow-automation-with-ai-future-efficiency",
     "date": "2026-05-08",
