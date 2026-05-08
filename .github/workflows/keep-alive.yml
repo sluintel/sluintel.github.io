@@ -1,0 +1,34 @@
+name: 🔄 Keep Alive
+
+on:
+  schedule:
+    # Runs every Sunday at 12:00 UTC (5:45 PM Nepal time)
+    # Prevents GitHub from disabling scheduled workflows after 60 days of inactivity
+    - cron: '0 12 * * 0'
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  keep-alive:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🔄 Keep scheduled workflows alive
+        run: |
+          git config --global user.name "SluIntel Bot"
+          git config --global user.email "bot@sluintel.github.io"
+
+          # Update a timestamp file — gives GitHub the "activity" signal it needs
+          echo "Last keep-alive: $(date -u '+%Y-%m-%d %H:%M UTC')" > .github/keep-alive.txt
+
+          git add .github/keep-alive.txt
+          git commit -m "🔄 Keep-alive: $(date -u '+%Y-%m-%d')"
+          git push
