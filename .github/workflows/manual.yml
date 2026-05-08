@@ -36,14 +36,51 @@ jobs:
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
         run: python scripts/generate_post.py
 
+      - name: 🔧 Fix extension-less post files
+        run: |
+          python3 - <<'PYEOF'
+          import json
+          from pathlib import Path
+
+          posts_dir = Path("posts")
+          posts_json_path = Path("posts.json")
+          fixed = []
+
+          if posts_dir.exists():
+              for f in sorted(posts_dir.iterdir()):
+                  if f.is_file() and f.suffix == "" and not f.name.startswith("."):
+                      new_path = f.with_suffix(".html")
+                      f.rename(new_path)
+                      fixed.append(f.name)
+                      print(f"Renamed: {f.name} -> {new_path.name}")
+
+          if not fixed:
+              print("No extension-less post files found.")
+          else:
+              if posts_json_path.exists():
+                  data = json.loads(posts_json_path.read_text())
+                  for post in data:
+                      url = post.get("url", "")
+                      slug = url.lstrip("/").removeprefix("posts/").removesuffix(".html")
+                      if slug in fixed:
+                          post["url"] = f"posts/{slug}.html"
+                          print(f"Fixed posts.json: posts/{slug} -> posts/{slug}.html")
+                  posts_json_path.write_text(json.dumps(data, indent=2))
+
+              index = Path("index.html")
+              if index.exists():
+                  html = index.read_text()
+                  for slug in fixed:
+                      html = html.replace(f'"posts/{slug}"', f'"posts/{slug}.html"')
+                      html = html.replace(f"'posts/{slug}'", f"'posts/{slug}.html'")
+                  index.write_text(html)
+                  print("index.html links patched.")
+          PYEOF
+
       - name: 📝 Commit and push
         run: |
           git config --global user.name "SluIntel Bot"
           git config --global user.email "bot@sluintel.github.io"
-
           git add -A
-
-          # Only commit if there are actual changes
           git diff --staged --quiet || git commit -m "🚀 Manual publish: $(date -u +'%Y-%m-%d %H:%M UTC')"
-
           git push
