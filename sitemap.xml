@@ -1,27 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="
+    http://www.sitemaps.org/schemas/sitemap/0.9
+    http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
+  <url>
+    <loc>https://sluintel.github.io/</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
 
-<url>
-  <loc>https://sluintel.github.io/</loc>
-  <lastmod>2026-05-07T15:42:58+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://sluintel.github.io/posts/2026-05-07-chatgpt-vs-claude-vs-gemini-ai-comparison.html</loc>
-  <lastmod>2026-05-07T15:42:58+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sluintel.github.io/posts/2026-05-07-no-code-automation-tools-review.html</loc>
-  <lastmod>2026-05-07T15:42:58+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+  <url>
+    <loc>https://sluintel.github.io/posts/2026-05-07-ai-seo-tools-2026-next-gen-intelligence.html</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;q=80&amp;w=1080</image:loc>
+      <image:title>AI SEO Tools 2026: Master Search with Next-Gen Intelligence</image:title>
+      <image:caption>Uncover the top AI SEO tools of 2026 that redefine search optimisation. From predictive analytics to autonomous content, stay ahead with cutting-edge AI for SEO.</image:caption>
+    </image:image>
+    <news:news>
+      <news:publication>
+        <news:name>Sujit Luintel</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-07T00:00:00+05:45</news:publication_date>
+      <news:title>AI SEO Tools 2026: Master Search with Next-Gen Intelligence</news:title>
+      <news:keywords>AI SEO, SEO Tools, Generative AI, Predictive Analytics, Digital Marketing</news:keywords>
+    </news:news>
+  </url>
 
+  <url>
+    <loc>https://sluintel.github.io/posts/2026-05-07-chatgpt-vs-claude-vs-gemini-ai-comparison.html</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&amp;auto=format&amp;fit=crop</image:loc>
+      <image:title>ChatGPT, Claude, Gemini: Which AI Reigns Supreme?</image:title>
+      <image:caption>Unsure which AI to use? We compare ChatGPT, Claude, and Gemini on key features, performance, and pricing to help you pick the perfect one.</image:caption>
+    </image:image>
+    <news:news>
+      <news:publication>
+        <news:name>Sujit Luintel</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-07T00:00:00+05:45</news:publication_date>
+      <news:title>ChatGPT, Claude, Gemini: Which AI Reigns Supreme?</news:title>
+      <news:keywords>AI Comparison, LLM, Generative AI</news:keywords>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://sluintel.github.io/posts/2026-05-07-no-code-automation-tools-review.html</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1744627049721-73c27008ad28?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;q=80&amp;w=1080</image:loc>
+      <image:title>No-Code Automation: Unleash Your Workflow Power (Review)</image:title>
+      <image:caption>Boost productivity with our expert review of top no-code automation tools like Zapier, Make, and Power Automate. Streamline workflows, integrate AI, and save time!</image:caption>
+    </image:image>
+    <news:news>
+      <news:publication>
+        <news:name>Sujit Luintel</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-07T00:00:00+05:45</news:publication_date>
+      <news:title>No-Code Automation: Unleash Your Workflow Power (Review)</news:title>
+      <news:keywords>no-code automation, workflow automation, AI tools, productivity, business efficiency, Zapier, Make, Power Automate</news:keywords>
+    </news:news>
+  </url>
 
 </urlset>
