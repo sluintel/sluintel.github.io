@@ -265,8 +265,18 @@ def build_post_html(post, img_url, img_credit, date_str):
 # ─────────────────────────────────────────
 # 5. UPDATE posts.json
 # ─────────────────────────────────────────
+def load_posts():
+    if POSTS_JSON.exists():
+        try:
+            content = POSTS_JSON.read_text().strip()
+            if content:
+                return json.loads(content)
+        except (json.JSONDecodeError, ValueError):
+            print("⚠️  posts.json was malformed — starting fresh (existing post files are unaffected)")
+    return []
+
 def update_posts_json(post, img_url, date_str):
-    posts = json.loads(POSTS_JSON.read_text()) if POSTS_JSON.exists() else []
+    posts = load_posts()
     # No .html extension — GitHub Pages serves extension-less files natively
     # when .nojekyll is present, giving clean URLs like /posts/2026-05-07-slug
     filename = f"{date_str}-{post['slug']}"
