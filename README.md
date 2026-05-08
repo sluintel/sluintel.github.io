@@ -14,7 +14,7 @@ Google Trends → Gemini AI → Unsplash → GitHub Actions → GitHub Pages
 (keyword)       (writes post)  (image)    (twice daily)   (live site)
 ```
 
-Every day at **6:45 AM and 7:10 PM Nepal time**, GitHub Actions automatically:
+Every day at **6:45 AM and 6:55 PM Nepal time**, GitHub Actions automatically:
 
 1. Fetches the most trending AI keyword from Google Trends
 2. Generates a full SEO-optimised blog post using Gemini 2.5 Flash
