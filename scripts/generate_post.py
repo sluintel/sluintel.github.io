@@ -118,35 +118,34 @@ def get_trending_keyword():
 # 2. GENERATE BLOG POST WITH GEMINI
 # ─────────────────────────────────────────
 def generate_blog_post(keyword):
+    from google.genai import types
+
     client = genai.Client(api_key=GEMINI_API_KEY)
 
     prompt = f"""You are an expert tech blogger specialising in AI tools and automation.
 Write a comprehensive, SEO-optimised blog post about: "{keyword}"
 
-Return ONLY a valid JSON object — no markdown fences, no preamble, no trailing text.
-
-JSON structure:
-{{
-  "title": "Engaging, click-worthy title under 65 characters",
-  "meta_description": "Compelling meta description under 155 characters",
-  "slug": "url-friendly-slug-with-hyphens-only",
-  "tags": ["tag1", "tag2", "tag3"],
-  "reading_time": "X min read",
-  "content_html": "<p>Full blog post in HTML...</p> (800-1100 words, use h2 h3 p ul li strong em — no outer title or feature image)"
-}}
+Return a JSON object with exactly these keys:
+- title: engaging, click-worthy title under 65 characters
+- meta_description: compelling meta description under 155 characters
+- slug: url-friendly slug using hyphens only, no special characters
+- tags: array of 4-6 relevant tag strings
+- reading_time: estimated read time as "X min read"
+- content_html: full blog post as an HTML string (800-1100 words), using h2, h3, p, ul, li, strong, em tags. Do NOT include an outer <h1> title or feature image.
 
 Writing style: clear, practical, slightly opinionated. Include a compelling intro, 4-6 h2 sections with real value, bullet lists where helpful, and a strong conclusion with a CTA."""
 
+    # response_mime_type forces Gemini to return valid, properly-escaped JSON.
+    # This prevents JSONDecodeError from unescaped quotes/backslashes in content_html.
     response = client.models.generate_content(
         model="gemini-2.5-flash",
-        contents=prompt
+        contents=prompt,
+        config=types.GenerateContentConfig(
+            response_mime_type="application/json"
+        )
     )
 
-    raw = response.text.strip()
-    raw = re.sub(r'^```json\s*', '', raw)
-    raw = re.sub(r'\s*```$', '', raw)
-
-    data = json.loads(raw)
+    data = json.loads(response.text)
     data['slug'] = re.sub(r'[^a-z0-9\-]', '', data['slug'].lower().replace(' ', '-'))
     print(f"✅ Post generated: {data['title']}")
     return data
@@ -320,7 +319,7 @@ def build_index_html(posts):
         </div>
       </article>"""
 
-    grid_inner = cards if cards else '<p class="no-posts">🚀 First post is being generated…</p>'
+    grid_inner = cards if cards else '<p class="no-posts">Post is being generated…</p>'
     year  = datetime.now().year
     total = len(posts)
 
