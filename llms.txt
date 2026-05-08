@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 10
+Total Posts Published: 11
 Last Updated: 2026-05-08
-Latest Post: AI Writing Tools Comparison: Your 2026 Guide to Smarter Content
-Latest Post URL: https://sluintel.github.io/posts/2026-05-08-ai-writing-tools-comparison-guide.html
+Latest Post: AI Agents Explained Simply: Your Guide to Autonomous Automation
+Latest Post URL: https://sluintel.github.io/posts/2026-05-08-ai-agents-explained-simply.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -38,6 +38,7 @@ Every article published here reflects Sujit Luintel's areas of authority: AI-dri
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [AI Agents Explained Simply: Your Guide to Autonomous Automation](https://sluintel.github.io/posts/2026-05-08-ai-agents-explained-simply.html) — 2026-05-08 — AI agents, automation, artificial intelligence
 - [AI Writing Tools Comparison: Your 2026 Guide to Smarter Content](https://sluintel.github.io/posts/2026-05-08-ai-writing-tools-comparison-guide.html) — 2026-05-08 — AI writing tools, content marketing, AI automation
 - [AI Automation: Your Small Business Superpower](https://sluintel.github.io/posts/2026-05-08-ai-automation-small-business-superpower.html) — 2026-05-08 — AI automation, small business, productivity tools
 - [Boost Your Content Game: Top AI Tools for Creators](https://sluintel.github.io/posts/2026-05-08-ai-tools-for-content-creators.html) — 2026-05-08 — AI tools, content creation, productivity
@@ -47,7 +48,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Unlock ChatGPT's Full Potential: A Pro User's Guide](https://sluintel.github.io/posts/2026-05-07-how-to-use-chatgpt-effectively-pro-guide.html) — 2026-05-07 — ChatGPT, AI tools, Prompt Engineering
 - [AI SEO Tools 2026: Outrank, Outsmart, Outperform](https://sluintel.github.io/posts/2026-05-07-top-ai-seo-tools-2026.html) — 2026-05-07 — AI SEO, SEO tools, future of SEO
 - [ChatGPT, Claude, Gemini: Which AI Reigns Supreme?](https://sluintel.github.io/posts/2026-05-07-chatgpt-vs-claude-vs-gemini-ai-comparison.html) — 2026-05-07 — AI Comparison, LLM, Generative AI
-- [No-Code Automation: Unleash Your Workflow Power (Review)](https://sluintel.github.io/posts/2026-05-07-no-code-automation-tools-review.html) — 2026-05-07 — no-code automation, workflow automation, AI tools
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
