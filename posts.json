@@ -1,23 +1,5 @@
 [
   {
-    "title": "Mastering Claude AI: Your Guide to Smarter Automation",
-    "slug": "mastering-claude-ai-effective-use-guide",
-    "date": "2026-05-08",
-    "meta_description": "Unlock Claude AI's full potential for work and creativity. Learn expert prompting, ethical use, and integration tips to supercharge your productivity.",
-    "tags": [
-      "Claude AI",
-      "AI tools",
-      "prompt engineering",
-      "automation",
-      "productivity",
-      "generative AI",
-      "Anthropic"
-    ],
-    "image_url": "https://images.unsplash.com/photo-1739115808579-332e261428bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyMTM5NDN8&ixlib=rb-4.1.0&q=80&w=1080",
-    "reading_time": "7 min read",
-    "url": "posts/2026-05-08-mastering-claude-ai-effective-use-guide"
-  },
-  {
     "title": "Unleash Remote Potential: Top AI Productivity Tools",
     "slug": "unleash-remote-potential-ai-productivity-tools",
     "date": "2026-05-08",
@@ -33,7 +15,7 @@
     ],
     "image_url": "https://images.unsplash.com/photo-1775994121020-86426451f8bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyMTMwMDl8&ixlib=rb-4.1.0&q=80&w=1080",
     "reading_time": "9 min read",
-    "url": "posts/2026-05-08-unleash-remote-potential-ai-productivity-tools"
+    "url": "posts/2026-05-08-unleash-remote-potential-ai-productivity-tools.html"
   },
   {
     "title": "Unlock ChatGPT's Full Potential: A Pro User's Guide",
