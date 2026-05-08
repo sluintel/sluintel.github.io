@@ -200,6 +200,15 @@ def build_post_html(post, img_url, img_credit, date_str):
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
+          <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WJEQKLB827"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WJEQKLB827');
+</script>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>{post['title']} | SluIntel</title>
