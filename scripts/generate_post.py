@@ -267,7 +267,9 @@ def build_post_html(post, img_url, img_credit, date_str):
 # ─────────────────────────────────────────
 def update_posts_json(post, img_url, date_str):
     posts = json.loads(POSTS_JSON.read_text()) if POSTS_JSON.exists() else []
-    filename = f"{date_str}-{post['slug']}.html"
+    # No .html extension — GitHub Pages serves extension-less files natively
+    # when .nojekyll is present, giving clean URLs like /posts/2026-05-07-slug
+    filename = f"{date_str}-{post['slug']}"
     entry = {
         "title":            post['title'],
         "slug":             post['slug'],
@@ -276,7 +278,7 @@ def update_posts_json(post, img_url, date_str):
         "tags":             post['tags'],
         "image_url":        img_url,
         "reading_time":     post.get('reading_time', '5 min read'),
-        "url":              f"posts/{filename}"     # filename already has .html
+        "url":              f"posts/{filename}"
     }
     posts.insert(0, entry)
     POSTS_JSON.write_text(json.dumps(posts, indent=2))
@@ -415,7 +417,7 @@ def build_sitemap(posts):
     post_urls = []
     for p in posts:
         # Normalise the URL: strip leading slash or reconstruct cleanly
-        rel = p["url"].lstrip("/")           # e.g. posts/2026-05-07-slug.html
+        rel = p["url"].lstrip("/").removesuffix(".html")  # clean URL, no extension
         loc = f"{SITE_URL}/{rel}"
 
         # Prefer the post's own date as lastmod; fall back to today
@@ -477,11 +479,7 @@ def build_sitemap(posts):
     </news:news>
   </url>"""
 
-    # The leading --- front matter is required so Jekyll serves this file
-    # instead of silently dropping it during the GitHub Pages build
-    xml = f"""---
----
-<?xml version="1.0" encoding="UTF-8"?>
+    xml = f"""<?xml version="1.0" encoding="UTF-8"?>
 <urlset
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
