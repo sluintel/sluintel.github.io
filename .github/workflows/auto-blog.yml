@@ -4,8 +4,8 @@ on:
   # ── Nepal Standard Time (NPT) = UTC+5:45 ──────────────────────────────────
   # GitHub Actions cron runs in UTC, so subtract 5h45m from your target NPT time.
   #
-  # Slot 1 → 08:00 NPT  =  02:15 UTC   (morning post, catches overnight US trends)
-  # Slot 2 → 18:00 NPT  =  12:15 UTC   (evening post, catches afternoon US trends)
+  # Slot 1 → 08:00 NPT  =  02:15 UTC   (morning post, catches overnight trends)
+  # Slot 2 → 18:00 NPT  =  12:15 UTC   (evening post, catches afternoon trends)
   #
   # GitHub cron does not support :45 minutes for the hour offset, so we use
   # :15 which is the closest standard minute that lands at a whole NPT hour.
