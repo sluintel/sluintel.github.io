@@ -38,7 +38,6 @@ PEXELS_API_KEY = os.environ.get("PEXELS_API_KEY","")
 FONT_BOLD = "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf"
 FONT_REG  = "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf"
 
-# ── 40 fallback keywords ──────────────────────────────────────────────────────
 FALLBACK_KEYWORDS = [
     "best AI tools 2026",
     "AI automation for small business",
@@ -123,7 +122,6 @@ def save_used_keyword(kw):
 
 
 def _is_ai_tech(text: str) -> bool:
-    """Whole-word match only — prevents 'hailee' matching 'ai'."""
     words = set(re.findall(r"[a-z0-9]+", text.lower()))
     return bool(words & AI_TECH_TERMS)
 
@@ -156,7 +154,6 @@ def fetch_trends_rss(geo: str, url: str) -> list:
 
 def get_trending_keyword() -> str:
     all_titles = []
-
     for geo, url in TRENDS_RSS_FEEDS:
         titles = fetch_trends_rss(geo, url)
         for title in titles:
@@ -187,12 +184,134 @@ def get_trending_keyword() -> str:
 
 
 # ─────────────────────────────────────────
-# 2. GENERATE BLOG POST WITH GEMINI
+# 2. INTERNAL LINKING HELPERS
 # ─────────────────────────────────────────
-def generate_blog_post(keyword):
+
+# Tags too generic to drive meaningful relevance scoring
+_STOP_TAGS = {
+    "ai tools", "automation", "ai", "tools", "future of work",
+    "2026 trends", "productivity", "digital transformation",
+    "tech trends", "future tech", "ai automation",
+}
+
+
+def _tokenise(text: str) -> set:
+    """Lowercase word tokens, dropping single-char noise."""
+    return {w for w in re.split(r"\W+", text.lower()) if len(w) > 1}
+
+
+def _build_posts_index() -> list:
+    """
+    Load posts.json and return a clean, deduplicated index for link scoring.
+    Reuses the existing load_posts() helper — no extra file I/O.
+    """
+    posts = load_posts()
+    seen_slugs = set()
+    index = []
+    for p in posts:
+        slug = p.get("slug", "")
+        if not slug or slug in seen_slugs:
+            continue
+        seen_slugs.add(slug)
+        index.append({
+            "title":   p.get("title", ""),
+            "slug":    slug,
+            "url":     p.get("url", f"posts/{slug}.html"),
+            "tags":    [t.lower() for t in p.get("tags", [])],
+            "keyword": p.get("keyword", ""),   # persisted by our generator
+        })
+    return index
+
+
+def _score_relevance(post: dict, kw_tokens: set, used_keywords: list) -> int:
+    score = 0
+    # Title token overlap
+    score += len(kw_tokens & _tokenise(post["title"])) * 3
+    # Keyword-to-keyword overlap (strongest signal)
+    if post["keyword"]:
+        score += len(kw_tokens & _tokenise(post["keyword"])) * 4
+    # Meaningful tag overlap
+    meaningful_tags = [t for t in post["tags"] if t not in _STOP_TAGS]
+    score += len(kw_tokens & _tokenise(" ".join(meaningful_tags))) * 2
+    # Mild boost for topical neighbours in keyword history
+    for used_kw in used_keywords:
+        if len(kw_tokens & _tokenise(used_kw)) >= 2:
+            score += 1
+    return score
+
+
+def _select_link_candidates(
+    posts_index: list,
+    current_keyword: str,
+    used_keywords: list,
+    max_links: int = 6,
+    min_score: int = 2,
+) -> list:
+    kw_tokens = _tokenise(current_keyword)
+    scored = [
+        (s, p)
+        for p in posts_index
+        if (s := _score_relevance(p, kw_tokens, used_keywords)) >= min_score
+    ]
+    scored.sort(key=lambda x: x[0], reverse=True)
+    return [p for _, p in scored[:max_links]]
+
+
+def _build_linking_prompt_block(candidates: list) -> str:
+    if not candidates:
+        return ""
+    lines = [
+        f'  - href="/{p["url"]}" | Title: "{p["title"]}"'
+        for p in candidates
+    ]
+    return (
+        "\n━━━ INTERNAL LINKING (MANDATORY) ━━━\n"
+        "Embed 2–4 natural internal links inside the post body using ONLY the exact hrefs listed below.\n\n"
+        "Rules:\n"
+        "- Anchor text must be descriptive and contextually relevant — NEVER \"click here\" or \"read more\"\n"
+        "- Place <a> tags inside <p> or <li> elements only — NEVER inside headings\n"
+        "- Spread links across different sections (not all clustered in one paragraph)\n"
+        "- Do NOT invent, modify, or shorten any href — use the full path exactly as given\n"
+        "- If fewer than 2 posts are genuinely relevant, only add those that truly fit\n\n"
+        "Approved internal links:\n"
+        + "\n".join(lines)
+        + "\n"
+    )
+
+
+def _validate_links(html: str, valid_urls: set) -> str:
+    """Strip any <a href> that doesn't match a real post URL."""
+    def _fix(match):
+        href  = match.group(1).lstrip("/")
+        inner = match.group(2)
+        if href in valid_urls:
+            return match.group(0)
+        print(f"⚠️  Stripped hallucinated link: {match.group(1)}")
+        return inner
+    return re.sub(r'<a\s+href="([^"]+)"[^>]*>(.*?)</a>', _fix, html, flags=re.DOTALL)
+
+
+# ─────────────────────────────────────────
+# 3. GENERATE BLOG POST WITH GEMINI
+# ─────────────────────────────────────────
+def generate_blog_post(keyword: str) -> dict:
     from google.genai import types
 
     client = genai.Client(api_key=GEMINI_API_KEY)
+
+    # Build internal-link context BEFORE calling Gemini
+    posts_index   = _build_posts_index()
+    used_keywords = load_used_keywords()
+    candidates    = _select_link_candidates(posts_index, keyword, used_keywords)
+    valid_urls    = {p["url"] for p in posts_index} | {p["url"].lstrip("/") for p in posts_index}
+    linking_block = _build_linking_prompt_block(candidates)
+
+    if candidates:
+        print(f"🔗 Internal link candidates ({len(candidates)}):")
+        for c in candidates:
+            print(f"   → {c['title']}")
+    else:
+        print("ℹ️  No relevant internal link candidates for this keyword")
 
     prompt = f"""You are an expert SEO content strategist and tech blogger specialising in AI tools and automation. Your articles consistently rank on Google page 1 because you understand both search intent and reader psychology.
 
@@ -252,12 +371,12 @@ Write a comprehensive, SEO-optimised blog post about: "{keyword}"
 - Allowed: strong claims backed by logic, honest pros/cons, specific examples
 
 ━━━ HTML FORMATTING ━━━
-- Use: h2, h3, p, ul, li, ol, strong, em, blockquote
+- Use: h2, h3, p, ul, li, ol, strong, em, blockquote, a
 - Do NOT include: h1, img, the post title, feature image, or any inline styles
 - Wrap key terms or takeaways in <strong> for emphasis
 - Use <blockquote> for a key stat or standout quote (1 per post max)
 - Use <em> sparingly for genuine emphasis only
-
+{linking_block}
 Return ONLY a valid JSON object with exactly these keys — no markdown fences, no preamble:
 {{
   "title": "Compelling title under 65 chars — include primary keyword near the start",
@@ -275,15 +394,26 @@ Return ONLY a valid JSON object with exactly these keys — no markdown fences, 
     )
 
     data = json.loads(response.text)
+
+    # Sanitise slug
     data["slug"] = re.sub(r"[^a-z0-9\-]", "", data["slug"].lower().replace(" ", "-"))
     data["slug"] = re.sub(r"-+", "-", data["slug"]).strip("-")
 
+    # Persist keyword so future posts can find and link back to this one
+    data["keyword"] = keyword
+
+    # Strip any links Gemini hallucinated
+    if valid_urls:
+        data["content_html"] = _validate_links(data["content_html"], valid_urls)
+
+    links_found = re.findall(r'<a href=', data["content_html"])
     print(f"✅ Post generated: {data['title']}")
+    print(f"   🔗 Internal links embedded: {len(links_found)}")
     return data
 
 
 # ─────────────────────────────────────────
-# 3. FETCH FEATURE IMAGE
+# 4. FETCH FEATURE IMAGE
 # ─────────────────────────────────────────
 def get_feature_image(keyword):
     FALLBACK_IMAGES = [
@@ -293,9 +423,7 @@ def get_feature_image(keyword):
         "https://images.unsplash.com/photo-1676299081847-824916de030a?w=1200&auto=format&fit=crop",
         "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&auto=format&fit=crop",
     ]
-
     PEXELS_KEY = os.environ.get("PEXELS_API_KEY", "")
-
     base_words = " ".join(keyword.split()[:4])
     primary_q  = (base_words + " technology AI") if _is_ai_tech(keyword) else base_words
     short_q    = " ".join(keyword.split()[:2])
@@ -399,39 +527,25 @@ def get_feature_image(keyword):
 
 
 # ─────────────────────────────────────────
-# 4. GENERATE OG IMAGE (1200×630)
+# 5. GENERATE OG IMAGE (1200×630)
 # ─────────────────────────────────────────
 def generate_og_image(title: str, slug: str) -> str:
-    """
-    Builds a 1200×630 OG image with the post title baked in.
-    Saves to posts/og/{slug}.png and returns the public URL.
-    No external image download — pure PIL gradient so it never fails.
-    """
     OG_DIR.mkdir(parents=True, exist_ok=True)
     out_path = OG_DIR / f"{slug}.png"
-
     W, H = 1200, 630
 
-    # Dark gradient background
     bg   = Image.new("RGB", (W, H), (10, 10, 20))
     draw = ImageDraw.Draw(bg)
     for y in range(H):
         t = y / H
         draw.rectangle([(0, y), (W, y + 1)], fill=(
-            int(12 + t * 8),
-            int(12 + t * 6),
-            int(28 + t * 18),
+            int(12 + t * 8), int(12 + t * 6), int(28 + t * 18),
         ))
-
-    # Left accent bar
     draw.rectangle([(0, 0), (7, H)], fill=(99, 102, 241))
-
-    # Subtle grid dots for texture
     for gx in range(60, W, 60):
         for gy in range(60, H, 60):
             draw.ellipse([(gx - 1, gy - 1), (gx + 1, gy + 1)], fill=(255, 255, 255, 15))
 
-    # Site badge (pill)
     try:
         badge_font = ImageFont.truetype(FONT_BOLD, 26)
     except Exception:
@@ -439,28 +553,24 @@ def generate_og_image(title: str, slug: str) -> str:
     draw.rounded_rectangle([(48, 44), (375, 92)], radius=8, fill=(99, 102, 241))
     draw.text((68, 54), "sluintel.github.io", font=badge_font, fill="white")
 
-    # Title — wrap and draw
     try:
         title_font = ImageFont.truetype(FONT_BOLD, 60)
     except Exception:
         title_font = ImageFont.load_default()
 
-    max_chars  = 24
-    lines      = textwrap.wrap(title, width=max_chars)[:3]
-    line_h     = 76
-    total_h    = len(lines) * line_h
-    y_start    = max(130, (H - 80 - total_h) // 2)
+    max_chars = 24
+    lines     = textwrap.wrap(title, width=max_chars)[:3]
+    line_h    = 76
+    total_h   = len(lines) * line_h
+    y_start   = max(130, (H - 80 - total_h) // 2)
 
     for i, line in enumerate(lines):
-        # Drop shadow
         draw.text((62, y_start + i * line_h + 2), line, font=title_font, fill=(0, 0, 0, 120))
         draw.text((60, y_start + i * line_h),     line, font=title_font, fill="white")
 
-    # If title was cut (more than 3 lines), add ellipsis on last line
     if len(textwrap.wrap(title, width=max_chars)) > 3:
         draw.text((60, y_start + 2 * line_h), lines[2].rstrip() + "…", font=title_font, fill="white")
 
-    # Bottom bar
     draw.rectangle([(0, H - 72), (W, H)], fill=(18, 18, 35))
     try:
         tag_font = ImageFont.truetype(FONT_REG, 24)
@@ -468,7 +578,6 @@ def generate_og_image(title: str, slug: str) -> str:
         tag_font = ImageFont.load_default()
     draw.text((60, H - 50), "AI Tools & Automation Insights  ·  Sujit Luintel", font=tag_font, fill=(160, 160, 210))
 
-    # Decorative right-side circles
     for cx, cy, cr, alpha in [(1050, 180, 120, 18), (1120, 420, 80, 12), (980, 500, 50, 10)]:
         circle_layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
         cd = ImageDraw.Draw(circle_layer)
@@ -483,7 +592,7 @@ def generate_og_image(title: str, slug: str) -> str:
 
 
 # ─────────────────────────────────────────
-# 5. BUILD POST HTML FILE
+# 6. BUILD POST HTML FILE
 # ─────────────────────────────────────────
 def build_post_html(post, img_url, img_credit, og_image_url, date_str):
     tags_html = "".join(f'<span class="tag">{t}</span>' for t in post["tags"])
@@ -554,11 +663,7 @@ def build_post_html(post, img_url, img_credit, og_image_url, date_str):
           color: #888;
           margin-bottom: .75rem;
         }
-        .share-buttons {
-          display: flex;
-          flex-wrap: wrap;
-          gap: .6rem;
-        }
+        .share-buttons { display: flex; flex-wrap: wrap; gap: .6rem; }
         .share-btn {
           display: inline-flex;
           align-items: center;
@@ -593,8 +698,6 @@ def build_post_html(post, img_url, img_credit, og_image_url, date_str):
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>{post['title']} | Sujit Luintel</title>
   <meta name="description" content="{post['meta_description']}"/>
-
-  <!-- Open Graph -->
   <meta property="og:title"       content="{post['title']}"/>
   <meta property="og:description" content="{post['meta_description']}"/>
   <meta property="og:image"       content="{og_image_url}"/>
@@ -602,13 +705,10 @@ def build_post_html(post, img_url, img_credit, og_image_url, date_str):
   <meta property="og:image:height" content="630"/>
   <meta property="og:type"        content="article"/>
   <meta property="og:url"         content="{post_url}"/>
-
-  <!-- Twitter Card -->
   <meta name="twitter:card"        content="summary_large_image"/>
   <meta name="twitter:title"       content="{post['title']}"/>
   <meta name="twitter:description" content="{post['meta_description']}"/>
   <meta name="twitter:image"       content="{og_image_url}"/>
-
   <link rel="stylesheet" href="../style.css"/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet"/>
@@ -624,10 +724,8 @@ def build_post_html(post, img_url, img_credit, og_image_url, date_str):
       </div>
     </nav>
   </header>
-
   <main class="post-main">
     <article class="post-article">
-
       <div class="post-header">
         <div class="post-meta-top">{tags_html}</div>
         <h1 class="post-title">{post['title']}</h1>
@@ -637,26 +735,20 @@ def build_post_html(post, img_url, img_credit, og_image_url, date_str):
           <span>⏱ {post.get('reading_time', '5 min read')}</span>
         </div>
       </div>
-
       <div class="post-feature-image">
         <img src="{img_url}" alt="{post['title']}" loading="lazy"/>
         <p class="image-credit">{img_credit}</p>
       </div>
-
       <div class="post-content">
         {post['content_html']}
       </div>
-
       {share_buttons}
-
       <div class="post-footer">
         <div class="post-tags"><strong>Tags:</strong> {tags_html}</div>
         <a href="/" class="back-link">← Back to Home</a>
       </div>
-
     </article>
   </main>
-
   <footer class="site-footer">
     <p>© {year} Sujit Luintel · AI Tools &amp; Automation Insights</p>
     <p style="margin-top:.25rem;">Auto-published with AI · Powered by Gemini &amp; GitHub Actions</p>
@@ -666,7 +758,7 @@ def build_post_html(post, img_url, img_credit, og_image_url, date_str):
 
 
 # ─────────────────────────────────────────
-# 6. UPDATE posts.json
+# 7. UPDATE posts.json
 # ─────────────────────────────────────────
 def load_posts():
     if POSTS_JSON.exists():
@@ -691,6 +783,8 @@ def update_posts_json(post, img_url, date_str):
         "image_url":        img_url,
         "reading_time":     post.get("reading_time", "5 min read"),
         "url":              f"posts/{filename}",
+        # ← NEW: persisted so future posts can find and link back to this one
+        "keyword":          post.get("keyword", ""),
     }
     posts.insert(0, entry)
     POSTS_JSON.write_text(json.dumps(posts, indent=2))
@@ -699,7 +793,7 @@ def update_posts_json(post, img_url, date_str):
 
 
 # ─────────────────────────────────────────
-# 7. REGENERATE index.html
+# 8. REGENERATE index.html
 # ─────────────────────────────────────────
 def build_index_html(posts):
     cards = ""
@@ -757,7 +851,6 @@ def build_index_html(posts):
       </div>
     </nav>
   </header>
-
   <section class="hero">
     <div class="hero-content">
       <div class="hero-badge">🤖 Fully Automated AI Blog</div>
@@ -783,7 +876,6 @@ def build_index_html(posts):
       </div>
     </div>
   </section>
-
   <section class="posts-section" id="latest">
     <div class="section-header">
       <h2>Latest Posts</h2>
@@ -793,7 +885,6 @@ def build_index_html(posts):
       {grid_inner}
     </div>
   </section>
-
   <section class="about-section" id="about">
     <div class="about-content">
       <h2>Sujit Luintel</h2>
@@ -801,7 +892,6 @@ def build_index_html(posts):
       <p>Powered by <strong>Gemini AI</strong> · <strong>Google Trends</strong> · <strong>GitHub Actions</strong> · <strong>Pexels</strong> · <strong>Unsplash</strong></p>
     </div>
   </section>
-
   <footer class="site-footer">
     <p>© {year} Sujit Luintel · AI Tools &amp; Automation Insights</p>
     <p style="margin-top:.25rem;">Auto-published with AI · Powered by Gemini &amp; GitHub Actions</p>
@@ -811,18 +901,16 @@ def build_index_html(posts):
 
 
 # ─────────────────────────────────────────
-# 8. REGENERATE sitemap.xml
+# 9. REGENERATE sitemap.xml
 # ─────────────────────────────────────────
 def build_sitemap(posts):
     now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S+00:00")
-
     homepage_block = f"""
 <url>
   <loc>{SITE_URL}/</loc>
   <lastmod>{now_iso}</lastmod>
   <priority>1.00</priority>
 </url>"""
-
     post_blocks = ""
     for p in posts:
         post_blocks += f"""
@@ -831,7 +919,6 @@ def build_sitemap(posts):
   <lastmod>{now_iso}</lastmod>
   <priority>0.80</priority>
 </url>"""
-
     xml = f"""<?xml version="1.0" encoding="UTF-8"?>
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -843,20 +930,18 @@ def build_sitemap(posts):
 {post_blocks}
 
 </urlset>"""
-
     SITEMAP_PATH.write_text(xml.strip(), encoding="utf-8")
     print(f"✅ sitemap.xml updated ({len(posts)} posts + 1 homepage)")
 
 
 # ─────────────────────────────────────────
-# 9. REGENERATE llms.txt
+# 10. REGENERATE llms.txt
 # ─────────────────────────────────────────
 def build_llms_txt(posts):
     today      = datetime.now().strftime("%Y-%m-%d")
     total      = len(posts)
     latest     = posts[0]["title"] if posts else "Coming soon"
     latest_url = f"{SITE_URL}/{posts[0]['url']}" if posts else ""
-
     recent_lines = ""
     for p in posts[:10]:
         tags = ", ".join(p.get("tags", [])[:3])
@@ -907,7 +992,6 @@ Primary Web Presence: https://sluintel.com.np
 AI Blog: {SITE_URL}
 Location: Kathmandu, Nepal
 """
-
     LLMS_PATH.write_text(content.strip(), encoding="utf-8")
     print(f"✅ llms.txt updated ({total} posts)")
 
