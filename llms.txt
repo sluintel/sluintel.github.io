@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 33
+Total Posts Published: 34
 Last Updated: 2026-05-09
-Latest Post: Octagon's New Edge: How AI is Changing Khamzat vs Strickland in 2026
-Latest Post URL: https://sluintel.github.io/posts/2026-05-09-how-ai-is-changing-khamzat-vs-strickland-in-2026.html
+Latest Post: CRA Data Breach Settlement: Your Comprehensive 2026 Guide
+Latest Post URL: https://sluintel.github.io/posts/2026-05-09-cra-data-breach-settlement-guide.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [CRA Data Breach Settlement: Your Comprehensive 2026 Guide](https://sluintel.github.io/posts/2026-05-09-cra-data-breach-settlement-guide.html) — 2026-05-09 — CRA data breach, data privacy, settlement claims
 - [Octagon's New Edge: How AI is Changing Khamzat vs Strickland in 2026](https://sluintel.github.io/posts/2026-05-09-how-ai-is-changing-khamzat-vs-strickland-in-2026.html) — 2026-05-09 — AI in Sports, MMA Analytics, Fighter Training
 - [AI & The Octagon: How AI is Changing Khamzat vs Strickland in 2026](https://sluintel.github.io/posts/2026-05-09-how-ai-is-changing-khamzat-vs-strickland-in-2026.html) — 2026-05-09 — AI in Sports, UFC, MMA
 - [AI & The Octagon: How AI is Changing Khamzat vs Strickland in 2026](https://sluintel.github.io/posts/2026-05-09-how-ai-is-changing-khamzat-vs-strickland-in-2026.html) — 2026-05-09 — AI in MMA, Combat Sports, Sports Analytics
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Hailee Steinfeld's Enduring Stardom: A Deep Dive into Her Unstoppable Career](https://sluintel.github.io/posts/2026-05-09-hailee-steinfeld-unstoppable-career.html) — 2026-05-09 — hailee steinfeld, celebrity analysis, hollywood careers
 - [Sai Pallavi: Unpacking the Phenomenon of South India's Natural Star](https://sluintel.github.io/posts/2026-05-09-sai-pallavi-natural-star-phenomenon.html) — 2026-05-09 — Sai Pallavi, South Indian Cinema, Authenticity
 - [Sai Pallavi's Unscripted Rise: Authenticity in Stardom](https://sluintel.github.io/posts/2026-05-09-sai-pallavi-authenticity-stardom-redefined.html) — 2026-05-09 — Sai Pallavi, South Indian Cinema, Authenticity
-- [Shania Twain: The Enduring Reign of a Country-Pop Icon in 2026](https://sluintel.github.io/posts/2026-05-09-shania-twain-enduring-legacy-icon.html) — 2026-05-09 — Shania Twain, country pop, music industry
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
