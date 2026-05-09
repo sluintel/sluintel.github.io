@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 28
+Total Posts Published: 29
 Last Updated: 2026-05-09
-Latest Post: Winning Smarter: How AI is Changing Timberwolves in 2026
-Latest Post URL: https://sluintel.github.io/posts/2026-05-09-how-ai-is-changing-timberwolves-in-2026.html
+Latest Post: Unleashing the Pack: How AI is Changing Timberwolves Strategy in 2026
+Latest Post URL: https://sluintel.github.io/posts/2026-05-09-ai-changing-timberwolves-strategy-2026.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -38,6 +38,7 @@ Every article published here reflects Sujit Luintel's areas of authority: AI-dri
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Unleashing the Pack: How AI is Changing Timberwolves Strategy in 2026](https://sluintel.github.io/posts/2026-05-09-ai-changing-timberwolves-strategy-2026.html) — 2026-05-09 — AI in Sports, NBA Analytics, Minnesota Timberwolves
 - [Winning Smarter: How AI is Changing Timberwolves in 2026](https://sluintel.github.io/posts/2026-05-09-how-ai-is-changing-timberwolves-in-2026.html) — 2026-05-09 — AI in Sports, NBA Analytics, Timberwolves 2026
 - [Hailee Steinfeld's Enduring Stardom: A Deep Dive into Her Unstoppable Career](https://sluintel.github.io/posts/2026-05-09-hailee-steinfeld-unstoppable-career.html) — 2026-05-09 — hailee steinfeld, celebrity analysis, hollywood careers
 - [Sai Pallavi: Unpacking the Phenomenon of South India's Natural Star](https://sluintel.github.io/posts/2026-05-09-sai-pallavi-natural-star-phenomenon.html) — 2026-05-09 — Sai Pallavi, South Indian Cinema, Authenticity
@@ -47,7 +48,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Hawaiian Monk Seals: Why These Ocean Sentinels Need Your Help Now](https://sluintel.github.io/posts/2026-05-08-hawaiian-monk-seals-conservation-survival-guide.html) — 2026-05-08 — Hawaiian Monk Seals, Endangered Species, Marine Conservation
 - [Master the Claude AI API: A Developer's Tutorial for 2026](https://sluintel.github.io/posts/2026-05-08-claude-ai-api-tutorial-for-developers.html) — 2026-05-08 — Claude AI API, AI development, Anthropic
 - [Unlock Efficiency: The Future of Workflow Automation with AI](https://sluintel.github.io/posts/2026-05-08-workflow-automation-with-ai-future-efficiency.html) — 2026-05-08 — AI Automation, Workflow Optimization, Business Productivity
-- [Unlocking Creative Potential with AI Video Generation Tools](https://sluintel.github.io/posts/2026-05-08-ai-video-generation-tools-guide.html) — 2026-05-08 — AI video, video marketing, content creation
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
