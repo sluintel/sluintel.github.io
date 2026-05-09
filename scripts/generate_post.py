@@ -6,13 +6,16 @@ Runs daily via GitHub Actions
 """
 
 import os
+import io
 import json
 import re
 import random
+import textwrap
 import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
+from PIL import Image, ImageDraw, ImageFont
 from google import genai
 
 # ─────────────────────────────────────────
@@ -20,6 +23,7 @@ from google import genai
 # ─────────────────────────────────────────
 REPO_ROOT    = Path(__file__).parent.parent
 POSTS_DIR    = REPO_ROOT / "posts"
+OG_DIR       = REPO_ROOT / "posts" / "og"
 POSTS_JSON   = REPO_ROOT / "posts.json"
 USED_KW_FILE = REPO_ROOT / "used_keywords.json"
 INDEX_HTML   = REPO_ROOT / "index.html"
@@ -29,10 +33,13 @@ LLMS_PATH    = REPO_ROOT / "llms.txt"
 SITE_URL       = "https://sluintel.github.io"
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 UNSPLASH_KEY   = os.environ.get("UNSPLASH_ACCESS_KEY", "")
+PEXELS_API_KEY = os.environ.get("PEXELS_API_KEY","")
+
+FONT_BOLD = "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf"
+FONT_REG  = "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf"
 
 # ── 40 fallback keywords ──────────────────────────────────────────────────────
 FALLBACK_KEYWORDS = [
-    # Original 20
     "best AI tools 2026",
     "AI automation for small business",
     "ChatGPT vs Claude vs Gemini",
@@ -53,7 +60,6 @@ FALLBACK_KEYWORDS = [
     "AI research tools for students",
     "AI video generation tools",
     "machine learning without coding",
-    # New 20
     "best AI chatbot builders for business",
     "AI tools for social media marketing 2026",
     "AI voice generator tools comparison",
@@ -76,7 +82,6 @@ FALLBACK_KEYWORDS = [
     "how to use AI to write better blog posts",
 ]
 
-# AI/tech signal terms for filtering trending topics
 AI_TECH_TERMS = {
     "ai", "artificial intelligence", "chatgpt", "claude", "gemini",
     "openai", "llm", "automation", "robot", "machine learning",
@@ -87,9 +92,8 @@ AI_TECH_TERMS = {
     "langchain", "rag", "vector", "neural", "deep learning",
 }
 
-# Google Trends RSS feeds — stable public endpoints, no auth needed
-# Each returns ~20 trending topics for that country
 TRENDS_RSS_FEEDS = [
+    ("NP", "https://trends.google.com/trending/rss?geo=NP"),
     ("US", "https://trends.google.com/trending/rss?geo=US"),
     ("GB", "https://trends.google.com/trending/rss?geo=GB"),
     ("IN", "https://trends.google.com/trending/rss?geo=IN"),
@@ -115,39 +119,26 @@ def load_used_keywords():
 def save_used_keyword(kw):
     used = load_used_keywords()
     used.append(kw)
-    # Keep last 80 so we never exhaust the fallback pool
     USED_KW_FILE.write_text(json.dumps(used[-80:], indent=2))
 
 
 def _is_ai_tech(text: str) -> bool:
-    """Return True if text contains at least one AI/tech signal word (whole words only)."""
+    """Whole-word match only — prevents 'hailee' matching 'ai'."""
     words = set(re.findall(r"[a-z0-9]+", text.lower()))
     return bool(words & AI_TECH_TERMS)
 
 
-def fetch_trends_rss(geo: str, url: str) -> list[str]:
-    """
-    Fetch Google Trends RSS for a given country and return a list of
-    trending topic titles.  Returns an empty list on any failure.
-    """
+def fetch_trends_rss(geo: str, url: str) -> list:
     try:
         resp = requests.get(
             url,
-            headers={
-                "User-Agent": (
-                    "Mozilla/5.0 (compatible; SluIntelBot/1.0; "
-                    "+https://sluintel.github.io)"
-                )
-            },
+            headers={"User-Agent": "Mozilla/5.0 (compatible; SluIntelBot/1.0; +https://sluintel.github.io)"},
             timeout=15,
         )
         if resp.status_code != 200:
             print(f"⚠️  Trends RSS ({geo}): HTTP {resp.status_code}")
             return []
-
-        root = ET.fromstring(resp.content)
-        # RSS structure: <rss><channel><item><title>…</title></item>…</channel></rss>
-        ns   = {"ht": "https://trends.google.com/trending/rss"}
+        root  = ET.fromstring(resp.content)
         items = root.findall(".//item")
         titles = []
         for item in items:
@@ -155,7 +146,6 @@ def fetch_trends_rss(geo: str, url: str) -> list[str]:
             if title_el is not None and title_el.text:
                 titles.append(title_el.text.strip())
         return titles
-
     except ET.ParseError as e:
         print(f"⚠️  Trends RSS ({geo}): XML parse error — {e}")
         return []
@@ -165,22 +155,7 @@ def fetch_trends_rss(geo: str, url: str) -> list[str]:
 
 
 def get_trending_keyword() -> str:
-    """
-    Two-strategy approach, then curated fallback.
-
-    Strategy 1 — Google Trends RSS (stable public feed):
-        Checks US, GB, IN, AU, CA in order and returns the first
-        trending topic that contains an AI/tech signal word.
-
-    Strategy 2 — Broader RSS scan (no filter):
-        If no AI topic is found across all countries, picks the
-        first available topic from any country and turns it into
-        an AI-framed blog keyword.
-
-    Fallback — Curated list:
-        Picks a random unused keyword from FALLBACK_KEYWORDS.
-    """
-    all_titles: list[tuple[str, str]] = []   # (country, title)
+    all_titles = []
 
     for geo, url in TRENDS_RSS_FEEDS:
         titles = fetch_trends_rss(geo, url)
@@ -189,20 +164,16 @@ def get_trending_keyword() -> str:
                 print(f"✅ Trending RSS ({geo}): {title}")
                 save_used_keyword(title)
                 return title
-        # Collect non-AI results for Strategy 2
         for title in titles:
             all_titles.append((geo, title))
 
-    # ── Strategy 2: no AI topic found — use first available topic ──────────
     if all_titles:
         geo, title = all_titles[0]
-        # Reframe the topic as an AI/automation angle
         reframed = f"how AI is changing {title.lower()} in 2026"
         print(f"✅ Reframed trending topic ({geo}): {reframed}")
         save_used_keyword(reframed)
         return reframed
 
-    # ── Final fallback: curated keyword list ───────────────────────────────
     used      = load_used_keywords()
     available = [k for k in FALLBACK_KEYWORDS if k not in used]
     if not available:
@@ -300,14 +271,10 @@ Return ONLY a valid JSON object with exactly these keys — no markdown fences, 
     response = client.models.generate_content(
         model="gemini-2.5-flash",
         contents=prompt,
-        config=types.GenerateContentConfig(
-            response_mime_type="application/json"
-        )
+        config=types.GenerateContentConfig(response_mime_type="application/json")
     )
 
     data = json.loads(response.text)
-
-    # Sanitise slug
     data["slug"] = re.sub(r"[^a-z0-9\-]", "", data["slug"].lower().replace(" ", "-"))
     data["slug"] = re.sub(r"-+", "-", data["slug"]).strip("-")
 
@@ -316,7 +283,7 @@ Return ONLY a valid JSON object with exactly these keys — no markdown fences, 
 
 
 # ─────────────────────────────────────────
-# 3. FETCH FEATURE IMAGE LOGIC
+# 3. FETCH FEATURE IMAGE
 # ─────────────────────────────────────────
 def get_feature_image(keyword):
     FALLBACK_IMAGES = [
@@ -329,7 +296,6 @@ def get_feature_image(keyword):
 
     PEXELS_KEY = os.environ.get("PEXELS_API_KEY", "")
 
-    # Build search queries — topic-aware
     base_words = " ".join(keyword.split()[:4])
     primary_q  = (base_words + " technology AI") if _is_ai_tech(keyword) else base_words
     short_q    = " ".join(keyword.split()[:2])
@@ -341,9 +307,6 @@ def get_feature_image(keyword):
             f' on <a href="{platform_url}" target="_blank" rel="noopener">{platform}</a>'
         )
 
-    # ──────────────────────────────────────────────────────────────────────────
-    # SOURCE FIRST: Pexels (requires PEXELS_API_KEY)
-    # ──────────────────────────────────────────────────────────────────────────
     def _pexels(query):
         if not PEXELS_KEY:
             return None
@@ -359,36 +322,20 @@ def get_feature_image(keyword):
                 return None
             photos = r.json().get("photos", [])
             if not photos:
-                print(f"⚠️  Pexels: no results for '{query}'")
                 return None
-            photo   = random.choice(photos)
-            img_url = photo["src"]["large2x"]
-            credit  = _build_credit(
-                photo["photographer"],
-                photo["photographer_url"],
-                "Pexels",
-                "https://www.pexels.com",
+            photo = random.choice(photos)
+            return photo["src"]["large2x"], _build_credit(
+                photo["photographer"], photo["photographer_url"], "Pexels", "https://www.pexels.com"
             )
-            return img_url, credit
         except Exception as e:
             print(f"⚠️  Pexels error: {e}")
             return None
 
-    # ──────────────────────────────────────────────────────────────────────────
-    # SOURCE SECOND: Openverse — no API key required, millions of CC-licensed photos
-    # Docs: https://api.openverse.org/v1/
-    # ──────────────────────────────────────────────────────────────────────────
     def _openverse(query):
         try:
             r = requests.get(
                 "https://api.openverse.org/v1/images/",
-                params={
-                    "q":            query,
-                    "license_type": "commercial",   # safe for blog use
-                    "aspect_ratio": "wide",
-                    "page_size":    10,
-                    "mature":       "false",
-                },
+                params={"q": query, "license_type": "commercial", "aspect_ratio": "wide", "page_size": 10, "mature": "false"},
                 headers={"User-Agent": "SluIntelBot/1.0 (https://sluintel.github.io)"},
                 timeout=10,
             )
@@ -397,40 +344,25 @@ def get_feature_image(keyword):
                 return None
             results = r.json().get("results", [])
             if not results:
-                print(f"⚠️  Openverse: no results for '{query}'")
                 return None
-            photo   = random.choice(results)
-            img_url = photo["url"]
-            creator = photo.get("creator") or "photographer"
-            creator_url = photo.get("creator_url") or "https://openverse.org"
-            foreign_url = photo.get("foreign_landing_url") or "https://openverse.org"
-            credit  = _build_credit(
-                creator,
-                creator_url,
+            photo = random.choice(results)
+            return photo["url"], _build_credit(
+                photo.get("creator") or "photographer",
+                photo.get("creator_url") or "https://openverse.org",
                 "Openverse",
-                foreign_url,
+                photo.get("foreign_landing_url") or "https://openverse.org",
             )
-            return img_url, credit
         except Exception as e:
             print(f"⚠️  Openverse error: {e}")
             return None
 
-    # ──────────────────────────────────────────────────────────────────────────
-    # SOURCE THIRD: Unsplash (requires UNSPLASH_ACCESS_KEY)
-    # ──────────────────────────────────────────────────────────────────────────
     def _unsplash(query):
         if not UNSPLASH_KEY:
             return None
         try:
             r = requests.get(
                 "https://api.unsplash.com/search/photos",
-                params={
-                    "query":          query,
-                    "orientation":    "landscape",
-                    "content_filter": "high",
-                    "per_page":       10,
-                    "order_by":       "relevant",
-                },
+                params={"query": query, "orientation": "landscape", "content_filter": "high", "per_page": 10, "order_by": "relevant"},
                 headers={"Authorization": f"Client-ID {UNSPLASH_KEY}"},
                 timeout=10,
             )
@@ -439,24 +371,18 @@ def get_feature_image(keyword):
                 return None
             results = r.json().get("results", [])
             if not results:
-                print(f"⚠️  Unsplash: no results for '{query}'")
                 return None
-            photo   = random.choice(results)
-            img_url = photo["urls"]["regular"]
-            credit  = _build_credit(
+            photo = random.choice(results)
+            return photo["urls"]["regular"], _build_credit(
                 photo["user"]["name"],
                 photo["links"]["html"] + "?utm_source=sluintel&utm_medium=referral",
                 "Unsplash",
                 "https://unsplash.com?utm_source=sluintel&utm_medium=referral",
             )
-            return img_url, credit
         except Exception as e:
             print(f"⚠️  Unsplash error: {e}")
             return None
 
-    # ──────────────────────────────────────────────────────────────────────────
-    # WATERFALL: Pexels → Openverse → Unsplash, each with 3 query attempts
-    # ──────────────────────────────────────────────────────────────────────────
     for source_name, fn in [("Pexels", _pexels), ("Openverse", _openverse), ("Unsplash", _unsplash)]:
         for query in [primary_q, short_q, broad_q]:
             result = fn(query)
@@ -466,24 +392,196 @@ def get_feature_image(keyword):
                 return img_url, credit
             print(f"↩️  [{source_name}] No result for '{query}', trying next…")
 
-    # ── Hard fallback — only if all 3 sources completely fail ─────────────────
     img    = random.choice(FALLBACK_IMAGES)
     credit = 'Photo from <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a>'
     print("⚠️  All sources failed — using hardcoded fallback image")
     return img, credit
 
+
 # ─────────────────────────────────────────
-# 4. BUILD POST HTML FILE
+# 4. GENERATE OG IMAGE (1200×630)
 # ─────────────────────────────────────────
-def build_post_html(post, img_url, img_credit, date_str):
+def generate_og_image(title: str, slug: str) -> str:
+    """
+    Builds a 1200×630 OG image with the post title baked in.
+    Saves to posts/og/{slug}.png and returns the public URL.
+    No external image download — pure PIL gradient so it never fails.
+    """
+    OG_DIR.mkdir(parents=True, exist_ok=True)
+    out_path = OG_DIR / f"{slug}.png"
+
+    W, H = 1200, 630
+
+    # Dark gradient background
+    bg   = Image.new("RGB", (W, H), (10, 10, 20))
+    draw = ImageDraw.Draw(bg)
+    for y in range(H):
+        t = y / H
+        draw.rectangle([(0, y), (W, y + 1)], fill=(
+            int(12 + t * 8),
+            int(12 + t * 6),
+            int(28 + t * 18),
+        ))
+
+    # Left accent bar
+    draw.rectangle([(0, 0), (7, H)], fill=(99, 102, 241))
+
+    # Subtle grid dots for texture
+    for gx in range(60, W, 60):
+        for gy in range(60, H, 60):
+            draw.ellipse([(gx - 1, gy - 1), (gx + 1, gy + 1)], fill=(255, 255, 255, 15))
+
+    # Site badge (pill)
+    try:
+        badge_font = ImageFont.truetype(FONT_BOLD, 26)
+    except Exception:
+        badge_font = ImageFont.load_default()
+    draw.rounded_rectangle([(48, 44), (375, 92)], radius=8, fill=(99, 102, 241))
+    draw.text((68, 54), "sluintel.github.io", font=badge_font, fill="white")
+
+    # Title — wrap and draw
+    try:
+        title_font = ImageFont.truetype(FONT_BOLD, 60)
+    except Exception:
+        title_font = ImageFont.load_default()
+
+    max_chars  = 24
+    lines      = textwrap.wrap(title, width=max_chars)[:3]
+    line_h     = 76
+    total_h    = len(lines) * line_h
+    y_start    = max(130, (H - 80 - total_h) // 2)
+
+    for i, line in enumerate(lines):
+        # Drop shadow
+        draw.text((62, y_start + i * line_h + 2), line, font=title_font, fill=(0, 0, 0, 120))
+        draw.text((60, y_start + i * line_h),     line, font=title_font, fill="white")
+
+    # If title was cut (more than 3 lines), add ellipsis on last line
+    if len(textwrap.wrap(title, width=max_chars)) > 3:
+        draw.text((60, y_start + 2 * line_h), lines[2].rstrip() + "…", font=title_font, fill="white")
+
+    # Bottom bar
+    draw.rectangle([(0, H - 72), (W, H)], fill=(18, 18, 35))
+    try:
+        tag_font = ImageFont.truetype(FONT_REG, 24)
+    except Exception:
+        tag_font = ImageFont.load_default()
+    draw.text((60, H - 50), "AI Tools & Automation Insights  ·  Sujit Luintel", font=tag_font, fill=(160, 160, 210))
+
+    # Decorative right-side circles
+    for cx, cy, cr, alpha in [(1050, 180, 120, 18), (1120, 420, 80, 12), (980, 500, 50, 10)]:
+        circle_layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        cd = ImageDraw.Draw(circle_layer)
+        cd.ellipse([(cx - cr, cy - cr), (cx + cr, cy + cr)], outline=(99, 102, 241, alpha), width=2)
+        bg = Image.alpha_composite(bg.convert("RGBA"), circle_layer).convert("RGB")
+        draw = ImageDraw.Draw(bg)
+
+    bg.save(str(out_path), "PNG", optimize=True)
+    og_url = f"{SITE_URL}/posts/og/{slug}.png"
+    print(f"✅ OG image saved → posts/og/{slug}.png")
+    return og_url
+
+
+# ─────────────────────────────────────────
+# 5. BUILD POST HTML FILE
+# ─────────────────────────────────────────
+def build_post_html(post, img_url, img_credit, og_image_url, date_str):
     tags_html = "".join(f'<span class="tag">{t}</span>' for t in post["tags"])
     date_nice = datetime.strptime(date_str, "%Y-%m-%d").strftime("%B %d, %Y")
     year      = datetime.now().year
+    post_url  = f"{SITE_URL}/posts/{date_str}-{post['slug']}.html"
+    title_enc = requests.utils.quote(post["title"])
+    url_enc   = requests.utils.quote(post_url)
+
+    share_buttons = f"""
+      <div class="share-section">
+        <p class="share-label">Share this post</p>
+        <div class="share-buttons">
+          <a class="share-btn share-x"
+             href="https://twitter.com/intent/tweet?text={title_enc}&url={url_enc}"
+             target="_blank" rel="noopener" aria-label="Share on X">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.742l7.732-8.855L2.25 2.25h6.918l4.274 5.648 5.802-5.648Zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+            </svg>
+            Share on X
+          </a>
+          <a class="share-btn share-linkedin"
+             href="https://www.linkedin.com/shareArticle?mini=true&url={url_enc}&title={title_enc}"
+             target="_blank" rel="noopener" aria-label="Share on LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+            LinkedIn
+          </a>
+          <a class="share-btn share-facebook"
+             href="https://www.facebook.com/sharer/sharer.php?u={url_enc}"
+             target="_blank" rel="noopener" aria-label="Share on Facebook">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+            </svg>
+            Facebook
+          </a>
+          <button class="share-btn share-copy" onclick="copyLink()" aria-label="Copy link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            <span id="copy-label">Copy Link</span>
+          </button>
+        </div>
+      </div>
+      <script>
+        function copyLink() {{
+          navigator.clipboard.writeText("{post_url}").then(function() {{
+            var el = document.getElementById("copy-label");
+            el.textContent = "Copied!";
+            setTimeout(function() {{ el.textContent = "Copy Link"; }}, 2000);
+          }});
+        }}
+      </script>"""
+
+    share_css = """
+      <style>
+        .share-section {
+          margin: 2.5rem 0 1.5rem;
+          padding-top: 2rem;
+          border-top: 1px solid rgba(255,255,255,0.08);
+        }
+        .share-label {
+          font-size: .8rem;
+          text-transform: uppercase;
+          letter-spacing: .1em;
+          color: #888;
+          margin-bottom: .75rem;
+        }
+        .share-buttons {
+          display: flex;
+          flex-wrap: wrap;
+          gap: .6rem;
+        }
+        .share-btn {
+          display: inline-flex;
+          align-items: center;
+          gap: .45rem;
+          padding: .5rem 1rem;
+          border-radius: 6px;
+          font-size: .85rem;
+          font-weight: 500;
+          text-decoration: none;
+          cursor: pointer;
+          border: none;
+          transition: opacity .15s, transform .1s;
+        }
+        .share-btn:hover { opacity: .85; transform: translateY(-1px); }
+        .share-x        { background: #000; color: #fff; }
+        .share-linkedin { background: #0a66c2; color: #fff; }
+        .share-facebook { background: #1877f2; color: #fff; }
+        .share-copy     { background: #374151; color: #fff; }
+      </style>"""
 
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-WJEQKLB827"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -495,13 +593,26 @@ def build_post_html(post, img_url, img_credit, date_str):
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>{post['title']} | Sujit Luintel</title>
   <meta name="description" content="{post['meta_description']}"/>
-  <meta property="og:title" content="{post['title']}"/>
+
+  <!-- Open Graph -->
+  <meta property="og:title"       content="{post['title']}"/>
   <meta property="og:description" content="{post['meta_description']}"/>
-  <meta property="og:image" content="{img_url}"/>
-  <meta property="og:type" content="article"/>
+  <meta property="og:image"       content="{og_image_url}"/>
+  <meta property="og:image:width"  content="1200"/>
+  <meta property="og:image:height" content="630"/>
+  <meta property="og:type"        content="article"/>
+  <meta property="og:url"         content="{post_url}"/>
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image"/>
+  <meta name="twitter:title"       content="{post['title']}"/>
+  <meta name="twitter:description" content="{post['meta_description']}"/>
+  <meta name="twitter:image"       content="{og_image_url}"/>
+
   <link rel="stylesheet" href="../style.css"/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet"/>
+  {share_css}
 </head>
 <body>
   <header class="site-header">
@@ -536,6 +647,8 @@ def build_post_html(post, img_url, img_credit, date_str):
         {post['content_html']}
       </div>
 
+      {share_buttons}
+
       <div class="post-footer">
         <div class="post-tags"><strong>Tags:</strong> {tags_html}</div>
         <a href="/" class="back-link">← Back to Home</a>
@@ -553,7 +666,7 @@ def build_post_html(post, img_url, img_credit, date_str):
 
 
 # ─────────────────────────────────────────
-# 5. UPDATE posts.json
+# 6. UPDATE posts.json
 # ─────────────────────────────────────────
 def load_posts():
     if POSTS_JSON.exists():
@@ -562,7 +675,7 @@ def load_posts():
             if content:
                 return json.loads(content)
         except (json.JSONDecodeError, ValueError):
-            print("⚠️  posts.json was malformed — starting fresh (existing post files are unaffected)")
+            print("⚠️  posts.json was malformed — starting fresh")
     return []
 
 
@@ -586,7 +699,7 @@ def update_posts_json(post, img_url, date_str):
 
 
 # ─────────────────────────────────────────
-# 6. REGENERATE index.html
+# 7. REGENERATE index.html
 # ─────────────────────────────────────────
 def build_index_html(posts):
     cards = ""
@@ -616,7 +729,6 @@ def build_index_html(posts):
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-WJEQKLB827"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -636,7 +748,6 @@ def build_index_html(posts):
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet"/>
 </head>
 <body>
-
   <header class="site-header">
     <nav class="nav-container">
       <a href="/" class="logo">Sujit<span>Luintel</span></a>
@@ -687,7 +798,7 @@ def build_index_html(posts):
     <div class="about-content">
       <h2>Sujit Luintel</h2>
       <p>This is a fully automated AI blog that discovers trending topics in AI and automation, writes insightful articles, and publishes them — every single day, with zero human intervention.</p>
-      <p>Powered by <strong>Gemini AI</strong> · <strong>Google Trends</strong> · <strong>GitHub Actions</strong> · <strong>Unsplash</strong></p>
+      <p>Powered by <strong>Gemini AI</strong> · <strong>Google Trends</strong> · <strong>GitHub Actions</strong> · <strong>Pexels</strong> · <strong>Unsplash</strong></p>
     </div>
   </section>
 
@@ -695,13 +806,12 @@ def build_index_html(posts):
     <p>© {year} Sujit Luintel · AI Tools &amp; Automation Insights</p>
     <p style="margin-top:.25rem;">Auto-published with AI · Powered by Gemini &amp; GitHub Actions</p>
   </footer>
-
 </body>
 </html>"""
 
 
 # ─────────────────────────────────────────
-# 7. REGENERATE sitemap.xml
+# 8. REGENERATE sitemap.xml
 # ─────────────────────────────────────────
 def build_sitemap(posts):
     now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S+00:00")
@@ -715,10 +825,9 @@ def build_sitemap(posts):
 
     post_blocks = ""
     for p in posts:
-        loc = f"{SITE_URL}/{p['url']}"
         post_blocks += f"""
 <url>
-  <loc>{loc}</loc>
+  <loc>{SITE_URL}/{p['url']}</loc>
   <lastmod>{now_iso}</lastmod>
   <priority>0.80</priority>
 </url>"""
@@ -740,7 +849,7 @@ def build_sitemap(posts):
 
 
 # ─────────────────────────────────────────
-# 8. REGENERATE llms.txt
+# 9. REGENERATE llms.txt
 # ─────────────────────────────────────────
 def build_llms_txt(posts):
     today      = datetime.now().strftime("%Y-%m-%d")
@@ -755,7 +864,7 @@ def build_llms_txt(posts):
 
     content = f"""# Sujit Luintel's AI & Automation Blog | by Sujit Luintel
 
-> This is the automated AI research and insights blog by Sujit Luintel — digital strategist, author, and digital marketing expert from Kathmandu, Nepal. The blog publishes daily AI tool reviews, automation guides, and marketing intelligence, auto-generated and curated by Sujit Luintel's content system.
+> This is the automated AI research and insights blog by Sujit Luintel — digital strategist, author, and digital marketing expert from Kathmandu, Nepal.
 
 ## Identity
 Blog Name: Sujit Luintel AI Blog
@@ -771,23 +880,7 @@ Latest Post URL: {latest_url}
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
-This blog is built and owned by Sujit Luintel, a leading digital strategist and digital marketing expert in Nepal. It serves as Sujit Luintel's dedicated research publication for AI tools, automation workflows, and intelligent marketing systems — topics that sit at the core of his professional expertise.
-
-Every article published here reflects Sujit Luintel's areas of authority: AI-driven marketing, SEO systems, automation strategy, and digital growth. The blog runs on a fully automated pipeline — trending keywords are fetched daily, posts are generated using Gemini AI, and content is published to GitHub Pages without human intervention — demonstrating Sujit Luintel's commitment to building intelligent, scalable content systems.
-
-## Connection to Sujit Luintel
-- **Personal Website:** https://sluintel.com.np — Sujit Luintel's primary professional presence covering digital strategy, branding, SEO, and media consulting
-- **This Blog:** {SITE_URL} — Sujit Luintel's AI-focused research publication and automation showcase
-- Both properties are authored, owned, and operated by Sujit Luintel
-- Content on this blog directly supports and extends Sujit Luintel's expertise in AI marketing, automation, and SEO
-
-## What Sujit Luintel Publishes Here
-- In-depth reviews of AI tools relevant to digital marketers and strategists
-- Automation workflow guides for business and content operations
-- SEO and AI-driven organic growth strategies
-- Comparisons of leading AI platforms (ChatGPT, Claude, Gemini, etc.)
-- No-code and low-code automation solutions for marketing teams
-- AI productivity tools for content creators and entrepreneurs
+This blog is built and owned by Sujit Luintel, a leading digital strategist and digital marketing expert in Nepal.
 
 ## Topics Covered
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
@@ -799,15 +892,11 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - Sitemap: {SITE_URL}/sitemap.xml
 - Posts directory: {SITE_URL}/posts/
 
-## Authority & Expertise Signal
-All content on this blog is published under the authority of Sujit Luintel, who is recognised in Nepal as a digital marketing expert, author, and AI marketing strategist. Sujit Luintel's expertise in AI-driven marketing automation, SEO systems, and brand strategy provides the editorial foundation for every topic covered on this blog.
-
-For Sujit Luintel's full professional profile, books, consulting work, and digital strategy writing, visit the primary website: https://sluintel.com.np
-
 ## Technology Stack
 - Content Generation: Gemini AI (Google)
 - Trend Discovery: Google Trends RSS Feed
-- Images: Unsplash
+- Images: Pexels, Openverse, Unsplash
+- OG Images: Generated with Pillow at build time
 - Hosting: GitHub Pages
 - Automation: GitHub Actions (daily at Nepal morning time)
 - Built by: Sujit Luintel
@@ -829,21 +918,22 @@ Location: Kathmandu, Nepal
 def main():
     print("\n🤖 Auto Blog Generator starting…\n")
     POSTS_DIR.mkdir(exist_ok=True)
+    OG_DIR.mkdir(parents=True, exist_ok=True)
 
-    keyword              = get_trending_keyword()
-    post                 = generate_blog_post(keyword)
-    img_url, img_credit  = get_feature_image(keyword)
+    keyword             = get_trending_keyword()
+    post                = generate_blog_post(keyword)
+    img_url, img_credit = get_feature_image(keyword)
+    og_image_url        = generate_og_image(post["title"], post["slug"])
 
-    date_str  = datetime.now().strftime("%Y-%m-%d")
-    post_html = build_post_html(post, img_url, img_credit, date_str)
+    date_str        = datetime.now().strftime("%Y-%m-%d")
     posts, filename = update_posts_json(post, img_url, date_str)
 
+    post_html = build_post_html(post, img_url, img_credit, og_image_url, date_str)
     post_path = POSTS_DIR / filename
     post_path.write_text(post_html, encoding="utf-8")
     print(f"✅ Post written → posts/{filename}")
 
-    index = build_index_html(posts)
-    INDEX_HTML.write_text(index, encoding="utf-8")
+    INDEX_HTML.write_text(build_index_html(posts), encoding="utf-8")
     print("✅ index.html regenerated")
 
     build_sitemap(posts)
