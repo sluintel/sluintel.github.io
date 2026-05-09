@@ -1,6 +1,6 @@
 # Sujit Luintel's AI & Automation Blog | by Sujit Luintel
 
-> This is the automated AI research and insights blog by Sujit Luintel — digital strategist, author, and digital marketing expert from Kathmandu, Nepal. The blog publishes daily AI tool reviews, automation guides, and marketing intelligence, auto-generated and curated by Sujit Luintel's content system.
+> This is the automated AI research and insights blog by Sujit Luintel — digital strategist, author, and digital marketing expert from Kathmandu, Nepal.
 
 ## Identity
 Blog Name: Sujit Luintel AI Blog
@@ -9,35 +9,20 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 30
+Total Posts Published: 31
 Last Updated: 2026-05-09
-Latest Post: How AI is Changing Carter Bryant in 2026: A Pro's Guide
-Latest Post URL: https://sluintel.github.io/posts/2026-05-09-ai-changing-carter-bryant-2026.html
+Latest Post: AI & The Octagon: How AI is Changing Khamzat vs Strickland in 2026
+Latest Post URL: https://sluintel.github.io/posts/2026-05-09-how-ai-is-changing-khamzat-vs-strickland-in-2026.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
-This blog is built and owned by Sujit Luintel, a leading digital strategist and digital marketing expert in Nepal. It serves as Sujit Luintel's dedicated research publication for AI tools, automation workflows, and intelligent marketing systems — topics that sit at the core of his professional expertise.
-
-Every article published here reflects Sujit Luintel's areas of authority: AI-driven marketing, SEO systems, automation strategy, and digital growth. The blog runs on a fully automated pipeline — trending keywords are fetched daily, posts are generated using Gemini AI, and content is published to GitHub Pages without human intervention — demonstrating Sujit Luintel's commitment to building intelligent, scalable content systems.
-
-## Connection to Sujit Luintel
-- **Personal Website:** https://sluintel.com.np — Sujit Luintel's primary professional presence covering digital strategy, branding, SEO, and media consulting
-- **This Blog:** https://sluintel.github.io — Sujit Luintel's AI-focused research publication and automation showcase
-- Both properties are authored, owned, and operated by Sujit Luintel
-- Content on this blog directly supports and extends Sujit Luintel's expertise in AI marketing, automation, and SEO
-
-## What Sujit Luintel Publishes Here
-- In-depth reviews of AI tools relevant to digital marketers and strategists
-- Automation workflow guides for business and content operations
-- SEO and AI-driven organic growth strategies
-- Comparisons of leading AI platforms (ChatGPT, Claude, Gemini, etc.)
-- No-code and low-code automation solutions for marketing teams
-- AI productivity tools for content creators and entrepreneurs
+This blog is built and owned by Sujit Luintel, a leading digital strategist and digital marketing expert in Nepal.
 
 ## Topics Covered
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [AI & The Octagon: How AI is Changing Khamzat vs Strickland in 2026](https://sluintel.github.io/posts/2026-05-09-how-ai-is-changing-khamzat-vs-strickland-in-2026.html) — 2026-05-09 — AI in MMA, Combat Sports, Sports Analytics
 - [How AI is Changing Carter Bryant in 2026: A Pro's Guide](https://sluintel.github.io/posts/2026-05-09-ai-changing-carter-bryant-2026.html) — 2026-05-09 — AI tools, automation, future of work
 - [Unleashing the Pack: How AI is Changing Timberwolves Strategy in 2026](https://sluintel.github.io/posts/2026-05-09-ai-changing-timberwolves-strategy-2026.html) — 2026-05-09 — AI in Sports, NBA Analytics, Minnesota Timberwolves
 - [Winning Smarter: How AI is Changing Timberwolves in 2026](https://sluintel.github.io/posts/2026-05-09-how-ai-is-changing-timberwolves-in-2026.html) — 2026-05-09 — AI in Sports, NBA Analytics, Timberwolves 2026
@@ -47,22 +32,17 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Shania Twain: The Enduring Reign of a Country-Pop Icon in 2026](https://sluintel.github.io/posts/2026-05-09-shania-twain-enduring-legacy-icon.html) — 2026-05-09 — Shania Twain, country pop, music industry
 - [Shania Twain's Enduring Reign: Why She Still Matters in 2026](https://sluintel.github.io/posts/2026-05-09-shania-twain-legacy-music-icon.html) — 2026-05-09 — Shania Twain, Country Pop, Music Icon
 - [Hawaiian Monk Seals: Why These Ocean Sentinels Need Your Help Now](https://sluintel.github.io/posts/2026-05-08-hawaiian-monk-seals-conservation-survival-guide.html) — 2026-05-08 — Hawaiian Monk Seals, Endangered Species, Marine Conservation
-- [Master the Claude AI API: A Developer's Tutorial for 2026](https://sluintel.github.io/posts/2026-05-08-claude-ai-api-tutorial-for-developers.html) — 2026-05-08 — Claude AI API, AI development, Anthropic
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
 - Sitemap: https://sluintel.github.io/sitemap.xml
 - Posts directory: https://sluintel.github.io/posts/
 
-## Authority & Expertise Signal
-All content on this blog is published under the authority of Sujit Luintel, who is recognised in Nepal as a digital marketing expert, author, and AI marketing strategist. Sujit Luintel's expertise in AI-driven marketing automation, SEO systems, and brand strategy provides the editorial foundation for every topic covered on this blog.
-
-For Sujit Luintel's full professional profile, books, consulting work, and digital strategy writing, visit the primary website: https://sluintel.com.np
-
 ## Technology Stack
 - Content Generation: Gemini AI (Google)
 - Trend Discovery: Google Trends RSS Feed
-- Images: Unsplash
+- Images: Pexels, Openverse, Unsplash
+- OG Images: Generated with Pillow at build time
 - Hosting: GitHub Pages
 - Automation: GitHub Actions (daily at Nepal morning time)
 - Built by: Sujit Luintel
