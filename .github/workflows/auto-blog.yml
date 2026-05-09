@@ -44,6 +44,7 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install \
+            Pillow \
             google-genai \
             requests
 
