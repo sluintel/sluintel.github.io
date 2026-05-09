@@ -329,7 +329,12 @@ def get_feature_image(keyword):
 
     if UNSPLASH_KEY:
         try:
-            q = " ".join(keyword.split()[:3]) + " technology AI"
+            # Build a query that actually reflects the keyword topic.
+            # Only append "technology AI" if the keyword itself is AI/tech related —
+            # otherwise use the raw keyword words so the image matches the content.
+            base_words = " ".join(keyword.split()[:4])
+            q = (base_words + " technology AI") if _is_ai_tech(keyword) else base_words
+
             r = requests.get(
                 "https://api.unsplash.com/photos/random",
                 params={"query": q, "orientation": "landscape", "content_filter": "high"},
@@ -347,8 +352,10 @@ def get_feature_image(keyword):
                     f'<a href="https://unsplash.com?utm_source=sluintel&utm_medium=referral"'
                     f' target="_blank" rel="noopener">Unsplash</a>'
                 )
-                print(f"✅ Image by {name} from Unsplash")
+                print(f"✅ Image for '{q}' by {name} from Unsplash")
                 return img_url, credit
+            else:
+                print(f"⚠️  Unsplash returned HTTP {r.status_code}")
         except Exception as e:
             print(f"⚠️  Unsplash error: {e}")
 
