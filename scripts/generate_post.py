@@ -120,9 +120,9 @@ def save_used_keyword(kw):
 
 
 def _is_ai_tech(text: str) -> bool:
-    """Return True if text contains at least one AI/tech signal word."""
-    lower = text.lower()
-    return any(term in lower for term in AI_TECH_TERMS)
+    """Return True if text contains at least one AI/tech signal word (whole words only)."""
+    words = set(re.findall(r"[a-z0-9]+", text.lower()))
+    return bool(words & AI_TECH_TERMS)
 
 
 def fetch_trends_rss(geo: str, url: str) -> list[str]:
