@@ -327,43 +327,79 @@ def get_feature_image(keyword):
         "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&auto=format&fit=crop",
     ]
 
-    if UNSPLASH_KEY:
-        try:
-            # Build a query that actually reflects the keyword topic.
-            # Only append "technology AI" if the keyword itself is AI/tech related —
-            # otherwise use the raw keyword words so the image matches the content.
-            base_words = " ".join(keyword.split()[:4])
-            q = (base_words + " technology AI") if _is_ai_tech(keyword) else base_words
+    def _build_credit(photo: dict) -> str:
+        name = photo["user"]["name"]
+        link = photo["links"]["html"]
+        return (
+            f'Photo by <a href="{link}?utm_source=sluintel&utm_medium=referral"'
+            f' target="_blank" rel="noopener">{name}</a> on '
+            f'<a href="https://unsplash.com?utm_source=sluintel&utm_medium=referral"'
+            f' target="_blank" rel="noopener">Unsplash</a>'
+        )
 
+    def _search(query: str, per_page: int = 10) -> dict | None:
+        """
+        Search Unsplash for `query` and return one photo dict, or None.
+        Uses /search/photos which always returns results (unlike /photos/random
+        which 404s when no image matches the query).
+        Picks randomly from the top `per_page` results so images vary over time.
+        """
+        try:
             r = requests.get(
-                "https://api.unsplash.com/photos/random",
-                params={"query": q, "orientation": "landscape", "content_filter": "high"},
+                "https://api.unsplash.com/search/photos",
+                params={
+                    "query": query,
+                    "orientation": "landscape",
+                    "content_filter": "high",
+                    "per_page": per_page,
+                    "order_by": "relevant",
+                },
                 headers={"Authorization": f"Client-ID {UNSPLASH_KEY}"},
                 timeout=10,
             )
-            if r.status_code == 200:
-                d = r.json()
-                img_url = d["urls"]["regular"]
-                name    = d["user"]["name"]
-                link    = d["links"]["html"]
-                credit  = (
-                    f'Photo by <a href="{link}?utm_source=sluintel&utm_medium=referral"'
-                    f' target="_blank" rel="noopener">{name}</a> on '
-                    f'<a href="https://unsplash.com?utm_source=sluintel&utm_medium=referral"'
-                    f' target="_blank" rel="noopener">Unsplash</a>'
-                )
-                print(f"✅ Image for '{q}' by {name} from Unsplash")
-                return img_url, credit
-            else:
-                print(f"⚠️  Unsplash returned HTTP {r.status_code}")
+            if r.status_code != 200:
+                print(f"⚠️  Unsplash search HTTP {r.status_code} for '{query}'")
+                return None
+            results = r.json().get("results", [])
+            if not results:
+                print(f"⚠️  Unsplash: no results for '{query}'")
+                return None
+            return random.choice(results)
         except Exception as e:
             print(f"⚠️  Unsplash error: {e}")
+            return None
 
+    if UNSPLASH_KEY:
+        # Build the primary query — topic-aware, not always AI-branded
+        base_words = " ".join(keyword.split()[:4])
+        primary_q  = (base_words + " technology AI") if _is_ai_tech(keyword) else base_words
+
+        # Try 1: specific keyword query
+        photo = _search(primary_q)
+
+        # Try 2: stripped-down 2-word query (avoids over-specific misses)
+        if not photo:
+            short_q = " ".join(keyword.split()[:2])
+            print(f"↩️  Retrying with shorter query: '{short_q}'")
+            photo = _search(short_q)
+
+        # Try 3: guaranteed broad fallback that always has results
+        if not photo:
+            broad_q = "artificial intelligence technology" if _is_ai_tech(keyword) else "business productivity"
+            print(f"↩️  Retrying with broad fallback: '{broad_q}'")
+            photo = _search(broad_q)
+
+        if photo:
+            img_url = photo["urls"]["regular"]
+            credit  = _build_credit(photo)
+            print(f"✅ Image fetched from Unsplash for '{primary_q}'")
+            return img_url, credit
+
+    # Hard fallback — only reached if UNSPLASH_KEY is missing or all 3 tries fail
     img    = random.choice(FALLBACK_IMAGES)
     credit = 'Photo from <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a>'
     print("✅ Using fallback image")
     return img, credit
-
 
 # ─────────────────────────────────────────
 # 4. BUILD POST HTML FILE
