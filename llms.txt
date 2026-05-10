@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 48
+Total Posts Published: 49
 Last Updated: 2026-05-10
-Latest Post: How AI is Changing Anshul Kamboj in 2026: A Personal AI Revolution
-Latest Post URL: https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-anshul-kamboj-in-2026.html
+Latest Post: How AI is Changing Shivam Dube in 2026: The Data-Driven Cricketer
+Latest Post URL: https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-shivam-dube-in-2026.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [How AI is Changing Shivam Dube in 2026: The Data-Driven Cricketer](https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-shivam-dube-in-2026.html) — 2026-05-10 — AI in Sports, Cricket Analytics, Shivam Dube
 - [How AI is Changing Anshul Kamboj in 2026: A Personal AI Revolution](https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-anshul-kamboj-in-2026.html) — 2026-05-10 — AI impact, personal AI, career growth
 - [How AI is Changing Mallorca vs Villarreal in 2026: The Tactical Revolution](https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-mallorca-vs-villarreal-in-2026.html) — 2026-05-10 — AI in Football, La Liga, Football Analytics
 - [How AI is Changing Verona vs Como in 2026: The New Football Edge](https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-verona-vs-como-in-2026.html) — 2026-05-10 — AI in Football, Sports Analytics, Serie B
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [How AI is Changing Kulpatis in 2026: The Future of University Leadership](https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-kulpatis-in-2026.html) — 2026-05-10 — AI in Education, University Leadership, Academic Administration
 - [AI & Kulapati in 2026: Redefining University Leadership](https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-kulapati-in-2026.html) — 2026-05-10 — AI in Education, Higher Education, University Leadership
 - [How AI is Changing Joshua Van in 2026: The Unseen Edge](https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-joshua-van-in-2026.html) — 2026-05-10 — AI in Sports, Joshua Van, Athlete Performance
-- [AI & NBA: How AI is Changing Lakers vs Thunder in 2026](https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-lakers-vs-thunder-in-2026.html) — 2026-05-10 — AI in Sports, NBA Analytics, Lakers
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
