@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 39
+Total Posts Published: 40
 Last Updated: 2026-05-10
-Latest Post: AI & NBA: How AI is Changing Lakers vs Thunder in 2026
-Latest Post URL: https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-lakers-vs-thunder-in-2026.html
+Latest Post: How AI is Changing Joshua Van in 2026: The Unseen Edge
+Latest Post URL: https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-joshua-van-in-2026.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [How AI is Changing Joshua Van in 2026: The Unseen Edge](https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-joshua-van-in-2026.html) — 2026-05-10 — AI in Sports, Joshua Van, Athlete Performance
 - [AI & NBA: How AI is Changing Lakers vs Thunder in 2026](https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-lakers-vs-thunder-in-2026.html) — 2026-05-10 — AI in Sports, NBA Analytics, Lakers
 - [AI in La Liga: How AI is Changing Real Sociedad vs Real Betis in 2026](https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-real-sociedad-vs-real-betis-in-2026.html) — 2026-05-10 — AI in Sports, Football Analytics, La Liga
 - [AI in Cricket: How AI is Changing GT vs RR in 2026's IPL](https://sluintel.github.io/posts/2026-05-09-how-ai-is-changing-gt-vs-rr-in-2026.html) — 2026-05-09 — AI in Sports, Cricket Analytics, IPL 2026
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Octagon's New Edge: How AI is Changing Khamzat vs Strickland in 2026](https://sluintel.github.io/posts/2026-05-09-how-ai-is-changing-khamzat-vs-strickland-in-2026.html) — 2026-05-09 — AI in Sports, MMA Analytics, Fighter Training
 - [AI & The Octagon: How AI is Changing Khamzat vs Strickland in 2026](https://sluintel.github.io/posts/2026-05-09-how-ai-is-changing-khamzat-vs-strickland-in-2026.html) — 2026-05-09 — AI in Sports, UFC, MMA
 - [AI & The Octagon: How AI is Changing Khamzat vs Strickland in 2026](https://sluintel.github.io/posts/2026-05-09-how-ai-is-changing-khamzat-vs-strickland-in-2026.html) — 2026-05-09 — AI in MMA, Combat Sports, Sports Analytics
-- [How AI is Changing Carter Bryant in 2026: A Pro's Guide](https://sluintel.github.io/posts/2026-05-09-ai-changing-carter-bryant-2026.html) — 2026-05-09 — AI tools, automation, future of work
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
