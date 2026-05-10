@@ -9,7 +9,7 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 42
+Total Posts Published: 43
 Last Updated: 2026-05-10
 Latest Post: How AI is Changing Kulpatis in 2026: The Future of University Leadership
 Latest Post URL: https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-kulpatis-in-2026.html
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [How AI is Changing Kulpatis in 2026: The Future of University Leadership](https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-kulpatis-in-2026.html) — 2026-05-10 — AI in Education, University Leadership, Higher Ed Tech
 - [How AI is Changing Kulpatis in 2026: The Future of University Leadership](https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-kulpatis-in-2026.html) — 2026-05-10 — AI in Education, University Leadership, Academic Administration
 - [AI & Kulapati in 2026: Redefining University Leadership](https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-kulapati-in-2026.html) — 2026-05-10 — AI in Education, Higher Education, University Leadership
 - [How AI is Changing Joshua Van in 2026: The Unseen Edge](https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-joshua-van-in-2026.html) — 2026-05-10 — AI in Sports, Joshua Van, Athlete Performance
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [How AI is Changing Federico Valverde in 2026: The Data Edge](https://sluintel.github.io/posts/2026-05-09-how-ai-is-changing-federico-valverde-in-2026.html) — 2026-05-09 — AI in Sports, Football Analytics, Federico Valverde
 - [Love, Lies & Algorithms: How AI is Changing MTV Splitsvilla 16 in 2026](https://sluintel.github.io/posts/2026-05-09-how-ai-is-changing-mtv-splitsvilla-16-in-2026.html) — 2026-05-09 — AI in Entertainment, Reality TV, MTV Splitsvilla
 - [CRA Data Breach Settlement: Your Comprehensive 2026 Guide](https://sluintel.github.io/posts/2026-05-09-cra-data-breach-settlement-guide.html) — 2026-05-09 — CRA data breach, data privacy, settlement claims
-- [Octagon's New Edge: How AI is Changing Khamzat vs Strickland in 2026](https://sluintel.github.io/posts/2026-05-09-how-ai-is-changing-khamzat-vs-strickland-in-2026.html) — 2026-05-09 — AI in Sports, MMA Analytics, Fighter Training
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
