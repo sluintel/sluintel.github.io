@@ -1,33 +1,4 @@
-# robots.txt — sluintel.github.io
-
-# ── Default: allow all well-behaved crawlers ──────────────────────────────
 User-agent: *
 Allow: /
-Disallow: /scripts/
-Disallow: /used_keywords.json
-Disallow: /posts.json
 
-# ── Social media scrapers (required for OG image/title previews) ──────────
-User-agent: facebookexternalhit
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: LinkedInBot
-Allow: /
-
-User-agent: WhatsApp
-Allow: /
-
-User-agent: Slackbot
-Allow: /
-
-User-agent: TelegramBot
-Allow: /
-
-User-agent: Discordbot
-Allow: /
-
-# ── Sitemap ───────────────────────────────────────────────────────────────
 Sitemap: https://sluintel.github.io/sitemap.xml
