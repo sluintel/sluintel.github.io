@@ -100,10 +100,65 @@ TRENDS_RSS_FEEDS = [
     ("CA", "https://trends.google.com/trending/rss?geo=CA"),
 ]
 
-
 # ─────────────────────────────────────────
 # 1. KEYWORD RESEARCH
 # ─────────────────────────────────────────
+
+# Dynamic title templates
+AI_TECH_TEMPLATES = [
+    "how AI is transforming {}",
+    "the future of {} with AI",
+    "AI breakthroughs related to {}",
+    "how automation is changing {}",
+    "AI-powered innovations in {}",
+    "the rise of AI in {}",
+    "how generative AI is impacting {}",
+    "best AI tools for {}",
+]
+
+SPORTS_TEMPLATES = [
+    "{} latest updates and predictions",
+    "why {} is trending in sports right now",
+    "everything happening around {}",
+    "top reactions to {}",
+    "{} highlights fans are talking about",
+    "what's next for {}",
+]
+
+ENTERTAINMENT_TEMPLATES = [
+    "why {} is breaking the internet",
+    "{} latest buzz and fan reactions",
+    "everything to know about {}",
+    "why everyone is talking about {}",
+    "{} moments trending worldwide",
+    "the latest story behind {}",
+]
+
+GENERAL_TEMPLATES = [
+    "why {} is trending right now",
+    "everything you should know about {}",
+    "the latest updates on {}",
+    "what people are saying about {}",
+    "{} explained simply",
+    "top internet reactions to {}",
+]
+
+SPORTS_KEYWORDS = {
+    "football", "cricket", "fifa", "nba", "ipl", "world cup",
+    "match", "goal", "ronaldo", "messi", "virat", "dhoni",
+    "sports", "tennis", "wwe", "ufc", "champions",
+    "league", "cup", "tournament", "fc"
+}
+
+ENTERTAINMENT_KEYWORDS = {
+    "movie", "film", "netflix", "series", "celebrity",
+    "actor", "actress", "hollywood", "bollywood",
+    "music", "song", "album", "concert", "youtube",
+    "instagram", "tiktok", "anime", "show",
+    "rapper", "singer", "podcast"
+}
+
+
 def load_used_keywords():
     if USED_KW_FILE.exists():
         try:
@@ -126,27 +181,91 @@ def _is_ai_tech(text: str) -> bool:
     return bool(words & AI_TECH_TERMS)
 
 
+def clean_topic(title: str) -> str:
+    """
+    Clean unnecessary formatting from trend titles.
+    """
+    title = re.sub(r"\b(2024|2025|2026)\b", "", title, flags=re.IGNORECASE)
+    title = re.sub(r"\s+", " ", title).strip()
+    return title
+
+
+def detect_category(keyword: str) -> str:
+    """
+    Detect category of trend.
+    """
+    text = keyword.lower()
+
+    if any(word in text for word in AI_TECH_TERMS):
+        return "tech"
+
+    if any(word in text for word in SPORTS_KEYWORDS):
+        return "sports"
+
+    if any(word in text for word in ENTERTAINMENT_KEYWORDS):
+        return "entertainment"
+
+    return "general"
+
+
+def generate_dynamic_title(keyword: str) -> str:
+    """
+    Generate natural SEO-friendly titles.
+    """
+    topic = clean_topic(keyword)
+    category = detect_category(topic)
+
+    if category == "tech":
+        template = random.choice(AI_TECH_TEMPLATES)
+
+    elif category == "sports":
+        template = random.choice(SPORTS_TEMPLATES)
+
+    elif category == "entertainment":
+        template = random.choice(ENTERTAINMENT_TEMPLATES)
+
+    else:
+        template = random.choice(GENERAL_TEMPLATES)
+
+    title = template.format(topic)
+
+    # Safety cleanup
+    title = re.sub(r"\s+", " ", title).strip()
+
+    return title
+
+
 def fetch_trends_rss(geo: str, url: str) -> list:
     try:
         resp = requests.get(
             url,
-            headers={"User-Agent": "Mozilla/5.0 (compatible; SluIntelBot/1.0; +https://sluintel.github.io)"},
+            headers={
+                "User-Agent": "Mozilla/5.0 (compatible; SluIntelBot/1.0; +https://sluintel.github.io)"
+            },
             timeout=15,
         )
+
         if resp.status_code != 200:
             print(f"⚠️  Trends RSS ({geo}): HTTP {resp.status_code}")
             return []
-        root  = ET.fromstring(resp.content)
+
+        root = ET.fromstring(resp.content)
         items = root.findall(".//item")
+
         titles = []
+
         for item in items:
             title_el = item.find("title")
+
             if title_el is not None and title_el.text:
                 titles.append(title_el.text.strip())
+
         return titles
+
     except ET.ParseError as e:
         print(f"⚠️  Trends RSS ({geo}): XML parse error — {e}")
         return []
+
     except requests.RequestException as e:
         print(f"⚠️  Trends RSS ({geo}): request error — {e}")
         return []
@@ -154,32 +273,49 @@ def fetch_trends_rss(geo: str, url: str) -> list:
 
 def get_trending_keyword() -> str:
     all_titles = []
+
     for geo, url in TRENDS_RSS_FEEDS:
         titles = fetch_trends_rss(geo, url)
+
+        # PRIORITY 1 → AI / TECH
         for title in titles:
             if _is_ai_tech(title):
-                print(f"✅ Trending RSS ({geo}): {title}")
+                print(f"✅ Trending AI/Tech RSS ({geo}): {title}")
                 save_used_keyword(title)
                 return title
+
+        # Save all trends for smart reframing
         for title in titles:
             all_titles.append((geo, title))
 
+    # PRIORITY 2 → Reframe non-tech trends naturally
     if all_titles:
-        geo, title = all_titles[0]
-        reframed = f"how AI is changing {title.lower()} in 2026"
+        geo, title = random.choice(all_titles[:10])
+
+        reframed = generate_dynamic_title(title)
+
         print(f"✅ Reframed trending topic ({geo}): {reframed}")
+
         save_used_keyword(reframed)
+
         return reframed
 
-    used      = load_used_keywords()
+    # PRIORITY 3 → fallback keyword pool
+    used = load_used_keywords()
+
     available = [k for k in FALLBACK_KEYWORDS if k not in used]
+
     if not available:
         print("ℹ️  All fallback keywords used — resetting pool")
         USED_KW_FILE.write_text(json.dumps([], indent=2))
         available = FALLBACK_KEYWORDS
+
     kw = random.choice(available)
+
     save_used_keyword(kw)
+
     print(f"✅ Fallback keyword: {kw}")
+
     return kw
 
 
