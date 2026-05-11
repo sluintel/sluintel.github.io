@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 11 May 2026 14:09:22 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 11 May 2026 14:15:17 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Decoding the Top Internet Reactions to From Season 4 Episode 4]]></title>
+    <link>https://sluintel.github.io/posts/2026-05-11-top-internet-reactions-from-season-4-episode-4.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-11-top-internet-reactions-from-season-4-episode-4.html</guid>
+    <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack the top internet reactions to From Season 4 Episode 4. Discover fan theories, epic plot twists, and why online buzz matters for the future of the series. Don't miss this essential breakdown!]]></description>
+    <enclosure url="https://images.pexels.com/photos/7794084/pexels-photo-7794084.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>From Season 4</category>
+    <category>Episode 4 Reactions</category>
+    <category>Fan Theories</category>
+    <category>TV Series Analysis</category>
+    <category>Sci-Fi Horror</category>
+  </item>
   <item>
     <title><![CDATA[Bhavitha Mandava Updates: Tracking AI's Next Big Movers]]></title>
     <link>https://sluintel.github.io/posts/2026-05-11-bhavitha-mandava-updates-ai-innovation.html</link>
@@ -257,19 +270,6 @@
     <category>University Leadership</category>
     <category>Academic Administration</category>
     <category>Higher Education Trends</category>
-    <category>Future of Work</category>
-  </item>
-  <item>
-    <title><![CDATA[AI & Kulapati in 2026: Redefining University Leadership]]></title>
-    <link>https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-kulapati-in-2026.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-kulapati-in-2026.html</guid>
-    <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Discover how AI is changing कुलपति (Vice-Chancellor) roles in 2026. Explore data-driven leadership, operational efficiency, and ethical considerations shaping higher education. Future-proof your university now.]]></description>
-    <enclosure url="https://images.pexels.com/photos/30530407/pexels-photo-30530407.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI in Education</category>
-    <category>Higher Education</category>
-    <category>University Leadership</category>
-    <category>Academic Automation</category>
     <category>Future of Work</category>
   </item>
 </channel>
