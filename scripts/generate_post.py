@@ -104,7 +104,6 @@ TRENDS_RSS_FEEDS = [
 # 1. KEYWORD RESEARCH
 # ─────────────────────────────────────────
 
-# Dynamic title templates
 AI_TECH_TEMPLATES = [
     "how AI is transforming {}",
     "the future of {} with AI",
@@ -182,56 +181,35 @@ def _is_ai_tech(text: str) -> bool:
 
 
 def clean_topic(title: str) -> str:
-    """
-    Clean unnecessary formatting from trend titles.
-    """
     title = re.sub(r"\b(2024|2025|2026)\b", "", title, flags=re.IGNORECASE)
     title = re.sub(r"\s+", " ", title).strip()
     return title
 
 
 def detect_category(keyword: str) -> str:
-    """
-    Detect category of trend.
-    """
     text = keyword.lower()
-
     if any(word in text for word in AI_TECH_TERMS):
         return "tech"
-
     if any(word in text for word in SPORTS_KEYWORDS):
         return "sports"
-
     if any(word in text for word in ENTERTAINMENT_KEYWORDS):
         return "entertainment"
-
     return "general"
 
 
 def generate_dynamic_title(keyword: str) -> str:
-    """
-    Generate natural SEO-friendly titles.
-    """
     topic = clean_topic(keyword)
     category = detect_category(topic)
-
     if category == "tech":
         template = random.choice(AI_TECH_TEMPLATES)
-
     elif category == "sports":
         template = random.choice(SPORTS_TEMPLATES)
-
     elif category == "entertainment":
         template = random.choice(ENTERTAINMENT_TEMPLATES)
-
     else:
         template = random.choice(GENERAL_TEMPLATES)
-
     title = template.format(topic)
-
-    # Safety cleanup
     title = re.sub(r"\s+", " ", title).strip()
-
     return title
 
 
@@ -239,33 +217,23 @@ def fetch_trends_rss(geo: str, url: str) -> list:
     try:
         resp = requests.get(
             url,
-            headers={
-                "User-Agent": "Mozilla/5.0 (compatible; SluIntelBot/1.0; +https://sluintel.github.io)"
-            },
+            headers={"User-Agent": "Mozilla/5.0 (compatible; SluIntelBot/1.0; +https://sluintel.github.io)"},
             timeout=15,
         )
-
         if resp.status_code != 200:
             print(f"⚠️  Trends RSS ({geo}): HTTP {resp.status_code}")
             return []
-
         root = ET.fromstring(resp.content)
         items = root.findall(".//item")
-
         titles = []
-
         for item in items:
             title_el = item.find("title")
-
             if title_el is not None and title_el.text:
                 titles.append(title_el.text.strip())
-
         return titles
-
     except ET.ParseError as e:
         print(f"⚠️  Trends RSS ({geo}): XML parse error — {e}")
         return []
-
     except requests.RequestException as e:
         print(f"⚠️  Trends RSS ({geo}): request error — {e}")
         return []
@@ -273,49 +241,30 @@ def fetch_trends_rss(geo: str, url: str) -> list:
 
 def get_trending_keyword() -> str:
     all_titles = []
-
     for geo, url in TRENDS_RSS_FEEDS:
         titles = fetch_trends_rss(geo, url)
-
-        # PRIORITY 1 → AI / TECH
         for title in titles:
             if _is_ai_tech(title):
                 print(f"✅ Trending AI/Tech RSS ({geo}): {title}")
                 save_used_keyword(title)
                 return title
-
-        # Save all trends for smart reframing
         for title in titles:
             all_titles.append((geo, title))
-
-    # PRIORITY 2 → Reframe non-tech trends naturally
     if all_titles:
         geo, title = random.choice(all_titles[:10])
-
         reframed = generate_dynamic_title(title)
-
         print(f"✅ Reframed trending topic ({geo}): {reframed}")
-
         save_used_keyword(reframed)
-
         return reframed
-
-    # PRIORITY 3 → fallback keyword pool
     used = load_used_keywords()
-
     available = [k for k in FALLBACK_KEYWORDS if k not in used]
-
     if not available:
         print("ℹ️  All fallback keywords used — resetting pool")
         USED_KW_FILE.write_text(json.dumps([], indent=2))
         available = FALLBACK_KEYWORDS
-
     kw = random.choice(available)
-
     save_used_keyword(kw)
-
     print(f"✅ Fallback keyword: {kw}")
-
     return kw
 
 
@@ -323,7 +272,6 @@ def get_trending_keyword() -> str:
 # 2. INTERNAL LINKING HELPERS
 # ─────────────────────────────────────────
 
-# Tags too generic to drive meaningful relevance scoring
 _STOP_TAGS = {
     "ai tools", "automation", "ai", "tools", "future of work",
     "2026 trends", "productivity", "digital transformation",
@@ -332,15 +280,10 @@ _STOP_TAGS = {
 
 
 def _tokenise(text: str) -> set:
-    """Lowercase word tokens, dropping single-char noise."""
     return {w for w in re.split(r"\W+", text.lower()) if len(w) > 1}
 
 
 def _build_posts_index() -> list:
-    """
-    Load posts.json and return a clean, deduplicated index for link scoring.
-    Reuses the existing load_posts() helper — no extra file I/O.
-    """
     posts = load_posts()
     seen_slugs = set()
     index = []
@@ -354,35 +297,25 @@ def _build_posts_index() -> list:
             "slug":    slug,
             "url":     p.get("url", f"posts/{slug}.html"),
             "tags":    [t.lower() for t in p.get("tags", [])],
-            "keyword": p.get("keyword", ""),   # persisted by our generator
+            "keyword": p.get("keyword", ""),
         })
     return index
 
 
 def _score_relevance(post: dict, kw_tokens: set, used_keywords: list) -> int:
     score = 0
-    # Title token overlap
     score += len(kw_tokens & _tokenise(post["title"])) * 3
-    # Keyword-to-keyword overlap (strongest signal)
     if post["keyword"]:
         score += len(kw_tokens & _tokenise(post["keyword"])) * 4
-    # Meaningful tag overlap
     meaningful_tags = [t for t in post["tags"] if t not in _STOP_TAGS]
     score += len(kw_tokens & _tokenise(" ".join(meaningful_tags))) * 2
-    # Mild boost for topical neighbours in keyword history
     for used_kw in used_keywords:
         if len(kw_tokens & _tokenise(used_kw)) >= 2:
             score += 1
     return score
 
 
-def _select_link_candidates(
-    posts_index: list,
-    current_keyword: str,
-    used_keywords: list,
-    max_links: int = 6,
-    min_score: int = 2,
-) -> list:
+def _select_link_candidates(posts_index, current_keyword, used_keywords, max_links=6, min_score=2):
     kw_tokens = _tokenise(current_keyword)
     scored = [
         (s, p)
@@ -416,7 +349,6 @@ def _build_linking_prompt_block(candidates: list) -> str:
 
 
 def _validate_links(html: str, valid_urls: set) -> str:
-    """Strip any <a href> that doesn't match a real post URL."""
     def _fix(match):
         href  = match.group(1).lstrip("/")
         inner = match.group(2)
@@ -435,7 +367,6 @@ def generate_blog_post(keyword: str) -> dict:
 
     client = genai.Client(api_key=GEMINI_API_KEY)
 
-    # Build internal-link context BEFORE calling Gemini
     posts_index   = _build_posts_index()
     used_keywords = load_used_keywords()
     candidates    = _select_link_candidates(posts_index, keyword, used_keywords)
@@ -530,18 +461,11 @@ Return ONLY a valid JSON object with exactly these keys — no markdown fences, 
     )
 
     data = json.loads(response.text)
-
-    # Sanitise slug
     data["slug"] = re.sub(r"[^a-z0-9\-]", "", data["slug"].lower().replace(" ", "-"))
     data["slug"] = re.sub(r"-+", "-", data["slug"]).strip("-")
-
-    # Persist keyword so future posts can find and link back to this one
     data["keyword"] = keyword
-
-    # Strip any links Gemini hallucinated
     if valid_urls:
         data["content_html"] = _validate_links(data["content_html"], valid_urls)
-
     links_found = re.findall(r'<a href=', data["content_html"])
     print(f"✅ Post generated: {data['title']}")
     print(f"   🔗 Internal links embedded: {len(links_found)}")
@@ -551,18 +475,7 @@ Return ONLY a valid JSON object with exactly these keys — no markdown fences, 
 # ─────────────────────────────────────────
 # 4. FETCH FEATURE IMAGE
 # ─────────────────────────────────────────
-import random
 import hashlib
-import requests
-
-# ── helpers ────────────────────────────────────────────────────────────────────
-
-def _is_ai_tech(keyword: str) -> bool:
-    AI_WORDS = {"ai", "artificial", "intelligence", "machine", "learning",
-                "automation", "robot", "chatgpt", "claude", "gemini", "llm",
-                "neural", "deep", "model", "gpt", "generative"}
-    return bool(AI_WORDS & set(keyword.lower().split()))
-
 
 def _build_credit(name, profile_url, platform, platform_url):
     return (
@@ -572,25 +485,12 @@ def _build_credit(name, profile_url, platform, platform_url):
 
 
 def _keyword_hash_page(keyword: str, total_pages: int = 8) -> int:
-    """
-    Deterministic-but-varied page offset derived from the keyword text.
-    Each unique keyword maps to a different Pexels page, so repeated runs
-    for the same post are stable while different posts get different images.
-    """
     h = int(hashlib.md5(keyword.lower().encode()).hexdigest(), 16)
-    return (h % total_pages) + 1          # pages 1-8
+    return (h % total_pages) + 1
 
 
-def _build_queries(keyword: str) -> list[str]:
-    """
-    Return a ranked list of progressively broader search queries.
-    More specific first so we get relevant images when possible,
-    broad fallbacks to avoid empty results.
-    """
+def _build_queries(keyword: str) -> list:
     words = keyword.split()
-
-    # --- sport/match queries ---
-    # e.g. "Lakers vs Thunder" → ["Lakers Thunder basketball", "Lakers Thunder", ...]
     if "vs" in keyword.lower():
         teams = [w for w in words if w.lower() != "vs" and not w.isdigit()]
         queries = [
@@ -598,9 +498,7 @@ def _build_queries(keyword: str) -> list[str]:
             " ".join(teams[:2]),
             "sport action stadium crowd",
         ]
-    # --- "how AI is changing X" pattern ---
     elif "how ai" in keyword.lower() or "ai is" in keyword.lower():
-        # extract the subject (last 2-3 words usually)
         subject = " ".join(words[-3:])
         queries = [
             subject + " technology",
@@ -617,8 +515,6 @@ def _build_queries(keyword: str) -> list[str]:
             base2,
             "artificial intelligence technology" if _is_ai_tech(keyword) else "business productivity",
         ]
-
-    # deduplicate while preserving order
     seen, unique = set(), []
     for q in queries:
         q = q.strip()
@@ -628,8 +524,6 @@ def _build_queries(keyword: str) -> list[str]:
     return unique
 
 
-# ── per-source fetchers ─────────────────────────────────────────────────────────
-
 def _pexels(query: str, keyword: str, api_key: str):
     if not api_key:
         return None
@@ -637,13 +531,7 @@ def _pexels(query: str, keyword: str, api_key: str):
     try:
         r = requests.get(
             "https://api.pexels.com/v1/search",
-            params={
-                "query": query,
-                "orientation": "landscape",
-                "per_page": 15,          # larger pool → more variety
-                "page": page,            # ← KEY FIX: different page per keyword
-                "size": "large",
-            },
+            params={"query": query, "orientation": "landscape", "per_page": 15, "page": page, "size": "large"},
             headers={"Authorization": api_key},
             timeout=10,
         )
@@ -656,8 +544,7 @@ def _pexels(query: str, keyword: str, api_key: str):
         photo = random.choice(photos)
         return (
             photo["src"]["large2x"],
-            _build_credit(photo["photographer"], photo["photographer_url"],
-                          "Pexels", "https://www.pexels.com"),
+            _build_credit(photo["photographer"], photo["photographer_url"], "Pexels", "https://www.pexels.com"),
         )
     except Exception as e:
         print(f"⚠️  Pexels error: {e}")
@@ -671,14 +558,8 @@ def _unsplash(query: str, keyword: str, api_key: str):
     try:
         r = requests.get(
             "https://api.unsplash.com/search/photos",
-            params={
-                "query": query,
-                "orientation": "landscape",
-                "content_filter": "high",
-                "per_page": 15,
-                "page": page,            # ← varied page per keyword
-                "order_by": "relevant",
-            },
+            params={"query": query, "orientation": "landscape", "content_filter": "high",
+                    "per_page": 15, "page": page, "order_by": "relevant"},
             headers={"Authorization": f"Client-ID {api_key}"},
             timeout=10,
         )
@@ -708,14 +589,8 @@ def _openverse(query: str, keyword: str):
     try:
         r = requests.get(
             "https://api.openverse.org/v1/images/",
-            params={
-                "q": query,
-                "license_type": "commercial",
-                "aspect_ratio": "wide",
-                "page_size": 15,
-                "page": page,
-                "mature": "false",
-            },
+            params={"q": query, "license_type": "commercial", "aspect_ratio": "wide",
+                    "page_size": 15, "page": page, "mature": "false"},
             headers={"User-Agent": "SluIntelBot/1.0 (https://sluintel.github.io)"},
             timeout=10,
         )
@@ -740,26 +615,7 @@ def _openverse(query: str, keyword: str):
         return None
 
 
-# ── public function ─────────────────────────────────────────────────────────────
-
 def get_feature_image(keyword: str):
-    """
-    Return (image_url, credit_html) for *keyword*.
-
-    Strategy:
-      1. Try Pexels with progressively broader queries (varied page per keyword)
-      2. Try Openverse
-      3. Try Unsplash
-      4. Hard-coded fallback
-
-    The page offset is derived from a hash of the keyword so:
-      - The same keyword always gets the same page (stable re-runs)
-      - Different keywords land on different pages → image variety
-    """
-    import os
-    PEXELS_KEY   = os.environ.get("PEXELS_API_KEY", "")
-    UNSPLASH_KEY = os.environ.get("UNSPLASH_ACCESS_KEY", "")
-
     FALLBACK_IMAGES = [
         "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&auto=format&fit=crop",
         "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&auto=format&fit=crop",
@@ -767,15 +623,15 @@ def get_feature_image(keyword: str):
         "https://images.unsplash.com/photo-1676299081847-824916de030a?w=1200&auto=format&fit=crop",
         "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&auto=format&fit=crop",
     ]
+    PEXELS_KEY   = os.environ.get("PEXELS_API_KEY", "")
+    UNSPLASH_KEY = os.environ.get("UNSPLASH_ACCESS_KEY", "")
 
     queries = _build_queries(keyword)
-
     sources = [
         ("Pexels",    lambda q: _pexels(q, keyword, PEXELS_KEY)),
         ("Openverse", lambda q: _openverse(q, keyword)),
         ("Unsplash",  lambda q: _unsplash(q, keyword, UNSPLASH_KEY)),
     ]
-
     for source_name, fetcher in sources:
         for query in queries:
             result = fetcher(query)
@@ -785,13 +641,12 @@ def get_feature_image(keyword: str):
                 return img_url, credit
             print(f"↩️  [{source_name}] No result for '{query}', trying next…")
 
-    # last resort: pick a fallback seeded by keyword so different posts
-    # at least get different fallback images
     idx    = _keyword_hash_page(keyword, total_pages=len(FALLBACK_IMAGES)) - 1
     img    = FALLBACK_IMAGES[idx]
     credit = 'Photo from <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a>'
     print("⚠️  All sources failed — using hardcoded fallback image")
     return img, credit
+
 
 # ─────────────────────────────────────────
 # 5. GENERATE OG IMAGE (1200×630)
@@ -1050,7 +905,6 @@ def update_posts_json(post, img_url, date_str):
         "image_url":        img_url,
         "reading_time":     post.get("reading_time", "5 min read"),
         "url":              f"posts/{filename}",
-        # ← NEW: persisted so future posts can find and link back to this one
         "keyword":          post.get("keyword", ""),
     }
     posts.insert(0, entry)
@@ -1062,6 +916,121 @@ def update_posts_json(post, img_url, date_str):
 # ─────────────────────────────────────────
 # 8. REGENERATE index.html
 # ─────────────────────────────────────────
+
+# ── Separate string constants for CSS/JS so curly braces need no escaping ──
+
+_SEE_MORE_CSS = """\
+<style>
+  .post-card.hidden-post {
+    display: none;
+  }
+
+  .see-more-container {
+    display: flex;
+    justify-content: center;
+    margin: 2.5rem 0 3rem;
+  }
+
+  .see-more-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.85rem 2.25rem;
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    color: #fff;
+    font-family: inherit;
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    box-shadow: 0 4px 18px rgba(99, 102, 241, 0.35);
+    transition: transform 0.18s ease, box-shadow 0.18s ease, opacity 0.18s ease;
+  }
+
+  .see-more-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 28px rgba(99, 102, 241, 0.45);
+  }
+
+  .see-more-btn:active {
+    transform: translateY(0);
+  }
+
+  .see-more-btn .btn-icon {
+    font-size: 1.1rem;
+    transition: transform 0.25s ease;
+  }
+
+  .see-more-btn:hover .btn-icon {
+    transform: translateY(3px);
+  }
+
+  @keyframes fadeSlideIn {
+    from { opacity: 0; transform: translateY(16px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .post-card.just-revealed {
+    animation: fadeSlideIn 0.35s ease forwards;
+  }
+</style>"""
+
+_SEE_MORE_JS = """\
+<script>
+  (function () {
+    const INITIAL_COUNT = 10;
+    const BATCH_SIZE    = 9;
+
+    const grid  = document.querySelector('.posts-grid');
+    if (!grid) return;
+
+    const cards = Array.from(grid.querySelectorAll('.post-card'));
+    let   shown = 0;
+
+    function revealBatch(n) {
+      const slice = cards.slice(shown, shown + n);
+      slice.forEach((card) => {
+        card.classList.remove('hidden-post');
+        card.classList.remove('just-revealed');
+        void card.offsetWidth;
+        card.classList.add('just-revealed');
+      });
+      shown += slice.length;
+    }
+
+    const container = document.createElement('div');
+    container.className = 'see-more-container';
+
+    const btn = document.createElement('button');
+    btn.className = 'see-more-btn';
+    btn.innerHTML = 'See More <span class="btn-icon">\u2193</span>';
+    container.appendChild(btn);
+
+    grid.insertAdjacentElement('afterend', container);
+
+    cards.forEach(card => card.classList.add('hidden-post'));
+    revealBatch(INITIAL_COUNT);
+
+    if (shown >= cards.length) {
+      container.style.display = 'none';
+    }
+
+    btn.addEventListener('click', function () {
+      revealBatch(BATCH_SIZE);
+      const firstNew = cards[shown - BATCH_SIZE];
+      if (firstNew) {
+        firstNew.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+      if (shown >= cards.length) {
+        container.style.display = 'none';
+      }
+    });
+  })();
+</script>"""
+
+
 def build_index_html(posts):
     cards = ""
     for i, p in enumerate(posts):
@@ -1163,132 +1132,8 @@ def build_index_html(posts):
     <p>© {year} Sujit Luintel · AI Tools &amp; Automation Insights</p>
     <p style="margin-top:.25rem;">Auto-published with AI · Powered by Gemini &amp; GitHub Actions</p>
   </footer>
-  <!-- ============================================================
-  PASTE THIS BLOCK just before </body> in your index.html
-  It handles: show 10 → See More → load 9 → repeat
-  No dependencies, pure vanilla JS.
-============================================================ -->
-
-<style>
-  .post-card.hidden-post {
-    display: none;
-  }
-
-  .see-more-container {
-    display: flex;
-    justify-content: center;
-    margin: 2.5rem 0 3rem;
-  }
-
-  .see-more-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.85rem 2.25rem;
-    background: linear-gradient(135deg, #6366f1, #8b5cf6);
-    color: #fff;
-    font-family: inherit;
-    font-size: 0.95rem;
-    font-weight: 600;
-    letter-spacing: 0.02em;
-    border: none;
-    border-radius: 999px;
-    cursor: pointer;
-    box-shadow: 0 4px 18px rgba(99, 102, 241, 0.35);
-    transition: transform 0.18s ease, box-shadow 0.18s ease, opacity 0.18s ease;
-  }
-
-  .see-more-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 28px rgba(99, 102, 241, 0.45);
-  }
-
-  .see-more-btn:active {
-    transform: translateY(0);
-  }
-
-  .see-more-btn .btn-icon {
-    font-size: 1.1rem;
-    transition: transform 0.25s ease;
-  }
-
-  .see-more-btn:hover .btn-icon {
-    transform: translateY(3px);
-  }
-
-  /* smooth fade-in for newly revealed cards */
-  @keyframes fadeSlideIn {
-    from { opacity: 0; transform: translateY(16px); }
-    to   { opacity: 1; transform: translateY(0); }
-  }
-
-  .post-card.just-revealed {
-    animation: fadeSlideIn 0.35s ease forwards;
-  }
-</style>
-
-<script>
-  (function () {
-    const INITIAL_COUNT = 10;   // posts shown on first load
-    const BATCH_SIZE    = 9;    // posts revealed per "See More" click
-
-    const grid  = document.querySelector('.posts-grid');
-    if (!grid) return;
-
-    const cards = Array.from(grid.querySelectorAll('.post-card'));
-    let   shown = 0;
-
-    /* --- helper: reveal next N cards --- */
-    function revealBatch(n) {
-      const slice = cards.slice(shown, shown + n);
-      slice.forEach((card) => {
-        card.classList.remove('hidden-post');
-        // trigger animation on newly shown cards
-        card.classList.remove('just-revealed');
-        void card.offsetWidth;              // reflow to restart animation
-        card.classList.add('just-revealed');
-      });
-      shown += slice.length;
-    }
-
-    /* --- create See More button --- */
-    const container = document.createElement('div');
-    container.className = 'see-more-container';
-
-    const btn = document.createElement('button');
-    btn.className = 'see-more-btn';
-    btn.innerHTML = 'See More <span class="btn-icon">↓</span>';
-    container.appendChild(btn);
-
-    /* --- insert button after the posts grid --- */
-    grid.insertAdjacentElement('afterend', container);
-
-    /* --- hide all cards first, then reveal initial batch --- */
-    cards.forEach(card => card.classList.add('hidden-post'));
-    revealBatch(INITIAL_COUNT);
-
-    /* --- hide button if everything already fits --- */
-    if (shown >= cards.length) {
-      container.style.display = 'none';
-    }
-
-    /* --- click handler --- */
-    btn.addEventListener('click', function () {
-      revealBatch(BATCH_SIZE);
-
-      // scroll so the first new card is comfortably in view
-      const firstNew = cards[shown - BATCH_SIZE];
-      if (firstNew) {
-        firstNew.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
-
-      // hide button when all posts are shown
-      if (shown >= cards.length) {
-        container.style.display = 'none';
-      }
-    });
-  })();
-</script>
+  {_SEE_MORE_CSS}
+  {_SEE_MORE_JS}
 </body>
 </html>"""
 
