@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 53
+Total Posts Published: 54
 Last Updated: 2026-05-11
-Latest Post: AI in 2026: Decoding the Shift from Season 4 Episode 4
-Latest Post URL: https://sluintel.github.io/posts/2026-05-11-how-ai-is-changing-from-season-4-episode-4-in-2026.html
+Latest Post: 808 Explained Simply: The Core of Future AI Automation
+Latest Post URL: https://sluintel.github.io/posts/2026-05-11-808-explained-simply.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [808 Explained Simply: The Core of Future AI Automation](https://sluintel.github.io/posts/2026-05-11-808-explained-simply.html) — 2026-05-11 — AI Automation, 808 Standard, AI Integration
 - [AI in 2026: Decoding the Shift from Season 4 Episode 4](https://sluintel.github.io/posts/2026-05-11-how-ai-is-changing-from-season-4-episode-4-in-2026.html) — 2026-05-11 — AI Trends, Automation, Future Tech
 - [How AI is Changing PSG vs Stade Brestois Standings in 2026](https://sluintel.github.io/posts/2026-05-11-how-ai-is-changing-psg-vs-stade-brestois-standings-in-2026.html) — 2026-05-11 — AI in Football, Ligue 1, Sports Analytics
 - [How AI is Changing Real Oviedo vs Getafe in 2026: The New La Liga Battleground](https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-real-oviedo-vs-getafe-in-2026.html) — 2026-05-10 — AI in Football, La Liga, Football Analytics
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [How AI is Changing Mallorca vs Villarreal in 2026: The Tactical Revolution](https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-mallorca-vs-villarreal-in-2026.html) — 2026-05-10 — AI in Football, La Liga, Football Analytics
 - [How AI is Changing Verona vs Como in 2026: The New Football Edge](https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-verona-vs-como-in-2026.html) — 2026-05-10 — AI in Football, Sports Analytics, Serie B
 - [AI's Impact on the Pitch: How AI is Changing Verona vs Como in 2026](https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-verona-vs-como-in-2026.html) — 2026-05-10 — AI in Sports, Football Analytics, Serie B
-- [How AI is Changing Kulpatis in 2026: University Leadership Transformed](https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-kulpatis-in-2026.html) — 2026-05-10 — AI in Education, University Leadership, Academic Administration
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
