@@ -415,7 +415,215 @@ Return ONLY a valid JSON object with exactly these keys — no markdown fences, 
 # ─────────────────────────────────────────
 # 4. FETCH FEATURE IMAGE
 # ─────────────────────────────────────────
-def get_feature_image(keyword):
+import random
+import hashlib
+import requests
+
+# ── helpers ────────────────────────────────────────────────────────────────────
+
+def _is_ai_tech(keyword: str) -> bool:
+    AI_WORDS = {"ai", "artificial", "intelligence", "machine", "learning",
+                "automation", "robot", "chatgpt", "claude", "gemini", "llm",
+                "neural", "deep", "model", "gpt", "generative"}
+    return bool(AI_WORDS & set(keyword.lower().split()))
+
+
+def _build_credit(name, profile_url, platform, platform_url):
+    return (
+        f'Photo by <a href="{profile_url}" target="_blank" rel="noopener">{name}</a>'
+        f' on <a href="{platform_url}" target="_blank" rel="noopener">{platform}</a>'
+    )
+
+
+def _keyword_hash_page(keyword: str, total_pages: int = 8) -> int:
+    """
+    Deterministic-but-varied page offset derived from the keyword text.
+    Each unique keyword maps to a different Pexels page, so repeated runs
+    for the same post are stable while different posts get different images.
+    """
+    h = int(hashlib.md5(keyword.lower().encode()).hexdigest(), 16)
+    return (h % total_pages) + 1          # pages 1-8
+
+
+def _build_queries(keyword: str) -> list[str]:
+    """
+    Return a ranked list of progressively broader search queries.
+    More specific first so we get relevant images when possible,
+    broad fallbacks to avoid empty results.
+    """
+    words = keyword.split()
+
+    # --- sport/match queries ---
+    # e.g. "Lakers vs Thunder" → ["Lakers Thunder basketball", "Lakers Thunder", ...]
+    if "vs" in keyword.lower():
+        teams = [w for w in words if w.lower() != "vs" and not w.isdigit()]
+        queries = [
+            " ".join(teams[:2]) + " sport action",
+            " ".join(teams[:2]),
+            "sport action stadium crowd",
+        ]
+    # --- "how AI is changing X" pattern ---
+    elif "how ai" in keyword.lower() or "ai is" in keyword.lower():
+        # extract the subject (last 2-3 words usually)
+        subject = " ".join(words[-3:])
+        queries = [
+            subject + " technology",
+            subject,
+            "artificial intelligence technology digital",
+            "data analytics technology future",
+        ]
+    else:
+        base4 = " ".join(words[:4])
+        base2 = " ".join(words[:2])
+        queries = [
+            base4 + (" technology AI" if _is_ai_tech(keyword) else ""),
+            base4,
+            base2,
+            "artificial intelligence technology" if _is_ai_tech(keyword) else "business productivity",
+        ]
+
+    # deduplicate while preserving order
+    seen, unique = set(), []
+    for q in queries:
+        q = q.strip()
+        if q and q not in seen:
+            seen.add(q)
+            unique.append(q)
+    return unique
+
+
+# ── per-source fetchers ─────────────────────────────────────────────────────────
+
+def _pexels(query: str, keyword: str, api_key: str):
+    if not api_key:
+        return None
+    page = _keyword_hash_page(keyword, total_pages=8)
+    try:
+        r = requests.get(
+            "https://api.pexels.com/v1/search",
+            params={
+                "query": query,
+                "orientation": "landscape",
+                "per_page": 15,          # larger pool → more variety
+                "page": page,            # ← KEY FIX: different page per keyword
+                "size": "large",
+            },
+            headers={"Authorization": api_key},
+            timeout=10,
+        )
+        if r.status_code != 200:
+            print(f"⚠️  Pexels HTTP {r.status_code} for '{query}' page {page}")
+            return None
+        photos = r.json().get("photos", [])
+        if not photos:
+            return None
+        photo = random.choice(photos)
+        return (
+            photo["src"]["large2x"],
+            _build_credit(photo["photographer"], photo["photographer_url"],
+                          "Pexels", "https://www.pexels.com"),
+        )
+    except Exception as e:
+        print(f"⚠️  Pexels error: {e}")
+        return None
+
+
+def _unsplash(query: str, keyword: str, api_key: str):
+    if not api_key:
+        return None
+    page = _keyword_hash_page(keyword, total_pages=5)
+    try:
+        r = requests.get(
+            "https://api.unsplash.com/search/photos",
+            params={
+                "query": query,
+                "orientation": "landscape",
+                "content_filter": "high",
+                "per_page": 15,
+                "page": page,            # ← varied page per keyword
+                "order_by": "relevant",
+            },
+            headers={"Authorization": f"Client-ID {api_key}"},
+            timeout=10,
+        )
+        if r.status_code != 200:
+            print(f"⚠️  Unsplash HTTP {r.status_code} for '{query}' page {page}")
+            return None
+        results = r.json().get("results", [])
+        if not results:
+            return None
+        photo = random.choice(results)
+        return (
+            photo["urls"]["regular"],
+            _build_credit(
+                photo["user"]["name"],
+                photo["links"]["html"] + "?utm_source=sluintel&utm_medium=referral",
+                "Unsplash",
+                "https://unsplash.com?utm_source=sluintel&utm_medium=referral",
+            ),
+        )
+    except Exception as e:
+        print(f"⚠️  Unsplash error: {e}")
+        return None
+
+
+def _openverse(query: str, keyword: str):
+    page = _keyword_hash_page(keyword, total_pages=6)
+    try:
+        r = requests.get(
+            "https://api.openverse.org/v1/images/",
+            params={
+                "q": query,
+                "license_type": "commercial",
+                "aspect_ratio": "wide",
+                "page_size": 15,
+                "page": page,
+                "mature": "false",
+            },
+            headers={"User-Agent": "SluIntelBot/1.0 (https://sluintel.github.io)"},
+            timeout=10,
+        )
+        if r.status_code != 200:
+            print(f"⚠️  Openverse HTTP {r.status_code} for '{query}' page {page}")
+            return None
+        results = r.json().get("results", [])
+        if not results:
+            return None
+        photo = random.choice(results)
+        return (
+            photo["url"],
+            _build_credit(
+                photo.get("creator") or "photographer",
+                photo.get("creator_url") or "https://openverse.org",
+                "Openverse",
+                photo.get("foreign_landing_url") or "https://openverse.org",
+            ),
+        )
+    except Exception as e:
+        print(f"⚠️  Openverse error: {e}")
+        return None
+
+
+# ── public function ─────────────────────────────────────────────────────────────
+
+def get_feature_image(keyword: str):
+    """
+    Return (image_url, credit_html) for *keyword*.
+
+    Strategy:
+      1. Try Pexels with progressively broader queries (varied page per keyword)
+      2. Try Openverse
+      3. Try Unsplash
+      4. Hard-coded fallback
+
+    The page offset is derived from a hash of the keyword so:
+      - The same keyword always gets the same page (stable re-runs)
+      - Different keywords land on different pages → image variety
+    """
+    import os
+    PEXELS_KEY   = os.environ.get("PEXELS_API_KEY", "")
+    UNSPLASH_KEY = os.environ.get("UNSPLASH_ACCESS_KEY", "")
+
     FALLBACK_IMAGES = [
         "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&auto=format&fit=crop",
         "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&auto=format&fit=crop",
@@ -423,108 +631,31 @@ def get_feature_image(keyword):
         "https://images.unsplash.com/photo-1676299081847-824916de030a?w=1200&auto=format&fit=crop",
         "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&auto=format&fit=crop",
     ]
-    PEXELS_KEY = os.environ.get("PEXELS_API_KEY", "")
-    base_words = " ".join(keyword.split()[:4])
-    primary_q  = (base_words + " technology AI") if _is_ai_tech(keyword) else base_words
-    short_q    = " ".join(keyword.split()[:2])
-    broad_q    = "artificial intelligence technology" if _is_ai_tech(keyword) else "business productivity"
 
-    def _build_credit(name, profile_url, platform, platform_url):
-        return (
-            f'Photo by <a href="{profile_url}" target="_blank" rel="noopener">{name}</a>'
-            f' on <a href="{platform_url}" target="_blank" rel="noopener">{platform}</a>'
-        )
+    queries = _build_queries(keyword)
 
-    def _pexels(query):
-        if not PEXELS_KEY:
-            return None
-        try:
-            r = requests.get(
-                "https://api.pexels.com/v1/search",
-                params={"query": query, "orientation": "landscape", "per_page": 10, "size": "large"},
-                headers={"Authorization": PEXELS_KEY},
-                timeout=10,
-            )
-            if r.status_code != 200:
-                print(f"⚠️  Pexels HTTP {r.status_code} for '{query}'")
-                return None
-            photos = r.json().get("photos", [])
-            if not photos:
-                return None
-            photo = random.choice(photos)
-            return photo["src"]["large2x"], _build_credit(
-                photo["photographer"], photo["photographer_url"], "Pexels", "https://www.pexels.com"
-            )
-        except Exception as e:
-            print(f"⚠️  Pexels error: {e}")
-            return None
+    sources = [
+        ("Pexels",    lambda q: _pexels(q, keyword, PEXELS_KEY)),
+        ("Openverse", lambda q: _openverse(q, keyword)),
+        ("Unsplash",  lambda q: _unsplash(q, keyword, UNSPLASH_KEY)),
+    ]
 
-    def _openverse(query):
-        try:
-            r = requests.get(
-                "https://api.openverse.org/v1/images/",
-                params={"q": query, "license_type": "commercial", "aspect_ratio": "wide", "page_size": 10, "mature": "false"},
-                headers={"User-Agent": "SluIntelBot/1.0 (https://sluintel.github.io)"},
-                timeout=10,
-            )
-            if r.status_code != 200:
-                print(f"⚠️  Openverse HTTP {r.status_code} for '{query}'")
-                return None
-            results = r.json().get("results", [])
-            if not results:
-                return None
-            photo = random.choice(results)
-            return photo["url"], _build_credit(
-                photo.get("creator") or "photographer",
-                photo.get("creator_url") or "https://openverse.org",
-                "Openverse",
-                photo.get("foreign_landing_url") or "https://openverse.org",
-            )
-        except Exception as e:
-            print(f"⚠️  Openverse error: {e}")
-            return None
-
-    def _unsplash(query):
-        if not UNSPLASH_KEY:
-            return None
-        try:
-            r = requests.get(
-                "https://api.unsplash.com/search/photos",
-                params={"query": query, "orientation": "landscape", "content_filter": "high", "per_page": 10, "order_by": "relevant"},
-                headers={"Authorization": f"Client-ID {UNSPLASH_KEY}"},
-                timeout=10,
-            )
-            if r.status_code != 200:
-                print(f"⚠️  Unsplash HTTP {r.status_code} for '{query}'")
-                return None
-            results = r.json().get("results", [])
-            if not results:
-                return None
-            photo = random.choice(results)
-            return photo["urls"]["regular"], _build_credit(
-                photo["user"]["name"],
-                photo["links"]["html"] + "?utm_source=sluintel&utm_medium=referral",
-                "Unsplash",
-                "https://unsplash.com?utm_source=sluintel&utm_medium=referral",
-            )
-        except Exception as e:
-            print(f"⚠️  Unsplash error: {e}")
-            return None
-
-    for source_name, fn in [("Pexels", _pexels), ("Openverse", _openverse), ("Unsplash", _unsplash)]:
-        for query in [primary_q, short_q, broad_q]:
-            result = fn(query)
+    for source_name, fetcher in sources:
+        for query in queries:
+            result = fetcher(query)
             if result:
                 img_url, credit = result
-                print(f"✅ [{source_name}] Image fetched for '{query}'")
+                print(f"✅ [{source_name}] Image fetched for '{query}' (keyword: '{keyword}')")
                 return img_url, credit
             print(f"↩️  [{source_name}] No result for '{query}', trying next…")
 
-    img    = random.choice(FALLBACK_IMAGES)
+    # last resort: pick a fallback seeded by keyword so different posts
+    # at least get different fallback images
+    idx    = _keyword_hash_page(keyword, total_pages=len(FALLBACK_IMAGES)) - 1
+    img    = FALLBACK_IMAGES[idx]
     credit = 'Photo from <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a>'
     print("⚠️  All sources failed — using hardcoded fallback image")
     return img, credit
-
 
 # ─────────────────────────────────────────
 # 5. GENERATE OG IMAGE (1200×630)
