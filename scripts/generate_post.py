@@ -902,6 +902,8 @@ def build_post_html(post, img_url, img_credit, og_image_url, date_str):
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2480859517203371"
+     crossorigin="anonymous"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-WJEQKLB827"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -1154,6 +1156,8 @@ def build_index_html(posts):
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
+     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2480859517203371"
+     crossorigin="anonymous"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-WJEQKLB827"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
