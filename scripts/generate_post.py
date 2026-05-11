@@ -1246,6 +1246,15 @@ from xml.dom import minidom
 def build_sitemap(posts):
     now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S+00:00")
 
+    def build_robots():
+    content = (
+        "User-agent: *\n"
+        "Allow: /\n"
+        f"Sitemap: {SITE_URL}/sitemap.xml\n"
+    )
+    ROBOTS_PATH.write_text(content, encoding="ascii")
+    print("✅ robots.txt updated")
+    
     # Build the root <urlset> element with correct namespaces
     urlset = ET.Element("urlset")
     urlset.set("xmlns", "http://www.sitemaps.org/schemas/sitemap/0.9")
