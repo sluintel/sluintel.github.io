@@ -1163,6 +1163,132 @@ def build_index_html(posts):
     <p>© {year} Sujit Luintel · AI Tools &amp; Automation Insights</p>
     <p style="margin-top:.25rem;">Auto-published with AI · Powered by Gemini &amp; GitHub Actions</p>
   </footer>
+  <!-- ============================================================
+  PASTE THIS BLOCK just before </body> in your index.html
+  It handles: show 10 → See More → load 9 → repeat
+  No dependencies, pure vanilla JS.
+============================================================ -->
+
+<style>
+  .post-card.hidden-post {
+    display: none;
+  }
+
+  .see-more-container {
+    display: flex;
+    justify-content: center;
+    margin: 2.5rem 0 3rem;
+  }
+
+  .see-more-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.85rem 2.25rem;
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    color: #fff;
+    font-family: inherit;
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    box-shadow: 0 4px 18px rgba(99, 102, 241, 0.35);
+    transition: transform 0.18s ease, box-shadow 0.18s ease, opacity 0.18s ease;
+  }
+
+  .see-more-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 28px rgba(99, 102, 241, 0.45);
+  }
+
+  .see-more-btn:active {
+    transform: translateY(0);
+  }
+
+  .see-more-btn .btn-icon {
+    font-size: 1.1rem;
+    transition: transform 0.25s ease;
+  }
+
+  .see-more-btn:hover .btn-icon {
+    transform: translateY(3px);
+  }
+
+  /* smooth fade-in for newly revealed cards */
+  @keyframes fadeSlideIn {
+    from { opacity: 0; transform: translateY(16px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .post-card.just-revealed {
+    animation: fadeSlideIn 0.35s ease forwards;
+  }
+</style>
+
+<script>
+  (function () {
+    const INITIAL_COUNT = 10;   // posts shown on first load
+    const BATCH_SIZE    = 9;    // posts revealed per "See More" click
+
+    const grid  = document.querySelector('.posts-grid');
+    if (!grid) return;
+
+    const cards = Array.from(grid.querySelectorAll('.post-card'));
+    let   shown = 0;
+
+    /* --- helper: reveal next N cards --- */
+    function revealBatch(n) {
+      const slice = cards.slice(shown, shown + n);
+      slice.forEach((card) => {
+        card.classList.remove('hidden-post');
+        // trigger animation on newly shown cards
+        card.classList.remove('just-revealed');
+        void card.offsetWidth;              // reflow to restart animation
+        card.classList.add('just-revealed');
+      });
+      shown += slice.length;
+    }
+
+    /* --- create See More button --- */
+    const container = document.createElement('div');
+    container.className = 'see-more-container';
+
+    const btn = document.createElement('button');
+    btn.className = 'see-more-btn';
+    btn.innerHTML = 'See More <span class="btn-icon">↓</span>';
+    container.appendChild(btn);
+
+    /* --- insert button after the posts grid --- */
+    grid.insertAdjacentElement('afterend', container);
+
+    /* --- hide all cards first, then reveal initial batch --- */
+    cards.forEach(card => card.classList.add('hidden-post'));
+    revealBatch(INITIAL_COUNT);
+
+    /* --- hide button if everything already fits --- */
+    if (shown >= cards.length) {
+      container.style.display = 'none';
+    }
+
+    /* --- click handler --- */
+    btn.addEventListener('click', function () {
+      revealBatch(BATCH_SIZE);
+
+      // scroll so the first new card is comfortably in view
+      const firstNew = cards[shown - BATCH_SIZE];
+      if (firstNew) {
+        firstNew.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+
+      // hide button when all posts are shown
+      if (shown >= cards.length) {
+        container.style.display = 'none';
+      }
+    });
+  })();
+</script>
 </body>
 </html>"""
 
