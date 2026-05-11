@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 51
-Last Updated: 2026-05-10
-Latest Post: How AI is Changing Real Oviedo vs Getafe in 2026: The New La Liga Battleground
-Latest Post URL: https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-real-oviedo-vs-getafe-in-2026.html
+Total Posts Published: 52
+Last Updated: 2026-05-11
+Latest Post: How AI is Changing PSG vs Stade Brestois Standings in 2026
+Latest Post URL: https://sluintel.github.io/posts/2026-05-11-how-ai-is-changing-psg-vs-stade-brestois-standings-in-2026.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [How AI is Changing PSG vs Stade Brestois Standings in 2026](https://sluintel.github.io/posts/2026-05-11-how-ai-is-changing-psg-vs-stade-brestois-standings-in-2026.html) — 2026-05-11 — AI in Football, Ligue 1, Sports Analytics
 - [How AI is Changing Real Oviedo vs Getafe in 2026: The New La Liga Battleground](https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-real-oviedo-vs-getafe-in-2026.html) — 2026-05-10 — AI in Football, La Liga, Football Analytics
 - [AI's Impact on Shivam Dube in 2026: The Data-Driven Cricketer](https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-shivam-dube-in-2026.html) — 2026-05-10 — AI in Cricket, Shivam Dube, Sports Analytics
 - [How AI is Changing Shivam Dube in 2026: The Data-Driven Cricketer](https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-shivam-dube-in-2026.html) — 2026-05-10 — AI in Sports, Cricket Analytics, Shivam Dube
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [AI's Impact on the Pitch: How AI is Changing Verona vs Como in 2026](https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-verona-vs-como-in-2026.html) — 2026-05-10 — AI in Sports, Football Analytics, Serie B
 - [How AI is Changing Kulpatis in 2026: University Leadership Transformed](https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-kulpatis-in-2026.html) — 2026-05-10 — AI in Education, University Leadership, Academic Administration
 - [How AI is Changing Kulpatis in 2026: The Future of University Leadership](https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-kulpatis-in-2026.html) — 2026-05-10 — AI in Education, University Leadership, Higher Ed Tech
-- [How AI is Changing Kulpatis in 2026: The Future of University Leadership](https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-kulpatis-in-2026.html) — 2026-05-10 — AI in Education, University Leadership, Academic Administration
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
