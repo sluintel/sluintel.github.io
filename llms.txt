@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 58
+Total Posts Published: 59
 Last Updated: 2026-05-11
-Latest Post: FC Barcelona vs Real Madrid Standings: Latest Updates & Predictions
-Latest Post URL: https://sluintel.github.io/posts/2026-05-11-fc-barcelona-vs-real-madrid-standings-latest-updates-and-predictions.html
+Latest Post: Alberta Elections: Navigating the Separatist Data Breach Fallout
+Latest Post URL: https://sluintel.github.io/posts/2026-05-11-elections-alberta-separatist-data-breach.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Alberta Elections: Navigating the Separatist Data Breach Fallout](https://sluintel.github.io/posts/2026-05-11-elections-alberta-separatist-data-breach.html) — 2026-05-11 — Alberta Politics, Data Breach, Cybersecurity
 - [FC Barcelona vs Real Madrid Standings: Latest Updates & Predictions](https://sluintel.github.io/posts/2026-05-11-fc-barcelona-vs-real-madrid-standings-latest-updates-and-predictions.html) — 2026-05-11 — El Clasico, La Liga, Football Predictions
 - [Mastering Live Content: Your 2026 Strategy Guide](https://sluintel.github.io/posts/2026-05-11-mastering-live-content-strategy-2026.html) — 2026-05-11 — live content, live streaming, content strategy
 - [Why 'From Season 4 Episode 4' is Exploding Right Now: An AI Strategy Guide](https://sluintel.github.io/posts/2026-05-11-why-from-season-4-episode-4-is-trending-right-now.html) — 2026-05-11 — AI trends, viral content, social media strategy
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [How AI is Changing PSG vs Stade Brestois Standings in 2026](https://sluintel.github.io/posts/2026-05-11-how-ai-is-changing-psg-vs-stade-brestois-standings-in-2026.html) — 2026-05-11 — AI in Football, Ligue 1, Sports Analytics
 - [How AI is Changing Real Oviedo vs Getafe in 2026: The New La Liga Battleground](https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-real-oviedo-vs-getafe-in-2026.html) — 2026-05-10 — AI in Football, La Liga, Football Analytics
 - [AI's Impact on Shivam Dube in 2026: The Data-Driven Cricketer](https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-shivam-dube-in-2026.html) — 2026-05-10 — AI in Cricket, Shivam Dube, Sports Analytics
-- [How AI is Changing Shivam Dube in 2026: The Data-Driven Cricketer](https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-shivam-dube-in-2026.html) — 2026-05-10 — AI in Sports, Cricket Analytics, Shivam Dube
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
