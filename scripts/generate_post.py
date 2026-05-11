@@ -7,10 +7,14 @@ Runs daily via GitHub Actions
 
 import os
 import io
+import sys
 import json
 import re
+import time
 import random
+import hashlib
 import textwrap
+import argparse
 import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
@@ -29,6 +33,8 @@ USED_KW_FILE = REPO_ROOT / "used_keywords.json"
 INDEX_HTML   = REPO_ROOT / "index.html"
 SITEMAP_PATH = REPO_ROOT / "sitemap.xml"
 LLMS_PATH    = REPO_ROOT / "llms.txt"
+RSS_PATH     = REPO_ROOT / "feed.xml"
+ROBOTS_PATH  = REPO_ROOT / "robots.txt"
 
 SITE_URL       = "https://sluintel.github.io"
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
@@ -362,6 +368,55 @@ def _validate_links(html: str, valid_urls: set) -> str:
 # ─────────────────────────────────────────
 # 3. GENERATE BLOG POST WITH GEMINI
 # ─────────────────────────────────────────
+
+def _gemini_with_retry(client, model, contents, config, max_attempts: int = 3):
+    """Call Gemini with exponential backoff on transient failures."""
+    for attempt in range(1, max_attempts + 1):
+        try:
+            return client.models.generate_content(
+                model=model, contents=contents, config=config
+            )
+        except Exception as exc:
+            if attempt == max_attempts:
+                raise
+            wait = 2 ** attempt          # 2s, 4s
+            print(f"⚠️  Gemini attempt {attempt}/{max_attempts} failed: {exc}")
+            print(f"   Retrying in {wait}s…")
+            time.sleep(wait)
+
+
+def _validate_post(data: dict) -> None:
+    """Warn about SEO / quality issues without blocking publish."""
+    plain = re.sub(r"<[^>]+>", " ", data.get("content_html", ""))
+    word_count = len(plain.split())
+    title_len  = len(data.get("title", ""))
+    meta_len   = len(data.get("meta_description", ""))
+
+    print(f"   📝 Word count       : ~{word_count}")
+    print(f"   📌 Title length     : {title_len} chars")
+    print(f"   🔍 Meta desc length : {meta_len} chars")
+
+    if word_count < 600:
+        print(f"⚠️  Content is short ({word_count} words) — consider regenerating")
+    if title_len > 65:
+        print(f"⚠️  Title exceeds 65 chars — may be truncated in SERPs")
+    if meta_len > 160:
+        print(f"⚠️  Meta description exceeds 160 chars")
+    if not data.get("slug"):
+        print("⚠️  Empty slug — will use fallback")
+
+
+def _unique_slug(slug: str, date_str: str) -> str:
+    """Append -2, -3 … if a post file for this date+slug already exists."""
+    base    = slug
+    counter = 2
+    while (POSTS_DIR / f"{date_str}-{slug}.html").exists():
+        slug = f"{base}-{counter}"
+        counter += 1
+    if slug != base:
+        print(f"⚠️  Slug collision — renamed to '{slug}'")
+    return slug
+
 def generate_blog_post(keyword: str) -> dict:
     from google.genai import types
 
@@ -454,28 +509,37 @@ Return ONLY a valid JSON object with exactly these keys — no markdown fences, 
   "content_html": "<p>Full post HTML here...</p>"
 }}"""
 
-    response = client.models.generate_content(
+    response = _gemini_with_retry(
+        client,
         model="gemini-2.5-flash",
         contents=prompt,
-        config=types.GenerateContentConfig(response_mime_type="application/json")
+        config=types.GenerateContentConfig(response_mime_type="application/json"),
     )
 
     data = json.loads(response.text)
+
+    # Sanitise slug
     data["slug"] = re.sub(r"[^a-z0-9\-]", "", data["slug"].lower().replace(" ", "-"))
     data["slug"] = re.sub(r"-+", "-", data["slug"]).strip("-")
+    if not data["slug"]:
+        data["slug"] = re.sub(r"[^a-z0-9\-]", "-", keyword.lower())[:60].strip("-")
+
     data["keyword"] = keyword
+
+    # Strip hallucinated links
     if valid_urls:
         data["content_html"] = _validate_links(data["content_html"], valid_urls)
+
     links_found = re.findall(r'<a href=', data["content_html"])
     print(f"✅ Post generated: {data['title']}")
     print(f"   🔗 Internal links embedded: {len(links_found)}")
+    _validate_post(data)
     return data
 
 
 # ─────────────────────────────────────────
 # 4. FETCH FEATURE IMAGE
 # ─────────────────────────────────────────
-import hashlib
 
 def _build_credit(name, profile_url, platform, platform_url):
     return (
@@ -724,6 +788,35 @@ def build_post_html(post, img_url, img_credit, og_image_url, date_str):
     title_enc = requests.utils.quote(post["title"])
     url_enc   = requests.utils.quote(post_url)
 
+    # ── JSON-LD Article schema (structured data for Google) ──────────────
+    json_ld = json.dumps({
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline":          post["title"],
+        "description":       post["meta_description"],
+        "image":             og_image_url,
+        "datePublished":     date_str,
+        "dateModified":      date_str,
+        "author": {
+            "@type": "Person",
+            "name":  "Sujit Luintel",
+            "url":   "https://sluintel.com.np",
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name":  "Sujit Luintel",
+            "logo": {
+                "@type": "ImageObject",
+                "url":   f"{SITE_URL}/favicon.ico",
+            },
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id":   post_url,
+        },
+        "keywords": ", ".join(post.get("tags", [])),
+    }, ensure_ascii=False, indent=2)
+
     share_buttons = f"""
       <div class="share-section">
         <p class="share-label">Share this post</p>
@@ -831,9 +924,11 @@ def build_post_html(post, img_url, img_credit, og_image_url, date_str):
   <meta name="twitter:title"       content="{post['title']}"/>
   <meta name="twitter:description" content="{post['meta_description']}"/>
   <meta name="twitter:image"       content="{og_image_url}"/>
+  <link rel="canonical"  href="{post_url}"/>
   <link rel="stylesheet" href="../style.css"/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet"/>
+  <script type="application/ld+json">{json_ld}</script>
   {share_css}
 </head>
 <body>
@@ -1235,33 +1330,141 @@ Location: Kathmandu, Nepal
 
 
 # ─────────────────────────────────────────
+# 11. GENERATE RSS FEED (feed.xml)
+# ─────────────────────────────────────────
+def build_rss_feed(posts):
+    now_rfc = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
+
+    def _item(p):
+        pub = datetime.strptime(p["date"], "%Y-%m-%d").strftime("%a, %d %b %Y 00:00:00 +0000")
+        url = f"{SITE_URL}/{p['url']}"
+        cats = "".join(f"    <category>{t}</category>\n" for t in p.get("tags", []))
+        return (
+            f"  <item>\n"
+            f"    <title><![CDATA[{p['title']}]]></title>\n"
+            f"    <link>{url}</link>\n"
+            f"    <guid isPermaLink=\"true\">{url}</guid>\n"
+            f"    <pubDate>{pub}</pubDate>\n"
+            f"    <description><![CDATA[{p['meta_description']}]]></description>\n"
+            f"    <enclosure url=\"{p['image_url']}\" type=\"image/jpeg\" length=\"0\"/>\n"
+            f"{cats}"
+            f"  </item>"
+        )
+
+    items = "\n".join(_item(p) for p in posts[:20])   # latest 20 posts in feed
+    rss = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n'
+        '<channel>\n'
+        f'  <title>Sujit Luintel — AI Tools &amp; Automation</title>\n'
+        f'  <link>{SITE_URL}/</link>\n'
+        f'  <description>Daily AI tools and automation insights, auto-published every day.</description>\n'
+        f'  <language>en-us</language>\n'
+        f'  <lastBuildDate>{now_rfc}</lastBuildDate>\n'
+        f'  <atom:link href="{SITE_URL}/feed.xml" rel="self" type="application/rss+xml"/>\n'
+        f'  <image>\n'
+        f'    <url>{SITE_URL}/favicon.ico</url>\n'
+        f'    <title>Sujit Luintel</title>\n'
+        f'    <link>{SITE_URL}/</link>\n'
+        f'  </image>\n'
+        f'{items}\n'
+        '</channel>\n'
+        '</rss>'
+    )
+    RSS_PATH.write_text(rss, encoding="utf-8")
+    print(f"✅ feed.xml updated ({min(len(posts), 20)} items)")
+
+
+# ─────────────────────────────────────────
+# 12. GENERATE robots.txt
+# ─────────────────────────────────────────
+def build_robots_txt():
+    content = (
+        "User-agent: *\n"
+        "Allow: /\n"
+        "\n"
+        f"Sitemap: {SITE_URL}/sitemap.xml\n"
+    )
+    ROBOTS_PATH.write_text(content, encoding="utf-8")
+    print("✅ robots.txt updated")
+
+
+# ─────────────────────────────────────────
 # MAIN
 # ─────────────────────────────────────────
 def main():
-    print("\n🤖 Auto Blog Generator starting…\n")
+    parser = argparse.ArgumentParser(description="Sujit Luintel Auto Blog Generator")
+    parser.add_argument(
+        "--dry-run", action="store_true",
+        help="Generate and validate everything but write NO files"
+    )
+    args = parser.parse_args()
+    dry  = args.dry_run
+
+    if dry:
+        print("\n🔍 DRY RUN — no files will be written\n")
+    else:
+        print("\n🤖 Auto Blog Generator starting…\n")
+
+    start = time.time()
+
     POSTS_DIR.mkdir(exist_ok=True)
     OG_DIR.mkdir(parents=True, exist_ok=True)
 
-    keyword             = get_trending_keyword()
-    post                = generate_blog_post(keyword)
-    img_url, img_credit = get_feature_image(keyword)
-    og_image_url        = generate_og_image(post["title"], post["slug"])
+    try:
+        # ── 1. keyword ───────────────────────────────────────────────────
+        keyword = get_trending_keyword()
 
-    date_str        = datetime.now().strftime("%Y-%m-%d")
-    posts, filename = update_posts_json(post, img_url, date_str)
+        # ── 2. AI content ────────────────────────────────────────────────
+        post = generate_blog_post(keyword)
 
-    post_html = build_post_html(post, img_url, img_credit, og_image_url, date_str)
-    post_path = POSTS_DIR / filename
-    post_path.write_text(post_html, encoding="utf-8")
-    print(f"✅ Post written → posts/{filename}")
+        # ── 3. Slug collision guard ───────────────────────────────────────
+        date_str     = datetime.now().strftime("%Y-%m-%d")
+        post["slug"] = _unique_slug(post["slug"], date_str)
 
-    INDEX_HTML.write_text(build_index_html(posts), encoding="utf-8")
-    print("✅ index.html regenerated")
+        # ── 4. Feature image ─────────────────────────────────────────────
+        img_url, img_credit = get_feature_image(keyword)
 
-    build_sitemap(posts)
-    build_llms_txt(posts)
+        # ── 5. OG image ───────────────────────────────────────────────────
+        og_image_url = generate_og_image(post["title"], post["slug"])
 
-    print(f"\n🎉 Done! '{post['title']}' is live at posts/{filename}\n")
+        # ── 6. Build HTML ─────────────────────────────────────────────────
+        post_html = build_post_html(post, img_url, img_credit, og_image_url, date_str)
+        filename  = f"{date_str}-{post['slug']}.html"
+
+        if dry:
+            print(f"\n✅ DRY RUN complete — would have written: posts/{filename}")
+            print(f"   Title : {post['title']}")
+            print(f"   Slug  : {post['slug']}")
+            print(f"   Image : {img_url[:60]}…")
+            elapsed = time.time() - start
+            print(f"\n⏱  Finished in {elapsed:.1f}s (dry run)\n")
+            return
+
+        # ── 7. Write post file ────────────────────────────────────────────
+        (POSTS_DIR / filename).write_text(post_html, encoding="utf-8")
+        print(f"✅ Post written → posts/{filename}")
+
+        # ── 8. Update index ────────────────────────────────────────────────
+        posts, _ = update_posts_json(post, img_url, date_str)
+        INDEX_HTML.write_text(build_index_html(posts), encoding="utf-8")
+        print("✅ index.html regenerated")
+
+        # ── 9. All auxiliary files ─────────────────────────────────────────
+        build_sitemap(posts)
+        build_rss_feed(posts)
+        build_llms_txt(posts)
+        build_robots_txt()
+
+        elapsed = time.time() - start
+        print(f"\n🎉 Done in {elapsed:.1f}s — '{post['title']}' is live at posts/{filename}\n")
+
+    except KeyboardInterrupt:
+        print("\n⚠️  Interrupted by user")
+        sys.exit(0)
+    except Exception as exc:
+        print(f"\n❌ Fatal error: {exc}")
+        raise SystemExit(1) from exc
 
 
 if __name__ == "__main__":
