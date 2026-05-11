@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 62
+Total Posts Published: 63
 Last Updated: 2026-05-11
-Latest Post: Madhav Tiwari Updates: Decoding AI's Future Innovators
-Latest Post URL: https://sluintel.github.io/posts/2026-05-11-madhav-tiwari-updates-ai-innovation.html
+Latest Post: What People Are Saying About www.see.gov.np: Your Guide to Nepal's Exam Hub
+Latest Post URL: https://sluintel.github.io/posts/2026-05-11-what-people-are-saying-about-www-see-gov-np.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [What People Are Saying About www.see.gov.np: Your Guide to Nepal's Exam Hub](https://sluintel.github.io/posts/2026-05-11-what-people-are-saying-about-www-see-gov-np.html) — 2026-05-11 — Nepal Education, SEE Exam, Online Learning
 - [Madhav Tiwari Updates: Decoding AI's Future Innovators](https://sluintel.github.io/posts/2026-05-11-madhav-tiwari-updates-ai-innovation.html) — 2026-05-11 — AI Trends, Automation, Tech Leaders
 - [Decoding the Top Internet Reactions to From Season 4 Episode 4](https://sluintel.github.io/posts/2026-05-11-top-internet-reactions-from-season-4-episode-4.html) — 2026-05-11 — From Season 4, Episode 4 Reactions, Fan Theories
 - [Bhavitha Mandava Updates: Tracking AI's Next Big Movers](https://sluintel.github.io/posts/2026-05-11-bhavitha-mandava-updates-ai-innovation.html) — 2026-05-11 — AI Leadership, Tech Innovation, Automation
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Why 'From Season 4 Episode 4' is Exploding Right Now: An AI Strategy Guide](https://sluintel.github.io/posts/2026-05-11-why-from-season-4-episode-4-is-trending-right-now.html) — 2026-05-11 — AI trends, viral content, social media strategy
 - [Tech Mahindra Share Price: Your 2026 Guide to Smart Investing](https://sluintel.github.io/posts/2026-05-11-tech-mahindra-share-price-analysis-2026.html) — 2026-05-11 — Tech Mahindra, Share Price, Stock Market
 - [808 Explained Simply: The Core of Future AI Automation](https://sluintel.github.io/posts/2026-05-11-808-explained-simply.html) — 2026-05-11 — AI Automation, 808 Standard, AI Integration
-- [AI in 2026: Decoding the Shift from Season 4 Episode 4](https://sluintel.github.io/posts/2026-05-11-how-ai-is-changing-from-season-4-episode-4-in-2026.html) — 2026-05-11 — AI Trends, Automation, Future Tech
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
