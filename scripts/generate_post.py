@@ -17,6 +17,7 @@ import textwrap
 import argparse
 import requests
 import xml.etree.ElementTree as ET
+from xml.dom import minidom
 from datetime import datetime, timezone
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
@@ -1014,8 +1015,6 @@ def update_posts_json(post, img_url, date_str):
 # 8. REGENERATE index.html
 # ─────────────────────────────────────────
 
-# ── Separate string constants for CSS/JS so curly braces need no escaping ──
-
 _SEE_MORE_CSS = """\
 <style>
   .post-card.hidden-post {
@@ -1240,22 +1239,9 @@ def build_index_html(posts):
 # ─────────────────────────────────────────
 # 9. REGENERATE sitemap.xml
 # ─────────────────────────────────────────
-import xml.etree.ElementTree as ET
-from xml.dom import minidom
-
 def build_sitemap(posts):
     now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S+00:00")
 
-    def build_robots():
-    content = (
-        "User-agent: *\n"
-        "Allow: /\n"
-        f"Sitemap: {SITE_URL}/sitemap.xml\n"
-    )
-    ROBOTS_PATH.write_text(content, encoding="ascii")
-    print("✅ robots.txt updated")
-    
-    # Build the root <urlset> element with correct namespaces
     urlset = ET.Element("urlset")
     urlset.set("xmlns", "http://www.sitemaps.org/schemas/sitemap/0.9")
     urlset.set("xmlns:xsi", "http://www.w3.org/2001/XMLSchema-instance")
@@ -1280,16 +1266,11 @@ def build_sitemap(posts):
         ET.SubElement(url_el, "changefreq").text = "weekly"
         ET.SubElement(url_el, "priority").text   = "0.80"
 
-    # ── Pretty-print with correct XML declaration, UTF-8, NO BOM ──
-    raw = ET.tostring(urlset, encoding="unicode")
-    pretty_bytes = minidom.parseString(raw).toprettyxml(
-        indent="  ", encoding="UTF-8"
-    )
-
-    # minidom adds a redundant first line sometimes — ensure clean declaration
-    lines = pretty_bytes.decode("utf-8").splitlines()
-    # Remove any blank lines minidom sneaks in after the declaration
-    cleaned = "\n".join(line for line in lines if line.strip())
+    # ── Pretty-print: UTF-8, no BOM, no blank lines ──
+    raw          = ET.tostring(urlset, encoding="unicode")
+    pretty_bytes = minidom.parseString(raw).toprettyxml(indent="  ", encoding="UTF-8")
+    lines        = pretty_bytes.decode("utf-8").splitlines()
+    cleaned      = "\n".join(line for line in lines if line.strip())
 
     SITEMAP_PATH.write_text(cleaned, encoding="utf-8")
     print(f"✅ sitemap.xml updated ({len(posts)} posts + 1 homepage)")
@@ -1379,7 +1360,7 @@ def build_rss_feed(posts):
             f"  </item>"
         )
 
-    items = "\n".join(_item(p) for p in posts[:20])   # latest 20 posts in feed
+    items = "\n".join(_item(p) for p in posts[:20])
     rss = (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n'
@@ -1404,7 +1385,7 @@ def build_rss_feed(posts):
 
 
 # ─────────────────────────────────────────
-# 12. GENERATE robots.txt
+# 12. REGENERATE robots.txt
 # ─────────────────────────────────────────
 def build_robots_txt():
     content = (
