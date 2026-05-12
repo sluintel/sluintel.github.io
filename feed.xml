@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 12 May 2026 05:43:53 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 12 May 2026 05:49:03 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Everything Happening Around Australia Cricket Team: Your 2026 Guide]]></title>
+    <link>https://sluintel.github.io/posts/2026-05-12-everything-happening-around-australia-cricket-team.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-12-everything-happening-around-australia-cricket-team.html</guid>
+    <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack everything happening around the Australia cricket team in 2026. Discover key strategies, player updates, and controversies shaping their path. Stay ahead with this expert guide.]]></description>
+    <enclosure url="https://images.pexels.com/photos/10572991/pexels-photo-10572991.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Australian Cricket</category>
+    <category>Cricket News 2026</category>
+    <category>Team Australia</category>
+    <category>Sports Analysis</category>
+    <category>Cricket Strategy</category>
+  </item>
   <item>
     <title><![CDATA[Napoli vs Bologna: Everything You Need to Know for 2026]]></title>
     <link>https://sluintel.github.io/posts/2026-05-12-napoli-vs-bologna-everything-you-should-know.html</link>
@@ -258,19 +271,6 @@
     <category>Shivam Dube</category>
     <category>Sports Tech</category>
     <category>Athlete Performance</category>
-  </item>
-  <item>
-    <title><![CDATA[How AI is Changing Anshul Kamboj in 2026: A Personal AI Revolution]]></title>
-    <link>https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-anshul-kamboj-in-2026.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-anshul-kamboj-in-2026.html</guid>
-    <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Discover how AI is changing Anshul Kamboj's daily life and career in 2026. Uncover essential AI tools, strategies, and insights for personal growth and productivity.]]></description>
-    <enclosure url="https://images.pexels.com/photos/30530406/pexels-photo-30530406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI impact</category>
-    <category>personal AI</category>
-    <category>career growth</category>
-    <category>future of work</category>
-    <category>AI tools</category>
   </item>
 </channel>
 </rss>
