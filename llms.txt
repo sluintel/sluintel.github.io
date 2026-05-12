@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 64
+Total Posts Published: 65
 Last Updated: 2026-05-12
-Latest Post: Why Abhishek Porel is Trending Right Now: AI's Impact on Rising Stars
-Latest Post URL: https://sluintel.github.io/posts/2026-05-12-why-abhishek-porel-is-trending-right-now.html
+Latest Post: Why NEOM vs Al-Shabab is Trending Right Now: AI's Impact
+Latest Post URL: https://sluintel.github.io/posts/2026-05-12-why-neom-vs-al-shabab-is-trending-right-now.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Why NEOM vs Al-Shabab is Trending Right Now: AI's Impact](https://sluintel.github.io/posts/2026-05-12-why-neom-vs-al-shabab-is-trending-right-now.html) — 2026-05-12 — AI in Sports, Football Analytics, NEOM
 - [Why Abhishek Porel is Trending Right Now: AI's Impact on Rising Stars](https://sluintel.github.io/posts/2026-05-12-why-abhishek-porel-is-trending-right-now.html) — 2026-05-12 — Abhishek Porel, Cricket, Sports Analytics
 - [What People Are Saying About www.see.gov.np: Your Guide to Nepal's Exam Hub](https://sluintel.github.io/posts/2026-05-11-what-people-are-saying-about-www-see-gov-np.html) — 2026-05-11 — Nepal Education, SEE Exam, Online Learning
 - [Madhav Tiwari Updates: Decoding AI's Future Innovators](https://sluintel.github.io/posts/2026-05-11-madhav-tiwari-updates-ai-innovation.html) — 2026-05-11 — AI Trends, Automation, Tech Leaders
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [FC Barcelona vs Real Madrid Standings: Latest Updates & Predictions](https://sluintel.github.io/posts/2026-05-11-fc-barcelona-vs-real-madrid-standings-latest-updates-and-predictions.html) — 2026-05-11 — El Clasico, La Liga, Football Predictions
 - [Mastering Live Content: Your 2026 Strategy Guide](https://sluintel.github.io/posts/2026-05-11-mastering-live-content-strategy-2026.html) — 2026-05-11 — live content, live streaming, content strategy
 - [Why 'From Season 4 Episode 4' is Exploding Right Now: An AI Strategy Guide](https://sluintel.github.io/posts/2026-05-11-why-from-season-4-episode-4-is-trending-right-now.html) — 2026-05-11 — AI trends, viral content, social media strategy
-- [Tech Mahindra Share Price: Your 2026 Guide to Smart Investing](https://sluintel.github.io/posts/2026-05-11-tech-mahindra-share-price-analysis-2026.html) — 2026-05-11 — Tech Mahindra, Share Price, Stock Market
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
