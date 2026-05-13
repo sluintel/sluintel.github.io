@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 13 May 2026 11:28:20 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 13 May 2026 13:59:26 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[CBSE: Everything You Should Know for Academic Success in 2026]]></title>
+    <link>https://sluintel.github.io/posts/2026-05-13-cbse-everything-you-should-know.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-13-cbse-everything-you-should-know.html</guid>
+    <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unlock the secrets of CBSE in 2026. This comprehensive guide covers curriculum, exams, and key strategies for students and parents to achieve academic excellence. Get ahead!]]></description>
+    <enclosure url="https://images.pexels.com/photos/3113530/pexels-photo-3113530.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>CBSE</category>
+    <category>Indian Education</category>
+    <category>Board Exams</category>
+    <category>Academic Guide</category>
+    <category>School Curriculum</category>
+  </item>
   <item>
     <title><![CDATA[Osasuna vs Atlético Madrid Standings: What Fans & Pundits Are Saying]]></title>
     <link>https://sluintel.github.io/posts/2026-05-13-what-people-are-saying-about-osasuna-vs-atletico-madrid-standings.html</link>
@@ -262,19 +275,6 @@
     <category>Sports Analytics</category>
     <category>AI in Sports</category>
     <category>Trending Topics</category>
-  </item>
-  <item>
-    <title><![CDATA[What People Are Saying About www.see.gov.np: Your Guide to Nepal's Exam Hub]]></title>
-    <link>https://sluintel.github.io/posts/2026-05-11-what-people-are-saying-about-www-see-gov-np.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-11-what-people-are-saying-about-www-see-gov-np.html</guid>
-    <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Curious what people are saying about www.see.gov.np? Uncover key insights, student experiences, and pro tips for navigating Nepal's crucial exam portal effectively in 2026.]]></description>
-    <enclosure url="https://images.pexels.com/photos/16960497/pexels-photo-16960497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Nepal Education</category>
-    <category>SEE Exam</category>
-    <category>Online Learning</category>
-    <category>Student Resources</category>
-    <category>Digital Accessibility</category>
   </item>
 </channel>
 </rss>
