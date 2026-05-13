@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 13 May 2026 16:16:34 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 13 May 2026 16:21:42 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Eileen Wang's Latest Updates: Her AI Impact & What It Means for You]]></title>
+    <link>https://sluintel.github.io/posts/2026-05-13-the-latest-updates-on-eileen-wang.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-13-the-latest-updates-on-eileen-wang.html</guid>
+    <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Dive into the latest updates on Eileen Wang's groundbreaking work in AI and automation. Discover her strategic moves, impact, and how you can apply her insights in 2026. Stay ahead!]]></description>
+    <enclosure url="https://images.pexels.com/photos/32319624/pexels-photo-32319624.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Eileen Wang</category>
+    <category>AI Leadership</category>
+    <category>Tech Innovation</category>
+    <category>Automation Strategy</category>
+    <category>Web3 Trends</category>
+  </item>
   <item>
     <title><![CDATA[Angkrish Raghuvanshi's AI Future: Unlocking Cricket's Next Gen]]></title>
     <link>https://sluintel.github.io/posts/2026-05-13-future-of-angkrish-raghuvanshi-with-ai.html</link>
@@ -258,23 +271,6 @@
     <category>Thunder</category>
     <category>Basketball</category>
     <category>Sports Analytics</category>
-  </item>
-  <item>
-    <title><![CDATA[Why Lakers vs Thunder is Trending: AI & NBA's Hottest Rivalry]]></title>
-    <link>https://sluintel.github.io/posts/2026-05-12-why-lakers-vs-thunder-is-trending-right-now.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-12-why-lakers-vs-thunder-is-trending-right-now.html</guid>
-    <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Discover why Lakers vs Thunder is trending right now. Unpack the AI-driven analytics, shifting team dynamics, and fan engagement fueling this NBA phenomenon in 2026.]]></description>
-    <enclosure url="https://images.pexels.com/photos/37107382/pexels-photo-37107382.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>NBA</category>
-    <category>Basketball</category>
-    <category>Lakers</category>
-    <category>Thunder</category>
-    <category>AI Sports</category>
-    <category>Sports Analytics</category>
-    <category>Trending Topics</category>
-    <category>Fan Engagement</category>
-    <category>2026 NBA</category>
   </item>
 </channel>
 </rss>
