@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 13 May 2026 15:17:35 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 13 May 2026 16:16:34 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Angkrish Raghuvanshi's AI Future: Unlocking Cricket's Next Gen]]></title>
+    <link>https://sluintel.github.io/posts/2026-05-13-future-of-angkrish-raghuvanshi-with-ai.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-13-future-of-angkrish-raghuvanshi-with-ai.html</guid>
+    <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Discover how AI is set to redefine the future of Angkrish Raghuvanshi and elite athletes, boosting performance and career longevity. Get ahead of the curve!]]></description>
+    <enclosure url="https://images.pexels.com/photos/30530426/pexels-photo-30530426.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI in sports</category>
+    <category>Cricket analytics</category>
+    <category>Angkrish Raghuvanshi</category>
+    <category>Athlete performance</category>
+    <category>Sports tech</category>
+  </item>
   <item>
     <title><![CDATA[Why England Women vs New Zealand Women is Trending: AI's Edge in 2026]]></title>
     <link>https://sluintel.github.io/posts/2026-05-13-why-england-women-vs-new-zealand-women-is-trending-right-now.html</link>
@@ -262,19 +275,6 @@
     <category>Trending Topics</category>
     <category>Fan Engagement</category>
     <category>2026 NBA</category>
-  </item>
-  <item>
-    <title><![CDATA[Everything Happening Around Australia Cricket Team: Your 2026 Guide]]></title>
-    <link>https://sluintel.github.io/posts/2026-05-12-everything-happening-around-australia-cricket-team.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-12-everything-happening-around-australia-cricket-team.html</guid>
-    <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unpack everything happening around the Australia cricket team in 2026. Discover key strategies, player updates, and controversies shaping their path. Stay ahead with this expert guide.]]></description>
-    <enclosure url="https://images.pexels.com/photos/10572991/pexels-photo-10572991.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Australian Cricket</category>
-    <category>Cricket News 2026</category>
-    <category>Team Australia</category>
-    <category>Sports Analysis</category>
-    <category>Cricket Strategy</category>
   </item>
 </channel>
 </rss>
