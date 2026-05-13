@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 13 May 2026 14:14:44 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 13 May 2026 15:12:46 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[What People Are Saying About Share Result in 2026: The Inside Scoop]]></title>
+    <link>https://sluintel.github.io/posts/2026-05-13-what-people-are-saying-about-share-result.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-13-what-people-are-saying-about-share-result.html</guid>
+    <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Discover what people are saying about share result in 2026. Get the real buzz, understand AI's impact, and learn how to interpret market sentiment for smarter decisions.]]></description>
+    <enclosure url="https://images.pexels.com/photos/1325762/pexels-photo-1325762.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Share Market</category>
+    <category>AI in Finance</category>
+    <category>Market Sentiment</category>
+    <category>Investment Strategies</category>
+    <category>Data Analysis</category>
+  </item>
   <item>
     <title><![CDATA[Unpacking the Latest Updates on Parliament of Nepal: Your 2026 Guide]]></title>
     <link>https://sluintel.github.io/posts/2026-05-13-the-latest-updates-on-parliament-of-nepal.html</link>
@@ -262,19 +275,6 @@
     <category>Social Media Trends</category>
     <category>Fan Engagement</category>
     <category>Sports Buzz</category>
-  </item>
-  <item>
-    <title><![CDATA[Why NEOM vs Al-Shabab is Trending Right Now: AI's Impact]]></title>
-    <link>https://sluintel.github.io/posts/2026-05-12-why-neom-vs-al-shabab-is-trending-right-now.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-12-why-neom-vs-al-shabab-is-trending-right-now.html</guid>
-    <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unpack why NEOM vs Al-Shabab FC is trending right now, exploring AI's crucial role in sports investment, fan engagement, and strategic analytics. Get expert insights.]]></description>
-    <enclosure url="https://images.pexels.com/photos/29715715/pexels-photo-29715715.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI in Sports</category>
-    <category>Football Analytics</category>
-    <category>NEOM</category>
-    <category>Saudi Pro League</category>
-    <category>Sports Tech</category>
   </item>
 </channel>
 </rss>
