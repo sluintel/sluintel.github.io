@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 96
+Total Posts Published: 97
 Last Updated: 2026-05-14
-Latest Post: Coritiba vs Santos: Top Internet Reactions & Fan Frenzy
-Latest Post URL: https://sluintel.github.io/posts/2026-05-14-top-internet-reactions-coritiba-vs-santos.html
+Latest Post: Copa do Brasil Explained Simply: Your Guide to Brazilian Football Glory
+Latest Post URL: https://sluintel.github.io/posts/2026-05-14-copa-do-brasil-explained-simply.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Copa do Brasil Explained Simply: Your Guide to Brazilian Football Glory](https://sluintel.github.io/posts/2026-05-14-copa-do-brasil-explained-simply.html) — 2026-05-14 — Copa do Brasil, Brazilian Football, Soccer Explained
 - [Coritiba vs Santos: Top Internet Reactions & Fan Frenzy](https://sluintel.github.io/posts/2026-05-14-top-internet-reactions-coritiba-vs-santos.html) — 2026-05-14 — Coritiba, Santos, Football Reactions
 - [Cincinnati vs Inter Miami: Top Internet Reactions Unpacked](https://sluintel.github.io/posts/2026-05-14-top-internet-reactions-to-cincinnati-vs-inter-miami.html) — 2026-05-14 — MLS, Inter Miami, Cincinnati FC
 - [Sai Sudharsan's AI Future: How Data Will Redefine Cricket Stardom](https://sluintel.github.io/posts/2026-05-14-future-of-sai-sudharsan-with-ai.html) — 2026-05-14 — AI in Sports, Cricket Analytics, Sai Sudharsan
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Lazio vs Inter: Decoding Top Internet Reactions & Fan Fervor](https://sluintel.github.io/posts/2026-05-13-top-internet-reactions-to-lazio-vs-inter.html) — 2026-05-13 — Serie A, Lazio vs Inter, Football Reactions
 - [Eileen Wang's Latest Updates: Her AI Impact & What It Means for You](https://sluintel.github.io/posts/2026-05-13-the-latest-updates-on-eileen-wang.html) — 2026-05-13 — Eileen Wang, AI Leadership, Tech Innovation
 - [Angkrish Raghuvanshi's AI Future: Unlocking Cricket's Next Gen](https://sluintel.github.io/posts/2026-05-13-future-of-angkrish-raghuvanshi-with-ai.html) — 2026-05-13 — AI in sports, Cricket analytics, Angkrish Raghuvanshi
-- [Why England Women vs New Zealand Women is Trending: AI's Edge in 2026](https://sluintel.github.io/posts/2026-05-13-why-england-women-vs-new-zealand-women-is-trending-right-now.html) — 2026-05-13 — Women's Cricket, Sports Analytics, AI in Sports
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
