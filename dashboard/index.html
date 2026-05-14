@@ -1,0 +1,944 @@
+---
+layout: null
+permalink: /dashboard/index.html
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard — Sujit Luintel</title>
+  <link rel="stylesheet" href="{{ '/assets/css/sl-dashboard.css' | relative_url }}">
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════ LOCK SCREEN ═══ -->
+<div id="lockScreen">
+  <div class="lock-box" id="lockBox">
+
+    <!-- FIRST RUN SETUP -->
+    <div id="setupView" style="display:none">
+      <div class="lock-icon">🔐</div>
+      <div class="lock-logo">Sujit<span>Luintel</span></div>
+      <div class="lock-subtitle">Dashboard Setup — First Run</div>
+      <div class="setup-steps">
+        <div>
+          <div class="setup-step-label">Create Dashboard Password</div>
+          <input class="lock-input" type="password" id="setupPw1" placeholder="Choose a password" autocomplete="new-password">
+          <input class="lock-input" type="password" id="setupPw2" placeholder="Confirm password" autocomplete="new-password">
+        </div>
+        <div>
+          <div class="setup-step-label">GitHub Personal Access Token</div>
+          <input class="lock-input" type="password" id="setupPat" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx" autocomplete="off">
+          <div class="setup-hint">
+            Create a PAT at <a href="https://github.com/settings/tokens" target="_blank" rel="noopener">github.com/settings/tokens</a>
+            with <code>repo</code> scope. Select <strong>No expiration</strong>.<br>
+            This is stored encrypted in your browser and used to save layout configs to your repo.
+          </div>
+        </div>
+        <div>
+          <div class="setup-step-label">GitHub Repo</div>
+          <input class="lock-input" type="text" id="setupRepo" placeholder="sluintel/sluintel.github.io" value="sluintel/sluintel.github.io">
+          <div class="setup-hint">Format: <code>owner/repo-name</code></div>
+        </div>
+        <div class="lock-error" id="setupError"></div>
+        <button class="lock-btn" id="setupSaveBtn">Save & Enter Dashboard →</button>
+      </div>
+    </div>
+
+    <!-- LOGIN VIEW -->
+    <div id="loginView">
+      <div class="lock-icon">🔒</div>
+      <div class="lock-logo">Sujit<span>Luintel</span></div>
+      <div class="lock-subtitle">Dashboard — Enter Password</div>
+      <div class="lock-label">Password</div>
+      <input class="lock-input" type="password" id="loginPw" placeholder="Your dashboard password" autocomplete="current-password">
+      <div class="lock-error" id="loginError"></div>
+      <button class="lock-btn" id="loginBtn">Unlock Dashboard →</button>
+    </div>
+
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════ DASHBOARD APP ═══ -->
+<div id="dashApp">
+
+  <!-- SIDEBAR -->
+  <aside class="db-sidebar">
+    <div class="db-sidebar-logo">
+      <div class="db-logo-text">Sujit<span>Luintel</span></div>
+      <div class="db-logo-badge">Layout Dashboard</div>
+    </div>
+
+    <nav class="db-nav">
+      <div class="db-nav-section">Main</div>
+      <button class="db-nav-item is-active" data-tab="overview">
+        <span class="db-nav-icon">📊</span> Overview
+      </button>
+      <button class="db-nav-item" data-tab="sections">
+        <span class="db-nav-icon">🗂️</span> Sections & Layouts
+      </button>
+      <button class="db-nav-item" data-tab="gallery">
+        <span class="db-nav-icon">🎨</span> Layout Gallery
+      </button>
+      <button class="db-nav-item" data-tab="categories">
+        <span class="db-nav-icon">🏷️</span> Categories
+      </button>
+
+      <div class="db-nav-section">System</div>
+      <button class="db-nav-item" data-tab="settings">
+        <span class="db-nav-icon">⚙️</span> Settings
+      </button>
+      <a class="db-nav-item" href="/" target="_blank">
+        <span class="db-nav-icon">🔗</span> View Blog
+      </a>
+    </nav>
+
+    <div class="db-sidebar-footer">
+      <div class="db-status-text">
+        <div class="db-status-dot"></div>
+        <span id="sidebarStatus">Connected</span>
+      </div>
+      <button class="db-logout-btn" id="logoutBtn">🔒 Lock Dashboard</button>
+    </div>
+  </aside>
+
+  <!-- MAIN -->
+  <div class="db-main">
+    <div class="db-topbar">
+      <div class="db-page-title" id="tabTitle">Overview</div>
+      <div class="db-topbar-actions">
+        <button class="db-btn db-btn-secondary db-btn-sm" id="previewBtn">👁 Preview Site</button>
+        <button class="db-btn db-btn-primary" id="saveBtn">
+          <span id="saveBtnLabel">💾 Save to GitHub</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="db-content">
+
+      <!-- ══════════════════ TAB: OVERVIEW ══════════════════ -->
+      <div id="tab-overview" class="db-tab-content">
+
+        <div class="db-publish-bar">
+          <div>
+            <div class="db-publish-status">
+              <div class="db-publish-dot"></div>
+              <span>Blog is Live</span>
+            </div>
+            <div class="db-publish-hint">sluintel.github.io · Auto-publishes daily via GitHub Actions</div>
+          </div>
+          <div class="db-publish-actions">
+            <a href="https://github.com/sluintel/sluintel.github.io/actions" target="_blank" class="db-btn db-btn-secondary db-btn-sm">🔄 GitHub Actions</a>
+            <a href="https://sluintel.github.io/" target="_blank" class="db-btn db-btn-primary db-btn-sm">🔗 Open Blog</a>
+          </div>
+        </div>
+
+        <div class="db-stats-row">
+          <div class="db-stat-card">
+            <div class="db-stat-label">Active Sections</div>
+            <div class="db-stat-value" id="statSections">—</div>
+            <div class="db-stat-sub">on homepage</div>
+          </div>
+          <div class="db-stat-card">
+            <div class="db-stat-label">Categories</div>
+            <div class="db-stat-value" id="statCategories">—</div>
+            <div class="db-stat-sub">defined</div>
+          </div>
+          <div class="db-stat-card">
+            <div class="db-stat-label">Layout Types</div>
+            <div class="db-stat-value">10</div>
+            <div class="db-stat-sub">available</div>
+          </div>
+          <div class="db-stat-card">
+            <div class="db-stat-label">Config Status</div>
+            <div class="db-stat-value" id="statSaved" style="font-size:1.1rem;margin-top:4px;">—</div>
+            <div class="db-stat-sub" id="statSavedSub">Loading…</div>
+          </div>
+        </div>
+
+        <div class="db-panel">
+          <div class="db-panel-header">
+            <div class="db-panel-title">🗂️ Section Order Preview</div>
+            <button class="db-btn db-btn-secondary db-btn-sm" data-tab="sections">Manage →</button>
+          </div>
+          <div class="db-panel-body" id="overviewSectionList" style="display:flex;flex-direction:column;gap:8px;">
+            <!-- populated by JS -->
+          </div>
+        </div>
+
+      </div><!-- /tab-overview -->
+
+      <!-- ══════════════════ TAB: SECTIONS ══════════════════ -->
+      <div id="tab-sections" class="db-tab-content" style="display:none">
+
+        <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px;">
+          <p style="font-size:0.85rem;color:var(--db-text-3);">
+            Drag rows to reorder sections. Toggle visibility, pick a layout, and assign a category per section.
+          </p>
+          <button class="db-btn db-btn-secondary db-btn-sm" id="addSectionBtn">+ Add Section</button>
+        </div>
+
+        <div class="db-panel">
+          <div class="db-panel-header">
+            <div class="db-panel-title">🗂️ Homepage Sections
+              <span style="font-size:0.7rem;font-weight:500;color:var(--db-text-3);margin-left:8px;">drag to reorder</span>
+            </div>
+          </div>
+          <div class="db-section-list" id="sectionList" role="list">
+            <!-- populated by JS -->
+          </div>
+        </div>
+
+      </div><!-- /tab-sections -->
+
+      <!-- ══════════════════ TAB: GALLERY ══════════════════ -->
+      <div id="tab-gallery" class="db-tab-content" style="display:none">
+        <p style="font-size:0.85rem;color:var(--db-text-3);margin-bottom:20px;">
+          All 10 layout types available for your homepage sections. Click a layout to learn more.
+        </p>
+        <div class="db-layout-gallery" id="layoutGallery">
+          <!-- populated by JS -->
+        </div>
+      </div><!-- /tab-gallery -->
+
+      <!-- ══════════════════ TAB: CATEGORIES ══════════════════ -->
+      <div id="tab-categories" class="db-tab-content" style="display:none">
+
+        <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px;">
+          <p style="font-size:0.85rem;color:var(--db-text-3);">
+            Categories auto-detect posts by matching tags. Add, rename, or merge categories.
+            Click a tag pill to remove it. Press <kbd style="background:var(--db-surface-2);padding:1px 5px;border-radius:3px;font-size:0.7rem;border:1px solid var(--db-border-2)">Enter</kbd> to add new tags.
+          </p>
+          <button class="db-btn db-btn-secondary db-btn-sm" id="addCategoryBtn">+ Add Category</button>
+        </div>
+
+        <div class="db-cat-grid" id="catGrid">
+          <!-- populated by JS -->
+        </div>
+
+      </div><!-- /tab-categories -->
+
+      <!-- ══════════════════ TAB: SETTINGS ══════════════════ -->
+      <div id="tab-settings" class="db-tab-content" style="display:none">
+
+        <div class="db-settings-grid">
+
+          <div class="db-settings-row">
+            <div class="db-settings-row-info">
+              <div class="db-settings-row-label">GitHub Personal Access Token</div>
+              <div class="db-settings-row-desc">
+                Used to save your layout config as <code>_data/sections_config.json</code> in your repo.<br>
+                <a href="https://github.com/settings/tokens" target="_blank" rel="noopener">Generate a PAT</a> with <code>repo</code> scope and <strong>No expiration</strong>. Stored encrypted in your browser only.
+              </div>
+            </div>
+            <div class="db-pat-row">
+              <input class="db-settings-input" type="password" id="settingsPat" placeholder="ghp_xxxxxxx" autocomplete="off">
+              <button class="db-btn db-btn-secondary db-btn-sm" id="savePat">Save</button>
+            </div>
+          </div>
+
+          <div class="db-settings-row">
+            <div class="db-settings-row-info">
+              <div class="db-settings-row-label">GitHub Repository</div>
+              <div class="db-settings-row-desc">The repo where config will be saved. Format: <code>owner/repo</code></div>
+            </div>
+            <input class="db-settings-input" type="text" id="settingsRepo" placeholder="sluintel/sluintel.github.io">
+          </div>
+
+          <div class="db-settings-row">
+            <div class="db-settings-row-info">
+              <div class="db-settings-row-label">Change Dashboard Password</div>
+              <div class="db-settings-row-desc">Updates the password used to access this dashboard.</div>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:8px;width:280px;flex-shrink:0;">
+              <input class="db-settings-input" type="password" id="newPw1" placeholder="New password" autocomplete="new-password">
+              <input class="db-settings-input" type="password" id="newPw2" placeholder="Confirm new password" autocomplete="new-password">
+              <button class="db-btn db-btn-secondary db-btn-sm" id="changePwBtn">Update Password</button>
+            </div>
+          </div>
+
+          <div class="db-settings-row">
+            <div class="db-settings-row-info">
+              <div class="db-settings-row-label">Export Config</div>
+              <div class="db-settings-row-desc">Download your current layout config as a JSON file for backup or manual editing.</div>
+            </div>
+            <button class="db-btn db-btn-secondary" id="exportBtn">⬇ Download JSON</button>
+          </div>
+
+          <div class="db-settings-row">
+            <div class="db-settings-row-info">
+              <div class="db-settings-row-label">Import Config</div>
+              <div class="db-settings-row-desc">Upload a previously exported JSON config file to restore your settings.</div>
+            </div>
+            <div style="display:flex;gap:8px;align-items:center;flex-shrink:0;">
+              <label class="db-btn db-btn-secondary" style="cursor:pointer;">
+                ⬆ Choose File
+                <input type="file" id="importFile" accept=".json" style="display:none">
+              </label>
+            </div>
+          </div>
+
+          <div class="db-settings-row">
+            <div class="db-settings-row-info">
+              <div class="db-settings-row-label" style="color:var(--db-red);">Reset to Defaults</div>
+              <div class="db-settings-row-desc">Restore the original section and category configuration. This will overwrite your current setup.</div>
+            </div>
+            <button class="db-btn db-btn-danger" id="resetBtn">🗑 Reset Config</button>
+          </div>
+
+        </div><!-- /settings-grid -->
+      </div><!-- /tab-settings -->
+
+    </div><!-- /db-content -->
+  </div><!-- /db-main -->
+</div><!-- /dashApp -->
+
+<!-- TOAST -->
+<div id="dbToast" role="alert" aria-live="polite">
+  <span class="toast-icon"></span>
+  <span id="toastMsg"></span>
+</div>
+
+<script>
+/* ═══════════════════════════════════════════════════════════════
+   SLUINTEL DASHBOARD — dashboard.js (inline)
+   All logic: auth, drag-drop, GitHub API, UI rendering
+═══════════════════════════════════════════════════════════════ */
+(function () {
+'use strict';
+
+/* ─── CRYPTO HELPERS ─── */
+async function hashPw(pw) {
+  const enc = new TextEncoder();
+  const buf = await crypto.subtle.digest('SHA-256', enc.encode(pw + 'sl_salt_2025'));
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2,'0')).join('');
+}
+function obfuscate(str) { return btoa(encodeURIComponent(str)); }
+function deobfuscate(str) { try { return decodeURIComponent(atob(str)); } catch(e) { return ''; } }
+
+/* ─── STORAGE WRAPPERS ─── */
+const LS = {
+  get: k => { try { return localStorage.getItem(k); } catch(e) { return null; } },
+  set: (k, v) => { try { localStorage.setItem(k, v); } catch(e) {} },
+  del: k => { try { localStorage.removeItem(k); } catch(e) {} }
+};
+
+/* ─── DEFAULT CONFIG (mirrors _data/sections_config.json) ─── */
+const DEFAULT_CONFIG = {
+  version: "1.0",
+  sections: [
+    { id:"s1",  order:1,  enabled:true,  title:"AI & Automation", layout:"hero-spotlight",    category:"ai-automation", show_see_all:true  },
+    { id:"s2",  order:2,  enabled:true,  title:"Sports Zone",      layout:"magazine-grid",     category:"sports",        show_see_all:true  },
+    { id:"s3",  order:3,  enabled:true,  title:"Trending Now",     layout:"carousel-row",      category:"trending",      show_see_all:false },
+    { id:"s4",  order:4,  enabled:true,  title:"Finance & Markets",layout:"list-preview",      category:"finance",       show_see_all:true  },
+    { id:"s5",  order:5,  enabled:true,  title:"Entertainment",    layout:"alternating-split", category:"entertainment",  show_see_all:true  },
+    { id:"s6",  order:6,  enabled:true,  title:"Technology",       layout:"masonry-grid",      category:"technology",    show_see_all:true  },
+    { id:"s7",  order:7,  enabled:true,  title:"Deep Dives",       layout:"spotlight-sidebar", category:"deep-dives",    show_see_all:true  },
+    { id:"s8",  order:8,  enabled:true,  title:"Quick Reads",      layout:"text-digest",       category:"all",           show_see_all:false },
+    { id:"s9",  order:9,  enabled:true,  title:"Editor's Pick",    layout:"big-feature-strip", category:"trending",      show_see_all:false },
+    { id:"s10", order:10, enabled:true,  title:"Full Archive",     layout:"timeline-feed",     category:"all",           show_see_all:false }
+  ],
+  categories: {
+    all:           { label:"All Posts",          color:"#6366f1", icon:"📰", tags:[] },
+    trending:      { label:"Trending",           color:"#f43f5e", icon:"🔥", tags:["trending","viral","latest","updates","right now","2026"] },
+    "ai-automation":{ label:"AI & Automation",   color:"#6366f1", icon:"🤖", tags:["ai tools","automation","chatgpt","gemini ai","openai","llm","generative ai","workflow","productivity","ai agents","machine learning","ai code","ai trends","prompt engineering"] },
+    sports:        { label:"Sports",             color:"#22c55e", icon:"⚽", tags:["cricket","football","nba","ipl","la liga","serie a","bundesliga","premier league","mma","ufc","basketball","tennis","golf","rugby","champions league","epl","sports analytics"] },
+    finance:       { label:"Finance & Markets",  color:"#f59e0b", icon:"💰", tags:["investing","stock market","finance","trading","shares","etf","portfolio","crypto","fintech","banking","markets","data breach"] },
+    entertainment: { label:"Entertainment",      color:"#ec4899", icon:"🎬", tags:["reality tv","celebrity","music","actor","film","series","streaming","netflix","bollywood","hollywood","pop culture"] },
+    technology:    { label:"Technology",         color:"#0ea5e9", icon:"💻", tags:["app development","mobile strategy","ai laptops","tech innovation","software","hardware","devices","gadgets","cloud","saas","developer","coding"] },
+    "deep-dives":  { label:"Deep Dives",         color:"#8b5cf6", icon:"🔍", tags:["workflow automation","automation tools","guide","tutorial","explained","analysis","deep dive","breakdown","complete guide","how ai is changing"] }
+  }
+};
+
+const LAYOUTS = [
+  { id:"hero-spotlight",    name:"Hero Spotlight",    desc:"Large hero left + 3 stacked cards. Best for top stories. (The Verge style)" },
+  { id:"magazine-grid",     name:"Magazine Grid",     desc:"Asymmetric editorial grid, 2+2 columns. Great for sports & news. (Guardian style)" },
+  { id:"carousel-row",      name:"Carousel Row",      desc:"Horizontal scroll row. Ideal for trending/discovery. (Netflix style)" },
+  { id:"list-preview",      name:"List + Preview",    desc:"Numbered list with hover image preview panel. Great for finance/ranked content. (Ars Technica)" },
+  { id:"masonry-grid",      name:"Masonry Grid",      desc:"Pinterest-style varied height cards across 3 columns. (Google News style)" },
+  { id:"big-feature-strip", name:"Big Feature Strip", desc:"Full-width hero + 4-card compact strip below. (BBC News style)" },
+  { id:"text-digest",       name:"Text Digest",       desc:"Dense scannable text-only list with tags. (Morning Brew / HN style)" },
+  { id:"alternating-split", name:"Alternating Split", desc:"Image+text alternating left/right. Great for long-form previews. (Medium/Substack)" },
+  { id:"timeline-feed",     name:"Timeline Feed",     desc:"Chronological date-grouped vertical feed. Best for full archive. (Bloomberg style)" },
+  { id:"spotlight-sidebar", name:"Spotlight Sidebar", desc:"2/3 spotlight + 1/3 sidebar stack. Best for deep-dives. (TechCrunch/ESPN style)" }
+];
+
+/* ─── STATE ─── */
+let config = null;
+let isDirty = false;
+let activeTab = 'overview';
+let dragSrc = null;
+
+/* ─── AUTH ─── */
+async function checkFirstRun() {
+  const hash = LS.get('sl_pw_hash');
+  if (!hash) {
+    document.getElementById('loginView').style.display = 'none';
+    document.getElementById('setupView').style.display = 'block';
+  }
+}
+
+async function setupSave() {
+  const pw1  = document.getElementById('setupPw1').value.trim();
+  const pw2  = document.getElementById('setupPw2').value.trim();
+  const pat  = document.getElementById('setupPat').value.trim();
+  const repo = document.getElementById('setupRepo').value.trim();
+  const err  = document.getElementById('setupError');
+
+  if (!pw1 || pw1.length < 4) { err.textContent = 'Password must be at least 4 characters.'; return; }
+  if (pw1 !== pw2)             { err.textContent = 'Passwords do not match.'; return; }
+  if (!pat.startsWith('ghp_') && !pat.startsWith('github_pat_')) {
+    err.textContent = 'Invalid PAT format. Should start with ghp_ or github_pat_'; return;
+  }
+  if (!repo.includes('/'))     { err.textContent = 'Repo format: owner/repo-name'; return; }
+
+  err.textContent = '';
+  const hash = await hashPw(pw1);
+  LS.set('sl_pw_hash', hash);
+  LS.set('sl_pat', obfuscate(pat));
+  LS.set('sl_repo', repo);
+  unlockDashboard();
+}
+
+async function tryLogin() {
+  const pw  = document.getElementById('loginPw').value;
+  const err = document.getElementById('loginError');
+  const stored = LS.get('sl_pw_hash');
+  const hash = await hashPw(pw);
+  if (hash === stored) {
+    err.textContent = '';
+    unlockDashboard();
+  } else {
+    err.textContent = 'Incorrect password.';
+    document.getElementById('loginPw').value = '';
+  }
+}
+
+function unlockDashboard() {
+  document.getElementById('lockScreen').classList.add('hidden');
+  document.getElementById('dashApp').classList.add('visible');
+  loadConfig();
+}
+
+function lockDashboard() {
+  document.getElementById('lockScreen').classList.remove('hidden');
+  document.getElementById('dashApp').classList.remove('visible');
+  document.getElementById('loginPw').value = '';
+}
+
+/* ─── CONFIG LOAD/SAVE ─── */
+function loadConfig() {
+  const saved = LS.get('sl_config');
+  if (saved) {
+    try { config = JSON.parse(saved); }
+    catch(e) { config = JSON.parse(JSON.stringify(DEFAULT_CONFIG)); }
+  } else {
+    config = JSON.parse(JSON.stringify(DEFAULT_CONFIG));
+  }
+  renderAll();
+  updateStats();
+  updateSaveStatus('local');
+}
+
+function markDirty() {
+  isDirty = true;
+  document.getElementById('saveBtnLabel').textContent = '💾 Save to GitHub *';
+  LS.set('sl_config', JSON.stringify(config));
+  updateStats();
+  renderOverview();
+}
+
+/* ─── GITHUB SAVE ─── */
+async function saveToGitHub() {
+  const pat  = deobfuscate(LS.get('sl_pat') || '');
+  const repo = LS.get('sl_repo') || 'sluintel/sluintel.github.io';
+
+  if (!pat) { toast('No PAT set — go to Settings first', 'error'); return; }
+
+  const label = document.getElementById('saveBtnLabel');
+  label.textContent = '⏳ Saving…';
+
+  try {
+    const path = '_data/sections_config.json';
+    const content = JSON.stringify(config, null, 2);
+    const encoded = btoa(unescape(encodeURIComponent(content)));
+    const apiBase = `https://api.github.com/repos/${repo}/contents/${path}`;
+
+    // Get current SHA
+    let sha = null;
+    try {
+      const existing = await fetch(apiBase, {
+        headers: { Authorization: `token ${pat}`, Accept: 'application/vnd.github.v3+json' }
+      });
+      if (existing.ok) { const d = await existing.json(); sha = d.sha; }
+    } catch(e) {}
+
+    const body = { message: 'chore: update sections_config via dashboard', content: encoded };
+    if (sha) body.sha = sha;
+
+    const res = await fetch(apiBase, {
+      method: 'PUT',
+      headers: {
+        Authorization: `token ${pat}`,
+        Accept: 'application/vnd.github.v3+json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(body)
+    });
+
+    if (res.ok) {
+      isDirty = false;
+      label.textContent = '✓ Saved to GitHub';
+      updateSaveStatus('github');
+      toast('Config saved! GitHub Actions will rebuild your site in ~30s.', 'success');
+      setTimeout(() => { label.textContent = '💾 Save to GitHub'; }, 3000);
+    } else {
+      const d = await res.json();
+      throw new Error(d.message || `HTTP ${res.status}`);
+    }
+  } catch(e) {
+    label.textContent = '💾 Save to GitHub';
+    toast('GitHub save failed: ' + e.message, 'error');
+  }
+}
+
+function updateSaveStatus(where) {
+  const el  = document.getElementById('statSaved');
+  const sub = document.getElementById('statSavedSub');
+  if (where === 'github') {
+    el.textContent  = '✓ GitHub';
+    el.style.color  = 'var(--db-green)';
+    sub.textContent = 'Config in repo';
+  } else {
+    el.textContent  = '🖥 Local';
+    el.style.color  = 'var(--db-accent)';
+    sub.textContent = 'Save to push live';
+  }
+}
+
+/* ─── STATS ─── */
+function updateStats() {
+  if (!config) return;
+  document.getElementById('statSections').textContent   = config.sections.filter(s => s.enabled).length;
+  document.getElementById('statCategories').textContent = Object.keys(config.categories).length;
+}
+
+/* ─── TOAST ─── */
+let toastTimer;
+function toast(msg, type = 'info') {
+  const el = document.getElementById('dbToast');
+  document.getElementById('toastMsg').textContent = msg;
+  el.className = `toast-${type} show`;
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { el.classList.remove('show'); }, 4000);
+}
+
+/* ─── TABS ─── */
+function switchTab(id) {
+  activeTab = id;
+  document.querySelectorAll('.db-tab-content').forEach(t => t.style.display = 'none');
+  const el = document.getElementById('tab-' + id);
+  if (el) el.style.display = 'block';
+  document.querySelectorAll('.db-nav-item[data-tab]').forEach(b => {
+    b.classList.toggle('is-active', b.dataset.tab === id);
+  });
+  const titles = { overview:'Overview', sections:'Sections & Layouts', gallery:'Layout Gallery', categories:'Categories', settings:'Settings' };
+  document.getElementById('tabTitle').textContent = titles[id] || id;
+
+  if (id === 'sections')   renderSectionList();
+  if (id === 'gallery')    renderGallery();
+  if (id === 'categories') renderCategories();
+  if (id === 'settings')   renderSettings();
+  if (id === 'overview')   renderOverview();
+}
+
+/* ─── OVERVIEW ─── */
+function renderOverview() {
+  if (!config) return;
+  const el = document.getElementById('overviewSectionList');
+  const sorted = [...config.sections].sort((a,b) => a.order - b.order);
+  el.innerHTML = sorted.map(s => {
+    const cat = config.categories[s.category] || {};
+    return `<div style="display:flex;align-items:center;gap:12px;padding:10px 14px;background:var(--db-surface-2);border-radius:8px;border:1px solid var(--db-border);">
+      <span style="font-size:0.75rem;font-weight:700;color:var(--db-text-3);width:20px;text-align:center;">${s.order}</span>
+      <span style="font-size:0.9rem;">${cat.icon || '📰'}</span>
+      <span style="font-size:0.875rem;font-weight:600;color:${s.enabled ? 'var(--db-text)' : 'var(--db-text-3)'};flex:1;">${s.title}</span>
+      <span style="font-size:0.7rem;padding:2px 8px;border-radius:4px;background:var(--db-bg);color:var(--db-text-3);border:1px solid var(--db-border-2);">${s.layout}</span>
+      <span style="width:8px;height:8px;border-radius:50%;background:${s.enabled ? 'var(--db-green)' : 'var(--db-text-3)'};" title="${s.enabled ? 'Enabled' : 'Disabled'}"></span>
+    </div>`;
+  }).join('');
+}
+
+/* ─── SECTION LIST ─── */
+function renderSectionList() {
+  if (!config) return;
+  const list = document.getElementById('sectionList');
+  const sorted = [...config.sections].sort((a,b) => a.order - b.order);
+  list.innerHTML = '';
+
+  sorted.forEach(section => {
+    const cat = config.categories[section.category] || {};
+    const row = document.createElement('div');
+    row.className = 'db-section-row';
+    row.setAttribute('draggable', 'true');
+    row.dataset.id = section.id;
+
+    const layoutOpts = LAYOUTS.map(l =>
+      `<option value="${l.id}" ${l.id === section.layout ? 'selected' : ''}>${l.name}</option>`
+    ).join('');
+    const catOpts = Object.entries(config.categories).map(([k,v]) =>
+      `<option value="${k}" ${k === section.category ? 'selected' : ''}>${v.icon} ${v.label}</option>`
+    ).join('');
+
+    row.innerHTML = `
+      <div class="db-drag-handle" title="Drag to reorder">⠿</div>
+      <div class="db-section-info">
+        <div class="db-section-name">
+          <input class="db-section-name-edit" type="text" value="${section.title}" data-field="title" data-id="${section.id}" aria-label="Section title">
+          <span class="db-section-category-pill" style="border-color:${cat.color || '#666'};color:${cat.color || '#aaa'}">
+            ${cat.icon || '📰'} ${cat.label || section.category}
+          </span>
+        </div>
+        <div class="db-section-meta">
+          <span>Order: ${section.order}</span>
+          <span>·</span>
+          <span>Layout: ${section.layout}</span>
+        </div>
+      </div>
+      <select class="db-layout-select" data-field="layout" data-id="${section.id}" title="Layout type">${layoutOpts}</select>
+      <select class="db-cat-select" data-field="category" data-id="${section.id}" title="Category">${catOpts}</select>
+      <label class="db-toggle" title="${section.enabled ? 'Enabled' : 'Disabled'}">
+        <input type="checkbox" ${section.enabled ? 'checked' : ''} data-field="enabled" data-id="${section.id}">
+        <span class="db-toggle-slider"></span>
+      </label>
+      <button class="db-btn db-btn-danger db-btn-sm db-btn-icon" data-delete="${section.id}" title="Delete section" style="padding:5px 8px;">🗑</button>
+    `;
+
+    /* Field change handlers */
+    row.querySelectorAll('[data-field]').forEach(el => {
+      const evName = el.tagName === 'INPUT' && el.type === 'checkbox' ? 'change' :
+                     el.tagName === 'SELECT' ? 'change' : 'input';
+      el.addEventListener(evName, () => {
+        const sid = el.dataset.id;
+        const field = el.dataset.field;
+        const sec = config.sections.find(s => s.id === sid);
+        if (!sec) return;
+        if (field === 'enabled') sec.enabled = el.checked;
+        else sec[field] = el.value;
+        markDirty();
+        if (field === 'category' || field === 'layout') renderSectionList();
+      });
+    });
+
+    /* Delete handler */
+    row.querySelector('[data-delete]').addEventListener('click', () => {
+      if (!confirm(`Delete section "${section.title}"?`)) return;
+      config.sections = config.sections.filter(s => s.id !== section.id);
+      reorderSections();
+      markDirty();
+      renderSectionList();
+    });
+
+    /* Drag events */
+    row.addEventListener('dragstart', e => {
+      dragSrc = row;
+      e.dataTransfer.effectAllowed = 'move';
+      setTimeout(() => row.classList.add('is-dragging'), 0);
+    });
+    row.addEventListener('dragend', () => {
+      row.classList.remove('is-dragging');
+      list.querySelectorAll('.drag-over').forEach(r => r.classList.remove('drag-over'));
+    });
+    row.addEventListener('dragover', e => {
+      e.preventDefault();
+      e.dataTransfer.dropEffect = 'move';
+      list.querySelectorAll('.drag-over').forEach(r => r.classList.remove('drag-over'));
+      if (row !== dragSrc) row.classList.add('drag-over');
+    });
+    row.addEventListener('drop', e => {
+      e.preventDefault();
+      if (!dragSrc || dragSrc === row) return;
+      const rows = [...list.querySelectorAll('.db-section-row')];
+      const from = rows.indexOf(dragSrc);
+      const to   = rows.indexOf(row);
+      const ids  = rows.map(r => r.dataset.id);
+      ids.splice(to, 0, ids.splice(from, 1)[0]);
+      ids.forEach((id, i) => {
+        const sec = config.sections.find(s => s.id === id);
+        if (sec) sec.order = i + 1;
+      });
+      markDirty();
+      renderSectionList();
+    });
+
+    list.appendChild(row);
+  });
+}
+
+function reorderSections() {
+  config.sections.sort((a,b) => a.order - b.order).forEach((s,i) => s.order = i+1);
+}
+
+/* ─── ADD SECTION ─── */
+function addSection() {
+  const maxOrder = config.sections.reduce((m,s) => Math.max(m, s.order), 0);
+  const newId = 's' + Date.now();
+  config.sections.push({
+    id: newId, order: maxOrder + 1, enabled: false,
+    title: 'New Section', layout: 'carousel-row', category: 'all', show_see_all: false
+  });
+  markDirty();
+  renderSectionList();
+  toast('Section added — configure it in the list.', 'info');
+}
+
+/* ─── LAYOUT GALLERY ─── */
+function renderGallery() {
+  const el = document.getElementById('layoutGallery');
+  el.innerHTML = LAYOUTS.map(l => `
+    <div class="db-layout-card" title="${l.desc}">
+      <div class="db-layout-preview">${layoutSVG(l.id)}</div>
+      <div class="db-layout-card-body">
+        <div class="db-layout-card-name">${l.name}</div>
+        <div class="db-layout-card-desc">${l.desc}</div>
+      </div>
+    </div>
+  `).join('');
+}
+
+function layoutSVG(id) {
+  const svgs = {
+    'hero-spotlight':    `<svg viewBox="0 0 160 90"><rect x="2" y="2" width="90" height="86" rx="3" fill="#2a2a26"/><rect x="96" y="2" width="62" height="26" rx="2" fill="#333"/><rect x="96" y="32" width="62" height="26" rx="2" fill="#333"/><rect x="96" y="62" width="62" height="26" rx="2" fill="#333"/></svg>`,
+    'magazine-grid':     `<svg viewBox="0 0 160 90"><rect x="2" y="2" width="80" height="86" rx="3" fill="#2a2a26"/><rect x="86" y="2" width="36" height="40" rx="2" fill="#333"/><rect x="126" y="2" width="32" height="40" rx="2" fill="#333"/><rect x="86" y="46" width="72" height="42" rx="2" fill="#2a2a26"/></svg>`,
+    'carousel-row':      `<svg viewBox="0 0 160 90"><rect x="2" y="10" width="46" height="70" rx="3" fill="#2a2a26"/><rect x="52" y="10" width="46" height="70" rx="3" fill="#2a2a26"/><rect x="102" y="10" width="46" height="70" rx="3" fill="#2a2a26"/><rect x="152" y="35" width="6" height="20" rx="2" fill="#e8a830" opacity=".7"/></svg>`,
+    'list-preview':      `<svg viewBox="0 0 160 90"><rect x="2" y="2" width="74" height="86" rx="3" fill="#2a2a26"/><rect x="8" y="10" width="60" height="8" rx="2" fill="#444"/><rect x="8" y="24" width="60" height="8" rx="2" fill="#3a3a36"/><rect x="8" y="38" width="60" height="8" rx="2" fill="#3a3a36"/><rect x="8" y="52" width="60" height="8" rx="2" fill="#3a3a36"/><rect x="80" y="2" width="78" height="86" rx="3" fill="#1a1a18"/><text x="119" y="50" font-size="9" fill="#e8a830" text-anchor="middle" font-family="sans-serif">Preview</text></svg>`,
+    'masonry-grid':      `<svg viewBox="0 0 160 90"><rect x="2" y="2" width="46" height="54" rx="3" fill="#2a2a26"/><rect x="2" y="60" width="46" height="28" rx="3" fill="#333"/><rect x="52" y="2" width="46" height="36" rx="3" fill="#333"/><rect x="52" y="42" width="46" height="46" rx="3" fill="#2a2a26"/><rect x="102" y="2" width="56" height="44" rx="3" fill="#333"/><rect x="102" y="50" width="56" height="38" rx="3" fill="#2a2a26"/></svg>`,
+    'big-feature-strip': `<svg viewBox="0 0 160 90"><rect x="2" y="2" width="156" height="52" rx="3" fill="#2a2a26"/><rect x="2" y="58" width="36" height="30" rx="3" fill="#333"/><rect x="42" y="58" width="36" height="30" rx="3" fill="#333"/><rect x="82" y="58" width="36" height="30" rx="3" fill="#333"/><rect x="122" y="58" width="36" height="30" rx="3" fill="#333"/></svg>`,
+    'text-digest':       `<svg viewBox="0 0 160 90"><rect x="2" y="2" width="156" height="86" rx="3" fill="#2a2a26"/><rect x="10" y="14" width="60" height="5" rx="2" fill="#555"/><rect x="10" y="27" width="100" height="5" rx="2" fill="#666"/><line x1="10" y1="38" x2="150" y2="38" stroke="#333" stroke-width="1"/><rect x="10" y="46" width="50" height="5" rx="2" fill="#555"/><rect x="10" y="59" width="110" height="5" rx="2" fill="#666"/><line x1="10" y1="70" x2="150" y2="70" stroke="#333" stroke-width="1"/><rect x="10" y="78" width="70" height="5" rx="2" fill="#555"/></svg>`,
+    'alternating-split': `<svg viewBox="0 0 160 90"><rect x="2" y="2" width="72" height="38" rx="3" fill="#2a2a26"/><rect x="78" y="10" width="80" height="24" rx="2" fill="#444"/><line x1="2" y1="46" x2="158" y2="46" stroke="#333" stroke-width="1"/><rect x="86" y="50" width="72" height="36" rx="3" fill="#2a2a26"/><rect x="2" y="58" width="80" height="22" rx="2" fill="#444"/></svg>`,
+    'timeline-feed':     `<svg viewBox="0 0 160 90"><line x1="24" y1="4" x2="24" y2="86" stroke="#e8a830" stroke-width="2" opacity=".5"/><circle cx="24" cy="16" r="5" fill="#e8a830"/><rect x="34" y="10" width="120" height="22" rx="3" fill="#333"/><circle cx="24" cy="46" r="5" fill="#e8a830"/><rect x="34" y="40" width="120" height="22" rx="3" fill="#2a2a26"/><circle cx="24" cy="76" r="5" fill="#e8a830"/><rect x="34" y="70" width="120" height="16" rx="3" fill="#333"/></svg>`,
+    'spotlight-sidebar': `<svg viewBox="0 0 160 90"><rect x="2" y="2" width="102" height="86" rx="3" fill="#2a2a26"/><rect x="108" y="2" width="50" height="26" rx="3" fill="#333"/><rect x="108" y="32" width="50" height="26" rx="3" fill="#333"/><rect x="108" y="62" width="50" height="26" rx="3" fill="#333"/></svg>`
+  };
+  return svgs[id] || `<svg viewBox="0 0 160 90"><rect x="2" y="2" width="156" height="86" rx="3" fill="#2a2a26"/></svg>`;
+}
+
+/* ─── CATEGORIES ─── */
+function renderCategories() {
+  if (!config) return;
+  const grid = document.getElementById('catGrid');
+  grid.innerHTML = '';
+
+  Object.entries(config.categories).forEach(([slug, cat]) => {
+    const card = document.createElement('div');
+    card.className = 'db-cat-card';
+    card.dataset.slug = slug;
+
+    const tagPills = (cat.tags || []).map(tag =>
+      `<span class="db-cat-tag-pill" data-tag="${tag}">${tag} <span class="x">×</span></span>`
+    ).join('');
+
+    card.innerHTML = `
+      <div class="db-cat-card-header">
+        <button class="db-cat-icon-edit" title="Click to change icon" data-cat="${slug}">${cat.icon || '📰'}</button>
+        <input class="db-cat-name-edit" type="text" value="${cat.label}" data-cat-field="label" data-cat="${slug}">
+        <div class="db-cat-color-dot" style="background:${cat.color}" title="${cat.color}"></div>
+        ${slug !== 'all' ? `<button class="db-btn db-btn-danger db-btn-sm" data-delete-cat="${slug}" title="Delete category">🗑</button>` : ''}
+      </div>
+      <div class="db-cat-tags-wrap" data-cat-tags="${slug}">${tagPills || '<span style="color:var(--db-text-3);font-size:0.75rem;">No tags yet</span>'}</div>
+      <div class="db-cat-add-tag">
+        <input class="db-cat-add-input" type="text" placeholder="Add tag & press Enter" data-add-tag="${slug}">
+        <button class="db-btn db-btn-secondary db-btn-sm" data-add-tag-btn="${slug}">+</button>
+      </div>
+    `;
+
+    /* Label change */
+    card.querySelector('[data-cat-field="label"]').addEventListener('input', e => {
+      config.categories[slug].label = e.target.value;
+      markDirty();
+    });
+
+    /* Remove tag */
+    card.querySelectorAll('.db-cat-tag-pill').forEach(pill => {
+      pill.addEventListener('click', () => {
+        const tag = pill.dataset.tag;
+        config.categories[slug].tags = (config.categories[slug].tags || []).filter(t => t !== tag);
+        markDirty();
+        renderCategories();
+      });
+    });
+
+    /* Add tag */
+    const addInput = card.querySelector(`[data-add-tag="${slug}"]`);
+    const addBtn   = card.querySelector(`[data-add-tag-btn="${slug}"]`);
+    function doAddTag() {
+      const val = addInput.value.trim().toLowerCase();
+      if (!val) return;
+      if (!(config.categories[slug].tags || []).includes(val)) {
+        if (!config.categories[slug].tags) config.categories[slug].tags = [];
+        config.categories[slug].tags.push(val);
+        markDirty();
+        renderCategories();
+      } else {
+        addInput.value = '';
+      }
+    }
+    addInput.addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); doAddTag(); } });
+    addBtn.addEventListener('click', doAddTag);
+
+    /* Delete category */
+    const delBtn = card.querySelector(`[data-delete-cat="${slug}"]`);
+    if (delBtn) {
+      delBtn.addEventListener('click', () => {
+        if (!confirm(`Delete category "${cat.label}"? Sections using it will be reassigned to "all".`)) return;
+        delete config.categories[slug];
+        config.sections.forEach(s => { if (s.category === slug) s.category = 'all'; });
+        markDirty();
+        renderCategories();
+      });
+    }
+
+    /* Icon picker (simple prompt) */
+    card.querySelector(`[data-cat="${slug}"].db-cat-icon-edit`).addEventListener('click', function() {
+      const e = prompt('Enter an emoji for this category:', cat.icon || '📰');
+      if (e) {
+        config.categories[slug].icon = e.trim();
+        this.textContent = e.trim();
+        markDirty();
+      }
+    });
+
+    grid.appendChild(card);
+  });
+}
+
+function addCategory() {
+  const slug = 'cat_' + Date.now();
+  config.categories[slug] = { label: 'New Category', color: '#6366f1', icon: '📂', tags: [] };
+  markDirty();
+  renderCategories();
+  toast('Category added — rename it and add tags.', 'info');
+}
+
+/* ─── SETTINGS ─── */
+function renderSettings() {
+  const pat  = deobfuscate(LS.get('sl_pat') || '');
+  const repo = LS.get('sl_repo') || '';
+  const patEl  = document.getElementById('settingsPat');
+  const repoEl = document.getElementById('settingsRepo');
+  if (patEl && pat)  patEl.value = pat;
+  if (repoEl && repo) repoEl.value = repo;
+}
+
+function saveSettings() {
+  const pat  = document.getElementById('settingsPat').value.trim();
+  const repo = document.getElementById('settingsRepo').value.trim();
+  if (pat)  LS.set('sl_pat',  obfuscate(pat));
+  if (repo) LS.set('sl_repo', repo);
+  toast('Settings saved.', 'success');
+}
+
+function changePw() {
+  const p1 = document.getElementById('newPw1').value.trim();
+  const p2 = document.getElementById('newPw2').value.trim();
+  if (!p1 || p1.length < 4) { toast('Password must be at least 4 characters.', 'error'); return; }
+  if (p1 !== p2) { toast('Passwords do not match.', 'error'); return; }
+  hashPw(p1).then(h => {
+    LS.set('sl_pw_hash', h);
+    document.getElementById('newPw1').value = '';
+    document.getElementById('newPw2').value = '';
+    toast('Password updated successfully.', 'success');
+  });
+}
+
+function exportConfig() {
+  const blob = new Blob([JSON.stringify(config, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'sections_config.json';
+  a.click();
+  URL.revokeObjectURL(a.href);
+  toast('Config exported.', 'success');
+}
+
+function importConfig(file) {
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      const imported = JSON.parse(e.target.result);
+      if (!imported.sections || !imported.categories) throw new Error('Invalid config format');
+      config = imported;
+      LS.set('sl_config', JSON.stringify(config));
+      markDirty();
+      renderAll();
+      toast('Config imported successfully.', 'success');
+    } catch(err) {
+      toast('Import failed: ' + err.message, 'error');
+    }
+  };
+  reader.readAsText(file);
+}
+
+function resetConfig() {
+  if (!confirm('Reset all sections and categories to default? This will overwrite your current setup.')) return;
+  config = JSON.parse(JSON.stringify(DEFAULT_CONFIG));
+  LS.set('sl_config', JSON.stringify(config));
+  markDirty();
+  renderAll();
+  toast('Config reset to defaults.', 'info');
+}
+
+/* ─── RENDER ALL ─── */
+function renderAll() {
+  renderOverview();
+  updateStats();
+}
+
+/* ─── EVENT BINDINGS ─── */
+function bindEvents() {
+  /* Auth */
+  document.getElementById('setupSaveBtn').addEventListener('click', setupSave);
+  document.getElementById('loginBtn').addEventListener('click', tryLogin);
+  document.getElementById('loginPw').addEventListener('keydown', e => { if (e.key === 'Enter') tryLogin(); });
+  document.getElementById('logoutBtn').addEventListener('click', lockDashboard);
+
+  /* Tabs */
+  document.querySelectorAll('.db-nav-item[data-tab]').forEach(b => {
+    b.addEventListener('click', () => switchTab(b.dataset.tab));
+  });
+
+  /* Top actions */
+  document.getElementById('saveBtn').addEventListener('click', saveToGitHub);
+  document.getElementById('previewBtn').addEventListener('click', () => window.open('/', '_blank'));
+
+  /* Sections */
+  document.getElementById('addSectionBtn').addEventListener('click', addSection);
+
+  /* Categories */
+  document.getElementById('addCategoryBtn').addEventListener('click', addCategory);
+
+  /* Settings */
+  document.getElementById('savePat').addEventListener('click', saveSettings);
+  document.getElementById('settingsRepo').addEventListener('change', saveSettings);
+  document.getElementById('changePwBtn').addEventListener('click', changePw);
+  document.getElementById('exportBtn').addEventListener('click', exportConfig);
+  document.getElementById('importFile').addEventListener('change', e => {
+    if (e.target.files[0]) importConfig(e.target.files[0]);
+  });
+  document.getElementById('resetBtn').addEventListener('click', resetConfig);
+
+  /* Overview quick nav */
+  document.querySelectorAll('[data-tab]').forEach(el => {
+    if (el.classList.contains('db-nav-item')) return; // already handled
+    el.addEventListener('click', () => switchTab(el.dataset.tab));
+  });
+}
+
+/* ─── INIT ─── */
+checkFirstRun();
+bindEvents();
+
+})();
+</script>
+</body>
+</html>
