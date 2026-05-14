@@ -1,0 +1,465 @@
+---
+layout: default
+title: "Sujit Luintel — AI Tools & Automation Insights"
+description: "Daily deep-dives on AI tools, automation workflows, and intelligent software — auto-curated, auto-written, always fresh."
+---
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+<head>
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2480859517203371"
+     crossorigin="anonymous"></script>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WJEQKLB827"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-WJEQKLB827');
+  </script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ page.description }}">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ page.description }}">
+  <meta name="google-site-verification" content="JQTOXeyvg5ypfjq2nyjXH_H0OXcKh3QdcYPPrbh7mh4">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/sl-home.css' | relative_url }}">
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════
+     NAVIGATION
+════════════════════════════════════════════════════════ -->
+<nav class="sl-nav" role="navigation" aria-label="Main navigation">
+  <div class="sl-nav-inner">
+    <a class="sl-nav-brand" href="{{ '/' | relative_url }}">
+      Sujit<span>Luintel</span>
+    </a>
+
+    <div class="sl-nav-links">
+      <a class="sl-nav-link" href="#sections">Latest</a>
+      <a class="sl-nav-link" href="/category/ai-automation">AI</a>
+      <a class="sl-nav-link" href="/category/sports">Sports</a>
+      <a class="sl-nav-link" href="#about">About</a>
+
+      <button
+        class="sl-theme-toggle"
+        id="themeToggle"
+        aria-label="Toggle dark mode"
+        title="Toggle dark/light mode">
+        <span class="sl-theme-icon">🌙</span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════════════════════════
+     HERO
+════════════════════════════════════════════════════════ -->
+<header class="sl-hero">
+  <div class="sl-hero-inner">
+    <div class="sl-hero-badge">🤖 Fully Automated AI Blog</div>
+
+    <h1 class="sl-hero-title">
+      AI Tools &amp; Automation
+      <em>Insights That Matter</em>
+    </h1>
+
+    <p class="sl-hero-subtitle">
+      Daily deep-dives on AI tools, automation workflows, and intelligent software —
+      auto-curated, auto-written, always fresh.
+    </p>
+
+    <div class="sl-hero-stats">
+      <div class="sl-stat">
+        <span class="sl-stat-value">{{ site.posts | size }}</span>
+        <span class="sl-stat-label">Articles</span>
+      </div>
+      <div class="sl-stat">
+        <span class="sl-stat-value">Daily</span>
+        <span class="sl-stat-label">Updates</span>
+      </div>
+      <div class="sl-stat">
+        <span class="sl-stat-value">100%</span>
+        <span class="sl-stat-label">Automated</span>
+      </div>
+    </div>
+
+    <div class="sl-hero-pipeline">
+      <div class="sl-pipeline-step"><span class="sl-check">✓</span> Fetching trending keywords…</div>
+      <div class="sl-pipeline-step"><span class="sl-check">✓</span> Generating blog post with AI…</div>
+      <div class="sl-pipeline-step"><span class="sl-check">✓</span> Fetching royalty-free image…</div>
+      <div class="sl-pipeline-step"><span class="sl-arrow">→</span> Publishing to sluintel.github.io</div>
+    </div>
+  </div>
+</header>
+
+<!-- ═══════════════════════════════════════════════════
+     DYNAMIC SECTIONS
+════════════════════════════════════════════════════════ -->
+<main class="sl-main" id="sections">
+
+{% assign config = site.data.sections_config %}
+{% assign sorted_sections = config.sections | sort: "order" %}
+
+{% for section in sorted_sections %}
+  {% unless section.enabled %}{% continue %}{% endunless %}
+
+  {% assign cat = config.categories[section.category] %}
+  {% assign cat_tags_str = cat.tags | join: "|||" | downcase %}
+
+  {% comment %} ── BUILD THE POST LIST FOR THIS SECTION ── {% endcomment %}
+  {% assign section_posts = "" | split: "" %}
+
+  {% if section.category == "all" %}
+    {% for post in site.posts limit: 12 %}
+      {% assign section_posts = section_posts | push: post %}
+    {% endfor %}
+
+  {% elsif section.category == "trending" %}
+    {% for post in site.posts limit: 10 %}
+      {% assign section_posts = section_posts | push: post %}
+    {% endfor %}
+
+  {% else %}
+    {% for post in site.posts %}
+      {% if section_posts.size >= 12 %}{% break %}{% endif %}
+      {% assign matched = false %}
+      {% for post_tag in post.tags %}
+        {% if matched %}{% break %}{% endif %}
+        {% assign post_tag_lower = post_tag | downcase %}
+        {% comment %} Fuzzy match: each cat tag checked against post tag {% endcomment %}
+        {% assign cat_tags_arr = cat.tags %}
+        {% for cat_tag in cat_tags_arr %}
+          {% assign ct = cat_tag | downcase %}
+          {% if post_tag_lower contains ct or ct contains post_tag_lower %}
+            {% assign matched = true %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+      {% if matched %}
+        {% assign section_posts = section_posts | push: post %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+
+  {% if section_posts.size == 0 %}{% continue %}{% endif %}
+
+  {% comment %} ── RENDER SECTION ── {% endcomment %}
+  <section class="sl-section" data-layout="{{ section.layout }}" data-category="{{ section.category }}">
+
+    <div class="sl-section-header">
+      <h2 class="sl-section-title">
+        <span class="sl-section-dot" style="background: {{ cat.color }}"></span>
+        {{ cat.icon }} {{ section.title }}
+      </h2>
+      {% if section.show_see_all %}
+        <a class="sl-section-more" href="{{ '/category/' | append: section.category | relative_url }}">
+          See all →
+        </a>
+      {% endif %}
+    </div>
+
+    {% comment %} ════════════════════════════════════════
+       LAYOUT: HERO SPOTLIGHT
+    ════════════════════════════════════════ {% endcomment %}
+    {% if section.layout == "hero-spotlight" %}
+      <div class="sl-layout-hero-spotlight">
+        {% for post in section_posts limit: 4 %}
+          {% include sl-post-card.html post=post %}
+        {% endfor %}
+      </div>
+
+    {% comment %} ════════════════════════════════════════
+       LAYOUT: MAGAZINE GRID
+    ════════════════════════════════════════ {% endcomment %}
+    {% elsif section.layout == "magazine-grid" %}
+      <div class="sl-layout-magazine-grid">
+        {% for post in section_posts limit: 5 %}
+          {% include sl-post-card.html post=post %}
+        {% endfor %}
+      </div>
+
+    {% comment %} ════════════════════════════════════════
+       LAYOUT: CAROUSEL ROW
+    ════════════════════════════════════════ {% endcomment %}
+    {% elsif section.layout == "carousel-row" %}
+      <div class="sl-layout-carousel-row" role="list">
+        {% for post in section_posts limit: 10 %}
+          {% include sl-post-card.html post=post %}
+        {% endfor %}
+      </div>
+
+    {% comment %} ════════════════════════════════════════
+       LAYOUT: LIST + PREVIEW
+    ════════════════════════════════════════ {% endcomment %}
+    {% elsif section.layout == "list-preview" %}
+      <div class="sl-layout-list-preview" data-list-preview>
+        <div class="sl-list-items">
+          {% assign lp_idx = 0 %}
+          {% for post in section_posts limit: 7 %}
+            {% assign lp_idx = forloop.index %}
+            {% assign img = post.image | default: post.cover_image | default: post.thumbnail %}
+            {% assign words = post.content | number_of_words | default: 600 %}
+            {% assign rt = words | divided_by: 200 | at_least: 1 %}
+            <div class="sl-card{% if forloop.first %} is-active{% endif %}"
+                 data-preview-img="{{ img }}"
+                 data-preview-title="{{ post.title | escape }}"
+                 data-preview-url="{{ post.url | relative_url }}"
+                 data-preview-date="{{ post.date | date: '%b %d, %Y' }}"
+                 data-preview-rt="{{ rt }} min read">
+              <span class="sl-list-number">{{ forloop.index | prepend: "0" | slice: -2, 2 }}</span>
+              <div class="sl-card-body">
+                <div class="sl-card-meta">
+                  {% if post.tags[0] %}<span class="sl-tag">{{ post.tags[0] }}</span>{% endif %}
+                </div>
+                <h3 class="sl-card-title"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+                <div class="sl-card-footer">
+                  <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d" }}</time>
+                  <span class="sl-card-dot">·</span>
+                  <span>{{ rt }} min</span>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+        <div class="sl-list-preview-panel" aria-hidden="true">
+          <img src="" alt="" id="previewImg-{{ section.id }}">
+          <div class="sl-preview-overlay">
+            <p class="sl-preview-title" id="previewTitle-{{ section.id }}"></p>
+            <p class="sl-preview-meta" id="previewMeta-{{ section.id }}"></p>
+          </div>
+        </div>
+      </div>
+
+    {% comment %} ════════════════════════════════════════
+       LAYOUT: MASONRY GRID
+    ════════════════════════════════════════ {% endcomment %}
+    {% elsif section.layout == "masonry-grid" %}
+      <div class="sl-layout-masonry-grid">
+        {% for post in section_posts limit: 9 %}
+          {% include sl-post-card.html post=post %}
+        {% endfor %}
+      </div>
+
+    {% comment %} ════════════════════════════════════════
+       LAYOUT: BIG FEATURE STRIP
+    ════════════════════════════════════════ {% endcomment %}
+    {% elsif section.layout == "big-feature-strip" %}
+      <div class="sl-layout-big-feature-strip">
+        {% for post in section_posts limit: 1 %}
+          {% include sl-post-card.html post=post %}
+        {% endfor %}
+        <div class="sl-strip">
+          {% for post in section_posts offset: 1 limit: 4 %}
+            {% include sl-post-card.html post=post %}
+          {% endfor %}
+        </div>
+      </div>
+
+    {% comment %} ════════════════════════════════════════
+       LAYOUT: TEXT DIGEST
+    ════════════════════════════════════════ {% endcomment %}
+    {% elsif section.layout == "text-digest" %}
+      <div class="sl-layout-text-digest" role="list">
+        {% for post in section_posts limit: 10 %}
+          {% include sl-post-card.html post=post compact=true %}
+        {% endfor %}
+      </div>
+
+    {% comment %} ════════════════════════════════════════
+       LAYOUT: ALTERNATING SPLIT
+    ════════════════════════════════════════ {% endcomment %}
+    {% elsif section.layout == "alternating-split" %}
+      <div class="sl-layout-alternating-split">
+        {% for post in section_posts limit: 5 %}
+          {% include sl-post-card.html post=post %}
+        {% endfor %}
+      </div>
+
+    {% comment %} ════════════════════════════════════════
+       LAYOUT: TIMELINE FEED
+    ════════════════════════════════════════ {% endcomment %}
+    {% elsif section.layout == "timeline-feed" %}
+      <div class="sl-layout-timeline-feed">
+        {% assign prev_date = "" %}
+        {% for post in section_posts limit: 20 %}
+          {% assign post_date = post.date | date: "%b %d, %Y" %}
+          {% if post_date != prev_date %}
+            {% unless forloop.first %}</div>{% endunless %}
+            <div class="sl-timeline-group">
+              <div class="sl-timeline-group-label">{{ post_date }}</div>
+            {% assign prev_date = post_date %}
+          {% endif %}
+          {% include sl-post-card.html post=post %}
+          {% if forloop.last %}</div>{% endif %}
+        {% endfor %}
+      </div>
+
+    {% comment %} ════════════════════════════════════════
+       LAYOUT: SPOTLIGHT SIDEBAR
+    ════════════════════════════════════════ {% endcomment %}
+    {% elsif section.layout == "spotlight-sidebar" %}
+      <div class="sl-layout-spotlight-sidebar">
+        {% for post in section_posts limit: 5 %}
+          {% include sl-post-card.html post=post %}
+        {% endfor %}
+      </div>
+
+    {% else %}
+      {% comment %} Fallback: simple card grid {% endcomment %}
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;">
+        {% for post in section_posts limit: 6 %}
+          {% include sl-post-card.html post=post %}
+        {% endfor %}
+      </div>
+    {% endif %}
+
+  </section>
+{% endfor %}
+
+</main>
+
+<!-- ═══════════════════════════════════════════════════
+     ABOUT SECTION
+════════════════════════════════════════════════════════ -->
+<section id="about" style="background:var(--surface-2);border-top:1px solid var(--border);padding:56px 24px;">
+  <div style="max-width:640px;margin:0 auto;text-align:center;">
+    <h2 style="font-family:var(--font-display);font-size:1.75rem;font-weight:700;letter-spacing:-0.01em;margin-bottom:12px;">
+      Sujit Luintel
+    </h2>
+    <p style="color:var(--text-2);line-height:1.7;margin-bottom:20px;">
+      This is a fully automated AI blog that discovers trending topics in AI and automation,
+      writes insightful articles, and publishes them — every single day,
+      with zero human intervention.
+    </p>
+    <p style="font-size:0.8rem;color:var(--text-3);">
+      Powered by <strong>Gemini AI</strong> · <strong>Google Trends</strong> ·
+      <strong>GitHub Actions</strong> · <strong>Pexels</strong> · <strong>Unsplash</strong>
+    </p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════════════════════ -->
+<footer class="sl-footer">
+  <div class="sl-footer-inner">
+    <div>
+      <div class="sl-footer-brand">Sujit<span>Luintel</span></div>
+      <p class="sl-footer-desc">
+        AI Tools &amp; Automation Insights — auto-published daily.
+      </p>
+      <div class="sl-footer-powered">
+        Powered by
+        <strong>Gemini AI</strong> ·
+        <strong>Google Trends</strong> ·
+        <strong>GitHub Actions</strong>
+      </div>
+    </div>
+    <div class="sl-footer-links">
+      <a class="sl-footer-link" href="{{ '/' | relative_url }}">Home</a>
+      <a class="sl-footer-link" href="/category/ai-automation">AI & Automation</a>
+      <a class="sl-footer-link" href="/category/sports">Sports</a>
+      <a class="sl-footer-link" href="/category/technology">Technology</a>
+      <a class="sl-footer-link" href="/dashboard">Dashboard</a>
+    </div>
+  </div>
+  <div class="sl-footer-copy">
+    © {{ 'now' | date: "%Y" }} Sujit Luintel · Auto-published with AI · Powered by Gemini &amp; GitHub Actions
+  </div>
+</footer>
+
+<!-- ═══════════════════════════════════════════════════
+     SCRIPTS
+════════════════════════════════════════════════════════ -->
+<script>
+(function() {
+  /* ─── THEME SYSTEM ─── */
+  const html = document.documentElement;
+  const btn  = document.getElementById('themeToggle');
+  const icon = btn ? btn.querySelector('.sl-theme-icon') : null;
+
+  function applyTheme(theme) {
+    html.setAttribute('data-theme', theme);
+    if (icon) icon.textContent = theme === 'dark' ? '☀️' : '🌙';
+    try { localStorage.setItem('sl-theme', theme); } catch(e){}
+  }
+
+  function getPreferred() {
+    try { const s = localStorage.getItem('sl-theme'); if (s) return s; } catch(e){}
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+
+  applyTheme(getPreferred());
+
+  if (btn) {
+    btn.addEventListener('click', function() {
+      const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      applyTheme(next);
+    });
+  }
+
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+    try { if (!localStorage.getItem('sl-theme')) applyTheme(e.matches ? 'dark' : 'light'); } catch(e){}
+  });
+
+  /* ─── LIST + PREVIEW INTERACTION ─── */
+  document.querySelectorAll('[data-list-preview]').forEach(function(container) {
+    const items  = container.querySelectorAll('.sl-card[data-preview-img]');
+    const panel  = container.querySelector('.sl-list-preview-panel');
+    const imgEl  = panel ? panel.querySelector('img') : null;
+    const titleEl = panel ? panel.querySelector('[id^="previewTitle"]') : null;
+    const metaEl  = panel ? panel.querySelector('[id^="previewMeta"]')  : null;
+
+    if (!panel || !imgEl) return;
+
+    // Only show panel on desktop
+    if (window.innerWidth > 900) {
+      panel.style.display = 'block';
+
+      function activateCard(card) {
+        items.forEach(function(c) { c.classList.remove('is-active'); });
+        card.classList.add('is-active');
+        var img = card.dataset.previewImg;
+        if (img) imgEl.src = img;
+        imgEl.alt = card.dataset.previewTitle || '';
+        if (titleEl) titleEl.textContent = card.dataset.previewTitle || '';
+        if (metaEl)  metaEl.textContent  = (card.dataset.previewDate || '') + ' · ' + (card.dataset.previewRt || '');
+      }
+
+      // Activate first card by default
+      if (items.length > 0) activateCard(items[0]);
+
+      items.forEach(function(card) {
+        card.addEventListener('mouseenter', function() { activateCard(card); });
+        card.addEventListener('focus',      function() { activateCard(card); });
+      });
+    }
+  });
+
+  /* ─── SECTION REVEAL ANIMATIONS ─── */
+  if ('IntersectionObserver' in window) {
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.style.animationPlayState = 'running';
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.sl-section').forEach(function(el) {
+      el.style.animationPlayState = 'paused';
+      observer.observe(el);
+    });
+  }
+})();
+</script>
+
+</body>
+</html>
