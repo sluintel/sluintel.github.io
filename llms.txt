@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 95
+Total Posts Published: 96
 Last Updated: 2026-05-14
-Latest Post: Cincinnati vs Inter Miami: Top Internet Reactions Unpacked
-Latest Post URL: https://sluintel.github.io/posts/2026-05-14-top-internet-reactions-to-cincinnati-vs-inter-miami.html
+Latest Post: Coritiba vs Santos: Top Internet Reactions & Fan Frenzy
+Latest Post URL: https://sluintel.github.io/posts/2026-05-14-top-internet-reactions-coritiba-vs-santos.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Coritiba vs Santos: Top Internet Reactions & Fan Frenzy](https://sluintel.github.io/posts/2026-05-14-top-internet-reactions-coritiba-vs-santos.html) — 2026-05-14 — Coritiba, Santos, Football Reactions
 - [Cincinnati vs Inter Miami: Top Internet Reactions Unpacked](https://sluintel.github.io/posts/2026-05-14-top-internet-reactions-to-cincinnati-vs-inter-miami.html) — 2026-05-14 — MLS, Inter Miami, Cincinnati FC
 - [Sai Sudharsan's AI Future: How Data Will Redefine Cricket Stardom](https://sluintel.github.io/posts/2026-05-14-future-of-sai-sudharsan-with-ai.html) — 2026-05-14 — AI in Sports, Cricket Analytics, Sai Sudharsan
 - [Top Internet Reactions to Today Weather: Decoding Digital Chatter](https://sluintel.github.io/posts/2026-05-14-top-internet-reactions-to-today-weather.html) — 2026-05-14 — weather, internet reactions, social media
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Eileen Wang's Latest Updates: Her AI Impact & What It Means for You](https://sluintel.github.io/posts/2026-05-13-the-latest-updates-on-eileen-wang.html) — 2026-05-13 — Eileen Wang, AI Leadership, Tech Innovation
 - [Angkrish Raghuvanshi's AI Future: Unlocking Cricket's Next Gen](https://sluintel.github.io/posts/2026-05-13-future-of-angkrish-raghuvanshi-with-ai.html) — 2026-05-13 — AI in sports, Cricket analytics, Angkrish Raghuvanshi
 - [Why England Women vs New Zealand Women is Trending: AI's Edge in 2026](https://sluintel.github.io/posts/2026-05-13-why-england-women-vs-new-zealand-women-is-trending-right-now.html) — 2026-05-13 — Women's Cricket, Sports Analytics, AI in Sports
-- [The Latest Updates on Matheesha Pathirana: An AI-Driven Performance Dive](https://sluintel.github.io/posts/2026-05-13-the-latest-updates-on-matheesha-pathirana.html) — 2026-05-13 — Matheesha Pathirana, Cricket, IPL
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
