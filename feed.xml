@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 14 May 2026 03:16:18 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 14 May 2026 05:56:55 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Cincinnati vs Inter Miami: Top Internet Reactions Unpacked]]></title>
+    <link>https://sluintel.github.io/posts/2026-05-14-top-internet-reactions-to-cincinnati-vs-inter-miami.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-14-top-internet-reactions-to-cincinnati-vs-inter-miami.html</guid>
+    <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack the top internet reactions to Cincinnati vs Inter Miami. Discover fan memes, viral moments, and expert analysis of the game's biggest talking points.]]></description>
+    <enclosure url="https://images.pexels.com/photos/18811651/pexels-photo-18811651.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>MLS</category>
+    <category>Inter Miami</category>
+    <category>Cincinnati FC</category>
+    <category>football</category>
+    <category>fan reactions</category>
+  </item>
   <item>
     <title><![CDATA[Sai Sudharsan's AI Future: How Data Will Redefine Cricket Stardom]]></title>
     <link>https://sluintel.github.io/posts/2026-05-14-future-of-sai-sudharsan-with-ai.html</link>
@@ -258,19 +271,6 @@
     <category>RCB</category>
     <category>KKR</category>
     <category>T20 Strategy</category>
-  </item>
-  <item>
-    <title><![CDATA[The App Revolution: Your Guide to Dominating the Digital Ecosystem]]></title>
-    <link>https://sluintel.github.io/posts/2026-05-13-the-app-revolution-guide-digital-ecosystem.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-13-the-app-revolution-guide-digital-ecosystem.html</guid>
-    <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Master the app ecosystem in 2026. Discover how to create, optimise, and monetise powerful apps for unmatched digital influence. Get started now!]]></description>
-    <enclosure url="https://images.pexels.com/photos/4549415/pexels-photo-4549415.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>App Development</category>
-    <category>Mobile Strategy</category>
-    <category>User Experience</category>
-    <category>Digital Transformation</category>
-    <category>AI Tools</category>
   </item>
 </channel>
 </rss>
