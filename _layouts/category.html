@@ -1,0 +1,261 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+<head>
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2480859517203371"
+     crossorigin="anonymous"></script>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WJEQKLB827"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-WJEQKLB827');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.cat_label | default: page.cat_slug }} — Sujit Luintel</title>
+  <meta name="description" content="Articles about {{ page.cat_label | default: page.cat_slug }} on Sujit Luintel — AI Tools & Automation Insights.">
+  <link rel="stylesheet" href="{{ '/assets/css/sl-home.css' | relative_url }}">
+  <style>
+    /* ── CATEGORY PAGE STYLES ── */
+    .sl-cat-header {
+      background: var(--hero-bg); color: var(--hero-text);
+      padding: 52px 24px 44px; position: relative; overflow: hidden;
+    }
+    .sl-cat-header::before {
+      content:''; position:absolute; inset:0;
+      background: radial-gradient(ellipse 60% 80% at 10% 50%, rgba(var(--cat-r,99),var(--cat-g,102),var(--cat-b,241),0.18) 0%, transparent 60%);
+      pointer-events:none;
+    }
+    .sl-cat-inner { max-width:1280px; margin:0 auto; position:relative; }
+    .sl-breadcrumb { font-size:.8rem; color:rgba(242,241,235,.5); margin-bottom:14px; display:flex; align-items:center; gap:8px; }
+    .sl-breadcrumb a { color:inherit; transition:color .2s; }
+    .sl-breadcrumb a:hover { color:var(--accent); }
+    .sl-cat-emoji { font-size:2.5rem; line-height:1; display:block; margin-bottom:12px; }
+    .sl-cat-h1 { font-family:var(--font-display); font-size:clamp(1.75rem,4vw,3rem); font-weight:700; letter-spacing:-.02em; color:var(--hero-text); margin-bottom:8px; }
+    .sl-cat-count { font-size:.875rem; color:rgba(242,241,235,.45); margin-bottom:18px; }
+    .sl-cat-chips { display:flex; flex-wrap:wrap; gap:7px; }
+    .sl-cat-chip { font-size:.68rem; font-weight:600; letter-spacing:.04em; padding:3px 10px; border-radius:20px; background:rgba(255,255,255,.07); color:rgba(242,241,235,.6); border:1px solid rgba(255,255,255,.1); }
+
+    /* Filter bar */
+    .sl-filter-bar { max-width:1280px; margin:0 auto; padding:20px 24px 0; display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
+    .sl-filter-label { font-size:.75rem; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--text-3); }
+    .sl-filter-btn { font-size:.8rem; font-weight:600; padding:6px 14px; border-radius:20px; border:1px solid var(--border-2); background:var(--surface); color:var(--text-2); cursor:pointer; transition:all .2s; }
+    .sl-filter-btn:hover, .sl-filter-btn.active { border-color:var(--accent); color:var(--accent); background:rgba(var(--accent-rgb),.06); }
+    .sl-pp-select { margin-left:auto; font-size:.8rem; font-weight:500; padding:6px 12px; border-radius:6px; border:1px solid var(--border-2); background:var(--surface); color:var(--text-2); cursor:pointer; }
+
+    /* Grid */
+    .sl-cat-grid { max-width:1280px; margin:0 auto; padding:28px 24px 80px; display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:20px; }
+    .sl-cat-grid .sl-card-img-wrap { height:200px; }
+    .sl-cat-grid .sl-card { opacity:0; transform:translateY(12px); transition:opacity .35s,transform .35s; }
+    .sl-cat-grid .sl-card.visible { opacity:1; transform:none; }
+
+    /* Pagination */
+    .sl-pager { max-width:1280px; margin:0 auto 80px; padding:0 24px; display:flex; align-items:center; justify-content:center; gap:7px; }
+    .sl-pg { width:36px; height:36px; border-radius:6px; border:1px solid var(--border-2); background:var(--surface); color:var(--text-2); font-size:.875rem; font-weight:600; cursor:pointer; display:flex; align-items:center; justify-content:center; transition:all .2s; }
+    .sl-pg:hover, .sl-pg.cur { border-color:var(--accent); color:var(--accent); background:rgba(var(--accent-rgb),.06); }
+    .sl-pg:disabled { opacity:.35; cursor:not-allowed; }
+
+    @media(max-width:600px){
+      .sl-cat-grid{grid-template-columns:1fr;padding:20px 16px 60px;}
+      .sl-filter-bar{padding:14px 16px 0;}
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="sl-nav">
+  <div class="sl-nav-inner">
+    <a class="sl-nav-brand" href="{{ '/' | relative_url }}">Sujit<span>Luintel</span></a>
+    <div class="sl-nav-links">
+      <a class="sl-nav-link" href="{{ '/' | relative_url }}">← Home</a>
+      <button class="sl-theme-toggle" id="themeToggle" aria-label="Toggle dark mode"><span class="sl-theme-icon">🌙</span></button>
+    </div>
+  </div>
+</nav>
+
+{% assign cfg       = site.data.sections_config %}
+{% assign cslug     = page.cat_slug %}
+{% assign cdata     = cfg.categories[cslug] %}
+{% assign clabel    = cdata.label   | default: page.cat_label | default: cslug %}
+{% assign cicon     = cdata.icon    | default: "📰" %}
+{% assign ccolor    = cdata.color   | default: "#6366f1" %}
+{% assign ctags     = cdata.tags    | default: empty %}
+
+{% comment %} Build filtered post list {% endcomment %}
+{% assign cat_posts = "" | split:"" %}
+{% if cslug == "all" %}
+  {% assign cat_posts = site.posts %}
+{% else %}
+  {% for post in site.posts %}
+    {% assign matched = false %}
+    {% for pt in post.tags %}{% if matched %}{% break %}{% endif %}
+      {% assign ptl = pt | downcase %}
+      {% for ct in ctags %}
+        {% assign ctl = ct | downcase %}
+        {% if ptl contains ctl or ctl contains ptl %}{% assign matched = true %}{% break %}{% endif %}
+      {% endfor %}
+    {% endfor %}
+    {% if matched %}{% assign cat_posts = cat_posts | push: post %}{% endif %}
+  {% endfor %}
+{% endif %}
+
+<!-- HEADER -->
+<header class="sl-cat-header">
+  <div class="sl-cat-inner">
+    <div class="sl-breadcrumb"><a href="{{ '/' | relative_url }}">Home</a><span>›</span><span>{{ clabel }}</span></div>
+    <span class="sl-cat-emoji">{{ cicon }}</span>
+    <h1 class="sl-cat-h1">{{ clabel }}</h1>
+    <p class="sl-cat-count">{{ cat_posts.size }} articles</p>
+    {% if ctags.size > 0 %}
+    <div class="sl-cat-chips">
+      {% for tag in ctags limit:14 %}<span class="sl-cat-chip">{{ tag }}</span>{% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</header>
+
+<!-- FILTER BAR -->
+<div class="sl-filter-bar">
+  <span class="sl-filter-label">Sort</span>
+  <button class="sl-filter-btn active" data-sort="newest">Newest First</button>
+  <button class="sl-filter-btn" data-sort="oldest">Oldest First</button>
+  <select class="sl-pp-select" id="ppSel" aria-label="Posts per page">
+    <option value="12">12 per page</option>
+    <option value="24">24 per page</option>
+    <option value="48">48 per page</option>
+  </select>
+</div>
+
+<!-- POSTS GRID -->
+<div class="sl-cat-grid" id="catGrid">
+  {% for post in cat_posts %}
+    {% assign words = post.content | number_of_words | default: 600 %}
+    {% assign rt = words | divided_by: 200 | at_least: 1 %}
+    {% assign img = post.image | default: post.cover_image | default: post.thumbnail %}
+    <article class="sl-card"
+             data-ts="{{ post.date | date:'%s' }}"
+             data-title="{{ post.title | escape | downcase }}">
+      <a class="sl-card-img-wrap" href="{{ post.url | relative_url }}" tabindex="-1" aria-hidden="true">
+        {% if img %}
+          <img class="sl-card-img" src="{{ img }}" alt="{{ post.title | escape }}" loading="lazy"
+               onerror="this.parentElement.style.display='none'">
+        {% else %}
+          <div class="sl-card-img-placeholder" style="--hue:{{ post.title | size | modulo: 360 }}"></div>
+        {% endif %}
+      </a>
+      <div class="sl-card-body">
+        <div class="sl-card-meta">
+          {% if post.tags[0] %}<span class="sl-tag">{{ post.tags[0] }}</span>{% endif %}
+          {% if post.tags[1] %}<span class="sl-tag sl-tag--secondary">{{ post.tags[1] }}</span>{% endif %}
+        </div>
+        <h3 class="sl-card-title"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+        <p class="sl-card-excerpt">{{ post.excerpt | strip_html | truncate: 118 }}</p>
+        <div class="sl-card-footer">
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+          <span class="sl-card-dot">·</span>
+          <span>{{ rt }} min read</span>
+        </div>
+      </div>
+    </article>
+  {% else %}
+    <div class="sl-empty" style="grid-column:1/-1">
+      No articles in this category yet — new posts publish daily!
+    </div>
+  {% endfor %}
+</div>
+
+<div class="sl-pager" id="pager"></div>
+
+<!-- FOOTER -->
+<footer class="sl-footer">
+  <div class="sl-footer-inner">
+    <div>
+      <div class="sl-footer-brand">Sujit<span>Luintel</span></div>
+      <p class="sl-footer-desc">AI Tools &amp; Automation Insights — auto-published daily.</p>
+    </div>
+    <div class="sl-footer-links">
+      <a class="sl-footer-link" href="{{ '/' | relative_url }}">Home</a>
+      <a class="sl-footer-link" href="/category/ai-automation">AI &amp; Automation</a>
+      <a class="sl-footer-link" href="/category/sports">Sports</a>
+      <a class="sl-footer-link" href="/category/technology">Technology</a>
+      <a class="sl-footer-link" href="/dashboard">Dashboard</a>
+    </div>
+  </div>
+  <div class="sl-footer-copy">© {{ 'now' | date: "%Y" }} Sujit Luintel · Auto-published with AI</div>
+</footer>
+
+<script>
+(function(){
+  /* THEME */
+  const html=document.documentElement, btn=document.getElementById('themeToggle');
+  const icon=btn&&btn.querySelector('.sl-theme-icon');
+  function applyTheme(t){html.setAttribute('data-theme',t);if(icon)icon.textContent=t==='dark'?'☀️':'🌙';try{localStorage.setItem('sl-theme',t);}catch(e){}}
+  function getPref(){try{const s=localStorage.getItem('sl-theme');if(s)return s;}catch(e){}return matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';}
+  applyTheme(getPref());
+  if(btn)btn.addEventListener('click',()=>applyTheme(html.getAttribute('data-theme')==='dark'?'light':'dark'));
+
+  /* PAGINATION + SORT */
+  const grid=document.getElementById('catGrid');
+  const pager=document.getElementById('pager');
+  const ppSel=document.getElementById('ppSel');
+  const allCards=[...grid.querySelectorAll('.sl-card')];
+  let pp=12, page=1, sortAsc=false;
+
+  function sorted(){return [...allCards].sort((a,b)=>sortAsc?a.dataset.ts-b.dataset.ts:b.dataset.ts-a.dataset.ts);}
+
+  function render(){
+    const cards=sorted();
+    const total=Math.ceil(cards.length/pp)||1;
+    page=Math.min(page,total);
+    const s=(page-1)*pp, e=s+pp;
+    allCards.forEach(c=>{c.style.display='none';c.classList.remove('visible');});
+    cards.slice(s,e).forEach((c,i)=>{
+      c.style.display='';
+      requestAnimationFrame(()=>setTimeout(()=>c.classList.add('visible'),i*35));
+    });
+    buildPager(total);
+  }
+
+  function buildPager(total){
+    pager.innerHTML='';
+    if(total<=1)return;
+    const prev=mkBtn('←',page===1);
+    prev.addEventListener('click',()=>{page--;render();scrollTop();});
+    pager.appendChild(prev);
+    let lo=Math.max(1,page-3), hi=Math.min(total,lo+6); lo=Math.max(1,hi-6);
+    for(let i=lo;i<=hi;i++){
+      const b=mkBtn(i,false,i===page);
+      b.addEventListener('click',(function(p){return()=>{page=p;render();scrollTop();};})(i));
+      pager.appendChild(b);
+    }
+    const next=mkBtn('→',page===total);
+    next.addEventListener('click',()=>{page++;render();scrollTop();});
+    pager.appendChild(next);
+  }
+
+  function mkBtn(label,disabled,cur){
+    const b=document.createElement('button');
+    b.className='sl-pg'+(cur?' cur':'');
+    b.textContent=label; b.disabled=!!disabled; return b;
+  }
+  function scrollTop(){window.scrollTo({top:grid.offsetTop-80,behavior:'smooth'});}
+
+  document.querySelectorAll('[data-sort]').forEach(b=>{
+    b.addEventListener('click',function(){
+      document.querySelectorAll('[data-sort]').forEach(x=>x.classList.remove('active'));
+      this.classList.add('active'); sortAsc=this.dataset.sort==='oldest'; page=1; render();
+    });
+  });
+  if(ppSel)ppSel.addEventListener('change',function(){pp=+this.value;page=1;render();});
+
+  render();
+})();
+</script>
+</body>
+</html>
