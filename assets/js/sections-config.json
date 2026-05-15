@@ -1,25 +1,58 @@
 {
   "version": "1.0",
   "sections": [
-    { "id":"s1",  "order":1,  "enabled":true,  "title":"AI & Automation",  "layout":"hero-spotlight",    "category":"ai-automation", "show_see_all":true  },
-    { "id":"s2",  "order":2,  "enabled":true,  "title":"Sports Zone",       "layout":"magazine-grid",     "category":"sports",        "show_see_all":true  },
-    { "id":"s3",  "order":3,  "enabled":true,  "title":"Trending Now",      "layout":"carousel-row",      "category":"trending",      "show_see_all":false },
-    { "id":"s4",  "order":4,  "enabled":true,  "title":"Finance & Markets", "layout":"list-preview",      "category":"finance",       "show_see_all":true  },
-    { "id":"s5",  "order":5,  "enabled":true,  "title":"Entertainment",     "layout":"alternating-split", "category":"entertainment",  "show_see_all":true  },
-    { "id":"s6",  "order":6,  "enabled":true,  "title":"Technology",        "layout":"masonry-grid",      "category":"technology",    "show_see_all":true  },
-    { "id":"s7",  "order":7,  "enabled":true,  "title":"Deep Dives",        "layout":"spotlight-sidebar", "category":"deep-dives",    "show_see_all":true  },
-    { "id":"s8",  "order":8,  "enabled":true,  "title":"Quick Reads",       "layout":"text-digest",       "category":"all",           "show_see_all":false },
-    { "id":"s9",  "order":9,  "enabled":true,  "title":"Editor's Pick",     "layout":"big-feature-strip", "category":"trending",      "show_see_all":false },
-    { "id":"s10", "order":10, "enabled":true,  "title":"Full Archive",      "layout":"timeline-feed",     "category":"all",           "show_see_all":false }
+    {
+      "id": "s1",
+      "order": 1,
+      "enabled": true,
+      "title": "AI & Automation",
+      "layout": "grid",
+      "category": "ai-automation",
+      "show_see_all": true
+    },
+    {
+      "id": "s2",
+      "order": 2,
+      "enabled": true,
+      "title": "Sports Zone",
+      "layout": "grid",
+      "category": "sports",
+      "show_see_all": true
+    },
+    {
+      "id": "s3",
+      "order": 3,
+      "enabled": true,
+      "title": "Trending Now",
+      "layout": "list",
+      "category": "trending",
+      "show_see_all": false
+    }
   ],
   "categories": {
-    "all":           { "label":"All Posts",         "color":"#6366f1", "icon":"📰", "tags":[] },
-    "trending":      { "label":"Trending",           "color":"#f43f5e", "icon":"🔥", "tags":["trending","viral","latest","updates","right now","2026","internet reactions","what people are saying"] },
-    "ai-automation": { "label":"AI & Automation",    "color":"#6366f1", "icon":"🤖", "tags":["ai tools","automation","chatgpt","gemini ai","openai","llm","generative ai","workflow","productivity","ai agents","machine learning","ai code","ai trends","prompt engineering","ai writing","no-code ai","claude ai","ai development","ai video","ai image","ai research","ai seo","remote work","ai investing","ai automation","zapier","make","n8n"] },
-    "sports":        { "label":"Sports",             "color":"#22c55e", "icon":"⚽", "tags":["cricket","football","nba","ipl","la liga","serie a","bundesliga","premier league","mma","ufc","basketball","tennis","golf","rugby","champions league","epl","sports analytics","ai in sports","cricket analytics","football analytics","lakers","thunder","timberwolves","rcb","kkr"] },
-    "finance":       { "label":"Finance & Markets",  "color":"#f59e0b", "icon":"💰", "tags":["investing","stock market","finance","trading","shares","etf","portfolio","crypto","fintech","banking","markets","data breach","share result","share price","ai investing","cra"] },
-    "entertainment": { "label":"Entertainment",      "color":"#ec4899", "icon":"🎬", "tags":["reality tv","celebrity","music","actor","film","series","streaming","netflix","bollywood","hollywood","pop culture","hailee steinfeld","sai pallavi","shania twain","splitsvilla","south indian cinema","country pop"] },
-    "technology":    { "label":"Technology",         "color":"#0ea5e9", "icon":"💻", "tags":["app development","mobile strategy","ai laptops","tech innovation","software","hardware","devices","gadgets","cloud","saas","developer","coding","googlebook","gemini","app","apps"] },
-    "deep-dives":    { "label":"Deep Dives",         "color":"#8b5cf6", "icon":"🔍", "tags":["workflow automation","automation tools","guide","tutorial","explained","analysis","deep dive","breakdown","complete guide","how ai is changing","everything you should know","explained simply","your guide","mastering"] }
+    "all": {
+      "label": "All Posts",
+      "color": "#6366f1",
+      "icon": "📰",
+      "tags": []
+    },
+    "trending": {
+      "label": "Trending",
+      "color": "#f43f5e",
+      "icon": "🔥",
+      "tags": ["trending", "viral"]
+    },
+    "ai-automation": {
+      "label": "AI & Automation",
+      "color": "#6366f1",
+      "icon": "🤖",
+      "tags": ["ai", "automation"]
+    },
+    "sports": {
+      "label": "Sports",
+      "color": "#22c55e",
+      "icon": "⚽",
+      "tags": ["football", "cricket"]
+    }
   }
 }
