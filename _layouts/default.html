@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Dynamic title/description -->
+  <title>{% if page.title %}{{ page.title }} — Sluintel{% else %}Sluintel — AI-Powered Trending Blog{% endif %}</title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}Sluintel — Daily AI-generated articles on AI tools, sports, finance, entertainment, technology and trending topics.{% endif %}" />
+
+  <!-- OG / Social -->
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}Sluintel{% endif %}" />
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 200 }}{% else %}Daily AI-generated articles on the topics that matter.{% endif %}" />
+  <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}" />
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
+  {% if page.image %}<meta property="og:image" content="{{ page.image }}" />{% endif %}
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Google Site Verification (homepage only) -->
+  {% if page.url == "/" %}<meta name="google-site-verification" content="JQTOXeyvg5ypfjq2nyjXH_H0OXcKh3QdcYPPrbh7mh4" />{% endif %}
+
+  <!-- Canonical -->
+  <link rel="canonical" href="{{ page.url | absolute_url }}" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" />
+
+  <!-- Site CSS -->
+  <link rel="stylesheet" href="/assets/css/sl-home.css" />
+  {% if page.layout == 'dashboard' %}<link rel="stylesheet" href="/assets/css/sl-dashboard.css" />{% endif %}
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WJEQKLB827"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-WJEQKLB827');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2480859517203371" crossorigin="anonymous"></script>
+
+  <!-- Theme init (prevent flash) -->
+  <script>
+    (function(){
+      var t = localStorage.getItem('sl-theme');
+      if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+
+  {% if page.extra_head %}{{ page.extra_head }}{% endif %}
+</head>
+<body>
+  {{ content }}
+</body>
+</html>
