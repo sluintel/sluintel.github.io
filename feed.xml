@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 15 May 2026 16:00:57 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 15 May 2026 16:19:39 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Everything to Know About Movies: Your Ultimate Guide to Cinema in 2026]]></title>
+    <link>https://sluintel.github.io/posts/2026-05-15-everything-to-know-about-movies.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-15-everything-to-know-about-movies.html</guid>
+    <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unlock everything to know about movies! Dive into film history, streaming trends, and critical analysis. Your essential guide to cinema's past, present, and future in 2026.]]></description>
+    <enclosure url="https://images.pexels.com/photos/5386738/pexels-photo-5386738.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>movies</category>
+    <category>cinema</category>
+    <category>film</category>
+    <category>streaming</category>
+    <category>entertainment</category>
+  </item>
   <item>
     <title><![CDATA[CSK vs LSG: The Latest Updates & AI-Driven Game Insights for 2026]]></title>
     <link>https://sluintel.github.io/posts/2026-05-15-csk-vs-lsg-latest-updates-ai-insights-2026.html</link>
@@ -258,19 +271,6 @@
     <category>Board Exams</category>
     <category>Academic Guide</category>
     <category>School Curriculum</category>
-  </item>
-  <item>
-    <title><![CDATA[Osasuna vs Atlético Madrid Standings: What Fans & Pundits Are Saying]]></title>
-    <link>https://sluintel.github.io/posts/2026-05-13-what-people-are-saying-about-osasuna-vs-atletico-madrid-standings.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-13-what-people-are-saying-about-osasuna-vs-atletico-madrid-standings.html</guid>
-    <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Curious what people are saying about Osasuna vs Atlético Madrid standings? Get the inside scoop, expert analysis, and fan chatter on this crucial La Liga matchup.]]></description>
-    <enclosure url="https://images.pexels.com/photos/36429411/pexels-photo-36429411.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Osasuna</category>
-    <category>Atlético Madrid</category>
-    <category>La Liga</category>
-    <category>Football Standings</category>
-    <category>Fan Opinion</category>
   </item>
 </channel>
 </rss>
