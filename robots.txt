@@ -1,4 +1,5 @@
 User-agent: *
+Disallow: /dashboard/
 Allow: /
 
 Sitemap: https://sluintel.github.io/sitemap.xml
