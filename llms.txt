@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 97
-Last Updated: 2026-05-14
-Latest Post: Copa do Brasil Explained Simply: Your Guide to Brazilian Football Glory
-Latest Post URL: https://sluintel.github.io/posts/2026-05-14-copa-do-brasil-explained-simply.html
+Total Posts Published: 98
+Last Updated: 2026-05-15
+Latest Post: Whisper My Name Drake: How AI Elevates Your Digital Footprint
+Latest Post URL: https://sluintel.github.io/posts/2026-05-15-whisper-my-name-drake-ai-digital-footprint.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Whisper My Name Drake: How AI Elevates Your Digital Footprint](https://sluintel.github.io/posts/2026-05-15-whisper-my-name-drake-ai-digital-footprint.html) — 2026-05-15 — AI in music, Drake, digital marketing
 - [Copa do Brasil Explained Simply: Your Guide to Brazilian Football Glory](https://sluintel.github.io/posts/2026-05-14-copa-do-brasil-explained-simply.html) — 2026-05-14 — Copa do Brasil, Brazilian Football, Soccer Explained
 - [Coritiba vs Santos: Top Internet Reactions & Fan Frenzy](https://sluintel.github.io/posts/2026-05-14-top-internet-reactions-coritiba-vs-santos.html) — 2026-05-14 — Coritiba, Santos, Football Reactions
 - [Cincinnati vs Inter Miami: Top Internet Reactions Unpacked](https://sluintel.github.io/posts/2026-05-14-top-internet-reactions-to-cincinnati-vs-inter-miami.html) — 2026-05-14 — MLS, Inter Miami, Cincinnati FC
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [The AI Revolution: Your Guide to Mastering Artificial Intelligence in 2026](https://sluintel.github.io/posts/2026-05-14-mastering-ai-in-2026.html) — 2026-05-14 — AI, Artificial Intelligence, Machine Learning
 - [Lazio vs Inter: Decoding Top Internet Reactions & Fan Fervor](https://sluintel.github.io/posts/2026-05-13-top-internet-reactions-to-lazio-vs-inter.html) — 2026-05-13 — Serie A, Lazio vs Inter, Football Reactions
 - [Eileen Wang's Latest Updates: Her AI Impact & What It Means for You](https://sluintel.github.io/posts/2026-05-13-the-latest-updates-on-eileen-wang.html) — 2026-05-13 — Eileen Wang, AI Leadership, Tech Innovation
-- [Angkrish Raghuvanshi's AI Future: Unlocking Cricket's Next Gen](https://sluintel.github.io/posts/2026-05-13-future-of-angkrish-raghuvanshi-with-ai.html) — 2026-05-13 — AI in sports, Cricket analytics, Angkrish Raghuvanshi
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
