@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 15 May 2026 09:15:36 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 15 May 2026 14:16:59 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Decoding the Top Internet Reactions to Kuldip Yadav's Rise]]></title>
+    <link>https://sluintel.github.io/posts/2026-05-15-top-internet-reactions-kuldip-yadav.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-15-top-internet-reactions-kuldip-yadav.html</guid>
+    <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack the top internet reactions to Kuldip Yadav and understand why his performances ignite such passionate digital debates. Learn to track and analyze sports trends.]]></description>
+    <enclosure url="https://images.pexels.com/photos/13883892/pexels-photo-13883892.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Kuldip Yadav</category>
+    <category>Cricket Reactions</category>
+    <category>Sports Social Media</category>
+    <category>Fan Engagement</category>
+    <category>Digital Trends</category>
+  </item>
   <item>
     <title><![CDATA[Whisper My Name Drake: How AI Elevates Your Digital Footprint to Stardom]]></title>
     <link>https://sluintel.github.io/posts/2026-05-15-whisper-my-name-drake-ai-digital-footprint-stardom.html</link>
@@ -258,19 +271,6 @@
     <category>federalism Nepal</category>
     <category>parliament explained</category>
     <category>national assembly Nepal</category>
-  </item>
-  <item>
-    <title><![CDATA[The Latest Updates on Share Result: AI's Impact in 2026]]></title>
-    <link>https://sluintel.github.io/posts/2026-05-13-the-latest-updates-on-share-result.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-13-the-latest-updates-on-share-result.html</guid>
-    <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unlock the latest updates on share result functionalities, enhanced by AI. Discover how automated, secure sharing transforms collaboration & decision-making in 2026. Stay ahead!]]></description>
-    <enclosure url="https://images.pexels.com/photos/5417680/pexels-photo-5417680.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI collaboration</category>
-    <category>data sharing</category>
-    <category>automation</category>
-    <category>AI tools</category>
-    <category>workflow efficiency</category>
   </item>
 </channel>
 </rss>

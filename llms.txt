@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 99
+Total Posts Published: 100
 Last Updated: 2026-05-15
-Latest Post: Whisper My Name Drake: How AI Elevates Your Digital Footprint to Stardom
-Latest Post URL: https://sluintel.github.io/posts/2026-05-15-whisper-my-name-drake-ai-digital-footprint-stardom.html
+Latest Post: Decoding the Top Internet Reactions to Kuldip Yadav's Rise
+Latest Post URL: https://sluintel.github.io/posts/2026-05-15-top-internet-reactions-kuldip-yadav.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Decoding the Top Internet Reactions to Kuldip Yadav's Rise](https://sluintel.github.io/posts/2026-05-15-top-internet-reactions-kuldip-yadav.html) — 2026-05-15 — Kuldip Yadav, Cricket Reactions, Sports Social Media
 - [Whisper My Name Drake: How AI Elevates Your Digital Footprint to Stardom](https://sluintel.github.io/posts/2026-05-15-whisper-my-name-drake-ai-digital-footprint-stardom.html) — 2026-05-15 — AI Tools, Digital Footprint, Personal Branding
 - [Whisper My Name Drake: How AI Elevates Your Digital Footprint](https://sluintel.github.io/posts/2026-05-15-whisper-my-name-drake-ai-digital-footprint.html) — 2026-05-15 — AI in music, Drake, digital marketing
 - [Copa do Brasil Explained Simply: Your Guide to Brazilian Football Glory](https://sluintel.github.io/posts/2026-05-14-copa-do-brasil-explained-simply.html) — 2026-05-14 — Copa do Brasil, Brazilian Football, Soccer Explained
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Top Internet Reactions to Today Weather: Decoding Digital Chatter](https://sluintel.github.io/posts/2026-05-14-top-internet-reactions-to-today-weather.html) — 2026-05-14 — weather, internet reactions, social media
 - [AI Unleashed: Your Expert Guide to Mastering Artificial Intelligence](https://sluintel.github.io/posts/2026-05-14-ai-unleashed-your-expert-guide.html) — 2026-05-14 — AI, Artificial Intelligence, Automation
 - [The AI Revolution: Your Guide to Mastering Artificial Intelligence in 2026](https://sluintel.github.io/posts/2026-05-14-mastering-ai-in-2026.html) — 2026-05-14 — AI, Artificial Intelligence, Machine Learning
-- [Lazio vs Inter: Decoding Top Internet Reactions & Fan Fervor](https://sluintel.github.io/posts/2026-05-13-top-internet-reactions-to-lazio-vs-inter.html) — 2026-05-13 — Serie A, Lazio vs Inter, Football Reactions
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
