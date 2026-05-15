@@ -30,6 +30,7 @@ REPO_ROOT    = Path(__file__).parent.parent
 POSTS_DIR    = REPO_ROOT / "posts"
 OG_DIR       = REPO_ROOT / "posts" / "og"
 POSTS_JSON   = REPO_ROOT / "posts.json"
+POSTS_DATA_JSON = REPO_ROOT / "assets" / "js" / "posts-data.json"
 USED_KW_FILE = REPO_ROOT / "used_keywords.json"
 INDEX_HTML   = REPO_ROOT / "index.html"
 SITEMAP_PATH = REPO_ROOT / "sitemap.xml"
@@ -172,7 +173,7 @@ def load_used_keywords():
             if content:
                 return json.loads(content)
         except (json.JSONDecodeError, ValueError):
-            print("⚠️  used_keywords.json was malformed — resetting it")
+            print("used_keywords.json was malformed — resetting it")
     return []
 
 
@@ -228,7 +229,7 @@ def fetch_trends_rss(geo: str, url: str) -> list:
             timeout=15,
         )
         if resp.status_code != 200:
-            print(f"⚠️  Trends RSS ({geo}): HTTP {resp.status_code}")
+            print(f"Trends RSS ({geo}): HTTP {resp.status_code}")
             return []
         root = ET.fromstring(resp.content)
         items = root.findall(".//item")
@@ -239,10 +240,10 @@ def fetch_trends_rss(geo: str, url: str) -> list:
                 titles.append(title_el.text.strip())
         return titles
     except ET.ParseError as e:
-        print(f"⚠️  Trends RSS ({geo}): XML parse error — {e}")
+        print(f"Trends RSS ({geo}): XML parse error — {e}")
         return []
     except requests.RequestException as e:
-        print(f"⚠️  Trends RSS ({geo}): request error — {e}")
+        print(f"Trends RSS ({geo}): request error — {e}")
         return []
 
 
@@ -252,7 +253,7 @@ def get_trending_keyword() -> str:
         titles = fetch_trends_rss(geo, url)
         for title in titles:
             if _is_ai_tech(title):
-                print(f"✅ Trending AI/Tech RSS ({geo}): {title}")
+                print(f"Trending AI/Tech RSS ({geo}): {title}")
                 save_used_keyword(title)
                 return title
         for title in titles:
@@ -260,7 +261,7 @@ def get_trending_keyword() -> str:
     if all_titles:
         geo, title = random.choice(all_titles[:10])
         reframed = generate_dynamic_title(title)
-        print(f"✅ Reframed trending topic ({geo}): {reframed}")
+        print(f"Reframed trending topic ({geo}): {reframed}")
         save_used_keyword(reframed)
         return reframed
     used = load_used_keywords()
@@ -271,7 +272,7 @@ def get_trending_keyword() -> str:
         available = FALLBACK_KEYWORDS
     kw = random.choice(available)
     save_used_keyword(kw)
-    print(f"✅ Fallback keyword: {kw}")
+    print(f"Fallback keyword: {kw}")
     return kw
 
 
@@ -361,7 +362,7 @@ def _validate_links(html: str, valid_urls: set) -> str:
         inner = match.group(2)
         if href in valid_urls:
             return match.group(0)
-        print(f"⚠️  Stripped hallucinated link: {match.group(1)}")
+        print(f"Stripped hallucinated link: {match.group(1)}")
         return inner
     return re.sub(r'<a\s+href="([^"]+)"[^>]*>(.*?)</a>', _fix, html, flags=re.DOTALL)
 
@@ -381,7 +382,7 @@ def _gemini_with_retry(client, model, contents, config, max_attempts: int = 3):
             if attempt == max_attempts:
                 raise
             wait = 2 ** attempt          # 2s, 4s
-            print(f"⚠️  Gemini attempt {attempt}/{max_attempts} failed: {exc}")
+            print(f"Gemini attempt {attempt}/{max_attempts} failed: {exc}")
             print(f"   Retrying in {wait}s…")
             time.sleep(wait)
 
@@ -393,18 +394,18 @@ def _validate_post(data: dict) -> None:
     title_len  = len(data.get("title", ""))
     meta_len   = len(data.get("meta_description", ""))
 
-    print(f"   📝 Word count       : ~{word_count}")
-    print(f"   📌 Title length     : {title_len} chars")
-    print(f"   🔍 Meta desc length : {meta_len} chars")
+    print(f"  Word count       : ~{word_count}")
+    print(f"  Title length     : {title_len} chars")
+    print(f"  Meta desc length : {meta_len} chars")
 
     if word_count < 600:
-        print(f"⚠️  Content is short ({word_count} words) — consider regenerating")
+        print(f"Content is short ({word_count} words) — consider regenerating")
     if title_len > 65:
-        print(f"⚠️  Title exceeds 65 chars — may be truncated in SERPs")
+        print(f"Title exceeds 65 chars — may be truncated in SERPs")
     if meta_len > 160:
-        print(f"⚠️  Meta description exceeds 160 chars")
+        print(f"Meta description exceeds 160 chars")
     if not data.get("slug"):
-        print("⚠️  Empty slug — will use fallback")
+        print("Empty slug — will use fallback")
 
 
 def _unique_slug(slug: str, date_str: str) -> str:
@@ -415,7 +416,7 @@ def _unique_slug(slug: str, date_str: str) -> str:
         slug = f"{base}-{counter}"
         counter += 1
     if slug != base:
-        print(f"⚠️  Slug collision — renamed to '{slug}'")
+        print(f"Slug collision — renamed to '{slug}'")
     return slug
 
 def generate_blog_post(keyword: str) -> dict:
@@ -532,8 +533,8 @@ Return ONLY a valid JSON object with exactly these keys — no markdown fences, 
         data["content_html"] = _validate_links(data["content_html"], valid_urls)
 
     links_found = re.findall(r'<a href=', data["content_html"])
-    print(f"✅ Post generated: {data['title']}")
-    print(f"   🔗 Internal links embedded: {len(links_found)}")
+    print(f"Post generated: {data['title']}")
+    print(f" Internal links embedded: {len(links_found)}")
     _validate_post(data)
     return data
 
@@ -601,7 +602,7 @@ def _pexels(query: str, keyword: str, api_key: str):
             timeout=10,
         )
         if r.status_code != 200:
-            print(f"⚠️  Pexels HTTP {r.status_code} for '{query}' page {page}")
+            print(f" Pexels HTTP {r.status_code} for '{query}' page {page}")
             return None
         photos = r.json().get("photos", [])
         if not photos:
@@ -612,7 +613,7 @@ def _pexels(query: str, keyword: str, api_key: str):
             _build_credit(photo["photographer"], photo["photographer_url"], "Pexels", "https://www.pexels.com"),
         )
     except Exception as e:
-        print(f"⚠️  Pexels error: {e}")
+        print(f" Pexels error: {e}")
         return None
 
 
@@ -629,7 +630,7 @@ def _unsplash(query: str, keyword: str, api_key: str):
             timeout=10,
         )
         if r.status_code != 200:
-            print(f"⚠️  Unsplash HTTP {r.status_code} for '{query}' page {page}")
+            print(f"  Unsplash HTTP {r.status_code} for '{query}' page {page}")
             return None
         results = r.json().get("results", [])
         if not results:
@@ -645,7 +646,7 @@ def _unsplash(query: str, keyword: str, api_key: str):
             ),
         )
     except Exception as e:
-        print(f"⚠️  Unsplash error: {e}")
+        print(f" Unsplash error: {e}")
         return None
 
 
@@ -660,7 +661,7 @@ def _openverse(query: str, keyword: str):
             timeout=10,
         )
         if r.status_code != 200:
-            print(f"⚠️  Openverse HTTP {r.status_code} for '{query}' page {page}")
+            print(f" Openverse HTTP {r.status_code} for '{query}' page {page}")
             return None
         results = r.json().get("results", [])
         if not results:
@@ -676,7 +677,7 @@ def _openverse(query: str, keyword: str):
             ),
         )
     except Exception as e:
-        print(f"⚠️  Openverse error: {e}")
+        print(f" Openverse error: {e}")
         return None
 
 
@@ -702,14 +703,14 @@ def get_feature_image(keyword: str):
             result = fetcher(query)
             if result:
                 img_url, credit = result
-                print(f"✅ [{source_name}] Image fetched for '{query}' (keyword: '{keyword}')")
+                print(f" [{source_name}] Image fetched for '{query}' (keyword: '{keyword}')")
                 return img_url, credit
             print(f"↩️  [{source_name}] No result for '{query}', trying next…")
 
     idx    = _keyword_hash_page(keyword, total_pages=len(FALLBACK_IMAGES)) - 1
     img    = FALLBACK_IMAGES[idx]
     credit = 'Photo from <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a>'
-    print("⚠️  All sources failed — using hardcoded fallback image")
+    print(" All sources failed — using hardcoded fallback image")
     return img, credit
 
 
@@ -774,7 +775,7 @@ def generate_og_image(title: str, slug: str) -> str:
 
     bg.save(str(out_path), "PNG", optimize=True)
     og_url = f"{SITE_URL}/posts/og/{slug}.png"
-    print(f"✅ OG image saved → posts/og/{slug}.png")
+    print(f"OG image saved → posts/og/{slug}.png")
     return og_url
 
 
@@ -987,7 +988,7 @@ def load_posts():
             if content:
                 return json.loads(content)
         except (json.JSONDecodeError, ValueError):
-            print("⚠️  posts.json was malformed — starting fresh")
+            print("posts.json was malformed — starting fresh")
     return []
 
 
@@ -1007,12 +1008,35 @@ def update_posts_json(post, img_url, date_str):
     }
     posts.insert(0, entry)
     POSTS_JSON.write_text(json.dumps(posts, indent=2))
-    print(f"✅ posts.json updated  ({len(posts)} posts total)")
+    print(f"posts.json updated  ({len(posts)} posts total)")
     return posts, filename
 
 
 # ─────────────────────────────────────────
-# 8. REGENERATE index.html
+# 8. UPDATE posts-data.json (feeds new homepage JS)
+# ─────────────────────────────────────────
+def update_posts_data_json(posts):
+    """Write assets/js/posts-data.json — read by the new homepage JS."""
+    POSTS_DATA_JSON.parent.mkdir(parents=True, exist_ok=True)
+    data = []
+    for p in posts:
+        # Estimate word count from meta description length
+        word_count = len(p.get("meta_description", "").split()) * 8  # rough estimate
+        data.append({
+            "url":       p.get("url", ""),
+            "title":     p.get("title", ""),
+            "date":      p.get("date", ""),
+            "image":     p.get("image_url", ""),
+            "tags":      p.get("tags", []),
+            "excerpt":   p.get("meta_description", ""),
+            "wordCount": word_count,
+        })
+    POSTS_DATA_JSON.write_text(json.dumps(data, indent=2), encoding="utf-8")
+    print(f"posts-data.json updated ({len(data)} posts) → assets/js/posts-data.json")
+
+
+# ─────────────────────────────────────────
+# 9. REGENERATE index.html (kept for reference, no longer called)
 # ─────────────────────────────────────────
 
 _SEE_MORE_CSS = """\
@@ -1237,7 +1261,7 @@ def build_index_html(posts):
 
 
 # ─────────────────────────────────────────
-# 9. REGENERATE sitemap.xml
+# 10. REGENERATE sitemap.xml
 # ─────────────────────────────────────────
 def build_sitemap(posts):
     now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S+00:00")
@@ -1273,11 +1297,11 @@ def build_sitemap(posts):
     cleaned      = "\n".join(line for line in lines if line.strip())
 
     SITEMAP_PATH.write_text(cleaned, encoding="utf-8")
-    print(f"✅ sitemap.xml updated ({len(posts)} posts + 1 homepage)")
+    print(f"sitemap.xml updated ({len(posts)} posts + 1 homepage)")
 
 
 # ─────────────────────────────────────────
-# 10. REGENERATE llms.txt
+# 11. REGENERATE llms.txt
 # ─────────────────────────────────────────
 def build_llms_txt(posts):
     today      = datetime.now().strftime("%Y-%m-%d")
@@ -1335,11 +1359,11 @@ AI Blog: {SITE_URL}
 Location: Kathmandu, Nepal
 """
     LLMS_PATH.write_text(content.strip(), encoding="utf-8")
-    print(f"✅ llms.txt updated ({total} posts)")
+    print(f"llms.txt updated ({total} posts)")
 
 
 # ─────────────────────────────────────────
-# 11. GENERATE RSS FEED (feed.xml)
+# 12. GENERATE RSS FEED (feed.xml)
 # ─────────────────────────────────────────
 def build_rss_feed(posts):
     now_rfc = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
@@ -1381,11 +1405,11 @@ def build_rss_feed(posts):
         '</rss>'
     )
     RSS_PATH.write_text(rss, encoding="utf-8")
-    print(f"✅ feed.xml updated ({min(len(posts), 20)} items)")
+    print(f"feed.xml updated ({min(len(posts), 20)} items)")
 
 
 # ─────────────────────────────────────────
-# 12. REGENERATE robots.txt
+# 13. REGENERATE robots.txt
 # ─────────────────────────────────────────
 def build_robots_txt():
     content = (
@@ -1395,7 +1419,7 @@ def build_robots_txt():
         f"Sitemap: {SITE_URL}/sitemap.xml\n"
     )
     ROBOTS_PATH.write_text(content, encoding="utf-8")
-    print("✅ robots.txt updated")
+    print("robots.txt updated")
 
 
 # ─────────────────────────────────────────
@@ -1411,9 +1435,9 @@ def main():
     dry  = args.dry_run
 
     if dry:
-        print("\n🔍 DRY RUN — no files will be written\n")
+        print("\n DRY RUN — no files will be written\n")
     else:
-        print("\n🤖 Auto Blog Generator starting…\n")
+        print("\n Auto Blog Generator starting…\n")
 
     start = time.time()
 
@@ -1442,7 +1466,7 @@ def main():
         filename  = f"{date_str}-{post['slug']}.html"
 
         if dry:
-            print(f"\n✅ DRY RUN complete — would have written: posts/{filename}")
+            print(f"\n DRY RUN complete — would have written: posts/{filename}")
             print(f"   Title : {post['title']}")
             print(f"   Slug  : {post['slug']}")
             print(f"   Image : {img_url[:60]}…")
@@ -1452,12 +1476,12 @@ def main():
 
         # ── 7. Write post file ────────────────────────────────────────────
         (POSTS_DIR / filename).write_text(post_html, encoding="utf-8")
-        print(f"✅ Post written → posts/{filename}")
+        print(f" Post written → posts/{filename}")
 
-        # ── 8. Update index ────────────────────────────────────────────────
+        # ── 8. Update indexes ─────────────────────────────────────────────
         posts, _ = update_posts_json(post, img_url, date_str)
-        INDEX_HTML.write_text(build_index_html(posts), encoding="utf-8")
-        print("✅ index.html regenerated")
+        update_posts_data_json(posts)   # feeds the new homepage JS
+        # index.html is NOT regenerated — it's the new static design
 
         # ── 9. All auxiliary files ─────────────────────────────────────────
         build_sitemap(posts)
@@ -1466,13 +1490,13 @@ def main():
         build_robots_txt()
 
         elapsed = time.time() - start
-        print(f"\n🎉 Done in {elapsed:.1f}s — '{post['title']}' is live at posts/{filename}\n")
+        print(f"\n Done in {elapsed:.1f}s — '{post['title']}' is live at posts/{filename}\n")
 
     except KeyboardInterrupt:
-        print("\n⚠️  Interrupted by user")
+        print("\n Interrupted by user")
         sys.exit(0)
     except Exception as exc:
-        print(f"\n❌ Fatal error: {exc}")
+        print(f"\n Fatal error: {exc}")
         raise SystemExit(1) from exc
 
 
