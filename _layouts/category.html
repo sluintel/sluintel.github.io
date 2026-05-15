@@ -1,0 +1,236 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ page.cat_label | default: page.title }} — Sluintel</title>
+  <meta name="description" content="Browse {{ page.cat_label | default: page.title }} articles on Sluintel — AI-generated daily content." />
+
+  <!-- OG Meta -->
+  <meta property="og:title" content="{{ page.cat_label | default: page.title }} — Sluintel" />
+  <meta property="og:description" content="Browse {{ page.cat_label | default: page.title }} articles on Sluintel." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="/assets/css/sl-home.css" />
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WJEQKLB827"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-WJEQKLB827');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2480859517203371" crossorigin="anonymous"></script>
+
+  <!-- Theme init -->
+  <script>
+    (function(){
+      var t = localStorage.getItem('sl-theme');
+      if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="sl-nav" role="navigation">
+    <div class="sl-nav__inner">
+      <a href="/" class="sl-nav__brand">
+        <span class="sl-nav__brand-text">Sluintel</span>
+      </a>
+      <div class="sl-nav__links">
+        <a href="/category/trending" class="sl-nav__link">🔥 Trending</a>
+        <a href="/category/ai-automation" class="sl-nav__link">🤖 AI</a>
+        <a href="/category/sports" class="sl-nav__link">⚽ Sports</a>
+        <a href="/category/finance" class="sl-nav__link">💰 Finance</a>
+        <a href="/category/entertainment" class="sl-nav__link">🎬 Entertainment</a>
+        <a href="/category/technology" class="sl-nav__link">💻 Tech</a>
+        <a href="/category/all" class="sl-nav__link">📰 All Posts</a>
+      </div>
+      <button class="sl-theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <span class="sl-theme-toggle__icon">◐</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- CATEGORY HEADER -->
+  <header class="sl-cat-header">
+    <div class="sl-cat-header__inner">
+      <div class="sl-cat-header__icon">{{ page.cat_icon | default: "📰" }}</div>
+      <h1 class="sl-cat-header__title">{{ page.cat_label | default: page.title }}</h1>
+      <p class="sl-cat-header__desc">{{ page.cat_description | default: "Latest articles in this category." }}</p>
+    </div>
+  </header>
+
+  <!-- SORT / FILTER BAR -->
+  <div class="sl-cat-bar">
+    <div class="sl-cat-bar__inner">
+      <span class="sl-cat-bar__count" id="postCount">Loading…</span>
+      <div class="sl-cat-bar__sort">
+        <label for="sortSelect" class="sl-cat-bar__label">Sort:</label>
+        <select id="sortSelect" class="sl-cat-bar__select">
+          <option value="newest">Newest first</option>
+          <option value="oldest">Oldest first</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <!-- AD SLOT (above posts) -->
+  <div class="sl-ad-wrap sl-ad-wrap--cat">
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2480859517203371" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+
+  <!-- POSTS GRID -->
+  <main class="sl-cat-main" id="catPosts">
+    {% comment %}
+      DEFENSIVE MATCHING:
+      1. Try YAML tags first (post.tags array)
+      2. Fallback: match against post title keywords
+      3. Special case: slug "all" shows every post
+    {% endcomment %}
+
+    {% assign cat_slug = page.cat_slug %}
+    {% assign cat_tags = page.cat_tags %}
+    {% assign matched_posts = "" | split: "" %}
+
+    {% for post in site.posts %}
+      {% assign is_match = false %}
+
+      {% if cat_slug == "all" %}
+        {% assign is_match = true %}
+
+      {% else %}
+        {% comment %} Method 1: YAML tags matching {% endcomment %}
+        {% if post.tags and post.tags.size > 0 %}
+          {% for post_tag in post.tags %}
+            {% assign ptl = post_tag | downcase %}
+            {% for cat_tag in cat_tags %}
+              {% assign ctl = cat_tag | downcase %}
+              {% if ptl contains ctl or ctl contains ptl %}
+                {% assign is_match = true %}
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+        {% endif %}
+
+        {% comment %} Method 2: Title keyword fallback {% endcomment %}
+        {% unless is_match %}
+          {% assign title_lower = post.title | downcase %}
+          {% assign url_lower = post.url | downcase %}
+          {% for cat_tag in cat_tags %}
+            {% assign ctl = cat_tag | downcase %}
+            {% if title_lower contains ctl or url_lower contains ctl %}
+              {% assign is_match = true %}
+            {% endif %}
+          {% endfor %}
+        {% endunless %}
+      {% endif %}
+
+      {% if is_match %}
+        {% assign matched_posts = matched_posts | push: post %}
+      {% endif %}
+    {% endfor %}
+
+    {% comment %} Pagination — 24 posts per page {% endcomment %}
+    {% assign posts_per_page = 24 %}
+    {% assign current_page = page.page_num | default: 1 | plus: 0 %}
+    {% assign offset = current_page | minus: 1 | times: posts_per_page %}
+    {% assign paged_posts = matched_posts | slice: offset, posts_per_page %}
+    {% assign total_pages = matched_posts.size | divided_by: posts_per_page | plus: 1 %}
+
+    <div class="sl-cat-grid" id="postGrid" data-total="{{ matched_posts.size }}">
+      {% if paged_posts.size > 0 %}
+        {% for post in paged_posts %}
+          {% include sl-post-card.html post=post %}
+        {% endfor %}
+      {% else %}
+        <div class="sl-cat-empty">
+          <p>No posts found in this category yet. Check back soon — new articles are published daily!</p>
+          <a href="/" class="sl-btn sl-btn--accent">← Back to homepage</a>
+        </div>
+      {% endif %}
+    </div>
+
+    {% comment %} Pagination links {% endcomment %}
+    {% if total_pages > 1 %}
+    <nav class="sl-pagination" aria-label="Page navigation">
+      {% if current_page > 1 %}
+        <a href="{{ page.url | relative_url }}?p={{ current_page | minus: 1 }}" class="sl-pagination__btn">← Previous</a>
+      {% endif %}
+      <span class="sl-pagination__info">Page {{ current_page }} of {{ total_pages }}</span>
+      {% if current_page < total_pages %}
+        <a href="{{ page.url | relative_url }}?p={{ current_page | plus: 1 }}" class="sl-pagination__btn">Next →</a>
+      {% endif %}
+    </nav>
+    {% endif %}
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="sl-footer">
+    <div class="sl-footer__inner">
+      <div class="sl-footer__brand">
+        <strong>Sluintel</strong> — AI-powered daily blog by <a href="https://sluintel.com.np" target="_blank" rel="noopener">Sujit Luintel</a>
+      </div>
+      <nav class="sl-footer__links" aria-label="Footer navigation">
+        <a href="/category/ai-automation">AI & Automation</a>
+        <a href="/category/sports">Sports</a>
+        <a href="/category/finance">Finance</a>
+        <a href="/category/entertainment">Entertainment</a>
+        <a href="/category/technology">Technology</a>
+        <a href="/category/trending">Trending</a>
+      </nav>
+      <p class="sl-footer__copy">© {{ 'now' | date: "%Y" }} Sluintel. Content generated with AI.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Theme toggle
+    const btn = document.getElementById('themeToggle');
+    if (btn) {
+      btn.addEventListener('click', function() {
+        const html = document.documentElement;
+        const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        html.setAttribute('data-theme', next);
+        localStorage.setItem('sl-theme', next);
+      });
+    }
+
+    // Update post count display
+    const grid = document.getElementById('postGrid');
+    const countEl = document.getElementById('postCount');
+    if (grid && countEl) {
+      const total = grid.dataset.total || '0';
+      countEl.textContent = total + ' article' + (total == '1' ? '' : 's');
+    }
+
+    // Client-side sort (reloads page with sort param — Jekyll handles the real order)
+    // For a fully static site, sort is baked in by Jekyll (newest-first by default).
+    // This select is a UX affordance; true sort requires server/build-time logic.
+    const sortSel = document.getElementById('sortSelect');
+    if (sortSel) {
+      sortSel.addEventListener('change', function() {
+        // Future: append ?sort=oldest to URL and handle in build
+        // For now: visual feedback only
+        const cards = Array.from(document.querySelectorAll('.sl-card'));
+        if (this.value === 'oldest') cards.reverse();
+        const grid = document.getElementById('postGrid');
+        if (grid) cards.forEach(c => grid.appendChild(c));
+      });
+    }
+  </script>
+
+</body>
+</html>
