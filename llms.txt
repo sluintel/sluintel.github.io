@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 102
+Total Posts Published: 103
 Last Updated: 2026-05-15
-Latest Post: Everything to Know About Movies: Your Ultimate Guide to Cinema in 2026
-Latest Post URL: https://sluintel.github.io/posts/2026-05-15-everything-to-know-about-movies.html
+Latest Post: Akash Singh: Your Essential Guide to a Tech Visionary
+Latest Post URL: https://sluintel.github.io/posts/2026-05-15-akash-singh-everything-you-should-know.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Akash Singh: Your Essential Guide to a Tech Visionary](https://sluintel.github.io/posts/2026-05-15-akash-singh-everything-you-should-know.html) — 2026-05-15 — Akash Singh, AI Automation, Tech Visionary
 - [Everything to Know About Movies: Your Ultimate Guide to Cinema in 2026](https://sluintel.github.io/posts/2026-05-15-everything-to-know-about-movies.html) — 2026-05-15 — movies, cinema, film
 - [CSK vs LSG: The Latest Updates & AI-Driven Game Insights for 2026](https://sluintel.github.io/posts/2026-05-15-csk-vs-lsg-latest-updates-ai-insights-2026.html) — 2026-05-15 — IPL 2026, CSK, LSG
 - [Decoding the Top Internet Reactions to Kuldip Yadav's Rise](https://sluintel.github.io/posts/2026-05-15-top-internet-reactions-kuldip-yadav.html) — 2026-05-15 — Kuldip Yadav, Cricket Reactions, Sports Social Media
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Coritiba vs Santos: Top Internet Reactions & Fan Frenzy](https://sluintel.github.io/posts/2026-05-14-top-internet-reactions-coritiba-vs-santos.html) — 2026-05-14 — Coritiba, Santos, Football Reactions
 - [Cincinnati vs Inter Miami: Top Internet Reactions Unpacked](https://sluintel.github.io/posts/2026-05-14-top-internet-reactions-to-cincinnati-vs-inter-miami.html) — 2026-05-14 — MLS, Inter Miami, Cincinnati FC
 - [Sai Sudharsan's AI Future: How Data Will Redefine Cricket Stardom](https://sluintel.github.io/posts/2026-05-14-future-of-sai-sudharsan-with-ai.html) — 2026-05-14 — AI in Sports, Cricket Analytics, Sai Sudharsan
-- [Top Internet Reactions to Today Weather: Decoding Digital Chatter](https://sluintel.github.io/posts/2026-05-14-top-internet-reactions-to-today-weather.html) — 2026-05-14 — weather, internet reactions, social media
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
