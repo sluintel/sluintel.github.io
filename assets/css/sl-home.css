@@ -905,3 +905,168 @@ ul { list-style: none; }
   .sl-footer-inner { grid-template-columns: 1fr; }
   .sl-footer-links { align-items: flex-start; }
 }
+
+/* ============================================================
+   PHASE 2 PATCH — append to bottom of assets/css/sl-home.css
+   ============================================================ */
+
+/* ── Image fallback gradient (when Pexels/Unsplash image fails) ── */
+.sl-card__image-wrap--fallback {
+  background: linear-gradient(
+    135deg,
+    rgba(var(--accent-rgb), 0.18) 0%,
+    rgba(var(--accent-rgb), 0.04) 50%,
+    rgba(29, 78, 216, 0.10) 100%
+  );
+  position: relative;
+  min-height: 180px;
+}
+
+.sl-card__image-wrap--fallback::after {
+  content: "📰";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  opacity: 0.3;
+}
+
+/* ── Read time badge ── */
+.sl-card__read-time {
+  font-size: 0.72rem;
+  font-family: var(--font-body);
+  color: var(--text-muted, #888);
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+/* ── Inferred tag style (slightly muted vs confirmed tags) ── */
+.sl-tag--inferred {
+  opacity: 0.75;
+}
+
+/* ── Card tags row layout ── */
+.sl-card__tags {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+/* ── Carousel horizontal scroll — mobile fix ── */
+.layout-carousel-row .sl-section__posts {
+  display: flex;
+  overflow-x: auto;
+  gap: 1.25rem;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 0.75rem;
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent) transparent;
+}
+
+.layout-carousel-row .sl-section__posts::-webkit-scrollbar {
+  height: 4px;
+}
+
+.layout-carousel-row .sl-section__posts::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 2px;
+}
+
+.layout-carousel-row .sl-card {
+  flex: 0 0 280px;
+  scroll-snap-align: start;
+}
+
+@media (max-width: 600px) {
+  .layout-carousel-row .sl-card {
+    flex: 0 0 240px;
+  }
+}
+
+/* ── List+Preview layout — JS hover panel ── */
+.layout-list-preview .sl-preview-panel {
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.layout-list-preview .sl-list-item {
+  cursor: pointer;
+  transition: background 0.15s ease;
+  border-radius: var(--radius);
+  padding: 0.5rem 0.75rem;
+}
+
+.layout-list-preview .sl-list-item:hover,
+.layout-list-preview .sl-list-item.is-active {
+  background: rgba(var(--accent-rgb), 0.08);
+}
+
+/* ── Jekyll build safety: hide body until theme resolved ── */
+body {
+  visibility: visible; /* ensure it stays visible even if theme script fails */
+}
+
+/* ============================================================
+   CATEGORY PAGE STYLES — also part of phase 2 patch
+   ============================================================ */
+
+/* ── Category header ── */
+.sl-cat-header {
+  background: var(--surface);
+  border-bottom: 1px solid rgba(var(--accent-rgb), 0.15);
+  padding: 3rem 1.5rem 2rem;
+  text-align: center;
+}
+.sl-cat-header__inner { max-width: 680px; margin: 0 auto; }
+.sl-cat-header__icon { font-size: 2.5rem; margin-bottom: 0.75rem; line-height: 1; }
+.sl-cat-header__title {
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 700;
+  color: var(--text);
+  margin: 0 0 0.75rem;
+}
+.sl-cat-header__desc { font-family: var(--font-body); font-size: 1rem; color: var(--text-muted, #888); margin: 0; }
+
+/* ── Sort/filter bar ── */
+.sl-cat-bar { background: var(--bg); border-bottom: 1px solid rgba(0,0,0,0.06); padding: 0.75rem 1.5rem; position: sticky; top: 56px; z-index: 90; }
+.sl-cat-bar__inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; gap: 1rem; }
+.sl-cat-bar__count { font-family: var(--font-body); font-size: 0.85rem; color: var(--text-muted, #888); }
+.sl-cat-bar__sort { margin-left: auto; display: flex; align-items: center; gap: 0.5rem; }
+.sl-cat-bar__label { font-family: var(--font-body); font-size: 0.85rem; color: var(--text-muted, #888); }
+.sl-cat-bar__select { font-family: var(--font-body); font-size: 0.85rem; padding: 0.25rem 0.5rem; border: 1px solid rgba(var(--accent-rgb), 0.3); border-radius: var(--radius); background: var(--surface); color: var(--text); cursor: pointer; }
+
+/* ── Ad wrap ── */
+.sl-ad-wrap { max-width: 1200px; margin: 1.5rem auto; padding: 0 1.5rem; }
+
+/* ── Category post grid ── */
+.sl-cat-main { max-width: 1200px; margin: 0 auto; padding: 1.5rem; }
+.sl-cat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; }
+@media (max-width: 600px) { .sl-cat-grid { grid-template-columns: 1fr; } }
+
+/* ── Empty state ── */
+.sl-cat-empty { grid-column: 1 / -1; text-align: center; padding: 4rem 2rem; color: var(--text-muted, #888); font-family: var(--font-body); }
+
+/* ── Pagination ── */
+.sl-pagination { display: flex; align-items: center; justify-content: center; gap: 1rem; margin-top: 3rem; padding: 1rem; }
+.sl-pagination__btn { font-family: var(--font-body); font-size: 0.9rem; font-weight: 600; color: var(--accent); text-decoration: none; padding: 0.5rem 1.25rem; border: 1.5px solid var(--accent); border-radius: var(--radius); transition: background 0.15s, color 0.15s; }
+.sl-pagination__btn:hover { background: var(--accent); color: #fff; }
+.sl-pagination__info { font-family: var(--font-body); font-size: 0.85rem; color: var(--text-muted, #888); }
+
+/* ── Footer ── */
+.sl-footer { background: var(--surface); border-top: 1px solid rgba(var(--accent-rgb), 0.12); padding: 2.5rem 1.5rem; margin-top: 4rem; }
+.sl-footer__inner { max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: 1rem; text-align: center; }
+.sl-footer__brand { font-family: var(--font-body); font-size: 0.9rem; color: var(--text-muted, #888); }
+.sl-footer__brand a { color: var(--accent); text-decoration: none; }
+.sl-footer__links { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; }
+.sl-footer__links a { font-family: var(--font-body); font-size: 0.85rem; color: var(--text-muted, #888); text-decoration: none; transition: color 0.15s; }
+.sl-footer__links a:hover { color: var(--accent); }
+.sl-footer__copy { font-family: var(--font-body); font-size: 0.78rem; color: var(--text-muted, #888); margin: 0; }
+
+/* ── Utility button ── */
+.sl-btn { display: inline-block; font-family: var(--font-body); font-size: 0.9rem; font-weight: 600; padding: 0.6rem 1.5rem; border-radius: var(--radius); text-decoration: none; transition: background 0.15s, color 0.15s; }
+.sl-btn--accent { background: var(--accent); color: #fff; }
+.sl-btn--accent:hover { opacity: 0.9; }
