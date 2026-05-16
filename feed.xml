@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 15 May 2026 16:51:44 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 16 May 2026 03:24:19 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[EPL Explained Simply: Your Essential Guide to English Football]]></title>
+    <link>https://sluintel.github.io/posts/2026-05-16-epl-explained-simply.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-16-epl-explained-simply.html</guid>
+    <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Confused by the Premier League? Get EPL explained simply! This guide cuts through the jargon, showing you how England's top football competition works, why it matters, and how to enjoy every moment.]]></description>
+    <enclosure url="https://images.pexels.com/photos/14584062/pexels-photo-14584062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>EPL</category>
+    <category>Premier League</category>
+    <category>English Football</category>
+    <category>Soccer Guide</category>
+    <category>Sports Explained</category>
+  </item>
   <item>
     <title><![CDATA[Akash Singh: Your Essential Guide to a Tech Visionary]]></title>
     <link>https://sluintel.github.io/posts/2026-05-15-akash-singh-everything-you-should-know.html</link>
@@ -258,19 +271,6 @@
     <category>Market Sentiment</category>
     <category>Investment Strategies</category>
     <category>Data Analysis</category>
-  </item>
-  <item>
-    <title><![CDATA[Unpacking the Latest Updates on Parliament of Nepal: Your 2026 Guide]]></title>
-    <link>https://sluintel.github.io/posts/2026-05-13-the-latest-updates-on-parliament-of-nepal.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-13-the-latest-updates-on-parliament-of-nepal.html</guid>
-    <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Stay informed on the latest updates on Parliament of Nepal. Discover key legislative decisions, political shifts, and what they mean for you in 2026. Get clarity now!]]></description>
-    <enclosure url="https://images.pexels.com/photos/7887800/pexels-photo-7887800.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Nepal Politics</category>
-    <category>Parliamentary Updates</category>
-    <category>Nepalese Government</category>
-    <category>Legislative News</category>
-    <category>Political Analysis</category>
   </item>
 </channel>
 </rss>
