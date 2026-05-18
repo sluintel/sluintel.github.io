@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 109
+Total Posts Published: 110
 Last Updated: 2026-05-18
-Latest Post: Decoding Top Reactions to Atlético Madrid vs Girona FC Standings
-Latest Post URL: https://sluintel.github.io/posts/2026-05-18-top-reactions-atletico-madrid-vs-girona-fc-standings.html
+Latest Post: Gemini Intelligence Hardware Requirements: Your Essential Guide
+Latest Post URL: https://sluintel.github.io/posts/2026-05-18-gemini-intelligence-hardware-requirements.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Gemini Intelligence Hardware Requirements: Your Essential Guide](https://sluintel.github.io/posts/2026-05-18-gemini-intelligence-hardware-requirements.html) — 2026-05-18 — AI Hardware, Gemini AI, System Requirements
 - [Decoding Top Reactions to Atlético Madrid vs Girona FC Standings](https://sluintel.github.io/posts/2026-05-18-top-reactions-atletico-madrid-vs-girona-fc-standings.html) — 2026-05-18 — La Liga, Atlético Madrid, Girona FC
 - [Josh Hazlewood Updates: AI-Powered Insights for 2026 Season](https://sluintel.github.io/posts/2026-05-17-josh-hazlewood-updates-ai-insights-2026.html) — 2026-05-17 — Josh Hazlewood, Cricket News, Sports Analytics
 - [Sporting vs Gil Vicente: What People Are Saying & Why It Matters](https://sluintel.github.io/posts/2026-05-17-sporting-vs-gil-vicente-what-people-are-saying.html) — 2026-05-17 — Football, Primeira Liga, Sporting CP
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Akash Singh: Your Essential Guide to a Tech Visionary](https://sluintel.github.io/posts/2026-05-15-akash-singh-everything-you-should-know.html) — 2026-05-15 — Akash Singh, AI Automation, Tech Visionary
 - [Everything to Know About Movies: Your Ultimate Guide to Cinema in 2026](https://sluintel.github.io/posts/2026-05-15-everything-to-know-about-movies.html) — 2026-05-15 — movies, cinema, film
 - [CSK vs LSG: The Latest Updates & AI-Driven Game Insights for 2026](https://sluintel.github.io/posts/2026-05-15-csk-vs-lsg-latest-updates-ai-insights-2026.html) — 2026-05-15 — IPL 2026, CSK, LSG
-- [Decoding the Top Internet Reactions to Kuldip Yadav's Rise](https://sluintel.github.io/posts/2026-05-15-top-internet-reactions-kuldip-yadav.html) — 2026-05-15 — Kuldip Yadav, Cricket Reactions, Sports Social Media
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
