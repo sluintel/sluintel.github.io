@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 108
-Last Updated: 2026-05-17
-Latest Post: Josh Hazlewood Updates: AI-Powered Insights for 2026 Season
-Latest Post URL: https://sluintel.github.io/posts/2026-05-17-josh-hazlewood-updates-ai-insights-2026.html
+Total Posts Published: 109
+Last Updated: 2026-05-18
+Latest Post: Decoding Top Reactions to Atlético Madrid vs Girona FC Standings
+Latest Post URL: https://sluintel.github.io/posts/2026-05-18-top-reactions-atletico-madrid-vs-girona-fc-standings.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Decoding Top Reactions to Atlético Madrid vs Girona FC Standings](https://sluintel.github.io/posts/2026-05-18-top-reactions-atletico-madrid-vs-girona-fc-standings.html) — 2026-05-18 — La Liga, Atlético Madrid, Girona FC
 - [Josh Hazlewood Updates: AI-Powered Insights for 2026 Season](https://sluintel.github.io/posts/2026-05-17-josh-hazlewood-updates-ai-insights-2026.html) — 2026-05-17 — Josh Hazlewood, Cricket News, Sports Analytics
 - [Sporting vs Gil Vicente: What People Are Saying & Why It Matters](https://sluintel.github.io/posts/2026-05-17-sporting-vs-gil-vicente-what-people-are-saying.html) — 2026-05-17 — Football, Primeira Liga, Sporting CP
 - [Decoding the Top Internet Reactions to Celtic vs Hearts](https://sluintel.github.io/posts/2026-05-16-top-internet-reactions-celtic-vs-hearts.html) — 2026-05-16 — Football Analysis, Fan Culture, Social Media Trends
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Everything to Know About Movies: Your Ultimate Guide to Cinema in 2026](https://sluintel.github.io/posts/2026-05-15-everything-to-know-about-movies.html) — 2026-05-15 — movies, cinema, film
 - [CSK vs LSG: The Latest Updates & AI-Driven Game Insights for 2026](https://sluintel.github.io/posts/2026-05-15-csk-vs-lsg-latest-updates-ai-insights-2026.html) — 2026-05-15 — IPL 2026, CSK, LSG
 - [Decoding the Top Internet Reactions to Kuldip Yadav's Rise](https://sluintel.github.io/posts/2026-05-15-top-internet-reactions-kuldip-yadav.html) — 2026-05-15 — Kuldip Yadav, Cricket Reactions, Sports Social Media
-- [Whisper My Name Drake: How AI Elevates Your Digital Footprint to Stardom](https://sluintel.github.io/posts/2026-05-15-whisper-my-name-drake-ai-digital-footprint-stardom.html) — 2026-05-15 — AI Tools, Digital Footprint, Personal Branding
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
