@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 110
-Last Updated: 2026-05-18
-Latest Post: Gemini Intelligence Hardware Requirements: Your Essential Guide
-Latest Post URL: https://sluintel.github.io/posts/2026-05-18-gemini-intelligence-hardware-requirements.html
+Total Posts Published: 111
+Last Updated: 2026-05-19
+Latest Post: Tech Mahindra Share Price: Your 2026 Guide to Smart Investing
+Latest Post URL: https://sluintel.github.io/posts/2026-05-19-tech-mahindra-share-price-analysis.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Tech Mahindra Share Price: Your 2026 Guide to Smart Investing](https://sluintel.github.io/posts/2026-05-19-tech-mahindra-share-price-analysis.html) — 2026-05-19 — Tech Mahindra, Share Price, Stock Market
 - [Gemini Intelligence Hardware Requirements: Your Essential Guide](https://sluintel.github.io/posts/2026-05-18-gemini-intelligence-hardware-requirements.html) — 2026-05-18 — AI Hardware, Gemini AI, System Requirements
 - [Decoding Top Reactions to Atlético Madrid vs Girona FC Standings](https://sluintel.github.io/posts/2026-05-18-top-reactions-atletico-madrid-vs-girona-fc-standings.html) — 2026-05-18 — La Liga, Atlético Madrid, Girona FC
 - [Josh Hazlewood Updates: AI-Powered Insights for 2026 Season](https://sluintel.github.io/posts/2026-05-17-josh-hazlewood-updates-ai-insights-2026.html) — 2026-05-17 — Josh Hazlewood, Cricket News, Sports Analytics
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [EPL Explained Simply: Your Essential Guide to English Football](https://sluintel.github.io/posts/2026-05-16-epl-explained-simply.html) — 2026-05-16 — EPL, Premier League, English Football
 - [Akash Singh: Your Essential Guide to a Tech Visionary](https://sluintel.github.io/posts/2026-05-15-akash-singh-everything-you-should-know.html) — 2026-05-15 — Akash Singh, AI Automation, Tech Visionary
 - [Everything to Know About Movies: Your Ultimate Guide to Cinema in 2026](https://sluintel.github.io/posts/2026-05-15-everything-to-know-about-movies.html) — 2026-05-15 — movies, cinema, film
-- [CSK vs LSG: The Latest Updates & AI-Driven Game Insights for 2026](https://sluintel.github.io/posts/2026-05-15-csk-vs-lsg-latest-updates-ai-insights-2026.html) — 2026-05-15 — IPL 2026, CSK, LSG
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
