@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 116
-Last Updated: 2026-05-21
-Latest Post: Shivam Dube: Latest Updates & AI-Powered Insights for 2026
-Latest Post URL: https://sluintel.github.io/posts/2026-05-21-shivam-dube-latest-updates-ai-insights.html
+Total Posts Published: 117
+Last Updated: 2026-05-22
+Latest Post: What People Are Saying About ESPNcricinfo in 2026
+Latest Post URL: https://sluintel.github.io/posts/2026-05-22-what-people-are-saying-about-espncricinfo.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [What People Are Saying About ESPNcricinfo in 2026](https://sluintel.github.io/posts/2026-05-22-what-people-are-saying-about-espncricinfo.html) — 2026-05-22 — cricket, ESPNcricinfo, sports media
 - [Shivam Dube: Latest Updates & AI-Powered Insights for 2026](https://sluintel.github.io/posts/2026-05-21-shivam-dube-latest-updates-ai-insights.html) — 2026-05-21 — Shivam Dube, Cricket Analytics, AI in Sports
 - [Thunder vs Spurs: What People Are Saying About This NBA Rivalry in 2026](https://sluintel.github.io/posts/2026-05-21-thunder-vs-spurs-what-people-are-saying.html) — 2026-05-21 — NBA, Thunder vs Spurs, Basketball Analytics
 - [Thunder vs Spurs Explained Simply: NBA Rivalry & AI Insights](https://sluintel.github.io/posts/2026-05-21-thunder-vs-spurs-explained-simply.html) — 2026-05-21 — NBA, Basketball, Thunder
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Gemini Intelligence Hardware Requirements: Your Essential Guide](https://sluintel.github.io/posts/2026-05-18-gemini-intelligence-hardware-requirements.html) — 2026-05-18 — AI Hardware, Gemini AI, System Requirements
 - [Decoding Top Reactions to Atlético Madrid vs Girona FC Standings](https://sluintel.github.io/posts/2026-05-18-top-reactions-atletico-madrid-vs-girona-fc-standings.html) — 2026-05-18 — La Liga, Atlético Madrid, Girona FC
 - [Josh Hazlewood Updates: AI-Powered Insights for 2026 Season](https://sluintel.github.io/posts/2026-05-17-josh-hazlewood-updates-ai-insights-2026.html) — 2026-05-17 — Josh Hazlewood, Cricket News, Sports Analytics
-- [Sporting vs Gil Vicente: What People Are Saying & Why It Matters](https://sluintel.github.io/posts/2026-05-17-sporting-vs-gil-vicente-what-people-are-saying.html) — 2026-05-17 — Football, Primeira Liga, Sporting CP
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
