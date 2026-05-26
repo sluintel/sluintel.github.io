@@ -1,1587 +1,1239 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
-     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2480859517203371"
-     crossorigin="anonymous"></script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WJEQKLB827"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-WJEQKLB827');
-  </script>
-  <meta name="google-site-verification" content="JQTOXeyvg5ypfjq2nyjXH_H0OXcKh3QdcYPPrbh7mh4" />
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sujit Luintel — AI Tools &amp; Automation Insights</title>
-  <meta name="description" content="Daily insights on AI tools, automation software, and the future of intelligent workflows. Stay ahead with Sujit Luintel."/>
-  <meta property="og:title" content="Sujit Luintel — AI Tools &amp; Automation"/>
-  <meta property="og:description" content="Daily AI tools and automation insights, auto-published every day."/>
-  <link rel="stylesheet" href="style.css"/>
+  <title>Sujit Luintel — AI-Powered Trending Blog</title>
+  <meta name="description" content="Daily AI-generated articles on AI tools, sports, finance, entertainment, technology and trending topics."/>
+  <meta property="og:title" content="Sujit Luintel — AI-Powered Trending Blog"/>
+  <meta property="og:description" content="Daily AI-generated articles on the topics that matter."/>
+  <meta property="og:type" content="website"/>
+  <meta name="google-site-verification" content="JQTOXeyvg5ypfjq2nyjXH_H0OXcKh3QdcYPPrbh7mh4"/>
+
+  <!-- Fonts: Editorial feel — Playfair for headlines, DM Sans for body -->
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet"/>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WJEQKLB827"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-WJEQKLB827');</script>
+
+  <!-- AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2480859517203371" crossorigin="anonymous"></script>
+
+  <!-- Theme init (no flash) -->
+  <script>(function(){var t=localStorage.getItem('sl-theme');if(!t)t=window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t);})();</script>
+
+<style>
+/* ═══════════════════════════════════════════
+   TOKENS
+═══════════════════════════════════════════ */
+:root {
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body:    'DM Sans', system-ui, sans-serif;
+  --font-mono:    'Fira Code', monospace;
+
+  /* Dark theme (default) */
+  --bg:           #0d0d0f;
+  --bg-2:         #141417;
+  --bg-3:         #1a1a1f;
+  --surface:      #1e1e24;
+  --surface-2:    #26262e;
+  --border:       rgba(255,255,255,0.08);
+  --border-2:     rgba(255,255,255,0.14);
+  --text:         #f0f0f4;
+  --text-2:       #a8a8b8;
+  --text-3:       #6b6b7d;
+  --accent:       #6366f1;
+  --accent-2:     #8b5cf6;
+  --accent-glow:  rgba(99,102,241,0.25);
+  --red:          #f43f5e;
+  --green:        #22c55e;
+  --yellow:       #f59e0b;
+  --pink:         #ec4899;
+  --sky:          #0ea5e9;
+  --radius:       10px;
+  --radius-lg:    16px;
+  --shadow:       0 4px 24px rgba(0,0,0,0.4);
+  --shadow-lg:    0 8px 48px rgba(0,0,0,0.6);
+}
+[data-theme="light"] {
+  --bg:           #f8f8fc;
+  --bg-2:         #f0f0f8;
+  --bg-3:         #e8e8f4;
+  --surface:      #ffffff;
+  --surface-2:    #f4f4f9;
+  --border:       rgba(0,0,0,0.08);
+  --border-2:     rgba(0,0,0,0.14);
+  --text:         #0d0d1a;
+  --text-2:       #4a4a6a;
+  --text-3:       #8888aa;
+  --accent-glow:  rgba(99,102,241,0.12);
+  --shadow:       0 2px 12px rgba(0,0,0,0.08);
+  --shadow-lg:    0 6px 32px rgba(0,0,0,0.12);
+}
+
+/* ═══════════════════════════════════════════
+   RESET
+═══════════════════════════════════════════ */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-body);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+a { color: inherit; text-decoration: none; }
+img { display: block; width: 100%; object-fit: cover; }
+button { cursor: pointer; font-family: inherit; }
+
+/* ═══════════════════════════════════════════
+   NAV
+═══════════════════════════════════════════ */
+.sl-nav {
+  position: sticky; top: 0; z-index: 1000;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+.sl-nav__inner {
+  max-width: 1400px; margin: 0 auto;
+  display: flex; align-items: center; gap: 0;
+  padding: 0 24px; height: 58px;
+}
+.sl-nav__brand {
+  font-family: var(--font-display);
+  font-size: 1.5rem; font-weight: 900;
+  color: var(--text);
+  white-space: nowrap; margin-right: 32px;
+  flex-shrink: 0;
+}
+.sl-nav__brand span { color: var(--accent); }
+.sl-nav__links {
+  display: flex; align-items: center; gap: 2px;
+  flex: 1; overflow-x: auto;
+  scrollbar-width: none;
+}
+.sl-nav__links::-webkit-scrollbar { display: none; }
+.sl-nav__link {
+  font-size: .8rem; font-weight: 600;
+  padding: 6px 12px; border-radius: 6px;
+  color: var(--text-2); white-space: nowrap;
+  transition: background .15s, color .15s;
+  letter-spacing: .02em;
+}
+.sl-nav__link:hover { background: var(--surface); color: var(--text); }
+.sl-nav__link.active { color: var(--accent); background: var(--accent-glow); }
+.sl-nav__right {
+  display: flex; align-items: center; gap: 10px;
+  margin-left: 16px; flex-shrink: 0;
+}
+.sl-theme-toggle {
+  background: var(--surface); border: 1px solid var(--border);
+  color: var(--text-2); width: 34px; height: 34px;
+  border-radius: 8px; font-size: 1rem;
+  display: flex; align-items: center; justify-content: center;
+  transition: background .15s, color .15s;
+}
+.sl-theme-toggle:hover { background: var(--surface-2); color: var(--text); }
+
+/* ═══════════════════════════════════════════
+   HERO
+═══════════════════════════════════════════ */
+.sl-hero {
+  max-width: 1400px; margin: 0 auto;
+  padding: 64px 24px 48px;
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  gap: 48px; align-items: center;
+}
+@media(max-width:900px){
+  .sl-hero { grid-template-columns: 1fr; padding: 40px 16px 32px; }
+  .sl-hero__visual { display: none; }
+}
+.sl-hero__badge {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: var(--accent-glow); border: 1px solid rgba(99,102,241,.3);
+  color: var(--accent); font-size: .75rem; font-weight: 700;
+  padding: 5px 14px; border-radius: 999px;
+  letter-spacing: .08em; text-transform: uppercase;
+  margin-bottom: 20px; width: fit-content;
+}
+.sl-hero__badge::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); animation: pulse 2s infinite; }
+@keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.5;transform:scale(.8)} }
+.sl-hero h1 {
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  font-weight: 900; line-height: 1.1;
+  letter-spacing: -.02em; margin-bottom: 20px;
+}
+.sl-hero h1 .gradient {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2), var(--pink));
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.sl-hero__desc {
+  font-size: 1.05rem; color: var(--text-2);
+  max-width: 520px; margin-bottom: 32px; line-height: 1.7;
+}
+.sl-hero__stats {
+  display: flex; gap: 32px;
+}
+.sl-hero__stat strong {
+  display: block; font-size: 1.8rem; font-weight: 700;
+  font-family: var(--font-display); color: var(--text);
+  line-height: 1;
+}
+.sl-hero__stat span { font-size: .75rem; color: var(--text-3); letter-spacing: .06em; text-transform: uppercase; }
+
+/* Terminal */
+.sl-terminal {
+  background: var(--bg-2); border: 1px solid var(--border-2);
+  border-radius: var(--radius-lg); overflow: hidden;
+  box-shadow: var(--shadow-lg);
+}
+.sl-terminal__bar {
+  background: var(--surface); padding: 10px 16px;
+  display: flex; align-items: center; gap: 8px;
+  border-bottom: 1px solid var(--border);
+}
+.sl-terminal__bar span {
+  width: 10px; height: 10px; border-radius: 50%;
+  background: #ff5f57;
+}
+.sl-terminal__bar span:nth-child(2){ background:#febc2e; }
+.sl-terminal__bar span:nth-child(3){ background:#28c840; }
+.sl-terminal__body {
+  padding: 20px; font-family: var(--font-mono);
+  font-size: .8rem; line-height: 2;
+  color: var(--text-2);
+}
+.t-green { color: #28c840; }
+.t-cyan  { color: #58d8fe; }
+.t-blink { animation: blink 1s step-end infinite; display: inline-block; }
+@keyframes blink { 50%{ opacity: 0; } }
+
+/* ═══════════════════════════════════════════
+   AD WRAPPER
+═══════════════════════════════════════════ */
+.sl-ad { max-width: 1400px; margin: 0 auto; padding: 0 24px 8px; }
+
+/* ═══════════════════════════════════════════
+   SECTION WRAPPER
+═══════════════════════════════════════════ */
+.sl-section {
+  max-width: 1400px; margin: 0 auto;
+  padding: 40px 24px;
+  border-top: 1px solid var(--border);
+}
+@media(max-width:768px){ .sl-section{ padding: 28px 16px; } }
+
+.sl-section-header {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 24px; gap: 16px;
+}
+.sl-section-title {
+  font-family: var(--font-display);
+  font-size: 1.5rem; font-weight: 900;
+  display: flex; align-items: center; gap: 10px;
+  letter-spacing: -.01em;
+}
+.sl-section-title .cat-icon { font-size: 1.2rem; }
+.sl-see-all {
+  font-size: .75rem; font-weight: 700;
+  color: var(--accent); border: 1px solid rgba(99,102,241,.35);
+  padding: 6px 14px; border-radius: 6px;
+  letter-spacing: .05em; text-transform: uppercase;
+  transition: background .15s;
+  white-space: nowrap; flex-shrink: 0;
+}
+.sl-see-all:hover { background: var(--accent-glow); }
+.sl-empty {
+  padding: 32px; text-align: center;
+  color: var(--text-3); font-size: .9rem;
+  border: 1px dashed var(--border); border-radius: var(--radius);
+}
+
+/* ═══════════════════════════════════════════
+   SHARED CARD BASE
+═══════════════════════════════════════════ */
+.sl-card {
+  background: var(--surface); border-radius: var(--radius);
+  border: 1px solid var(--border); overflow: hidden;
+  transition: transform .2s, box-shadow .2s, border-color .2s;
+  display: flex; flex-direction: column;
+}
+.sl-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); border-color: var(--border-2); }
+.sl-card__img {
+  width: 100%; aspect-ratio: 16/9; object-fit: cover;
+  background: var(--surface-2); flex-shrink: 0;
+}
+.sl-card__img-wrap { overflow: hidden; }
+.sl-card__img-wrap .sl-card__img { transition: transform .35s; }
+.sl-card:hover .sl-card__img-wrap .sl-card__img { transform: scale(1.04); }
+.sl-card__body { padding: 16px; flex: 1; display: flex; flex-direction: column; gap: 8px; }
+.sl-card__tags { display: flex; gap: 6px; flex-wrap: wrap; }
+.sl-card__tag {
+  font-size: .67rem; font-weight: 700;
+  padding: 3px 8px; border-radius: 4px;
+  background: var(--bg-3); color: var(--text-3);
+  letter-spacing: .04em; text-transform: uppercase;
+}
+.sl-card__title {
+  font-family: var(--font-display);
+  font-size: 1.05rem; font-weight: 700; line-height: 1.3;
+  color: var(--text); flex: 1;
+}
+.sl-card__title:hover { color: var(--accent); }
+.sl-card__excerpt {
+  font-size: .82rem; color: var(--text-2); line-height: 1.6;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.sl-card__meta {
+  display: flex; gap: 8px; align-items: center;
+  font-size: .72rem; color: var(--text-3); margin-top: auto;
+}
+.sl-card__meta span { display: flex; align-items: center; gap: 4px; }
+.sl-card__meta .dot { color: var(--border-2); }
+
+/* ═══════════════════════════════════════════
+   LAYOUT 1: HERO SPOTLIGHT (The Verge)
+   Big hero left + 3 stacked right
+═══════════════════════════════════════════ */
+.layout-hero-spotlight {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  grid-template-rows: auto auto auto;
+  gap: 16px;
+}
+@media(max-width:900px){ .layout-hero-spotlight{ grid-template-columns: 1fr; } }
+
+.layout-hero-spotlight .hero-main {
+  grid-row: 1 / 4;
+  display: flex; flex-direction: column;
+  background: var(--surface); border-radius: var(--radius);
+  border: 1px solid var(--border); overflow: hidden;
+  transition: transform .2s, box-shadow .2s;
+}
+@media(max-width:900px){ .layout-hero-spotlight .hero-main{ grid-row: auto; } }
+.layout-hero-spotlight .hero-main:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+.layout-hero-spotlight .hero-main .sl-card__img-wrap { flex: 1; max-height: 420px; }
+.layout-hero-spotlight .hero-main .sl-card__img { height: 100%; max-height: 420px; }
+.layout-hero-spotlight .hero-main .sl-card__body { padding: 24px; }
+.layout-hero-spotlight .hero-main .sl-card__title { font-size: 1.6rem; line-height: 1.2; }
+.layout-hero-spotlight .hero-main .sl-card__excerpt { -webkit-line-clamp: 3; }
+
+.layout-hero-spotlight .side-card {
+  display: flex; gap: 12px; align-items: flex-start;
+  background: var(--surface); border-radius: var(--radius);
+  border: 1px solid var(--border); overflow: hidden; padding: 12px;
+  transition: transform .2s, border-color .2s;
+}
+.layout-hero-spotlight .side-card:hover { transform: translateY(-2px); border-color: var(--border-2); }
+.layout-hero-spotlight .side-card .sl-card__img { width: 90px; height: 70px; flex-shrink: 0; border-radius: 6px; object-fit: cover; }
+.layout-hero-spotlight .side-card .sl-card__body { padding: 0; gap: 4px; }
+.layout-hero-spotlight .side-card .sl-card__title { font-size: .88rem; line-height: 1.3; }
+
+/* ═══════════════════════════════════════════
+   LAYOUT 2: MAGAZINE GRID (The Guardian)
+   Asymmetric editorial
+═══════════════════════════════════════════ */
+.layout-magazine-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 16px;
+}
+@media(max-width:900px){ .layout-magazine-grid{ grid-template-columns: 1fr 1fr; } }
+@media(max-width:600px){ .layout-magazine-grid{ grid-template-columns: 1fr; } }
+.layout-magazine-grid .mag-main { grid-column: 1; grid-row: 1 / 3; }
+@media(max-width:900px){ .layout-magazine-grid .mag-main{ grid-column: 1/3; grid-row: auto; } }
+.layout-magazine-grid .mag-main .sl-card__img { height: 280px; }
+.layout-magazine-grid .mag-main .sl-card__title { font-size: 1.3rem; }
+
+/* ═══════════════════════════════════════════
+   LAYOUT 3: CAROUSEL ROW (Netflix)
+   Horizontal scroll
+═══════════════════════════════════════════ */
+.layout-carousel-row {
+  display: flex; gap: 16px;
+  overflow-x: auto; padding-bottom: 8px;
+  scrollbar-width: thin; scrollbar-color: var(--surface-2) transparent;
+}
+.layout-carousel-row .sl-card {
+  min-width: 260px; max-width: 280px; flex-shrink: 0;
+}
+.layout-carousel-row .sl-card .sl-card__img { height: 160px; }
+.layout-carousel-row .sl-card .sl-card__title { font-size: .92rem; }
+
+/* ═══════════════════════════════════════════
+   LAYOUT 4: LIST + PREVIEW (Ars Technica)
+   Numbered list left + big image right on hover
+═══════════════════════════════════════════ */
+.layout-list-preview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+@media(max-width:700px){ .layout-list-preview{ grid-template-columns: 1fr; } }
+.layout-list-preview .list-panel {
+  display: flex; flex-direction: column; gap: 0;
+  background: var(--surface); border-radius: var(--radius);
+  border: 1px solid var(--border); overflow: hidden;
+}
+.layout-list-preview .list-item {
+  display: flex; gap: 14px; align-items: flex-start;
+  padding: 14px 16px; border-bottom: 1px solid var(--border);
+  cursor: pointer; transition: background .15s;
+}
+.layout-list-preview .list-item:last-child { border-bottom: none; }
+.layout-list-preview .list-item:hover { background: var(--surface-2); }
+.layout-list-preview .list-item.active { background: var(--accent-glow); border-left: 3px solid var(--accent); }
+.layout-list-preview .list-num {
+  font-family: var(--font-display); font-size: 1.5rem; font-weight: 900;
+  color: var(--border-2); line-height: 1; flex-shrink: 0; min-width: 28px;
+}
+.layout-list-preview .list-item.active .list-num { color: var(--accent); }
+.layout-list-preview .list-text { display: flex; flex-direction: column; gap: 4px; }
+.layout-list-preview .list-title {
+  font-family: var(--font-display); font-size: .92rem;
+  font-weight: 700; line-height: 1.3; color: var(--text);
+}
+.layout-list-preview .list-meta { font-size: .72rem; color: var(--text-3); }
+.layout-list-preview .preview-panel {
+  position: relative; border-radius: var(--radius);
+  overflow: hidden; background: var(--surface); border: 1px solid var(--border);
+  min-height: 300px;
+}
+.layout-list-preview .preview-img {
+  width: 100%; height: 100%; object-fit: cover;
+  position: absolute; inset: 0;
+}
+.layout-list-preview .preview-overlay {
+  position: absolute; bottom: 0; left: 0; right: 0;
+  padding: 24px 20px 20px;
+  background: linear-gradient(transparent, rgba(0,0,0,.85));
+}
+.layout-list-preview .preview-title {
+  font-family: var(--font-display); font-size: 1.15rem;
+  font-weight: 700; color: #fff; line-height: 1.3; margin-bottom: 6px;
+}
+.layout-list-preview .preview-meta { font-size: .75rem; color: rgba(255,255,255,.65); }
+
+/* ═══════════════════════════════════════════
+   LAYOUT 5: ALTERNATING SPLIT (Medium)
+   Image + text alternating
+═══════════════════════════════════════════ */
+.layout-alternating-split { display: flex; flex-direction: column; gap: 16px; }
+.layout-alternating-split .alt-card {
+  display: grid; grid-template-columns: 1fr 1fr;
+  background: var(--surface); border-radius: var(--radius);
+  border: 1px solid var(--border); overflow: hidden;
+  transition: transform .2s, box-shadow .2s;
+}
+.layout-alternating-split .alt-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+.layout-alternating-split .alt-card.reverse { direction: rtl; }
+.layout-alternating-split .alt-card.reverse > * { direction: ltr; }
+.layout-alternating-split .alt-card .sl-card__img { height: 220px; width: 100%; }
+.layout-alternating-split .alt-card .sl-card__body { padding: 28px 24px; justify-content: center; }
+.layout-alternating-split .alt-card .sl-card__title { font-size: 1.25rem; }
+.layout-alternating-split .alt-card .sl-card__excerpt { -webkit-line-clamp: 3; }
+@media(max-width:700px){
+  .layout-alternating-split .alt-card { grid-template-columns: 1fr; }
+  .layout-alternating-split .alt-card.reverse { direction: ltr; }
+}
+
+/* ═══════════════════════════════════════════
+   LAYOUT 6: MASONRY GRID (Pinterest)
+   3-column variable height
+═══════════════════════════════════════════ */
+.layout-masonry-grid {
+  columns: 3; column-gap: 16px;
+}
+@media(max-width:900px){ .layout-masonry-grid{ columns: 2; } }
+@media(max-width:500px){ .layout-masonry-grid{ columns: 1; } }
+.layout-masonry-grid .sl-card {
+  break-inside: avoid; margin-bottom: 16px; display: block;
+}
+.layout-masonry-grid .sl-card:nth-child(odd) .sl-card__img { height: 180px; }
+.layout-masonry-grid .sl-card:nth-child(even) .sl-card__img { height: 130px; }
+.layout-masonry-grid .sl-card:nth-child(3n) .sl-card__img { height: 220px; }
+
+/* ═══════════════════════════════════════════
+   LAYOUT 7: BIG FEATURE STRIP (BBC News)
+   Full-width hero + 4-card strip
+═══════════════════════════════════════════ */
+.layout-big-feature-strip { display: flex; flex-direction: column; gap: 16px; }
+.layout-big-feature-strip .feature-hero {
+  position: relative; border-radius: var(--radius-lg);
+  overflow: hidden; height: 420px;
+  background: var(--surface);
+  transition: transform .2s;
+}
+.layout-big-feature-strip .feature-hero:hover { transform: scale(1.005); }
+.layout-big-feature-strip .feature-hero img {
+  width: 100%; height: 100%; object-fit: cover;
+}
+.layout-big-feature-strip .feature-hero .overlay {
+  position: absolute; inset: 0;
+  background: linear-gradient(10deg, rgba(0,0,0,.85) 0%, rgba(0,0,0,.2) 60%, transparent 100%);
+}
+.layout-big-feature-strip .feature-hero .info {
+  position: absolute; bottom: 0; left: 0; right: 0;
+  padding: 32px 28px;
+}
+.layout-big-feature-strip .feature-hero .info .sl-card__tags { margin-bottom: 10px; }
+.layout-big-feature-strip .feature-hero .info h2 {
+  font-family: var(--font-display); font-size: 1.9rem;
+  font-weight: 900; color: #fff; line-height: 1.2;
+  margin-bottom: 10px; letter-spacing: -.02em;
+}
+.layout-big-feature-strip .feature-hero .info p {
+  font-size: .9rem; color: rgba(255,255,255,.75); line-height: 1.6;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.layout-big-feature-strip .strip {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;
+}
+@media(max-width:900px){ .layout-big-feature-strip .strip{ grid-template-columns: repeat(2,1fr); } }
+@media(max-width:500px){ .layout-big-feature-strip .strip{ grid-template-columns: 1fr; } }
+.layout-big-feature-strip .strip .sl-card .sl-card__img { height: 140px; }
+.layout-big-feature-strip .strip .sl-card .sl-card__title { font-size: .9rem; }
+
+/* ═══════════════════════════════════════════
+   LAYOUT 8: TEXT DIGEST (Morning Brew)
+   Dense scannable text list
+═══════════════════════════════════════════ */
+.layout-text-digest {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 0;
+  background: var(--surface); border-radius: var(--radius);
+  border: 1px solid var(--border); overflow: hidden;
+}
+@media(max-width:700px){ .layout-text-digest{ grid-template-columns: 1fr; } }
+.layout-text-digest .digest-item {
+  padding: 14px 18px; border-bottom: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+  transition: background .15s; display: flex; gap: 12px; align-items: flex-start;
+}
+.layout-text-digest .digest-item:nth-child(even) { border-right: none; }
+.layout-text-digest .digest-item:hover { background: var(--surface-2); }
+.layout-text-digest .digest-num {
+  font-family: var(--font-display); font-size: 1.2rem; font-weight: 900;
+  color: var(--accent); line-height: 1; flex-shrink: 0; min-width: 24px;
+}
+.layout-text-digest .digest-content { display: flex; flex-direction: column; gap: 4px; }
+.layout-text-digest .digest-title {
+  font-size: .88rem; font-weight: 600; line-height: 1.4; color: var(--text);
+}
+.layout-text-digest .digest-title:hover { color: var(--accent); }
+.layout-text-digest .digest-meta { font-size: .7rem; color: var(--text-3); }
+
+/* ═══════════════════════════════════════════
+   LAYOUT 9: SPOTLIGHT SIDEBAR (TechCrunch)
+   2/3 spotlight + 1/3 sidebar
+═══════════════════════════════════════════ */
+.layout-spotlight-sidebar {
+  display: grid; grid-template-columns: 2fr 1fr; gap: 16px;
+}
+@media(max-width:800px){ .layout-spotlight-sidebar{ grid-template-columns: 1fr; } }
+.layout-spotlight-sidebar .spotlight {
+  background: var(--surface); border-radius: var(--radius);
+  border: 1px solid var(--border); overflow: hidden;
+  transition: transform .2s, box-shadow .2s;
+}
+.layout-spotlight-sidebar .spotlight:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+.layout-spotlight-sidebar .spotlight .sl-card__img { height: 320px; }
+.layout-spotlight-sidebar .spotlight .sl-card__body { padding: 24px; }
+.layout-spotlight-sidebar .spotlight .sl-card__title { font-size: 1.35rem; }
+.layout-spotlight-sidebar .sidebar-stack { display: flex; flex-direction: column; gap: 12px; }
+.layout-spotlight-sidebar .sidebar-stack .sl-card { flex: 1; }
+.layout-spotlight-sidebar .sidebar-stack .sl-card .sl-card__img { height: 110px; }
+.layout-spotlight-sidebar .sidebar-stack .sl-card .sl-card__title { font-size: .88rem; }
+
+/* ═══════════════════════════════════════════
+   LAYOUT 10: TIMELINE FEED (Bloomberg)
+   Date-grouped chronological
+═══════════════════════════════════════════ */
+.layout-timeline-feed { display: flex; flex-direction: column; gap: 0; }
+.layout-timeline-feed .tl-group {}
+.layout-timeline-feed .tl-date {
+  font-size: .7rem; font-weight: 700; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--text-3);
+  padding: 12px 0 8px; border-bottom: 2px solid var(--accent);
+  margin-bottom: 12px; display: flex; align-items: center; gap: 8px;
+}
+.layout-timeline-feed .tl-date::before {
+  content: ''; width: 8px; height: 8px; border-radius: 50%;
+  background: var(--accent); flex-shrink: 0;
+}
+.layout-timeline-feed .tl-items { display: flex; flex-direction: column; gap: 2px; margin-bottom: 24px; }
+.layout-timeline-feed .tl-item {
+  display: flex; gap: 14px; align-items: center;
+  padding: 10px 12px; border-radius: 8px;
+  transition: background .15s;
+}
+.layout-timeline-feed .tl-item:hover { background: var(--surface); }
+.layout-timeline-feed .tl-item img {
+  width: 72px; height: 52px; border-radius: 6px;
+  object-fit: cover; flex-shrink: 0;
+}
+.layout-timeline-feed .tl-title {
+  font-size: .88rem; font-weight: 600; line-height: 1.35;
+  color: var(--text); flex: 1;
+}
+.layout-timeline-feed .tl-title:hover { color: var(--accent); }
+.layout-timeline-feed .tl-meta { font-size: .7rem; color: var(--text-3); white-space: nowrap; }
+
+/* ═══════════════════════════════════════════
+   FOOTER
+═══════════════════════════════════════════ */
+.sl-footer {
+  border-top: 1px solid var(--border);
+  padding: 40px 24px; margin-top: 40px;
+  background: var(--bg-2);
+}
+.sl-footer__inner {
+  max-width: 1400px; margin: 0 auto;
+  display: flex; flex-direction: column; gap: 20px;
+}
+.sl-footer__top {
+  display: flex; justify-content: space-between; align-items: flex-start;
+  flex-wrap: wrap; gap: 24px;
+}
+.sl-footer__brand {
+  font-family: var(--font-display); font-size: 1.8rem; font-weight: 900;
+}
+.sl-footer__brand span { color: var(--accent); }
+.sl-footer__tagline { font-size: .82rem; color: var(--text-3); margin-top: 4px; }
+.sl-footer__links { display: flex; gap: 8px; flex-wrap: wrap; }
+.sl-footer__links a {
+  font-size: .78rem; color: var(--text-2); padding: 5px 10px;
+  border-radius: 6px; transition: background .15s, color .15s;
+}
+.sl-footer__links a:hover { background: var(--surface); color: var(--text); }
+.sl-footer__copy {
+  font-size: .75rem; color: var(--text-3);
+  border-top: 1px solid var(--border); padding-top: 16px;
+}
+
+/* ═══════════════════════════════════════════
+   LOADING STATE
+═══════════════════════════════════════════ */
+.sl-loading {
+  max-width: 1400px; margin: 80px auto;
+  display: flex; flex-direction: column; align-items: center; gap: 16px;
+  color: var(--text-3); font-size: .9rem;
+}
+.sl-spinner {
+  width: 36px; height: 36px; border: 3px solid var(--surface-2);
+  border-top-color: var(--accent); border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin { to{ transform: rotate(360deg); } }
+
+/* Fade-in animation for sections */
+.sl-section { opacity: 0; transform: translateY(16px); transition: opacity .4s, transform .4s; }
+.sl-section.visible { opacity: 1; transform: none; }
+</style>
 </head>
 <body>
-  <header class="site-header">
-    <nav class="nav-container">
-      <a href="/" class="logo">Sujit<span>Luintel</span></a>
-      <div class="nav-links">
-        <a href="#latest">Latest</a>
-        <a href="#about">About</a>
+
+<!-- ══ NAV ══════════════════════════════════════ -->
+<nav class="sl-nav" role="navigation" aria-label="Main navigation">
+  <div class="sl-nav__inner">
+    <a href="/" class="sl-nav__brand">Slui<span>ntel</span></a>
+    <div class="sl-nav__links" id="navLinks">
+      <a href="#section-trending"      class="sl-nav__link">🔥 Trending</a>
+      <a href="#section-ai-automation" class="sl-nav__link">🤖 AI</a>
+      <a href="#section-sports"        class="sl-nav__link">⚽ Sports</a>
+      <a href="#section-finance"       class="sl-nav__link">💰 Finance</a>
+      <a href="#section-entertainment" class="sl-nav__link">🎬 Entertainment</a>
+      <a href="#section-technology"    class="sl-nav__link">💻 Tech</a>
+      <a href="#section-deep-dives"    class="sl-nav__link">🔍 Deep Dives</a>
+      <a href="#section-all"           class="sl-nav__link">📰 All</a>
+      <a href="#about"                 class="sl-nav__link">About</a>
+    </div>
+    <div class="sl-nav__right">
+      <button class="sl-theme-toggle" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">◐</button>
+    </div>
+  </div>
+</nav>
+
+<!-- ══ HERO ═════════════════════════════════════ -->
+<section class="sl-hero" aria-label="Site introduction">
+  <div class="sl-hero__content">
+    <div class="sl-hero__badge">🤖 Fully Automated AI Blog</div>
+    <h1>AI & Trending<br/><span class="gradient">Insights That Matter</span></h1>
+    <p class="sl-hero__desc">Daily deep-dives on AI tools, sports, finance, entertainment and trending topics — auto-curated, AI-written, published every morning and evening from Kathmandu.</p>
+    <div class="sl-hero__stats">
+      <div class="sl-hero__stat"><strong id="statCount">—</strong><span>Articles</span></div>
+      <div class="sl-hero__stat"><strong>2×</strong><span>Daily</span></div>
+      <div class="sl-hero__stat"><strong>100%</strong><span>Automated</span></div>
+    </div>
+  </div>
+  <div class="sl-hero__visual">
+    <div class="sl-terminal">
+      <div class="sl-terminal__bar"><span></span><span></span><span></span></div>
+      <div class="sl-terminal__body">
+        <p><span class="t-green">✓</span> Fetching Google Trends RSS…</p>
+        <p><span class="t-green">✓</span> Generating post with Gemini AI…</p>
+        <p><span class="t-green">✓</span> Fetching royalty-free image…</p>
+        <p><span class="t-green">✓</span> Building OG image with Pillow…</p>
+        <p><span class="t-cyan">→</span> Pushing to sluintel.github.io</p>
+        <p><span class="t-cyan">→</span> Next publish in <span id="nextPublish">—</span></p>
+        <p><span class="t-blink">_</span></p>
       </div>
-    </nav>
-  </header>
-  <section class="hero">
-    <div class="hero-content">
-      <div class="hero-badge">🤖 Fully Automated AI Blog</div>
-      <h1>AI Tools &amp; Automation<br/><span class="gradient-text">Insights That Matter</span></h1>
-      <p>Daily deep-dives on AI tools, automation workflows, and intelligent software — auto-curated, auto-written, always fresh.</p>
-      <div class="hero-stats">
-        <div class="stat"><strong>100</strong><span>Articles</span></div>
-        <div class="stat"><strong>Daily</strong><span>Updates</span></div>
-        <div class="stat"><strong>100%</strong><span>Automated</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ AD ════════════════════════════════════════ -->
+<div class="sl-ad">
+  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2480859517203371"
+       data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+</div>
+
+<!-- ══ SECTIONS (rendered by JS) ════════════════ -->
+<div id="sectionsContainer">
+  <div class="sl-loading">
+    <div class="sl-spinner"></div>
+    <span>Loading sections…</span>
+  </div>
+</div>
+
+<!-- ══ ABOUT ════════════════════════════════════ -->
+<section id="about" style="max-width:1400px;margin:0 auto;padding:48px 24px;border-top:1px solid var(--border);">
+  <div style="max-width:640px;">
+    <h2 style="font-family:var(--font-display);font-size:2rem;font-weight:900;margin-bottom:16px;">About Sluintel</h2>
+    <p style="color:var(--text-2);line-height:1.8;margin-bottom:12px;">
+      This is a fully automated AI blog built and owned by <strong>Sujit Luintel</strong>, a digital strategist and marketing expert from Kathmandu, Nepal.
+    </p>
+    <p style="color:var(--text-2);line-height:1.8;margin-bottom:20px;">
+      Every article is discovered from real trending topics, written by <strong>Gemini AI</strong>, illustrated with royalty-free images, and published twice daily with zero human intervention.
+    </p>
+    <p style="font-size:.82rem;color:var(--text-3);">
+      Powered by <strong style="color:var(--text-2)">Gemini AI</strong> · <strong style="color:var(--text-2)">Google Trends</strong> · <strong style="color:var(--text-2)">GitHub Actions</strong> · <strong style="color:var(--text-2)">Pexels</strong> · <strong style="color:var(--text-2)">Unsplash</strong>
+    </p>
+  </div>
+</section>
+
+<!-- ══ FOOTER ════════════════════════════════════ -->
+<footer class="sl-footer">
+  <div class="sl-footer__inner">
+    <div class="sl-footer__top">
+      <div>
+        <div class="sl-footer__brand">Slui<span>ntel</span></div>
+        <div class="sl-footer__tagline">AI-powered daily blog by Sujit Luintel · Kathmandu, Nepal</div>
+      </div>
+      <nav class="sl-footer__links" aria-label="Footer links">
+        <a href="#section-ai-automation">🤖 AI & Automation</a>
+        <a href="#section-sports">⚽ Sports</a>
+        <a href="#section-finance">💰 Finance</a>
+        <a href="#section-entertainment">🎬 Entertainment</a>
+        <a href="#section-technology">💻 Technology</a>
+        <a href="#section-trending">🔥 Trending</a>
+        <a href="https://sluintel.com.np" target="_blank" rel="noopener">sluintel.com.np ↗</a>
+      </nav>
+    </div>
+    <p class="sl-footer__copy">© <span id="footerYear"></span> Sluintel · Content generated with AI · Auto-published via GitHub Actions</p>
+  </div>
+</footer>
+
+<!-- ══ MAIN JS ════════════════════════════════════ -->
+<script>
+(function () {
+'use strict';
+
+/* ─── CONFIG ─────────────────────────────────── */
+const POSTS_DATA_URL    = '/assets/js/posts-data.json';
+const SECTIONS_CFG_URL  = '/assets/js/sections-config.json';
+
+/* ─── THEME TOGGLE ───────────────────────────── */
+const html = document.documentElement;
+document.getElementById('themeToggle').addEventListener('click', () => {
+  const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+  html.setAttribute('data-theme', next);
+  localStorage.setItem('sl-theme', next);
+});
+
+/* ─── FOOTER YEAR ────────────────────────────── */
+document.getElementById('footerYear').textContent = new Date().getFullYear();
+
+/* ─── NEXT PUBLISH COUNTDOWN (NPT = UTC+5:45) ── */
+function updateNextPublish() {
+  const now = new Date();
+  const npt = new Date(now.getTime() + (5*60+45)*60*1000);
+  const h = npt.getUTCHours(), m = npt.getUTCMinutes();
+  const slots = [8*60, 18*60]; // 08:00 and 18:00 NPT
+  const cur = h*60 + m;
+  let next = slots.find(s => s > cur);
+  if (!next) next = slots[0] + 24*60;
+  const diff = next - cur;
+  const hh = Math.floor(diff/60), mm = diff%60;
+  document.getElementById('nextPublish').textContent = `${hh}h ${mm}m`;
+}
+updateNextPublish();
+setInterval(updateNextPublish, 60000);
+
+/* ─── FETCH ──────────────────────────────────── */
+async function fetchJSON(url) {
+  const r = await fetch(url + '?v=' + Date.now());
+  if (!r.ok) throw new Error(`${url}: ${r.status}`);
+  return r.json();
+}
+
+/* ─── CATEGORY MATCHING ──────────────────────── */
+function matchesCategory(post, catConfig) {
+  if (!catConfig || !catConfig.tags || catConfig.tags.length === 0) return true; // "all"
+  const searchText = [
+    post.title || '',
+    (post.tags || []).join(' '),
+    post.excerpt || ''
+  ].join(' ').toLowerCase();
+  return catConfig.tags.some(tag => searchText.includes(tag.toLowerCase()));
+}
+
+function getPostsForCategory(allPosts, catSlug, categories) {
+  if (catSlug === 'all') return allPosts;
+  const catConfig = categories[catSlug];
+  if (!catConfig) return [];
+  return allPosts.filter(p => matchesCategory(p, catConfig));
+}
+
+/* ─── HELPERS ────────────────────────────────── */
+function formatDate(d) {
+  if (!d) return '';
+  try {
+    return new Date(d + 'T00:00:00').toLocaleDateString('en-US',
+      { month: 'short', day: 'numeric', year: 'numeric' });
+  } catch(e) { return d; }
+}
+function esc(str) {
+  return String(str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function tagPills(tags, max) {
+  return (tags || []).slice(0, max || 2).map(t =>
+    `<span class="sl-card__tag">${esc(t)}</span>`
+  ).join('');
+}
+function imgEl(src, alt, cls) {
+  return `<img src="${esc(src)}" alt="${esc(alt)}" class="${cls||'sl-card__img'}" loading="lazy" onerror="this.style.display='none'"/>`;
+}
+function catColor(catSlug, categories) {
+  return (categories[catSlug] || {}).color || '#6366f1';
+}
+
+/* ─── LAYOUT RENDERERS ───────────────────────── */
+
+function renderHeroSpotlight(posts, section, categories) {
+  if (!posts.length) return '<div class="sl-empty">No posts yet in this category.</div>';
+  const hero = posts[0];
+  const sides = posts.slice(1, 4);
+  return `
+    <div class="layout-hero-spotlight">
+      <a href="${esc(hero.url)}" class="hero-main">
+        <div class="sl-card__img-wrap">${imgEl(hero.image, hero.title)}</div>
+        <div class="sl-card__body">
+          <div class="sl-card__tags">${tagPills(hero.tags, 3)}</div>
+          <div class="sl-card__title">${esc(hero.title)}</div>
+          <div class="sl-card__excerpt">${esc(hero.excerpt)}</div>
+          <div class="sl-card__meta">
+            <span>${formatDate(hero.date)}</span>
+            <span class="dot">·</span>
+            <span>${esc(hero.wordCount ? Math.ceil(hero.wordCount/200)+' min read' : '5 min read')}</span>
+          </div>
+        </div>
+      </a>
+      ${sides.map(p => `
+        <a href="${esc(p.url)}" class="side-card">
+          ${imgEl(p.image, p.title)}
+          <div class="sl-card__body">
+            <div class="sl-card__tags">${tagPills(p.tags, 1)}</div>
+            <div class="sl-card__title">${esc(p.title)}</div>
+            <div class="sl-card__meta"><span>${formatDate(p.date)}</span></div>
+          </div>
+        </a>
+      `).join('')}
+    </div>`;
+}
+
+function renderMagazineGrid(posts, section, categories) {
+  if (!posts.length) return '<div class="sl-empty">No posts yet in this category.</div>';
+  const main = posts[0];
+  const rest = posts.slice(1, 6);
+  return `
+    <div class="layout-magazine-grid">
+      <a href="${esc(main.url)}" class="sl-card mag-main">
+        <div class="sl-card__img-wrap">${imgEl(main.image, main.title)}</div>
+        <div class="sl-card__body">
+          <div class="sl-card__tags">${tagPills(main.tags, 2)}</div>
+          <div class="sl-card__title">${esc(main.title)}</div>
+          <div class="sl-card__excerpt">${esc(main.excerpt)}</div>
+          <div class="sl-card__meta"><span>${formatDate(main.date)}</span></div>
+        </div>
+      </a>
+      ${rest.map(p => `
+        <a href="${esc(p.url)}" class="sl-card">
+          <div class="sl-card__img-wrap">${imgEl(p.image, p.title)}</div>
+          <div class="sl-card__body">
+            <div class="sl-card__tags">${tagPills(p.tags, 1)}</div>
+            <div class="sl-card__title">${esc(p.title)}</div>
+            <div class="sl-card__meta"><span>${formatDate(p.date)}</span></div>
+          </div>
+        </a>
+      `).join('')}
+    </div>`;
+}
+
+function renderCarouselRow(posts) {
+  if (!posts.length) return '<div class="sl-empty">No posts yet in this category.</div>';
+  return `
+    <div class="layout-carousel-row">
+      ${posts.slice(0, 10).map(p => `
+        <a href="${esc(p.url)}" class="sl-card">
+          <div class="sl-card__img-wrap">${imgEl(p.image, p.title)}</div>
+          <div class="sl-card__body">
+            <div class="sl-card__tags">${tagPills(p.tags, 1)}</div>
+            <div class="sl-card__title">${esc(p.title)}</div>
+            <div class="sl-card__meta"><span>${formatDate(p.date)}</span></div>
+          </div>
+        </a>
+      `).join('')}
+    </div>`;
+}
+
+function renderListPreview(posts, sectionId) {
+  if (!posts.length) return '<div class="sl-empty">No posts yet in this category.</div>';
+  const items = posts.slice(0, 6);
+  const first = items[0];
+  const uid = 'lp_' + sectionId;
+  const listHTML = items.map((p, i) => `
+    <div class="list-item${i===0?' active':''}" data-idx="${i}" data-uid="${uid}"
+         onclick="lpSelect(this,'${uid}')">
+      <span class="list-num">${String(i+1).padStart(2,'0')}</span>
+      <div class="list-text">
+        <a href="${esc(p.url)}" class="list-title">${esc(p.title)}</a>
+        <span class="list-meta">${formatDate(p.date)}</span>
       </div>
     </div>
-    <div class="hero-visual">
-      <div class="terminal">
-        <div class="terminal-bar"><span></span><span></span><span></span></div>
-        <div class="terminal-body">
-          <p><span class="t-green">✓</span> Fetching trending keywords…</p>
-          <p><span class="t-green">✓</span> Generating blog post with AI…</p>
-          <p><span class="t-green">✓</span> Fetching royalty-free image…</p>
-          <p><span class="t-cyan">→</span> Publishing to sluintel.github.io</p>
-          <p><span class="t-cyan">→</span> Learning new things daily · Sujit Luintel</p>
-          <p class="t-blink">_</p>
+  `).join('');
+  return `
+    <div class="layout-list-preview">
+      <div class="list-panel">${listHTML}</div>
+      <a href="${esc(first.url)}" class="preview-panel" id="${uid}_preview">
+        ${imgEl(first.image, first.title, 'preview-img')}
+        <div class="preview-overlay">
+          <div class="preview-title">${esc(first.title)}</div>
+          <div class="preview-meta">${formatDate(first.date)}</div>
         </div>
+      </a>
+    </div>`;
+}
+
+function renderAlternatingSplit(posts) {
+  if (!posts.length) return '<div class="sl-empty">No posts yet in this category.</div>';
+  return `
+    <div class="layout-alternating-split">
+      ${posts.slice(0, 4).map((p, i) => `
+        <a href="${esc(p.url)}" class="alt-card${i%2===1?' reverse':''}">
+          ${imgEl(p.image, p.title)}
+          <div class="sl-card__body">
+            <div class="sl-card__tags">${tagPills(p.tags, 2)}</div>
+            <div class="sl-card__title">${esc(p.title)}</div>
+            <div class="sl-card__excerpt">${esc(p.excerpt)}</div>
+            <div class="sl-card__meta"><span>${formatDate(p.date)}</span></div>
+          </div>
+        </a>
+      `).join('')}
+    </div>`;
+}
+
+function renderMasonryGrid(posts) {
+  if (!posts.length) return '<div class="sl-empty">No posts yet in this category.</div>';
+  return `
+    <div class="layout-masonry-grid">
+      ${posts.slice(0, 9).map(p => `
+        <a href="${esc(p.url)}" class="sl-card">
+          <div class="sl-card__img-wrap">${imgEl(p.image, p.title)}</div>
+          <div class="sl-card__body">
+            <div class="sl-card__tags">${tagPills(p.tags, 2)}</div>
+            <div class="sl-card__title">${esc(p.title)}</div>
+            <div class="sl-card__excerpt">${esc(p.excerpt)}</div>
+            <div class="sl-card__meta"><span>${formatDate(p.date)}</span></div>
+          </div>
+        </a>
+      `).join('')}
+    </div>`;
+}
+
+function renderBigFeatureStrip(posts) {
+  if (!posts.length) return '<div class="sl-empty">No posts yet in this category.</div>';
+  const hero = posts[0];
+  const strip = posts.slice(1, 5);
+  return `
+    <div class="layout-big-feature-strip">
+      <a href="${esc(hero.url)}" class="feature-hero">
+        ${imgEl(hero.image, hero.title, '')}
+        <div class="overlay"></div>
+        <div class="info">
+          <div class="sl-card__tags">${tagPills(hero.tags, 2)}</div>
+          <h2>${esc(hero.title)}</h2>
+          <p>${esc(hero.excerpt)}</p>
+        </div>
+      </a>
+      <div class="strip">
+        ${strip.map(p => `
+          <a href="${esc(p.url)}" class="sl-card">
+            <div class="sl-card__img-wrap">${imgEl(p.image, p.title)}</div>
+            <div class="sl-card__body">
+              <div class="sl-card__tags">${tagPills(p.tags, 1)}</div>
+              <div class="sl-card__title">${esc(p.title)}</div>
+              <div class="sl-card__meta"><span>${formatDate(p.date)}</span></div>
+            </div>
+          </a>
+        `).join('')}
       </div>
-    </div>
-  </section>
-  <section class="posts-section" id="latest">
-    <div class="section-header">
-      <h2>Latest Posts</h2>
-      <span class="badge">Auto-published daily</span>
-    </div>
-    <div class="posts-grid">
-      
-      <article class="post-card featured-card">
-        <a href="posts/2026-05-15-top-internet-reactions-kuldip-yadav.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/13883892/pexels-photo-13883892.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">Kuldip Yadav</span><span class="tag">Cricket Reactions</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-15-top-internet-reactions-kuldip-yadav.html">Decoding the Top Internet Reactions to Kuldip Yadav's Rise</a></h2>
-          <p class="card-excerpt">Unpack the top internet reactions to Kuldip Yadav and understand why his performances ignite such passionate digital debates. Learn to track and analyze sports trends.</p>
-          <div class="card-meta">
-            <span>2026-05-15</span><span class="dot">·</span>
-            <span>8 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-15-whisper-my-name-drake-ai-digital-footprint-stardom.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/17483874/pexels-photo-17483874.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI Tools</span><span class="tag">Digital Footprint</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-15-whisper-my-name-drake-ai-digital-footprint-stardom.html">Whisper My Name Drake: How AI Elevates Your Digital Footprint to Stardom</a></h2>
-          <p class="card-excerpt">Uncover how AI tools can make your presence unmissable, helping you achieve a 'whisper my name Drake' level of digital recognition. Master AI for your online impact.</p>
-          <div class="card-meta">
-            <span>2026-05-15</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-15-whisper-my-name-drake-ai-digital-footprint.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/5473960/pexels-photo-5473960.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI in music</span><span class="tag">Drake</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-15-whisper-my-name-drake-ai-digital-footprint.html">Whisper My Name Drake: How AI Elevates Your Digital Footprint</a></h2>
-          <p class="card-excerpt">Discover how the themes in 'Whisper My Name Drake' connect to AI-driven digital recognition. Learn strategies to make your brand unforgettable online in 2026.</p>
-          <div class="card-meta">
-            <span>2026-05-15</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-14-copa-do-brasil-explained-simply.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/35877758/pexels-photo-35877758.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">Copa do Brasil</span><span class="tag">Brazilian Football</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-14-copa-do-brasil-explained-simply.html">Copa do Brasil Explained Simply: Your Guide to Brazilian Football Glory</a></h2>
-          <p class="card-excerpt">Unlock the excitement of Copa do Brasil explained simply. Discover its unique format, significance, and how this knockout tournament shapes Brazilian football. Dive in!</p>
-          <div class="card-meta">
-            <span>2026-05-14</span><span class="dot">·</span>
-            <span>7 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-14-top-internet-reactions-coritiba-vs-santos.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/19863971/pexels-photo-19863971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">Coritiba</span><span class="tag">Santos</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-14-top-internet-reactions-coritiba-vs-santos.html">Coritiba vs Santos: Top Internet Reactions & Fan Frenzy</a></h2>
-          <p class="card-excerpt">Unpack the top internet reactions to Coritiba vs Santos! Discover why this match sparked fierce online debate, analyze fan sentiment, and learn what drives digital football chatter. Essential for every fan.</p>
-          <div class="card-meta">
-            <span>2026-05-14</span><span class="dot">·</span>
-            <span>5 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-14-top-internet-reactions-to-cincinnati-vs-inter-miami.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/18811651/pexels-photo-18811651.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">MLS</span><span class="tag">Inter Miami</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-14-top-internet-reactions-to-cincinnati-vs-inter-miami.html">Cincinnati vs Inter Miami: Top Internet Reactions Unpacked</a></h2>
-          <p class="card-excerpt">Unpack the top internet reactions to Cincinnati vs Inter Miami. Discover fan memes, viral moments, and expert analysis of the game's biggest talking points.</p>
-          <div class="card-meta">
-            <span>2026-05-14</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-14-future-of-sai-sudharsan-with-ai.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/20870806/pexels-photo-20870806.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI in Sports</span><span class="tag">Cricket Analytics</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-14-future-of-sai-sudharsan-with-ai.html">Sai Sudharsan's AI Future: How Data Will Redefine Cricket Stardom</a></h2>
-          <p class="card-excerpt">Explore the future of Sai Sudharsan with AI. Uncover how cutting-edge data analytics and automation are shaping his journey in cricket, offering unmatched insights and performance optimization. Dive into the data-driven evolution of sports.</p>
-          <div class="card-meta">
-            <span>2026-05-14</span><span class="dot">·</span>
-            <span>7 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-14-top-internet-reactions-to-today-weather.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/7313449/pexels-photo-7313449.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">weather</span><span class="tag">internet reactions</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-14-top-internet-reactions-to-today-weather.html">Top Internet Reactions to Today Weather: Decoding Digital Chatter</a></h2>
-          <p class="card-excerpt">Why do we tweet about the rain? Discover the top internet reactions to today's weather, decode the viral memes, and understand the psychology behind our digital climate conversations.</p>
-          <div class="card-meta">
-            <span>2026-05-14</span><span class="dot">·</span>
-            <span>6 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-14-ai-unleashed-your-expert-guide.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/18068768/pexels-photo-18068768.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI</span><span class="tag">Artificial Intelligence</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-14-ai-unleashed-your-expert-guide.html">AI Unleashed: Your Expert Guide to Mastering Artificial Intelligence</a></h2>
-          <p class="card-excerpt">Decode AI's true power in 2026. Learn practical strategies, top tools, and expert tips to harness artificial intelligence for unmatched productivity and innovation.</p>
-          <div class="card-meta">
-            <span>2026-05-14</span><span class="dot">·</span>
-            <span>6 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-14-mastering-ai-in-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/18069493/pexels-photo-18069493.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI</span><span class="tag">Artificial Intelligence</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-14-mastering-ai-in-2026.html">The AI Revolution: Your Guide to Mastering Artificial Intelligence in 2026</a></h2>
-          <p class="card-excerpt">Unlock the true power of AI in 2026. This expert guide cuts through the hype, showing you practical applications and how to leverage artificial intelligence for real-world impact and competitive advantage.</p>
-          <div class="card-meta">
-            <span>2026-05-14</span><span class="dot">·</span>
-            <span>5 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-13-top-internet-reactions-to-lazio-vs-inter.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/29661128/pexels-photo-29661128.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">Serie A</span><span class="tag">Lazio vs Inter</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-13-top-internet-reactions-to-lazio-vs-inter.html">Lazio vs Inter: Decoding Top Internet Reactions & Fan Fervor</a></h2>
-          <p class="card-excerpt">Dive into the top internet reactions to Lazio vs Inter's epic clash. Understand fan sentiment, viral moments, and what truly ignited social media. Get the real story behind the noise!</p>
-          <div class="card-meta">
-            <span>2026-05-13</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-13-the-latest-updates-on-eileen-wang.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/32319624/pexels-photo-32319624.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">Eileen Wang</span><span class="tag">AI Leadership</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-13-the-latest-updates-on-eileen-wang.html">Eileen Wang's Latest Updates: Her AI Impact & What It Means for You</a></h2>
-          <p class="card-excerpt">Dive into the latest updates on Eileen Wang's groundbreaking work in AI and automation. Discover her strategic moves, impact, and how you can apply her insights in 2026. Stay ahead!</p>
-          <div class="card-meta">
-            <span>2026-05-13</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-13-future-of-angkrish-raghuvanshi-with-ai.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/30530426/pexels-photo-30530426.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI in sports</span><span class="tag">Cricket analytics</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-13-future-of-angkrish-raghuvanshi-with-ai.html">Angkrish Raghuvanshi's AI Future: Unlocking Cricket's Next Gen</a></h2>
-          <p class="card-excerpt">Discover how AI is set to redefine the future of Angkrish Raghuvanshi and elite athletes, boosting performance and career longevity. Get ahead of the curve!</p>
-          <div class="card-meta">
-            <span>2026-05-13</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-13-why-england-women-vs-new-zealand-women-is-trending-right-now.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/29715720/pexels-photo-29715720.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">Women's Cricket</span><span class="tag">Sports Analytics</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-13-why-england-women-vs-new-zealand-women-is-trending-right-now.html">Why England Women vs New Zealand Women is Trending: AI's Edge in 2026</a></h2>
-          <p class="card-excerpt">Unpack why England Women vs New Zealand Women is dominating headlines in 2026. Discover the AI-driven strategies, fan engagement, and player stories pushing this rivalry to new heights. Stay ahead!</p>
-          <div class="card-meta">
-            <span>2026-05-13</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-13-the-latest-updates-on-matheesha-pathirana.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/15635401/pexels-photo-15635401.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">Matheesha Pathirana</span><span class="tag">Cricket</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-13-the-latest-updates-on-matheesha-pathirana.html">The Latest Updates on Matheesha Pathirana: An AI-Driven Performance Dive</a></h2>
-          <p class="card-excerpt">Unpack the latest updates on Matheesha Pathirana's career, performance, and future. Discover how AI analytics are tracking the 'Slinger's' journey in 2026.</p>
-          <div class="card-meta">
-            <span>2026-05-13</span><span class="dot">·</span>
-            <span>7 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-13-what-people-are-saying-about-share-result.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/1325762/pexels-photo-1325762.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">Share Market</span><span class="tag">AI in Finance</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-13-what-people-are-saying-about-share-result.html">What People Are Saying About Share Result in 2026: The Inside Scoop</a></h2>
-          <p class="card-excerpt">Discover what people are saying about share result in 2026. Get the real buzz, understand AI's impact, and learn how to interpret market sentiment for smarter decisions.</p>
-          <div class="card-meta">
-            <span>2026-05-13</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-13-the-latest-updates-on-parliament-of-nepal.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/7887800/pexels-photo-7887800.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">Nepal Politics</span><span class="tag">Parliamentary Updates</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-13-the-latest-updates-on-parliament-of-nepal.html">Unpacking the Latest Updates on Parliament of Nepal: Your 2026 Guide</a></h2>
-          <p class="card-excerpt">Stay informed on the latest updates on Parliament of Nepal. Discover key legislative decisions, political shifts, and what they mean for you in 2026. Get clarity now!</p>
-          <div class="card-meta">
-            <span>2026-05-13</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-13-cbse-everything-you-should-know.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/3113530/pexels-photo-3113530.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">CBSE</span><span class="tag">Indian Education</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-13-cbse-everything-you-should-know.html">CBSE: Everything You Should Know for Academic Success in 2026</a></h2>
-          <p class="card-excerpt">Unlock the secrets of CBSE in 2026. This comprehensive guide covers curriculum, exams, and key strategies for students and parents to achieve academic excellence. Get ahead!</p>
-          <div class="card-meta">
-            <span>2026-05-13</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-13-what-people-are-saying-about-osasuna-vs-atletico-madrid-standings.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/36429411/pexels-photo-36429411.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">Osasuna</span><span class="tag">Atlético Madrid</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-13-what-people-are-saying-about-osasuna-vs-atletico-madrid-standings.html">Osasuna vs Atlético Madrid Standings: What Fans & Pundits Are Saying</a></h2>
-          <p class="card-excerpt">Curious what people are saying about Osasuna vs Atlético Madrid standings? Get the inside scoop, expert analysis, and fan chatter on this crucial La Liga matchup.</p>
-          <div class="card-meta">
-            <span>2026-05-13</span><span class="dot">·</span>
-            <span>4 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-13-parliament-of-nepal-explained-simply.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/20694362/pexels-photo-20694362.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">Nepal politics</span><span class="tag">Nepali government</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-13-parliament-of-nepal-explained-simply.html">Parliament of Nepal Explained Simply: Your Guide to National Power</a></h2>
-          <p class="card-excerpt">Unlock the complexities of the Parliament of Nepal explained simply. Discover its structure, functions, and impact on Nepali citizens in 2026. Get clarity now!</p>
-          <div class="card-meta">
-            <span>2026-05-13</span><span class="dot">·</span>
-            <span>6 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-13-the-latest-updates-on-share-result.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/5417680/pexels-photo-5417680.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI collaboration</span><span class="tag">data sharing</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-13-the-latest-updates-on-share-result.html">The Latest Updates on Share Result: AI's Impact in 2026</a></h2>
-          <p class="card-excerpt">Unlock the latest updates on share result functionalities, enhanced by AI. Discover how automated, secure sharing transforms collaboration & decision-making in 2026. Stay ahead!</p>
-          <div class="card-meta">
-            <span>2026-05-13</span><span class="dot">·</span>
-            <span>10 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-13-southampton-vs-middlesbrough-latest-updates-ai.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/29356362/pexels-photo-29356362.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI in Sports</span><span class="tag">Football Analytics</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-13-southampton-vs-middlesbrough-latest-updates-ai.html">Southampton vs Middlesbrough: AI-Driven Latest Updates You Need for 2026</a></h2>
-          <p class="card-excerpt">Don't miss a beat on the Southampton vs Middlesbrough clash. Discover how AI provides the latest updates, tactical insights, and predictive analytics for a decisive edge in 2026.</p>
-          <div class="card-meta">
-            <span>2026-05-13</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-13-latest-updates-on-share-result-ai-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/13883890/pexels-photo-13883890.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI investing</span><span class="tag">stock market</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-13-latest-updates-on-share-result-ai-2026.html">Decoding the Latest Updates on Share Result: An AI-Driven Guide for 2026</a></h2>
-          <p class="card-excerpt">Unpack the latest updates on share result with AI-powered insights for 2026. Learn how to predict market movements, avoid common pitfalls, and master investment analysis.</p>
-          <div class="card-meta">
-            <span>2026-05-13</span><span class="dot">·</span>
-            <span>10 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-13-osasuna-vs-atletico-madrid-latest-updates-ai.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/29658127/pexels-photo-29658127.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">La Liga</span><span class="tag">Football Analytics</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-13-osasuna-vs-atletico-madrid-latest-updates-ai.html">Osasuna vs Atlético Madrid: AI's Latest Updates & Tactical Insights</a></h2>
-          <p class="card-excerpt">Unpack the latest Osasuna vs Atlético Madrid updates through an AI lens. Discover tactical shifts, player insights, and how data is revolutionizing La Liga predictions for 2026.</p>
-          <div class="card-meta">
-            <span>2026-05-13</span><span class="dot">·</span>
-            <span>6 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-13-rcb-vs-kkr-ultimate-ipl-rivalry-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/31177171/pexels-photo-31177171.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">IPL</span><span class="tag">Cricket Analytics</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-13-rcb-vs-kkr-ultimate-ipl-rivalry-2026.html">RCB vs KKR: The Ultimate IPL Rivalry & What You Need to Know</a></h2>
-          <p class="card-excerpt">Unpack everything you need to know about RCB vs KKR, from historical clashes to 2026's tactical shifts. Get expert insights into this epic IPL rivalry.</p>
-          <div class="card-meta">
-            <span>2026-05-13</span><span class="dot">·</span>
-            <span>6 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-13-the-app-revolution-guide-digital-ecosystem.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/4549415/pexels-photo-4549415.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">App Development</span><span class="tag">Mobile Strategy</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-13-the-app-revolution-guide-digital-ecosystem.html">The App Revolution: Your Guide to Dominating the Digital Ecosystem</a></h2>
-          <p class="card-excerpt">Master the app ecosystem in 2026. Discover how to create, optimise, and monetise powerful apps for unmatched digital influence. Get started now!</p>
-          <div class="card-meta">
-            <span>2026-05-13</span><span class="dot">·</span>
-            <span>7 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-13-googlebook-gemini-intelligence-laptops.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/16027824/pexels-photo-16027824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI Laptops</span><span class="tag">Gemini AI</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-13-googlebook-gemini-intelligence-laptops.html">Googlebook Gemini Intelligence Laptops: Your Next AI Powerhouse</a></h2>
-          <p class="card-excerpt">Discover how Googlebook Gemini Intelligence laptops are revolutionizing personal computing with on-device AI. Unlock unmatched speed, privacy, and smart features. Is this your next upgrade?</p>
-          <div class="card-meta">
-            <span>2026-05-13</span><span class="dot">·</span>
-            <span>5 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-13-travis-head-explained-simply.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/7702229/pexels-photo-7702229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">Travis Head</span><span class="tag">Cricket</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-13-travis-head-explained-simply.html">Travis Head Explained Simply: Australia's Crushing Impact Player</a></h2>
-          <p class="card-excerpt">Understand Travis Head explained simply – Australia's dynamic cricketer. Discover his aggressive style, why he dominates, and how he's shaped modern cricket.</p>
-          <div class="card-meta">
-            <span>2026-05-13</span><span class="dot">·</span>
-            <span>5 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-12-nepal-national-cricket-team-everything-happening-around.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/34164712/pexels-photo-34164712.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">Nepal Cricket</span><span class="tag">Cricket Updates</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-12-nepal-national-cricket-team-everything-happening-around.html">Nepal National Cricket Team: Everything Happening Around Its 2026 Journey</a></h2>
-          <p class="card-excerpt">Curious about the Nepal National Cricket Team? Discover everything happening around their 2026 journey, from key players to fan impact and future prospects. Stay ahead of the curve!</p>
-          <div class="card-meta">
-            <span>2026-05-12</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-12-everything-happening-around-australia-cricket-team-2.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/36825735/pexels-photo-36825735.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">Australia Cricket</span><span class="tag">Cricket News 2026</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-12-everything-happening-around-australia-cricket-team-2.html">Everything Happening Around Australia Cricket Team: Unpacking 2026's Dynamics</a></h2>
-          <p class="card-excerpt">Stay ahead with everything happening around Australia Cricket Team in 2026. From player shifts to strategic decisions, discover insights that shape their global dominance.</p>
-          <div class="card-meta">
-            <span>2026-05-12</span><span class="dot">·</span>
-            <span>6 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-12-lakers-vs-thunder-latest-updates-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/31036780/pexels-photo-31036780.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">NBA</span><span class="tag">Lakers</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-12-lakers-vs-thunder-latest-updates-2026.html">Lakers vs Thunder: Latest Updates & AI-Driven Insights for 2026</a></h2>
-          <p class="card-excerpt">Stay ahead with the latest updates on Lakers vs Thunder in 2026. Discover key player insights, strategic shifts, and AI-driven predictions shaping their intense rivalry. Don't miss out!</p>
-          <div class="card-meta">
-            <span>2026-05-12</span><span class="dot">·</span>
-            <span>5 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-12-why-lakers-vs-thunder-is-trending-right-now.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/37107382/pexels-photo-37107382.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">NBA</span><span class="tag">Basketball</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-12-why-lakers-vs-thunder-is-trending-right-now.html">Why Lakers vs Thunder is Trending: AI & NBA's Hottest Rivalry</a></h2>
-          <p class="card-excerpt">Discover why Lakers vs Thunder is trending right now. Unpack the AI-driven analytics, shifting team dynamics, and fan engagement fueling this NBA phenomenon in 2026.</p>
-          <div class="card-meta">
-            <span>2026-05-12</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-12-everything-happening-around-australia-cricket-team.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/10572991/pexels-photo-10572991.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">Australian Cricket</span><span class="tag">Cricket News 2026</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-12-everything-happening-around-australia-cricket-team.html">Everything Happening Around Australia Cricket Team: Your 2026 Guide</a></h2>
-          <p class="card-excerpt">Unpack everything happening around the Australia cricket team in 2026. Discover key strategies, player updates, and controversies shaping their path. Stay ahead with this expert guide.</p>
-          <div class="card-meta">
-            <span>2026-05-12</span><span class="dot">·</span>
-            <span>5 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-12-napoli-vs-bologna-everything-you-should-know.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/36862551/pexels-photo-36862551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">Napoli</span><span class="tag">Bologna</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-12-napoli-vs-bologna-everything-you-should-know.html">Napoli vs Bologna: Everything You Need to Know for 2026</a></h2>
-          <p class="card-excerpt">Unpack Napoli vs Bologna – tactical insights, key players, and match predictions. Get the edge on Serie A's most intriguing clashes for 2026. Don't miss out!</p>
-          <div class="card-meta">
-            <span>2026-05-12</span><span class="dot">·</span>
-            <span>5 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-12-top-internet-reactions-to-abhishek-porel.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/3812727/pexels-photo-3812727.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">Abhishek Porel</span><span class="tag">Cricket Reactions</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-12-top-internet-reactions-to-abhishek-porel.html">Decoding the Top Internet Reactions to Abhishek Porel's Rise</a></h2>
-          <p class="card-excerpt">Unpack the top internet reactions to Abhishek Porel's journey. Discover what makes his online presence explode, how fans react, and why understanding this buzz matters for emerging stars in 2026.</p>
-          <div class="card-meta">
-            <span>2026-05-12</span><span class="dot">·</span>
-            <span>7 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-12-why-neom-vs-al-shabab-is-trending-right-now.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/29715715/pexels-photo-29715715.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI in Sports</span><span class="tag">Football Analytics</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-12-why-neom-vs-al-shabab-is-trending-right-now.html">Why NEOM vs Al-Shabab is Trending Right Now: AI's Impact</a></h2>
-          <p class="card-excerpt">Unpack why NEOM vs Al-Shabab FC is trending right now, exploring AI's crucial role in sports investment, fan engagement, and strategic analytics. Get expert insights.</p>
-          <div class="card-meta">
-            <span>2026-05-12</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-12-why-abhishek-porel-is-trending-right-now.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/15923014/pexels-photo-15923014.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">Abhishek Porel</span><span class="tag">Cricket</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-12-why-abhishek-porel-is-trending-right-now.html">Why Abhishek Porel is Trending Right Now: AI's Impact on Rising Stars</a></h2>
-          <p class="card-excerpt">Unpack why Abhishek Porel is trending right now. Discover the blend of raw talent, strategic performance analytics, and AI-driven social amplification behind his rapid rise.</p>
-          <div class="card-meta">
-            <span>2026-05-12</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-11-what-people-are-saying-about-www-see-gov-np.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/16960497/pexels-photo-16960497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">Nepal Education</span><span class="tag">SEE Exam</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-11-what-people-are-saying-about-www-see-gov-np.html">What People Are Saying About www.see.gov.np: Your Guide to Nepal's Exam Hub</a></h2>
-          <p class="card-excerpt">Curious what people are saying about www.see.gov.np? Uncover key insights, student experiences, and pro tips for navigating Nepal's crucial exam portal effectively in 2026.</p>
-          <div class="card-meta">
-            <span>2026-05-11</span><span class="dot">·</span>
-            <span>6 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-11-madhav-tiwari-updates-ai-innovation.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/32319624/pexels-photo-32319624.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI Trends</span><span class="tag">Automation</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-11-madhav-tiwari-updates-ai-innovation.html">Madhav Tiwari Updates: Decoding AI's Future Innovators</a></h2>
-          <p class="card-excerpt">Don't miss the latest updates on Madhav Tiwari's impact on AI and automation. Discover why tracking key innovators is crucial for staying ahead in tech.</p>
-          <div class="card-meta">
-            <span>2026-05-11</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-11-top-internet-reactions-from-season-4-episode-4.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/7794084/pexels-photo-7794084.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">From Season 4</span><span class="tag">Episode 4 Reactions</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-11-top-internet-reactions-from-season-4-episode-4.html">Decoding the Top Internet Reactions to From Season 4 Episode 4</a></h2>
-          <p class="card-excerpt">Unpack the top internet reactions to From Season 4 Episode 4. Discover fan theories, epic plot twists, and why online buzz matters for the future of the series. Don't miss this essential breakdown!</p>
-          <div class="card-meta">
-            <span>2026-05-11</span><span class="dot">·</span>
-            <span>7 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-11-bhavitha-mandava-updates-ai-innovation.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/6236039/pexels-photo-6236039.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI Leadership</span><span class="tag">Tech Innovation</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-11-bhavitha-mandava-updates-ai-innovation.html">Bhavitha Mandava Updates: Tracking AI's Next Big Movers</a></h2>
-          <p class="card-excerpt">Curious about Bhavitha Mandava's latest moves in AI and automation? Get expert insights on how to track leading tech innovators and their impact on the future. Stay informed!</p>
-          <div class="card-meta">
-            <span>2026-05-11</span><span class="dot">·</span>
-            <span>7 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-11-elections-alberta-separatist-data-breach.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/8850662/pexels-photo-8850662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">Alberta Politics</span><span class="tag">Data Breach</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-11-elections-alberta-separatist-data-breach.html">Alberta Elections: Navigating the Separatist Data Breach Fallout</a></h2>
-          <p class="card-excerpt">Unpack the implications of the elections alberta separatist data breach. Learn how to protect your privacy and understand the political fallout in 2026.</p>
-          <div class="card-meta">
-            <span>2026-05-11</span><span class="dot">·</span>
-            <span>5 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-11-fc-barcelona-vs-real-madrid-standings-latest-updates-and-predictions.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/12616082/pexels-photo-12616082.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">El Clasico</span><span class="tag">La Liga</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-11-fc-barcelona-vs-real-madrid-standings-latest-updates-and-predictions.html">FC Barcelona vs Real Madrid Standings: Latest Updates & Predictions</a></h2>
-          <p class="card-excerpt">Unlock the latest FC Barcelona vs Real Madrid standings, expert predictions, and tactical breakdowns for El Clásico 2026. Get ahead of the game with our deep dive!</p>
-          <div class="card-meta">
-            <span>2026-05-11</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-11-mastering-live-content-strategy-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/6919716/pexels-photo-6919716.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">live content</span><span class="tag">live streaming</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-11-mastering-live-content-strategy-2026.html">Mastering Live Content: Your 2026 Strategy Guide</a></h2>
-          <p class="card-excerpt">Unlock the power of live content in 2026. This guide covers everything you should know, from strategy to tech, ensuring your streams captivate and convert.</p>
-          <div class="card-meta">
-            <span>2026-05-11</span><span class="dot">·</span>
-            <span>5 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-11-why-from-season-4-episode-4-is-trending-right-now.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/34817412/pexels-photo-34817412.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI trends</span><span class="tag">viral content</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-11-why-from-season-4-episode-4-is-trending-right-now.html">Why 'From Season 4 Episode 4' is Exploding Right Now: An AI Strategy Guide</a></h2>
-          <p class="card-excerpt">Discover why 'from season 4 episode 4' is trending right now. Learn how AI, social media, and audience psychology drive its viral success in 2026. Uncover expert strategies.</p>
-          <div class="card-meta">
-            <span>2026-05-11</span><span class="dot">·</span>
-            <span>8 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-11-tech-mahindra-share-price-analysis-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/6347705/pexels-photo-6347705.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">Tech Mahindra</span><span class="tag">Share Price</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-11-tech-mahindra-share-price-analysis-2026.html">Tech Mahindra Share Price: Your 2026 Guide to Smart Investing</a></h2>
-          <p class="card-excerpt">Demystify Tech Mahindra share price! Learn key drivers, analysis techniques, and expert tips to navigate this IT giant's stock in 2026. Optimize your portfolio now.</p>
-          <div class="card-meta">
-            <span>2026-05-11</span><span class="dot">·</span>
-            <span>7 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-11-808-explained-simply.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/8132547/pexels-photo-8132547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI Automation</span><span class="tag">808 Standard</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-11-808-explained-simply.html">808 Explained Simply: The Core of Future AI Automation</a></h2>
-          <p class="card-excerpt">Unlock the power of 808 explained simply. Discover how this revolutionary AI automation standard integrates modules, boosts efficiency, and scales your tech for 2026 and beyond.</p>
-          <div class="card-meta">
-            <span>2026-05-11</span><span class="dot">·</span>
-            <span>7 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-11-how-ai-is-changing-from-season-4-episode-4-in-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/8721342/pexels-photo-8721342.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI Trends</span><span class="tag">Automation</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-11-how-ai-is-changing-from-season-4-episode-4-in-2026.html">AI in 2026: Decoding the Shift from Season 4 Episode 4</a></h2>
-          <p class="card-excerpt">Discover how AI is changing from Season 4 Episode 4 in 2026. Unpack the latest advancements, practical applications, and what it means for you this year. Stay ahead!</p>
-          <div class="card-meta">
-            <span>2026-05-11</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-11-how-ai-is-changing-psg-vs-stade-brestois-standings-in-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/16027824/pexels-photo-16027824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI in Football</span><span class="tag">Ligue 1</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-11-how-ai-is-changing-psg-vs-stade-brestois-standings-in-2026.html">How AI is Changing PSG vs Stade Brestois Standings in 2026</a></h2>
-          <p class="card-excerpt">Discover how AI is changing PSG vs Stade Brestois standings in 2026. Learn about predictive analytics, tactical shifts, and the tech influencing Ligue 1 results for a competitive edge.</p>
-          <div class="card-meta">
-            <span>2026-05-11</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-10-how-ai-is-changing-real-oviedo-vs-getafe-in-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/30530410/pexels-photo-30530410.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI in Football</span><span class="tag">La Liga</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-10-how-ai-is-changing-real-oviedo-vs-getafe-in-2026.html">How AI is Changing Real Oviedo vs Getafe in 2026: The New La Liga Battleground</a></h2>
-          <p class="card-excerpt">Discover how AI is changing Real Oviedo vs Getafe in 2026, revolutionizing strategy, player performance, and scouting in La Liga. Stay ahead of the curve.</p>
-          <div class="card-meta">
-            <span>2026-05-10</span><span class="dot">·</span>
-            <span>10 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-10-how-ai-is-changing-shivam-dube-in-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/16380905/pexels-photo-16380905.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI in Cricket</span><span class="tag">Shivam Dube</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-10-how-ai-is-changing-shivam-dube-in-2026.html">AI's Impact on Shivam Dube in 2026: The Data-Driven Cricketer</a></h2>
-          <p class="card-excerpt">Discover how AI is changing Shivam Dube in 2026, transforming his game through data analytics, personalized training, and strategic insights. Unlock the future of elite cricket.</p>
-          <div class="card-meta">
-            <span>2026-05-10</span><span class="dot">·</span>
-            <span>7 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-10-how-ai-is-changing-shivam-dube-in-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/20870805/pexels-photo-20870805.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI in Sports</span><span class="tag">Cricket Analytics</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-10-how-ai-is-changing-shivam-dube-in-2026.html">How AI is Changing Shivam Dube in 2026: The Data-Driven Cricketer</a></h2>
-          <p class="card-excerpt">Discover how AI is changing Shivam Dube in 2026, from optimizing his batting power and bowling strategy to injury prevention. Learn about the tech shaping elite athletes.</p>
-          <div class="card-meta">
-            <span>2026-05-10</span><span class="dot">·</span>
-            <span>6 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-10-how-ai-is-changing-anshul-kamboj-in-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/30530406/pexels-photo-30530406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI impact</span><span class="tag">personal AI</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-10-how-ai-is-changing-anshul-kamboj-in-2026.html">How AI is Changing Anshul Kamboj in 2026: A Personal AI Revolution</a></h2>
-          <p class="card-excerpt">Discover how AI is changing Anshul Kamboj's daily life and career in 2026. Uncover essential AI tools, strategies, and insights for personal growth and productivity.</p>
-          <div class="card-meta">
-            <span>2026-05-10</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-10-how-ai-is-changing-mallorca-vs-villarreal-in-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/20870805/pexels-photo-20870805.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI in Football</span><span class="tag">La Liga</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-10-how-ai-is-changing-mallorca-vs-villarreal-in-2026.html">How AI is Changing Mallorca vs Villarreal in 2026: The Tactical Revolution</a></h2>
-          <p class="card-excerpt">Discover how AI is changing Mallorca vs Villarreal in 2026 football matches. Uncover AI's impact on tactics, player performance, and predictive analytics in La Liga. Get the inside edge.</p>
-          <div class="card-meta">
-            <span>2026-05-10</span><span class="dot">·</span>
-            <span>7 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-10-how-ai-is-changing-verona-vs-como-in-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/30530426/pexels-photo-30530426.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI in Football</span><span class="tag">Sports Analytics</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-10-how-ai-is-changing-verona-vs-como-in-2026.html">How AI is Changing Verona vs Como in 2026: The New Football Edge</a></h2>
-          <p class="card-excerpt">Discover how AI is changing Verona vs Como in 2026's football landscape. Unpack AI's impact on tactics, player performance, and fan engagement. Stay ahead of the game!</p>
-          <div class="card-meta">
-            <span>2026-05-10</span><span class="dot">·</span>
-            <span>10 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-10-how-ai-is-changing-verona-vs-como-in-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/16461434/pexels-photo-16461434.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI in Sports</span><span class="tag">Football Analytics</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-10-how-ai-is-changing-verona-vs-como-in-2026.html">AI's Impact on the Pitch: How AI is Changing Verona vs Como in 2026</a></h2>
-          <p class="card-excerpt">Discover how AI is changing Verona vs Como in 2026, revolutionizing player strategies, fan engagement, and betting outcomes. Stay ahead of the curve!</p>
-          <div class="card-meta">
-            <span>2026-05-10</span><span class="dot">·</span>
-            <span>7 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-10-how-ai-is-changing-kulpatis-in-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/16380905/pexels-photo-16380905.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI in Education</span><span class="tag">University Leadership</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-10-how-ai-is-changing-kulpatis-in-2026.html">How AI is Changing Kulpatis in 2026: University Leadership Transformed</a></h2>
-          <p class="card-excerpt">Discover how AI is reshaping the role of Kulpatis (Vice-Chancellors) in 2026. Learn about AI-driven strategies for academic leadership, campus operations, and student success.</p>
-          <div class="card-meta">
-            <span>2026-05-10</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-10-how-ai-is-changing-kulpatis-in-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/16380905/pexels-photo-16380905.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI in Education</span><span class="tag">University Leadership</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-10-how-ai-is-changing-kulpatis-in-2026.html">How AI is Changing Kulpatis in 2026: The Future of University Leadership</a></h2>
-          <p class="card-excerpt">Discover how AI is changing Kulpatis (university leaders) in 2026. Uncover essential strategies, tools, and the future impact of AI on higher education governance. Stay ahead.</p>
-          <div class="card-meta">
-            <span>2026-05-10</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-10-how-ai-is-changing-kulpatis-in-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/8294742/pexels-photo-8294742.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI in Education</span><span class="tag">University Leadership</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-10-how-ai-is-changing-kulpatis-in-2026.html">How AI is Changing Kulpatis in 2026: The Future of University Leadership</a></h2>
-          <p class="card-excerpt">Discover how AI is changing कुलपति roles in 2026, from strategic planning to student success. Uncover the tools and insights empowering modern academic leaders. A must-read for higher ed.</p>
-          <div class="card-meta">
-            <span>2026-05-10</span><span class="dot">·</span>
-            <span>7 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-10-how-ai-is-changing-kulapati-in-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/30530407/pexels-photo-30530407.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI in Education</span><span class="tag">Higher Education</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-10-how-ai-is-changing-kulapati-in-2026.html">AI & Kulapati in 2026: Redefining University Leadership</a></h2>
-          <p class="card-excerpt">Discover how AI is changing कुलपति (Vice-Chancellor) roles in 2026. Explore data-driven leadership, operational efficiency, and ethical considerations shaping higher education. Future-proof your university now.</p>
-          <div class="card-meta">
-            <span>2026-05-10</span><span class="dot">·</span>
-            <span>5 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-10-how-ai-is-changing-joshua-van-in-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/30530410/pexels-photo-30530410.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI in Sports</span><span class="tag">Joshua Van</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-10-how-ai-is-changing-joshua-van-in-2026.html">How AI is Changing Joshua Van in 2026: The Unseen Edge</a></h2>
-          <p class="card-excerpt">Discover how AI is changing Joshua Van in 2026, revolutionizing his career, performance, and fan engagement. Uncover the data-driven strategies shaping his future.</p>
-          <div class="card-meta">
-            <span>2026-05-10</span><span class="dot">·</span>
-            <span>6 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-10-how-ai-is-changing-lakers-vs-thunder-in-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/30530426/pexels-photo-30530426.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI in Sports</span><span class="tag">NBA Analytics</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-10-how-ai-is-changing-lakers-vs-thunder-in-2026.html">AI & NBA: How AI is Changing Lakers vs Thunder in 2026</a></h2>
-          <p class="card-excerpt">Discover how AI is changing Lakers vs Thunder in 2026. Uncover AI's impact on strategy, player performance, and fan experience in the future of NBA.</p>
-          <div class="card-meta">
-            <span>2026-05-10</span><span class="dot">·</span>
-            <span>8 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-10-how-ai-is-changing-real-sociedad-vs-real-betis-in-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/16027824/pexels-photo-16027824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI in Sports</span><span class="tag">Football Analytics</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-10-how-ai-is-changing-real-sociedad-vs-real-betis-in-2026.html">AI in La Liga: How AI is Changing Real Sociedad vs Real Betis in 2026</a></h2>
-          <p class="card-excerpt">Discover how AI is changing Real Sociedad vs Real Betis in 2026. Learn about predictive analytics, tactical shifts, and fan engagement. Get the AI edge!</p>
-          <div class="card-meta">
-            <span>2026-05-10</span><span class="dot">·</span>
-            <span>5 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-09-how-ai-is-changing-gt-vs-rr-in-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/30530410/pexels-photo-30530410.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI in Sports</span><span class="tag">Cricket Analytics</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-09-how-ai-is-changing-gt-vs-rr-in-2026.html">AI in Cricket: How AI is Changing GT vs RR in 2026's IPL</a></h2>
-          <p class="card-excerpt">Uncover how AI is changing GT vs RR in 2026's IPL, revolutionising strategy, player performance, and fan experience. Get ahead of the curve.</p>
-          <div class="card-meta">
-            <span>2026-05-09</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-09-how-ai-is-changing-federico-valverde-in-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/30530407/pexels-photo-30530407.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI in Sports</span><span class="tag">Football Analytics</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-09-how-ai-is-changing-federico-valverde-in-2026.html">How AI is Changing Federico Valverde in 2026: The Data Edge</a></h2>
-          <p class="card-excerpt">By 2026, AI is redefining elite football. Discover how AI is changing Federico Valverde's performance, training, and tactical role, giving him an unstoppable edge.</p>
-          <div class="card-meta">
-            <span>2026-05-09</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-09-how-ai-is-changing-mtv-splitsvilla-16-in-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/16027824/pexels-photo-16027824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI in Entertainment</span><span class="tag">Reality TV</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-09-how-ai-is-changing-mtv-splitsvilla-16-in-2026.html">Love, Lies & Algorithms: How AI is Changing MTV Splitsvilla 16 in 2026</a></h2>
-          <p class="card-excerpt">Discover how AI is changing MTV Splitsvilla 16 in 2026. Uncover AI's impact on contestant matching, drama, and audience engagement, predicting the future of reality TV.</p>
-          <div class="card-meta">
-            <span>2026-05-09</span><span class="dot">·</span>
-            <span>7 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-09-cra-data-breach-settlement-guide.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">CRA data breach</span><span class="tag">data privacy</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-09-cra-data-breach-settlement-guide.html">CRA Data Breach Settlement: Your Comprehensive 2026 Guide</a></h2>
-          <p class="card-excerpt">Affected by the CRA data breach? Discover the settlement details, eligibility, and step-by-step claims process. Learn essential data protection strategies for 2026.</p>
-          <div class="card-meta">
-            <span>2026-05-09</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-09-how-ai-is-changing-khamzat-vs-strickland-in-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/30530410/pexels-photo-30530410.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI in Sports</span><span class="tag">MMA Analytics</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-09-how-ai-is-changing-khamzat-vs-strickland-in-2026.html">Octagon's New Edge: How AI is Changing Khamzat vs Strickland in 2026</a></h2>
-          <p class="card-excerpt">Discover how AI is changing Khamzat vs Strickland in 2026, revolutionizing fight strategy, training, and performance analysis. Uncover the tech giving fighters an unprecedented edge.</p>
-          <div class="card-meta">
-            <span>2026-05-09</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-09-how-ai-is-changing-khamzat-vs-strickland-in-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/16380905/pexels-photo-16380905.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI in Sports</span><span class="tag">UFC</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-09-how-ai-is-changing-khamzat-vs-strickland-in-2026.html">AI & The Octagon: How AI is Changing Khamzat vs Strickland in 2026</a></h2>
-          <p class="card-excerpt">Discover how AI is changing Khamzat vs Strickland in 2026. Get expert insights on AI-driven strategy, training, and predictive analytics shaping the future of UFC. Don't get left behind!</p>
-          <div class="card-meta">
-            <span>2026-05-09</span><span class="dot">·</span>
-            <span>6 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-09-how-ai-is-changing-khamzat-vs-strickland-in-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/30530426/pexels-photo-30530426.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI in MMA</span><span class="tag">Combat Sports</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-09-how-ai-is-changing-khamzat-vs-strickland-in-2026.html">AI & The Octagon: How AI is Changing Khamzat vs Strickland in 2026</a></h2>
-          <p class="card-excerpt">Predicting the future of MMA? Discover how AI is changing Khamzat vs Strickland in 2026, offering unprecedented insights into fighter strategy, training, and analysis.</p>
-          <div class="card-meta">
-            <span>2026-05-09</span><span class="dot">·</span>
-            <span>6 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-09-ai-changing-carter-bryant-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/16027824/pexels-photo-16027824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI tools</span><span class="tag">automation</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-09-ai-changing-carter-bryant-2026.html">How AI is Changing Carter Bryant in 2026: A Pro's Guide</a></h2>
-          <p class="card-excerpt">Uncover how AI is changing Carter Bryant's professional world in 2026. Learn practical AI strategies to optimize workflow, boost creativity, and stay competitive. Don't get left behind!</p>
-          <div class="card-meta">
-            <span>2026-05-09</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-09-ai-changing-timberwolves-strategy-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/16027824/pexels-photo-16027824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI in Sports</span><span class="tag">NBA Analytics</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-09-ai-changing-timberwolves-strategy-2026.html">Unleashing the Pack: How AI is Changing Timberwolves Strategy in 2026</a></h2>
-          <p class="card-excerpt">Discover how AI is changing Timberwolves' game strategy, player performance, and fan engagement by 2026. Get insider tips on the tech shaping the NBA future.</p>
-          <div class="card-meta">
-            <span>2026-05-09</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-09-how-ai-is-changing-timberwolves-in-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/16461434/pexels-photo-16461434.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI in Sports</span><span class="tag">NBA Analytics</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-09-how-ai-is-changing-timberwolves-in-2026.html">Winning Smarter: How AI is Changing Timberwolves in 2026</a></h2>
-          <p class="card-excerpt">Discover how AI is changing the Minnesota Timberwolves in 2026. Unpack advanced analytics, player performance tech, and strategic AI tools giving them the edge. Get ready for smarter basketball.</p>
-          <div class="card-meta">
-            <span>2026-05-09</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-09-hailee-steinfeld-unstoppable-career.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.pexels.com/photos/34804018/pexels-photo-34804018.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">hailee steinfeld</span><span class="tag">celebrity analysis</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-09-hailee-steinfeld-unstoppable-career.html">Hailee Steinfeld's Enduring Stardom: A Deep Dive into Her Unstoppable Career</a></h2>
-          <p class="card-excerpt">Unpack Hailee Steinfeld's journey from child star to global icon. Discover the secrets behind her sustained success in Hollywood and music. Get inspired by a true multi-hyphenate.</p>
-          <div class="card-meta">
-            <span>2026-05-09</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-09-sai-pallavi-natural-star-phenomenon.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1675557009483-e6cf3867976b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHNlYXJjaHw4fHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzc4MjkxODQyfDA&ixlib=rb-4.1.0&q=80&w=1080')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">Sai Pallavi</span><span class="tag">South Indian Cinema</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-09-sai-pallavi-natural-star-phenomenon.html">Sai Pallavi: Unpacking the Phenomenon of South India's Natural Star</a></h2>
-          <p class="card-excerpt">Discover Sai Pallavi's journey from medical student to cinematic icon. Learn why her authenticity and talent resonate, making her a true force in 2026 and beyond.</p>
-          <div class="card-meta">
-            <span>2026-05-09</span><span class="dot">·</span>
-            <span>5 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-09-sai-pallavi-authenticity-stardom-redefined.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1655720031554-a929595ffad7?w=1200&auto=format&fit=crop')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">Sai Pallavi</span><span class="tag">South Indian Cinema</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-09-sai-pallavi-authenticity-stardom-redefined.html">Sai Pallavi's Unscripted Rise: Authenticity in Stardom</a></h2>
-          <p class="card-excerpt">Discover Sai Pallavi's extraordinary journey and how her authentic approach to cinema redefined stardom. Learn her impact on Indian film and why she's a true inspiration.</p>
-          <div class="card-meta">
-            <span>2026-05-09</span><span class="dot">·</span>
-            <span>6 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-09-shania-twain-enduring-legacy-icon.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1676299081847-824916de030a?w=1200&auto=format&fit=crop')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">Shania Twain</span><span class="tag">country pop</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-09-shania-twain-enduring-legacy-icon.html">Shania Twain: The Enduring Reign of a Country-Pop Icon in 2026</a></h2>
-          <p class="card-excerpt">Unpack the secrets behind Shania Twain's unparalleled success and why her legacy still dominates in 2026. Discover her impact, iconic anthems, and what keeps the 'Queen of Country Pop' on top.</p>
-          <div class="card-meta">
-            <span>2026-05-09</span><span class="dot">·</span>
-            <span>10 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-09-shania-twain-legacy-music-icon.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1655720031554-a929595ffad7?w=1200&auto=format&fit=crop')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">Shania Twain</span><span class="tag">Country Pop</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-09-shania-twain-legacy-music-icon.html">Shania Twain's Enduring Reign: Why She Still Matters in 2026</a></h2>
-          <p class="card-excerpt">Discover why Shania Twain remains a global icon in 2026. Unpack her boundary-breaking career, timeless anthems, and unparalleled impact on music and culture.</p>
-          <div class="card-meta">
-            <span>2026-05-09</span><span class="dot">·</span>
-            <span>6 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-08-hawaiian-monk-seals-conservation-survival-guide.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1677442136019-21780ecad995?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyNTg5Njl8&ixlib=rb-4.1.0&q=80&w=1080')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">Hawaiian Monk Seals</span><span class="tag">Endangered Species</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-08-hawaiian-monk-seals-conservation-survival-guide.html">Hawaiian Monk Seals: Why These Ocean Sentinels Need Your Help Now</a></h2>
-          <p class="card-excerpt">Uncover the critical plight of Hawaiian monk seals, their vital role in our oceans, and actionable steps you can take to protect them. Dive deep into their survival struggles.</p>
-          <div class="card-meta">
-            <span>2026-05-08</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-08-claude-ai-api-tutorial-for-developers.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1643000867361-cd545336249b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyNTc1ODd8&ixlib=rb-4.1.0&q=80&w=1080')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">Claude AI API</span><span class="tag">AI development</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-08-claude-ai-api-tutorial-for-developers.html">Master the Claude AI API: A Developer's Tutorial for 2026</a></h2>
-          <p class="card-excerpt">Unlock powerful AI! This Claude AI API tutorial for developers shows you how to integrate Anthropic's advanced models. Build cutting-edge apps and master prompt engineering.</p>
-          <div class="card-meta">
-            <span>2026-05-08</span><span class="dot">·</span>
-            <span>5 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-08-workflow-automation-with-ai-future-efficiency.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1749006590324-d6b2e90ab1c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyNTI3NTJ8&ixlib=rb-4.1.0&q=80&w=1080')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI Automation</span><span class="tag">Workflow Optimization</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-08-workflow-automation-with-ai-future-efficiency.html">Unlock Efficiency: The Future of Workflow Automation with AI</a></h2>
-          <p class="card-excerpt">Supercharge your business with workflow automation using AI. Discover practical strategies, essential tools, and expert tips to transform your operations and boost productivity in 2026.</p>
-          <div class="card-meta">
-            <span>2026-05-08</span><span class="dot">·</span>
-            <span>7 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-08-ai-video-generation-tools-guide.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyNTExMjl8&ixlib=rb-4.1.0&q=80&w=1080')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI video</span><span class="tag">video marketing</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-08-ai-video-generation-tools-guide.html">Unlocking Creative Potential with AI Video Generation Tools</a></h2>
-          <p class="card-excerpt">Discover the top AI video generation tools transforming content creation in 2026. Learn how to craft stunning videos faster and more affordably than ever before.</p>
-          <div class="card-meta">
-            <span>2026-05-08</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-08-best-ai-tools-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1763568258289-47ada8efe7ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyNDc0MjB8&ixlib=rb-4.1.0&q=80&w=1080')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI tools</span><span class="tag">automation</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-08-best-ai-tools-2026.html">Best AI Tools 2026: Your Future-Proof Guide to Automation</a></h2>
-          <p class="card-excerpt">Uncover the best AI tools 2026 for unparalleled productivity. This guide reveals the must-have automation tech to stay ahead. Don't get left behind!</p>
-          <div class="card-meta">
-            <span>2026-05-08</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-08-machine-learning-without-coding.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1534224039826-c7a0eda0e6b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyNDcwMTh8&ixlib=rb-4.1.0&q=80&w=1080')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">no-code AI</span><span class="tag">machine learning</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-08-machine-learning-without-coding.html">Machine Learning Without Coding: Unlock AI's Power</a></h2>
-          <p class="card-excerpt">Break free from code! Discover how to leverage machine learning without coding to build powerful AI models, drive innovation, and boost your career – no Python required. Learn the tools and techniques here.</p>
-          <div class="card-meta">
-            <span>2026-05-08</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-08-best-ai-code-assistants-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1677756041243-08ac39882525?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyNDY2MzJ8&ixlib=rb-4.1.0&q=80&w=1080')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI code assistants</span><span class="tag">AI development</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-08-best-ai-code-assistants-2026.html">Best AI Code Assistants 2026: Your Future Dev Power-Up</a></h2>
-          <p class="card-excerpt">Discover the best AI code assistants of 2026 that will redefine your development workflow. Uncover top tools, pro tips, and how to harness AI for superior code quality and speed.</p>
-          <div class="card-meta">
-            <span>2026-05-08</span><span class="dot">·</span>
-            <span>5 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-08-free-ai-image-generation-tools-guide.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1677442135751-15e514d909f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyMzg3NTF8&ixlib=rb-4.1.0&q=80&w=1080')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI art</span><span class="tag">generative AI</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-08-free-ai-image-generation-tools-guide.html">Free AI Image Generation Tools: Unlock Your Visual Potential Today</a></h2>
-          <p class="card-excerpt">Discover the best free AI image generation tools revolutionizing creativity. Learn how to craft stunning visuals, avoid common pitfalls, and master prompt engineering for captivating digital art.</p>
-          <div class="card-meta">
-            <span>2026-05-08</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-08-ai-tools-for-email-marketing-strategy.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1677442135131-4d7c123aef1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyMzgzNjJ8&ixlib=rb-4.1.0&q=80&w=1080')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI marketing</span><span class="tag">email automation</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-08-ai-tools-for-email-marketing-strategy.html">Mastering Email Marketing with AI Tools: Your 2026 Strategy</a></h2>
-          <p class="card-excerpt">Boost your email campaigns with the latest AI tools for email marketing. Learn how AI can personalize, optimize, and automate your strategy to drive conversions and save hours daily. Get started!</p>
-          <div class="card-meta">
-            <span>2026-05-08</span><span class="dot">·</span>
-            <span>5 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-08-zapier-vs-make-vs-n8n-comparison.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&auto=format&fit=crop')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">automation tools</span><span class="tag">workflow automation</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-08-zapier-vs-make-vs-n8n-comparison.html">Zapier vs Make vs n8n: The Ultimate Automation Showdown</a></h2>
-          <p class="card-excerpt">Deciding between Zapier, Make, and n8n? This ultimate comparison breaks down features, pricing, and use cases to help you choose the best automation platform for your workflow.</p>
-          <div class="card-meta">
-            <span>2026-05-08</span><span class="dot">·</span>
-            <span>6 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-08-make-money-with-ai-automation.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyMzY4MjF8&ixlib=rb-4.1.0&q=80&w=1080')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI automation</span><span class="tag">make money online</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-08-make-money-with-ai-automation.html">Unlock Digital Gold: How to Make Money with AI Automation</a></h2>
-          <p class="card-excerpt">Discover proven strategies to make money with AI automation. Learn how to leverage intelligent tools to build passive income streams and scale your business in 2026.</p>
-          <div class="card-meta">
-            <span>2026-05-08</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-08-ai-agents-explained-simply.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1655720031554-a929595ffad7?w=1200&auto=format&fit=crop')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI agents</span><span class="tag">automation</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-08-ai-agents-explained-simply.html">AI Agents Explained Simply: Your Guide to Autonomous Automation</a></h2>
-          <p class="card-excerpt">Demystify AI agents! Learn how these autonomous digital workers boost productivity and transform tasks. Get the simple explanation you need to thrive in 2026's AI landscape.</p>
-          <div class="card-meta">
-            <span>2026-05-08</span><span class="dot">·</span>
-            <span>5 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-08-ai-writing-tools-comparison-guide.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1667984436061-07f5cec0480d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyMzIwMjh8&ixlib=rb-4.1.0&q=80&w=1080')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI writing tools</span><span class="tag">content marketing</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-08-ai-writing-tools-comparison-guide.html">AI Writing Tools Comparison: Your 2026 Guide to Smarter Content</a></h2>
-          <p class="card-excerpt">Drowning in content? Discover the best AI writing tools of 2026 with our expert comparison. Boost productivity, improve quality, and own your content strategy.</p>
-          <div class="card-meta">
-            <span>2026-05-08</span><span class="dot">·</span>
-            <span>5 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-08-ai-automation-small-business-superpower.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1655393001768-d946c97d6fd1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyMjYzNjR8&ixlib=rb-4.1.0&q=80&w=1080')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI automation</span><span class="tag">small business</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-08-ai-automation-small-business-superpower.html">AI Automation: Your Small Business Superpower</a></h2>
-          <p class="card-excerpt">Unlock growth! Discover how AI automation transforms small businesses, boosting efficiency, customer service, and profitability without breaking the bank. Your guide to intelligent automation.</p>
-          <div class="card-meta">
-            <span>2026-05-08</span><span class="dot">·</span>
-            <span>8 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-08-ai-tools-for-content-creators.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1564551713171-b1a90c34daa5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyMjMzMzJ8&ixlib=rb-4.1.0&q=80&w=1080')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI tools</span><span class="tag">content creation</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-08-ai-tools-for-content-creators.html">Boost Your Content Game: Top AI Tools for Creators</a></h2>
-          <p class="card-excerpt">Unlock your creative potential! Discover the best AI tools revolutionizing content creation, from writing and design to video editing and social media. Boost productivity now.</p>
-          <div class="card-meta">
-            <span>2026-05-08</span><span class="dot">·</span>
-            <span>5 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-08-ai-research-tools-students-guide.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1758691462668-046fd85ceac9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyMjI2MzN8&ixlib=rb-4.1.0&q=80&w=1080')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI Tools</span><span class="tag">Student Productivity</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-08-ai-research-tools-students-guide.html">AI Research Tools: Student's Guide to Smarter Studies</a></h2>
-          <p class="card-excerpt">Supercharge your studies with AI research tools! Discover the best AI platforms for literature review, data analysis, and writing to ace your assignments.</p>
-          <div class="card-meta">
-            <span>2026-05-08</span><span class="dot">·</span>
-            <span>6 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-08-automate-your-business-with-ai.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1674544362969-a4269ef0ea69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyMjAwOTh8&ixlib=rb-4.1.0&q=80&w=1080')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI Automation</span><span class="tag">Business Transformation</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-08-automate-your-business-with-ai.html">Automate Your Business with AI: The Future is Now!</a></h2>
-          <p class="card-excerpt">Unlock unprecedented efficiency and growth! Discover how AI automation can transform your business, streamline operations, and boost profits. A practical guide.</p>
-          <div class="card-meta">
-            <span>2026-05-08</span><span class="dot">·</span>
-            <span>5 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-08-unleash-remote-potential-ai-productivity-tools.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1775994121020-86426451f8bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyMTMwMDl8&ixlib=rb-4.1.0&q=80&w=1080')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI tools</span><span class="tag">remote work</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-08-unleash-remote-potential-ai-productivity-tools.html">Unleash Remote Potential: Top AI Productivity Tools</a></h2>
-          <p class="card-excerpt">Struggling with remote work efficiency? Discover the ultimate AI productivity tools that will transform your workflow, boost collaboration, and reclaim your time.</p>
-          <div class="card-meta">
-            <span>2026-05-08</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-07-how-to-use-chatgpt-effectively-pro-guide.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1675557009317-bb59e35aba82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgxOTgwNTN8&ixlib=rb-4.1.0&q=80&w=1080')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">ChatGPT</span><span class="tag">AI tools</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-07-how-to-use-chatgpt-effectively-pro-guide.html">Unlock ChatGPT's Full Potential: A Pro User's Guide</a></h2>
-          <p class="card-excerpt">Master ChatGPT with expert tips! Learn advanced prompting, effective workflows, and ethical use for peak productivity. Your ultimate guide to AI mastery.</p>
-          <div class="card-meta">
-            <span>2026-05-07</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-07-top-ai-seo-tools-2026.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1750365919971-7dd273e7b317?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgxOTc1MzV8&ixlib=rb-4.1.0&q=80&w=1080')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI SEO</span><span class="tag">SEO tools</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-07-top-ai-seo-tools-2026.html">AI SEO Tools 2026: Outrank, Outsmart, Outperform</a></h2>
-          <p class="card-excerpt">Uncover the top AI SEO tools of 2026. Discover how AI transforms keyword research, content optimization, and predictive analytics to dominate SERPs.</p>
-          <div class="card-meta">
-            <span>2026-05-07</span><span class="dot">·</span>
-            <span>6 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-07-chatgpt-vs-claude-vs-gemini-ai-comparison.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&auto=format&fit=crop')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">AI Comparison</span><span class="tag">LLM</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-07-chatgpt-vs-claude-vs-gemini-ai-comparison.html">ChatGPT, Claude, Gemini: Which AI Reigns Supreme?</a></h2>
-          <p class="card-excerpt">Unsure which AI to use? We compare ChatGPT, Claude, and Gemini on key features, performance, and pricing to help you pick the perfect one.</p>
-          <div class="card-meta">
-            <span>2026-05-07</span><span class="dot">·</span>
-            <span>7 min read</span>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <a href="posts/2026-05-07-no-code-automation-tools-review.html" class="card-img-link">
-          <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1744627049721-73c27008ad28?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgxNDg0MDN8&ixlib=rb-4.1.0&q=80&w=1080')"></div>
-        </a>
-        <div class="card-body">
-          <div class="card-tags"><span class="tag">no-code automation</span><span class="tag">workflow automation</span></div>
-          <h2 class="card-title"><a href="posts/2026-05-07-no-code-automation-tools-review.html">No-Code Automation: Unleash Your Workflow Power (Review)</a></h2>
-          <p class="card-excerpt">Boost productivity with our expert review of top no-code automation tools like Zapier, Make, and Power Automate. Streamline workflows, integrate AI, and save time!</p>
-          <div class="card-meta">
-            <span>2026-05-07</span><span class="dot">·</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </article>
-    </div>
-  </section>
-  <section class="about-section" id="about">
-    <div class="about-content">
-      <h2>Sujit Luintel</h2>
-      <p>This is a fully automated AI blog that discovers trending topics in AI and automation, writes insightful articles, and publishes them — every single day, with zero human intervention.</p>
-      <p>Powered by <strong>Gemini AI</strong> · <strong>Google Trends</strong> · <strong>GitHub Actions</strong> · <strong>Pexels</strong> · <strong>Unsplash</strong></p>
-    </div>
-  </section>
-  <footer class="site-footer">
-    <p>© 2026 Sujit Luintel · AI Tools &amp; Automation Insights</p>
-    <p style="margin-top:.25rem;">Auto-published with AI · Powered by Gemini &amp; GitHub Actions</p>
-  </footer>
-  <style>
-  .post-card.hidden-post {
-    display: none;
+    </div>`;
+}
+
+function renderTextDigest(posts) {
+  if (!posts.length) return '<div class="sl-empty">No posts yet in this category.</div>';
+  return `
+    <div class="layout-text-digest">
+      ${posts.slice(0, 10).map((p, i) => `
+        <div class="digest-item">
+          <span class="digest-num">${String(i+1).padStart(2,'0')}</span>
+          <div class="digest-content">
+            <a href="${esc(p.url)}" class="digest-title">${esc(p.title)}</a>
+            <span class="digest-meta">${formatDate(p.date)} · ${tagPills(p.tags,1)}</span>
+          </div>
+        </div>
+      `).join('')}
+    </div>`;
+}
+
+function renderSpotlightSidebar(posts) {
+  if (!posts.length) return '<div class="sl-empty">No posts yet in this category.</div>';
+  const main = posts[0];
+  const side = posts.slice(1, 4);
+  return `
+    <div class="layout-spotlight-sidebar">
+      <a href="${esc(main.url)}" class="spotlight">
+        <div class="sl-card__img-wrap">${imgEl(main.image, main.title)}</div>
+        <div class="sl-card__body">
+          <div class="sl-card__tags">${tagPills(main.tags, 3)}</div>
+          <div class="sl-card__title">${esc(main.title)}</div>
+          <div class="sl-card__excerpt">${esc(main.excerpt)}</div>
+          <div class="sl-card__meta"><span>${formatDate(main.date)}</span></div>
+        </div>
+      </a>
+      <div class="sidebar-stack">
+        ${side.map(p => `
+          <a href="${esc(p.url)}" class="sl-card">
+            <div class="sl-card__img-wrap">${imgEl(p.image, p.title)}</div>
+            <div class="sl-card__body">
+              <div class="sl-card__tags">${tagPills(p.tags, 1)}</div>
+              <div class="sl-card__title">${esc(p.title)}</div>
+              <div class="sl-card__meta"><span>${formatDate(p.date)}</span></div>
+            </div>
+          </a>
+        `).join('')}
+      </div>
+    </div>`;
+}
+
+function renderTimelineFeed(posts) {
+  if (!posts.length) return '<div class="sl-empty">No posts yet in this category.</div>';
+  // Group by date
+  const groups = {};
+  posts.slice(0, 20).forEach(p => {
+    const d = p.date || 'Recent';
+    if (!groups[d]) groups[d] = [];
+    groups[d].push(p);
+  });
+  return `
+    <div class="layout-timeline-feed">
+      ${Object.entries(groups).slice(0,5).map(([date, items]) => `
+        <div class="tl-group">
+          <div class="tl-date">${formatDate(date)}</div>
+          <div class="tl-items">
+            ${items.map(p => `
+              <a href="${esc(p.url)}" class="tl-item">
+                ${imgEl(p.image, p.title, '')}
+                <span class="tl-title">${esc(p.title)}</span>
+                <span class="tl-meta">${tagPills(p.tags,1)}</span>
+              </a>
+            `).join('')}
+          </div>
+        </div>
+      `).join('')}
+    </div>`;
+}
+
+/* ─── DISPATCH LAYOUT ────────────────────────── */
+function renderLayout(layout, posts, section, categories) {
+  switch(layout) {
+    case 'hero-spotlight':    return renderHeroSpotlight(posts, section, categories);
+    case 'magazine-grid':     return renderMagazineGrid(posts, section, categories);
+    case 'carousel-row':      return renderCarouselRow(posts);
+    case 'list-preview':      return renderListPreview(posts, section.id);
+    case 'alternating-split': return renderAlternatingSplit(posts);
+    case 'masonry-grid':      return renderMasonryGrid(posts);
+    case 'big-feature-strip': return renderBigFeatureStrip(posts);
+    case 'text-digest':       return renderTextDigest(posts);
+    case 'spotlight-sidebar': return renderSpotlightSidebar(posts);
+    case 'timeline-feed':     return renderTimelineFeed(posts);
+    default:                  return renderMagazineGrid(posts, section, categories);
   }
+}
 
-  .see-more-container {
-    display: flex;
-    justify-content: center;
-    margin: 2.5rem 0 3rem;
+/* ─── LIST PREVIEW INTERACTION ───────────────── */
+window.lpSelect = function(el, uid) {
+  const panel = document.getElementById(uid + '_preview');
+  if (!panel) return;
+  const siblings = el.parentElement.querySelectorAll('.list-item');
+  siblings.forEach(s => s.classList.remove('active'));
+  el.classList.add('active');
+  // Get posts from stored data
+  const posts = window._lpData && window._lpData[uid];
+  const idx = parseInt(el.dataset.idx || '0');
+  if (posts && posts[idx]) {
+    const p = posts[idx];
+    panel.href = p.url;
+    const img = panel.querySelector('.preview-img');
+    const title = panel.querySelector('.preview-title');
+    const meta = panel.querySelector('.preview-meta');
+    if (img) img.src = p.image;
+    if (title) title.textContent = p.title;
+    if (meta) meta.textContent = formatDate(p.date);
   }
+};
 
-  .see-more-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.85rem 2.25rem;
-    background: linear-gradient(135deg, #6366f1, #8b5cf6);
-    color: #fff;
-    font-family: inherit;
-    font-size: 0.95rem;
-    font-weight: 600;
-    letter-spacing: 0.02em;
-    border: none;
-    border-radius: 999px;
-    cursor: pointer;
-    box-shadow: 0 4px 18px rgba(99, 102, 241, 0.35);
-    transition: transform 0.18s ease, box-shadow 0.18s ease, opacity 0.18s ease;
-  }
+/* ─── BUILD SECTIONS ─────────────────────────── */
+function buildSections(allPosts, config) {
+  const { sections, categories } = config;
+  const container = document.getElementById('sectionsContainer');
+  container.innerHTML = '';
+  window._lpData = {}; // store list-preview data
 
-  .see-more-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 28px rgba(99, 102, 241, 0.45);
-  }
+  // Update hero stat
+  document.getElementById('statCount').textContent = allPosts.length;
 
-  .see-more-btn:active {
-    transform: translateY(0);
-  }
+  const sorted = [...sections]
+    .filter(s => s.enabled)
+    .sort((a, b) => a.order - b.order);
 
-  .see-more-btn .btn-icon {
-    font-size: 1.1rem;
-    transition: transform 0.25s ease;
-  }
+  sorted.forEach((section, idx) => {
+    const catConfig  = categories[section.category] || {};
+    const catPosts   = getPostsForCategory(allPosts, section.category, categories);
+    const catColor   = catConfig.color || '#6366f1';
+    const catIcon    = catConfig.icon  || '📰';
+    const catLabel   = catConfig.label || section.title;
 
-  .see-more-btn:hover .btn-icon {
-    transform: translateY(3px);
-  }
+    // Store for list-preview interactivity
+    const uid = 'lp_' + section.id;
+    window._lpData[uid] = catPosts.slice(0, 6);
 
-  @keyframes fadeSlideIn {
-    from { opacity: 0; transform: translateY(16px); }
-    to   { opacity: 1; transform: translateY(0); }
-  }
+    const seeAllSlug = section.category === 'all' ? 'all' : section.category;
+    const seeAllHtml = section.show_see_all
+      ? `<a href="/category/${seeAllSlug}" class="sl-see-all">See all →</a>`
+      : '';
 
-  .post-card.just-revealed {
-    animation: fadeSlideIn 0.35s ease forwards;
-  }
-</style>
-  <script>
-  (function () {
-    const INITIAL_COUNT = 10;
-    const BATCH_SIZE    = 9;
+    const layoutHTML = renderLayout(section.layout, catPosts, section, categories);
 
-    const grid  = document.querySelector('.posts-grid');
-    if (!grid) return;
+    const sectionEl = document.createElement('section');
+    sectionEl.className = 'sl-section';
+    sectionEl.id = 'section-' + section.category;
+    sectionEl.setAttribute('aria-label', section.title);
+    sectionEl.innerHTML = `
+      <div class="sl-section-header">
+        <h2 class="sl-section-title">
+          <span class="cat-icon">${catIcon}</span>
+          ${esc(section.title)}
+        </h2>
+        ${seeAllHtml}
+      </div>
+      ${layoutHTML}
+    `;
 
-    const cards = Array.from(grid.querySelectorAll('.post-card'));
-    let   shown = 0;
+    // Stagger fade-in
+    sectionEl.style.transitionDelay = (idx * 0.06) + 's';
+    container.appendChild(sectionEl);
 
-    function revealBatch(n) {
-      const slice = cards.slice(shown, shown + n);
-      slice.forEach((card) => {
-        card.classList.remove('hidden-post');
-        card.classList.remove('just-revealed');
-        void card.offsetWidth;
-        card.classList.add('just-revealed');
-      });
-      shown += slice.length;
+    // Add mid-article ad after section 3
+    if (idx === 2) {
+      const adEl = document.createElement('div');
+      adEl.className = 'sl-ad';
+      adEl.innerHTML = `<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2480859517203371"
+        data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>`;
+      container.appendChild(adEl);
+      if (window.adsbygoogle) (window.adsbygoogle = window.adsbygoogle || []).push({});
     }
+  });
 
-    const container = document.createElement('div');
-    container.className = 'see-more-container';
-
-    const btn = document.createElement('button');
-    btn.className = 'see-more-btn';
-    btn.innerHTML = 'See More <span class="btn-icon">↓</span>';
-    container.appendChild(btn);
-
-    grid.insertAdjacentElement('afterend', container);
-
-    cards.forEach(card => card.classList.add('hidden-post'));
-    revealBatch(INITIAL_COUNT);
-
-    if (shown >= cards.length) {
-      container.style.display = 'none';
-    }
-
-    btn.addEventListener('click', function () {
-      revealBatch(BATCH_SIZE);
-      const firstNew = cards[shown - BATCH_SIZE];
-      if (firstNew) {
-        firstNew.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
-      if (shown >= cards.length) {
-        container.style.display = 'none';
+  // Intersection Observer for fade-in
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        observer.unobserve(e.target);
       }
     });
-  })();
+  }, { threshold: 0.05 });
+
+  container.querySelectorAll('.sl-section').forEach(el => observer.observe(el));
+}
+
+/* ─── FALLBACK CONFIG (if sections-config.json missing) ─── */
+const FALLBACK_CONFIG = {
+  sections: [
+    { id:'s1',order:1,enabled:true,title:'AI & Automation',layout:'hero-spotlight',category:'ai-automation',show_see_all:true },
+    { id:'s2',order:2,enabled:true,title:'Sports Zone',layout:'magazine-grid',category:'sports',show_see_all:true },
+    { id:'s3',order:3,enabled:true,title:'Trending Now',layout:'carousel-row',category:'trending',show_see_all:false },
+    { id:'s4',order:4,enabled:true,title:'Finance & Markets',layout:'list-preview',category:'finance',show_see_all:true },
+    { id:'s5',order:5,enabled:true,title:'Entertainment',layout:'alternating-split',category:'entertainment',show_see_all:true },
+    { id:'s6',order:6,enabled:true,title:'Technology',layout:'masonry-grid',category:'technology',show_see_all:true },
+    { id:'s7',order:7,enabled:true,title:'Deep Dives',layout:'spotlight-sidebar',category:'deep-dives',show_see_all:true },
+    { id:'s8',order:8,enabled:true,title:'Quick Reads',layout:'text-digest',category:'all',show_see_all:false },
+    { id:'s9',order:9,enabled:true,title:"Editor's Pick",layout:'big-feature-strip',category:'trending',show_see_all:false },
+    { id:'s10',order:10,enabled:true,title:'Full Archive',layout:'timeline-feed',category:'all',show_see_all:false }
+  ],
+  categories: {
+    all:           { label:'All Posts',        color:'#6366f1', icon:'📰', tags:[] },
+    trending:      { label:'Trending',          color:'#f43f5e', icon:'🔥', tags:['trending','viral','latest','updates','right now','2026','internet reactions','what people are saying'] },
+    'ai-automation':{ label:'AI & Automation', color:'#6366f1', icon:'🤖', tags:['ai tools','automation','chatgpt','gemini ai','openai','llm','generative ai','workflow','productivity','ai agents','machine learning','ai code','ai trends','prompt engineering','ai writing','no-code ai','claude ai','ai development','ai video','ai image','ai research','ai seo','remote work','ai investing','ai automation','zapier','make','n8n'] },
+    sports:        { label:'Sports',            color:'#22c55e', icon:'⚽', tags:['cricket','football','nba','ipl','la liga','serie a','bundesliga','premier league','mma','ufc','basketball','tennis','champions league','epl','sports analytics','ai in sports','lakers','thunder','timberwolves','rcb','kkr'] },
+    finance:       { label:'Finance & Markets', color:'#f59e0b', icon:'💰', tags:['investing','stock market','finance','trading','shares','etf','portfolio','crypto','fintech','data breach','share result','share price','ai investing','cra'] },
+    entertainment: { label:'Entertainment',     color:'#ec4899', icon:'🎬', tags:['reality tv','celebrity','music','actor','film','series','streaming','netflix','bollywood','hollywood','pop culture','hailee steinfeld','sai pallavi','shania twain','splitsvilla','south indian cinema','country pop'] },
+    technology:    { label:'Technology',        color:'#0ea5e9', icon:'💻', tags:['app development','mobile strategy','ai laptops','tech innovation','software','hardware','devices','gadgets','cloud','saas','developer','coding','googlebook','gemini','app','apps'] },
+    'deep-dives':  { label:'Deep Dives',        color:'#8b5cf6', icon:'🔍', tags:['workflow automation','automation tools','guide','tutorial','explained','analysis','deep dive','breakdown','complete guide','how ai is changing','everything you should know','explained simply','your guide','mastering'] }
+  }
+};
+
+/* ─── INIT ───────────────────────────────────── */
+async function init() {
+  try {
+    const [allPosts, config] = await Promise.all([
+      fetchJSON(POSTS_DATA_URL),
+      fetchJSON(SECTIONS_CFG_URL).catch(() => FALLBACK_CONFIG)
+    ]);
+    buildSections(allPosts, config);
+  } catch(err) {
+    console.error('Sluintel init error:', err);
+    document.getElementById('sectionsContainer').innerHTML =
+      `<div class="sl-loading"><p style="color:var(--red)">Failed to load posts. Please refresh.</p></div>`;
+  }
+}
+
+init();
+
+})();
 </script>
 </body>
 </html>
