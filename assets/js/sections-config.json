@@ -6,7 +6,7 @@
       "order": 1,
       "enabled": true,
       "title": "AI & Automation",
-      "layout": "carousel-row",
+      "layout": "hero-spotlight",
       "category": "ai-automation",
       "show_see_all": true
     },
