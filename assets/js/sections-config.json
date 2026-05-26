@@ -3,7 +3,7 @@
   "sections": [
     {
       "id": "s1",
-      "order": 1,
+      "order": 2,
       "enabled": true,
       "title": "AI & Automation",
       "layout": "hero-spotlight",
@@ -12,7 +12,7 @@
     },
     {
       "id": "s2",
-      "order": 2,
+      "order": 4,
       "enabled": true,
       "title": "Sports Zone",
       "layout": "magazine-grid",
@@ -21,7 +21,7 @@
     },
     {
       "id": "s3",
-      "order": 3,
+      "order": 1,
       "enabled": true,
       "title": "Trending Now",
       "layout": "carousel-row",
@@ -30,7 +30,7 @@
     },
     {
       "id": "s4",
-      "order": 4,
+      "order": 5,
       "enabled": true,
       "title": "Finance & Markets",
       "layout": "list-preview",
@@ -39,7 +39,7 @@
     },
     {
       "id": "s5",
-      "order": 5,
+      "order": 6,
       "enabled": true,
       "title": "Entertainment",
       "layout": "alternating-split",
@@ -48,7 +48,7 @@
     },
     {
       "id": "s6",
-      "order": 6,
+      "order": 3,
       "enabled": true,
       "title": "Technology",
       "layout": "masonry-grid",
