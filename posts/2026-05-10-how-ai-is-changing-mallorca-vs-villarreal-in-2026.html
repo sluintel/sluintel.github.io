@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-WJEQKLB827"></script>
   <script>
@@ -23,77 +23,258 @@
   <meta name="twitter:title"       content="How AI is Changing Mallorca vs Villarreal in 2026: The Tactical Revolution"/>
   <meta name="twitter:description" content="Discover how AI is changing Mallorca vs Villarreal in 2026 football matches. Uncover AI's impact on tactics, player performance, and predictive analytics in La Liga. Get the inside edge."/>
   <meta name="twitter:image"       content="https://sluintel.github.io/posts/og/how-ai-is-changing-mallorca-vs-villarreal-in-2026.png"/>
-  <link rel="stylesheet" href="../style.css"/>
-  <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet"/>
   
-      <style>
-        .share-section {
-          margin: 2.5rem 0 1.5rem;
-          padding-top: 2rem;
-          border-top: 1px solid rgba(255,255,255,0.08);
-        }
-        .share-label {
-          font-size: .8rem;
-          text-transform: uppercase;
-          letter-spacing: .1em;
-          color: #888;
-          margin-bottom: .75rem;
-        }
-        .share-buttons { display: flex; flex-wrap: wrap; gap: .6rem; }
-        .share-btn {
-          display: inline-flex;
-          align-items: center;
-          gap: .45rem;
-          padding: .5rem 1rem;
-          border-radius: 6px;
-          font-size: .85rem;
-          font-weight: 500;
-          text-decoration: none;
-          cursor: pointer;
-          border: none;
-          transition: opacity .15s, transform .1s;
-        }
-        .share-btn:hover { opacity: .85; transform: translateY(-1px); }
-        .share-x        { background: #000; color: #fff; }
-        .share-linkedin { background: #0a66c2; color: #fff; }
-        .share-facebook { background: #1877f2; color: #fff; }
-        .share-copy     { background: #374151; color: #fff; }
-      </style>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <style>
+/* ═══ TOKENS ═══ */
+:root {
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body:    'DM Sans', system-ui, sans-serif;
+  --bg:           #0d0d0f; --bg-2: #141417; --bg-3: #1a1a1f;
+  --surface:      #1e1e24; --surface-2: #26262e;
+  --border:       rgba(255,255,255,0.08); --border-2: rgba(255,255,255,0.14);
+  --text:         #f0f0f4; --text-2: #a8a8b8; --text-3: #6b6b7d;
+  --accent:       #6366f1; --accent-2: #8b5cf6;
+  --accent-glow:  rgba(99,102,241,0.25);
+  --radius:       10px; --shadow: 0 4px 24px rgba(0,0,0,0.4);
+}
+[data-theme="light"] {
+  --bg: #f8f8fc; --bg-2: #f0f0f8; --bg-3: #e8e8f4;
+  --surface: #ffffff; --surface-2: #f4f4f9;
+  --border: rgba(0,0,0,0.08); --border-2: rgba(0,0,0,0.14);
+  --text: #0d0d1a; --text-2: #4a4a6a; --text-3: #8888aa;
+  --accent-glow: rgba(99,102,241,0.12);
+  --shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+/* ═══ RESET ═══ */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--font-body); background: var(--bg); color: var(--text); line-height: 1.7; }
+a    { color: inherit; text-decoration: none; }
+img  { display: block; max-width: 100%; }
+/* ═══ NAV ═══ */
+.sl-nav {
+  position: sticky; top: 0; z-index: 1000;
+  background: var(--bg); border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+}
+.sl-nav__inner {
+  max-width: 1200px; margin: 0 auto; display: flex; align-items: center;
+  padding: 0 24px; height: 58px; position: relative;
+}
+.sl-nav__brand {
+  font-family: var(--font-display); font-size: 1.4rem; font-weight: 900;
+  color: var(--text); white-space: nowrap; margin-right: 24px; flex-shrink: 0;
+}
+.sl-nav__brand span { color: var(--accent); }
+.sl-nav__links {
+  display: flex; align-items: center; gap: 2px; flex: 1;
+  overflow-x: auto; scrollbar-width: none;
+}
+.sl-nav__links::-webkit-scrollbar { display: none; }
+.sl-nav__link {
+  font-size: .78rem; font-weight: 600; padding: 6px 11px; border-radius: 6px;
+  color: var(--text-2); white-space: nowrap; transition: background .15s, color .15s;
+}
+.sl-nav__link:hover { background: var(--surface); color: var(--text); }
+.sl-nav__right {
+  display: flex; align-items: center; gap: 8px; margin-left: 12px; flex-shrink: 0;
+}
+.sl-theme-toggle {
+  background: var(--surface); border: 1px solid var(--border);
+  color: var(--text-2); width: 34px; height: 34px; border-radius: 8px;
+  font-size: 1rem; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  transition: background .15s, color .15s;
+}
+.sl-theme-toggle:hover { background: var(--surface-2); color: var(--text); }
+.sl-ham {
+  display: none; background: var(--surface); border: 1px solid var(--border);
+  color: var(--text); width: 34px; height: 34px; border-radius: 8px;
+  flex-direction: column; align-items: center; justify-content: center;
+  gap: 5px; padding: 0; cursor: pointer; flex-shrink: 0;
+}
+.sl-ham .bar {
+  width: 18px; height: 2px; background: currentColor;
+  border-radius: 2px; transition: transform .25s, opacity .2s;
+}
+.sl-ham.open .bar:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.sl-ham.open .bar:nth-child(2) { opacity: 0; }
+.sl-ham.open .bar:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+@media(max-width:768px) {
+  .sl-ham { display: flex; }
+  .sl-nav__links {
+    display: none; flex-direction: column; gap: 4px;
+    position: absolute; top: 58px; left: 0; right: 0;
+    background: var(--bg); border-bottom: 1px solid var(--border);
+    padding: 12px 16px; z-index: 999;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+  }
+  .sl-nav__links.open { display: flex; }
+  .sl-nav__link { padding: 10px 14px; font-size: .85rem; border-radius: 8px; }
+}
+/* ═══ ARTICLE LAYOUT ═══ */
+.sl-post-wrap { max-width: 760px; margin: 40px auto; padding: 0 24px 60px; }
+@media(max-width:600px) { .sl-post-wrap { padding: 0 16px 40px; margin-top: 24px; } }
+.sl-breadcrumb {
+  font-size: .75rem; color: var(--text-3); margin-bottom: 24px;
+  display: flex; align-items: center; gap: 6px;
+}
+.sl-breadcrumb a { color: var(--accent); }
+.sl-post-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 16px; }
+.sl-post-tag {
+  font-size: .68rem; font-weight: 700; padding: 4px 10px; border-radius: 5px;
+  background: var(--bg-3); color: var(--text-3);
+  letter-spacing: .05em; text-transform: uppercase;
+}
+.sl-post-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 900; line-height: 1.2; letter-spacing: -.02em;
+  color: var(--text); margin-bottom: 16px;
+}
+.sl-post-meta {
+  font-size: .8rem; color: var(--text-3); margin-bottom: 32px;
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+}
+.sl-post-meta .dot { color: var(--border-2); }
+.sl-post-img {
+  width: 100%; aspect-ratio: 16/9; object-fit: cover;
+  border-radius: var(--radius); margin-bottom: 8px;
+}
+.sl-post-credit {
+  font-size: .7rem; color: var(--text-3); margin-bottom: 36px; text-align: right;
+}
+.sl-post-credit a { color: var(--text-3); text-decoration: underline; }
+.sl-post-body { font-size: 1.05rem; line-height: 1.8; color: var(--text-2); }
+.sl-post-body h2 {
+  font-family: var(--font-display); font-size: 1.55rem; font-weight: 800;
+  color: var(--text); margin: 2.4em 0 .6em; line-height: 1.25;
+  padding-bottom: .4em; border-bottom: 1px solid var(--border);
+}
+.sl-post-body h3 {
+  font-family: var(--font-display); font-size: 1.2rem; font-weight: 700;
+  color: var(--text); margin: 1.8em 0 .5em; line-height: 1.3;
+}
+.sl-post-body p  { margin-bottom: 1.2em; }
+.sl-post-body ul, .sl-post-body ol { margin: 0 0 1.2em 1.4em; }
+.sl-post-body li { margin-bottom: .45em; }
+.sl-post-body strong { color: var(--text); font-weight: 700; }
+.sl-post-body blockquote {
+  border-left: 3px solid var(--accent); margin: 1.8em 0; padding: 14px 20px;
+  background: var(--surface); border-radius: 0 var(--radius) var(--radius) 0;
+  font-style: italic; color: var(--text-2);
+}
+.sl-post-body a { color: var(--accent); text-decoration: underline; text-decoration-color: rgba(99,102,241,.35); }
+.sl-post-body a:hover { text-decoration-color: var(--accent); }
+.sl-post-divider { border: none; border-top: 1px solid var(--border); margin: 2.5em 0; }
+.sl-post-footer {
+  display: flex; justify-content: space-between; align-items: center;
+  flex-wrap: wrap; gap: 12px; padding-top: 20px;
+}
+.sl-back-link {
+  font-size: .82rem; font-weight: 600; color: var(--accent);
+  display: inline-flex; align-items: center; gap: 6px;
+  border: 1px solid rgba(99,102,241,.3); padding: 8px 16px;
+  border-radius: 8px; transition: background .15s;
+}
+.sl-back-link:hover { background: var(--accent-glow); }
+/* Share */
+.sl-share { margin: 2.5rem 0 1.5rem; padding-top: 2rem; border-top: 1px solid var(--border); }
+.sl-share-label {
+  font-size: .72rem; text-transform: uppercase; letter-spacing: .1em;
+  color: var(--text-3); margin-bottom: 12px; font-weight: 700;
+}
+.sl-share-btns { display: flex; flex-wrap: wrap; gap: 8px; }
+.sl-share-btn {
+  display: inline-flex; align-items: center; gap: 7px;
+  padding: 8px 14px; border-radius: 7px; font-size: .82rem;
+  font-weight: 600; text-decoration: none; cursor: pointer;
+  border: none; font-family: inherit; transition: opacity .15s, transform .12s;
+}
+.sl-share-btn:hover { opacity: .85; transform: translateY(-1px); }
+.sl-share-x        { background: #000; color: #fff; }
+.sl-share-linkedin { background: #0a66c2; color: #fff; }
+.sl-share-facebook { background: #1877f2; color: #fff; }
+.sl-share-copy     { background: var(--surface-2); color: var(--text); border: 1px solid var(--border); }
+/* Footer */
+.sl-footer {
+  border-top: 1px solid var(--border); padding: 32px 24px; background: var(--bg-2);
+}
+.sl-footer__inner {
+  max-width: 1200px; margin: 0 auto;
+  display: flex; justify-content: space-between; align-items: flex-start;
+  flex-wrap: wrap; gap: 20px;
+}
+.sl-footer__brand {
+  font-family: var(--font-display); font-size: 1.4rem; font-weight: 900;
+}
+.sl-footer__brand span { color: var(--accent); }
+.sl-footer__tagline { font-size: .75rem; color: var(--text-3); margin-top: 4px; }
+.sl-footer__links { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 4px; }
+.sl-footer__links a {
+  font-size: .75rem; color: var(--text-2); padding: 4px 8px;
+  border-radius: 5px; transition: background .15s;
+}
+.sl-footer__links a:hover { background: var(--surface); color: var(--text); }
+.sl-footer__copy {
+  width: 100%; font-size: .72rem; color: var(--text-3);
+  border-top: 1px solid var(--border); padding-top: 14px; margin-top: 8px;
+}
+/* Legacy compat: hide old elements if present */
+.site-header, .site-footer, .nav-container, .nav-links,
+.post-footer > .back-link:not(.sl-back-link),
+.share-section, .image-credit { display: none !important; }
+  </style>
 </head>
 <body>
-  <header class="site-header">
-    <nav class="nav-container">
-      <a href="/" class="logo">Sujit<span>Luintel</span></a>
-      <div class="nav-links">
-        <a href="/">Home</a>
-        <a href="/#about">About</a>
+    <nav class="sl-nav" role="navigation" aria-label="Main navigation">
+    <div class="sl-nav__inner">
+      <a href="/" class="sl-nav__brand">Slui<span>ntel</span></a>
+      <div class="sl-nav__links" id="navLinks">
+        <a href="/#section-trending"      class="sl-nav__link">🔥 Trending</a>
+        <a href="/#section-ai-automation" class="sl-nav__link">🤖 AI</a>
+        <a href="/#section-sports"        class="sl-nav__link">⚽ Sports</a>
+        <a href="/#section-finance"       class="sl-nav__link">💰 Finance</a>
+        <a href="/#section-entertainment" class="sl-nav__link">🎬 Entertainment</a>
+        <a href="/#section-technology"    class="sl-nav__link">💻 Tech</a>
+        <a href="/#section-deep-dives"    class="sl-nav__link">🔍 Deep Dives</a>
+        <a href="/#section-all"           class="sl-nav__link">📰 All Posts</a>
+        <a href="/#about"                 class="sl-nav__link">About</a>
       </div>
-    </nav>
-  </header>
-  <main class="post-main">
-    <article class="post-article">
+      <div class="sl-nav__right">
+        <button class="sl-ham" id="hamBtn" aria-label="Toggle menu" aria-expanded="false">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+        <button class="sl-theme-toggle" id="themeToggle" aria-label="Toggle theme">◐</button>
+      </div>
+    </div>
+  </nav>
+  
+    <div class="sl-post-wrap">
       <div class="post-header">
-        <div class="post-meta-top"><span class="tag">AI in Football</span><span class="tag">La Liga</span><span class="tag">Football Analytics</span><span class="tag">Sports Tech</span><span class="tag">Mallorca vs Villarreal</span></div>
-        <h1 class="post-title">How AI is Changing Mallorca vs Villarreal in 2026: The Tactical Revolution</h1>
-        <div class="post-meta">
+        <div class="sl-post-tags"><span class="sl-post-tag">AI in Football</span><span class="sl-post-tag">La Liga</span><span class="sl-post-tag">Football Analytics</span><span class="sl-post-tag">Sports Tech</span><span class="sl-post-tag">Mallorca vs Villarreal</span></div>
+        <h1 class="sl-post-title">How AI is Changing Mallorca vs Villarreal in 2026: The Tactical Revolution</h1>
+        <div class="sl-post-meta">
           <span>📅 May 10, 2026</span>
           <span class="dot">·</span>
           <span>⏱ 7 min read</span>
         </div>
       </div>
-      <div class="post-feature-image">
-        <img src="https://images.pexels.com/photos/20870805/pexels-photo-20870805.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="How AI is Changing Mallorca vs Villarreal in 2026: The Tactical Revolution" loading="lazy"/>
-        <p class="image-credit">Photo by <a href="https://www.pexels.com/@solenfeyissa" target="_blank" rel="noopener">Solen Feyissa</a> on <a href="https://www.pexels.com" target="_blank" rel="noopener">Pexels</a></p>
+      <div style="margin-bottom:8px">
+        <img class="sl-post-img" src="https://images.pexels.com/photos/20870805/pexels-photo-20870805.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="How AI is Changing Mallorca vs Villarreal in 2026: The Tactical Revolution" loading="eager"/>
+        <p class="sl-post-credit">Photo by <a href="https://www.pexels.com/@solenfeyissa" target="_blank" rel="noopener">Solen Feyissa</a> on <a href="https://www.pexels.com" target="_blank" rel="noopener">Pexels</a></p>
       </div>
-      <div class="post-content">
+      <div class="sl-post-body">
         <p>Remember those nail-biting finishes where a single moment of genius, or madness, decided a match? The beautiful chaos of football is evolving. By 2026, the sidelines aren't just for managers; they're buzzing with AI-powered insights, turning gut feelings into calculated risks. You might think it's still about raw talent, but the truth is, artificial intelligence is reshaping everything from player conditioning to live tactical adjustments.</p><p>In this post, you'll discover exactly <strong>how AI is changing Mallorca vs Villarreal in 2026</strong>, exposing the invisible forces influencing every pass, tackle, and goal. Get ready to understand the future of La Liga, and why your favorite team's next victory might just be code-deep.</p><h2>Unpacking AI in Football: Why Mallorca vs Villarreal in 2026 Will Be Different</h2><p>AI in football applies advanced algorithms and machine learning to vast amounts of data—player performance, team tactics, match scenarios. It's not about robots playing, but creating an unparalleled analytical lens for coaches and analysts. This matters immensely in 2026 because competitive margins are razor-thin, and data-driven decisions offer a crucial edge, profoundly influencing outcomes like the Mallorca vs Villarreal fixture.</p><ul><li><strong>Unprecedented Data Analysis:</strong> AI sifts through terabytes of match data and biometrics in seconds, identifying hidden patterns.</li><li><strong>Predictive Tactical Planning:</strong> Models simulate scenarios, predicting opponent moves and suggesting optimal strategies before kick-off.</li><li><strong>Enhanced Player Development:</strong> Individualized training, injury prevention, and performance optimization are tailored by AI.</li><li><strong>Real-Time Strategic Adjustments:</strong> AI provides live insights, enabling coaches to make instant, data-backed substitutions and formation changes.</li></ul><h2>The Tactical Revolution: AI's Influence on Match Strategy</h2><p>The days of relying solely on a coach's intuition are fading. Today, AI acts as an invaluable strategic partner, refining match preparation and execution. For a clash like Mallorca vs Villarreal, understanding these shifts is crucial.</p><h3>Pre-Match Scouting Goes Deeper</h3><p>Before kick-off, AI systems dissect opponents by processing dozens of matches, identifying preferred passing lanes, defensive vulnerabilities, and individual player tendencies. This includes tracking every movement and shot accuracy. Teams know exactly where to press and how to exploit weaknesses.</p><h3>Live Game Management with Predictive Power</h3><p>Coaches now receive live alerts on optimal substitution timing, player fatigue, or goal probability based on tactical changes. AI assesses hundreds of in-game variables instantly. This allows faster, more confident reactions, a significant factor in <strong>how AI is changing Mallorca vs Villarreal in 2026</strong>. Both sides will leverage these systems.</p><ul><li>AI identifies subtle shifts in opponent formations within minutes.</li><li>It suggests specific player matchups to neutralize threats.</li><li>Predicts injury risk based on exertion.</li><li>Calculates effective set-piece routines.</li></ul><h3>Post-Match Analysis: Learning from Every Action</h3><p>After the whistle, AI tools break down every play, offering objective insights into what worked and didn't. This feedback loop is essential for continuous improvement and refining strategies. For more insights into how these analytical tools are transforming football, consider reading about <a href="/posts/2026-05-10-how-ai-is-changing-real-sociedad-vs-real-betis-in-2026.html">AI's influence in other La Liga matchups</a>.</p><h2>Decoding Player Performance: AI's Impact on Individual Talent</h2><p>Beyond team tactics, AI offers an unprecedented microscope into individual player performance. It provides a holistic view shaping training, transfers, and career longevity.</p><p>Here’s how AI provides a deep dive into individual talent:</p><ol><li><strong>Granular Skill Assessment:</strong> AI tracks hundreds of data points per player (pass completion under pressure, dribble success, defensive positioning) identifying subtle technique flaws for precise improvement.</li><li><strong>Fatigue and Injury Risk Prediction:</strong> Wearable tech and AI monitor biometric data (heart rate, sleep, training load) to predict fatigue or injury risk. Staff adjust training or rest players proactively, ensuring peak fitness for matches like Mallorca vs Villarreal.</li><li><strong>Personalized Training Regimens:</strong> Based on detailed performance and physiological data, AI generates highly individualized training plans, e.g., specific drills for a winger's crossing accuracy under fatigue.</li><li><strong>Opponent Matching and Weakness Exploitation:</strong> AI identifies specific opponent weaknesses (e.g., a Villarreal right-back pushing high), highlighting opportunities for Mallorca's winger to exploit space. It also helps protect your players.</li><li><strong>Talent Identification and Recruitment:</strong> AI models analyze potential recruits against vast databases, predicting integration into systems and projecting performance over seasons, reducing transfer risk.</li></ol><p>Individual battles win matches, and AI provides the toolkit for every player to perform at their absolute best. For a broader look at how AI influences sports performance, explore <a href="/posts/2026-05-10-how-ai-is-changing-verona-vs-como-in-2026.html">how AI is being adopted in other football leagues</a>.</p><h2>Beyond the Hype: Pro Tips for Leveraging AI in Football</h2><p>AI isn't a magic bullet; it's a powerful tool that requires smart application. Here's how top clubs, and aspiring analysts, truly make AI count.</p><ul><li><strong>Augment Human Intuition:</strong> The best results pair AI insights with experienced coaching staff. AI provides 'what,' human coaches provide 'why' and 'how' (psychology, team dynamics).</li><li><strong>Focus on Actionable Insights:</strong> Prioritize AI tools translating complex analytics into clear, concise, actionable recommendations, especially for real-time decision-making.</li><li><strong>Integrate Across Departments:</strong> Extend AI insights beyond coaching to medical, scouting, and marketing. This ensures consistency and a shared understanding of player and team status.</li><li><strong>Invest in Data Quality:</strong> AI accuracy directly depends on quality, consistent data from training, matches, and biometrics. This foundational element is often overlooked.</li><li><strong>Stay Agile and Adaptable:</strong> The AI landscape constantly evolves. Teams willing to experiment with new models and adapt workflows will maintain a competitive edge.</li></ul><h2>Essential AI Tools & Platforms for Football Analysis</h2><p>For those looking to dive deeper into the nuts and bolts of football analytics, several platforms are leading the charge in 2026, offering robust AI-powered solutions.</p><ul><li><strong>StatSport AI:</strong> Known for advanced GPS tracking and biometric data analysis, StatSport AI provides real-time player load and injury risk assessments, ideal for top-tier clubs focused on player welfare.</li><li><strong>Hudl Analytics Pro:</strong> This widely used platform integrates video analysis with AI-driven tagging and performance metrics, allowing coaches to quickly identify tactical patterns and individual player actions for tactical breakdowns.</li><li><strong>InStat AI:</strong> Offering one of the largest football databases globally, InStat AI uses machine learning to generate comprehensive statistical reports and video analysis across many leagues, excellent for deep-dive scouting and opposition analysis.</li><li><strong>Catapult Vector:</strong> A leader in athlete monitoring, Catapult Vector leverages AI to provide insights into speed, acceleration, and position data, alongside sophisticated post-match analysis for optimizing physical training.</li></ul><p>The narrative of football is undeniably shifting. The 2026 clash between Mallorca and Villarreal won't just be a test of skill and passion; it will be a testament to the tactical prowess enabled by artificial intelligence, fundamentally altering how teams prepare, play, and win. Embrace this technological wave, and you'll not only appreciate the beautiful game more but also gain a deeper understanding of its evolving strategies.</p>
       </div>
       
-      <div class="share-section">
-        <p class="share-label">Share this post</p>
-        <div class="share-buttons">
-          <a class="share-btn share-x"
+      <div class="sl-share">
+        <p class="sl-share-label">Share this post</p>
+        <div class="sl-share-btns">
+          <a class="sl-share-btn sl-share-x"
              href="https://twitter.com/intent/tweet?text=How%20AI%20is%20Changing%20Mallorca%20vs%20Villarreal%20in%202026%3A%20The%20Tactical%20Revolution&url=https%3A//sluintel.github.io/posts/2026-05-10-how-ai-is-changing-mallorca-vs-villarreal-in-2026.html"
              target="_blank" rel="noopener" aria-label="Share on X">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
@@ -101,7 +282,7 @@
             </svg>
             Share on X
           </a>
-          <a class="share-btn share-linkedin"
+          <a class="sl-share-btn sl-share-linkedin"
              href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//sluintel.github.io/posts/2026-05-10-how-ai-is-changing-mallorca-vs-villarreal-in-2026.html&title=How%20AI%20is%20Changing%20Mallorca%20vs%20Villarreal%20in%202026%3A%20The%20Tactical%20Revolution"
              target="_blank" rel="noopener" aria-label="Share on LinkedIn">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
@@ -109,7 +290,7 @@
             </svg>
             LinkedIn
           </a>
-          <a class="share-btn share-facebook"
+          <a class="sl-share-btn sl-share-facebook"
              href="https://www.facebook.com/sharer/sharer.php?u=https%3A//sluintel.github.io/posts/2026-05-10-how-ai-is-changing-mallorca-vs-villarreal-in-2026.html"
              target="_blank" rel="noopener" aria-label="Share on Facebook">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
@@ -117,7 +298,7 @@
             </svg>
             Facebook
           </a>
-          <button class="share-btn share-copy" onclick="copyLink()" aria-label="Copy link">
+          <button class="sl-share-btn sl-share-copy" onclick="copyLink()" aria-label="Copy link">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
               <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
@@ -126,24 +307,60 @@
           </button>
         </div>
       </div>
-      <script>
-        function copyLink() {
-          navigator.clipboard.writeText("https://sluintel.github.io/posts/2026-05-10-how-ai-is-changing-mallorca-vs-villarreal-in-2026.html").then(function() {
-            var el = document.getElementById("copy-label");
-            el.textContent = "Copied!";
-            setTimeout(function() { el.textContent = "Copy Link"; }, 2000);
-          });
-        }
-      </script>
-      <div class="post-footer">
-        <div class="post-tags"><strong>Tags:</strong> <span class="tag">AI in Football</span><span class="tag">La Liga</span><span class="tag">Football Analytics</span><span class="tag">Sports Tech</span><span class="tag">Mallorca vs Villarreal</span></div>
-        <a href="/" class="back-link">← Back to Home</a>
+      
+      <div class="sl-post-footer">
+        <div class="sl-post-tags"><strong>Tags:</strong> <span class="sl-post-tag">AI in Football</span><span class="sl-post-tag">La Liga</span><span class="sl-post-tag">Football Analytics</span><span class="sl-post-tag">Sports Tech</span><span class="sl-post-tag">Mallorca vs Villarreal</span></div>
+        <a href="/" class="sl-back-link">← Back to Home</a>
       </div>
-    </article>
-  </main>
-  <footer class="site-footer">
-    <p>© 2026 Sujit Luintel · AI Tools &amp; Automation Insights</p>
-    <p style="margin-top:.25rem;">Auto-published with AI · Powered by Gemini &amp; GitHub Actions</p>
+    </div>
+  </div>
+    <footer class="sl-footer">
+    <div class="sl-footer__inner">
+      <div>
+        <div class="sl-footer__brand">Slui<span>ntel</span></div>
+        <div class="sl-footer__tagline">AI-powered daily blog by Sujit Luintel · Kathmandu, Nepal</div>
+        <nav class="sl-footer__links" aria-label="Footer links">
+          <a href="/#section-ai-automation">🤖 AI</a>
+          <a href="/#section-sports">⚽ Sports</a>
+          <a href="/#section-finance">💰 Finance</a>
+          <a href="/#section-entertainment">🎬 Entertainment</a>
+          <a href="/#section-technology">💻 Tech</a>
+          <a href="/#section-trending">🔥 Trending</a>
+        </nav>
+      </div>
+      <p class="sl-footer__copy">© 2026 Sluintel · Content generated with AI · Auto-published via GitHub Actions</p>
+    </div>
   </footer>
+  <script>
+    (function(){var t=localStorage.getItem('sl-theme');if(!t)t=window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t);})();
+    document.getElementById('themeToggle').addEventListener('click',function(){
+      var next=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';
+      document.documentElement.setAttribute('data-theme',next);
+      localStorage.setItem('sl-theme',next);
+    });
+    var hamBtn=document.getElementById('hamBtn');
+    var navLinks=document.getElementById('navLinks');
+    if(hamBtn&&navLinks){
+      hamBtn.addEventListener('click',function(){
+        var open=navLinks.classList.toggle('open');
+        hamBtn.classList.toggle('open',open);
+        hamBtn.setAttribute('aria-expanded',String(open));
+      });
+      navLinks.querySelectorAll('.sl-nav__link').forEach(function(l){
+        l.addEventListener('click',function(){
+          navLinks.classList.remove('open');
+          hamBtn.classList.remove('open');
+          hamBtn.setAttribute('aria-expanded','false');
+        });
+      });
+      document.addEventListener('click',function(e){
+        if(!hamBtn.contains(e.target)&&!navLinks.contains(e.target)){
+          navLinks.classList.remove('open');
+          hamBtn.classList.remove('open');
+          hamBtn.setAttribute('aria-expanded','false');
+        }
+      });
+    }
+  </script>
 </body>
 </html>

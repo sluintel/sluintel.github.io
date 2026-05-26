@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -9,54 +9,312 @@
   <meta property="og:description" content="Uncover the top AI SEO tools of 2026. Discover how AI transforms keyword research, content optimization, and predictive analytics to dominate SERPs."/>
   <meta property="og:image" content="https://images.unsplash.com/photo-1750365919971-7dd273e7b317?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgxOTc1MzV8&ixlib=rb-4.1.0&q=80&w=1080"/>
   <meta property="og:type" content="article"/>
-  <link rel="stylesheet" href="../style.css"/>
+  
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <style>
+/* ═══ TOKENS ═══ */
+:root {
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body:    'DM Sans', system-ui, sans-serif;
+  --bg:           #0d0d0f; --bg-2: #141417; --bg-3: #1a1a1f;
+  --surface:      #1e1e24; --surface-2: #26262e;
+  --border:       rgba(255,255,255,0.08); --border-2: rgba(255,255,255,0.14);
+  --text:         #f0f0f4; --text-2: #a8a8b8; --text-3: #6b6b7d;
+  --accent:       #6366f1; --accent-2: #8b5cf6;
+  --accent-glow:  rgba(99,102,241,0.25);
+  --radius:       10px; --shadow: 0 4px 24px rgba(0,0,0,0.4);
+}
+[data-theme="light"] {
+  --bg: #f8f8fc; --bg-2: #f0f0f8; --bg-3: #e8e8f4;
+  --surface: #ffffff; --surface-2: #f4f4f9;
+  --border: rgba(0,0,0,0.08); --border-2: rgba(0,0,0,0.14);
+  --text: #0d0d1a; --text-2: #4a4a6a; --text-3: #8888aa;
+  --accent-glow: rgba(99,102,241,0.12);
+  --shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+/* ═══ RESET ═══ */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--font-body); background: var(--bg); color: var(--text); line-height: 1.7; }
+a    { color: inherit; text-decoration: none; }
+img  { display: block; max-width: 100%; }
+/* ═══ NAV ═══ */
+.sl-nav {
+  position: sticky; top: 0; z-index: 1000;
+  background: var(--bg); border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+}
+.sl-nav__inner {
+  max-width: 1200px; margin: 0 auto; display: flex; align-items: center;
+  padding: 0 24px; height: 58px; position: relative;
+}
+.sl-nav__brand {
+  font-family: var(--font-display); font-size: 1.4rem; font-weight: 900;
+  color: var(--text); white-space: nowrap; margin-right: 24px; flex-shrink: 0;
+}
+.sl-nav__brand span { color: var(--accent); }
+.sl-nav__links {
+  display: flex; align-items: center; gap: 2px; flex: 1;
+  overflow-x: auto; scrollbar-width: none;
+}
+.sl-nav__links::-webkit-scrollbar { display: none; }
+.sl-nav__link {
+  font-size: .78rem; font-weight: 600; padding: 6px 11px; border-radius: 6px;
+  color: var(--text-2); white-space: nowrap; transition: background .15s, color .15s;
+}
+.sl-nav__link:hover { background: var(--surface); color: var(--text); }
+.sl-nav__right {
+  display: flex; align-items: center; gap: 8px; margin-left: 12px; flex-shrink: 0;
+}
+.sl-theme-toggle {
+  background: var(--surface); border: 1px solid var(--border);
+  color: var(--text-2); width: 34px; height: 34px; border-radius: 8px;
+  font-size: 1rem; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  transition: background .15s, color .15s;
+}
+.sl-theme-toggle:hover { background: var(--surface-2); color: var(--text); }
+.sl-ham {
+  display: none; background: var(--surface); border: 1px solid var(--border);
+  color: var(--text); width: 34px; height: 34px; border-radius: 8px;
+  flex-direction: column; align-items: center; justify-content: center;
+  gap: 5px; padding: 0; cursor: pointer; flex-shrink: 0;
+}
+.sl-ham .bar {
+  width: 18px; height: 2px; background: currentColor;
+  border-radius: 2px; transition: transform .25s, opacity .2s;
+}
+.sl-ham.open .bar:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.sl-ham.open .bar:nth-child(2) { opacity: 0; }
+.sl-ham.open .bar:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+@media(max-width:768px) {
+  .sl-ham { display: flex; }
+  .sl-nav__links {
+    display: none; flex-direction: column; gap: 4px;
+    position: absolute; top: 58px; left: 0; right: 0;
+    background: var(--bg); border-bottom: 1px solid var(--border);
+    padding: 12px 16px; z-index: 999;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+  }
+  .sl-nav__links.open { display: flex; }
+  .sl-nav__link { padding: 10px 14px; font-size: .85rem; border-radius: 8px; }
+}
+/* ═══ ARTICLE LAYOUT ═══ */
+.sl-post-wrap { max-width: 760px; margin: 40px auto; padding: 0 24px 60px; }
+@media(max-width:600px) { .sl-post-wrap { padding: 0 16px 40px; margin-top: 24px; } }
+.sl-breadcrumb {
+  font-size: .75rem; color: var(--text-3); margin-bottom: 24px;
+  display: flex; align-items: center; gap: 6px;
+}
+.sl-breadcrumb a { color: var(--accent); }
+.sl-post-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 16px; }
+.sl-post-tag {
+  font-size: .68rem; font-weight: 700; padding: 4px 10px; border-radius: 5px;
+  background: var(--bg-3); color: var(--text-3);
+  letter-spacing: .05em; text-transform: uppercase;
+}
+.sl-post-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 900; line-height: 1.2; letter-spacing: -.02em;
+  color: var(--text); margin-bottom: 16px;
+}
+.sl-post-meta {
+  font-size: .8rem; color: var(--text-3); margin-bottom: 32px;
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+}
+.sl-post-meta .dot { color: var(--border-2); }
+.sl-post-img {
+  width: 100%; aspect-ratio: 16/9; object-fit: cover;
+  border-radius: var(--radius); margin-bottom: 8px;
+}
+.sl-post-credit {
+  font-size: .7rem; color: var(--text-3); margin-bottom: 36px; text-align: right;
+}
+.sl-post-credit a { color: var(--text-3); text-decoration: underline; }
+.sl-post-body { font-size: 1.05rem; line-height: 1.8; color: var(--text-2); }
+.sl-post-body h2 {
+  font-family: var(--font-display); font-size: 1.55rem; font-weight: 800;
+  color: var(--text); margin: 2.4em 0 .6em; line-height: 1.25;
+  padding-bottom: .4em; border-bottom: 1px solid var(--border);
+}
+.sl-post-body h3 {
+  font-family: var(--font-display); font-size: 1.2rem; font-weight: 700;
+  color: var(--text); margin: 1.8em 0 .5em; line-height: 1.3;
+}
+.sl-post-body p  { margin-bottom: 1.2em; }
+.sl-post-body ul, .sl-post-body ol { margin: 0 0 1.2em 1.4em; }
+.sl-post-body li { margin-bottom: .45em; }
+.sl-post-body strong { color: var(--text); font-weight: 700; }
+.sl-post-body blockquote {
+  border-left: 3px solid var(--accent); margin: 1.8em 0; padding: 14px 20px;
+  background: var(--surface); border-radius: 0 var(--radius) var(--radius) 0;
+  font-style: italic; color: var(--text-2);
+}
+.sl-post-body a { color: var(--accent); text-decoration: underline; text-decoration-color: rgba(99,102,241,.35); }
+.sl-post-body a:hover { text-decoration-color: var(--accent); }
+.sl-post-divider { border: none; border-top: 1px solid var(--border); margin: 2.5em 0; }
+.sl-post-footer {
+  display: flex; justify-content: space-between; align-items: center;
+  flex-wrap: wrap; gap: 12px; padding-top: 20px;
+}
+.sl-back-link {
+  font-size: .82rem; font-weight: 600; color: var(--accent);
+  display: inline-flex; align-items: center; gap: 6px;
+  border: 1px solid rgba(99,102,241,.3); padding: 8px 16px;
+  border-radius: 8px; transition: background .15s;
+}
+.sl-back-link:hover { background: var(--accent-glow); }
+/* Share */
+.sl-share { margin: 2.5rem 0 1.5rem; padding-top: 2rem; border-top: 1px solid var(--border); }
+.sl-share-label {
+  font-size: .72rem; text-transform: uppercase; letter-spacing: .1em;
+  color: var(--text-3); margin-bottom: 12px; font-weight: 700;
+}
+.sl-share-btns { display: flex; flex-wrap: wrap; gap: 8px; }
+.sl-share-btn {
+  display: inline-flex; align-items: center; gap: 7px;
+  padding: 8px 14px; border-radius: 7px; font-size: .82rem;
+  font-weight: 600; text-decoration: none; cursor: pointer;
+  border: none; font-family: inherit; transition: opacity .15s, transform .12s;
+}
+.sl-share-btn:hover { opacity: .85; transform: translateY(-1px); }
+.sl-share-x        { background: #000; color: #fff; }
+.sl-share-linkedin { background: #0a66c2; color: #fff; }
+.sl-share-facebook { background: #1877f2; color: #fff; }
+.sl-share-copy     { background: var(--surface-2); color: var(--text); border: 1px solid var(--border); }
+/* Footer */
+.sl-footer {
+  border-top: 1px solid var(--border); padding: 32px 24px; background: var(--bg-2);
+}
+.sl-footer__inner {
+  max-width: 1200px; margin: 0 auto;
+  display: flex; justify-content: space-between; align-items: flex-start;
+  flex-wrap: wrap; gap: 20px;
+}
+.sl-footer__brand {
+  font-family: var(--font-display); font-size: 1.4rem; font-weight: 900;
+}
+.sl-footer__brand span { color: var(--accent); }
+.sl-footer__tagline { font-size: .75rem; color: var(--text-3); margin-top: 4px; }
+.sl-footer__links { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 4px; }
+.sl-footer__links a {
+  font-size: .75rem; color: var(--text-2); padding: 4px 8px;
+  border-radius: 5px; transition: background .15s;
+}
+.sl-footer__links a:hover { background: var(--surface); color: var(--text); }
+.sl-footer__copy {
+  width: 100%; font-size: .72rem; color: var(--text-3);
+  border-top: 1px solid var(--border); padding-top: 14px; margin-top: 8px;
+}
+/* Legacy compat: hide old elements if present */
+.site-header, .site-footer, .nav-container, .nav-links,
+.post-footer > .back-link:not(.sl-back-link),
+.share-section, .image-credit { display: none !important; }
+  </style>
 </head>
 <body>
-  <header class="site-header">
-    <nav class="nav-container">
-      <a href="/" class="logo">Sujit<span>Luintel</span></a>
-      <div class="nav-links">
-        <a href="/">Home</a>
-        <a href="/#about">About</a>
+    <nav class="sl-nav" role="navigation" aria-label="Main navigation">
+    <div class="sl-nav__inner">
+      <a href="/" class="sl-nav__brand">Slui<span>ntel</span></a>
+      <div class="sl-nav__links" id="navLinks">
+        <a href="/#section-trending"      class="sl-nav__link">🔥 Trending</a>
+        <a href="/#section-ai-automation" class="sl-nav__link">🤖 AI</a>
+        <a href="/#section-sports"        class="sl-nav__link">⚽ Sports</a>
+        <a href="/#section-finance"       class="sl-nav__link">💰 Finance</a>
+        <a href="/#section-entertainment" class="sl-nav__link">🎬 Entertainment</a>
+        <a href="/#section-technology"    class="sl-nav__link">💻 Tech</a>
+        <a href="/#section-deep-dives"    class="sl-nav__link">🔍 Deep Dives</a>
+        <a href="/#section-all"           class="sl-nav__link">📰 All Posts</a>
+        <a href="/#about"                 class="sl-nav__link">About</a>
       </div>
-    </nav>
-  </header>
+      <div class="sl-nav__right">
+        <button class="sl-ham" id="hamBtn" aria-label="Toggle menu" aria-expanded="false">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+        <button class="sl-theme-toggle" id="themeToggle" aria-label="Toggle theme">◐</button>
+      </div>
+    </div>
+  </nav>
 
-  <main class="post-main">
-    <article class="post-article">
+  
+    <div class="sl-post-wrap">
 
       <div class="post-header">
-        <div class="post-meta-top"><span class="tag">AI SEO</span><span class="tag">SEO tools</span><span class="tag">future of SEO</span><span class="tag">AI automation</span><span class="tag">content marketing</span><span class="tag">digital marketing</span><span class="tag">predictive analytics</span><span class="tag">SERP dominance</span></div>
-        <h1 class="post-title">AI SEO Tools 2026: Outrank, Outsmart, Outperform</h1>
-        <div class="post-meta">
+        <div class="sl-post-tags"><span class="sl-post-tag">AI SEO</span><span class="sl-post-tag">SEO tools</span><span class="sl-post-tag">future of SEO</span><span class="sl-post-tag">AI automation</span><span class="sl-post-tag">content marketing</span><span class="sl-post-tag">digital marketing</span><span class="sl-post-tag">predictive analytics</span><span class="sl-post-tag">SERP dominance</span></div>
+        <h1 class="sl-post-title">AI SEO Tools 2026: Outrank, Outsmart, Outperform</h1>
+        <div class="sl-post-meta">
           <span>📅 May 07, 2026</span>
           <span class="dot">·</span>
           <span>⏱ 6 min read</span>
         </div>
       </div>
 
-      <div class="post-feature-image">
-        <img src="https://images.unsplash.com/photo-1750365919971-7dd273e7b317?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgxOTc1MzV8&ixlib=rb-4.1.0&q=80&w=1080" alt="AI SEO Tools 2026: Outrank, Outsmart, Outperform" loading="lazy"/>
-        <p class="image-credit">Photo by <a href="https://unsplash.com/photos/ai-brain-inside-a-lightbulb-illustrates-an-idea-zips8ILZd04?utm_source=sluintel&utm_medium=referral" target="_blank" rel="noopener">Omar:. Lopez-Rincon</a> on <a href="https://unsplash.com?utm_source=sluintel&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a></p>
+      <div style="margin-bottom:8px">
+        <img class="sl-post-img" src="https://images.unsplash.com/photo-1750365919971-7dd273e7b317?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgxOTc1MzV8&ixlib=rb-4.1.0&q=80&w=1080" alt="AI SEO Tools 2026: Outrank, Outsmart, Outperform" loading="eager"/>
+        <p class="sl-post-credit">Photo by <a href="https://unsplash.com/photos/ai-brain-inside-a-lightbulb-illustrates-an-idea-zips8ILZd04?utm_source=sluintel&utm_medium=referral" target="_blank" rel="noopener">Omar:. Lopez-Rincon</a> on <a href="https://unsplash.com?utm_source=sluintel&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a></p>
       </div>
 
-      <div class="post-content">
+      <div class="sl-post-body">
         <p>Welcome to 2026, where the landscape of search engine optimization has been irrevocably reshaped by artificial intelligence. If you're still relying solely on manual keyword research and reactive content strategies, you're not just falling behind; you're already in the rearview mirror. The truth is, AI isn't just a helper anymore; it's the co-pilot, the strategist, and often, the engine driving your SEO success. As an expert tech blogger immersed in the world of AI and automation, I've seen firsthand how these tools are evolving at breakneck speed.</p><p>The shift from rudimentary AI assistance to deeply integrated, autonomous AI SEO platforms is complete. These aren't just fancy plugins; they're comprehensive systems designed to give you an unfair advantage in the ever-fiercer battle for SERP dominance. Forget guessing; AI SEO tools in 2026 predict, personalize, and perform with an efficiency humans simply cannot match. Let's dive into the top capabilities and types of AI SEO tools that will define the winners and losers of the digital age.</p><h2>The Rise of Predictive SEO & Algorithm Anticipation</h2><p>One of the most profound evolutions in AI SEO has been the leap from reactive analysis to proactive prediction. In 2026, the best AI SEO tools aren't just telling you what <em>has happened</em>; they're telling you what <em>will happen</em>. This predictive capability is a game-changer.</p><ul><li><strong>Algorithm Forecasting:</strong> Advanced AI models constantly analyze algorithm updates from major search engines, identifying patterns and predicting future changes before they're officially announced. This allows for strategic adjustments to content and technical SEO *ahead* of the curve, minimizing negative impact.</li><li><strong>Trend & Niche Identification:</strong> AI now scours vast datasets – social media trends, news cycles, search queries, competitor moves – to spot emerging topics and lucrative niches long before they hit peak popularity. Imagine creating authority content around a topic months before your competitors even realize it's trending.</li><li><strong>SERP Volatility Prediction:</strong> These tools can forecast when specific SERPs are likely to become more volatile or stable, helping SEOs decide when to invest heavily in a certain keyword or pivot to a more secure one.</li></ul><p>My take? If your AI isn't predicting, it's merely reporting. The ability to anticipate gives you the strategic lead needed in 2026's competitive environment.</p><h2>Hyper-Personalized Content Generation & Optimization</h2><p>Content is still king, but in 2026, it's a king with a bespoke tailor. Generic, mass-produced content is practically invisible. AI SEO tools have mastered the art of creating and optimizing content that speaks directly to individual user intent and persona, at scale.</p><ul><li><strong>Audience-Centric Content Briefs:</strong> Beyond just keywords, AI generates comprehensive content briefs that detail target audience psychology, semantic gaps, optimal word count, tone of voice, and even preferred content formats (video, interactive, long-form text) based on real-time user data.</li><li><strong>Real-time Content Adaptation:</strong> Imagine your website's content dynamically adjusting based on the visitor's location, previous search history, or even device type. AI tools enable this, optimizing for conversion and engagement on the fly.</li><li><strong>Semantic & Entity Optimization:</strong> AI delves deep into semantic relationships, ensuring your content doesn't just use keywords but truly understands and covers the entire topic comprehensively. It identifies and optimizes for entities (people, places, things) within your content, boosting authority and relevance.</li></ul><p>This isn't just about writing faster; it's about writing <em>smarter</em>, ensuring every piece of content resonates deeply with its intended audience, maximizing its organic reach and impact.</p><h2>AI-Powered Technical SEO & Schema Automation</h2><p>Technical SEO often feels like a necessary evil – complex, time-consuming, and prone to human error. But in 2026, AI has largely automated and perfected these critical tasks, freeing up SEOs for more strategic endeavors.</p><ul><li><strong>Autonomous Technical Audits & Fixes:</strong> AI tools continuously monitor your site for technical issues (crawl errors, broken links, Core Web Vitals performance, indexing problems) and, crucially, can often generate or even *implement* fixes directly or through integration with your CMS.</li><li><strong>Intelligent Schema Markup Generation:</strong> Manual schema implementation is largely a thing of the past. AI automatically generates and updates highly specific, accurate schema markup for every page, ensuring rich snippets and enhanced visibility in SERPs.</li><li><strong>Optimized Internal Linking Structures:</strong> AI analyzes user journeys, content relationships, and link equity to suggest or automatically implement optimal internal linking strategies, improving crawlability, user experience, and page authority distribution.</li></ul><p>The beauty here is efficiency and precision. AI ensures your site's foundation is rock-solid, continuously optimized for peak performance without constant manual oversight.</p><h2>Next-Gen Link Building & Digital PR with AI</h2><p>Link building remains a cornerstone of SEO, but its evolution under AI is profound. Forget spammy outreach; 2026's AI tools are all about precision, relevance, and building genuine digital relationships at scale.</p><ul><li><strong>Hyper-Targeted Prospecting:</strong> AI identifies highly relevant, authoritative websites and influencers within your niche, going beyond simple domain authority metrics to assess true topical relevance, audience overlap, and historical linking patterns.</li><li><strong>Automated, Personalized Outreach:</strong> No more generic email templates. AI crafts unique, highly personalized outreach messages for each prospect, dynamically referencing their content, recent activities, or shared interests, drastically improving response rates.</li><li><strong>Competitive Link Gap Analysis:</strong> AI doesn't just show you competitor backlinks; it identifies *unclaimed opportunities* – high-quality sites linking to multiple competitors but not yet to you, presenting prime targets for outreach.</li></ul><p>This approach transforms link building from a tedious chore into a strategic, data-driven campaign, ensuring every link earned is of maximum value.</p><h2>Multimodal & Voice Search Optimization</h2><p>With the proliferation of smart speakers, visual search, and immersive technologies, search is no longer just text-based. AI SEO tools in 2026 are crucial for dominating this evolving search landscape.</p><ul><li><strong>Conversational Query Optimization:</strong> AI analyzes vast amounts of voice search data to understand natural language patterns, common questions, and conversational intent, helping optimize content for long-tail, conversational queries.</li><li><strong>Visual & Multimodal Search Readiness:</strong> These tools assist in optimizing images, videos, and even 3D models with appropriate metadata, alt text, and contextual information, making them discoverable through visual and multimodal search engines.</li><li><strong>Local & Geo-Targeted Optimization:</strong> AI leverages real-time location data and local search patterns to refine hyper-local content strategies, ensuring businesses appear prominently in 'near me' searches and location-specific queries.</li></ul><p>Ignoring multimodal search is akin to ignoring mobile optimization a decade ago. AI ensures you're discoverable wherever and however users are searching.</p><h2>The Future is Now: Embrace AI SEO</h2><p>The future of SEO isn't coming; it's here, and it's powered by AI. In 2026, the best AI SEO tools aren't just about incremental gains; they're about fundamental shifts in how we understand, execute, and dominate search. From predicting market shifts to hyper-personalizing content, automating technical complexities, and building high-quality digital relationships, AI is the strategic partner every serious marketer needs.</p><p>My advice? Start exploring and integrating these capabilities into your strategy now. Don't wait to be left behind. The companies that embrace AI SEO today will be the undisputed leaders of tomorrow. Invest in platforms that offer these advanced features, train your teams to work alongside AI, and prepare to elevate your SEO game to unprecedented levels. The competitive edge is sharp, and it's forged by AI.</p>
       </div>
 
-      <div class="post-footer">
-        <div class="post-tags"><strong>Tags:</strong> <span class="tag">AI SEO</span><span class="tag">SEO tools</span><span class="tag">future of SEO</span><span class="tag">AI automation</span><span class="tag">content marketing</span><span class="tag">digital marketing</span><span class="tag">predictive analytics</span><span class="tag">SERP dominance</span></div>
-        <a href="/" class="back-link">← Back to Home</a>
+      <div class="sl-post-footer">
+        <div class="sl-post-tags"><strong>Tags:</strong> <span class="sl-post-tag">AI SEO</span><span class="sl-post-tag">SEO tools</span><span class="sl-post-tag">future of SEO</span><span class="sl-post-tag">AI automation</span><span class="sl-post-tag">content marketing</span><span class="sl-post-tag">digital marketing</span><span class="sl-post-tag">predictive analytics</span><span class="sl-post-tag">SERP dominance</span></div>
+        <a href="/" class="sl-back-link">← Back to Home</a>
       </div>
 
-    </article>
-  </main>
+    </div>
+  </div>
 
-  <footer class="site-footer">
-    <p>© 2026 SluIntel · AI Tools &amp; Automation Insights</p>
-    <p style="margin-top:.25rem;">Auto-published with AI · Powered by Gemini &amp; GitHub Actions</p>
+    <footer class="sl-footer">
+    <div class="sl-footer__inner">
+      <div>
+        <div class="sl-footer__brand">Slui<span>ntel</span></div>
+        <div class="sl-footer__tagline">AI-powered daily blog by Sujit Luintel · Kathmandu, Nepal</div>
+        <nav class="sl-footer__links" aria-label="Footer links">
+          <a href="/#section-ai-automation">🤖 AI</a>
+          <a href="/#section-sports">⚽ Sports</a>
+          <a href="/#section-finance">💰 Finance</a>
+          <a href="/#section-entertainment">🎬 Entertainment</a>
+          <a href="/#section-technology">💻 Tech</a>
+          <a href="/#section-trending">🔥 Trending</a>
+        </nav>
+      </div>
+      <p class="sl-footer__copy">© 2026 Sluintel · Content generated with AI · Auto-published via GitHub Actions</p>
+    </div>
   </footer>
+  <script>
+    (function(){var t=localStorage.getItem('sl-theme');if(!t)t=window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t);})();
+    document.getElementById('themeToggle').addEventListener('click',function(){
+      var next=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';
+      document.documentElement.setAttribute('data-theme',next);
+      localStorage.setItem('sl-theme',next);
+    });
+    var hamBtn=document.getElementById('hamBtn');
+    var navLinks=document.getElementById('navLinks');
+    if(hamBtn&&navLinks){
+      hamBtn.addEventListener('click',function(){
+        var open=navLinks.classList.toggle('open');
+        hamBtn.classList.toggle('open',open);
+        hamBtn.setAttribute('aria-expanded',String(open));
+      });
+      navLinks.querySelectorAll('.sl-nav__link').forEach(function(l){
+        l.addEventListener('click',function(){
+          navLinks.classList.remove('open');
+          hamBtn.classList.remove('open');
+          hamBtn.setAttribute('aria-expanded','false');
+        });
+      });
+      document.addEventListener('click',function(e){
+        if(!hamBtn.contains(e.target)&&!navLinks.contains(e.target)){
+          navLinks.classList.remove('open');
+          hamBtn.classList.remove('open');
+          hamBtn.setAttribute('aria-expanded','false');
+        }
+      });
+    }
+  </script>
 </body>
 </html>

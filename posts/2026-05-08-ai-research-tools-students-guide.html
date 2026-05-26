@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -9,54 +9,312 @@
   <meta property="og:description" content="Supercharge your studies with AI research tools! Discover the best AI platforms for literature review, data analysis, and writing to ace your assignments."/>
   <meta property="og:image" content="https://images.unsplash.com/photo-1758691462668-046fd85ceac9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyMjI2MzN8&ixlib=rb-4.1.0&q=80&w=1080"/>
   <meta property="og:type" content="article"/>
-  <link rel="stylesheet" href="../style.css"/>
+  
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <style>
+/* ═══ TOKENS ═══ */
+:root {
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body:    'DM Sans', system-ui, sans-serif;
+  --bg:           #0d0d0f; --bg-2: #141417; --bg-3: #1a1a1f;
+  --surface:      #1e1e24; --surface-2: #26262e;
+  --border:       rgba(255,255,255,0.08); --border-2: rgba(255,255,255,0.14);
+  --text:         #f0f0f4; --text-2: #a8a8b8; --text-3: #6b6b7d;
+  --accent:       #6366f1; --accent-2: #8b5cf6;
+  --accent-glow:  rgba(99,102,241,0.25);
+  --radius:       10px; --shadow: 0 4px 24px rgba(0,0,0,0.4);
+}
+[data-theme="light"] {
+  --bg: #f8f8fc; --bg-2: #f0f0f8; --bg-3: #e8e8f4;
+  --surface: #ffffff; --surface-2: #f4f4f9;
+  --border: rgba(0,0,0,0.08); --border-2: rgba(0,0,0,0.14);
+  --text: #0d0d1a; --text-2: #4a4a6a; --text-3: #8888aa;
+  --accent-glow: rgba(99,102,241,0.12);
+  --shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+/* ═══ RESET ═══ */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--font-body); background: var(--bg); color: var(--text); line-height: 1.7; }
+a    { color: inherit; text-decoration: none; }
+img  { display: block; max-width: 100%; }
+/* ═══ NAV ═══ */
+.sl-nav {
+  position: sticky; top: 0; z-index: 1000;
+  background: var(--bg); border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+}
+.sl-nav__inner {
+  max-width: 1200px; margin: 0 auto; display: flex; align-items: center;
+  padding: 0 24px; height: 58px; position: relative;
+}
+.sl-nav__brand {
+  font-family: var(--font-display); font-size: 1.4rem; font-weight: 900;
+  color: var(--text); white-space: nowrap; margin-right: 24px; flex-shrink: 0;
+}
+.sl-nav__brand span { color: var(--accent); }
+.sl-nav__links {
+  display: flex; align-items: center; gap: 2px; flex: 1;
+  overflow-x: auto; scrollbar-width: none;
+}
+.sl-nav__links::-webkit-scrollbar { display: none; }
+.sl-nav__link {
+  font-size: .78rem; font-weight: 600; padding: 6px 11px; border-radius: 6px;
+  color: var(--text-2); white-space: nowrap; transition: background .15s, color .15s;
+}
+.sl-nav__link:hover { background: var(--surface); color: var(--text); }
+.sl-nav__right {
+  display: flex; align-items: center; gap: 8px; margin-left: 12px; flex-shrink: 0;
+}
+.sl-theme-toggle {
+  background: var(--surface); border: 1px solid var(--border);
+  color: var(--text-2); width: 34px; height: 34px; border-radius: 8px;
+  font-size: 1rem; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  transition: background .15s, color .15s;
+}
+.sl-theme-toggle:hover { background: var(--surface-2); color: var(--text); }
+.sl-ham {
+  display: none; background: var(--surface); border: 1px solid var(--border);
+  color: var(--text); width: 34px; height: 34px; border-radius: 8px;
+  flex-direction: column; align-items: center; justify-content: center;
+  gap: 5px; padding: 0; cursor: pointer; flex-shrink: 0;
+}
+.sl-ham .bar {
+  width: 18px; height: 2px; background: currentColor;
+  border-radius: 2px; transition: transform .25s, opacity .2s;
+}
+.sl-ham.open .bar:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.sl-ham.open .bar:nth-child(2) { opacity: 0; }
+.sl-ham.open .bar:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+@media(max-width:768px) {
+  .sl-ham { display: flex; }
+  .sl-nav__links {
+    display: none; flex-direction: column; gap: 4px;
+    position: absolute; top: 58px; left: 0; right: 0;
+    background: var(--bg); border-bottom: 1px solid var(--border);
+    padding: 12px 16px; z-index: 999;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+  }
+  .sl-nav__links.open { display: flex; }
+  .sl-nav__link { padding: 10px 14px; font-size: .85rem; border-radius: 8px; }
+}
+/* ═══ ARTICLE LAYOUT ═══ */
+.sl-post-wrap { max-width: 760px; margin: 40px auto; padding: 0 24px 60px; }
+@media(max-width:600px) { .sl-post-wrap { padding: 0 16px 40px; margin-top: 24px; } }
+.sl-breadcrumb {
+  font-size: .75rem; color: var(--text-3); margin-bottom: 24px;
+  display: flex; align-items: center; gap: 6px;
+}
+.sl-breadcrumb a { color: var(--accent); }
+.sl-post-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 16px; }
+.sl-post-tag {
+  font-size: .68rem; font-weight: 700; padding: 4px 10px; border-radius: 5px;
+  background: var(--bg-3); color: var(--text-3);
+  letter-spacing: .05em; text-transform: uppercase;
+}
+.sl-post-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 900; line-height: 1.2; letter-spacing: -.02em;
+  color: var(--text); margin-bottom: 16px;
+}
+.sl-post-meta {
+  font-size: .8rem; color: var(--text-3); margin-bottom: 32px;
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+}
+.sl-post-meta .dot { color: var(--border-2); }
+.sl-post-img {
+  width: 100%; aspect-ratio: 16/9; object-fit: cover;
+  border-radius: var(--radius); margin-bottom: 8px;
+}
+.sl-post-credit {
+  font-size: .7rem; color: var(--text-3); margin-bottom: 36px; text-align: right;
+}
+.sl-post-credit a { color: var(--text-3); text-decoration: underline; }
+.sl-post-body { font-size: 1.05rem; line-height: 1.8; color: var(--text-2); }
+.sl-post-body h2 {
+  font-family: var(--font-display); font-size: 1.55rem; font-weight: 800;
+  color: var(--text); margin: 2.4em 0 .6em; line-height: 1.25;
+  padding-bottom: .4em; border-bottom: 1px solid var(--border);
+}
+.sl-post-body h3 {
+  font-family: var(--font-display); font-size: 1.2rem; font-weight: 700;
+  color: var(--text); margin: 1.8em 0 .5em; line-height: 1.3;
+}
+.sl-post-body p  { margin-bottom: 1.2em; }
+.sl-post-body ul, .sl-post-body ol { margin: 0 0 1.2em 1.4em; }
+.sl-post-body li { margin-bottom: .45em; }
+.sl-post-body strong { color: var(--text); font-weight: 700; }
+.sl-post-body blockquote {
+  border-left: 3px solid var(--accent); margin: 1.8em 0; padding: 14px 20px;
+  background: var(--surface); border-radius: 0 var(--radius) var(--radius) 0;
+  font-style: italic; color: var(--text-2);
+}
+.sl-post-body a { color: var(--accent); text-decoration: underline; text-decoration-color: rgba(99,102,241,.35); }
+.sl-post-body a:hover { text-decoration-color: var(--accent); }
+.sl-post-divider { border: none; border-top: 1px solid var(--border); margin: 2.5em 0; }
+.sl-post-footer {
+  display: flex; justify-content: space-between; align-items: center;
+  flex-wrap: wrap; gap: 12px; padding-top: 20px;
+}
+.sl-back-link {
+  font-size: .82rem; font-weight: 600; color: var(--accent);
+  display: inline-flex; align-items: center; gap: 6px;
+  border: 1px solid rgba(99,102,241,.3); padding: 8px 16px;
+  border-radius: 8px; transition: background .15s;
+}
+.sl-back-link:hover { background: var(--accent-glow); }
+/* Share */
+.sl-share { margin: 2.5rem 0 1.5rem; padding-top: 2rem; border-top: 1px solid var(--border); }
+.sl-share-label {
+  font-size: .72rem; text-transform: uppercase; letter-spacing: .1em;
+  color: var(--text-3); margin-bottom: 12px; font-weight: 700;
+}
+.sl-share-btns { display: flex; flex-wrap: wrap; gap: 8px; }
+.sl-share-btn {
+  display: inline-flex; align-items: center; gap: 7px;
+  padding: 8px 14px; border-radius: 7px; font-size: .82rem;
+  font-weight: 600; text-decoration: none; cursor: pointer;
+  border: none; font-family: inherit; transition: opacity .15s, transform .12s;
+}
+.sl-share-btn:hover { opacity: .85; transform: translateY(-1px); }
+.sl-share-x        { background: #000; color: #fff; }
+.sl-share-linkedin { background: #0a66c2; color: #fff; }
+.sl-share-facebook { background: #1877f2; color: #fff; }
+.sl-share-copy     { background: var(--surface-2); color: var(--text); border: 1px solid var(--border); }
+/* Footer */
+.sl-footer {
+  border-top: 1px solid var(--border); padding: 32px 24px; background: var(--bg-2);
+}
+.sl-footer__inner {
+  max-width: 1200px; margin: 0 auto;
+  display: flex; justify-content: space-between; align-items: flex-start;
+  flex-wrap: wrap; gap: 20px;
+}
+.sl-footer__brand {
+  font-family: var(--font-display); font-size: 1.4rem; font-weight: 900;
+}
+.sl-footer__brand span { color: var(--accent); }
+.sl-footer__tagline { font-size: .75rem; color: var(--text-3); margin-top: 4px; }
+.sl-footer__links { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 4px; }
+.sl-footer__links a {
+  font-size: .75rem; color: var(--text-2); padding: 4px 8px;
+  border-radius: 5px; transition: background .15s;
+}
+.sl-footer__links a:hover { background: var(--surface); color: var(--text); }
+.sl-footer__copy {
+  width: 100%; font-size: .72rem; color: var(--text-3);
+  border-top: 1px solid var(--border); padding-top: 14px; margin-top: 8px;
+}
+/* Legacy compat: hide old elements if present */
+.site-header, .site-footer, .nav-container, .nav-links,
+.post-footer > .back-link:not(.sl-back-link),
+.share-section, .image-credit { display: none !important; }
+  </style>
 </head>
 <body>
-  <header class="site-header">
-    <nav class="nav-container">
-      <a href="/" class="logo">Sujit<span>Luintel</span></a>
-      <div class="nav-links">
-        <a href="/">Home</a>
-        <a href="/#about">About</a>
+    <nav class="sl-nav" role="navigation" aria-label="Main navigation">
+    <div class="sl-nav__inner">
+      <a href="/" class="sl-nav__brand">Slui<span>ntel</span></a>
+      <div class="sl-nav__links" id="navLinks">
+        <a href="/#section-trending"      class="sl-nav__link">🔥 Trending</a>
+        <a href="/#section-ai-automation" class="sl-nav__link">🤖 AI</a>
+        <a href="/#section-sports"        class="sl-nav__link">⚽ Sports</a>
+        <a href="/#section-finance"       class="sl-nav__link">💰 Finance</a>
+        <a href="/#section-entertainment" class="sl-nav__link">🎬 Entertainment</a>
+        <a href="/#section-technology"    class="sl-nav__link">💻 Tech</a>
+        <a href="/#section-deep-dives"    class="sl-nav__link">🔍 Deep Dives</a>
+        <a href="/#section-all"           class="sl-nav__link">📰 All Posts</a>
+        <a href="/#about"                 class="sl-nav__link">About</a>
       </div>
-    </nav>
-  </header>
+      <div class="sl-nav__right">
+        <button class="sl-ham" id="hamBtn" aria-label="Toggle menu" aria-expanded="false">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+        <button class="sl-theme-toggle" id="themeToggle" aria-label="Toggle theme">◐</button>
+      </div>
+    </div>
+  </nav>
 
-  <main class="post-main">
-    <article class="post-article">
+  
+    <div class="sl-post-wrap">
 
       <div class="post-header">
-        <div class="post-meta-top"><span class="tag">AI Tools</span><span class="tag">Student Productivity</span><span class="tag">Academic Research</span><span class="tag">Study Hacks</span><span class="tag">Automation</span><span class="tag">AI for Education</span></div>
-        <h1 class="post-title">AI Research Tools: Student's Guide to Smarter Studies</h1>
-        <div class="post-meta">
+        <div class="sl-post-tags"><span class="sl-post-tag">AI Tools</span><span class="sl-post-tag">Student Productivity</span><span class="sl-post-tag">Academic Research</span><span class="sl-post-tag">Study Hacks</span><span class="sl-post-tag">Automation</span><span class="sl-post-tag">AI for Education</span></div>
+        <h1 class="sl-post-title">AI Research Tools: Student's Guide to Smarter Studies</h1>
+        <div class="sl-post-meta">
           <span>📅 May 08, 2026</span>
           <span class="dot">·</span>
           <span>⏱ 6 min read</span>
         </div>
       </div>
 
-      <div class="post-feature-image">
-        <img src="https://images.unsplash.com/photo-1758691462668-046fd85ceac9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyMjI2MzN8&ixlib=rb-4.1.0&q=80&w=1080" alt="AI Research Tools: Student's Guide to Smarter Studies" loading="lazy"/>
-        <p class="image-credit">Photo by <a href="https://unsplash.com/photos/doctor-examining-brain-scan-on-tablet-at-desk-Wl3hAbxMF80?utm_source=sluintel&utm_medium=referral" target="_blank" rel="noopener">Vitaly Gariev</a> on <a href="https://unsplash.com?utm_source=sluintel&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a></p>
+      <div style="margin-bottom:8px">
+        <img class="sl-post-img" src="https://images.unsplash.com/photo-1758691462668-046fd85ceac9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ4MzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyMjI2MzN8&ixlib=rb-4.1.0&q=80&w=1080" alt="AI Research Tools: Student's Guide to Smarter Studies" loading="eager"/>
+        <p class="sl-post-credit">Photo by <a href="https://unsplash.com/photos/doctor-examining-brain-scan-on-tablet-at-desk-Wl3hAbxMF80?utm_source=sluintel&utm_medium=referral" target="_blank" rel="noopener">Vitaly Gariev</a> on <a href="https://unsplash.com?utm_source=sluintel&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a></p>
       </div>
 
-      <div class="post-content">
+      <div class="sl-post-body">
         <p>Remember those endless hours sifting through academic papers, manually cross-referencing citations, and struggling to summarize complex concepts? For generations of students, research has been a marathon of information overload and tedious manual labor. But what if I told you there's a revolutionary way to cut through the noise, streamline your workflow, and produce higher-quality academic work with less stress? Enter Artificial Intelligence.</p><p>AI isn't just for tech giants and researchers anymore; it's rapidly becoming an indispensable ally for students across all disciplines. From uncovering relevant literature in seconds to refining your writing, AI research tools are transforming the academic landscape. This post will guide you through the most impactful AI tools available today, helping you leverage them to excel in your studies, save precious time, and perhaps even enjoy the research process a little more.</p><h2>The Research Revolution: Why AI Matters for Students</h2><p>The traditional research process, while foundational, often suffers from inefficiencies. Students spend countless hours on tasks that are repetitive, time-consuming, and frankly, prone to human error. This often leads to burnout, missed deadlines, and sometimes, a superficial understanding of the subject matter due to time constraints.</p><p>AI tools, however, are designed to automate these grunt-work tasks. They can process vast amounts of data in mere seconds, identify patterns that might take humans days to discern, and even help synthesize information into coherent summaries. For students, this means:</p><ul><li><strong>Time Savings:</strong> Drastically reduce the hours spent on literature review, data extraction, and preliminary drafting.</li><li><strong>Enhanced Accuracy:</strong> Minimize errors in citation, data handling, and grammar.</li><li><strong>Deeper Understanding:</strong> Focus more on critical analysis and synthesis rather than just information gathering.</li><li><strong>Improved Output Quality:</strong> Produce more polished, well-researched, and articulate assignments.</li></ul><p>In essence, AI doesn't replace your critical thinking; it <em>augments</em> it, freeing you up to engage with the material on a deeper, more analytical level.</p><h2>Top AI Tools for Literature Review &amp; Synthesis</h2><p>The bedrock of any strong academic paper is a thorough literature review. AI can transform this often daunting task into an efficient, insightful exploration.</p><h3>Discovering &amp; Analyzing Papers</h3><p>Forget endless Google Scholar searches that yield hundreds of irrelevant results. Tools like <em>Elicit</em> (<a href="https://elicit.org/" target="_blank">https://elicit.org/</a>) are game-changers. Elicit uses AI to find relevant papers based on your research question, summarize key findings, extract methodologies, and even identify gaps in the literature. It's like having a research assistant who's read every paper on your topic. Similarly, <em>Scite.ai</em> goes beyond traditional citation counts, showing you how papers have been cited—whether they've been supported, contrasted, or mentioned by subsequent research. This provides invaluable context, helping you assess the strength and reception of a particular study. For visualizing connections between papers, consider platforms that offer 'research graph' capabilities, helping you uncover influential papers and emerging themes.</p><h3>Streamlining Reference Management</h3><p>While traditional tools like Zotero and Mendeley are excellent for organizing references, AI can enhance the experience. Some newer platforms or integrations can automatically extract metadata from PDFs, suggest related articles, and even help you quickly check for potential citation errors. Think of AI as the intelligence layer on top of your existing reference manager, helping you not just store, but <em>understand</em> and <em>connect</em> your sources more effectively.</p><h2>AI for Data Analysis &amp; Interpretation</h2><p>Whether you're dealing with qualitative interviews, survey results, or complex datasets, AI can offer powerful assistance in making sense of your data.</p><h3>Qualitative Data Insights</h3><p>For students working with large volumes of text – interview transcripts, open-ended survey responses, or historical documents – AI can be incredibly powerful. Tools like various large language models (LLMs) (e.g., ChatGPT, Google Gemini) can help you identify recurring themes, categorize responses, and even summarize long sections of text. While they won't do your thematic analysis for you, they can provide initial categorizations or highlight sentiment, saving you hours of manual reading and coding. Always remember to critically review any AI-generated output for accuracy and bias.</p><h3>Quantitative Data Support</h3><p>While advanced statistical analysis often requires specialized software and human expertise, AI can aid in the initial stages of quantitative data work. For instance, AI-powered features in spreadsheet software can suggest relevant charts or even highlight anomalies in your data. Furthermore, LLMs can explain complex statistical concepts in simpler terms or even help debug basic code in Python or R for statistical analysis. They can be excellent tutors, helping you grasp methodologies you're struggling with, but should never be solely relied upon for interpreting your final results without human verification.</p><h2>Enhancing Writing &amp; Editing with AI</h2><p>Even the most brilliant research can fall flat if poorly communicated. AI tools are invaluable for refining your academic prose.</p><h3>Grammar, Style &amp; Clarity</h3><p>Gone are the days when a single spell check was enough. Tools like <em>Grammarly</em> and <em>QuillBot's Grammar Checker</em> go far beyond basic error correction. They offer sophisticated suggestions for sentence structure, clarity, conciseness, and academic tone. They can help you identify passive voice, eliminate redundant phrasing, and even improve your vocabulary, ensuring your arguments are presented professionally and persuasively.</p><h3>Paraphrasing &amp; Summarization</h3><p>When synthesizing information from multiple sources, proper paraphrasing is crucial to avoid plagiarism. <em>QuillBot's Paraphraser</em> is an excellent tool for rephrasing sentences and paragraphs while maintaining the original meaning. It offers various modes, from standard to academic, helping you find the right tone. Similarly, LLMs can quickly summarize lengthy articles or even distill key arguments from several sources, providing a starting point for your own synthesis. However, always treat AI-generated summaries and paraphrases as drafts; they still require your critical review and proper citation to ensure originality and academic integrity.</p><h2>Ethical Considerations &amp; Best Practices</h2><p>While AI offers unprecedented advantages, its use in academia comes with significant ethical responsibilities. Ignoring these can lead to serious academic integrity issues.</p><h3>The Plagiarism Trap</h3><p>Using AI to generate entire sections of your paper without proper attribution, or directly copying AI-generated text, is a form of plagiarism. AI tools are meant to assist, not replace your original thought and writing. Always cite sources (including AI tools if their output is directly used and modified, following your institution's guidelines), and ensure your final submission reflects <em>your</em> understanding and articulation.</p><h3>Critical Thinking Remains King</h3><p>AI can make mistakes, generate inaccurate information (hallucinations), or perpetuate biases present in its training data. Never accept AI output at face value. Always cross-reference facts, critically evaluate arguments, and apply your own reasoned judgment. Your role as a student is to analyze, synthesize, and create original insights, not just to curate AI-generated content.</p><h3>Transparency &amp; Institutional Policies</h3><p>Be transparent about your use of AI tools. Understand and adhere to your university's policies on AI usage. Some institutions are developing specific guidelines, while others may consider AI-generated content (without proper disclosure) as academic misconduct. When in doubt, always consult with your professor or academic advisor.</p><h3>AI as a Co-Pilot, Not an Auto-Pilot</h3><p>Think of AI as your intelligent co-pilot. It handles the navigation, processes information, and makes suggestions, but <em>you</em> are still the pilot, making the final decisions and steering the aircraft. Leverage AI to enhance your productivity and analytical capabilities, but always maintain intellectual ownership and responsibility for your work.</p><h2>Conclusion</h2><p>The landscape of academic research is evolving rapidly, and AI tools are at the forefront of this transformation. For students, this presents an incredible opportunity to streamline workflows, deepen understanding, and produce truly outstanding work. From intelligent literature reviews to sophisticated writing assistance, these tools are no longer futuristic concepts but practical, everyday aids.</p><p>Embrace AI, but do so wisely and ethically. Learn to integrate these powerful assistants into your research process while safeguarding your critical thinking and academic integrity. The future of smarter, more efficient academic work is here, and it's powered by AI. Don't get left behind – start exploring these tools today and unlock your full academic potential!</p>
       </div>
 
-      <div class="post-footer">
-        <div class="post-tags"><strong>Tags:</strong> <span class="tag">AI Tools</span><span class="tag">Student Productivity</span><span class="tag">Academic Research</span><span class="tag">Study Hacks</span><span class="tag">Automation</span><span class="tag">AI for Education</span></div>
-        <a href="/" class="back-link">← Back to Home</a>
+      <div class="sl-post-footer">
+        <div class="sl-post-tags"><strong>Tags:</strong> <span class="sl-post-tag">AI Tools</span><span class="sl-post-tag">Student Productivity</span><span class="sl-post-tag">Academic Research</span><span class="sl-post-tag">Study Hacks</span><span class="sl-post-tag">Automation</span><span class="sl-post-tag">AI for Education</span></div>
+        <a href="/" class="sl-back-link">← Back to Home</a>
       </div>
 
-    </article>
-  </main>
+    </div>
+  </div>
 
-  <footer class="site-footer">
-    <p>© 2026 SluIntel · AI Tools &amp; Automation Insights</p>
-    <p style="margin-top:.25rem;">Auto-published with AI · Powered by Gemini &amp; GitHub Actions</p>
+    <footer class="sl-footer">
+    <div class="sl-footer__inner">
+      <div>
+        <div class="sl-footer__brand">Slui<span>ntel</span></div>
+        <div class="sl-footer__tagline">AI-powered daily blog by Sujit Luintel · Kathmandu, Nepal</div>
+        <nav class="sl-footer__links" aria-label="Footer links">
+          <a href="/#section-ai-automation">🤖 AI</a>
+          <a href="/#section-sports">⚽ Sports</a>
+          <a href="/#section-finance">💰 Finance</a>
+          <a href="/#section-entertainment">🎬 Entertainment</a>
+          <a href="/#section-technology">💻 Tech</a>
+          <a href="/#section-trending">🔥 Trending</a>
+        </nav>
+      </div>
+      <p class="sl-footer__copy">© 2026 Sluintel · Content generated with AI · Auto-published via GitHub Actions</p>
+    </div>
   </footer>
+  <script>
+    (function(){var t=localStorage.getItem('sl-theme');if(!t)t=window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t);})();
+    document.getElementById('themeToggle').addEventListener('click',function(){
+      var next=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';
+      document.documentElement.setAttribute('data-theme',next);
+      localStorage.setItem('sl-theme',next);
+    });
+    var hamBtn=document.getElementById('hamBtn');
+    var navLinks=document.getElementById('navLinks');
+    if(hamBtn&&navLinks){
+      hamBtn.addEventListener('click',function(){
+        var open=navLinks.classList.toggle('open');
+        hamBtn.classList.toggle('open',open);
+        hamBtn.setAttribute('aria-expanded',String(open));
+      });
+      navLinks.querySelectorAll('.sl-nav__link').forEach(function(l){
+        l.addEventListener('click',function(){
+          navLinks.classList.remove('open');
+          hamBtn.classList.remove('open');
+          hamBtn.setAttribute('aria-expanded','false');
+        });
+      });
+      document.addEventListener('click',function(e){
+        if(!hamBtn.contains(e.target)&&!navLinks.contains(e.target)){
+          navLinks.classList.remove('open');
+          hamBtn.classList.remove('open');
+          hamBtn.setAttribute('aria-expanded','false');
+        }
+      });
+    }
+  </script>
 </body>
 </html>
