@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 123
+Total Posts Published: 124
 Last Updated: 2026-05-26
-Latest Post: Amber Alert Los Angeles: What People Are Saying & Why It Matters
-Latest Post URL: https://sluintel.github.io/posts/2026-05-26-what-people-are-saying-about-amber-alert-los-angeles.html
+Latest Post: Nepal vs Bhutan Explained Simply: Your Guide to Himalayan Gems
+Latest Post URL: https://sluintel.github.io/posts/2026-05-26-nepal-vs-bhutan-explained-simply.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Nepal vs Bhutan Explained Simply: Your Guide to Himalayan Gems](https://sluintel.github.io/posts/2026-05-26-nepal-vs-bhutan-explained-simply.html) — 2026-05-26 — Nepal, Bhutan, Himalayan Travel
 - [Amber Alert Los Angeles: What People Are Saying & Why It Matters](https://sluintel.github.io/posts/2026-05-26-what-people-are-saying-about-amber-alert-los-angeles.html) — 2026-05-26 — Amber Alert LA, Child Safety, Emergency Alerts
 - [Spurs vs Thunder: What People Are Saying About This Epic NBA Rivalry](https://sluintel.github.io/posts/2026-05-25-what-people-are-saying-about-spurs-vs-thunder.html) — 2026-05-25 — NBA, Spurs, Thunder
 - [Why DC vs KKR is Trending Right Now: AI's Edge in IPL 2026](https://sluintel.github.io/posts/2026-05-24-why-dc-vs-kkr-is-trending-right-now.html) — 2026-05-24 — IPL 2026, Cricket Analytics, AI in Sports
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [What People Are Saying About ESPNcricinfo in 2026](https://sluintel.github.io/posts/2026-05-22-what-people-are-saying-about-espncricinfo.html) — 2026-05-22 — cricket, ESPNcricinfo, sports media
 - [Shivam Dube: Latest Updates & AI-Powered Insights for 2026](https://sluintel.github.io/posts/2026-05-21-shivam-dube-latest-updates-ai-insights.html) — 2026-05-21 — Shivam Dube, Cricket Analytics, AI in Sports
 - [Thunder vs Spurs: What People Are Saying About This NBA Rivalry in 2026](https://sluintel.github.io/posts/2026-05-21-thunder-vs-spurs-what-people-are-saying.html) — 2026-05-21 — NBA, Thunder vs Spurs, Basketball Analytics
-- [Thunder vs Spurs Explained Simply: NBA Rivalry & AI Insights](https://sluintel.github.io/posts/2026-05-21-thunder-vs-spurs-explained-simply.html) — 2026-05-21 — NBA, Basketball, Thunder
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
