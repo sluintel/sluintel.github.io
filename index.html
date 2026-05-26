@@ -141,6 +141,49 @@ button { cursor: pointer; font-family: inherit; }
   transition: background .15s, color .15s;
 }
 .sl-theme-toggle:hover { background: var(--surface-2); color: var(--text); }
+/* ═══════════════════════════════════════════
+   HAMBURGER / MOBILE NAV
+═══════════════════════════════════════════ */
+.sl-ham {
+  display: none;
+  background: var(--surface); border: 1px solid var(--border);
+  color: var(--text); width: 34px; height: 34px;
+  border-radius: 8px; flex-direction: column;
+  align-items: center; justify-content: center; gap: 5px;
+  padding: 0; cursor: pointer; flex-shrink: 0;
+}
+.sl-ham .bar {
+  width: 18px; height: 2px; background: currentColor;
+  border-radius: 2px; transition: transform .25s, opacity .2s;
+}
+.sl-ham.open .bar:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.sl-ham.open .bar:nth-child(2) { opacity: 0; }
+.sl-ham.open .bar:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+@media(max-width: 768px) {
+  .sl-ham { display: flex; }
+  .sl-nav__links {
+    display: none; flex-direction: column; gap: 4px;
+    position: absolute; top: 58px; left: 0; right: 0;
+    background: var(--bg); border-bottom: 1px solid var(--border);
+    padding: 12px 16px; z-index: 999;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+  }
+  .sl-nav__links.open { display: flex; }
+  .sl-nav__link {
+    padding: 10px 14px; font-size: .85rem;
+    border-radius: 8px;
+  }
+  .sl-nav__inner { position: relative; }
+  /* hide hero visual on small phones */
+  .sl-hero { padding: 32px 16px 24px; }
+}
+@media(max-width: 480px) {
+  .sl-hero h1 { font-size: 2rem; }
+  .sl-hero__stats { gap: 20px; }
+  .sl-hero__stat strong { font-size: 1.4rem; }
+}
+
 
 /* ═══════════════════════════════════════════
    HERO
@@ -646,7 +689,7 @@ button { cursor: pointer; font-family: inherit; }
 <!-- ══ NAV ══════════════════════════════════════ -->
 <nav class="sl-nav" role="navigation" aria-label="Main navigation">
   <div class="sl-nav__inner">
-    <a href="/" class="sl-nav__brand">Sujit<span>Luintel</span></a>
+    <a href="/" class="sl-nav__brand">Sujit <span>Luintel</span></a>
     <div class="sl-nav__links" id="navLinks">
       <a href="#section-trending"      class="sl-nav__link">🔥 Trending</a>
       <a href="#section-ai-automation" class="sl-nav__link">🤖 AI</a>
@@ -659,6 +702,9 @@ button { cursor: pointer; font-family: inherit; }
       <a href="#about"                 class="sl-nav__link">About</a>
     </div>
     <div class="sl-nav__right">
+      <button class="sl-ham" id="hamBtn" aria-label="Toggle menu" aria-expanded="false">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
       <button class="sl-theme-toggle" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">◐</button>
     </div>
   </div>
@@ -667,7 +713,7 @@ button { cursor: pointer; font-family: inherit; }
 <!-- ══ HERO ═════════════════════════════════════ -->
 <section class="sl-hero" aria-label="Site introduction">
   <div class="sl-hero__content">
-    <div class="sl-hero__badge">Fully Automated AI Blog by Sujit Luintel</div>
+    <div class="sl-hero__badge">🤖 Fully Automated AI Blog</div>
     <h1>AI & Trending<br/><span class="gradient">Insights That Matter</span></h1>
     <p class="sl-hero__desc">Daily deep-dives on AI tools, sports, finance, entertainment and trending topics — auto-curated, AI-written, published every morning and evening from Kathmandu.</p>
     <div class="sl-hero__stats">
@@ -728,7 +774,7 @@ button { cursor: pointer; font-family: inherit; }
   <div class="sl-footer__inner">
     <div class="sl-footer__top">
       <div>
-        <div class="sl-footer__brand">Sujit<span>Luintel</span></div>
+        <div class="sl-footer__brand">Sujit <span>Luintel</span></div>
         <div class="sl-footer__tagline">AI-powered daily blog by Sujit Luintel · Kathmandu, Nepal</div>
       </div>
       <nav class="sl-footer__links" aria-label="Footer links">
@@ -761,6 +807,33 @@ document.getElementById('themeToggle').addEventListener('click', () => {
   html.setAttribute('data-theme', next);
   localStorage.setItem('sl-theme', next);
 });
+
+/* ─── HAMBURGER ──────────────────────────── */
+const hamBtn   = document.getElementById('hamBtn');
+const navLinks = document.getElementById('navLinks');
+if (hamBtn && navLinks) {
+  hamBtn.addEventListener('click', () => {
+    const open = navLinks.classList.toggle('open');
+    hamBtn.classList.toggle('open', open);
+    hamBtn.setAttribute('aria-expanded', open);
+  });
+  // Close on link click (mobile)
+  navLinks.querySelectorAll('.sl-nav__link').forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('open');
+      hamBtn.classList.remove('open');
+      hamBtn.setAttribute('aria-expanded', 'false');
+    });
+  });
+  // Close on outside click
+  document.addEventListener('click', e => {
+    if (!hamBtn.contains(e.target) && !navLinks.contains(e.target)) {
+      navLinks.classList.remove('open');
+      hamBtn.classList.remove('open');
+      hamBtn.setAttribute('aria-expanded', 'false');
+    }
+  });
+}
 
 /* ─── FOOTER YEAR ────────────────────────────── */
 document.getElementById('footerYear').textContent = new Date().getFullYear();
