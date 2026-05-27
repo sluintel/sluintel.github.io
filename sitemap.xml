@@ -4,9 +4,15 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://sluintel.github.io/</loc>
-    <lastmod>2026-05-27T18:08:46+00:00</lastmod>
+    <lastmod>2026-05-27T18:33:01+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://sluintel.github.io/posts/2026-05-27-what-people-are-saying-about-anthony-gordon.html</loc>
+    <lastmod>2026-05-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
   </url>
   <url>
     <loc>https://sluintel.github.io/posts/2026-05-27-the-latest-updates-on-travis-head.html</loc>
