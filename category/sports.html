@@ -368,11 +368,6 @@ button{cursor:pointer;font-family:inherit;}
     </div>
   </footer>
 
-  <!-- Category config passed to JS -->
-  <script>
-    window.SL_CAT_SLUG = "sports";
-    window.SL_CAT_TAGS = ["cricket", "football", "nba", "ipl", "la liga", "serie a", "bundesliga", "premier league", "mma", "ufc", "basketball", "tennis", "champions league", "epl", "sports analytics", "ai in sports", "lakers", "thunder", "timberwolves", "rcb", "kkr"];
-  </script>
 
 <script>
 (function(){
@@ -417,8 +412,9 @@ if(hamBtn&&navLinks){
 }
 
 /* ── config ── */
-var CAT_SLUG  = window.SL_CAT_SLUG  || 'all';
-var CAT_TAGS  = window.SL_CAT_TAGS  || [];
+// Config injected at build time — no race condition
+var CAT_SLUG  = 'sports';
+var CAT_TAGS  = ["cricket", "football", "nba", "ipl", "la liga", "serie a", "bundesliga", "premier league", "mma", "ufc", "basketball", "tennis", "champions league", "epl", "sports analytics", "ai in sports", "lakers", "thunder", "timberwolves", "rcb", "kkr"];
 var PER_PAGE  = 24;
 var allPosts  = [];
 var filtered  = [];

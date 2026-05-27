@@ -368,11 +368,6 @@ button{cursor:pointer;font-family:inherit;}
     </div>
   </footer>
 
-  <!-- Category config passed to JS -->
-  <script>
-    window.SL_CAT_SLUG = "technology";
-    window.SL_CAT_TAGS = ["app development", "mobile strategy", "ai laptops", "tech innovation", "software", "hardware", "devices", "gadgets", "cloud", "saas", "developer", "coding", "googlebook", "gemini", "app", "apps"];
-  </script>
 
 <script>
 (function(){
@@ -417,8 +412,9 @@ if(hamBtn&&navLinks){
 }
 
 /* ── config ── */
-var CAT_SLUG  = window.SL_CAT_SLUG  || 'all';
-var CAT_TAGS  = window.SL_CAT_TAGS  || [];
+// Config injected at build time — no race condition
+var CAT_SLUG  = 'technology';
+var CAT_TAGS  = ["app development", "mobile strategy", "ai laptops", "tech innovation", "software", "hardware", "devices", "gadgets", "cloud", "saas", "developer", "coding", "googlebook", "gemini", "app", "apps"];
 var PER_PAGE  = 24;
 var allPosts  = [];
 var filtered  = [];

@@ -391,8 +391,9 @@ if(hamBtn&&navLinks){
 }
 
 /* ── config ── */
-var CAT_SLUG  = window.SL_CAT_SLUG  || 'all';
-var CAT_TAGS  = window.SL_CAT_TAGS  || [];
+// Config injected at build time — no race condition
+var CAT_SLUG  = '{slug}';
+var CAT_TAGS  = {tags_js};
 var PER_PAGE  = 24;
 var allPosts  = [];
 var filtered  = [];
@@ -520,6 +521,9 @@ def build_category_page(cat: dict, year: int) -> str:
     color       = cat["color"]
     description = cat["description"]
     tags_js     = str(cat["tags"]).replace("'", '"')   # Python list → JS array literal
+
+    # Pre-render SHARED_JS with slug/tags baked in (SHARED_JS is not an f-string)
+    rendered_js = SHARED_JS.replace("'{slug}'", f"'{slug}'").replace("{tags_js}", tags_js)
 
     # Mark the active nav link
     def nav_link(href, text, active_slug=""):
@@ -649,12 +653,7 @@ def build_category_page(cat: dict, year: int) -> str:
     </div>
   </footer>
 
-  <!-- Category config passed to JS -->
-  <script>
-    window.SL_CAT_SLUG = "{slug}";
-    window.SL_CAT_TAGS = {tags_js};
-  </script>
-{SHARED_JS}
+{rendered_js}
 </body>
 </html>"""
 

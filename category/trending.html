@@ -368,11 +368,6 @@ button{cursor:pointer;font-family:inherit;}
     </div>
   </footer>
 
-  <!-- Category config passed to JS -->
-  <script>
-    window.SL_CAT_SLUG = "trending";
-    window.SL_CAT_TAGS = ["trending", "viral", "latest", "updates", "right now", "2026", "internet reactions", "what people are saying"];
-  </script>
 
 <script>
 (function(){
@@ -417,8 +412,9 @@ if(hamBtn&&navLinks){
 }
 
 /* ── config ── */
-var CAT_SLUG  = window.SL_CAT_SLUG  || 'all';
-var CAT_TAGS  = window.SL_CAT_TAGS  || [];
+// Config injected at build time — no race condition
+var CAT_SLUG  = 'trending';
+var CAT_TAGS  = ["trending", "viral", "latest", "updates", "right now", "2026", "internet reactions", "what people are saying"];
 var PER_PAGE  = 24;
 var allPosts  = [];
 var filtered  = [];

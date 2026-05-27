@@ -368,11 +368,6 @@ button{cursor:pointer;font-family:inherit;}
     </div>
   </footer>
 
-  <!-- Category config passed to JS -->
-  <script>
-    window.SL_CAT_SLUG = "entertainment";
-    window.SL_CAT_TAGS = ["reality tv", "celebrity", "music", "actor", "film", "series", "streaming", "netflix", "bollywood", "hollywood", "pop culture", "hailee steinfeld", "sai pallavi", "shania twain", "splitsvilla", "south indian cinema", "country pop"];
-  </script>
 
 <script>
 (function(){
@@ -417,8 +412,9 @@ if(hamBtn&&navLinks){
 }
 
 /* ── config ── */
-var CAT_SLUG  = window.SL_CAT_SLUG  || 'all';
-var CAT_TAGS  = window.SL_CAT_TAGS  || [];
+// Config injected at build time — no race condition
+var CAT_SLUG  = 'entertainment';
+var CAT_TAGS  = ["reality tv", "celebrity", "music", "actor", "film", "series", "streaming", "netflix", "bollywood", "hollywood", "pop culture", "hailee steinfeld", "sai pallavi", "shania twain", "splitsvilla", "south indian cinema", "country pop"];
 var PER_PAGE  = 24;
 var allPosts  = [];
 var filtered  = [];

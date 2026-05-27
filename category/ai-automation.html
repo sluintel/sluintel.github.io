@@ -368,11 +368,6 @@ button{cursor:pointer;font-family:inherit;}
     </div>
   </footer>
 
-  <!-- Category config passed to JS -->
-  <script>
-    window.SL_CAT_SLUG = "ai-automation";
-    window.SL_CAT_TAGS = ["ai tools", "automation", "chatgpt", "gemini ai", "openai", "llm", "generative ai", "workflow", "productivity", "ai agents", "machine learning", "ai code", "ai trends", "prompt engineering", "ai writing", "no-code ai", "claude ai", "ai development", "ai video", "ai image", "ai research", "ai seo", "remote work", "ai investing", "ai automation", "zapier", "make", "n8n"];
-  </script>
 
 <script>
 (function(){
@@ -417,8 +412,9 @@ if(hamBtn&&navLinks){
 }
 
 /* ── config ── */
-var CAT_SLUG  = window.SL_CAT_SLUG  || 'all';
-var CAT_TAGS  = window.SL_CAT_TAGS  || [];
+// Config injected at build time — no race condition
+var CAT_SLUG  = 'ai-automation';
+var CAT_TAGS  = ["ai tools", "automation", "chatgpt", "gemini ai", "openai", "llm", "generative ai", "workflow", "productivity", "ai agents", "machine learning", "ai code", "ai trends", "prompt engineering", "ai writing", "no-code ai", "claude ai", "ai development", "ai video", "ai image", "ai research", "ai seo", "remote work", "ai investing", "ai automation", "zapier", "make", "n8n"];
 var PER_PAGE  = 24;
 var allPosts  = [];
 var filtered  = [];
