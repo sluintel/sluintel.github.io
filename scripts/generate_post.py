@@ -17,7 +17,6 @@ import textwrap
 import argparse
 import requests
 import xml.etree.ElementTree as ET
-from xml.dom import minidom
 from datetime import datetime, timezone
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
@@ -1242,41 +1241,39 @@ def update_posts_data_json(posts):
     POSTS_DATA_JSON.write_text(json.dumps(data, indent=2), encoding="utf-8")
     print(f"posts-data.json updated ({len(data)} posts) → assets/js/posts-data.json")
 
-
 # ─────────────────────────────────────────
 # 9. REGENERATE sitemap.xml
 # ─────────────────────────────────────────
 def build_sitemap(posts):
     now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S+00:00")
 
-    urlset = ET.Element("urlset")
-    urlset.set("xmlns", "http://www.sitemaps.org/schemas/sitemap/0.9")
-    urlset.set("xmlns:xsi", "http://www.w3.org/2001/XMLSchema-instance")
-    urlset.set(
-        "xsi:schemaLocation",
-        "http://www.sitemaps.org/schemas/sitemap/0.9 "
-        "http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd",
-    )
-
-    url_el = ET.SubElement(urlset, "url")
-    ET.SubElement(url_el, "loc").text        = f"{SITE_URL}/"
-    ET.SubElement(url_el, "lastmod").text    = now_iso
-    ET.SubElement(url_el, "changefreq").text = "daily"
-    ET.SubElement(url_el, "priority").text   = "1.00"
+    lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
+        '        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"',
+        '        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9'
+        ' http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">',
+        '  <url>',
+        f'    <loc>{SITE_URL}/</loc>',
+        f'    <lastmod>{now_iso}</lastmod>',
+        '    <changefreq>daily</changefreq>',
+        '    <priority>1.00</priority>',
+        '  </url>',
+    ]
 
     for p in posts:
-        url_el = ET.SubElement(urlset, "url")
-        ET.SubElement(url_el, "loc").text        = f"{SITE_URL}/{p['url']}"
-        ET.SubElement(url_el, "lastmod").text    = now_iso
-        ET.SubElement(url_el, "changefreq").text = "weekly"
-        ET.SubElement(url_el, "priority").text   = "0.80"
+        date_iso = f"{p['date']}T00:00:00+00:00"
+        lines += [
+            '  <url>',
+            f'    <loc>{SITE_URL}/{p["url"]}</loc>',
+            f'    <lastmod>{date_iso}</lastmod>',
+            '    <changefreq>weekly</changefreq>',
+            '    <priority>0.80</priority>',
+            '  </url>',
+        ]
 
-    raw          = ET.tostring(urlset, encoding="unicode")
-    pretty_bytes = minidom.parseString(raw).toprettyxml(indent="  ", encoding="UTF-8")
-    lines        = pretty_bytes.decode("utf-8").splitlines()
-    cleaned      = "\n".join(line for line in lines if line.strip())
-
-    SITEMAP_PATH.write_text(cleaned, encoding="utf-8")
+    lines.append('</urlset>')
+    SITEMAP_PATH.write_text('\n'.join(lines) + '\n', encoding='utf-8')
     print(f"sitemap.xml updated ({len(posts)} posts + 1 homepage)")
 
 
@@ -1394,7 +1391,7 @@ def build_rss_feed(posts):
 def build_robots_txt():
     content = (
         "User-agent: *\n"
-        "Allow: /\n"
+        "Disallow:\n"
         "\n"
         f"Sitemap: {SITE_URL}/sitemap.xml\n"
     )
