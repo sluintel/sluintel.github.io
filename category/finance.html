@@ -441,7 +441,7 @@ function renderCard(p){
   }).join('');
   var rt=p.wordCount?Math.ceil(p.wordCount/200)+' min read':'5 min read';
   return '<a href="/'+esc(p.url)+'" class="sl-card">'
-    +'<div class="sl-card__img-wrap"><img class="sl-card__img" src="'+esc(p.image)+'" alt="'+esc(p.title)+'" loading="lazy" onerror="this.style.display='none'"/></div>'
+    +'<div class="sl-card__img-wrap"><img class="sl-card__img" src="'+esc(p.image)+'" alt="'+esc(p.title)+'" loading="lazy"/></div>'
     +'<div class="sl-card__body">'
     +'<div class="sl-card__tags">'+tags+'</div>'
     +'<div class="sl-card__title">'+esc(p.title)+'</div>'
