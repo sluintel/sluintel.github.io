@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 139
+Total Posts Published: 140
 Last Updated: 2026-05-27
-Latest Post: Anthony Gordon: What People Are Saying About His Rise in 2026
-Latest Post URL: https://sluintel.github.io/posts/2026-05-27-what-people-are-saying-about-anthony-gordon.html
+Latest Post: Abhishek Sharma: Everything You Should Know About Cricket's Star
+Latest Post URL: https://sluintel.github.io/posts/2026-05-27-abhishek-sharma-everything-you-should-know.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Abhishek Sharma: Everything You Should Know About Cricket's Star](https://sluintel.github.io/posts/2026-05-27-abhishek-sharma-everything-you-should-know.html) — 2026-05-27 — Abhishek Sharma, Cricket, IPL
 - [Anthony Gordon: What People Are Saying About His Rise in 2026](https://sluintel.github.io/posts/2026-05-27-what-people-are-saying-about-anthony-gordon.html) — 2026-05-27 — Anthony Gordon, Football Analysis, Premier League
 - [Travis Head: The Latest Updates on Australia's Cricket Powerhouse](https://sluintel.github.io/posts/2026-05-27-the-latest-updates-on-travis-head.html) — 2026-05-27 — Travis Head, Cricket Updates, Australian Cricket
 - [Abhishek Sharma Explained Simply: IPL's Rising Star Unpacked](https://sluintel.github.io/posts/2026-05-27-abhishek-sharma-explained-simply.html) — 2026-05-27 — Abhishek Sharma, IPL, Cricket
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Why '1' Is Trending Right Now: The AI-Driven Surge in Digital Culture](https://sluintel.github.io/posts/2026-05-27-why-1-is-trending-right-now.html) — 2026-05-27 — AI Trends, Digital Culture, Algorithmic Amplification
 - [Top Reactions to Santos FC vs Deportivo Cuenca Standings Unpacked](https://sluintel.github.io/posts/2026-05-27-top-reactions-santos-fc-vs-deportivo-cuenca-standings.html) — 2026-05-27 — football analysis, fan reactions, Santos FC
 - [Santos FC vs Deportivo Cuenca Standings: Unpacking 2026's Drama](https://sluintel.github.io/posts/2026-05-27-santos-fc-vs-deportivo-cuenca-standings-2026-analysis.html) — 2026-05-27 — Football, CONMEBOL, Santos FC
-- [Mastering AI: Your Essential Guide to Automation and Innovation in 2026](https://sluintel.github.io/posts/2026-05-27-ai-mastery-guide-2026.html) — 2026-05-27 — Artificial Intelligence, AI Tools, Automation
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
