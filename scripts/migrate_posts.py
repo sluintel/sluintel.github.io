@@ -236,7 +236,7 @@ img  { display: block; max-width: 100%; }
 
 NEW_NAV = """  <nav class="sl-nav" role="navigation" aria-label="Main navigation">
     <div class="sl-nav__inner">
-      <a href="/" class="sl-nav__brand">Slui<span>ntel</span></a>
+      <a href="/" class="sl-nav__brand">Sujit <span> Luintel</span></a>
       <div class="sl-nav__links" id="navLinks">
         <a href="/#section-trending"      class="sl-nav__link">🔥 Trending</a>
         <a href="/#section-ai-automation" class="sl-nav__link">🤖 AI</a>
