@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 137
+Total Posts Published: 138
 Last Updated: 2026-05-27
-Latest Post: Abhishek Sharma Explained Simply: IPL's Rising Star Unpacked
-Latest Post URL: https://sluintel.github.io/posts/2026-05-27-abhishek-sharma-explained-simply.html
+Latest Post: Travis Head: The Latest Updates on Australia's Cricket Powerhouse
+Latest Post URL: https://sluintel.github.io/posts/2026-05-27-the-latest-updates-on-travis-head.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Travis Head: The Latest Updates on Australia's Cricket Powerhouse](https://sluintel.github.io/posts/2026-05-27-the-latest-updates-on-travis-head.html) — 2026-05-27 — Travis Head, Cricket Updates, Australian Cricket
 - [Abhishek Sharma Explained Simply: IPL's Rising Star Unpacked](https://sluintel.github.io/posts/2026-05-27-abhishek-sharma-explained-simply.html) — 2026-05-27 — Abhishek Sharma, IPL, Cricket
 - [Dasun Shanaka: Your Essential Guide to Sri Lanka's Cricket Powerhouse](https://sluintel.github.io/posts/2026-05-27-dasun-shanaka-everything-you-should-know.html) — 2026-05-27 — Dasun Shanaka, Sri Lanka Cricket, All-Rounder
 - [What People Are Saying About Conmebol Sudamericana in 2026](https://sluintel.github.io/posts/2026-05-27-what-people-are-saying-about-conmebol-sudamericana.html) — 2026-05-27 — Conmebol Sudamericana, South American Football, Football Fan Culture
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Santos FC vs Deportivo Cuenca Standings: Unpacking 2026's Drama](https://sluintel.github.io/posts/2026-05-27-santos-fc-vs-deportivo-cuenca-standings-2026-analysis.html) — 2026-05-27 — Football, CONMEBOL, Santos FC
 - [Mastering AI: Your Essential Guide to Automation and Innovation in 2026](https://sluintel.github.io/posts/2026-05-27-ai-mastery-guide-2026.html) — 2026-05-27 — Artificial Intelligence, AI Tools, Automation
 - [Google AI Unleashed: Mastering Smart Tools for 2026 Success](https://sluintel.github.io/posts/2026-05-27-google-ai-guide-2026.html) — 2026-05-27 — Google AI, AI Tools, Automation
-- [Rahul Tewatia's Viral Moments: Top Internet Reactions Unpacked](https://sluintel.github.io/posts/2026-05-27-top-internet-reactions-to-rahul-tewatia.html) — 2026-05-27 — Cricket, IPL, Rahul Tewatia
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
