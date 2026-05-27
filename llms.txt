@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 128
+Total Posts Published: 129
 Last Updated: 2026-05-27
-Latest Post: Rahul Tewatia's Viral Moments: Top Internet Reactions Unpacked
-Latest Post URL: https://sluintel.github.io/posts/2026-05-27-top-internet-reactions-to-rahul-tewatia.html
+Latest Post: Google AI Unleashed: Mastering Smart Tools for 2026 Success
+Latest Post URL: https://sluintel.github.io/posts/2026-05-27-google-ai-guide-2026.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Google AI Unleashed: Mastering Smart Tools for 2026 Success](https://sluintel.github.io/posts/2026-05-27-google-ai-guide-2026.html) — 2026-05-27 — Google AI, AI Tools, Automation
 - [Rahul Tewatia's Viral Moments: Top Internet Reactions Unpacked](https://sluintel.github.io/posts/2026-05-27-top-internet-reactions-to-rahul-tewatia.html) — 2026-05-27 — Cricket, IPL, Rahul Tewatia
 - [KL Rahul's Legacy: What People Are Saying About This Cricket Enigma](https://sluintel.github.io/posts/2026-05-26-what-people-are-saying-about-kl-rahul.html) — 2026-05-26 — KL Rahul, Cricket, Indian Cricket
 - [Why SAFF Women's Championship is Exploding in Popularity](https://sluintel.github.io/posts/2026-05-26-why-saff-womens-championship-is-trending-in-sports-right-now.html) — 2026-05-26 — SAFF Women's Championship, women's football, sports trends
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Spurs vs Thunder: What People Are Saying About This Epic NBA Rivalry](https://sluintel.github.io/posts/2026-05-25-what-people-are-saying-about-spurs-vs-thunder.html) — 2026-05-25 — NBA, Spurs, Thunder
 - [Why DC vs KKR is Trending Right Now: AI's Edge in IPL 2026](https://sluintel.github.io/posts/2026-05-24-why-dc-vs-kkr-is-trending-right-now.html) — 2026-05-24 — IPL 2026, Cricket Analytics, AI in Sports
 - [OpenAI's Future: What You NEED to Know for 2026](https://sluintel.github.io/posts/2026-05-24-openai-future-impact-2026.html) — 2026-05-24 — OpenAI, ChatGPT, DALL-E
-- [Unpacking Netflix Moments Trending Worldwide: Your Guide to Viral Hits](https://sluintel.github.io/posts/2026-05-23-netflix-moments-trending-worldwide.html) — 2026-05-23 — Netflix, Global Trends, AI
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
