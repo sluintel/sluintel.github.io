@@ -4,14 +4,44 @@ on:
   # ── Nepal Standard Time (NPT) = UTC+5:45 ──────────────────────────────────
   # GitHub Actions cron runs in UTC, so subtract 5h45m from your target NPT time.
   #
-  # Slot 1 → 08:00 NPT  =  02:15 UTC   (morning post, catches overnight trends)
-  # Slot 2 → 18:00 NPT  =  12:15 UTC   (evening post, catches afternoon trends)
+  # To post every hour NPT we schedule every hour in UTC.
+  # NPT is UTC+5:45, so each UTC hour corresponds to a different NPT hour,
+  # but since we want all 24 NPT hours covered, we simply run every UTC hour.
+  # :15 is used as the minute to avoid the busy top-of-hour queue on GitHub.
   #
-  # GitHub cron does not support :45 minutes for the hour offset, so we use
-  # :15 which is the closest standard minute that lands at a whole NPT hour.
+  # UTC 00:15 → 05:45 NPT  |  UTC 01:15 → 06:45 NPT  |  UTC 02:15 → 07:45 NPT
+  # UTC 03:15 → 08:45 NPT  |  UTC 04:15 → 09:45 NPT  |  UTC 05:15 → 10:45 NPT
+  # UTC 06:15 → 11:45 NPT  |  UTC 07:15 → 12:45 NPT  |  UTC 08:15 → 13:45 NPT
+  # UTC 09:15 → 14:45 NPT  |  UTC 10:15 → 15:45 NPT  |  UTC 11:15 → 16:45 NPT
+  # UTC 12:15 → 17:45 NPT  |  UTC 13:15 → 18:45 NPT  |  UTC 14:15 → 19:45 NPT
+  # UTC 15:15 → 20:45 NPT  |  UTC 16:15 → 21:45 NPT  |  UTC 17:15 → 22:45 NPT
+  # UTC 18:15 → 23:45 NPT  |  UTC 19:15 → 00:45 NPT  |  UTC 20:15 → 01:45 NPT
+  # UTC 21:15 → 02:45 NPT  |  UTC 22:15 → 03:45 NPT  |  UTC 23:15 → 04:45 NPT
   schedule:
-    - cron: "15 2 * * *"   # 08:00 NPT  — morning publish
-    - cron: "15 12 * * *"  # 18:00 NPT  — evening publish (remove if 1 post/day preferred)
+    - cron: "15 0 * * *"   # 05:45 NPT
+    - cron: "15 1 * * *"   # 06:45 NPT
+    - cron: "15 2 * * *"   # 07:45 NPT
+    - cron: "15 3 * * *"   # 08:45 NPT
+    - cron: "15 4 * * *"   # 09:45 NPT
+    - cron: "15 5 * * *"   # 10:45 NPT
+    - cron: "15 6 * * *"   # 11:45 NPT
+    - cron: "15 7 * * *"   # 12:45 NPT
+    - cron: "15 8 * * *"   # 13:45 NPT
+    - cron: "15 9 * * *"   # 14:45 NPT
+    - cron: "15 10 * * *"  # 15:45 NPT
+    - cron: "15 11 * * *"  # 16:45 NPT
+    - cron: "15 12 * * *"  # 17:45 NPT
+    - cron: "15 13 * * *"  # 18:45 NPT
+    - cron: "15 14 * * *"  # 19:45 NPT
+    - cron: "15 15 * * *"  # 20:45 NPT
+    - cron: "15 16 * * *"  # 21:45 NPT
+    - cron: "15 17 * * *"  # 22:45 NPT
+    - cron: "15 18 * * *"  # 23:45 NPT
+    - cron: "15 19 * * *"  # 00:45 NPT
+    - cron: "15 20 * * *"  # 01:45 NPT
+    - cron: "15 21 * * *"  # 02:45 NPT
+    - cron: "15 22 * * *"  # 03:45 NPT
+    - cron: "15 23 * * *"  # 04:45 NPT
 
   # Allow manual trigger from the Actions tab at any time
   workflow_dispatch:
