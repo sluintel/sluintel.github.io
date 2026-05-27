@@ -1033,7 +1033,7 @@ def build_post_html(post, img_url, img_credit, og_image_url, date_str):
         "datePublished":    date_str,
         "dateModified":     date_str,
         "author":           {"@type": "Person", "name": "Sujit Luintel", "url": "https://sluintel.com.np"},
-        "publisher":        {"@type": "Organization", "name": "Sluintel",
+        "publisher":        {"@type": "Organization", "name": "Sujit Luintel",
                              "logo": {"@type": "ImageObject", "url": f"{SITE_URL}/favicon.ico"}},
         "mainEntityOfPage": {"@type": "WebPage", "@id": post_url},
         "keywords":         ", ".join(post.get("tags", [])),
