@@ -1,0 +1,683 @@
+#!/usr/bin/env python3
+"""
+generate_category_pages.py — Regenerates all category/*.html files
+with the unified Sluintel design (same tokens, nav, footer as homepage
+and post detail pages). Pure HTML+JS — no Jekyll, no external CSS files.
+
+RUN FROM YOUR REPO ROOT:
+    python3 scripts/generate_category_pages.py
+
+Generates these files:
+    category/trending.html
+    category/ai-automation.html
+    category/sports.html
+    category/finance.html
+    category/entertainment.html
+    category/technology.html
+    category/deep-dives.html
+    category/all.html
+"""
+
+from pathlib import Path
+from datetime import datetime
+
+REPO_ROOT    = Path(__file__).parent.parent
+CATEGORY_DIR = REPO_ROOT / "category"
+
+# ── Category definitions (matches sections-config.json exactly) ─────────────
+CATEGORIES = [
+    {
+        "slug":        "trending",
+        "label":       "Trending",
+        "icon":        "🔥",
+        "color":       "#f43f5e",
+        "description": "The topics everyone is talking about right now — viral stories, breaking news and real-time internet reactions.",
+        "tags":        ["trending","viral","latest","updates","right now","2026","internet reactions","what people are saying"],
+    },
+    {
+        "slug":        "ai-automation",
+        "label":       "AI & Automation",
+        "icon":        "🤖",
+        "color":       "#6366f1",
+        "description": "Deep-dives on AI tools, automation workflows, ChatGPT, Gemini, no-code platforms and the future of intelligent software.",
+        "tags":        ["ai tools","automation","chatgpt","gemini ai","openai","llm","generative ai","workflow","productivity","ai agents","machine learning","ai code","ai trends","prompt engineering","ai writing","no-code ai","claude ai","ai development","ai video","ai image","ai research","ai seo","remote work","ai investing","ai automation","zapier","make","n8n"],
+    },
+    {
+        "slug":        "sports",
+        "label":       "Sports",
+        "icon":        "⚽",
+        "color":       "#22c55e",
+        "description": "Cricket, football, NBA, IPL, La Liga, MMA and every sport that's driving conversation — match analysis, results and fan reactions.",
+        "tags":        ["cricket","football","nba","ipl","la liga","serie a","bundesliga","premier league","mma","ufc","basketball","tennis","champions league","epl","sports analytics","ai in sports","lakers","thunder","timberwolves","rcb","kkr"],
+    },
+    {
+        "slug":        "finance",
+        "label":       "Finance & Markets",
+        "icon":        "💰",
+        "color":       "#f59e0b",
+        "description": "Stock markets, investing strategies, share prices, crypto, fintech trends and AI-driven financial analysis.",
+        "tags":        ["investing","stock market","finance","trading","shares","etf","portfolio","crypto","fintech","data breach","share result","share price","ai investing","cra"],
+    },
+    {
+        "slug":        "entertainment",
+        "label":       "Entertainment",
+        "icon":        "🎬",
+        "color":       "#ec4899",
+        "description": "Movies, series, music, celebrity news, Netflix, Bollywood and Hollywood — everything pop-culture worth watching.",
+        "tags":        ["reality tv","celebrity","music","actor","film","series","streaming","netflix","bollywood","hollywood","pop culture","hailee steinfeld","sai pallavi","shania twain","splitsvilla","south indian cinema","country pop"],
+    },
+    {
+        "slug":        "technology",
+        "label":       "Technology",
+        "icon":        "💻",
+        "color":       "#0ea5e9",
+        "description": "Apps, devices, software, hardware, cloud tech, developer tools and the gadgets shaping the digital world.",
+        "tags":        ["app development","mobile strategy","ai laptops","tech innovation","software","hardware","devices","gadgets","cloud","saas","developer","coding","googlebook","gemini","app","apps"],
+    },
+    {
+        "slug":        "deep-dives",
+        "label":       "Deep Dives",
+        "icon":        "🔍",
+        "color":       "#8b5cf6",
+        "description": "Long-form guides, step-by-step tutorials, complete breakdowns and thorough analysis on topics that deserve more than a headline.",
+        "tags":        ["workflow automation","automation tools","guide","tutorial","explained","analysis","deep dive","breakdown","complete guide","how ai is changing","everything you should know","explained simply","your guide","mastering"],
+    },
+    {
+        "slug":        "all",
+        "label":       "All Posts",
+        "icon":        "📰",
+        "color":       "#6366f1",
+        "description": "Every article published on Sluintel — sorted newest first. AI tools, sports, finance, entertainment and more.",
+        "tags":        [],  # empty = show all
+    },
+]
+
+# ── Shared CSS (identical tokens to homepage + post pages) ──────────────────
+SHARED_CSS = """
+/* ═══ TOKENS ═══ */
+:root {
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body:    'DM Sans', system-ui, sans-serif;
+  --bg:           #0d0d0f; --bg-2: #141417; --bg-3: #1a1a1f;
+  --surface:      #1e1e24; --surface-2: #26262e;
+  --border:       rgba(255,255,255,0.08); --border-2: rgba(255,255,255,0.14);
+  --text:         #f0f0f4; --text-2: #a8a8b8; --text-3: #6b6b7d;
+  --accent:       #6366f1; --accent-2: #8b5cf6;
+  --accent-glow:  rgba(99,102,241,0.25);
+  --radius:       10px; --shadow: 0 4px 24px rgba(0,0,0,0.4);
+  --shadow-lg:    0 8px 48px rgba(0,0,0,0.6);
+}
+[data-theme="light"] {
+  --bg: #f8f8fc; --bg-2: #f0f0f8; --bg-3: #e8e8f4;
+  --surface: #ffffff; --surface-2: #f4f4f9;
+  --border: rgba(0,0,0,0.08); --border-2: rgba(0,0,0,0.14);
+  --text: #0d0d1a; --text-2: #4a4a6a; --text-3: #8888aa;
+  --accent-glow: rgba(99,102,241,0.12);
+  --shadow: 0 2px 12px rgba(0,0,0,0.08);
+  --shadow-lg: 0 6px 32px rgba(0,0,0,0.12);
+}
+/* ═══ RESET ═══ */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{font-family:var(--font-body);background:var(--bg);color:var(--text);line-height:1.6;min-height:100vh;}
+a{color:inherit;text-decoration:none;}
+img{display:block;width:100%;object-fit:cover;}
+button{cursor:pointer;font-family:inherit;}
+
+/* ═══ NAV ═══ */
+.sl-nav{
+  position:sticky;top:0;z-index:1000;
+  background:var(--bg);border-bottom:1px solid var(--border);
+  backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
+}
+.sl-nav__inner{
+  max-width:1400px;margin:0 auto;
+  display:flex;align-items:center;
+  padding:0 24px;height:58px;position:relative;
+}
+.sl-nav__brand{
+  font-family:var(--font-display);font-size:1.5rem;font-weight:900;
+  color:var(--text);white-space:nowrap;margin-right:32px;flex-shrink:0;
+}
+.sl-nav__brand span{color:var(--accent);}
+.sl-nav__links{
+  display:flex;align-items:center;gap:2px;flex:1;
+  overflow-x:auto;scrollbar-width:none;
+}
+.sl-nav__links::-webkit-scrollbar{display:none;}
+.sl-nav__link{
+  font-size:.8rem;font-weight:600;padding:6px 12px;border-radius:6px;
+  color:var(--text-2);white-space:nowrap;transition:background .15s,color .15s;
+  letter-spacing:.02em;
+}
+.sl-nav__link:hover{background:var(--surface);color:var(--text);}
+.sl-nav__link.active{color:var(--accent);background:var(--accent-glow);}
+.sl-nav__right{
+  display:flex;align-items:center;gap:8px;margin-left:12px;flex-shrink:0;
+}
+.sl-theme-toggle{
+  background:var(--surface);border:1px solid var(--border);
+  color:var(--text-2);width:34px;height:34px;border-radius:8px;
+  font-size:1rem;display:flex;align-items:center;justify-content:center;
+  transition:background .15s,color .15s;
+}
+.sl-theme-toggle:hover{background:var(--surface-2);color:var(--text);}
+.sl-ham{
+  display:none;background:var(--surface);border:1px solid var(--border);
+  color:var(--text);width:34px;height:34px;border-radius:8px;
+  flex-direction:column;align-items:center;justify-content:center;
+  gap:5px;padding:0;cursor:pointer;flex-shrink:0;
+}
+.sl-ham .bar{
+  width:18px;height:2px;background:currentColor;
+  border-radius:2px;transition:transform .25s,opacity .2s;
+}
+.sl-ham.open .bar:nth-child(1){transform:translateY(7px) rotate(45deg);}
+.sl-ham.open .bar:nth-child(2){opacity:0;}
+.sl-ham.open .bar:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+@media(max-width:768px){
+  .sl-ham{display:flex;}
+  .sl-nav__links{
+    display:none;flex-direction:column;gap:4px;
+    position:absolute;top:58px;left:0;right:0;
+    background:var(--bg);border-bottom:1px solid var(--border);
+    padding:12px 16px;z-index:999;
+    box-shadow:0 8px 32px rgba(0,0,0,0.3);
+  }
+  .sl-nav__links.open{display:flex;}
+  .sl-nav__link{padding:10px 14px;font-size:.85rem;border-radius:8px;}
+}
+
+/* ═══ CATEGORY HEADER ═══ */
+.sl-cat-hero{
+  max-width:1400px;margin:0 auto;padding:48px 24px 32px;
+  display:flex;flex-direction:column;gap:12px;
+}
+@media(max-width:600px){.sl-cat-hero{padding:32px 16px 24px;}}
+.sl-cat-hero__badge{
+  display:inline-flex;align-items:center;gap:8px;
+  background:var(--accent-glow);border:1px solid rgba(99,102,241,.3);
+  color:var(--accent);font-size:.72rem;font-weight:700;
+  padding:4px 14px;border-radius:999px;letter-spacing:.08em;
+  text-transform:uppercase;width:fit-content;
+}
+.sl-cat-hero__title{
+  font-family:var(--font-display);
+  font-size:clamp(2rem,5vw,3.2rem);
+  font-weight:900;line-height:1.1;letter-spacing:-.02em;
+  display:flex;align-items:center;gap:12px;
+}
+.sl-cat-hero__desc{
+  font-size:1rem;color:var(--text-2);max-width:600px;line-height:1.7;
+}
+.sl-cat-hero__meta{
+  display:flex;align-items:center;gap:16px;flex-wrap:wrap;
+  font-size:.8rem;color:var(--text-3);padding-top:4px;
+}
+.sl-cat-hero__meta strong{color:var(--text);}
+
+/* ═══ FILTER BAR ═══ */
+.sl-cat-bar{
+  border-top:1px solid var(--border);border-bottom:1px solid var(--border);
+  background:var(--bg-2);
+}
+.sl-cat-bar__inner{
+  max-width:1400px;margin:0 auto;padding:10px 24px;
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+  flex-wrap:wrap;
+}
+.sl-cat-bar__count{font-size:.8rem;color:var(--text-3);font-weight:600;}
+.sl-cat-bar__right{display:flex;align-items:center;gap:10px;}
+.sl-cat-bar__label{font-size:.78rem;color:var(--text-3);}
+.sl-cat-bar__select{
+  background:var(--surface);border:1px solid var(--border);
+  color:var(--text);font-size:.78rem;padding:5px 10px;
+  border-radius:6px;cursor:pointer;
+}
+.sl-search-wrap{position:relative;}
+.sl-search-wrap input{
+  background:var(--surface);border:1px solid var(--border);
+  color:var(--text);font-size:.8rem;padding:6px 12px 6px 32px;
+  border-radius:6px;width:180px;outline:none;
+  transition:border-color .15s,width .2s;
+}
+.sl-search-wrap input:focus{border-color:var(--accent);width:220px;}
+.sl-search-wrap input::placeholder{color:var(--text-3);}
+.sl-search-wrap .search-icon{
+  position:absolute;left:10px;top:50%;transform:translateY(-50%);
+  color:var(--text-3);font-size:.8rem;pointer-events:none;
+}
+
+/* ═══ AD ═══ */
+.sl-ad{max-width:1400px;margin:0 auto;padding:16px 24px 0;}
+
+/* ═══ GRID ═══ */
+.sl-grid-wrap{max-width:1400px;margin:0 auto;padding:28px 24px 60px;}
+.sl-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+  gap:20px;
+}
+@media(max-width:640px){.sl-grid{grid-template-columns:1fr;gap:14px;}}
+
+/* ═══ CARD ═══ */
+.sl-card{
+  background:var(--surface);border-radius:var(--radius);
+  border:1px solid var(--border);overflow:hidden;
+  display:flex;flex-direction:column;
+  transition:transform .2s,box-shadow .2s,border-color .2s;
+}
+.sl-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-lg);border-color:var(--border-2);}
+.sl-card__img-wrap{overflow:hidden;}
+.sl-card__img{
+  width:100%;height:180px;object-fit:cover;
+  transition:transform .35s;
+}
+.sl-card:hover .sl-card__img{transform:scale(1.04);}
+.sl-card__body{padding:16px;flex:1;display:flex;flex-direction:column;gap:8px;}
+.sl-card__tags{display:flex;gap:5px;flex-wrap:wrap;}
+.sl-card__tag{
+  font-size:.65rem;font-weight:700;padding:3px 8px;border-radius:4px;
+  background:var(--bg-3);color:var(--text-3);
+  letter-spacing:.04em;text-transform:uppercase;
+}
+.sl-card__title{
+  font-family:var(--font-display);font-size:1rem;
+  font-weight:700;line-height:1.3;color:var(--text);flex:1;
+}
+.sl-card__title:hover{color:var(--accent);}
+.sl-card__excerpt{
+  font-size:.8rem;color:var(--text-2);line-height:1.55;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+}
+.sl-card__meta{
+  display:flex;gap:8px;align-items:center;
+  font-size:.7rem;color:var(--text-3);margin-top:auto;
+}
+.sl-card__meta .dot{color:var(--border-2);}
+
+/* ═══ EMPTY + LOADING ═══ */
+.sl-empty{
+  grid-column:1/-1;text-align:center;padding:64px 24px;
+  color:var(--text-3);
+}
+.sl-empty p{font-size:.95rem;margin-bottom:20px;}
+.sl-spinner{
+  width:36px;height:36px;border:3px solid var(--surface-2);
+  border-top-color:var(--accent);border-radius:50%;
+  animation:spin 1s linear infinite;margin:0 auto 16px;
+}
+@keyframes spin{to{transform:rotate(360deg);}}
+
+/* ═══ PAGINATION ═══ */
+.sl-pagination{
+  display:flex;align-items:center;justify-content:center;
+  gap:12px;margin-top:40px;flex-wrap:wrap;
+}
+.sl-pagination__btn{
+  font-size:.82rem;font-weight:700;color:var(--accent);
+  border:1px solid rgba(99,102,241,.35);padding:8px 18px;
+  border-radius:8px;transition:background .15s;cursor:pointer;
+  background:none;
+}
+.sl-pagination__btn:hover{background:var(--accent-glow);}
+.sl-pagination__btn:disabled{opacity:.35;cursor:not-allowed;}
+.sl-pagination__info{font-size:.8rem;color:var(--text-3);}
+
+/* ═══ FOOTER ═══ */
+.sl-footer{border-top:1px solid var(--border);padding:32px 24px;background:var(--bg-2);}
+.sl-footer__inner{
+  max-width:1400px;margin:0 auto;
+  display:flex;justify-content:space-between;align-items:flex-start;
+  flex-wrap:wrap;gap:20px;
+}
+.sl-footer__brand{font-family:var(--font-display);font-size:1.5rem;font-weight:900;}
+.sl-footer__brand span{color:var(--accent);}
+.sl-footer__tagline{font-size:.75rem;color:var(--text-3);margin-top:4px;}
+.sl-footer__links{display:flex;gap:4px;flex-wrap:wrap;margin-top:8px;}
+.sl-footer__links a{
+  font-size:.75rem;color:var(--text-2);padding:4px 8px;
+  border-radius:5px;transition:background .15s;
+}
+.sl-footer__links a:hover{background:var(--surface);color:var(--text);}
+.sl-footer__copy{
+  width:100%;font-size:.72rem;color:var(--text-3);
+  border-top:1px solid var(--border);padding-top:14px;margin-top:8px;
+}
+"""
+
+# ── JS (shared logic) ────────────────────────────────────────────────────────
+SHARED_JS = """
+<script>
+(function(){
+'use strict';
+
+/* ── theme ── */
+var html = document.documentElement;
+(function(){
+  var t=localStorage.getItem('sl-theme');
+  if(!t) t=window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+  html.setAttribute('data-theme',t);
+})();
+document.getElementById('themeToggle').addEventListener('click',function(){
+  var next=html.getAttribute('data-theme')==='dark'?'light':'dark';
+  html.setAttribute('data-theme',next);
+  localStorage.setItem('sl-theme',next);
+});
+
+/* ── hamburger ── */
+var hamBtn=document.getElementById('hamBtn');
+var navLinks=document.getElementById('navLinks');
+if(hamBtn&&navLinks){
+  hamBtn.addEventListener('click',function(){
+    var open=navLinks.classList.toggle('open');
+    hamBtn.classList.toggle('open',open);
+    hamBtn.setAttribute('aria-expanded',String(open));
+  });
+  navLinks.querySelectorAll('.sl-nav__link').forEach(function(l){
+    l.addEventListener('click',function(){
+      navLinks.classList.remove('open');
+      hamBtn.classList.remove('open');
+      hamBtn.setAttribute('aria-expanded','false');
+    });
+  });
+  document.addEventListener('click',function(e){
+    if(!hamBtn.contains(e.target)&&!navLinks.contains(e.target)){
+      navLinks.classList.remove('open');
+      hamBtn.classList.remove('open');
+      hamBtn.setAttribute('aria-expanded','false');
+    }
+  });
+}
+
+/* ── config ── */
+var CAT_SLUG  = window.SL_CAT_SLUG  || 'all';
+var CAT_TAGS  = window.SL_CAT_TAGS  || [];
+var PER_PAGE  = 24;
+var allPosts  = [];
+var filtered  = [];
+var page      = 1;
+var sortOrder = 'newest';
+
+/* ── helpers ── */
+function esc(s){ return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function formatDate(d){
+  if(!d) return '';
+  try{ return new Date(d+'T00:00:00').toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}); }
+  catch(e){ return d; }
+}
+function matchesCat(post){
+  if(CAT_SLUG==='all'||!CAT_TAGS.length) return true;
+  var haystack=[post.title||'',(post.tags||[]).join(' '),post.excerpt||''].join(' ').toLowerCase();
+  return CAT_TAGS.some(function(tag){ return haystack.indexOf(tag.toLowerCase())!==-1; });
+}
+
+/* ── render cards ── */
+function renderCard(p){
+  var tags=(p.tags||[]).slice(0,2).map(function(t){
+    return '<span class="sl-card__tag">'+esc(t)+'</span>';
+  }).join('');
+  var rt=p.wordCount?Math.ceil(p.wordCount/200)+' min read':'5 min read';
+  return '<a href="/'+esc(p.url)+'" class="sl-card">'
+    +'<div class="sl-card__img-wrap"><img class="sl-card__img" src="'+esc(p.image)+'" alt="'+esc(p.title)+'" loading="lazy" onerror="this.style.display=\'none\'"/></div>'
+    +'<div class="sl-card__body">'
+    +'<div class="sl-card__tags">'+tags+'</div>'
+    +'<div class="sl-card__title">'+esc(p.title)+'</div>'
+    +'<div class="sl-card__excerpt">'+esc(p.excerpt)+'</div>'
+    +'<div class="sl-card__meta"><span>'+formatDate(p.date)+'</span><span class="dot">·</span><span>'+esc(rt)+'</span></div>'
+    +'</div>'
+    +'</a>';
+}
+
+/* ── render grid page ── */
+function renderPage(){
+  var grid=document.getElementById('catGrid');
+  var pager=document.getElementById('catPager');
+  var start=(page-1)*PER_PAGE;
+  var slice=filtered.slice(start,start+PER_PAGE);
+  var totalPages=Math.max(1,Math.ceil(filtered.length/PER_PAGE));
+
+  if(!slice.length){
+    grid.innerHTML='<div class="sl-empty"><p>No posts found in this category yet. Check back soon — new articles are published daily!</p><a href="/" style="color:var(--accent);font-weight:600;">← Back to homepage</a></div>';
+    pager.innerHTML='';
+    return;
+  }
+
+  grid.innerHTML=slice.map(renderCard).join('');
+
+  /* pagination */
+  var html='';
+  if(page>1) html+='<button class="sl-pagination__btn" onclick="goPage('+(page-1)+')">← Previous</button>';
+  html+='<span class="sl-pagination__info">Page '+page+' of '+totalPages+' &nbsp;·&nbsp; '+filtered.length+' article'+(filtered.length===1?'':'s')+'</span>';
+  if(page<totalPages) html+='<button class="sl-pagination__btn" onclick="goPage('+(page+1)+')">Next →</button>';
+  pager.innerHTML=html;
+}
+
+window.goPage=function(n){
+  page=n;
+  renderPage();
+  window.scrollTo({top:0,behavior:'smooth'});
+};
+
+/* ── filter + sort ── */
+function applyFilter(query){
+  var q=(query||'').toLowerCase().trim();
+  filtered=allPosts.filter(function(p){
+    if(!matchesCat(p)) return false;
+    if(!q) return true;
+    return (p.title||'').toLowerCase().indexOf(q)!==-1
+        || (p.excerpt||'').toLowerCase().indexOf(q)!==-1
+        || (p.tags||[]).join(' ').toLowerCase().indexOf(q)!==-1;
+  });
+  if(sortOrder==='oldest'){
+    filtered=filtered.slice().sort(function(a,b){ return (a.date||'').localeCompare(b.date||''); });
+  }
+  page=1;
+  document.getElementById('postCount').textContent=filtered.length+' article'+(filtered.length===1?'':'s');
+  renderPage();
+}
+
+/* ── sort ── */
+document.getElementById('sortSelect').addEventListener('change',function(){
+  sortOrder=this.value;
+  applyFilter(document.getElementById('searchInput').value);
+});
+
+/* ── search ── */
+var searchTimer;
+document.getElementById('searchInput').addEventListener('input',function(){
+  clearTimeout(searchTimer);
+  var q=this.value;
+  searchTimer=setTimeout(function(){ applyFilter(q); },280);
+});
+
+/* ── load data ── */
+fetch('/assets/js/posts-data.json?v='+Date.now())
+  .then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); })
+  .then(function(data){
+    allPosts=data;
+    var count=data.filter(matchesCat).length;
+    document.getElementById('postCount').textContent=count+' article'+(count===1?'':'s');
+    document.getElementById('totalCount').textContent=count;
+    applyFilter('');
+    document.getElementById('loadingState').style.display='none';
+    document.getElementById('catGrid').style.display='';
+  })
+  .catch(function(err){
+    document.getElementById('loadingState').innerHTML='<p style="color:#f43f5e">Failed to load posts. Please refresh.</p>';
+    console.error('Category load error:',err);
+  });
+
+})();
+</script>
+"""
+
+# ── HTML template ─────────────────────────────────────────────────────────────
+def build_category_page(cat: dict, year: int) -> str:
+    slug        = cat["slug"]
+    label       = cat["label"]
+    icon        = cat["icon"]
+    color       = cat["color"]
+    description = cat["description"]
+    tags_js     = str(cat["tags"]).replace("'", '"')   # Python list → JS array literal
+
+    # Mark the active nav link
+    def nav_link(href, text, active_slug=""):
+        active = ' active' if active_slug == slug else ''
+        return f'<a href="{href}" class="sl-nav__link{active}">{text}</a>'
+
+    nav_links = "\n        ".join([
+        nav_link("/#section-trending",      "🔥 Trending",      "trending"),
+        nav_link("/#section-ai-automation", "🤖 AI",            "ai-automation"),
+        nav_link("/#section-sports",        "⚽ Sports",         "sports"),
+        nav_link("/#section-finance",       "💰 Finance",        "finance"),
+        nav_link("/#section-entertainment", "🎬 Entertainment",  "entertainment"),
+        nav_link("/#section-technology",    "💻 Tech",           "technology"),
+        nav_link("/#section-deep-dives",    "🔍 Deep Dives",     "deep-dives"),
+        nav_link("/category/all",           "📰 All Posts",      "all"),
+        nav_link("/#about",                 "About"),
+    ])
+
+    return f"""<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <script>(function(){{var t=localStorage.getItem('sl-theme');if(!t)t=window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t);}})();</script>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>{label} — Sluintel</title>
+  <meta name="description" content="Browse {label} articles on Sluintel — {description}"/>
+  <meta property="og:title"       content="{label} — Sluintel"/>
+  <meta property="og:description" content="{description}"/>
+  <meta property="og:type"        content="website"/>
+  <link rel="canonical" href="https://sluintel.github.io/category/{slug}"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WJEQKLB827"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','G-WJEQKLB827');</script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2480859517203371" crossorigin="anonymous"></script>
+  <style>{SHARED_CSS}</style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="sl-nav" role="navigation" aria-label="Main navigation">
+    <div class="sl-nav__inner">
+      <a href="/" class="sl-nav__brand">Slui<span>ntel</span></a>
+      <div class="sl-nav__links" id="navLinks">
+        {nav_links}
+      </div>
+      <div class="sl-nav__right">
+        <button class="sl-ham" id="hamBtn" aria-label="Toggle menu" aria-expanded="false">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+        <button class="sl-theme-toggle" id="themeToggle" aria-label="Toggle theme">◐</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CATEGORY HEADER -->
+  <div class="sl-cat-hero">
+    <div class="sl-cat-hero__badge" style="--accent:{color};border-color:{color}33;background:{color}18;color:{color}">
+      {icon} {label}
+    </div>
+    <h1 class="sl-cat-hero__title">
+      <span>{icon}</span> {label}
+    </h1>
+    <p class="sl-cat-hero__desc">{description}</p>
+    <div class="sl-cat-hero__meta">
+      <span><strong id="totalCount">—</strong> articles</span>
+      <span>·</span>
+      <span>Updated twice daily</span>
+      <span>·</span>
+      <span>AI-generated content</span>
+    </div>
+  </div>
+
+  <!-- FILTER BAR -->
+  <div class="sl-cat-bar">
+    <div class="sl-cat-bar__inner">
+      <span class="sl-cat-bar__count" id="postCount">Loading…</span>
+      <div class="sl-cat-bar__right">
+        <div class="sl-search-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="search" id="searchInput" placeholder="Search articles…" aria-label="Search articles"/>
+        </div>
+        <label class="sl-cat-bar__label" for="sortSelect">Sort:</label>
+        <select id="sortSelect" class="sl-cat-bar__select" aria-label="Sort order">
+          <option value="newest">Newest first</option>
+          <option value="oldest">Oldest first</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <!-- AD (above grid) -->
+  <div class="sl-ad">
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2480859517203371"
+         data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle=window.adsbygoogle||[]).push({{}});</script>
+  </div>
+
+  <!-- GRID -->
+  <main class="sl-grid-wrap" aria-label="{label} articles">
+    <div id="loadingState" style="text-align:center;padding:48px 0;">
+      <div class="sl-spinner"></div>
+      <p style="color:var(--text-3);font-size:.9rem;">Loading articles…</p>
+    </div>
+    <div class="sl-grid" id="catGrid" style="display:none"></div>
+    <div class="sl-pagination" id="catPager"></div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="sl-footer">
+    <div class="sl-footer__inner">
+      <div>
+        <div class="sl-footer__brand">Slui<span>ntel</span></div>
+        <div class="sl-footer__tagline">AI-powered daily blog by Sujit Luintel · Kathmandu, Nepal</div>
+        <nav class="sl-footer__links" aria-label="Footer links">
+          <a href="/category/ai-automation">🤖 AI & Automation</a>
+          <a href="/category/sports">⚽ Sports</a>
+          <a href="/category/finance">💰 Finance</a>
+          <a href="/category/entertainment">🎬 Entertainment</a>
+          <a href="/category/technology">💻 Tech</a>
+          <a href="/category/trending">🔥 Trending</a>
+          <a href="/category/all">📰 All Posts</a>
+        </nav>
+      </div>
+      <p class="sl-footer__copy">© {year} Sluintel · Content generated with AI · Auto-published via GitHub Actions</p>
+    </div>
+  </footer>
+
+  <!-- Category config passed to JS -->
+  <script>
+    window.SL_CAT_SLUG = "{slug}";
+    window.SL_CAT_TAGS = {tags_js};
+  </script>
+{SHARED_JS}
+</body>
+</html>"""
+
+
+# ── Main ─────────────────────────────────────────────────────────────────────
+def main():
+    CATEGORY_DIR.mkdir(exist_ok=True)
+    year = datetime.now().year
+    print(f"\n🎨 Generating {len(CATEGORIES)} category pages...\n")
+
+    for cat in CATEGORIES:
+        html     = build_category_page(cat, year)
+        out_path = CATEGORY_DIR / f"{cat['slug']}.html"
+        out_path.write_text(html, encoding="utf-8")
+        print(f"  ✅  category/{cat['slug']}.html  ({len(html):,} bytes)")
+
+    print(f"\n{'─'*55}")
+    print(f"  Done! {len(CATEGORIES)} files written to category/")
+    print(f"\n  Commit with:")
+    print(f"    git add category/")
+    print(f"    git commit -m '🎨 Unified category pages — new design'")
+    print(f"    git push\n")
+
+
+if __name__ == "__main__":
+    main()
