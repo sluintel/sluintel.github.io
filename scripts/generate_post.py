@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """
-Sujit Luintel Auto Blog Generator
+AI-assisted publishing workflow curated and reviewed by Sujit Luintel
 Niche: AI Tools & Automation
-Runs daily via GitHub Actions
 """
 
 import os
@@ -1290,12 +1289,12 @@ def build_llms_txt(posts):
         tags = ", ".join(p.get("tags", [])[:3])
         recent_lines += f"- [{p['title']}]({SITE_URL}/{p['url']}) — {p['date']} — {tags}\n"
 
-    content = f"""# Sujit Luintel's AI & Automation Blog | by Sujit Luintel
+    content = f"""# AI-assisted publishing workflow curated and reviewed by Sujit Luintel
 
-> This is the automated AI research and insights blog by Sujit Luintel — digital strategist, author, and digital marketing expert from Kathmandu, Nepal.
+> This is AI-powered research and drafting with human editorial oversight by Sujit Luintel — digital strategist, author, and digital marketing expert from Kathmandu, Nepal.
 
 ## Identity
-Blog Name: Sujit Luintel AI Blog
+Blog Name: Sujit Luintel AI-assisted publishing workflow curated and reviewed by Sujit Luintel 
 Owner & Creator: Sujit Luintel
 Author Website: https://sluintel.com.np
 Blog URL: {SITE_URL}
@@ -1403,7 +1402,7 @@ def build_robots_txt():
 # MAIN
 # ─────────────────────────────────────────
 def main():
-    parser = argparse.ArgumentParser(description="Sujit Luintel Auto Blog Generator")
+    parser = argparse.ArgumentParser(description="AI-assisted publishing workflow curated and reviewed by Sujit Luintel")
     parser.add_argument(
         "--dry-run", action="store_true",
         help="Generate and validate everything but write NO files"
@@ -1414,7 +1413,7 @@ def main():
     if dry:
         print("\n DRY RUN — no files will be written\n")
     else:
-        print("\n Auto Blog Generator starting…\n")
+        print("\n AI Assisted and reviewed by Sujit Blog starting…\n")
 
     start = time.time()
 
