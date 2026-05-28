@@ -1,5 +1,20 @@
 [
   {
+    "url": "posts/2026-05-28-data-center-demystified-digital-backbone.html",
+    "title": "Your Guide to a Data Center: The Unsung Hero of the Digital World",
+    "date": "2026-05-28",
+    "image": "https://images.pexels.com/photos/17489156/pexels-photo-17489156.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "tags": [
+      "data center",
+      "cloud computing",
+      "digital infrastructure",
+      "data security",
+      "tech trends"
+    ],
+    "excerpt": "Ever wonder where your digital life actually lives? Dive into what a data center is, why it's critical for 2026, and how these digital fortresses keep our world connected and secure.",
+    "wordCount": 248
+  },
+  {
     "url": "posts/2026-05-28-claude-lemieux-ai-productivity-guide.html",
     "title": "Claude Lemieux: Unpacking the AI That's Redefining Digital Productivity",
     "date": "2026-05-28",
