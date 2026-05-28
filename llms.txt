@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 142
-Last Updated: 2026-05-27
-Latest Post: Palace vs Rayo Vallecano: What People Are Saying & Why It Matters
-Latest Post URL: https://sluintel.github.io/posts/2026-05-27-palace-vs-rayo-vallecano-what-people-are-saying.html
+Total Posts Published: 143
+Last Updated: 2026-05-28
+Latest Post: Dasun Shanaka: What People Are Saying About Sri Lanka's All-Rounder
+Latest Post URL: https://sluintel.github.io/posts/2026-05-28-what-people-are-saying-about-dasun-shanaka.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Dasun Shanaka: What People Are Saying About Sri Lanka's All-Rounder](https://sluintel.github.io/posts/2026-05-28-what-people-are-saying-about-dasun-shanaka.html) — 2026-05-28 — Dasun Shanaka, Sri Lanka Cricket, Cricket Analysis
 - [Palace vs Rayo Vallecano: What People Are Saying & Why It Matters](https://sluintel.github.io/posts/2026-05-27-palace-vs-rayo-vallecano-what-people-are-saying.html) — 2026-05-27 — Football Analysis, Crystal Palace, Rayo Vallecano
 - [Why Dhruv Jurel is Trending: Unpacking His Ascent in 2026](https://sluintel.github.io/posts/2026-05-27-dhruv-jurel-trending-right-now.html) — 2026-05-27 — Dhruv Jurel, Cricket, Trending Sports
 - [Abhishek Sharma: Everything You Should Know About Cricket's Star](https://sluintel.github.io/posts/2026-05-27-abhishek-sharma-everything-you-should-know.html) — 2026-05-27 — Abhishek Sharma, Cricket, IPL
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Dasun Shanaka: Your Essential Guide to Sri Lanka's Cricket Powerhouse](https://sluintel.github.io/posts/2026-05-27-dasun-shanaka-everything-you-should-know.html) — 2026-05-27 — Dasun Shanaka, Sri Lanka Cricket, All-Rounder
 - [What People Are Saying About Conmebol Sudamericana in 2026](https://sluintel.github.io/posts/2026-05-27-what-people-are-saying-about-conmebol-sudamericana.html) — 2026-05-27 — Conmebol Sudamericana, South American Football, Football Fan Culture
 - [Why Conmebol Sudamericana is Trending Right Now: AI's Unseen Influence](https://sluintel.github.io/posts/2026-05-27-why-conmebol-sudamericana-is-trending-right-now.html) — 2026-05-27 — CONMEBOL Sudamericana, Football Trends, AI in Sports
-- [Why '1' Is Trending Right Now: The AI-Driven Surge in Digital Culture](https://sluintel.github.io/posts/2026-05-27-why-1-is-trending-right-now.html) — 2026-05-27 — AI Trends, Digital Culture, Algorithmic Amplification
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
