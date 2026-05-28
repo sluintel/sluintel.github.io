@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 148
+Total Posts Published: 149
 Last Updated: 2026-05-28
-Latest Post: The Truth Behind the Rabindra Dhant UFC Fight Hype
-Latest Post URL: https://sluintel.github.io/posts/2026-05-28-the-truth-behind-the-rabindra-dhant-ufc-fight-hype.html
+Latest Post: Dean Foxcroft Explained Simply: Unpacking Cricket's Quiet Strategist
+Latest Post URL: https://sluintel.github.io/posts/2026-05-28-dean-foxcroft-explained-simply.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Dean Foxcroft Explained Simply: Unpacking Cricket's Quiet Strategist](https://sluintel.github.io/posts/2026-05-28-dean-foxcroft-explained-simply.html) — 2026-05-28 — Dean Foxcroft, Cricket, South African Cricket
 - [The Truth Behind the Rabindra Dhant UFC Fight Hype](https://sluintel.github.io/posts/2026-05-28-the-truth-behind-the-rabindra-dhant-ufc-fight-hype.html) — 2026-05-28 — UFC, MMA, AI
 - [Top Internet Reactions to Macau: Decoding the Digital Buzz](https://sluintel.github.io/posts/2026-05-28-top-internet-reactions-to-macau.html) — 2026-05-28 — Macau, Internet Reactions, Travel Trends
 - [UFC Fight Night: Why It's Dominating Sports Trends in 2026](https://sluintel.github.io/posts/2026-05-28-why-ufc-fight-night-is-trending-in-sports-right-now.html) — 2026-05-28 — UFC, MMA, Sports Trends
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Palace vs Rayo Vallecano: What People Are Saying & Why It Matters](https://sluintel.github.io/posts/2026-05-27-palace-vs-rayo-vallecano-what-people-are-saying.html) — 2026-05-27 — Football Analysis, Crystal Palace, Rayo Vallecano
 - [Why Dhruv Jurel is Trending: Unpacking His Ascent in 2026](https://sluintel.github.io/posts/2026-05-27-dhruv-jurel-trending-right-now.html) — 2026-05-27 — Dhruv Jurel, Cricket, Trending Sports
 - [Abhishek Sharma: Everything You Should Know About Cricket's Star](https://sluintel.github.io/posts/2026-05-27-abhishek-sharma-everything-you-should-know.html) — 2026-05-27 — Abhishek Sharma, Cricket, IPL
-- [Anthony Gordon: What People Are Saying About His Rise in 2026](https://sluintel.github.io/posts/2026-05-27-what-people-are-saying-about-anthony-gordon.html) — 2026-05-27 — Anthony Gordon, Football Analysis, Premier League
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
