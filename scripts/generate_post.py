@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Sujit Luintel's AI Assisted Blog Generator
+Sujit Luintel Auto Blog Generator
 Niche: AI Tools & Automation
 Runs daily via GitHub Actions
 """
@@ -420,80 +420,6 @@ def _unique_slug(slug: str, date_str: str) -> str:
     return slug
 
 
-
-
-def _safe_parse_gemini_json(raw: str) -> dict:
-    """
-    Robustly parse JSON from Gemini even when content_html contains
-    unescaped quotes, newlines, or other characters that break json.loads.
-    Strategy:
-      1. Try json.loads directly (fastest path).
-      2. Strip markdown fences and retry.
-      3. Extract content_html separately, replace it with a placeholder,
-         parse the rest cleanly, then re-insert the HTML.
-      4. If all else fails, raise with a clear message.
-    """
-    # ── Pass 1: direct parse ──────────────────────────────────────────────
-    try:
-        return json.loads(raw)
-    except json.JSONDecodeError:
-        pass
-
-    # ── Pass 2: strip markdown fences ────────────────────────────────────
-    cleaned = re.sub(r"^```(?:json)?\s*", "", raw.strip(), flags=re.IGNORECASE)
-    cleaned = re.sub(r"```$", "", cleaned.strip())
-    try:
-        return json.loads(cleaned)
-    except json.JSONDecodeError:
-        pass
-
-    # ── Pass 3: extract content_html separately ───────────────────────────
-    # Find the value of "content_html" using a greedy search between the key
-    # and the closing }" of the top-level object.
-    html_match = re.search(
-        r'"content_html"\s*:\s*"(.*?)"\s*\}?\s*$',
-        cleaned,
-        re.DOTALL,
-    )
-    if html_match:
-        html_value  = html_match.group(1)
-        placeholder = "__CONTENT_HTML_PLACEHOLDER__"
-        stub        = cleaned[: html_match.start()] + f'"content_html": "{placeholder}"' + "}"
-        try:
-            data = json.loads(stub)
-            # Unescape the raw HTML value (Gemini sometimes double-escapes)
-            data["content_html"] = html_value.replace(chr(92)+chr(34), chr(34))
-
-            return data
-        except json.JSONDecodeError:
-            pass
-
-    # ── Pass 4: use Gemini again with stricter prompt ─────────────────────
-    print("⚠️  JSON parse failed on all passes — attempting Gemini repair call…")
-    try:
-        from google import genai as _genai
-        from google.genai import types as _types
-        _client = _genai.Client(api_key=GEMINI_API_KEY)
-        repair_prompt = (
-            "The following text is a malformed JSON object. "
-            "Fix it so it is valid JSON and return ONLY the fixed JSON, "
-            "no markdown, no explanation:\n\n" + raw[:8000]
-        )
-        repair_resp = _client.models.generate_content(
-            model="gemini-2.5-flash",
-            contents=repair_prompt,
-            config=_types.GenerateContentConfig(response_mime_type="application/json"),
-        )
-        return json.loads(repair_resp.text)
-    except Exception as e:
-        print(f"⚠️  Gemini repair also failed: {e}")
-
-    raise ValueError(
-        f"Could not parse Gemini JSON response after all recovery attempts. "
-        f"First 300 chars: {raw[:300]}"
-    )
-
-
 def generate_blog_post(keyword: str) -> dict:
     from google.genai import types
 
@@ -593,7 +519,7 @@ Return ONLY a valid JSON object with exactly these keys — no markdown fences, 
         config=types.GenerateContentConfig(response_mime_type="application/json"),
     )
 
-    data = _safe_parse_gemini_json(response.text)
+    data = json.loads(response.text)
 
     data["slug"] = re.sub(r"[^a-z0-9\-]", "", data["slug"].lower().replace(" ", "-"))
     data["slug"] = re.sub(r"-+", "-", data["slug"]).strip("-")
@@ -1107,7 +1033,7 @@ def build_post_html(post, img_url, img_credit, og_image_url, date_str):
         "datePublished":    date_str,
         "dateModified":     date_str,
         "author":           {"@type": "Person", "name": "Sujit Luintel", "url": "https://sluintel.com.np"},
-        "publisher":        {"@type": "Organization", "name": "Sujit Luintel",
+        "publisher":        {"@type": "Organization", "name": "Sluintel",
                              "logo": {"@type": "ImageObject", "url": f"{SITE_URL}/favicon.ico"}},
         "mainEntityOfPage": {"@type": "WebPage", "@id": post_url},
         "keywords":         ", ".join(post.get("tags", [])),
@@ -1160,7 +1086,7 @@ def build_post_html(post, img_url, img_credit, og_image_url, date_str):
   <script>(function(){{var t=localStorage.getItem('sl-theme');if(!t)t=window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t);}})();</script>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>{post['title']} — Sujit Luintel</title>
+  <title>{post['title']} — Sluintel</title>
   <meta name="description"           content="{post['meta_description']}"/>
   <meta property="og:title"          content="{post['title']}"/>
   <meta property="og:description"    content="{post['meta_description']}"/>
@@ -1321,68 +1247,37 @@ def update_posts_data_json(posts):
 # 9. REGENERATE sitemap.xml
 # ─────────────────────────────────────────
 def build_sitemap(posts):
-    now_iso  = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S+00:00")
+    now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S+00:00")
 
-    # ── Category pages to include ──────────────────────────────────────────
-    CATEGORY_SLUGS = [
-        "trending", "ai-automation", "sports", "finance",
-        "entertainment", "technology", "deep-dives", "all",
-    ]
+    urlset = ET.Element("urlset")
+    urlset.set("xmlns", "http://www.sitemaps.org/schemas/sitemap/0.9")
+    urlset.set("xmlns:xsi", "http://www.w3.org/2001/XMLSchema-instance")
+    urlset.set(
+        "xsi:schemaLocation",
+        "http://www.sitemaps.org/schemas/sitemap/0.9 "
+        "http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd",
+    )
 
-    # ── Deduplicate posts by URL (posts.json can have duplicate slugs) ─────
-    seen_urls = set()
-    unique_posts = []
+    url_el = ET.SubElement(urlset, "url")
+    ET.SubElement(url_el, "loc").text        = f"{SITE_URL}/"
+    ET.SubElement(url_el, "lastmod").text    = now_iso
+    ET.SubElement(url_el, "changefreq").text = "daily"
+    ET.SubElement(url_el, "priority").text   = "1.00"
+
     for p in posts:
-        url = p.get("url", "")
-        if url and url not in seen_urls:
-            seen_urls.add(url)
-            unique_posts.append(p)
+        url_el = ET.SubElement(urlset, "url")
+        ET.SubElement(url_el, "loc").text        = f"{SITE_URL}/{p['url']}"
+        ET.SubElement(url_el, "lastmod").text    = now_iso
+        ET.SubElement(url_el, "changefreq").text = "weekly"
+        ET.SubElement(url_el, "priority").text   = "0.80"
 
-    # ── Build XML manually as a string (avoids minidom BOM/encoding bugs) ──
-    lines = [
-        '<?xml version="1.0" encoding="UTF-8"?>',
-        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
-        '        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"',
-        '        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9',
-        '          http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">',
-    ]
+    raw          = ET.tostring(urlset, encoding="unicode")
+    pretty_bytes = minidom.parseString(raw).toprettyxml(indent="  ", encoding="UTF-8")
+    lines        = pretty_bytes.decode("utf-8").splitlines()
+    cleaned      = "\n".join(line for line in lines if line.strip())
 
-    def add_url(loc, lastmod, changefreq, priority):
-        lines.append("  <url>")
-        lines.append(f"    <loc>{loc}</loc>")
-        lines.append(f"    <lastmod>{lastmod}</lastmod>")
-        lines.append(f"    <changefreq>{changefreq}</changefreq>")
-        lines.append(f"    <priority>{priority}</priority>")
-        lines.append("  </url>")
-
-    # Homepage
-    add_url(f"{SITE_URL}/", now_iso, "daily", "1.00")
-
-    # Category pages
-    for slug in CATEGORY_SLUGS:
-        add_url(f"{SITE_URL}/category/{slug}", now_iso, "daily", "0.90")
-
-    # Individual posts — use actual post date for lastmod
-    for p in unique_posts:
-        date_str = p.get("date", "")
-        if date_str:
-            try:
-                lastmod = datetime.strptime(date_str, "%Y-%m-%d").strftime("%Y-%m-%dT00:00:00+00:00")
-            except ValueError:
-                lastmod = now_iso
-        else:
-            lastmod = now_iso
-        add_url(f"{SITE_URL}/{p['url']}", lastmod, "weekly", "0.80")
-
-    lines.append("</urlset>")
-
-    sitemap_content = "\n".join(lines) + "\n"
-
-    # Write without BOM — plain UTF-8 text
-    SITEMAP_PATH.write_text(sitemap_content, encoding="utf-8")
-    print(f"sitemap.xml updated ({len(unique_posts)} unique posts + 1 homepage + {len(CATEGORY_SLUGS)} category pages)")
-    if len(unique_posts) < len(posts):
-        print(f"  ↳ Removed {len(posts) - len(unique_posts)} duplicate URLs from sitemap")
+    SITEMAP_PATH.write_text(cleaned, encoding="utf-8")
+    print(f"sitemap.xml updated ({len(posts)} posts + 1 homepage)")
 
 
 # ─────────────────────────────────────────
