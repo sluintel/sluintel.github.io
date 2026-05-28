@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 159
+Total Posts Published: 160
 Last Updated: 2026-05-28
-Latest Post: Decoding the Top Internet Reactions to PPV: What Gets Fans Buzzing
-Latest Post URL: https://sluintel.github.io/posts/2026-05-28-top-internet-reactions-to-ppv.html
+Latest Post: Ireland Women vs West Indies Women: Everything You Should Know
+Latest Post URL: https://sluintel.github.io/posts/2026-05-28-ireland-women-vs-west-indies-women-cricket.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Ireland Women vs West Indies Women: Everything You Should Know](https://sluintel.github.io/posts/2026-05-28-ireland-women-vs-west-indies-women-cricket.html) — 2026-05-28 — cricket, women's sports, Ireland cricket
 - [Decoding the Top Internet Reactions to PPV: What Gets Fans Buzzing](https://sluintel.github.io/posts/2026-05-28-top-internet-reactions-to-ppv.html) — 2026-05-28 — PPV, Internet Culture, Fan Reactions
 - [Claude Lemieux: Unlocking the AI That's Boosting Your Brainpower](https://sluintel.github.io/posts/2026-05-28-claude-lemieux-ai-productivity-guide-2.html) — 2026-05-28 — Claude AI, AI productivity, tech trends
 - [PSG vs Arsenal: What People Are Saying About This Epic Rivalry](https://sluintel.github.io/posts/2026-05-28-what-people-are-saying-about-psg-vs-arsenal.html) — 2026-05-28 — PSG, Arsenal, Football
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Why MMA Is Trending Right Now: The Global Fight Phenomenon](https://sluintel.github.io/posts/2026-05-28-why-mma-is-trending-right-now.html) — 2026-05-28 — MMA, UFC, Combat Sports
 - [MMA Live: Everything You Should Know to Catch the Action](https://sluintel.github.io/posts/2026-05-28-mma-live-everything-you-should-know.html) — 2026-05-28 — MMA, Live Sports, Combat Sports
 - [Decoding the Top Internet Reactions to MMA Live Fights](https://sluintel.github.io/posts/2026-05-28-top-internet-reactions-to-mma-live.html) — 2026-05-28 — MMA, UFC, Internet Culture
-- [Why You Need to Know About Rabindra Dhant.](https://sluintel.github.io/posts/2026-05-28-why-you-need-to-know-about-rabindra-dhant.html) — 2026-05-28 — Rabindra Dhant, MMA, UFC
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
