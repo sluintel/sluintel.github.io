@@ -1,0 +1,51 @@
+name: "📝 Step 1 — Suggest Titles for Keyword"
+
+on:
+  workflow_dispatch:
+    inputs:
+      keyword:
+        description: "Topic or keyword to write about (e.g. 'Claude AI vs ChatGPT')"
+        required: true
+        type: string
+
+jobs:
+  suggest-titles:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: 🐍 Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: 📦 Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install google-genai requests
+
+      - name: 💡 Generate 5 title suggestions
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python scripts/suggest_titles.py --keyword "${{ github.event.inputs.keyword }}"
+
+      - name: 💾 Commit pending_approval.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add pending_approval.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "📝 Title suggestions for: ${{ github.event.inputs.keyword }}"
+            git push
+          fi

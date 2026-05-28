@@ -1,0 +1,99 @@
+name: "🚀 Step 2 — Publish Post with Chosen Title"
+
+on:
+  workflow_dispatch:
+    inputs:
+      keyword:
+        description: "Same keyword you used in Step 1 (suggest_titles)"
+        required: true
+        type: string
+      title_choice:
+        description: "Enter 1, 2, 3, 4, or 5 to pick a suggested title — OR type your own custom title here"
+        required: true
+        type: string
+
+jobs:
+  publish-post:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: 🐍 Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: 📦 Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install Pillow google-genai requests
+
+      - name: 🎯 Resolve title from choice
+        id: resolve
+        run: |
+          python3 - << 'PYEOF'
+          import json, os, sys
+          from pathlib import Path
+
+          keyword      = """${{ github.event.inputs.keyword }}"""
+          title_input  = """${{ github.event.inputs.title_choice }}""".strip()
+          pending_file = Path("pending_approval.json")
+
+          # If input is a single digit 1-5, look up from pending_approval.json
+          if title_input in ("1", "2", "3", "4", "5"):
+              if not pending_file.exists():
+                  print("ERROR: pending_approval.json not found.")
+                  print("Please run Step 1 (suggest_titles) first, or enter a custom title.")
+                  sys.exit(1)
+              pending = json.loads(pending_file.read_text())
+              titles  = pending.get("titles", [])
+              idx     = int(title_input) - 1
+              if idx >= len(titles):
+                  print(f"ERROR: Only {len(titles)} titles available, you chose {title_input}")
+                  sys.exit(1)
+              chosen_title = titles[idx]
+              print(f"✅ Picked title [{title_input}]: {chosen_title}")
+          else:
+              # Custom title entered directly
+              chosen_title = title_input
+              print(f"✅ Using custom title: {chosen_title}")
+
+          # Write to env file so next steps can read it
+          with open(os.environ["GITHUB_ENV"], "a") as f:
+              f.write(f"CHOSEN_TITLE={chosen_title}\n")
+              f.write(f"POST_KEYWORD={keyword}\n")
+
+          print(f"   Keyword : {keyword}")
+          print(f"   Title   : {chosen_title}")
+          PYEOF
+
+      - name: 📝 Generate and publish blog post
+        env:
+          GEMINI_API_KEY:      ${{ secrets.GEMINI_API_KEY }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+          PEXELS_API_KEY:      ${{ secrets.PEXELS_API_KEY }}
+        run: |
+          python scripts/generate_post.py \
+            --keyword "${{ env.POST_KEYWORD }}" \
+            --title   "${{ env.CHOSEN_TITLE }}"
+
+      - name: 📝 Commit and push new post
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nothing to commit — skipping push"
+          else
+            NPT_TIME=$(TZ='Asia/Kathmandu' date '+%Y-%m-%d %H:%M NPT')
+            git commit -m "✍️ Manual post: ${{ env.CHOSEN_TITLE }} — ${NPT_TIME}"
+            git push
+          fi
