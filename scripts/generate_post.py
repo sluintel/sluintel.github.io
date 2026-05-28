@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-AI-assisted publishing workflow curated and reviewed by Sujit Luintel
+Sujit Luintel AI Assisted Blog Generator
 Niche: AI Tools & Automation
+Runs daily via GitHub Actions
 """
 
 import os
@@ -16,6 +17,7 @@ import textwrap
 import argparse
 import requests
 import xml.etree.ElementTree as ET
+from xml.dom import minidom
 from datetime import datetime, timezone
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
@@ -418,6 +420,80 @@ def _unique_slug(slug: str, date_str: str) -> str:
     return slug
 
 
+
+
+def _safe_parse_gemini_json(raw: str) -> dict:
+    """
+    Robustly parse JSON from Gemini even when content_html contains
+    unescaped quotes, newlines, or other characters that break json.loads.
+    Strategy:
+      1. Try json.loads directly (fastest path).
+      2. Strip markdown fences and retry.
+      3. Extract content_html separately, replace it with a placeholder,
+         parse the rest cleanly, then re-insert the HTML.
+      4. If all else fails, raise with a clear message.
+    """
+    # ── Pass 1: direct parse ──────────────────────────────────────────────
+    try:
+        return json.loads(raw)
+    except json.JSONDecodeError:
+        pass
+
+    # ── Pass 2: strip markdown fences ────────────────────────────────────
+    cleaned = re.sub(r"^```(?:json)?\s*", "", raw.strip(), flags=re.IGNORECASE)
+    cleaned = re.sub(r"```$", "", cleaned.strip())
+    try:
+        return json.loads(cleaned)
+    except json.JSONDecodeError:
+        pass
+
+    # ── Pass 3: extract content_html separately ───────────────────────────
+    # Find the value of "content_html" using a greedy search between the key
+    # and the closing }" of the top-level object.
+    html_match = re.search(
+        r'"content_html"\s*:\s*"(.*?)"\s*\}?\s*$',
+        cleaned,
+        re.DOTALL,
+    )
+    if html_match:
+        html_value  = html_match.group(1)
+        placeholder = "__CONTENT_HTML_PLACEHOLDER__"
+        stub        = cleaned[: html_match.start()] + f'"content_html": "{placeholder}"' + "}"
+        try:
+            data = json.loads(stub)
+            # Unescape the raw HTML value (Gemini sometimes double-escapes)
+            data["content_html"] = html_value.replace(chr(92)+chr(34), chr(34))
+
+            return data
+        except json.JSONDecodeError:
+            pass
+
+    # ── Pass 4: use Gemini again with stricter prompt ─────────────────────
+    print("⚠️  JSON parse failed on all passes — attempting Gemini repair call…")
+    try:
+        from google import genai as _genai
+        from google.genai import types as _types
+        _client = _genai.Client(api_key=GEMINI_API_KEY)
+        repair_prompt = (
+            "The following text is a malformed JSON object. "
+            "Fix it so it is valid JSON and return ONLY the fixed JSON, "
+            "no markdown, no explanation:\n\n" + raw[:8000]
+        )
+        repair_resp = _client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=repair_prompt,
+            config=_types.GenerateContentConfig(response_mime_type="application/json"),
+        )
+        return json.loads(repair_resp.text)
+    except Exception as e:
+        print(f"⚠️  Gemini repair also failed: {e}")
+
+    raise ValueError(
+        f"Could not parse Gemini JSON response after all recovery attempts. "
+        f"First 300 chars: {raw[:300]}"
+    )
+
+
 def generate_blog_post(keyword: str) -> dict:
     from google.genai import types
 
@@ -517,7 +593,7 @@ Return ONLY a valid JSON object with exactly these keys — no markdown fences, 
         config=types.GenerateContentConfig(response_mime_type="application/json"),
     )
 
-    data = json.loads(response.text)
+    data = _safe_parse_gemini_json(response.text)
 
     data["slug"] = re.sub(r"[^a-z0-9\-]", "", data["slug"].lower().replace(" ", "-"))
     data["slug"] = re.sub(r"-+", "-", data["slug"]).strip("-")
@@ -1111,16 +1187,16 @@ def build_post_html(post, img_url, img_credit, og_image_url, date_str):
 
   <nav class="sl-nav" role="navigation" aria-label="Main navigation">
     <div class="sl-nav__inner">
-      <a href="/" class="sl-nav__brand">Sujit<span>Luintel</span></a>
+      <a href="/" class="sl-nav__brand">Sujit <span>Luintel</span></a>
       <div class="sl-nav__links" id="navLinks">
-        <a href="/#section-trending"      class="sl-nav__link">🔥 Trending</a>
-        <a href="/#section-ai-automation" class="sl-nav__link">🤖 AI</a>
-        <a href="/#section-sports"        class="sl-nav__link">⚽ Sports</a>
-        <a href="/#section-finance"       class="sl-nav__link">💰 Finance</a>
-        <a href="/#section-entertainment" class="sl-nav__link">🎬 Entertainment</a>
-        <a href="/#section-technology"    class="sl-nav__link">💻 Tech</a>
-        <a href="/#section-deep-dives"    class="sl-nav__link">🔍 Deep Dives</a>
-        <a href="/#section-all"           class="sl-nav__link">📰 All Posts</a>
+        <a href="/category/trending"      class="sl-nav__link">🔥 Trending</a>
+        <a href="/category/ai-automation" class="sl-nav__link">🤖 AI</a>
+        <a href="/category/sports"        class="sl-nav__link">⚽ Sports</a>
+        <a href="/category/finance"       class="sl-nav__link">💰 Finance</a>
+        <a href="/category/entertainment" class="sl-nav__link">🎬 Entertainment</a>
+        <a href="/category/technology"    class="sl-nav__link">💻 Tech</a>
+        <a href="/category/deep-dives"    class="sl-nav__link">🔍 Deep Dives</a>
+        <a href="/category/all"           class="sl-nav__link">📰 All Posts</a>
         <a href="/#about"                 class="sl-nav__link">About</a>
       </div>
       <div class="sl-nav__right">
@@ -1165,15 +1241,15 @@ def build_post_html(post, img_url, img_credit, og_image_url, date_str):
   <footer class="sl-footer">
     <div class="sl-footer__inner">
       <div>
-        <div class="sl-footer__brand">Sujit<span>Luintel</span></div>
+        <div class="sl-footer__brand">Sujit <span>Luintel</span></div>
         <div class="sl-footer__tagline">AI-powered daily blog by Sujit Luintel · Kathmandu, Nepal</div>
         <nav class="sl-footer__links" aria-label="Footer links">
-          <a href="/#section-ai-automation">🤖 AI</a>
-          <a href="/#section-sports">⚽ Sports</a>
-          <a href="/#section-finance">💰 Finance</a>
-          <a href="/#section-entertainment">🎬 Entertainment</a>
-          <a href="/#section-technology">💻 Tech</a>
-          <a href="/#section-trending">🔥 Trending</a>
+          <a href="/category/ai-automation">🤖 AI</a>
+          <a href="/category/sports">⚽ Sports</a>
+          <a href="/category/finance">💰 Finance</a>
+          <a href="/category/entertainment">🎬 Entertainment</a>
+          <a href="/category/technology">💻 Tech</a>
+          <a href="/category/trending">🔥 Trending</a>
         </nav>
       </div>
       <p class="sl-footer__copy">© {year} Sujit Luintel · Content generated with AI · Auto-published via GitHub Actions</p>
@@ -1240,39 +1316,41 @@ def update_posts_data_json(posts):
     POSTS_DATA_JSON.write_text(json.dumps(data, indent=2), encoding="utf-8")
     print(f"posts-data.json updated ({len(data)} posts) → assets/js/posts-data.json")
 
+
 # ─────────────────────────────────────────
 # 9. REGENERATE sitemap.xml
 # ─────────────────────────────────────────
 def build_sitemap(posts):
     now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S+00:00")
 
-    lines = [
-        '<?xml version="1.0" encoding="UTF-8"?>',
-        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
-        '        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"',
-        '        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9'
-        ' http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">',
-        '  <url>',
-        f'    <loc>{SITE_URL}/</loc>',
-        f'    <lastmod>{now_iso}</lastmod>',
-        '    <changefreq>daily</changefreq>',
-        '    <priority>1.00</priority>',
-        '  </url>',
-    ]
+    urlset = ET.Element("urlset")
+    urlset.set("xmlns", "http://www.sitemaps.org/schemas/sitemap/0.9")
+    urlset.set("xmlns:xsi", "http://www.w3.org/2001/XMLSchema-instance")
+    urlset.set(
+        "xsi:schemaLocation",
+        "http://www.sitemaps.org/schemas/sitemap/0.9 "
+        "http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd",
+    )
+
+    url_el = ET.SubElement(urlset, "url")
+    ET.SubElement(url_el, "loc").text        = f"{SITE_URL}/"
+    ET.SubElement(url_el, "lastmod").text    = now_iso
+    ET.SubElement(url_el, "changefreq").text = "daily"
+    ET.SubElement(url_el, "priority").text   = "1.00"
 
     for p in posts:
-        date_iso = f"{p['date']}T00:00:00+00:00"
-        lines += [
-            '  <url>',
-            f'    <loc>{SITE_URL}/{p["url"]}</loc>',
-            f'    <lastmod>{date_iso}</lastmod>',
-            '    <changefreq>weekly</changefreq>',
-            '    <priority>0.80</priority>',
-            '  </url>',
-        ]
+        url_el = ET.SubElement(urlset, "url")
+        ET.SubElement(url_el, "loc").text        = f"{SITE_URL}/{p['url']}"
+        ET.SubElement(url_el, "lastmod").text    = now_iso
+        ET.SubElement(url_el, "changefreq").text = "weekly"
+        ET.SubElement(url_el, "priority").text   = "0.80"
 
-    lines.append('</urlset>')
-    SITEMAP_PATH.write_text('\n'.join(lines) + '\n', encoding='utf-8')
+    raw          = ET.tostring(urlset, encoding="unicode")
+    pretty_bytes = minidom.parseString(raw).toprettyxml(indent="  ", encoding="UTF-8")
+    lines        = pretty_bytes.decode("utf-8").splitlines()
+    cleaned      = "\n".join(line for line in lines if line.strip())
+
+    SITEMAP_PATH.write_text(cleaned, encoding="utf-8")
     print(f"sitemap.xml updated ({len(posts)} posts + 1 homepage)")
 
 
@@ -1289,12 +1367,12 @@ def build_llms_txt(posts):
         tags = ", ".join(p.get("tags", [])[:3])
         recent_lines += f"- [{p['title']}]({SITE_URL}/{p['url']}) — {p['date']} — {tags}\n"
 
-    content = f"""# AI-assisted publishing workflow curated and reviewed by Sujit Luintel
+    content = f"""# Sujit Luintel's AI Assisted Blog | by Sujit Luintel
 
-> This is AI-powered research and drafting with human editorial oversight by Sujit Luintel — digital strategist, author, and digital marketing expert from Kathmandu, Nepal.
+> This is the automated AI research and insights blog by Sujit Luintel — digital strategist, author, and digital marketing expert from Kathmandu, Nepal.
 
 ## Identity
-Blog Name: Sujit Luintel AI-assisted publishing workflow curated and reviewed by Sujit Luintel 
+Blog Name: Sujit Luintel AI Blog
 Owner & Creator: Sujit Luintel
 Author Website: https://sluintel.com.np
 Blog URL: {SITE_URL}
@@ -1390,7 +1468,7 @@ def build_rss_feed(posts):
 def build_robots_txt():
     content = (
         "User-agent: *\n"
-        "Disallow:\n"
+        "Allow: /\n"
         "\n"
         f"Sitemap: {SITE_URL}/sitemap.xml\n"
     )
@@ -1402,7 +1480,7 @@ def build_robots_txt():
 # MAIN
 # ─────────────────────────────────────────
 def main():
-    parser = argparse.ArgumentParser(description="AI-assisted publishing workflow curated and reviewed by Sujit Luintel")
+    parser = argparse.ArgumentParser(description="Sujit Luintel Auto Blog Generator")
     parser.add_argument(
         "--dry-run", action="store_true",
         help="Generate and validate everything but write NO files"
@@ -1413,7 +1491,7 @@ def main():
     if dry:
         print("\n DRY RUN — no files will be written\n")
     else:
-        print("\n AI Assisted and reviewed by Sujit Blog starting…\n")
+        print("\n Auto Blog Generator starting…\n")
 
     start = time.time()
 
