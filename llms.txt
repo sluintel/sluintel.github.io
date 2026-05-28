@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 150
+Total Posts Published: 151
 Last Updated: 2026-05-28
-Latest Post: Why You Need to Know About Rabindra Dhant.
-Latest Post URL: https://sluintel.github.io/posts/2026-05-28-why-you-need-to-know-about-rabindra-dhant.html
+Latest Post: Decoding the Top Internet Reactions to MMA Live Fights
+Latest Post URL: https://sluintel.github.io/posts/2026-05-28-top-internet-reactions-to-mma-live.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Decoding the Top Internet Reactions to MMA Live Fights](https://sluintel.github.io/posts/2026-05-28-top-internet-reactions-to-mma-live.html) — 2026-05-28 — MMA, UFC, Internet Culture
 - [Why You Need to Know About Rabindra Dhant.](https://sluintel.github.io/posts/2026-05-28-why-you-need-to-know-about-rabindra-dhant.html) — 2026-05-28 — Rabindra Dhant, MMA, UFC
 - [Dean Foxcroft Explained Simply: Unpacking Cricket's Quiet Strategist](https://sluintel.github.io/posts/2026-05-28-dean-foxcroft-explained-simply.html) — 2026-05-28 — Dean Foxcroft, Cricket, South African Cricket
 - [The Truth Behind the Rabindra Dhant UFC Fight Hype](https://sluintel.github.io/posts/2026-05-28-the-truth-behind-the-rabindra-dhant-ufc-fight-hype.html) — 2026-05-28 — UFC, MMA, AI
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [AI in 2026: Mastering Artificial Intelligence for Tomorrow's Success](https://sluintel.github.io/posts/2026-05-28-ai-mastering-artificial-intelligence-2026.html) — 2026-05-28 — Artificial Intelligence, AI Tools, Machine Learning
 - [Dasun Shanaka: What People Are Saying About Sri Lanka's All-Rounder](https://sluintel.github.io/posts/2026-05-28-what-people-are-saying-about-dasun-shanaka.html) — 2026-05-28 — Dasun Shanaka, Sri Lanka Cricket, Cricket Analysis
 - [Palace vs Rayo Vallecano: What People Are Saying & Why It Matters](https://sluintel.github.io/posts/2026-05-27-palace-vs-rayo-vallecano-what-people-are-saying.html) — 2026-05-27 — Football Analysis, Crystal Palace, Rayo Vallecano
-- [Why Dhruv Jurel is Trending: Unpacking His Ascent in 2026](https://sluintel.github.io/posts/2026-05-27-dhruv-jurel-trending-right-now.html) — 2026-05-27 — Dhruv Jurel, Cricket, Trending Sports
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
