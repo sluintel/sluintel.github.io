@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 172
+Total Posts Published: 173
 Last Updated: 2026-05-29
-Latest Post: Spurs vs Thunder: Everything You Need to Know About This Rivalry
-Latest Post URL: https://sluintel.github.io/posts/2026-05-29-spurs-vs-thunder-everything-you-should-know.html
+Latest Post: Rajasthan Royals vs Gujarat Titans: Scorecard, Updates & Predictions
+Latest Post URL: https://sluintel.github.io/posts/2026-05-29-rajasthan-royals-vs-gujarat-titans-match-scorecard-latest-updates-and-predictions.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Rajasthan Royals vs Gujarat Titans: Scorecard, Updates & Predictions](https://sluintel.github.io/posts/2026-05-29-rajasthan-royals-vs-gujarat-titans-match-scorecard-latest-updates-and-predictions.html) — 2026-05-29 — IPL, Cricket, Match Predictions
 - [Spurs vs Thunder: Everything You Need to Know About This Rivalry](https://sluintel.github.io/posts/2026-05-29-spurs-vs-thunder-everything-you-should-know.html) — 2026-05-29 — NBA, Spurs, Thunder
 - [Weather Explained Simply: Your Guide to Understanding What's Outside](https://sluintel.github.io/posts/2026-05-29-weather-explained-simply.html) — 2026-05-29 — weather, meteorology, climate
 - [The Claude AI $500 Million Bill: What It Means for You](https://sluintel.github.io/posts/2026-05-29-claude-ai-500-million-bill.html) — 2026-05-29 — Claude AI, AI Investment, Tech Trends 2026
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Top Internet Reactions to Mausam: Decoding Digital Weather Chatter](https://sluintel.github.io/posts/2026-05-29-top-internet-reactions-to-mausam.html) — 2026-05-29 — internet trends, weather, social media
 - [India Women vs England Women: The Rivalry Explained Simply](https://sluintel.github.io/posts/2026-05-29-india-women-vs-england-women-explained-simply.html) — 2026-05-29 — Women's Cricket, India Cricket, England Cricket
 - [The Latest Updates on Weather: Your 2026 Guide to Smarter Forecasts](https://sluintel.github.io/posts/2026-05-29-the-latest-updates-on-weather-2026.html) — 2026-05-29 — weather, forecast, AI weather
-- [Latest Updates: Men's T20i Asian Games Qualifier Drama Unfolds](https://sluintel.github.io/posts/2026-05-29-latest-updates-mens-t20i-asian-games-qualifier.html) — 2026-05-29 — Cricket, T20i, Asian Games
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
