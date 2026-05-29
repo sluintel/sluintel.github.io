@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 162
+Total Posts Published: 163
 Last Updated: 2026-05-29
-Latest Post: Tech Mahindra Share Price: Your 2026 Guide to Smart Investing
-Latest Post URL: https://sluintel.github.io/posts/2026-05-29-tech-mahindra-share-price-analysis.html
+Latest Post: Latest Updates: Men's T20i Asian Games Qualifier Drama Unfolds
+Latest Post URL: https://sluintel.github.io/posts/2026-05-29-latest-updates-mens-t20i-asian-games-qualifier.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Latest Updates: Men's T20i Asian Games Qualifier Drama Unfolds](https://sluintel.github.io/posts/2026-05-29-latest-updates-mens-t20i-asian-games-qualifier.html) — 2026-05-29 — Cricket, T20i, Asian Games
 - [Tech Mahindra Share Price: Your 2026 Guide to Smart Investing](https://sluintel.github.io/posts/2026-05-29-tech-mahindra-share-price-analysis.html) — 2026-05-29 — tech investing, share market, Indian IT
 - [Netherlands Women vs Scotland Women Explained Simply](https://sluintel.github.io/posts/2026-05-29-netherlands-women-vs-scotland-women-explained-simply.html) — 2026-05-29 — Women's Football, Football Rivalries, Netherlands Football
 - [Ireland Women vs West Indies Women: Everything You Should Know](https://sluintel.github.io/posts/2026-05-28-ireland-women-vs-west-indies-women-cricket.html) — 2026-05-28 — cricket, women's sports, Ireland cricket
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Nathan Smith: Latest Updates on Cricket's Rising Talent](https://sluintel.github.io/posts/2026-05-28-nathan-smith-latest-updates.html) — 2026-05-28 — Cricket, Sports Tech, Athlete Performance
 - [Your Guide to a Data Center: The Unsung Hero of the Digital World](https://sluintel.github.io/posts/2026-05-28-data-center-demystified-digital-backbone.html) — 2026-05-28 — data center, cloud computing, digital infrastructure
 - [Claude Lemieux: Unpacking the AI That's Redefining Digital Productivity](https://sluintel.github.io/posts/2026-05-28-claude-lemieux-ai-productivity-guide.html) — 2026-05-28 — Claude AI, AI tools, automation
-- [Why MMA Is Trending Right Now: The Global Fight Phenomenon](https://sluintel.github.io/posts/2026-05-28-why-mma-is-trending-right-now.html) — 2026-05-28 — MMA, UFC, Combat Sports
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
