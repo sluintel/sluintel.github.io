@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 29 May 2026 12:29:42 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 29 May 2026 13:33:23 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Spurs vs Thunder: Everything You Need to Know About This Rivalry]]></title>
+    <link>https://sluintel.github.io/posts/2026-05-29-spurs-vs-thunder-everything-you-should-know.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-29-spurs-vs-thunder-everything-you-should-know.html</guid>
+    <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Get the full scoop on Spurs vs Thunder, from key players to historic clashes and future predictions. Understand why this NBA matchup always delivers drama.]]></description>
+    <enclosure url="https://images.pexels.com/photos/14046530/pexels-photo-14046530.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>NBA</category>
+    <category>Spurs</category>
+    <category>Thunder</category>
+    <category>Basketball</category>
+    <category>Sports Rivalries</category>
+  </item>
   <item>
     <title><![CDATA[Weather Explained Simply: Your Guide to Understanding What's Outside]]></title>
     <link>https://sluintel.github.io/posts/2026-05-29-weather-explained-simply.html</link>
@@ -258,19 +271,6 @@
     <category>Combat Sports</category>
     <category>Sports Trends</category>
     <category>Pop Culture</category>
-  </item>
-  <item>
-    <title><![CDATA[MMA Live: Everything You Should Know to Catch the Action]]></title>
-    <link>https://sluintel.github.io/posts/2026-05-28-mma-live-everything-you-should-know.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-28-mma-live-everything-you-should-know.html</guid>
-    <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Never miss a punch! Discover everything you need to know about watching MMA live in 2026, from platforms to pro tips, and dive into the thrilling world of combat sports.]]></description>
-    <enclosure url="https://images.pexels.com/photos/4218864/pexels-photo-4218864.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>MMA</category>
-    <category>Live Sports</category>
-    <category>Combat Sports</category>
-    <category>UFC</category>
-    <category>Streaming Guide</category>
   </item>
 </channel>
 </rss>
