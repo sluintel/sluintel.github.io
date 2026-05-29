@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 167
+Total Posts Published: 168
 Last Updated: 2026-05-29
-Latest Post: Spurs vs Thunder: Everything You Need to Know About This NBA Rivalry
-Latest Post URL: https://sluintel.github.io/posts/2026-05-29-spurs-vs-thunder-nba-rivalry-2026.html
+Latest Post: Why मौसम (Weather) Is Trending Right Now: AI's Predictive Power
+Latest Post URL: https://sluintel.github.io/posts/2026-05-29-mausam-weather-trending-right-now.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Why मौसम (Weather) Is Trending Right Now: AI's Predictive Power](https://sluintel.github.io/posts/2026-05-29-mausam-weather-trending-right-now.html) — 2026-05-29 — मौसम, weather trends, AI forecasting
 - [Spurs vs Thunder: Everything You Need to Know About This NBA Rivalry](https://sluintel.github.io/posts/2026-05-29-spurs-vs-thunder-nba-rivalry-2026.html) — 2026-05-29 — NBA, Spurs, Thunder
 - [Top Internet Reactions to Mausam: Decoding Digital Weather Chatter](https://sluintel.github.io/posts/2026-05-29-top-internet-reactions-to-mausam.html) — 2026-05-29 — internet trends, weather, social media
 - [India Women vs England Women: The Rivalry Explained Simply](https://sluintel.github.io/posts/2026-05-29-india-women-vs-england-women-explained-simply.html) — 2026-05-29 — Women's Cricket, India Cricket, England Cricket
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Netherlands Women vs Scotland Women Explained Simply](https://sluintel.github.io/posts/2026-05-29-netherlands-women-vs-scotland-women-explained-simply.html) — 2026-05-29 — Women's Football, Football Rivalries, Netherlands Football
 - [Ireland Women vs West Indies Women: Everything You Should Know](https://sluintel.github.io/posts/2026-05-28-ireland-women-vs-west-indies-women-cricket.html) — 2026-05-28 — cricket, women's sports, Ireland cricket
 - [Decoding the Top Internet Reactions to PPV: What Gets Fans Buzzing](https://sluintel.github.io/posts/2026-05-28-top-internet-reactions-to-ppv.html) — 2026-05-28 — PPV, Internet Culture, Fan Reactions
-- [Claude Lemieux: Unlocking the AI That's Boosting Your Brainpower](https://sluintel.github.io/posts/2026-05-28-claude-lemieux-ai-productivity-guide-2.html) — 2026-05-28 — Claude AI, AI productivity, tech trends
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
