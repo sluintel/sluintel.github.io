@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 177
+Total Posts Published: 178
 Last Updated: 2026-05-29
-Latest Post: Best AI Tools for Vaibhav Sooryavanshi: Master Your 2026 Workflow
-Latest Post URL: https://sluintel.github.io/posts/2026-05-29-best-ai-tools-for-vaibhav-sooryavanshi.html
+Latest Post: Why Yash Punja is Trending Right Now: Decoding Digital Stardom
+Latest Post URL: https://sluintel.github.io/posts/2026-05-29-yash-punja-trending-right-now.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Why Yash Punja is Trending Right Now: Decoding Digital Stardom](https://sluintel.github.io/posts/2026-05-29-yash-punja-trending-right-now.html) — 2026-05-29 — internet culture, social media, trending topics
 - [Best AI Tools for Vaibhav Sooryavanshi: Master Your 2026 Workflow](https://sluintel.github.io/posts/2026-05-29-best-ai-tools-for-vaibhav-sooryavanshi.html) — 2026-05-29 — AI Tools, Productivity, Automation
 - [Georgia Tech Baseball: Why This Season is a Must-Watch](https://sluintel.github.io/posts/2026-05-29-georgia-tech-baseball-2026-season-guide.html) — 2026-05-29 — Georgia Tech Baseball, College Baseball, ACC Sports
 - [Dhruv Jurel's Rise: Decoding Top Internet Reactions](https://sluintel.github.io/posts/2026-05-29-top-internet-reactions-to-dhruv-jurel.html) — 2026-05-29 — Dhruv Jurel, Cricket, Internet Reactions
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Weather Explained Simply: Your Guide to Understanding What's Outside](https://sluintel.github.io/posts/2026-05-29-weather-explained-simply.html) — 2026-05-29 — weather, meteorology, climate
 - [The Claude AI $500 Million Bill: What It Means for You](https://sluintel.github.io/posts/2026-05-29-claude-ai-500-million-bill.html) — 2026-05-29 — Claude AI, AI Investment, Tech Trends 2026
 - [Staying Informed: The Latest Updates on eKantipur in 2026](https://sluintel.github.io/posts/2026-05-29-the-latest-updates-on-ekantipur.html) — 2026-05-29 — Nepal News, eKantipur, Nepali Journalism
-- [Why मौसम (Weather) Is Trending Right Now: AI's Predictive Power](https://sluintel.github.io/posts/2026-05-29-mausam-weather-trending-right-now.html) — 2026-05-29 — मौसम, weather trends, AI forecasting
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
