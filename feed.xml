@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 29 May 2026 06:41:07 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 29 May 2026 08:09:49 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[India Women vs England Women: The Rivalry Explained Simply]]></title>
+    <link>https://sluintel.github.io/posts/2026-05-29-india-women-vs-england-women-explained-simply.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-29-india-women-vs-england-women-explained-simply.html</guid>
+    <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Get the real story behind the intense India Women vs England Women cricket rivalry. We break down the teams, key players, and what makes these matches unmissable for any fan, explained simply.]]></description>
+    <enclosure url="https://images.pexels.com/photos/34152452/pexels-photo-34152452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Women's Cricket</category>
+    <category>India Cricket</category>
+    <category>England Cricket</category>
+    <category>Sports Rivalry</category>
+    <category>Cricket Explained</category>
+  </item>
   <item>
     <title><![CDATA[The Latest Updates on Weather: Your 2026 Guide to Smarter Forecasts]]></title>
     <link>https://sluintel.github.io/posts/2026-05-29-the-latest-updates-on-weather-2026.html</link>
@@ -260,19 +273,6 @@
     <category>Sports Trends</category>
     <category>Fight Night</category>
     <category>AI in Sports</category>
-  </item>
-  <item>
-    <title><![CDATA[AI Unleashed: Your 2026 Guide to Mastering Artificial Intelligence]]></title>
-    <link>https://sluintel.github.io/posts/2026-05-28-ai-unleashed-mastering-artificial-intelligence.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-28-ai-unleashed-mastering-artificial-intelligence.html</guid>
-    <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unlock the power of AI in 2026! This expert guide reveals how artificial intelligence truly works, its real-world impact, and how you can harness it for success.]]></description>
-    <enclosure url="https://images.pexels.com/photos/8294824/pexels-photo-8294824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI</category>
-    <category>Artificial Intelligence</category>
-    <category>Automation</category>
-    <category>Machine Learning</category>
-    <category>Tech Trends</category>
   </item>
 </channel>
 </rss>
