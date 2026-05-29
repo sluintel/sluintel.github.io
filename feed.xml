@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 29 May 2026 18:41:39 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 29 May 2026 19:42:59 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Why West Indies Women vs Pakistan Women is Trending Right Now]]></title>
+    <link>https://sluintel.github.io/posts/2026-05-29-why-west-indies-women-vs-pakistan-women-is-trending-right-now.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-29-why-west-indies-women-vs-pakistan-women-is-trending-right-now.html</guid>
+    <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Uncover why West Indies Women vs Pakistan Women is dominating feeds. Explore AI's role, fan engagement, and key factors driving this cricket buzz in 2026.]]></description>
+    <enclosure url="https://images.pexels.com/photos/34085843/pexels-photo-34085843.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>women's cricket</category>
+    <category>cricket trends</category>
+    <category>sports tech</category>
+    <category>AI in sports</category>
+    <category>fan engagement</category>
+  </item>
   <item>
     <title><![CDATA[Why Yash Punja is Trending Right Now: Decoding Digital Stardom]]></title>
     <link>https://sluintel.github.io/posts/2026-05-29-yash-punja-trending-right-now.html</link>
@@ -258,19 +271,6 @@
     <category>Ireland cricket</category>
     <category>West Indies cricket</category>
     <category>sports analysis</category>
-  </item>
-  <item>
-    <title><![CDATA[Decoding the Top Internet Reactions to PPV: What Gets Fans Buzzing]]></title>
-    <link>https://sluintel.github.io/posts/2026-05-28-top-internet-reactions-to-ppv.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-28-top-internet-reactions-to-ppv.html</guid>
-    <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Ever wonder why certain PPV moments explode online? Discover the top internet reactions to PPV events, what drives the online buzz, and how fans truly feel. Get the inside scoop!]]></description>
-    <enclosure url="https://images.pexels.com/photos/5384503/pexels-photo-5384503.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>PPV</category>
-    <category>Internet Culture</category>
-    <category>Fan Reactions</category>
-    <category>Social Media Trends</category>
-    <category>Live Events</category>
   </item>
 </channel>
 </rss>
