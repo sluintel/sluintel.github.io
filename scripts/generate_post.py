@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Sujit Luintel Auto Blog Generator
+Sujit Luintel AI Assisted Blog Generator
 Niche: AI Tools & Automation
 Runs daily via GitHub Actions
 """
@@ -512,9 +512,9 @@ def generate_blog_post(keyword: str) -> dict:
     else:
         print("ℹ️  No relevant internal link candidates for this keyword")
 
-    prompt = f"""You are an expert SEO content strategist and tech blogger who writes highly readable, human-sounding articles about AI tools, automation, tech trends, and internet culture.
-     Your writing consistently ranks on Google because it matches real search intent while also sounding natural, conversational, and trustworthy — not robotic or corporate.
-     Write a comprehensive, SEO-optimised blog post about: "{keyword}"
+    prompt = f"""You are an expert SEO content strategist and tech blogger specialising in AI tools and automation. Your articles consistently rank on Google page 1 because you understand both search intent and reader psychology.
+
+Write a comprehensive, SEO-optimised blog post about: "{keyword}"
 
 ━━━ CONTENT STRUCTURE (follow exactly) ━━━
 
@@ -522,101 +522,52 @@ def generate_blog_post(keyword: str) -> dict:
    - Open with a relatable problem, surprising stat, or bold opinion — NOT "In today's digital world"
    - Clearly state what the reader will learn
    - Include the primary keyword naturally in the first 100 words
-   - Make the intro feel conversational and human
 
 2. SECTION 1 — "What Is / Why It Matters" (h2)
    - Define the topic clearly for beginners
    - Explain why it matters RIGHT NOW in 2026
    - 1 short paragraph + 3-4 bullet points
-   - Use simple language instead of technical jargon
 
 3. SECTION 2 — Core Value Section (h2) — the meat
    - The most important practical information
    - Use h3 subheadings to break it down
    - Include at least one bullet list
-    - Focus on usefulness and clarity over sounding “expert”
 
 4. SECTION 3 — How-To or Deep Dive (h2)
    - Step-by-step guidance OR a detailed comparison/breakdown
    - Numbered list or structured bullet points
    - Be specific — no vague advice
-    - Explain things like a smart friend teaching someone new
 
 5. SECTION 4 — Pro Tips / Common Mistakes (h2)
    - 4-6 bullet points of actionable insider tips
    - OR 3-4 common mistakes people make and how to avoid them
-   - Include realistic frustrations, limitations, or honest opinions where relevant
+   - This is where you show opinion and expertise
 
 6. SECTION 5 — Tools / Resources (h2) [include only if relevant]
    - Mention 3-5 specific real tools, platforms, or resources
    - One sentence on what each does and who it's best for
-    - Keep explanations beginner-friendly
 
 7. CONCLUSION (60-80 words)
    - Summarise the key takeaway in 1-2 sentences
    - End with a forward-looking statement or motivating CTA
    - Do NOT start with "In conclusion"
-    - Make the ending feel natural, not overly polished
 
 ━━━ SEO RULES ━━━
 - Primary keyword must appear in: intro paragraph, at least 2 h2 headings, and conclusion
 - Use semantic/LSI keywords naturally throughout (do NOT stuff)
-- Every h2 should feel interesting and clickable without sounding like clickbait
+- Every h2 must be compelling enough to standalone as a social media headline
 - Sentences: mix short punchy ones with longer explanatory ones
 - Paragraphs: max 3-4 lines — never a wall of text
 - Total word count: 950-1150 words
-- Reading level: simple, clear, and easy for non-technical readers
-- Avoid overusing the primary keyword unnaturally
+- Reading level: clear and accessible — avoid corporate jargon
 
 ━━━ WRITING STYLE ━━━
 - Voice: knowledgeable friend, not textbook author
-- Tone: practical, conversational, slightly opinionated, honest
+- Tone: clear, practical, slightly opinionated — take a stance
 - Use "you" to address the reader directly
-- Write like a real blogger with experience using the tools or observing the trend
-- Prioritise clarity over sounding intelligent
-- Contractions are encouraged (it's, you'll, don't)
+- Contractions are fine (it's, you'll, don't)
 - Avoid: "In today's fast-paced world", "game-changer", "leverage", "delve", "it's worth noting"
-- Use natural conversational transitions occasionally:
-   - "Here's the thing"
-   - "Most people don't realise this"
-   - "That's where things get interesting"
-   - "And honestly..."
-- Use them sparingly and naturally
-
-━━━ HUMAN WRITING RULES ━━━
-Avoid sounding like a corporate marketer, consultant, or AI assistant
-Avoid generic motivational filler
-Avoid repetitive sentence structures
-Vary sentence lengths naturally for rhythm
-Use simple everyday words whenever possible
-If a technical term is necessary, explain it immediately in plain English
-Include relatable examples or real-world situations where relevant
-It's okay to sound slightly informal sometimes
-Mild opinions and realistic takes are encouraged
-Include downsides or limitations when relevant
-Do not make every paragraph perfectly structured
-Some paragraphs can be very short for emphasis
-Ask occasional rhetorical questions naturally
-
-━━━ STRICTLY AVOID ━━━
-"In today's fast-paced world"
-"game-changer"
-"leverage"
-"delve"
-"it's worth noting"
-"revolutionary"
-"cutting-edge"
-Robotic transition words like:
-Furthermore
-Moreover
-Additionally
-Consequently
-Thus
-Overly formal or academic writing
-Corporate jargon
-Sounding like Wikipedia or software documentation
-Over-explaining obvious concepts
-Fake enthusiasm or exaggerated hype
+- Allowed: strong claims backed by logic, honest pros/cons, specific examples
 
 ━━━ HTML FORMATTING ━━━
 - Use: h2, h3, p, ul, li, ol, strong, em, blockquote, a
@@ -624,9 +575,7 @@ Fake enthusiasm or exaggerated hype
 - Wrap key terms or takeaways in <strong> for emphasis
 - Use <blockquote> for a key stat or standout quote (1 per post max)
 - Use <em> sparingly for genuine emphasis only
-
 {linking_block}
-
 Return ONLY a valid JSON object with exactly these keys — no markdown fences, no preamble:
 {{
   "title": "Compelling title under 65 chars — include primary keyword near the start",
@@ -652,6 +601,15 @@ Return ONLY a valid JSON object with exactly these keys — no markdown fences, 
         data["slug"] = re.sub(r"[^a-z0-9\-]", "-", keyword.lower())[:60].strip("-")
 
     data["keyword"] = keyword
+
+    # ── Clean literal \n \t escape sequences Gemini sometimes outputs ──────
+    html = data["content_html"]
+    html = html.replace("\\n\\n", "</p><p>")  # double \n → paragraph break
+    html = html.replace("\\n", " ")              # single \n → space
+    html = html.replace("\\t", " ")              # \t → space
+    html = html.replace("\\r", "")               # strip \r
+    html = re.sub(r"  +", " ", html)               # collapse extra spaces
+    data["content_html"] = html
 
     if valid_urls:
         data["content_html"] = _validate_links(data["content_html"], valid_urls)
@@ -1211,7 +1169,7 @@ def build_post_html(post, img_url, img_credit, og_image_url, date_str):
   <script>(function(){{var t=localStorage.getItem('sl-theme');if(!t)t=window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t);}})();</script>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>{post['title']} — Sluintel</title>
+  <title>{post['title']} — Sujit Luintel</title>
   <meta name="description"           content="{post['meta_description']}"/>
   <meta property="og:title"          content="{post['title']}"/>
   <meta property="og:description"    content="{post['meta_description']}"/>
