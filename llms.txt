@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 196
+Total Posts Published: 197
 Last Updated: 2026-05-30
-Latest Post: Ukraine AI Drones: Decimating Russian Logistics with Smart Tech
-Latest Post URL: https://sluintel.github.io/posts/2026-05-30-ukraine-ai-drones-russian-logistics-2.html
+Latest Post: IPL Orange Cap: Everything You Need to Know & Why It Matters
+Latest Post URL: https://sluintel.github.io/posts/2026-05-30-everything-happening-around-orange-cap-in-ipl.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [IPL Orange Cap: Everything You Need to Know & Why It Matters](https://sluintel.github.io/posts/2026-05-30-everything-happening-around-orange-cap-in-ipl.html) — 2026-05-30 — IPL, Orange Cap, Cricket Stats
 - [Ukraine AI Drones: Decimating Russian Logistics with Smart Tech](https://sluintel.github.io/posts/2026-05-30-ukraine-ai-drones-russian-logistics-2.html) — 2026-05-30 — AI in Warfare, Drone Technology, Ukraine Conflict
 - [Ukraine AI Drones: Crippling Russian Logistics with Smart Tech](https://sluintel.github.io/posts/2026-05-30-ukraine-ai-drones-russian-logistics.html) — 2026-05-30 — AI warfare, drone technology, military logistics
 - [Blue Video Explained Simply: Master Chroma Key & VFX Now](https://sluintel.github.io/posts/2026-05-30-blue-video-explained-simply.html) — 2026-05-30 — blue screen, chroma key, video editing
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Unlocking Potential: How Automation is Changing Vaibhav Sooryavanshi](https://sluintel.github.io/posts/2026-05-30-how-automation-is-changing-vaibhav-sooryavanshi.html) — 2026-05-30 — automation, personal productivity, AI tools
 - [What Nepal's Budget 2083/84 Means for the Economy](https://sluintel.github.io/posts/2026-05-30-what-nepal-s-budget-2083-84-means-for-the-economy.html) — 2026-05-30 — Nepal Politics, Legislature, Governance
 - [Your Guide to Nepal's Budget 2083/84: Key Takeaways](https://sluintel.github.io/posts/2026-05-30-your-guide-to-nepal-s-budget-2083-84-key-takeaways.html) — 2026-05-30 — Swarnim Wagle, Nepal economy, development economics
-- [Nepal Budget 2083/84: Key Highlights & Impact](https://sluintel.github.io/posts/2026-05-30-nepal-budget-2083-84-key-highlights-impact.html) — 2026-05-30 — Nepal Economy, Budget 2083, Government Policy
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
