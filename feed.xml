@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 30 May 2026 19:41:40 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 30 May 2026 20:18:50 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Texas Tech Softball: Why the Red Raiders Dominate in 2026]]></title>
+    <link>https://sluintel.github.io/posts/2026-05-30-texas-tech-softball-red-raiders-2026.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-30-texas-tech-softball-red-raiders-2026.html</guid>
+    <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unlock the secrets behind Texas Tech Softball's 2026 success. Learn about their strategy, player development, and what makes them a Big 12 powerhouse. Discover the Red Raiders' edge.]]></description>
+    <enclosure url="https://images.pexels.com/photos/25809284/pexels-photo-25809284.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Texas Tech Softball</category>
+    <category>Big 12 Softball</category>
+    <category>NCAA Softball</category>
+    <category>Red Raiders</category>
+    <category>Sports Strategy</category>
+  </item>
   <item>
     <title><![CDATA[FotMob's Latest Updates: Your Ultimate Guide to 2026 Football Data]]></title>
     <link>https://sluintel.github.io/posts/2026-05-30-the-latest-updates-on-fotmob.html</link>
@@ -260,19 +273,6 @@
     <category>Governance</category>
     <category>Democracy</category>
     <category>Kathmandu</category>
-  </item>
-  <item>
-    <title><![CDATA[Your Guide to Nepal's Budget 2083/84: Key Takeaways]]></title>
-    <link>https://sluintel.github.io/posts/2026-05-30-your-guide-to-nepal-s-budget-2083-84-key-takeaways.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-30-your-guide-to-nepal-s-budget-2083-84-key-takeaways.html</guid>
-    <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unpack the influence of Swarnim Wagle on Nepal's economic trajectory and political landscape. Discover his key insights and impact in 2026.]]></description>
-    <enclosure url="https://images.pexels.com/photos/31336011/pexels-photo-31336011.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Swarnim Wagle</category>
-    <category>Nepal economy</category>
-    <category>development economics</category>
-    <category>Nepali politics</category>
-    <category>economic policy</category>
   </item>
 </channel>
 </rss>
