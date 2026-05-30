@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 204
+Total Posts Published: 205
 Last Updated: 2026-05-30
-Latest Post: SonyLIV: Everything You Should Know About This Indian Streaming Giant
-Latest Post URL: https://sluintel.github.io/posts/2026-05-30-sonyliv-everything-you-should-know.html
+Latest Post: What People Are Saying About João Neves: The Football Prodigy
+Latest Post URL: https://sluintel.github.io/posts/2026-05-30-what-people-are-saying-about-joao-neves.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [What People Are Saying About João Neves: The Football Prodigy](https://sluintel.github.io/posts/2026-05-30-what-people-are-saying-about-joao-neves.html) — 2026-05-30 — João Neves, Football, Benfica
 - [SonyLIV: Everything You Should Know About This Indian Streaming Giant](https://sluintel.github.io/posts/2026-05-30-sonyliv-everything-you-should-know.html) — 2026-05-30 — SonyLIV, Indian Streaming, Live Sports
 - [What People Are Saying About England Women vs India Women in 2026](https://sluintel.github.io/posts/2026-05-30-what-people-are-saying-about-england-women-vs-india-women.html) — 2026-05-30 — women's cricket, England Women, India Women
 - [What's Next for Road to UFC Season 5: Rabindra Dhant's Path](https://sluintel.github.io/posts/2026-05-30-whats-next-road-to-ufc-season-5-rabindra-dhant.html) — 2026-05-30 — MMA, UFC, Rabindra Dhant
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [What People Are Saying About Women's T20I Asian Games Qualifier](https://sluintel.github.io/posts/2026-05-30-what-people-are-saying-about-womens-t20i-asian-games-qualifier.html) — 2026-05-30 — women's cricket, T20I, Asian Games
 - [IPL Orange Cap: Everything You Need to Know & Why It Matters](https://sluintel.github.io/posts/2026-05-30-everything-happening-around-orange-cap-in-ipl.html) — 2026-05-30 — IPL, Orange Cap, Cricket Stats
 - [Ukraine AI Drones: Decimating Russian Logistics with Smart Tech](https://sluintel.github.io/posts/2026-05-30-ukraine-ai-drones-russian-logistics-2.html) — 2026-05-30 — AI in Warfare, Drone Technology, Ukraine Conflict
-- [Ukraine AI Drones: Crippling Russian Logistics with Smart Tech](https://sluintel.github.io/posts/2026-05-30-ukraine-ai-drones-russian-logistics.html) — 2026-05-30 — AI warfare, drone technology, military logistics
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
