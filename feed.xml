@@ -5,13 +5,28 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 30 May 2026 14:02:21 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 30 May 2026 14:47:13 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[What's Next for Road to UFC Season 5: Rabindra Dhant's Path]]></title>
+    <link>https://sluintel.github.io/posts/2026-05-30-whats-next-road-to-ufc-season-5-rabindra-dhant.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-30-whats-next-road-to-ufc-season-5-rabindra-dhant.html</guid>
+    <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack what's next for Rabindra Dhant on Road to UFC Season 5. Discover his potential path, upcoming challenges, and expert predictions. Stay ahead of the fight game.]]></description>
+    <enclosure url="https://images.pexels.com/photos/30684068/pexels-photo-30684068.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>MMA</category>
+    <category>UFC</category>
+    <category>Rabindra Dhant</category>
+    <category>Road to UFC</category>
+    <category>Fighter Prospects</category>
+    <category>Season 5</category>
+    <category>Combat Sports</category>
+  </item>
   <item>
     <title><![CDATA[What People Are Saying About Scotland vs Curaçao: The Ultimate Fan Debates]]></title>
     <link>https://sluintel.github.io/posts/2026-05-30-what-people-are-saying-about-scotland-vs-curaao.html</link>
@@ -253,20 +268,6 @@
     <category>future tech</category>
     <category>personal branding</category>
     <category>automation</category>
-  </item>
-  <item>
-    <title><![CDATA[Washington Sundar: Latest Updates & His Comeback Status in 2026]]></title>
-    <link>https://sluintel.github.io/posts/2026-05-29-washington-sundar-latest-updates.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-29-washington-sundar-latest-updates.html</guid>
-    <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Get the scoop on Washington Sundar's latest updates, injury status, and potential comeback in 2026. Discover what's next for the Indian all-rounder.]]></description>
-    <enclosure url="https://images.pexels.com/photos/27666884/pexels-photo-27666884.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Washington Sundar</category>
-    <category>Cricket</category>
-    <category>India Cricket</category>
-    <category>IPL</category>
-    <category>Player Comeback</category>
-    <category>Cricket News</category>
   </item>
 </channel>
 </rss>
