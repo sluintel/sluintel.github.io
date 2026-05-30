@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 30 May 2026 00:17:52 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 30 May 2026 01:24:40 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Why Nepal's Budget 2083/84 Affects Your Wallet]]></title>
+    <link>https://sluintel.github.io/posts/2026-05-30-why-nepal-s-budget-2083-84-affects-your-wallet.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-30-why-nepal-s-budget-2083-84-affects-your-wallet.html</guid>
+    <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Decode the Nepal Budget 2083/84 and understand its impact on your finances and future in 2026. Get expert insights on policy shifts and investment opportunities.]]></description>
+    <enclosure url="https://images.pexels.com/photos/4386369/pexels-photo-4386369.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Nepal Economy</category>
+    <category>Budget 2083 84</category>
+    <category>Economic Policy</category>
+    <category>Investment Nepal</category>
+    <category>Nepali Finance</category>
+  </item>
   <item>
     <title><![CDATA[Refused: Request Pertains to False and Harmful Information]]></title>
     <link>https://sluintel.github.io/posts/2026-05-30-request-refused-claude-lemieux-false-premise.html</link>
@@ -254,19 +267,6 @@
     <category>Thunder</category>
     <category>Basketball</category>
     <category>Rivalry</category>
-  </item>
-  <item>
-    <title><![CDATA[Top Internet Reactions to Mausam: Decoding Digital Weather Chatter]]></title>
-    <link>https://sluintel.github.io/posts/2026-05-29-top-internet-reactions-to-mausam.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-29-top-internet-reactions-to-mausam.html</guid>
-    <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Ever wondered how the internet talks about weather? Dive into the top internet reactions to Mausam and learn to decode digital chatter, forecast trends, and connect with communities online.]]></description>
-    <enclosure url="https://images.pexels.com/photos/3762805/pexels-photo-3762805.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>internet trends</category>
-    <category>weather</category>
-    <category>social media</category>
-    <category>online communities</category>
-    <category>digital culture</category>
   </item>
 </channel>
 </rss>
