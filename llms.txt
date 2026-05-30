@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 188
+Total Posts Published: 189
 Last Updated: 2026-05-30
-Latest Post: Your Guide to Nepal's Budget 2083/84: Key Takeaways
-Latest Post URL: https://sluintel.github.io/posts/2026-05-30-your-guide-to-nepal-s-budget-2083-84-key-takeaways.html
+Latest Post: What Nepal's Budget 2083/84 Means for the Economy
+Latest Post URL: https://sluintel.github.io/posts/2026-05-30-what-nepal-s-budget-2083-84-means-for-the-economy.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [What Nepal's Budget 2083/84 Means for the Economy](https://sluintel.github.io/posts/2026-05-30-what-nepal-s-budget-2083-84-means-for-the-economy.html) — 2026-05-30 — Nepal Politics, Legislature, Governance
 - [Your Guide to Nepal's Budget 2083/84: Key Takeaways](https://sluintel.github.io/posts/2026-05-30-your-guide-to-nepal-s-budget-2083-84-key-takeaways.html) — 2026-05-30 — Swarnim Wagle, Nepal economy, development economics
 - [Nepal Budget 2083/84: Key Highlights & Impact](https://sluintel.github.io/posts/2026-05-30-nepal-budget-2083-84-key-highlights-impact.html) — 2026-05-30 — Nepal Economy, Budget 2083, Government Policy
 - [Why Nepal's Budget 2083/84 Affects Your Wallet](https://sluintel.github.io/posts/2026-05-30-why-nepal-s-budget-2083-84-affects-your-wallet.html) — 2026-05-30 — Nepal Economy, Budget 2083 84, Economic Policy
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Washington Sundar: Latest Updates & His Comeback Status in 2026](https://sluintel.github.io/posts/2026-05-29-washington-sundar-latest-updates.html) — 2026-05-29 — Washington Sundar, Cricket, India Cricket
 - [Jofra Archer: Everything You Should Know About Cricket's Enigma](https://sluintel.github.io/posts/2026-05-29-jofra-archer-everything-you-should-know.html) — 2026-05-29 — Jofra Archer, Cricket, Fast Bowler
 - [Jofra Archer: The Latest Updates on His Comeback in 2026](https://sluintel.github.io/posts/2026-05-29-latest-updates-on-jofra-archer.html) — 2026-05-29 — Jofra Archer, cricket, England cricket
-- [Why West Indies Women vs Pakistan Women is Trending Right Now](https://sluintel.github.io/posts/2026-05-29-why-west-indies-women-vs-pakistan-women-is-trending-right-now.html) — 2026-05-29 — women's cricket, cricket trends, sports tech
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
