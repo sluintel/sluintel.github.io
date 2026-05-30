@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 192
+Total Posts Published: 193
 Last Updated: 2026-05-30
-Latest Post: Best AI Tools for Vaibhav Sooryavanshi: Unlock His 2026 Potential
-Latest Post URL: https://sluintel.github.io/posts/2026-05-30-best-ai-tools-for-vaibhav-sooryavanshi.html
+Latest Post: Decoding the Chase: Everything Happening Around Most Runs in IPL
+Latest Post URL: https://sluintel.github.io/posts/2026-05-30-everything-happening-around-most-runs-in-ipl.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Decoding the Chase: Everything Happening Around Most Runs in IPL](https://sluintel.github.io/posts/2026-05-30-everything-happening-around-most-runs-in-ipl.html) — 2026-05-30 — IPL, Cricket Stats, T20 Batting
 - [Best AI Tools for Vaibhav Sooryavanshi: Unlock His 2026 Potential](https://sluintel.github.io/posts/2026-05-30-best-ai-tools-for-vaibhav-sooryavanshi.html) — 2026-05-30 — AI Tools, Vaibhav Sooryavanshi, Productivity
 - [Why Blue Video Is Trending Right Now: The Algorithmic & Emotional Edge](https://sluintel.github.io/posts/2026-05-30-why-blue-video-is-trending-right-now.html) — 2026-05-30 — blue video, video trends, content strategy
 - [Unlocking Potential: How Automation is Changing Vaibhav Sooryavanshi](https://sluintel.github.io/posts/2026-05-30-how-automation-is-changing-vaibhav-sooryavanshi.html) — 2026-05-30 — automation, personal productivity, AI tools
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Why Nepal's Budget 2083/84 Affects Your Wallet](https://sluintel.github.io/posts/2026-05-30-why-nepal-s-budget-2083-84-affects-your-wallet.html) — 2026-05-30 — Nepal Economy, Budget 2083 84, Economic Policy
 - [Refused: Request Pertains to False and Harmful Information](https://sluintel.github.io/posts/2026-05-30-request-refused-claude-lemieux-false-premise.html) — 2026-05-30 — 
 - [Everything Happening Around Orange Cap in IPL 2026: Your Essential Guide](https://sluintel.github.io/posts/2026-05-29-everything-happening-around-orange-cap-in-ipl-2026.html) — 2026-05-29 — IPL 2026, Orange Cap, Cricket Stats
-- [Vaibhav Sooryavanshi's AI Future: Unlocking His Potential in 2026](https://sluintel.github.io/posts/2026-05-29-future-of-vaibhav-sooryavanshi-with-ai.html) — 2026-05-29 — AI trends, career development, future tech
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
