@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 184
-Last Updated: 2026-05-29
-Latest Post: Everything Happening Around Orange Cap in IPL 2026: Your Essential Guide
-Latest Post URL: https://sluintel.github.io/posts/2026-05-29-everything-happening-around-orange-cap-in-ipl-2026.html
+Total Posts Published: 185
+Last Updated: 2026-05-30
+Latest Post: Refused: Request Pertains to False and Harmful Information
+Latest Post URL: https://sluintel.github.io/posts/2026-05-30-request-refused-claude-lemieux-false-premise.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Refused: Request Pertains to False and Harmful Information](https://sluintel.github.io/posts/2026-05-30-request-refused-claude-lemieux-false-premise.html) — 2026-05-30 — 
 - [Everything Happening Around Orange Cap in IPL 2026: Your Essential Guide](https://sluintel.github.io/posts/2026-05-29-everything-happening-around-orange-cap-in-ipl-2026.html) — 2026-05-29 — IPL 2026, Orange Cap, Cricket Stats
 - [Vaibhav Sooryavanshi's AI Future: Unlocking His Potential in 2026](https://sluintel.github.io/posts/2026-05-29-future-of-vaibhav-sooryavanshi-with-ai.html) — 2026-05-29 — AI trends, career development, future tech
 - [Washington Sundar: Latest Updates & His Comeback Status in 2026](https://sluintel.github.io/posts/2026-05-29-washington-sundar-latest-updates.html) — 2026-05-29 — Washington Sundar, Cricket, India Cricket
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Why Yash Punja is Trending Right Now: Decoding Digital Stardom](https://sluintel.github.io/posts/2026-05-29-yash-punja-trending-right-now.html) — 2026-05-29 — internet culture, social media, trending topics
 - [Best AI Tools for Vaibhav Sooryavanshi: Master Your 2026 Workflow](https://sluintel.github.io/posts/2026-05-29-best-ai-tools-for-vaibhav-sooryavanshi.html) — 2026-05-29 — AI Tools, Productivity, Automation
 - [Georgia Tech Baseball: Why This Season is a Must-Watch](https://sluintel.github.io/posts/2026-05-29-georgia-tech-baseball-2026-season-guide.html) — 2026-05-29 — Georgia Tech Baseball, College Baseball, ACC Sports
-- [Dhruv Jurel's Rise: Decoding Top Internet Reactions](https://sluintel.github.io/posts/2026-05-29-top-internet-reactions-to-dhruv-jurel.html) — 2026-05-29 — Dhruv Jurel, Cricket, Internet Reactions
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
