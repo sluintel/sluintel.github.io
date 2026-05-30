@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 190
+Total Posts Published: 191
 Last Updated: 2026-05-30
-Latest Post: Unlocking Potential: How Automation is Changing Vaibhav Sooryavanshi
-Latest Post URL: https://sluintel.github.io/posts/2026-05-30-how-automation-is-changing-vaibhav-sooryavanshi.html
+Latest Post: Why Blue Video Is Trending Right Now: The Algorithmic & Emotional Edge
+Latest Post URL: https://sluintel.github.io/posts/2026-05-30-why-blue-video-is-trending-right-now.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Why Blue Video Is Trending Right Now: The Algorithmic & Emotional Edge](https://sluintel.github.io/posts/2026-05-30-why-blue-video-is-trending-right-now.html) — 2026-05-30 — blue video, video trends, content strategy
 - [Unlocking Potential: How Automation is Changing Vaibhav Sooryavanshi](https://sluintel.github.io/posts/2026-05-30-how-automation-is-changing-vaibhav-sooryavanshi.html) — 2026-05-30 — automation, personal productivity, AI tools
 - [What Nepal's Budget 2083/84 Means for the Economy](https://sluintel.github.io/posts/2026-05-30-what-nepal-s-budget-2083-84-means-for-the-economy.html) — 2026-05-30 — Nepal Politics, Legislature, Governance
 - [Your Guide to Nepal's Budget 2083/84: Key Takeaways](https://sluintel.github.io/posts/2026-05-30-your-guide-to-nepal-s-budget-2083-84-key-takeaways.html) — 2026-05-30 — Swarnim Wagle, Nepal economy, development economics
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Everything Happening Around Orange Cap in IPL 2026: Your Essential Guide](https://sluintel.github.io/posts/2026-05-29-everything-happening-around-orange-cap-in-ipl-2026.html) — 2026-05-29 — IPL 2026, Orange Cap, Cricket Stats
 - [Vaibhav Sooryavanshi's AI Future: Unlocking His Potential in 2026](https://sluintel.github.io/posts/2026-05-29-future-of-vaibhav-sooryavanshi-with-ai.html) — 2026-05-29 — AI trends, career development, future tech
 - [Washington Sundar: Latest Updates & His Comeback Status in 2026](https://sluintel.github.io/posts/2026-05-29-washington-sundar-latest-updates.html) — 2026-05-29 — Washington Sundar, Cricket, India Cricket
-- [Jofra Archer: Everything You Should Know About Cricket's Enigma](https://sluintel.github.io/posts/2026-05-29-jofra-archer-everything-you-should-know.html) — 2026-05-29 — Jofra Archer, Cricket, Fast Bowler
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
