@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 31 May 2026 19:41:21 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 31 May 2026 20:34:24 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Top Internet Reactions to Nepal's Parliament: Decoding the Digital Pulse]]></title>
+    <link>https://sluintel.github.io/posts/2026-05-31-top-internet-reactions-to-parliament-of-nepal.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-31-top-internet-reactions-to-parliament-of-nepal.html</guid>
+    <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Uncover the top internet reactions to Parliament of Nepal's recent sessions. Learn to analyze public sentiment and understand digital chatter around critical political events.]]></description>
+    <enclosure url="https://images.pexels.com/photos/3768724/pexels-photo-3768724.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Nepal Politics</category>
+    <category>Digital Sentiment</category>
+    <category>Public Opinion</category>
+    <category>Online Discourse</category>
+    <category>Political Analysis</category>
+  </item>
   <item>
     <title><![CDATA[Why RCB vs GT Final is Trending: AI Decodes the Cricket Craze of 2026]]></title>
     <link>https://sluintel.github.io/posts/2026-05-31-why-rcb-vs-gt-final-is-trending-right-now.html</link>
@@ -258,19 +271,6 @@
     <category>T20I</category>
     <category>Cricket News</category>
     <category>Sports Analysis</category>
-  </item>
-  <item>
-    <title><![CDATA[Mexico vs Australia Explained Simply: Unpacking Global Opportunities]]></title>
-    <link>https://sluintel.github.io/posts/2026-05-31-mexico-vs-australia-explained-simply.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-31-mexico-vs-australia-explained-simply.html</guid>
-    <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Curious about Mexico vs Australia? Get a simple, expert breakdown of their economies, cultures, and tech landscapes to discover hidden global opportunities now.]]></description>
-    <enclosure url="https://images.pexels.com/photos/17892078/pexels-photo-17892078.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Mexico</category>
-    <category>Australia</category>
-    <category>Global Markets</category>
-    <category>Economic Analysis</category>
-    <category>AI & Automation</category>
   </item>
 </channel>
 </rss>
