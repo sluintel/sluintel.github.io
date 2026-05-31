@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 31 May 2026 18:18:23 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 31 May 2026 19:41:21 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Why RCB vs GT Final is Trending: AI Decodes the Cricket Craze of 2026]]></title>
+    <link>https://sluintel.github.io/posts/2026-05-31-why-rcb-vs-gt-final-is-trending-right-now.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-31-why-rcb-vs-gt-final-is-trending-right-now.html</guid>
+    <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Uncover why the RCB vs GT final dominates headlines. We break down the fan frenzy and AI-driven insights behind this cricket phenomenon's trending status.]]></description>
+    <enclosure url="https://images.pexels.com/photos/31008058/pexels-photo-31008058.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Cricket</category>
+    <category>IPL</category>
+    <category>Sports Analytics</category>
+    <category>AI Trends</category>
+    <category>Fan Engagement</category>
+  </item>
   <item>
     <title><![CDATA[What People Are Saying: Unlocking Public Sentiment with AI]]></title>
     <link>https://sluintel.github.io/posts/2026-05-31-what-people-are-saying-ai-sentiment-analysis.html</link>
@@ -258,19 +271,6 @@
     <category>Global Markets</category>
     <category>Economic Analysis</category>
     <category>AI & Automation</category>
-  </item>
-  <item>
-    <title><![CDATA[मौसम Explained Simply: Master Weather Forecasts & Stay Ahead]]></title>
-    <link>https://sluintel.github.io/posts/2026-05-31-mausam-explained-simply.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-31-mausam-explained-simply.html</guid>
-    <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Decode मौसम explained simply with our expert guide. Understand weather patterns, forecasting, and how it impacts your daily life. Get practical tips to stay prepared.]]></description>
-    <enclosure url="https://images.pexels.com/photos/27679978/pexels-photo-27679978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>मौसम</category>
-    <category>weather forecasting</category>
-    <category>AI in meteorology</category>
-    <category>climate science</category>
-    <category>daily planning</category>
   </item>
 </channel>
 </rss>
