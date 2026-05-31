@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 233
+Total Posts Published: 234
 Last Updated: 2026-05-31
-Latest Post: Top Internet Reactions to Nepal's Parliament: Decoding the Digital Pulse
-Latest Post URL: https://sluintel.github.io/posts/2026-05-31-top-internet-reactions-to-parliament-of-nepal.html
+Latest Post: Why ठगी is Trending Right Now: Battling AI-Powered Scams
+Latest Post URL: https://sluintel.github.io/posts/2026-05-31-why-thagi-is-trending-right-now-2.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Why ठगी is Trending Right Now: Battling AI-Powered Scams](https://sluintel.github.io/posts/2026-05-31-why-thagi-is-trending-right-now-2.html) — 2026-05-31 — AI Scams, Online Fraud, Cybersecurity
 - [Top Internet Reactions to Nepal's Parliament: Decoding the Digital Pulse](https://sluintel.github.io/posts/2026-05-31-top-internet-reactions-to-parliament-of-nepal.html) — 2026-05-31 — Nepal Politics, Digital Sentiment, Public Opinion
 - [Why RCB vs GT Final is Trending: AI Decodes the Cricket Craze of 2026](https://sluintel.github.io/posts/2026-05-31-why-rcb-vs-gt-final-is-trending-right-now.html) — 2026-05-31 — Cricket, IPL, Sports Analytics
 - [What People Are Saying: Unlocking Public Sentiment with AI](https://sluintel.github.io/posts/2026-05-31-what-people-are-saying-ai-sentiment-analysis.html) — 2026-05-31 — AI tools, sentiment analysis, public opinion
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Real Madrid vs Granada: Latest Updates & AI-Driven Match Insights](https://sluintel.github.io/posts/2026-05-31-real-madrid-vs-granada-latest-updates-ai-insights.html) — 2026-05-31 — Real Madrid, Granada CF, La Liga
 - [GT vs RCB Explained Simply: Unpacking Cricket's Hottest Rivalry](https://sluintel.github.io/posts/2026-05-31-gt-vs-rcb-explained-simply.html) — 2026-05-31 — Cricket, IPL, Sports Analytics
 - [Why Budget 2083 84 Is Trending Right Now: An AI-Powered Breakdown](https://sluintel.github.io/posts/2026-05-31-why-budget-2083-84-is-trending-right-now.html) — 2026-05-31 — budget analysis, AI in finance, economic trends
-- [Gold Price Today: Navigating the Latest Updates for Smart Investors](https://sluintel.github.io/posts/2026-05-31-the-latest-updates-on-gold-price-today.html) — 2026-05-31 — Gold Price, Gold Investment, Precious Metals
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
