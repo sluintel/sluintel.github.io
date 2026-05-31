@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 230
+Total Posts Published: 231
 Last Updated: 2026-05-31
-Latest Post: Gold Price Today: Decoding Top Internet Reactions
-Latest Post URL: https://sluintel.github.io/posts/2026-05-31-top-internet-reactions-to-gold-price-today-2.html
+Latest Post: What People Are Saying: Unlocking Public Sentiment with AI
+Latest Post URL: https://sluintel.github.io/posts/2026-05-31-what-people-are-saying-ai-sentiment-analysis.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [What People Are Saying: Unlocking Public Sentiment with AI](https://sluintel.github.io/posts/2026-05-31-what-people-are-saying-ai-sentiment-analysis.html) — 2026-05-31 — AI tools, sentiment analysis, public opinion
 - [Gold Price Today: Decoding Top Internet Reactions](https://sluintel.github.io/posts/2026-05-31-top-internet-reactions-to-gold-price-today-2.html) — 2026-05-31 — Gold Price, Market Trends, Investor Sentiment
 - [Parliament of Nepal Explained Simply: Your Guide to National Power](https://sluintel.github.io/posts/2026-05-31-parliament-of-nepal-explained-simply.html) — 2026-05-31 — Nepal Politics, Nepali Parliament, Government Structure
 - [Why ठगी is Trending: Battling AI-Powered Scams in 2026](https://sluintel.github.io/posts/2026-05-31-why-thagi-is-trending-right-now.html) — 2026-05-31 — AI scams, cybersecurity, digital fraud
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Gold Price Today: Navigating the Latest Updates for Smart Investors](https://sluintel.github.io/posts/2026-05-31-the-latest-updates-on-gold-price-today.html) — 2026-05-31 — Gold Price, Gold Investment, Precious Metals
 - [Nepal National Cricket Team: Everything Happening Around Its 2026 Rise](https://sluintel.github.io/posts/2026-05-31-everything-happening-around-nepal-national-cricket-team.html) — 2026-05-31 — Nepal Cricket, National Cricket Team, Cricket 2026
 - [Decoding the Top Internet Reactions to Gold Price Today: Why Everyone's Talking](https://sluintel.github.io/posts/2026-05-31-top-internet-reactions-to-gold-price-today.html) — 2026-05-31 — Gold Price, Market Sentiment, Financial News
-- [What People Are Saying About Thunder vs Spurs: Fan Battleground 2026](https://sluintel.github.io/posts/2026-05-31-what-people-are-saying-about-thunder-vs-spurs.html) — 2026-05-31 — NBA, Thunder, Spurs
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
