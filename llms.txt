@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 235
+Total Posts Published: 236
 Last Updated: 2026-05-31
-Latest Post: What People Are Saying About ठगी: Unmasking Digital Deception
-Latest Post URL: https://sluintel.github.io/posts/2026-05-31-what-people-are-saying-about-thagi.html
+Latest Post: GT vs RCB: Everything You Need to Know for Peak IPL Excitement
+Latest Post URL: https://sluintel.github.io/posts/2026-05-31-gt-vs-rcb-everything-you-should-know.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [GT vs RCB: Everything You Need to Know for Peak IPL Excitement](https://sluintel.github.io/posts/2026-05-31-gt-vs-rcb-everything-you-should-know.html) — 2026-05-31 — IPL, Cricket, GT
 - [What People Are Saying About ठगी: Unmasking Digital Deception](https://sluintel.github.io/posts/2026-05-31-what-people-are-saying-about-thagi.html) — 2026-05-31 — AI tools, online fraud, digital deception
 - [Why ठगी is Trending Right Now: Battling AI-Powered Scams](https://sluintel.github.io/posts/2026-05-31-why-thagi-is-trending-right-now-2.html) — 2026-05-31 — AI Scams, Online Fraud, Cybersecurity
 - [Top Internet Reactions to Nepal's Parliament: Decoding the Digital Pulse](https://sluintel.github.io/posts/2026-05-31-top-internet-reactions-to-parliament-of-nepal.html) — 2026-05-31 — Nepal Politics, Digital Sentiment, Public Opinion
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Parliament of Nepal Explained Simply: Your Guide to National Power](https://sluintel.github.io/posts/2026-05-31-parliament-of-nepal-explained-simply.html) — 2026-05-31 — Nepal Politics, Nepali Parliament, Government Structure
 - [Why ठगी is Trending: Battling AI-Powered Scams in 2026](https://sluintel.github.io/posts/2026-05-31-why-thagi-is-trending-right-now.html) — 2026-05-31 — AI scams, cybersecurity, digital fraud
 - [Real Madrid vs Granada: Latest Updates & AI-Driven Match Insights](https://sluintel.github.io/posts/2026-05-31-real-madrid-vs-granada-latest-updates-ai-insights.html) — 2026-05-31 — Real Madrid, Granada CF, La Liga
-- [GT vs RCB Explained Simply: Unpacking Cricket's Hottest Rivalry](https://sluintel.github.io/posts/2026-05-31-gt-vs-rcb-explained-simply.html) — 2026-05-31 — Cricket, IPL, Sports Analytics
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
