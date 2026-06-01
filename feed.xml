@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 31 May 2026 23:23:40 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 01 Jun 2026 05:17:51 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Parliament of Nepal Explained Simply: Your Guide to Power]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-01-parliament-of-nepal-explained-simply.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-01-parliament-of-nepal-explained-simply.html</guid>
+    <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Demystify the Parliament of Nepal. Get a simple, clear breakdown of its structure, functions, and why it matters for you in 2026. Understand Nepalese politics now!]]></description>
+    <enclosure url="https://images.pexels.com/photos/37120698/pexels-photo-37120698.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Nepal Politics</category>
+    <category>Nepalese Parliament</category>
+    <category>Government Explained</category>
+    <category>Democracy</category>
+    <category>South Asia Governance</category>
+  </item>
   <item>
     <title><![CDATA[Gold Price Today: Your Essential Guide to Market Dynamics]]></title>
     <link>https://sluintel.github.io/posts/2026-05-31-gold-price-today-market-dynamics.html</link>
@@ -258,19 +271,6 @@
     <category>market analysis</category>
     <category>safe haven</category>
     <category>commodities</category>
-  </item>
-  <item>
-    <title><![CDATA[Why Nepal National Cricket Team is Trending: A Deep Dive for 2026]]></title>
-    <link>https://sluintel.github.io/posts/2026-05-31-why-nepal-national-cricket-team-is-trending-in-sports-right-now.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-31-why-nepal-national-cricket-team-is-trending-in-sports-right-now.html</guid>
-    <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Discover why Nepal National Cricket Team is trending in sports right now. Unpack their meteoric rise, strategic gameplay, and what makes them a global sensation. Don't miss this expert analysis!]]></description>
-    <enclosure url="https://images.pexels.com/photos/13509963/pexels-photo-13509963.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Nepal Cricket</category>
-    <category>Sports Trends 2026</category>
-    <category>Cricket Analysis</category>
-    <category>Emerging Teams</category>
-    <category>T20 World Cup</category>
   </item>
 </channel>
 </rss>
