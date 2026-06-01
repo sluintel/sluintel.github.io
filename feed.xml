@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 01 Jun 2026 23:10:01 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 01 Jun 2026 23:44:26 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Why OU Baseball Is Trending Right Now: Decoding the Hype]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-01-why-ou-baseball-is-trending-right-now.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-01-why-ou-baseball-is-trending-right-now.html</guid>
+    <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack why OU baseball is dominating headlines and social feeds in 2026. Discover the key factors driving its trending status and how you can stay on top of the buzz.]]></description>
+    <enclosure url="https://images.pexels.com/photos/11901411/pexels-photo-11901411.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>OU Baseball</category>
+    <category>College Baseball</category>
+    <category>NCAA Sports</category>
+    <category>Trending Sports</category>
+    <category>Social Media Buzz</category>
+  </item>
   <item>
     <title><![CDATA[WVU Baseball Score Explained Simply: Your Game Day Guide]]></title>
     <link>https://sluintel.github.io/posts/2026-06-01-wvu-baseball-score-explained-simply.html</link>
@@ -258,19 +271,6 @@
     <category>Public Opinion</category>
     <category>Online Discourse</category>
     <category>Political Analysis</category>
-  </item>
-  <item>
-    <title><![CDATA[Why RCB vs GT Final is Trending: AI Decodes the Cricket Craze of 2026]]></title>
-    <link>https://sluintel.github.io/posts/2026-05-31-why-rcb-vs-gt-final-is-trending-right-now.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-05-31-why-rcb-vs-gt-final-is-trending-right-now.html</guid>
-    <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Uncover why the RCB vs GT final dominates headlines. We break down the fan frenzy and AI-driven insights behind this cricket phenomenon's trending status.]]></description>
-    <enclosure url="https://images.pexels.com/photos/31008058/pexels-photo-31008058.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Cricket</category>
-    <category>IPL</category>
-    <category>Sports Analytics</category>
-    <category>AI Trends</category>
-    <category>Fan Engagement</category>
   </item>
 </channel>
 </rss>
