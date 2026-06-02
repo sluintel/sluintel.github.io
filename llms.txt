@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 265
+Total Posts Published: 266
 Last Updated: 2026-06-02
-Latest Post: Why Morocco vs Madagascar is Trending: AI Decodes the Hype in 2026
-Latest Post URL: https://sluintel.github.io/posts/2026-06-02-why-morocco-vs-madagascar-is-trending-right-now.html
+Latest Post: Why Australia vs Pakistan is Trending: AI Decodes the Cricket Hype
+Latest Post URL: https://sluintel.github.io/posts/2026-06-02-why-australia-vs-pakistan-is-trending-right-now.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Why Australia vs Pakistan is Trending: AI Decodes the Cricket Hype](https://sluintel.github.io/posts/2026-06-02-why-australia-vs-pakistan-is-trending-right-now.html) — 2026-06-02 — AI in Sports, Cricket Trends, Australia Cricket
 - [Why Morocco vs Madagascar is Trending: AI Decodes the Hype in 2026](https://sluintel.github.io/posts/2026-06-02-why-morocco-vs-madagascar-is-trending-right-now.html) — 2026-06-02 — AI in Sports, Football Analytics, Morocco
 - [Gemini AI: Unlocking the Future of Intelligent Automation](https://sluintel.github.io/posts/2026-06-02-gemini-ai-intelligent-automation-guide.html) — 2026-06-02 — Gemini AI, AI Automation, LLM
 - [Gemini AI: The Future of Intelligent Automation is Here](https://sluintel.github.io/posts/2026-06-02-gemini-ai-future-automation.html) — 2026-06-02 — AI, Gemini, Automation
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Home Town: Inn This Together Explained Simply for Local Growth](https://sluintel.github.io/posts/2026-06-02-home-town-inn-this-together-explained-simply.html) — 2026-06-02 — Local Economy, Community Development, Small Business
 - [Nepal Cricket: Everything Happening Around the National Team's Rise](https://sluintel.github.io/posts/2026-06-02-everything-happening-around-nepal-national-cricket-team.html) — 2026-06-02 — Nepal Cricket, Cricket News, Sports Tech
 - [Is Claude Down? Quick Checks & How to Boost AI Productivity](https://sluintel.github.io/posts/2026-06-02-is-claude-down-status-check-guide-2.html) — 2026-06-02 — Claude AI, AI Outage, AI Tools
-- [Is Claude Down? How to Check Its Status and Stay Productive](https://sluintel.github.io/posts/2026-06-02-is-claude-down-status-check-guide.html) — 2026-06-02 — Claude AI, AI Downtime, Service Status
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
