@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 02 Jun 2026 11:41:28 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 02 Jun 2026 12:16:41 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Gen Z Unpacked: Everything You Should Know for 2026]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-02-gen-z-everything-you-should-know.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-02-gen-z-everything-you-should-know.html</guid>
+    <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unlock the secrets of Gen Z! Discover their values, tech habits, and what drives them. Essential insights for marketers, employers, and anyone navigating 2026's changing landscape.]]></description>
+    <enclosure url="https://images.pexels.com/photos/4778401/pexels-photo-4778401.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Gen Z</category>
+    <category>Generation Z</category>
+    <category>Youth Culture</category>
+    <category>Digital Natives</category>
+    <category>Future Trends</category>
+  </item>
   <item>
     <title><![CDATA[Home Town: Inn This Together Explained Simply for Local Growth]]></title>
     <link>https://sluintel.github.io/posts/2026-06-02-home-town-inn-this-together-explained-simply.html</link>
@@ -260,19 +273,6 @@
     <category>celebrity culture</category>
     <category>AI analysis</category>
     <category>social media trends</category>
-  </item>
-  <item>
-    <title><![CDATA[GT vs RCB: AI-Driven Insights on the Latest Updates You Need]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-01-gt-vs-rcb-latest-updates-ai-insights.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-01-gt-vs-rcb-latest-updates-ai-insights.html</guid>
-    <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Stay ahead with AI-driven analysis of the latest updates on GT vs RCB. Understand tactical shifts, player performance predictions, and why this matchup matters for data-savvy fans. Unlock winning insights now!]]></description>
-    <enclosure url="https://images.pexels.com/photos/12704362/pexels-photo-12704362.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Cricket Analysis</category>
-    <category>IPL Insights</category>
-    <category>AI in Sports</category>
-    <category>Sports Analytics</category>
-    <category>GT vs RCB</category>
   </item>
 </channel>
 </rss>
