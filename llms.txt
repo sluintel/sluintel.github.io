@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 258
+Total Posts Published: 259
 Last Updated: 2026-06-02
-Latest Post: Nepal Cricket: Everything Happening Around the National Team's Rise
-Latest Post URL: https://sluintel.github.io/posts/2026-06-02-everything-happening-around-nepal-national-cricket-team.html
+Latest Post: Home Town: Inn This Together Explained Simply for Local Growth
+Latest Post URL: https://sluintel.github.io/posts/2026-06-02-home-town-inn-this-together-explained-simply.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Home Town: Inn This Together Explained Simply for Local Growth](https://sluintel.github.io/posts/2026-06-02-home-town-inn-this-together-explained-simply.html) — 2026-06-02 — Local Economy, Community Development, Small Business
 - [Nepal Cricket: Everything Happening Around the National Team's Rise](https://sluintel.github.io/posts/2026-06-02-everything-happening-around-nepal-national-cricket-team.html) — 2026-06-02 — Nepal Cricket, Cricket News, Sports Tech
 - [Is Claude Down? Quick Checks & How to Boost AI Productivity](https://sluintel.github.io/posts/2026-06-02-is-claude-down-status-check-guide-2.html) — 2026-06-02 — Claude AI, AI Outage, AI Tools
 - [Is Claude Down? How to Check Its Status and Stay Productive](https://sluintel.github.io/posts/2026-06-02-is-claude-down-status-check-guide.html) — 2026-06-02 — Claude AI, AI Downtime, Service Status
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Why OU Baseball Is Trending Right Now: Decoding the Hype](https://sluintel.github.io/posts/2026-06-01-why-ou-baseball-is-trending-right-now.html) — 2026-06-01 — OU Baseball, College Baseball, NCAA Sports
 - [WVU Baseball Score Explained Simply: Your Game Day Guide](https://sluintel.github.io/posts/2026-06-01-wvu-baseball-score-explained-simply.html) — 2026-06-01 — WVU Baseball, Baseball Scores, NCAA Baseball
 - [Decoding the Top Internet Reactions to Love Island UK](https://sluintel.github.io/posts/2026-06-01-top-internet-reactions-to-love-island-uk.html) — 2026-06-01 — Love Island UK, Reality TV, Fan Engagement
-- [Ben Askren: Everything You Need to Know About 'Funky'](https://sluintel.github.io/posts/2026-06-01-ben-askren-everything-you-should-know.html) — 2026-06-01 — Ben Askren, MMA, UFC
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
