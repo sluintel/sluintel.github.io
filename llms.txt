@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 268
+Total Posts Published: 269
 Last Updated: 2026-06-02
-Latest Post: Unpacking the Trump AI Executive Order: 2026 Impact Analysis
-Latest Post URL: https://sluintel.github.io/posts/2026-06-02-trump-ai-executive-order-analysis.html
+Latest Post: Analyzing the Top Internet Reactions to Kantipur: What Drives Digital Buzz
+Latest Post URL: https://sluintel.github.io/posts/2026-06-02-top-internet-reactions-to-kantipur.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Analyzing the Top Internet Reactions to Kantipur: What Drives Digital Buzz](https://sluintel.github.io/posts/2026-06-02-top-internet-reactions-to-kantipur.html) — 2026-06-02 — Kantipur, Nepali Media, Internet Reactions
 - [Unpacking the Trump AI Executive Order: 2026 Impact Analysis](https://sluintel.github.io/posts/2026-06-02-trump-ai-executive-order-analysis.html) — 2026-06-02 — AI Policy, Executive Orders, AI Regulation
 - [Trump AI Executive Order: What You Need to Know in 2026](https://sluintel.github.io/posts/2026-06-02-trump-ai-executive-order.html) — 2026-06-02 — AI Policy, Executive Order, AI Regulation
 - [Why Australia vs Pakistan is Trending: AI Decodes the Cricket Hype](https://sluintel.github.io/posts/2026-06-02-why-australia-vs-pakistan-is-trending-right-now.html) — 2026-06-02 — AI in Sports, Cricket Trends, Australia Cricket
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Unlock AI's Future: Mastering Gemini for Peak Productivity](https://sluintel.github.io/posts/2026-06-02-gemini-ai-mastery.html) — 2026-06-02 — Gemini AI, Google AI, Generative AI
 - [Claude AI: Your 2026 Guide to Unlocking Super-Productivity](https://sluintel.github.io/posts/2026-06-02-claude-ai-guide-productivity-2026.html) — 2026-06-02 — Claude AI, AI tools, Productivity
 - [Gen Z Unpacked: Everything You Should Know for 2026](https://sluintel.github.io/posts/2026-06-02-gen-z-everything-you-should-know.html) — 2026-06-02 — Gen Z, Generation Z, Youth Culture
-- [Home Town: Inn This Together Explained Simply for Local Growth](https://sluintel.github.io/posts/2026-06-02-home-town-inn-this-together-explained-simply.html) — 2026-06-02 — Local Economy, Community Development, Small Business
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
