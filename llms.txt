@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 255
+Total Posts Published: 256
 Last Updated: 2026-06-02
-Latest Post: Decoding Claude AI: Your 2026 Guide to Conversational Intelligence
-Latest Post URL: https://sluintel.github.io/posts/2026-06-02-claude-ai-guide-conversational-intelligence.html
+Latest Post: Is Claude Down? How to Check Its Status and Stay Productive
+Latest Post URL: https://sluintel.github.io/posts/2026-06-02-is-claude-down-status-check-guide.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Is Claude Down? How to Check Its Status and Stay Productive](https://sluintel.github.io/posts/2026-06-02-is-claude-down-status-check-guide.html) — 2026-06-02 — Claude AI, AI Downtime, Service Status
 - [Decoding Claude AI: Your 2026 Guide to Conversational Intelligence](https://sluintel.github.io/posts/2026-06-02-claude-ai-guide-conversational-intelligence.html) — 2026-06-02 — Claude AI, Anthropic, Large Language Models
 - [What People Are Saying About Marvell: Decoding Tech's Next Big Bet](https://sluintel.github.io/posts/2026-06-02-what-people-are-saying-about-marvell-tech.html) — 2026-06-02 — Marvell Technology, AI chips, semiconductors
 - [What's Next for WNBA: The Future Is Brighter Than Ever](https://sluintel.github.io/posts/2026-06-02-whats-next-for-wnba.html) — 2026-06-02 — WNBA, Women's Basketball, Sports Business
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Ben Askren: Everything You Need to Know About 'Funky'](https://sluintel.github.io/posts/2026-06-01-ben-askren-everything-you-should-know.html) — 2026-06-01 — Ben Askren, MMA, UFC
 - [Romeo Doubs: Everything You Should Know About the Packers' Rising Star](https://sluintel.github.io/posts/2026-06-01-romeo-doubs-everything-you-should-know.html) — 2026-06-01 — Romeo Doubs, NFL, Green Bay Packers
 - [Georgia Tech Baseball: Dominating the Diamond in 2026](https://sluintel.github.io/posts/2026-06-01-georgia-tech-baseball-dominance-2026.html) — 2026-06-01 — Georgia Tech Baseball, College Baseball, ACC Baseball
-- [Aryna Sabalenka: Unpacking Her Latest Updates & 2026 Season Impact](https://sluintel.github.io/posts/2026-06-01-the-latest-updates-on-sabalenka.html) — 2026-06-01 — Aryna Sabalenka, Tennis Updates, WTA Tour
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
