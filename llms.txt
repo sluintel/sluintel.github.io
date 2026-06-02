@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 270
+Total Posts Published: 271
 Last Updated: 2026-06-02
-Latest Post: Tesla Model Y: Why It Still Dominates the Electric SUV Market
-Latest Post URL: https://sluintel.github.io/posts/2026-06-02-tesla-model-y-electric-suv-guide.html
+Latest Post: Martin Scorsese: Everything You Should Know About the Master Filmmaker
+Latest Post URL: https://sluintel.github.io/posts/2026-06-02-martin-scorsese-everything-you-should-know.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Martin Scorsese: Everything You Should Know About the Master Filmmaker](https://sluintel.github.io/posts/2026-06-02-martin-scorsese-everything-you-should-know.html) — 2026-06-02 — Martin Scorsese, Filmmaking, Cinema
 - [Tesla Model Y: Why It Still Dominates the Electric SUV Market](https://sluintel.github.io/posts/2026-06-02-tesla-model-y-electric-suv-guide.html) — 2026-06-02 — Tesla Model Y, Electric SUV, EV Buying Guide
 - [Analyzing the Top Internet Reactions to Kantipur: What Drives Digital Buzz](https://sluintel.github.io/posts/2026-06-02-top-internet-reactions-to-kantipur.html) — 2026-06-02 — Kantipur, Nepali Media, Internet Reactions
 - [Unpacking the Trump AI Executive Order: 2026 Impact Analysis](https://sluintel.github.io/posts/2026-06-02-trump-ai-executive-order-analysis.html) — 2026-06-02 — AI Policy, Executive Orders, AI Regulation
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Gemini AI: Unlocking the Future of Intelligent Automation](https://sluintel.github.io/posts/2026-06-02-gemini-ai-intelligent-automation-guide.html) — 2026-06-02 — Gemini AI, AI Automation, LLM
 - [Gemini AI: The Future of Intelligent Automation is Here](https://sluintel.github.io/posts/2026-06-02-gemini-ai-future-automation.html) — 2026-06-02 — AI, Gemini, Automation
 - [Unlock AI's Future: Mastering Gemini for Peak Productivity](https://sluintel.github.io/posts/2026-06-02-gemini-ai-mastery.html) — 2026-06-02 — Gemini AI, Google AI, Generative AI
-- [Claude AI: Your 2026 Guide to Unlocking Super-Productivity](https://sluintel.github.io/posts/2026-06-02-claude-ai-guide-productivity-2026.html) — 2026-06-02 — Claude AI, AI tools, Productivity
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
