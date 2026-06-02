@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 02 Jun 2026 16:53:50 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 02 Jun 2026 17:49:35 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Why Morocco vs Madagascar is Trending: AI Decodes the Hype in 2026]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-02-why-morocco-vs-madagascar-is-trending-right-now.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-02-why-morocco-vs-madagascar-is-trending-right-now.html</guid>
+    <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Discover why Morocco vs Madagascar dominates trending topics. Unpack the factors, understand AI's role in sports analysis, and get insights into global football trends.]]></description>
+    <enclosure url="https://images.pexels.com/photos/20070755/pexels-photo-20070755.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI in Sports</category>
+    <category>Football Analytics</category>
+    <category>Morocco</category>
+    <category>Madagascar</category>
+    <category>Trending Topics</category>
+  </item>
   <item>
     <title><![CDATA[Gemini AI: Unlocking the Future of Intelligent Automation]]></title>
     <link>https://sluintel.github.io/posts/2026-06-02-gemini-ai-intelligent-automation-guide.html</link>
@@ -260,19 +273,6 @@
     <category>WTA Tour</category>
     <category>Sports Analysis</category>
     <category>Athlete Performance</category>
-  </item>
-  <item>
-    <title><![CDATA[When Does Love Island USA Start? Your Ultimate 2026 Premiere Guide]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-01-when-does-love-island-usa-start.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-01-when-does-love-island-usa-start.html</guid>
-    <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Stop searching! Get the definitive answer on when Love Island USA premieres in 2026, where to stream every episode, and how to guarantee you don't miss a single moment of the drama. Unlock your summer reality TV strategy now!]]></description>
-    <enclosure url="https://images.pexels.com/photos/5486010/pexels-photo-5486010.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Love Island USA</category>
-    <category>Reality TV</category>
-    <category>Streaming Guide</category>
-    <category>Summer TV</category>
-    <category>Peacock</category>
   </item>
 </channel>
 </rss>
