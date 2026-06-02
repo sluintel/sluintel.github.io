@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 02 Jun 2026 12:54:38 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 02 Jun 2026 14:23:11 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Unlock AI's Future: Mastering Gemini for Peak Productivity]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-02-gemini-ai-mastery.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-02-gemini-ai-mastery.html</guid>
+    <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Demystify Gemini, Google's powerful AI, and learn how it's transforming workflows in 2026. Discover expert strategies, practical applications, and avoid common pitfalls to leverage its full potential. Stay ahead.]]></description>
+    <enclosure url="https://images.pexels.com/photos/20870797/pexels-photo-20870797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Gemini AI</category>
+    <category>Google AI</category>
+    <category>Generative AI</category>
+    <category>AI Tools 2026</category>
+    <category>Prompt Engineering</category>
+  </item>
   <item>
     <title><![CDATA[Claude AI: Your 2026 Guide to Unlocking Super-Productivity]]></title>
     <link>https://sluintel.github.io/posts/2026-06-02-claude-ai-guide-productivity-2026.html</link>
@@ -260,19 +273,6 @@
     <category>Trending Topics</category>
     <category>Social Media Algorithms</category>
     <category>Digital Strategy</category>
-  </item>
-  <item>
-    <title><![CDATA[AI Unlocked: Your Guide to Harnessing Artificial Intelligence in 2026]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-01-ai-unlocked-guide-2026.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-01-ai-unlocked-guide-2026.html</guid>
-    <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Decode AI for success in 2026. Learn how artificial intelligence impacts your career, business, and daily life, and master essential tools.]]></description>
-    <enclosure url="https://images.pexels.com/photos/20870797/pexels-photo-20870797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Artificial Intelligence</category>
-    <category>AI Tools</category>
-    <category>Machine Learning</category>
-    <category>Automation</category>
-    <category>Future Tech</category>
   </item>
 </channel>
 </rss>
