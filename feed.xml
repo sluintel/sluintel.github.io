@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 03 Jun 2026 01:46:27 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 03 Jun 2026 05:18:43 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Tanner Scott Explained Simply: The Automation of Elite Relief Pitching]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-03-tanner-scott-explained-simply.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-03-tanner-scott-explained-simply.html</guid>
+    <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Demystify Tanner Scott's role in MLB. We explain simply how this elite relief pitcher operates as a crucial, data-driven 'automation' in high-stakes baseball. Discover his impact & why he matters in 2026.]]></description>
+    <enclosure url="https://images.pexels.com/photos/28843615/pexels-photo-28843615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Baseball Analytics</category>
+    <category>MLB Strategy</category>
+    <category>Relief Pitching</category>
+    <category>Sports Data</category>
+    <category>Performance Automation</category>
+  </item>
   <item>
     <title><![CDATA[Unmasking the Enigma: The Latest Updates on Criminal Minds with AI]]></title>
     <link>https://sluintel.github.io/posts/2026-06-03-the-latest-updates-on-criminal-minds.html</link>
@@ -260,19 +273,6 @@
     <category>AI Tools</category>
     <category>Productivity</category>
     <category>Troubleshooting</category>
-  </item>
-  <item>
-    <title><![CDATA[Decoding Claude AI: Your 2026 Guide to Conversational Intelligence]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-02-claude-ai-guide-conversational-intelligence.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-02-claude-ai-guide-conversational-intelligence.html</guid>
-    <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Master Claude AI, Anthropic's powerful LLM. Uncover its features, applications, and pro tips to boost your productivity and creativity in 2026.]]></description>
-    <enclosure url="https://images.pexels.com/photos/18069362/pexels-photo-18069362.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Claude AI</category>
-    <category>Anthropic</category>
-    <category>Large Language Models</category>
-    <category>AI Tools</category>
-    <category>Productivity</category>
   </item>
 </channel>
 </rss>
