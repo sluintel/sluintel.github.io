@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 286
+Total Posts Published: 287
 Last Updated: 2026-06-03
-Latest Post: Friendlies Explained Simply: The Unsung Heroes of Sports Strategy
-Latest Post URL: https://sluintel.github.io/posts/2026-06-03-friendlies-explained-simply.html
+Latest Post: Generative AI in Oman vs Bahrain: Who's Leading the Tech Race?
+Latest Post URL: https://sluintel.github.io/posts/2026-06-03-generative-ai-impacting-oman-vs-bahrain.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Generative AI in Oman vs Bahrain: Who's Leading the Tech Race?](https://sluintel.github.io/posts/2026-06-03-generative-ai-impacting-oman-vs-bahrain.html) — 2026-06-03 — Generative AI, Oman, Bahrain
 - [Friendlies Explained Simply: The Unsung Heroes of Sports Strategy](https://sluintel.github.io/posts/2026-06-03-friendlies-explained-simply.html) — 2026-06-03 — sports analytics, football strategy, team preparation
 - [What's Next for Nepal vs Bangladesh Women Football?](https://sluintel.github.io/posts/2026-06-03-whats-next-for-nepal-vs-bangladesh-women-football.html) — 2026-06-03 — Women's Football, Nepal Football, Bangladesh Football
 - [Croatia vs Belgium: AI Insights on the Latest Updates You Need](https://sluintel.github.io/posts/2026-06-03-croatia-vs-belgium-latest-updates-ai-insights.html) — 2026-06-03 — football analytics, AI in sports, Croatia Belgium
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Morocco vs Madagascar: The Ultimate Guide to Travel & Culture](https://sluintel.github.io/posts/2026-06-03-morocco-vs-madagascar-travel-guide.html) — 2026-06-03 — Morocco, Madagascar, Travel Guide
 - [Taxes Demystified: Everything You Should Know About Taxes in 2026](https://sluintel.github.io/posts/2026-06-03-everything-you-should-know-about-taxes-2026.html) — 2026-06-03 — taxes, tax planning, financial health
 - [Maaz Sadaqat Explained Simply: Unpacking His Vision for AI in 2026](https://sluintel.github.io/posts/2026-06-03-maaz-sadaqat-explained-simply.html) — 2026-06-03 — AI, Maaz Sadaqat, Tech Leadership
-- [Maaz Sadaqat: Unpacking the AI Visionary You Need to Know](https://sluintel.github.io/posts/2026-06-03-maaz-sadaqat-everything-you-should-know.html) — 2026-06-03 — AI, Automation, Tech Innovator
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
