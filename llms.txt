@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 289
+Total Posts Published: 290
 Last Updated: 2026-06-03
-Latest Post: UNDP Exposed: Everything You Should Know About the United Nations Development Programme
-Latest Post URL: https://sluintel.github.io/posts/2026-06-03-united-nations-development-programme-everything-you-should-know.html
+Latest Post: Hannah Dugan: Everything You Should Know About the AI Ethics Trailblazer
+Latest Post URL: https://sluintel.github.io/posts/2026-06-03-everything-you-should-know-about-hannah-dugan.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Hannah Dugan: Everything You Should Know About the AI Ethics Trailblazer](https://sluintel.github.io/posts/2026-06-03-everything-you-should-know-about-hannah-dugan.html) — 2026-06-03 — Hannah Dugan, AI Ethics, Responsible AI
 - [UNDP Exposed: Everything You Should Know About the United Nations Development Programme](https://sluintel.github.io/posts/2026-06-03-united-nations-development-programme-everything-you-should-know.html) — 2026-06-03 — UNDP, Sustainable Development Goals, Global Development
 - [Shadab Khan: AI-Powered Insights on the Latest Updates You Need](https://sluintel.github.io/posts/2026-06-03-shadab-khan-latest-updates-ai-insights.html) — 2026-06-03 — Shadab Khan, Cricket Analysis, AI in Sports
 - [Generative AI in Oman vs Bahrain: Who's Leading the Tech Race?](https://sluintel.github.io/posts/2026-06-03-generative-ai-impacting-oman-vs-bahrain.html) — 2026-06-03 — Generative AI, Oman, Bahrain
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Morocco vs Madagascar Explained Simply: Your 2026 Insight Guide](https://sluintel.github.io/posts/2026-06-03-morocco-vs-madagascar-explained-simply.html) — 2026-06-03 — Morocco, Madagascar, Travel Guide
 - [Croatia vs Belgium: Everything You Should Know for 2026's Showdowns](https://sluintel.github.io/posts/2026-06-03-croatia-vs-belgium-everything-you-should-know.html) — 2026-06-03 — Croatia, Belgium, Football
 - [What's Next for ACC Women's T20 Premier Cup: A Vision for 2027](https://sluintel.github.io/posts/2026-06-03-whats-next-for-acc-womens-t20-premier-cup.html) — 2026-06-03 — Women's Cricket, ACC T20, Cricket Predictions
-- [Morocco vs Madagascar: The Ultimate Guide to Travel & Culture](https://sluintel.github.io/posts/2026-06-03-morocco-vs-madagascar-travel-guide.html) — 2026-06-03 — Morocco, Madagascar, Travel Guide
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
