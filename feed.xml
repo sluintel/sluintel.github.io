@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 04 Jun 2026 20:25:15 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 04 Jun 2026 21:05:04 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Unpacking the Top Internet Reactions to Ireland vs Pakistan]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-04-top-internet-reactions-ireland-vs-pakistan.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-04-top-internet-reactions-ireland-vs-pakistan.html</guid>
+    <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Dive into the top internet reactions to Ireland vs Pakistan. Understand fan sentiment, viral moments, and the digital discourse that shaped post-match discussions.]]></description>
+    <enclosure url="https://images.pexels.com/photos/30754777/pexels-photo-30754777.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Cricket</category>
+    <category>Fan Reactions</category>
+    <category>Social Media</category>
+    <category>Sports Analysis</category>
+    <category>Pakistan Cricket</category>
+  </item>
   <item>
     <title><![CDATA[The Latest Updates on Australia vs Pakistan: AI-Driven Insights]]></title>
     <link>https://sluintel.github.io/posts/2026-06-04-the-latest-updates-on-australia-vs-pakistan-ai-analysis.html</link>
@@ -264,19 +277,6 @@
     <category>Bangladesh Football</category>
     <category>SAFF Women's Championship</category>
     <category>Football Rivalry</category>
-  </item>
-  <item>
-    <title><![CDATA[Netherlands vs Algeria: Why This Clash Demands Your Attention]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-03-netherlands-vs-algeria-everything-you-should-know-2.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-03-netherlands-vs-algeria-everything-you-should-know-2.html</guid>
-    <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unpack everything you should know about Netherlands vs Algeria – from tactical breakdowns to historical context. Get ready for 2026's unexpected football narratives.]]></description>
-    <enclosure url="https://images.pexels.com/photos/33944542/pexels-photo-33944542.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Football</category>
-    <category>International Soccer</category>
-    <category>Netherlands</category>
-    <category>Algeria</category>
-    <category>Match Analysis</category>
   </item>
 </channel>
 </rss>
