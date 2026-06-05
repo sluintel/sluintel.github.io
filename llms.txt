@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 325
+Total Posts Published: 326
 Last Updated: 2026-06-05
-Latest Post: AI Breakthroughs: Spain vs Iraq in the Age of Intelligent Automation
-Latest Post URL: https://sluintel.github.io/posts/2026-06-05-ai-breakthroughs-related-to-spain-vs-iraq.html
+Latest Post: Ollie Robinson Explained Simply: Unpacking England's Controversial Pacer
+Latest Post URL: https://sluintel.github.io/posts/2026-06-05-ollie-robinson-explained-simply.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Ollie Robinson Explained Simply: Unpacking England's Controversial Pacer](https://sluintel.github.io/posts/2026-06-05-ollie-robinson-explained-simply.html) — 2026-06-05 — Ollie Robinson, Cricket, England Cricket
 - [AI Breakthroughs: Spain vs Iraq in the Age of Intelligent Automation](https://sluintel.github.io/posts/2026-06-05-ai-breakthroughs-related-to-spain-vs-iraq.html) — 2026-06-05 — AI Trends, Geopolitical AI, Economic AI
 - [Australia vs Pakistan: Your 2026 Ultimate Cricket Showdown Guide](https://sluintel.github.io/posts/2026-06-05-australia-vs-pakistan-everything-you-should-know.html) — 2026-06-05 — Cricket, Australia Cricket, Pakistan Cricket
 - [Maaz Sadaqat: Everything You Should Know About the AI Visionary](https://sluintel.github.io/posts/2026-06-05-maaz-sadaqat-everything-you-should-know-2.html) — 2026-06-05 — Maaz Sadaqat, AI Visionary, AI Ethics
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Automation's Divide: How Automation is Changing Spain vs Iraq](https://sluintel.github.io/posts/2026-06-05-how-automation-is-changing-spain-vs-iraq.html) — 2026-06-05 — automation, AI, global economy
 - [Top Internet Reactions to Maaz Sadaqat: Decoding the Digital Buzz](https://sluintel.github.io/posts/2026-06-04-top-internet-reactions-to-maaz-sadaqat.html) — 2026-06-04 — Maaz Sadaqat, Internet Reactions, Social Media Trends
 - [Ben Stokes Explained Simply: Cricket's Unstoppable Force](https://sluintel.github.io/posts/2026-06-04-ben-stokes-explained-simply-2.html) — 2026-06-04 — Ben Stokes, Cricket, All-rounder
-- [Unpacking the Top Internet Reactions to Ireland vs Pakistan](https://sluintel.github.io/posts/2026-06-04-top-internet-reactions-ireland-vs-pakistan.html) — 2026-06-04 — Cricket, Fan Reactions, Social Media
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
