@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 331
+Total Posts Published: 332
 Last Updated: 2026-06-05
-Latest Post: OpenAI: Unlocking Tomorrow's AI Potential, Today
-Latest Post URL: https://sluintel.github.io/posts/2026-06-05-openai-unlocking-ai-potential.html
+Latest Post: Is Claude Down? Your 2026 Guide to AI Uptime & Productivity
+Latest Post URL: https://sluintel.github.io/posts/2026-06-05-is-claude-down-ai-status-guide.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Is Claude Down? Your 2026 Guide to AI Uptime & Productivity](https://sluintel.github.io/posts/2026-06-05-is-claude-down-ai-status-guide.html) — 2026-06-05 — Claude AI, AI tools, productivity
 - [OpenAI: Unlocking Tomorrow's AI Potential, Today](https://sluintel.github.io/posts/2026-06-05-openai-unlocking-ai-potential.html) — 2026-06-05 — OpenAI, AI Tools, Generative AI
 - [What People Are Saying About Oman vs Hong Kong in 2026](https://sluintel.github.io/posts/2026-06-05-what-people-are-saying-about-oman-vs-hong-kong.html) — 2026-06-05 — Oman, Hong Kong, Economic Comparison
 - [Is the AI Bubble Real? Navigating 2026's Tech Hype](https://sluintel.github.io/posts/2026-06-05-ai-bubble-real-hype-2026.html) — 2026-06-05 — AI bubble, AI investment, tech market
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [AI Breakthroughs: Spain vs Iraq in the Age of Intelligent Automation](https://sluintel.github.io/posts/2026-06-05-ai-breakthroughs-related-to-spain-vs-iraq.html) — 2026-06-05 — AI Trends, Geopolitical AI, Economic AI
 - [Australia vs Pakistan: Your 2026 Ultimate Cricket Showdown Guide](https://sluintel.github.io/posts/2026-06-05-australia-vs-pakistan-everything-you-should-know.html) — 2026-06-05 — Cricket, Australia Cricket, Pakistan Cricket
 - [Maaz Sadaqat: Everything You Should Know About the AI Visionary](https://sluintel.github.io/posts/2026-06-05-maaz-sadaqat-everything-you-should-know-2.html) — 2026-06-05 — Maaz Sadaqat, AI Visionary, AI Ethics
-- [What People Are Saying About Maaz Sadaqat: Decoding Public Opinion](https://sluintel.github.io/posts/2026-06-05-what-people-are-saying-about-maaz-sadaqat.html) — 2026-06-05 — Maaz Sadaqat, Public Opinion, AI Influencer
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
