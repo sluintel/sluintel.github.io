@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 319
+Total Posts Published: 320
 Last Updated: 2026-06-05
-Latest Post: Automation's Divide: How Automation is Changing Spain vs Iraq
-Latest Post URL: https://sluintel.github.io/posts/2026-06-05-how-automation-is-changing-spain-vs-iraq.html
+Latest Post: Maaz Sadaqat: Everything You Should Know About the AI Visionary
+Latest Post URL: https://sluintel.github.io/posts/2026-06-05-maaz-sadaqat-everything-you-should-know.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Maaz Sadaqat: Everything You Should Know About the AI Visionary](https://sluintel.github.io/posts/2026-06-05-maaz-sadaqat-everything-you-should-know.html) — 2026-06-05 — Maaz Sadaqat, AI visionary, automation strategy
 - [Automation's Divide: How Automation is Changing Spain vs Iraq](https://sluintel.github.io/posts/2026-06-05-how-automation-is-changing-spain-vs-iraq.html) — 2026-06-05 — automation, AI, global economy
 - [Top Internet Reactions to Maaz Sadaqat: Decoding the Digital Buzz](https://sluintel.github.io/posts/2026-06-04-top-internet-reactions-to-maaz-sadaqat.html) — 2026-06-04 — Maaz Sadaqat, Internet Reactions, Social Media Trends
 - [Ben Stokes Explained Simply: Cricket's Unstoppable Force](https://sluintel.github.io/posts/2026-06-04-ben-stokes-explained-simply-2.html) — 2026-06-04 — Ben Stokes, Cricket, All-rounder
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Asian Cricket Council: Latest Updates & Bold 2026 Predictions](https://sluintel.github.io/posts/2026-06-04-asian-cricket-council-latest-updates-predictions.html) — 2026-06-04 — Asian Cricket Council, Cricket Predictions, ACC Updates
 - [England vs New Zealand Explained Simply: A Sporting Rivalry Unpacked](https://sluintel.github.io/posts/2026-06-04-england-vs-new-zealand-explained-simply-2.html) — 2026-06-04 — Sporting Rivalries, England Rugby, New Zealand Cricket
 - [Top Internet Reactions to Ollie Robinson: Decoding the Digital Roar](https://sluintel.github.io/posts/2026-06-04-top-internet-reactions-to-ollie-robinson.html) — 2026-06-04 — Ollie Robinson, Cricket, Sports News
-- [Everything Happening Around Asian Cricket Council in 2026](https://sluintel.github.io/posts/2026-06-04-everything-happening-around-asian-cricket-council.html) — 2026-06-04 — Asian Cricket Council, ACC, Cricket Development
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
