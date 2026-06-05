@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 05 Jun 2026 04:48:31 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 05 Jun 2026 05:49:08 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[What People Are Saying About Mexico vs Serbia: Fan Clash 2026]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-05-what-people-are-saying-about-mexico-vs-serbia.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-05-what-people-are-saying-about-mexico-vs-serbia.html</guid>
+    <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Dive into the fierce debates and predictions surrounding Mexico vs Serbia. Discover what fans, experts, and pundits are saying about this potential 2026 clash and who holds the edge.]]></description>
+    <enclosure url="https://images.pexels.com/photos/13071321/pexels-photo-13071321.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Mexico Football</category>
+    <category>Serbia Football</category>
+    <category>World Cup 2026</category>
+    <category>Football Analysis</category>
+    <category>Fan Debates</category>
+  </item>
   <item>
     <title><![CDATA[Maaz Sadaqat: Everything You Should Know About the AI Visionary]]></title>
     <link>https://sluintel.github.io/posts/2026-06-05-maaz-sadaqat-everything-you-should-know.html</link>
@@ -267,19 +280,6 @@
     <category>Cricket Qualifier</category>
     <category>Sports Analysis</category>
     <category>Team Asia</category>
-  </item>
-  <item>
-    <title><![CDATA[Unpacking the Latest Updates on Spurs vs Knicks: An AI-Driven Analysis]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-04-the-latest-updates-on-spurs-vs-knicks-ai-analysis.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-04-the-latest-updates-on-spurs-vs-knicks-ai-analysis.html</guid>
-    <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Gain AI-powered insights into the latest updates on Spurs vs Knicks matchups. Discover how cutting-edge analytics redefine understanding game strategies and player performance.]]></description>
-    <enclosure url="https://images.pexels.com/photos/20070850/pexels-photo-20070850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI in Sports</category>
-    <category>NBA Analytics</category>
-    <category>Spurs vs Knicks</category>
-    <category>Machine Learning</category>
-    <category>Sports Prediction</category>
   </item>
 </channel>
 </rss>
