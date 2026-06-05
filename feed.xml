@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 05 Jun 2026 08:17:07 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 05 Jun 2026 08:54:14 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[AI Breakthroughs: Spain vs Iraq in the Age of Intelligent Automation]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-05-ai-breakthroughs-related-to-spain-vs-iraq.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-05-ai-breakthroughs-related-to-spain-vs-iraq.html</guid>
+    <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Explore groundbreaking AI breakthroughs related to Spain vs Iraq, uncovering how intelligent systems are shaping their futures. Discover critical insights and real-world applications today.]]></description>
+    <enclosure url="https://images.pexels.com/photos/12917757/pexels-photo-12917757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI Trends</category>
+    <category>Geopolitical AI</category>
+    <category>Economic AI</category>
+    <category>Automation</category>
+    <category>Tech Comparison</category>
+  </item>
   <item>
     <title><![CDATA[Australia vs Pakistan: Your 2026 Ultimate Cricket Showdown Guide]]></title>
     <link>https://sluintel.github.io/posts/2026-06-05-australia-vs-pakistan-everything-you-should-know.html</link>
@@ -267,19 +280,6 @@
     <category>AI</category>
     <category>Development</category>
     <category>Global Affairs</category>
-  </item>
-  <item>
-    <title><![CDATA[Ben Stokes Explained Simply: The Cricket Icon's True Impact]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-04-ben-stokes-explained-simply.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-04-ben-stokes-explained-simply.html</guid>
-    <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Understand Ben Stokes explained simply: his incredible career, leadership, and why he's one of cricket's most influential figures. Discover his biggest moments now!]]></description>
-    <enclosure url="https://images.pexels.com/photos/3974780/pexels-photo-3974780.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Ben Stokes</category>
-    <category>Cricket</category>
-    <category>England Cricket</category>
-    <category>All-rounder</category>
-    <category>Sports Icon</category>
   </item>
 </channel>
 </rss>
