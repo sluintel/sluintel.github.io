@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 06 Jun 2026 11:44:58 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 06 Jun 2026 12:19:38 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[The 67% Rule: AI Adoption Explained Simply for 2026 Success]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-06-67-explained-simply.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-06-67-explained-simply.html</guid>
+    <pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unlock successful AI adoption with the 67% Rule explained simply. Learn how to overcome common integration hurdles & ensure your automation truly delivers in 2026. Get expert insights.]]></description>
+    <enclosure url="https://images.pexels.com/photos/325152/pexels-photo-325152.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI Adoption</category>
+    <category>Automation Strategy</category>
+    <category>Digital Transformation</category>
+    <category>AI Implementation</category>
+    <category>Future of Work</category>
+  </item>
   <item>
     <title><![CDATA[Wall Street Tech Stock Sell-Off: Survive & Thrive in 2026]]></title>
     <link>https://sluintel.github.io/posts/2026-06-06-wall-street-tech-stock-sell-off-2.html</link>
@@ -258,19 +271,6 @@
     <category>Tech Comparison</category>
     <category>Digital Transformation</category>
     <category>Emerging Tech</category>
-  </item>
-  <item>
-    <title><![CDATA[Is Claude Down? Your 2026 Guide to AI Uptime & Productivity]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-05-is-claude-down-ai-status-guide.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-05-is-claude-down-ai-status-guide.html</guid>
-    <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Worried 'is Claude down?' This 2026 guide helps you instantly check Claude AI's status, troubleshoot issues, and maintain peak productivity. Never get caught off guard again!]]></description>
-    <enclosure url="https://images.pexels.com/photos/16587313/pexels-photo-16587313.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Claude AI</category>
-    <category>AI tools</category>
-    <category>productivity</category>
-    <category>AI downtime</category>
-    <category>tech troubleshooting</category>
   </item>
 </channel>
 </rss>
