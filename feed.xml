@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 06 Jun 2026 06:37:27 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 06 Jun 2026 07:25:32 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Why Spurs vs Knicks is Trending Right Now: AI Decodes NBA Buzz]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-06-why-spurs-vs-knicks-is-trending-right-now.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-06-why-spurs-vs-knicks-is-trending-right-now.html</guid>
+    <pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Uncover why Spurs vs Knicks is trending right now. AI reveals the rivalry, player drama, and strategic shifts driving this NBA buzz in 2026. Get the inside story.]]></description>
+    <enclosure url="https://images.pexels.com/photos/11831869/pexels-photo-11831869.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>NBA</category>
+    <category>Spurs</category>
+    <category>Knicks</category>
+    <category>Basketball</category>
+    <category>AI Sports Analytics</category>
+  </item>
   <item>
     <title><![CDATA[San Marino vs Bangladesh: Unpacking Digital Futures & AI Readiness]]></title>
     <link>https://sluintel.github.io/posts/2026-06-06-san-marino-vs-bangladesh-digital-futures-ai.html</link>
@@ -258,19 +271,6 @@
     <category>England Cricket</category>
     <category>Fast Bowler</category>
     <category>Sports Analysis</category>
-  </item>
-  <item>
-    <title><![CDATA[AI Breakthroughs: Spain vs Iraq in the Age of Intelligent Automation]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-05-ai-breakthroughs-related-to-spain-vs-iraq.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-05-ai-breakthroughs-related-to-spain-vs-iraq.html</guid>
-    <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Explore groundbreaking AI breakthroughs related to Spain vs Iraq, uncovering how intelligent systems are shaping their futures. Discover critical insights and real-world applications today.]]></description>
-    <enclosure url="https://images.pexels.com/photos/12917757/pexels-photo-12917757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI Trends</category>
-    <category>Geopolitical AI</category>
-    <category>Economic AI</category>
-    <category>Automation</category>
-    <category>Tech Comparison</category>
   </item>
 </channel>
 </rss>
