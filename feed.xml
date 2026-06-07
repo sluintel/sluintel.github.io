@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 07 Jun 2026 05:53:13 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 07 Jun 2026 08:02:31 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Data Breach Explained: What It Is & How to Protect Yourself]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-07-what-is-a-data-breach-explained.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-07-what-is-a-data-breach-explained.html</guid>
+    <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[A data breach isn't just news; it's a direct threat. Learn what a data breach is, why it matters in 2026, and actionable steps to protect your personal data from cybercriminals.]]></description>
+    <enclosure url="https://images.pexels.com/photos/17483870/pexels-photo-17483870.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>data breach</category>
+    <category>cybersecurity</category>
+    <category>data protection</category>
+    <category>AI security</category>
+    <category>online privacy</category>
+  </item>
   <item>
     <title><![CDATA[Top Internet Reactions to Mohammad Saleem: Decoding the Digital Buzz]]></title>
     <link>https://sluintel.github.io/posts/2026-06-07-top-internet-reactions-to-mohammad-saleem.html</link>
@@ -259,19 +272,6 @@
     <category>Data Analytics</category>
     <category>Automation</category>
     <category>Digital Trends</category>
-  </item>
-  <item>
-    <title><![CDATA[Canada vs Ireland: Latest Updates & AI Matchup Insights]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-06-canada-vs-ireland-latest-updates-ai-analysis.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-06-canada-vs-ireland-latest-updates-ai-analysis.html</guid>
-    <pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Don't just watch the game. Get the latest updates on Canada vs Ireland with AI-driven insights. Understand team dynamics, key player matchups, and predict outcomes like a pro.]]></description>
-    <enclosure url="https://images.pexels.com/photos/37926848/pexels-photo-37926848.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI Sports Analysis</category>
-    <category>Canada Ireland</category>
-    <category>Performance Prediction</category>
-    <category>Matchup Insights</category>
-    <category>Sports Tech</category>
   </item>
 </channel>
 </rss>
