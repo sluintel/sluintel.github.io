@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 07 Jun 2026 08:32:02 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 07 Jun 2026 09:34:37 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[What is a Data Breach? Your 2026 Guide to Digital Safety]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-07-what-is-a-data-breach-guide.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-07-what-is-a-data-breach-guide.html</guid>
+    <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Understand what is a data breach, its devastating impact, and how to protect your personal information in 2026. Stay secure in an increasingly vulnerable digital world.]]></description>
+    <enclosure url="https://images.pexels.com/photos/17483873/pexels-photo-17483873.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>data breach</category>
+    <category>cybersecurity</category>
+    <category>data security</category>
+    <category>identity theft</category>
+    <category>digital privacy</category>
+  </item>
   <item>
     <title><![CDATA[Data Breach Explained: What It Is & How to Protect Your Info]]></title>
     <link>https://sluintel.github.io/posts/2026-06-07-what-is-a-data-breach.html</link>
@@ -259,19 +272,6 @@
     <category>Knicks</category>
     <category>Basketball</category>
     <category>AI Sports Analytics</category>
-  </item>
-  <item>
-    <title><![CDATA[San Marino vs Bangladesh: Unpacking Digital Futures & AI Readiness]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-06-san-marino-vs-bangladesh-digital-futures-ai.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-06-san-marino-vs-bangladesh-digital-futures-ai.html</guid>
-    <pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Explore the surprising digital transformation journeys of San Marino vs Bangladesh. Discover AI readiness, economic contrasts, and lessons for global innovation. Get insights here!]]></description>
-    <enclosure url="https://images.pexels.com/photos/14772270/pexels-photo-14772270.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI Strategy</category>
-    <category>Digital Transformation</category>
-    <category>Economic Development</category>
-    <category>Global Tech</category>
-    <category>Emerging Markets</category>
   </item>
 </channel>
 </rss>
