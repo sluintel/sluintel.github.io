@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 380
+Total Posts Published: 381
 Last Updated: 2026-06-08
 Latest Post: Rahmat Shah: Latest Updates & AI-Powered Performance Insights
-Latest Post URL: https://sluintel.github.io/posts/2026-06-08-rahmat-shah-latest-updates-ai-insights.html
+Latest Post URL: https://sluintel.github.io/posts/2026-06-08-rahmat-shah-latest-updates-ai-performance.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Rahmat Shah: Latest Updates & AI-Powered Performance Insights](https://sluintel.github.io/posts/2026-06-08-rahmat-shah-latest-updates-ai-performance.html) — 2026-06-08 — Rahmat Shah, Cricket, Afghanistan Cricket
 - [Rahmat Shah: Latest Updates & AI-Powered Performance Insights](https://sluintel.github.io/posts/2026-06-08-rahmat-shah-latest-updates-ai-insights.html) — 2026-06-08 — Rahmat Shah, Cricket Afghanistan, Cricket Updates
 - [AI Decodes: The Latest Updates on Hong Kong vs Nepal Cricket Showdowns](https://sluintel.github.io/posts/2026-06-08-the-latest-updates-on-hong-kong-vs-nepal-ai-analysis.html) — 2026-06-08 — Cricket Analysis, AI Sports Prediction, Hong Kong Cricket
 - [Crazy Taxi World Tour AI: The Secret to Unpredictable Urban Chaos](https://sluintel.github.io/posts/2026-06-08-crazy-taxi-world-tour-ai-unpredictable-gaming.html) — 2026-06-08 — AI in Gaming, Game Development, Crazy Taxi
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Denmark vs Ukraine: The AI Innovation Showdown](https://sluintel.github.io/posts/2026-06-07-ai-powered-innovations-denmark-vs-ukraine.html) — 2026-06-07 — AI Innovation, Denmark AI, Ukraine AI
 - [The Rise of AI in Denmark vs Ukraine: A Strategic Tech Showdown](https://sluintel.github.io/posts/2026-06-07-the-rise-of-ai-in-denmark-vs-ukraine.html) — 2026-06-07 — AI Innovation, Denmark Tech, Ukraine AI
 - [The Latest Updates on Morocco vs Norway: An AI-Driven Analysis](https://sluintel.github.io/posts/2026-06-07-the-latest-updates-on-morocco-vs-norway-ai-analysis.html) — 2026-06-07 — AI Sports Analysis, Football Predictions, Morocco Football
-- [Rahmat Shah Explained Simply: Afghanistan's Cricket Icon Unpacked](https://sluintel.github.io/posts/2026-06-07-rahmat-shah-explained-simply.html) — 2026-06-07 — Rahmat Shah, Afghanistan Cricket, Cricket Explained
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
