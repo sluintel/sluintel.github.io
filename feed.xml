@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 08 Jun 2026 14:53:35 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 08 Jun 2026 18:08:44 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Rahmat Shah: Latest Updates & Why His 2026 Form Demands Attention]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-08-rahmat-shah-latest-updates-performance-2026.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-08-rahmat-shah-latest-updates-performance-2026.html</guid>
+    <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Stay ahead with the latest updates on Rahmat Shah's career. Discover AI-driven insights into his 2026 performance, what's next, and how it impacts Afghanistan cricket. Essential reading for fans.]]></description>
+    <enclosure url="https://images.pexels.com/photos/8296051/pexels-photo-8296051.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Rahmat Shah</category>
+    <category>Cricket Updates</category>
+    <category>Afghan Cricket</category>
+    <category>Player Performance</category>
+    <category>Sports Analytics</category>
+  </item>
   <item>
     <title><![CDATA[Decoding the Top Internet Reactions to Hong Kong vs Nepal]]></title>
     <link>https://sluintel.github.io/posts/2026-06-08-top-internet-reactions-hong-kong-vs-nepal.html</link>
@@ -258,19 +271,6 @@
     <category>tech trends</category>
     <category>machine learning</category>
     <category>automation</category>
-  </item>
-  <item>
-    <title><![CDATA[Nepal vs Oman Explained Simply: Cultures, Economies & Opportunities]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-07-nepal-vs-oman-explained-simply.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-07-nepal-vs-oman-explained-simply.html</guid>
-    <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Curious about Nepal vs Oman? This expert guide explains the core differences in culture, economy, and lifestyle for travelers, expats, and investors. Get it simply!]]></description>
-    <enclosure url="https://images.pexels.com/photos/18075376/pexels-photo-18075376.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Nepal</category>
-    <category>Oman</category>
-    <category>Travel Guide</category>
-    <category>Economy Comparison</category>
-    <category>Digital Nomad</category>
   </item>
 </channel>
 </rss>
