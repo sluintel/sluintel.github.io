@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 09 Jun 2026 17:29:46 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 09 Jun 2026 18:20:13 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Claude Fable 5: How AI Will Redefine Your Next-Gen RPG Experience]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-09-claude-fable-5-ai-rpg-revolution.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-09-claude-fable-5-ai-rpg-revolution.html</guid>
+    <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Discover how Claude Fable 5 is set to revolutionise RPGs with dynamic AI characters and evolving narratives. Get ready for unprecedented player agency and immersive worlds. Learn more!]]></description>
+    <enclosure url="https://images.pexels.com/photos/17485683/pexels-photo-17485683.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI Gaming</category>
+    <category>Claude AI</category>
+    <category>Fable 5</category>
+    <category>RPG Innovation</category>
+    <category>Next-Gen Gaming</category>
+  </item>
   <item>
     <title><![CDATA[Claude Fable 5: The AI Revolution Transforming Next-Gen Gaming]]></title>
     <link>https://sluintel.github.io/posts/2026-06-09-claude-fable-5-ai-gaming-revolution.html</link>
@@ -258,19 +271,6 @@
     <category>Ukraine AI</category>
     <category>Tech Strategy</category>
     <category>Global Tech</category>
-  </item>
-  <item>
-    <title><![CDATA[The Rise of AI in Denmark vs Ukraine: A Strategic Tech Showdown]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-07-the-rise-of-ai-in-denmark-vs-ukraine.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-07-the-rise-of-ai-in-denmark-vs-ukraine.html</guid>
-    <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unpack the surprising dynamics of AI adoption in Denmark vs Ukraine. Discover who's leading in innovation, talent, and ethical AI in this crucial European tech race.]]></description>
-    <enclosure url="https://images.pexels.com/photos/8979900/pexels-photo-8979900.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI Innovation</category>
-    <category>Denmark Tech</category>
-    <category>Ukraine AI</category>
-    <category>European AI Strategy</category>
-    <category>Tech Development</category>
   </item>
 </channel>
 </rss>
