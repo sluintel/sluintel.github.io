@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 09 Jun 2026 11:20:26 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 09 Jun 2026 11:32:16 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[India A vs Sri Lanka A: What You Need to Know in 2026]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-09-india-a-vs-sri-lanka-a-everything-you-should-know.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-09-india-a-vs-sri-lanka-a-everything-you-should-know.html</guid>
+    <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Uncover the hidden gems and future stars of cricket by diving into everything you should know about India A vs Sri Lanka A matches. Get insider tips and stay ahead!]]></description>
+    <enclosure url="https://images.pexels.com/photos/35156552/pexels-photo-35156552.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Cricket</category>
+    <category>India A</category>
+    <category>Sri Lanka A</category>
+    <category>Emerging Teams</category>
+    <category>Future Stars</category>
+  </item>
   <item>
     <title><![CDATA[FIFA World Cup Betting BetMGM: Why It's Exploding in Sports Right Now]]></title>
     <link>https://sluintel.github.io/posts/2026-06-09-fifa-world-cup-betting-betmgm-trending-sports.html</link>
@@ -258,19 +271,6 @@
     <category>Cricket Explained</category>
     <category>ODI Cricket</category>
     <category>Test Cricket</category>
-  </item>
-  <item>
-    <title><![CDATA[Why Ali Sanchez Is Trending Right Now: Decoding His Digital Ascent]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-07-why-ali-sanchez-is-trending-right-now.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-07-why-ali-sanchez-is-trending-right-now.html</guid>
-    <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unpack the compelling reasons Ali Sanchez is dominating headlines in 2026. Discover his game-changing impact, fan appeal, and what fuels his viral status.]]></description>
-    <enclosure url="https://images.pexels.com/photos/6635054/pexels-photo-6635054.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Ali Sanchez</category>
-    <category>MLB</category>
-    <category>Baseball Trends</category>
-    <category>Sports Analytics</category>
-    <category>Digital Stardom</category>
   </item>
 </channel>
 </rss>
