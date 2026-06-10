@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 10 Jun 2026 18:10:26 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 10 Jun 2026 18:40:52 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Hong Kong vs Japan: Your Essential 2026 Comparison Guide]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-10-hong-kong-vs-japan-comparison-guide.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-10-hong-kong-vs-japan-comparison-guide.html</guid>
+    <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Considering Hong Kong vs Japan for travel, business, or lifestyle? Unpack 2026's key differences in culture, economy, and innovation. Discover which vibrant Asian hub is right for you.]]></description>
+    <enclosure url="https://images.pexels.com/photos/31044098/pexels-photo-31044098.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Hong Kong</category>
+    <category>Japan</category>
+    <category>Asia Travel</category>
+    <category>Business Asia</category>
+    <category>Culture Comparison</category>
+  </item>
   <item>
     <title><![CDATA[Top Internet Reactions to IPO: Decoding Digital Buzz]]></title>
     <link>https://sluintel.github.io/posts/2026-06-10-top-internet-reactions-to-ipo.html</link>
@@ -261,19 +274,6 @@
     <category>Nepal</category>
     <category>sports fandom</category>
     <category>social media analysis</category>
-  </item>
-  <item>
-    <title><![CDATA[杭州天气 Explained Simply: Your Expert Guide to Hangzhou's Climate]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-08-hangzhou-tianqi-explained-simply.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-08-hangzhou-tianqi-explained-simply.html</guid>
-    <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Demystify 杭州天气 (Hangzhou weather) with this simple guide. Understand its seasons, forecast nuances, and why it matters for your visit or daily life. Get practical tips!]]></description>
-    <enclosure url="https://images.pexels.com/photos/7172425/pexels-photo-7172425.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Hangzhou weather</category>
-    <category>China travel</category>
-    <category>climate guide</category>
-    <category>weather forecast</category>
-    <category>travel tips</category>
   </item>
 </channel>
 </rss>
