@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 11 Jun 2026 01:38:00 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 11 Jun 2026 08:55:53 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[What is a Data Breach? Your 2026 Guide to Digital Safety]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-11-what-is-a-data-breach.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-11-what-is-a-data-breach.html</guid>
+    <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Understand what a data breach is, why it matters, and how to protect your personal information in 2026. Learn expert tips to safeguard your digital life.]]></description>
+    <enclosure url="https://images.pexels.com/photos/37694202/pexels-photo-37694202.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>data breach</category>
+    <category>cybersecurity</category>
+    <category>data privacy</category>
+    <category>online security</category>
+    <category>ai tools</category>
+  </item>
   <item>
     <title><![CDATA[Decoding the Top Internet Reactions to Friendlies: Fan Buzz Unleashed]]></title>
     <link>https://sluintel.github.io/posts/2026-06-11-top-internet-reactions-to-friendlies.html</link>
@@ -261,19 +274,6 @@
     <category>Fan Culture</category>
     <category>Digital Engagement</category>
     <category>AI Analysis</category>
-  </item>
-  <item>
-    <title><![CDATA[India A vs Sri Lanka A: What You Need to Know in 2026]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-09-india-a-vs-sri-lanka-a-everything-you-should-know.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-09-india-a-vs-sri-lanka-a-everything-you-should-know.html</guid>
-    <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Uncover the hidden gems and future stars of cricket by diving into everything you should know about India A vs Sri Lanka A matches. Get insider tips and stay ahead!]]></description>
-    <enclosure url="https://images.pexels.com/photos/35156552/pexels-photo-35156552.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Cricket</category>
-    <category>India A</category>
-    <category>Sri Lanka A</category>
-    <category>Emerging Teams</category>
-    <category>Future Stars</category>
   </item>
 </channel>
 </rss>
