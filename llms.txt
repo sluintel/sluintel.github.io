@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 413
+Total Posts Published: 414
 Last Updated: 2026-06-11
-Latest Post: Microsoft Anthropic Claude Fable Restriction: Navigating AI Ethics
-Latest Post URL: https://sluintel.github.io/posts/2026-06-11-microsoft-anthropic-claude-fable-restriction.html
+Latest Post: Microsoft Anthropic Claude Fable Restriction: Unpacking AI Ethics
+Latest Post URL: https://sluintel.github.io/posts/2026-06-11-microsoft-anthropic-claude-fable-restriction-2.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Microsoft Anthropic Claude Fable Restriction: Unpacking AI Ethics](https://sluintel.github.io/posts/2026-06-11-microsoft-anthropic-claude-fable-restriction-2.html) — 2026-06-11 — AI Ethics, Generative AI, Microsoft AI
 - [Microsoft Anthropic Claude Fable Restriction: Navigating AI Ethics](https://sluintel.github.io/posts/2026-06-11-microsoft-anthropic-claude-fable-restriction.html) — 2026-06-11 — AI Ethics, Anthropic Claude, Microsoft AI
 - [Why Portugal Is Trending Right Now: Your 2026 Deep Dive](https://sluintel.github.io/posts/2026-06-11-why-portugal-is-trending-right-now.html) — 2026-06-11 — Portugal, trending, digital nomads
 - [What is a Data Breach? Your 2026 Guide to Digital Safety](https://sluintel.github.io/posts/2026-06-11-what-is-a-data-breach-guide.html) — 2026-06-11 — data breach, cybersecurity, data protection
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Why England vs Costa Rica is Trending Right Now: AI's Unexpected Play](https://sluintel.github.io/posts/2026-06-10-england-vs-costa-rica-trending-right-now.html) — 2026-06-10 — Football, Sports Trends, AI in Sports
 - [Portugal FC: Everything Happening Around Your Favorite Team](https://sluintel.github.io/posts/2026-06-10-everything-happening-around-portugal-fc.html) — 2026-06-10 — Portugal FC, Football Analysis, Team News
 - [What's Next for West Indies Women vs Australia Women: Scorecard Insights](https://sluintel.github.io/posts/2026-06-10-whats-next-for-west-indies-women-vs-australia-womens-national-cricket-team-match-scorecard.html) — 2026-06-10 — Women's Cricket, West Indies Women, Australia Women
-- [The Latest Updates on IPOs: Your 2026 Investor Playbook](https://sluintel.github.io/posts/2026-06-10-the-latest-updates-on-ipo.html) — 2026-06-10 — IPO, Stock Market, Investing
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
