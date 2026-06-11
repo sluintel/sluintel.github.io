@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 11 Jun 2026 10:58:11 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 11 Jun 2026 11:46:28 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Microsoft Anthropic Claude Fable Restriction: Navigating AI Ethics]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-11-microsoft-anthropic-claude-fable-restriction.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-11-microsoft-anthropic-claude-fable-restriction.html</guid>
+    <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack the Microsoft Anthropic Claude Fable restriction, understand AI ethical guardrails in generative content, and learn how it impacts creators in 2026.]]></description>
+    <enclosure url="https://images.pexels.com/photos/16094042/pexels-photo-16094042.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI Ethics</category>
+    <category>Anthropic Claude</category>
+    <category>Microsoft AI</category>
+    <category>Generative AI</category>
+    <category>Content Moderation</category>
+  </item>
   <item>
     <title><![CDATA[Why Portugal Is Trending Right Now: Your 2026 Deep Dive]]></title>
     <link>https://sluintel.github.io/posts/2026-06-11-why-portugal-is-trending-right-now.html</link>
@@ -261,19 +274,6 @@
     <category>Asia comparison</category>
     <category>expat life</category>
     <category>digital nomad</category>
-  </item>
-  <item>
-    <title><![CDATA[Claude Fable 5: How AI Will Redefine Your Next-Gen RPG Experience]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-09-claude-fable-5-ai-rpg-revolution.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-09-claude-fable-5-ai-rpg-revolution.html</guid>
-    <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Discover how Claude Fable 5 is set to revolutionise RPGs with dynamic AI characters and evolving narratives. Get ready for unprecedented player agency and immersive worlds. Learn more!]]></description>
-    <enclosure url="https://images.pexels.com/photos/17485683/pexels-photo-17485683.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI Gaming</category>
-    <category>Claude AI</category>
-    <category>Fable 5</category>
-    <category>RPG Innovation</category>
-    <category>Next-Gen Gaming</category>
   </item>
 </channel>
 </rss>
