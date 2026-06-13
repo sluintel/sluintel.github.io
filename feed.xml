@@ -5,13 +5,28 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 13 Jun 2026 01:34:19 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 13 Jun 2026 04:52:46 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Folarin Balogun: Everything You Should Know About His Ascent]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-13-folarin-balogun-everything-you-should-know.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-13-folarin-balogun-everything-you-should-know.html</guid>
+    <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack Folarin Balogun's meteoric rise, pivotal career moments, and what's next for the USMNT star. Get the full scoop on his journey and impact.]]></description>
+    <enclosure url="https://images.pexels.com/photos/6344226/pexels-photo-6344226.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Folarin Balogun</category>
+    <category>Football</category>
+    <category>USMNT</category>
+    <category>Arsenal</category>
+    <category>Ligue 1</category>
+    <category>Premier League</category>
+    <category>Soccer</category>
+  </item>
   <item>
     <title><![CDATA[USA vs Explained Simply: Master Strategic Global Comparisons]]></title>
     <link>https://sluintel.github.io/posts/2026-06-13-usa-vs-explained-simply.html</link>
@@ -262,19 +277,6 @@
     <category>Predictive AI</category>
     <category>Fan Engagement</category>
     <category>Trending Topics</category>
-  </item>
-  <item>
-    <title><![CDATA[The Latest Updates on 808: Your AI Automation Game Plan]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-12-the-latest-updates-on-808.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-12-the-latest-updates-on-808.html</guid>
-    <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unlock the power of the latest updates on 808. Discover how this revolutionary AI framework is transforming automation and data synthesis. Get ahead with expert insights and practical strategies for 2026.]]></description>
-    <enclosure url="https://images.pexels.com/photos/7887855/pexels-photo-7887855.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI Automation</category>
-    <category>808 Framework</category>
-    <category>Data Synthesis</category>
-    <category>Tech Trends</category>
-    <category>Workflow Orchestration</category>
   </item>
 </channel>
 </rss>
