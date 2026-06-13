@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 13 Jun 2026 11:25:49 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 13 Jun 2026 12:03:29 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Kristie Carrier vs OpenAI: Why This Lawsuit Redefines AI]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-13-kristie-carrier-vs-openai-2.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-13-kristie-carrier-vs-openai-2.html</guid>
+    <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Dive into the Kristie Carrier vs OpenAI lawsuit. Understand its monumental impact on AI ethics, data rights, and the future of generative models. Discover what's at stake for you.]]></description>
+    <enclosure url="https://images.pexels.com/photos/34152260/pexels-photo-34152260.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI Lawsuit</category>
+    <category>OpenAI</category>
+    <category>Kristie Carrier</category>
+    <category>AI Ethics</category>
+    <category>Data Rights</category>
+  </item>
   <item>
     <title><![CDATA[Kristie Carrier vs OpenAI: Why This Lawsuit Redefines AI's Future]]></title>
     <link>https://sluintel.github.io/posts/2026-06-13-kristie-carrier-vs-openai.html</link>
@@ -263,19 +276,6 @@
     <category>sustainability</category>
     <category>global impact</category>
     <category>public opinion</category>
-  </item>
-  <item>
-    <title><![CDATA[Canada vs USA: The Latest Updates & AI-Driven Matchup Analysis]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-12-latest-updates-canada-vs-usa-ai-analysis.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-12-latest-updates-canada-vs-usa-ai-analysis.html</guid>
-    <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unpack the latest updates on Canada vs USA sports rivalry with expert AI analysis. Understand key dynamics, team strengths, and predictive insights to stay ahead. Don't miss out!]]></description>
-    <enclosure url="https://images.pexels.com/photos/9535728/pexels-photo-9535728.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI Sports Analysis</category>
-    <category>Canada vs USA</category>
-    <category>Sports Rivalry</category>
-    <category>Predictive Analytics</category>
-    <category>Automation in Sports</category>
   </item>
 </channel>
 </rss>
