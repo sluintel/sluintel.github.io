@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 456
+Total Posts Published: 457
 Last Updated: 2026-06-13
-Latest Post: Red Lobster AI: The Future of Dining Automation in 2026
-Latest Post URL: https://sluintel.github.io/posts/2026-06-13-red-lobster-ai-future-dining-automation-2026.html
+Latest Post: Everything You Should Know About Sergiño Dest's Rise
+Latest Post URL: https://sluintel.github.io/posts/2026-06-13-everything-you-should-know-about-sergino-dest.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Everything You Should Know About Sergiño Dest's Rise](https://sluintel.github.io/posts/2026-06-13-everything-you-should-know-about-sergino-dest.html) — 2026-06-13 — Sergiño Dest, USMNT, Football
 - [Red Lobster AI: The Future of Dining Automation in 2026](https://sluintel.github.io/posts/2026-06-13-red-lobster-ai-future-dining-automation-2026.html) — 2026-06-13 — AI in hospitality, restaurant automation, food tech
 - [Kristie Carrier vs OpenAI: Why This Lawsuit Redefines AI](https://sluintel.github.io/posts/2026-06-13-kristie-carrier-vs-openai-2.html) — 2026-06-13 — AI Lawsuit, OpenAI, Kristie Carrier
 - [Kristie Carrier vs OpenAI: Why This Lawsuit Redefines AI's Future](https://sluintel.github.io/posts/2026-06-13-kristie-carrier-vs-openai.html) — 2026-06-13 — AI Lawsuit, Copyright, Generative AI
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Unlock Your Flow: The Power of Vibe Coding in 2026](https://sluintel.github.io/posts/2026-06-13-vibe-coding-flow-state-programming.html) — 2026-06-13 — vibe coding, developer productivity, flow state
 - [Decoding the Top Internet Reactions to Sergiño Dest](https://sluintel.github.io/posts/2026-06-13-top-internet-reactions-to-sergino-dest.html) — 2026-06-13 — Sergiño Dest, football reactions, social media analytics
 - [Folarin Balogun: Decoding Top Internet Reactions & Why They Matter](https://sluintel.github.io/posts/2026-06-13-folarin-balogun-top-internet-reactions.html) — 2026-06-13 — Folarin Balogun, internet reactions, football
-- [England vs Sri Lanka: Unpacking the Top Internet Reactions](https://sluintel.github.io/posts/2026-06-13-top-internet-reactions-england-vs-sri-lanka.html) — 2026-06-13 — Cricket, Internet Reactions, Sports Analysis
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
