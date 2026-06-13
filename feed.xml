@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 13 Jun 2026 17:43:35 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 13 Jun 2026 18:46:32 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Mastering AI Strategy: Unpacking the Marie-Claude Savard Framework]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-13-marie-claude-savard-ai-framework-strategy.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-13-marie-claude-savard-ai-framework-strategy.html</guid>
+    <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unlock ethical and impactful AI integration with the Marie-Claude Savard Framework. Discover her pioneering approach to human-centric automation for 2026 and beyond.]]></description>
+    <enclosure url="https://images.pexels.com/photos/8720599/pexels-photo-8720599.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI Strategy</category>
+    <category>Ethical AI</category>
+    <category>Automation</category>
+    <category>Digital Transformation</category>
+    <category>AI Frameworks</category>
+  </item>
   <item>
     <title><![CDATA[Decoding the Top Internet Reactions to Rohit Sharma's Biggest Moments]]></title>
     <link>https://sluintel.github.io/posts/2026-06-13-top-internet-reactions-rohit-sharma.html</link>
@@ -260,19 +273,6 @@
     <category>England Cricket</category>
     <category>Sri Lanka Cricket</category>
     <category>Sports Tech</category>
-  </item>
-  <item>
-    <title><![CDATA[Why UNDP Is Trending Right Now: Decoding Global Impact in 2026]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-12-why-undp-is-trending-right-now.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-12-why-undp-is-trending-right-now.html</guid>
-    <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Discover why UNDP is trending right now, its crucial role in 2026's global challenges, and how it leverages AI for sustainable development. Get the deep dive into its modern strategies.]]></description>
-    <enclosure url="https://images.pexels.com/photos/5561923/pexels-photo-5561923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>UNDP</category>
-    <category>Sustainable Development</category>
-    <category>AI for Good</category>
-    <category>Global Challenges</category>
-    <category>International Aid</category>
   </item>
 </channel>
 </rss>
