@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 13 Jun 2026 21:36:53 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 13 Jun 2026 22:19:27 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[What People Are Saying About Score 800: AI's New Benchmark Unpacked]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-13-what-people-are-saying-about-score-800.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-13-what-people-are-saying-about-score-800.html</guid>
+    <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Curious what people are saying about Score 800? Discover why this AI benchmark matters, its impact on model performance, and how to achieve top scores.]]></description>
+    <enclosure url="https://images.pexels.com/photos/2774565/pexels-photo-2774565.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI Benchmarks</category>
+    <category>Score 800</category>
+    <category>AI Performance</category>
+    <category>Automation</category>
+    <category>Machine Learning</category>
+  </item>
   <item>
     <title><![CDATA[New Zealand vs West Indies: What People Are Saying About Cricket's Hottest Debate]]></title>
     <link>https://sluintel.github.io/posts/2026-06-13-what-people-are-saying-about-new-zealand-vs-west-indies.html</link>
@@ -258,19 +271,6 @@
     <category>Sports Analysis</category>
     <category>Social Media Trends</category>
     <category>Fan Culture</category>
-  </item>
-  <item>
-    <title><![CDATA[Sergiño Dest Updates: What's Next for the USMNT Star?]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-13-sergino-dest-latest-updates.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-13-sergino-dest-latest-updates.html</guid>
-    <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Don't miss a beat on Sergiño Dest's career. Get the latest updates on his club status, injury recovery, and USMNT impact, plus expert insights on his future prospects.]]></description>
-    <enclosure url="https://images.pexels.com/photos/32244694/pexels-photo-32244694.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Sergiño Dest</category>
-    <category>USMNT</category>
-    <category>Football</category>
-    <category>Transfer News</category>
-    <category>Soccer Analysis</category>
   </item>
 </channel>
 </rss>
