@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 13 Jun 2026 10:40:11 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 13 Jun 2026 11:25:49 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Kristie Carrier vs OpenAI: Why This Lawsuit Redefines AI's Future]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-13-kristie-carrier-vs-openai.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-13-kristie-carrier-vs-openai.html</guid>
+    <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Discover the groundbreaking Kristie Carrier vs OpenAI lawsuit. Understand its impact on AI ethics, copyright, and the future of generative models. Essential for creators & developers.]]></description>
+    <enclosure url="https://images.pexels.com/photos/34152393/pexels-photo-34152393.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI Lawsuit</category>
+    <category>Copyright</category>
+    <category>Generative AI</category>
+    <category>OpenAI</category>
+    <category>Intellectual Property</category>
+  </item>
   <item>
     <title><![CDATA[Scotland vs Ireland: Your Essential Guide to Comparing These Celtic Nations]]></title>
     <link>https://sluintel.github.io/posts/2026-06-13-scotland-vs-ireland-essential-guide.html</link>
@@ -263,19 +276,6 @@
     <category>Sports Rivalry</category>
     <category>Predictive Analytics</category>
     <category>Automation in Sports</category>
-  </item>
-  <item>
-    <title><![CDATA[Brazil vs Morocco: Everything You Should Know About Their Football Clashes]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-12-brazil-vs-morocco-everything-you-should-know-2.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-12-brazil-vs-morocco-everything-you-should-know-2.html</guid>
-    <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unpack the dynamic rivalry of Brazil vs Morocco in football. Discover key matches, historical context, and what makes these encounters must-watch. Get ahead for 2026!]]></description>
-    <enclosure url="https://images.pexels.com/photos/8693549/pexels-photo-8693549.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Football</category>
-    <category>Brazil Football</category>
-    <category>Morocco Football</category>
-    <category>Sports Rivalry</category>
-    <category>International Football</category>
   </item>
 </channel>
 </rss>
