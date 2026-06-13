@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 462
+Total Posts Published: 463
 Last Updated: 2026-06-13
-Latest Post: Mastering AI Strategy: Unpacking the Marie-Claude Savard Framework
-Latest Post URL: https://sluintel.github.io/posts/2026-06-13-marie-claude-savard-ai-framework-strategy.html
+Latest Post: New Zealand vs West Indies Explained Simply: Cricket's Unique Rivalry
+Latest Post URL: https://sluintel.github.io/posts/2026-06-13-new-zealand-vs-west-indies-explained-simply.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [New Zealand vs West Indies Explained Simply: Cricket's Unique Rivalry](https://sluintel.github.io/posts/2026-06-13-new-zealand-vs-west-indies-explained-simply.html) — 2026-06-13 — cricket rivalry, New Zealand cricket, West Indies cricket
 - [Mastering AI Strategy: Unpacking the Marie-Claude Savard Framework](https://sluintel.github.io/posts/2026-06-13-marie-claude-savard-ai-framework-strategy.html) — 2026-06-13 — AI Strategy, Ethical AI, Automation
 - [Decoding the Top Internet Reactions to Rohit Sharma's Biggest Moments](https://sluintel.github.io/posts/2026-06-13-top-internet-reactions-rohit-sharma.html) — 2026-06-13 — Rohit Sharma, Cricket, Internet Reactions
 - [Sergiño Dest: The Latest Updates You Need to Know for 2026](https://sluintel.github.io/posts/2026-06-13-sergino-dest-latest-updates-2.html) — 2026-06-13 — Sergiño Dest, USMNT, Football Transfers
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Red Lobster AI: The Future of Dining Automation in 2026](https://sluintel.github.io/posts/2026-06-13-red-lobster-ai-future-dining-automation-2026.html) — 2026-06-13 — AI in hospitality, restaurant automation, food tech
 - [Kristie Carrier vs OpenAI: Why This Lawsuit Redefines AI](https://sluintel.github.io/posts/2026-06-13-kristie-carrier-vs-openai-2.html) — 2026-06-13 — AI Lawsuit, OpenAI, Kristie Carrier
 - [Kristie Carrier vs OpenAI: Why This Lawsuit Redefines AI's Future](https://sluintel.github.io/posts/2026-06-13-kristie-carrier-vs-openai.html) — 2026-06-13 — AI Lawsuit, Copyright, Generative AI
-- [Scotland vs Ireland: Your Essential Guide to Comparing These Celtic Nations](https://sluintel.github.io/posts/2026-06-13-scotland-vs-ireland-essential-guide.html) — 2026-06-13 — Scotland, Ireland, Celtic Nations
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
