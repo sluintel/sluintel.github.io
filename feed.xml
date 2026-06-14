@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 14 Jun 2026 05:10:11 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 14 Jun 2026 06:56:52 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Top Internet Reactions to Spurs vs Knicks: Unpacking the Hype]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-14-top-internet-reactions-spurs-vs-knicks.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-14-top-internet-reactions-spurs-vs-knicks.html</guid>
+    <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Dive into the wildest top internet reactions to Spurs vs Knicks. Discover how online sentiment shapes sports narratives and what fans are really saying. Essential for sports enthusiasts!]]></description>
+    <enclosure url="https://images.pexels.com/photos/32289819/pexels-photo-32289819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>NBA Reactions</category>
+    <category>Spurs Knicks</category>
+    <category>Sports Social Media</category>
+    <category>Fan Engagement</category>
+    <category>Basketball Analysis</category>
+  </item>
   <item>
     <title><![CDATA[AI in Football: How AI is Transforming Haiti vs Scotland Standings]]></title>
     <link>https://sluintel.github.io/posts/2026-06-14-how-ai-is-transforming-haiti-national-football-team-vs-scotland-national-football-team-standings.html</link>
@@ -258,19 +271,6 @@
     <category>Soccer Analysis</category>
     <category>USMNT</category>
     <category>Trending Athletes</category>
-  </item>
-  <item>
-    <title><![CDATA[Unlock Your Flow: The Power of Vibe Coding in 2026]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-13-vibe-coding-flow-state-programming.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-13-vibe-coding-flow-state-programming.html</guid>
-    <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Discover vibe coding, the secret to deep work and effortless programming. Learn how to optimize your environment and mindset for peak developer performance in 2026.]]></description>
-    <enclosure url="https://images.pexels.com/photos/34803997/pexels-photo-34803997.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>vibe coding</category>
-    <category>developer productivity</category>
-    <category>flow state</category>
-    <category>AI tools</category>
-    <category>coding tips</category>
   </item>
 </channel>
 </rss>

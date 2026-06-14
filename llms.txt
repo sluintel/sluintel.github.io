@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 469
+Total Posts Published: 470
 Last Updated: 2026-06-14
-Latest Post: AI in Football: How AI is Transforming Haiti vs Scotland Standings
-Latest Post URL: https://sluintel.github.io/posts/2026-06-14-how-ai-is-transforming-haiti-national-football-team-vs-scotland-national-football-team-standings.html
+Latest Post: Top Internet Reactions to Spurs vs Knicks: Unpacking the Hype
+Latest Post URL: https://sluintel.github.io/posts/2026-06-14-top-internet-reactions-spurs-vs-knicks.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Top Internet Reactions to Spurs vs Knicks: Unpacking the Hype](https://sluintel.github.io/posts/2026-06-14-top-internet-reactions-spurs-vs-knicks.html) — 2026-06-14 — NBA Reactions, Spurs Knicks, Sports Social Media
 - [AI in Football: How AI is Transforming Haiti vs Scotland Standings](https://sluintel.github.io/posts/2026-06-14-how-ai-is-transforming-haiti-national-football-team-vs-scotland-national-football-team-standings.html) — 2026-06-14 — AI in Sports, Football Analytics, Predictive AI
 - [Unpacking Top Reactions to Brazil National Football Team: Fan Pulse 2026](https://sluintel.github.io/posts/2026-06-14-top-reactions-to-brazil-national-football-team.html) — 2026-06-14 — Brazil football, Selecao, Fan reactions
 - [Why Rohit Sharma Is Trending Right Now: Decoding the Hitman's 2026 Buzz](https://sluintel.github.io/posts/2026-06-13-why-rohit-sharma-is-trending-right-now.html) — 2026-06-13 — Rohit Sharma, Cricket, Trending Now
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [New Zealand vs West Indies Explained Simply: Cricket's Unique Rivalry](https://sluintel.github.io/posts/2026-06-13-new-zealand-vs-west-indies-explained-simply.html) — 2026-06-13 — cricket rivalry, New Zealand cricket, West Indies cricket
 - [Mastering AI Strategy: Unpacking the Marie-Claude Savard Framework](https://sluintel.github.io/posts/2026-06-13-marie-claude-savard-ai-framework-strategy.html) — 2026-06-13 — AI Strategy, Ethical AI, Automation
 - [Decoding the Top Internet Reactions to Rohit Sharma's Biggest Moments](https://sluintel.github.io/posts/2026-06-13-top-internet-reactions-rohit-sharma.html) — 2026-06-13 — Rohit Sharma, Cricket, Internet Reactions
-- [Sergiño Dest: The Latest Updates You Need to Know for 2026](https://sluintel.github.io/posts/2026-06-13-sergino-dest-latest-updates-2.html) — 2026-06-13 — Sergiño Dest, USMNT, Football Transfers
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
