@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 14 Jun 2026 15:57:15 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 14 Jun 2026 16:46:39 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Germany vs Curaçao: What People Are Saying in 2026]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-14-what-people-are-saying-about-germany-vs-curaao.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-14-what-people-are-saying-about-germany-vs-curaao.html</guid>
+    <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Curious about the buzz around Germany vs Curaçao? Discover expert analysis and fan opinions shaping this unexpected football debate in 2026. Unpack the talking points now!]]></description>
+    <enclosure url="https://images.pexels.com/photos/34080005/pexels-photo-34080005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>football debate</category>
+    <category>Germany football</category>
+    <category>Curaçao football</category>
+    <category>international soccer</category>
+    <category>fan opinions</category>
+  </item>
   <item>
     <title><![CDATA[Netherlands vs Bangladesh: Latest Updates & AI Predictions]]></title>
     <link>https://sluintel.github.io/posts/2026-06-14-the-latest-updates-on-netherlands-vs-bangladesh-ai-analysis.html</link>
@@ -259,19 +272,6 @@
     <category>West Indies</category>
     <category>AI Analysis</category>
     <category>Sports Tech</category>
-  </item>
-  <item>
-    <title><![CDATA[New Zealand vs West Indies Explained Simply: Cricket's Unique Rivalry]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-13-new-zealand-vs-west-indies-explained-simply.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-13-new-zealand-vs-west-indies-explained-simply.html</guid>
-    <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Confused by cricket's nuances? Get the New Zealand vs West Indies rivalry explained simply. Unpack their playing styles, historical clashes, and what makes this contest so captivating for fans.]]></description>
-    <enclosure url="https://images.pexels.com/photos/16077183/pexels-photo-16077183.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>cricket rivalry</category>
-    <category>New Zealand cricket</category>
-    <category>West Indies cricket</category>
-    <category>sports analysis</category>
-    <category>T20 cricket</category>
   </item>
 </channel>
 </rss>
