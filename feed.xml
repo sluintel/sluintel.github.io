@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 14 Jun 2026 08:51:55 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 14 Jun 2026 09:55:33 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[What is a Data Breach? Protecting Your Digital Life in 2026]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-14-what-is-a-data-breach-digital-safety.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-14-what-is-a-data-breach-digital-safety.html</guid>
+    <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Uncover what is a data breach and why it matters in 2026. Learn how to protect your personal data from cyber threats with expert strategies and tools.]]></description>
+    <enclosure url="https://images.pexels.com/photos/5473955/pexels-photo-5473955.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Data Breach</category>
+    <category>Cybersecurity</category>
+    <category>Data Protection</category>
+    <category>Online Safety</category>
+    <category>AI Tools</category>
+  </item>
   <item>
     <title><![CDATA[Australia vs Türkiye: Your 2026 Guide to Everything You Need to Know]]></title>
     <link>https://sluintel.github.io/posts/2026-06-14-australia-vs-turkiye-everything-you-should-know.html</link>
@@ -258,19 +271,6 @@
     <category>Kristie Carrier</category>
     <category>AI Ethics</category>
     <category>Data Rights</category>
-  </item>
-  <item>
-    <title><![CDATA[Kristie Carrier vs OpenAI: Why This Lawsuit Redefines AI's Future]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-13-kristie-carrier-vs-openai.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-13-kristie-carrier-vs-openai.html</guid>
-    <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Discover the groundbreaking Kristie Carrier vs OpenAI lawsuit. Understand its impact on AI ethics, copyright, and the future of generative models. Essential for creators & developers.]]></description>
-    <enclosure url="https://images.pexels.com/photos/34152393/pexels-photo-34152393.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI Lawsuit</category>
-    <category>Copyright</category>
-    <category>Generative AI</category>
-    <category>OpenAI</category>
-    <category>Intellectual Property</category>
   </item>
 </channel>
 </rss>
