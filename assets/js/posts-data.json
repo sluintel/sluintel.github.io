@@ -1,5 +1,20 @@
 [
   {
+    "url": "posts/2026-06-15-wc-explained-simply.html",
+    "title": "WC Explained Simply: Master Terminal Word Counts Like a Pro",
+    "date": "2026-06-15",
+    "image": "https://images.pexels.com/photos/4239069/pexels-photo-4239069.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "tags": [
+      "wc command",
+      "Linux commands",
+      "Unix utilities",
+      "text processing",
+      "command line"
+    ],
+    "excerpt": "Unlock the power of the 'wc' command explained simply. Discover how to effortlessly count words, lines, and characters in your files. This guide makes text analysis easy!",
+    "wordCount": 216
+  },
+  {
     "url": "posts/2026-06-15-the-latest-updates-on-sweden-vs-tunisia-ai-analysis.html",
     "title": "Predicting Sweden vs Tunisia: AI's Edge in the Latest Updates",
     "date": "2026-06-15",
