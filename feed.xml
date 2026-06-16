@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 16 Jun 2026 07:42:58 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 16 Jun 2026 09:36:41 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Decoding the Top Internet Reactions to Sarpreet Singh's Rollercoaster Career]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-16-top-internet-reactions-sarpreet-singh.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-16-top-internet-reactions-sarpreet-singh.html</guid>
+    <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack the top internet reactions to Sarpreet Singh, the Kiwi football star. Discover what fans and pundits truly think about his latest moves and performances. Stay ahead of the online buzz.]]></description>
+    <enclosure url="https://images.pexels.com/photos/3812731/pexels-photo-3812731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Sarpreet Singh</category>
+    <category>football reactions</category>
+    <category>Kiwi football</category>
+    <category>Bundesliga</category>
+    <category>fan sentiment</category>
+  </item>
   <item>
     <title><![CDATA[Saudi Arabia vs Uruguay: Everything You Need to Know for 2026]]></title>
     <link>https://sluintel.github.io/posts/2026-06-16-saudi-arabia-vs-uruguay-everything-you-should-know.html</link>
@@ -260,19 +273,6 @@
     <category>Unix utilities</category>
     <category>text processing</category>
     <category>command line</category>
-  </item>
-  <item>
-    <title><![CDATA[Predicting Sweden vs Tunisia: AI's Edge in the Latest Updates]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-15-the-latest-updates-on-sweden-vs-tunisia-ai-analysis.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-15-the-latest-updates-on-sweden-vs-tunisia-ai-analysis.html</guid>
-    <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unpack the latest updates on Sweden vs Tunisia with AI-driven insights. Discover how predictive analytics is revolutionizing sports analysis and what it means for future matches. Stay ahead of the game!]]></description>
-    <enclosure url="https://images.pexels.com/photos/8007581/pexels-photo-8007581.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI in Sports</category>
-    <category>Predictive Analytics</category>
-    <category>Football Analysis</category>
-    <category>Sports Tech</category>
-    <category>Data Science</category>
   </item>
 </channel>
 </rss>
