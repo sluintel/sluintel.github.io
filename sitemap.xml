@@ -5,57 +5,63 @@
           http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://sluintel.github.io/</loc>
-    <lastmod>2026-06-15T21:50:02+00:00</lastmod>
+    <lastmod>2026-06-16T01:46:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://sluintel.github.io/category/trending</loc>
-    <lastmod>2026-06-15T21:50:02+00:00</lastmod>
+    <lastmod>2026-06-16T01:46:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://sluintel.github.io/category/ai-automation</loc>
-    <lastmod>2026-06-15T21:50:02+00:00</lastmod>
+    <lastmod>2026-06-16T01:46:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://sluintel.github.io/category/sports</loc>
-    <lastmod>2026-06-15T21:50:02+00:00</lastmod>
+    <lastmod>2026-06-16T01:46:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://sluintel.github.io/category/finance</loc>
-    <lastmod>2026-06-15T21:50:02+00:00</lastmod>
+    <lastmod>2026-06-16T01:46:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://sluintel.github.io/category/entertainment</loc>
-    <lastmod>2026-06-15T21:50:02+00:00</lastmod>
+    <lastmod>2026-06-16T01:46:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://sluintel.github.io/category/technology</loc>
-    <lastmod>2026-06-15T21:50:02+00:00</lastmod>
+    <lastmod>2026-06-16T01:46:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://sluintel.github.io/category/deep-dives</loc>
-    <lastmod>2026-06-15T21:50:02+00:00</lastmod>
+    <lastmod>2026-06-16T01:46:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://sluintel.github.io/category/all</loc>
-    <lastmod>2026-06-15T21:50:02+00:00</lastmod>
+    <lastmod>2026-06-16T01:46:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://sluintel.github.io/posts/2026-06-16-texas-tech-football-2026-strategy.html</loc>
+    <lastmod>2026-06-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
   </url>
   <url>
     <loc>https://sluintel.github.io/posts/2026-06-15-why-world-cup-live-match-trending-sports-right-now.html</loc>
