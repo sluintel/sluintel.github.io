@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 16 Jun 2026 05:34:50 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 16 Jun 2026 06:43:31 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Cricket Highlights Fans Are Talking About: Don't Miss These Moments]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-16-cricket-highlights-fans-are-talking-about.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-16-cricket-highlights-fans-are-talking-about.html</guid>
+    <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Discover the cricket highlights fans are talking about! Learn where to find viral moments, what makes them unforgettable, and how to stay ahead of the curve. Unlock the best of cricket now.]]></description>
+    <enclosure url="https://images.pexels.com/photos/25547645/pexels-photo-25547645.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>cricket</category>
+    <category>highlights</category>
+    <category>sports</category>
+    <category>viral</category>
+    <category>match moments</category>
+  </item>
   <item>
     <title><![CDATA[Sarpreet Singh: Everything You Should Know About New Zealand's Football Star]]></title>
     <link>https://sluintel.github.io/posts/2026-06-16-sarpreet-singh-everything-you-should-know.html</link>
@@ -258,19 +271,6 @@
     <category>Artist Updates</category>
     <category>AI in Music</category>
     <category>Fan Engagement</category>
-  </item>
-  <item>
-    <title><![CDATA[UFC Highlights Fans Are Talking About: Don't Miss These Moments]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-14-ufc-highlights-fans-are-talking-about.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-14-ufc-highlights-fans-are-talking-about.html</guid>
-    <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Discover the UFC highlights fans are talking about right now. Uncover viral knockouts, submissions, and controversial moments shaping MMA in 2026. Get insider tips to stay ahead!]]></description>
-    <enclosure url="https://images.pexels.com/photos/20426718/pexels-photo-20426718.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>UFC</category>
-    <category>MMA</category>
-    <category>Fight Highlights</category>
-    <category>Combat Sports</category>
-    <category>Viral Moments</category>
   </item>
 </channel>
 </rss>
