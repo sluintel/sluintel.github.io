@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 555
+Total Posts Published: 556
 Last Updated: 2026-06-18
-Latest Post: Claude AI: Your 2026 Guide to Smarter Automation
-Latest Post URL: https://sluintel.github.io/posts/2026-06-18-claude-ai-guide-smarter-automation.html
+Latest Post: Mastering Midjourney: Your Guide to AI Image Generation
+Latest Post URL: https://sluintel.github.io/posts/2026-06-18-midjourney-ai-image-generation-guide.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Mastering Midjourney: Your Guide to AI Image Generation](https://sluintel.github.io/posts/2026-06-18-midjourney-ai-image-generation-guide.html) — 2026-06-18 — Midjourney, AI Art, Image Generation
 - [Claude AI: Your 2026 Guide to Smarter Automation](https://sluintel.github.io/posts/2026-06-18-claude-ai-guide-smarter-automation.html) — 2026-06-18 — AI Tools, Automation, Claude AI
 - [Is Claude Down? Your 2026 Guide to AI Uptime & Productivity](https://sluintel.github.io/posts/2026-06-18-is-claude-down-ai-status-guide-2026-2.html) — 2026-06-18 — AI tools, Claude AI, AI uptime
 - [Is Claude Down? Your Definitive 2026 Guide to AI Uptime](https://sluintel.github.io/posts/2026-06-18-is-claude-down-ai-status-guide-2026.html) — 2026-06-18 — Claude AI, AI Status, AI Productivity
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [FIFA Latest Updates & Predictions: Master the Beautiful Game](https://sluintel.github.io/posts/2026-06-17-fifa-latest-updates-predictions.html) — 2026-06-17 — FIFA, football predictions, world cup 2026
 - [Tesla Model 3 in 2026: Still the EV King for Daily Drivers?](https://sluintel.github.io/posts/2026-06-17-tesla-model-3-ev-king-2026.html) — 2026-06-17 — Tesla Model 3, Electric Vehicles, EV Technology
 - [What's Next for Live Sports: AI-Powered Fan Experiences & Future Broadcasts](https://sluintel.github.io/posts/2026-06-17-whats-next-for-live-sports.html) — 2026-06-17 — AI in Sports, Sports Tech, Fan Engagement
-- [Why Is Trending Right Now? Decoding the AI & Automation Buzz](https://sluintel.github.io/posts/2026-06-17-why-is-trending-right-now-ai-automation-trends.html) — 2026-06-17 — AI trends, Automation insights, Tech predictions
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
