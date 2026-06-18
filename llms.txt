@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 571
+Total Posts Published: 572
 Last Updated: 2026-06-18
-Latest Post: NZ vs ENG: Everything You Should Know About Their Enduring Rivalry
-Latest Post URL: https://sluintel.github.io/posts/2026-06-18-nz-vs-eng-everything-you-should-know.html
+Latest Post: 9to5mac: Everything You Should Know About Your Apple News Hub
+Latest Post URL: https://sluintel.github.io/posts/2026-06-18-9to5mac-everything-you-should-know.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [9to5mac: Everything You Should Know About Your Apple News Hub](https://sluintel.github.io/posts/2026-06-18-9to5mac-everything-you-should-know.html) — 2026-06-18 — Apple, Tech News, 9to5mac
 - [NZ vs ENG: Everything You Should Know About Their Enduring Rivalry](https://sluintel.github.io/posts/2026-06-18-nz-vs-eng-everything-you-should-know.html) — 2026-06-18 — NZ vs ENG, New Zealand, England
 - [Android 17 Pixel: Everything You Should Know About Google's Future OS](https://sluintel.github.io/posts/2026-06-18-everything-you-should-know-about-android-17-pixel.html) — 2026-06-18 — Android 17, Pixel, Google AI
 - [Hong Kong vs Nigeria: Explained Simply for Global Aspirations](https://sluintel.github.io/posts/2026-06-18-hong-kong-vs-nigeria-explained-simply.html) — 2026-06-18 — Hong Kong, Nigeria, Global Comparison
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Claude AI: The Unrivaled Brain for 2026 Productivity](https://sluintel.github.io/posts/2026-06-18-claude-ai-unrivaled-brain-2026.html) — 2026-06-18 — AI Tools, Claude, Anthropic
 - [Claude: The AI Powerhouse You Need for 2026 Productivity](https://sluintel.github.io/posts/2026-06-18-claude-ai-productivity-powerhouse-2026.html) — 2026-06-18 — AI Tools, Claude AI, Productivity
 - [Claude AI: Unlocking Smarter Productivity in 2026](https://sluintel.github.io/posts/2026-06-18-claude-ai-smarter-productivity-2026.html) — 2026-06-18 — Claude AI, AI tools, Automation
-- [Beyond ChatGPT: Why Claude AI is Your Next Productivity Powerhouse](https://sluintel.github.io/posts/2026-06-18-claude-ai-productivity-powerhouse.html) — 2026-06-18 — Claude AI, AI Tools, Generative AI
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
