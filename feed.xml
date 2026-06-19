@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 19 Jun 2026 01:51:59 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 19 Jun 2026 06:31:24 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[The Latest Updates on Nepal: Your 2026 AI-Powered Insight]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-19-the-latest-updates-on-nepal.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-19-the-latest-updates-on-nepal.html</guid>
+    <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Uncover the latest updates on Nepal in 2026, from policy shifts to economic trends. Get an AI-informed analysis to understand key developments and future implications.]]></description>
+    <enclosure url="https://images.pexels.com/photos/16689311/pexels-photo-16689311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Nepal</category>
+    <category>South Asia</category>
+    <category>Economic Development</category>
+    <category>Policy Updates</category>
+    <category>AI Analysis</category>
+  </item>
   <item>
     <title><![CDATA[Mastering AI: Your 2026 Guide to Intelligent Automation]]></title>
     <link>https://sluintel.github.io/posts/2026-06-19-mastering-ai-guide.html</link>
@@ -259,20 +272,6 @@
     <category>Claude AI</category>
     <category>Large Language Models</category>
     <category>Productivity</category>
-  </item>
-  <item>
-    <title><![CDATA[Is Claude Down? Your 2026 Guide to AI Uptime & Productivity]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-18-is-claude-down-ai-status-guide-2026-2.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-18-is-claude-down-ai-status-guide-2026-2.html</guid>
-    <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Suddenly stuck? Discover fast ways to check if Claude is down, troubleshoot common issues, and master strategies for uninterrupted AI productivity in 2026. Stay ahead!]]></description>
-    <enclosure url="https://images.pexels.com/photos/5474034/pexels-photo-5474034.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI tools</category>
-    <category>Claude AI</category>
-    <category>AI uptime</category>
-    <category>troubleshooting</category>
-    <category>productivity</category>
-    <category>AI status</category>
   </item>
 </channel>
 </rss>
