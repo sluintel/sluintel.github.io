@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 577
+Total Posts Published: 578
 Last Updated: 2026-06-19
-Latest Post: Autonomous AI Agents: Everything You Should Know for 2026
-Latest Post URL: https://sluintel.github.io/posts/2026-06-19-autonomous-ai-agents-everything-you-should-know.html
+Latest Post: Binary Classification with AI: Everything You Should Know About Predicting Two Outcomes
+Latest Post URL: https://sluintel.github.io/posts/2026-06-19-binary-classification-with-ai-everything-you-should-know-about-predicting-two-outcomes.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Binary Classification with AI: Everything You Should Know About Predicting Two Outcomes](https://sluintel.github.io/posts/2026-06-19-binary-classification-with-ai-everything-you-should-know-about-predicting-two-outcomes.html) — 2026-06-19 — AI, Machine Learning, Binary Classification
 - [Autonomous AI Agents: Everything You Should Know for 2026](https://sluintel.github.io/posts/2026-06-19-autonomous-ai-agents-everything-you-should-know.html) — 2026-06-19 — AI Agents, Automation, Artificial Intelligence
 - [Decoding the Top Internet Reactions to Nepal: What the World is Saying](https://sluintel.github.io/posts/2026-06-19-top-internet-reactions-to-nepal.html) — 2026-06-19 — Nepal, Internet Reactions, Social Media Trends
 - [The Latest Updates on Class 12 Result: Navigating Your Future in 2026](https://sluintel.github.io/posts/2026-06-19-latest-updates-on-class-12-result-2026.html) — 2026-06-19 — Class 12 Result, Board Exams, Academic Future
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [NZ vs ENG: Everything You Should Know About Their Enduring Rivalry](https://sluintel.github.io/posts/2026-06-18-nz-vs-eng-everything-you-should-know.html) — 2026-06-18 — NZ vs ENG, New Zealand, England
 - [Android 17 Pixel: Everything You Should Know About Google's Future OS](https://sluintel.github.io/posts/2026-06-18-everything-you-should-know-about-android-17-pixel.html) — 2026-06-18 — Android 17, Pixel, Google AI
 - [Hong Kong vs Nigeria: Explained Simply for Global Aspirations](https://sluintel.github.io/posts/2026-06-18-hong-kong-vs-nigeria-explained-simply.html) — 2026-06-18 — Hong Kong, Nigeria, Global Comparison
-- [Unpacking the Latest Updates on 9to5Mac: Your Apple AI Advantage](https://sluintel.github.io/posts/2026-06-18-the-latest-updates-on-9to5mac.html) — 2026-06-18 — Apple News, 9to5Mac, iOS Updates
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
