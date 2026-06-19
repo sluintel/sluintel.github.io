@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 19 Jun 2026 14:22:30 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 19 Jun 2026 15:39:08 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Parastoo Ahmadi Explained Simply: Mastering AI Ethics for 2026]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-19-parastoo-ahmadi-explained-simply-2.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-19-parastoo-ahmadi-explained-simply-2.html</guid>
+    <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Discover Parastoo Ahmadi explained simply. Unpack her critical work in AI ethics, learn to build responsible AI, and prepare for 2026's tech landscape.]]></description>
+    <enclosure url="https://images.pexels.com/photos/8155038/pexels-photo-8155038.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI Ethics</category>
+    <category>Responsible AI</category>
+    <category>AI Governance</category>
+    <category>Tech Trends 2026</category>
+    <category>Automation</category>
+  </item>
   <item>
     <title><![CDATA[The Latest Updates on Your Results: AI's Edge in 2026]]></title>
     <link>https://sluintel.github.io/posts/2026-06-19-latest-updates-on-your-results-ai-2026.html</link>
@@ -258,20 +271,6 @@
     <category>Generative AI</category>
     <category>LLM</category>
     <category>Productivity Tools</category>
-  </item>
-  <item>
-    <title><![CDATA[Claude AI: The Unrivaled Brain for 2026 Productivity]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-18-claude-ai-unrivaled-brain-2026.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-18-claude-ai-unrivaled-brain-2026.html</guid>
-    <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Uncover how Claude AI is revolutionizing workflows and boosting productivity in 2026. Learn its core strengths, practical uses, and pro tips to master this intelligent assistant.]]></description>
-    <enclosure url="https://images.pexels.com/photos/8728106/pexels-photo-8728106.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI Tools</category>
-    <category>Claude</category>
-    <category>Anthropic</category>
-    <category>Productivity</category>
-    <category>Automation</category>
-    <category>Large Language Models</category>
   </item>
 </channel>
 </rss>
