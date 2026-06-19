@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 19 Jun 2026 22:13:20 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 19 Jun 2026 23:12:39 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Hong Kong vs Namibia: Everything You Need to Know for 2026]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-19-hong-kong-vs-namibia-everything-you-should-know.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-19-hong-kong-vs-namibia-everything-you-should-know.html</guid>
+    <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Considering Hong Kong vs Namibia? This 2026 guide unpacks key differences in economy, culture, and lifestyle. Discover which destination truly fits your goals.]]></description>
+    <enclosure url="https://images.pexels.com/photos/14393039/pexels-photo-14393039.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Hong Kong</category>
+    <category>Namibia</category>
+    <category>Global Comparisons</category>
+    <category>Economy</category>
+    <category>Travel</category>
+  </item>
   <item>
     <title><![CDATA[Henry Nicholls: The Latest Updates on AI's Next Evolution]]></title>
     <link>https://sluintel.github.io/posts/2026-06-19-henry-nicholls-latest-updates-ai-evolution.html</link>
@@ -258,19 +271,6 @@
     <category>Social Media Trends</category>
     <category>Digital Discourse</category>
     <category>Online Sentiment</category>
-  </item>
-  <item>
-    <title><![CDATA[The Latest Updates on Class 12 Result: Navigating Your Future in 2026]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-19-latest-updates-on-class-12-result-2026.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-19-latest-updates-on-class-12-result-2026.html</guid>
-    <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Don't let exam anxiety cloud your future. Get the latest updates on Class 12 result for 2026, learn how to check them, and leverage expert tips for your next steps. Demystify the process now!]]></description>
-    <enclosure url="https://images.pexels.com/photos/37397323/pexels-photo-37397323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Class 12 Result</category>
-    <category>Board Exams</category>
-    <category>Academic Future</category>
-    <category>Career Guidance</category>
-    <category>Education 2026</category>
   </item>
 </channel>
 </rss>
