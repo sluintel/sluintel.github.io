@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 585
+Total Posts Published: 586
 Last Updated: 2026-06-19
-Latest Post: Parastoo Ahmadi Explained Simply: Mastering AI Ethics for 2026
-Latest Post URL: https://sluintel.github.io/posts/2026-06-19-parastoo-ahmadi-explained-simply-2.html
+Latest Post: What People Are Saying About Tanmay Vekaria: Decoding the Buzz
+Latest Post URL: https://sluintel.github.io/posts/2026-06-19-what-people-are-saying-about-tanmay-vekaria.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [What People Are Saying About Tanmay Vekaria: Decoding the Buzz](https://sluintel.github.io/posts/2026-06-19-what-people-are-saying-about-tanmay-vekaria.html) — 2026-06-19 — Tanmay Vekaria, AI Strategy, Automation Expert
 - [Parastoo Ahmadi Explained Simply: Mastering AI Ethics for 2026](https://sluintel.github.io/posts/2026-06-19-parastoo-ahmadi-explained-simply-2.html) — 2026-06-19 — AI Ethics, Responsible AI, AI Governance
 - [The Latest Updates on Your Results: AI's Edge in 2026](https://sluintel.github.io/posts/2026-06-19-latest-updates-on-your-results-ai-2026.html) — 2026-06-19 — AI analytics, result tracking, academic performance
 - [Parastoo Ahmadi Explained Simply: Your Guide to AI Ethics](https://sluintel.github.io/posts/2026-06-19-parastoo-ahmadi-explained-simply.html) — 2026-06-19 — AI Ethics, Automation, Tech Leadership
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Explained Simply: Master Any Complex Topic with Clarity](https://sluintel.github.io/posts/2026-06-19-explained-simply-master-complex-topics.html) — 2026-06-19 — communication, clarity, explanation
 - [Binary Classification with AI: Everything You Should Know About Predicting Two Outcomes](https://sluintel.github.io/posts/2026-06-19-binary-classification-with-ai-everything-you-should-know-about-predicting-two-outcomes.html) — 2026-06-19 — AI, Machine Learning, Binary Classification
 - [Autonomous AI Agents: Everything You Should Know for 2026](https://sluintel.github.io/posts/2026-06-19-autonomous-ai-agents-everything-you-should-know.html) — 2026-06-19 — AI Agents, Automation, Artificial Intelligence
-- [Decoding the Top Internet Reactions to Nepal: What the World is Saying](https://sluintel.github.io/posts/2026-06-19-top-internet-reactions-to-nepal.html) — 2026-06-19 — Nepal, Internet Reactions, Social Media Trends
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
