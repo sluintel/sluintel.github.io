@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 607
+Total Posts Published: 608
 Last Updated: 2026-06-20
-Latest Post: Claude Guillemot: Architect of Ubisoft's Gaming Empire
-Latest Post URL: https://sluintel.github.io/posts/2026-06-20-claude-guillemot-ubisoft-founder.html
+Latest Post: Claude Guillemot: Gaming's Quiet Architect & His Enduring Legacy
+Latest Post URL: https://sluintel.github.io/posts/2026-06-20-claude-guillemot-gaming-architect-legacy.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Claude Guillemot: Gaming's Quiet Architect & His Enduring Legacy](https://sluintel.github.io/posts/2026-06-20-claude-guillemot-gaming-architect-legacy.html) — 2026-06-20 — Claude Guillemot, Ubisoft, Gaming Industry
 - [Claude Guillemot: Architect of Ubisoft's Gaming Empire](https://sluintel.github.io/posts/2026-06-20-claude-guillemot-ubisoft-founder.html) — 2026-06-20 — Claude Guillemot, Ubisoft, Gaming Industry
 - [Afghanistan vs India Cricket: Match Scorecard & Strategic Insights](https://sluintel.github.io/posts/2026-06-20-afghanistan-national-cricket-team-vs-india-national-cricket-team-match-scorecard.html) — 2026-06-20 — Cricket Analysis, Match Scorecard, Afghanistan Cricket
 - [AI Innovations Reshaping Brazil vs Haiti Football Standings](https://sluintel.github.io/posts/2026-06-20-ai-powered-innovations-brazil-national-football-team-vs-haiti-national-football-team-standings.html) — 2026-06-20 — AI in Football, Sports Analytics, Brazil Football
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Unpacking the Top Reactions to Brazil vs Morocco World Cup](https://sluintel.github.io/posts/2026-06-20-top-reactions-to-brazil-vs-morocco-world-cup.html) — 2026-06-20 — World Cup, Football, Brazil
 - [Rayan Explained Simply: Unpacking Cricket's Next Big Star](https://sluintel.github.io/posts/2026-06-20-rayan-explained-simply.html) — 2026-06-20 — cricket, sports analytics, player profiles
 - [Top Internet Reactions to Matheus Cunha: A Digital Deep Dive](https://sluintel.github.io/posts/2026-06-20-top-internet-reactions-matheus-cunha.html) — 2026-06-20 — Matheus Cunha, internet reactions, football
-- [Unpacking the Top Internet Reactions to Danilo: A Digital Deep Dive](https://sluintel.github.io/posts/2026-06-20-top-internet-reactions-danilo.html) — 2026-06-20 — Danilo, internet reactions, social media
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
