@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 609
+Total Posts Published: 610
 Last Updated: 2026-06-20
-Latest Post: Claude Guillemot: The Visionary Behind Gaming's Global Empire
-Latest Post URL: https://sluintel.github.io/posts/2026-06-20-claude-guillemot-gaming-visionary-ubisoft.html
+Latest Post: Claude Guillemot: The Silent Architect Who Built a Gaming Empire
+Latest Post URL: https://sluintel.github.io/posts/2026-06-20-claude-guillemot-gaming-empire-architect.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Claude Guillemot: The Silent Architect Who Built a Gaming Empire](https://sluintel.github.io/posts/2026-06-20-claude-guillemot-gaming-empire-architect.html) — 2026-06-20 — Claude Guillemot, Ubisoft, Gaming Industry
 - [Claude Guillemot: The Visionary Behind Gaming's Global Empire](https://sluintel.github.io/posts/2026-06-20-claude-guillemot-gaming-visionary-ubisoft.html) — 2026-06-20 — Claude Guillemot, Ubisoft, Gaming Industry
 - [Claude Guillemot: Gaming's Quiet Architect & His Enduring Legacy](https://sluintel.github.io/posts/2026-06-20-claude-guillemot-gaming-architect-legacy.html) — 2026-06-20 — Claude Guillemot, Ubisoft, Gaming Industry
 - [Claude Guillemot: Architect of Ubisoft's Gaming Empire](https://sluintel.github.io/posts/2026-06-20-claude-guillemot-ubisoft-founder.html) — 2026-06-20 — Claude Guillemot, Ubisoft, Gaming Industry
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Why Brazil vs Morocco World Cup Hype is Exploding in Sports Right Now](https://sluintel.github.io/posts/2026-06-20-why-brazil-vs-morocco-world-cup-trending-sports-right-now.html) — 2026-06-20 — World Cup 2026, Brazil Football, Morocco Football
 - [The Latest Updates on Afghanistan vs India: AI's Winning Edge](https://sluintel.github.io/posts/2026-06-20-the-latest-updates-on-afghanistan-vs-india.html) — 2026-06-20 — AI in Sports, Cricket Analysis, Afghanistan Cricket
 - [Unpacking the Top Reactions to Brazil vs Morocco World Cup](https://sluintel.github.io/posts/2026-06-20-top-reactions-to-brazil-vs-morocco-world-cup.html) — 2026-06-20 — World Cup, Football, Brazil
-- [Rayan Explained Simply: Unpacking Cricket's Next Big Star](https://sluintel.github.io/posts/2026-06-20-rayan-explained-simply.html) — 2026-06-20 — cricket, sports analytics, player profiles
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
