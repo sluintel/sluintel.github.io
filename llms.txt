@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 611
+Total Posts Published: 612
 Last Updated: 2026-06-20
-Latest Post: Claude Guillemot: The Quiet Visionary Who Built Ubisoft
-Latest Post URL: https://sluintel.github.io/posts/2026-06-20-claude-guillemot-ubisoft-visionary-legacy.html
+Latest Post: What People Are Saying About Father's Day: Decoding the Modern Buzz
+Latest Post URL: https://sluintel.github.io/posts/2026-06-20-what-people-are-saying-about-fathers-day.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [What People Are Saying About Father's Day: Decoding the Modern Buzz](https://sluintel.github.io/posts/2026-06-20-what-people-are-saying-about-fathers-day.html) — 2026-06-20 — Fathers Day, Parenting, Family
 - [Claude Guillemot: The Quiet Visionary Who Built Ubisoft](https://sluintel.github.io/posts/2026-06-20-claude-guillemot-ubisoft-visionary-legacy.html) — 2026-06-20 — Claude Guillemot, Ubisoft, Gaming Industry
 - [Claude Guillemot: The Silent Architect Who Built a Gaming Empire](https://sluintel.github.io/posts/2026-06-20-claude-guillemot-gaming-empire-architect.html) — 2026-06-20 — Claude Guillemot, Ubisoft, Gaming Industry
 - [Claude Guillemot: The Visionary Behind Gaming's Global Empire](https://sluintel.github.io/posts/2026-06-20-claude-guillemot-gaming-visionary-ubisoft.html) — 2026-06-20 — Claude Guillemot, Ubisoft, Gaming Industry
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [AI Innovations Reshaping Brazil vs Haiti Football Standings](https://sluintel.github.io/posts/2026-06-20-ai-powered-innovations-brazil-national-football-team-vs-haiti-national-football-team-standings.html) — 2026-06-20 — AI in Football, Sports Analytics, Brazil Football
 - [Decoding the Top Internet Reactions to Endrick: Why His Digital Footprint Matters](https://sluintel.github.io/posts/2026-06-20-top-internet-reactions-to-endrick.html) — 2026-06-20 — Endrick, Football Reactions, Digital Sentiment
 - [Why Brazil vs Morocco World Cup Hype is Exploding in Sports Right Now](https://sluintel.github.io/posts/2026-06-20-why-brazil-vs-morocco-world-cup-trending-sports-right-now.html) — 2026-06-20 — World Cup 2026, Brazil Football, Morocco Football
-- [The Latest Updates on Afghanistan vs India: AI's Winning Edge](https://sluintel.github.io/posts/2026-06-20-the-latest-updates-on-afghanistan-vs-india.html) — 2026-06-20 — AI in Sports, Cricket Analysis, Afghanistan Cricket
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
