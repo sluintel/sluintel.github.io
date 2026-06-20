@@ -5,13 +5,28 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 20 Jun 2026 00:19:16 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 20 Jun 2026 04:41:59 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[How Generative AI is Impacting Turkey vs Paraguay in 2026]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-20-generative-ai-impacting-turkey-vs-paraguay.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-20-generative-ai-impacting-turkey-vs-paraguay.html</guid>
+    <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Uncover how generative AI is impacting Turkey vs Paraguay in 2026. Explore their unique challenges, opportunities, and the socio-economic transformations shaping their future. Get expert insights now.]]></description>
+    <enclosure url="https://images.pexels.com/photos/29658144/pexels-photo-29658144.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Generative AI</category>
+    <category>AI Adoption</category>
+    <category>Turkey</category>
+    <category>Paraguay</category>
+    <category>Emerging Markets</category>
+    <category>National AI Strategy</category>
+    <category>Tech Trends 2026</category>
+  </item>
   <item>
     <title><![CDATA[Why Portugal National Football Team is Trending in Sports Right Now]]></title>
     <link>https://sluintel.github.io/posts/2026-06-20-why-portugal-national-football-team-is-trending-in-sports-right-now.html</link>
@@ -258,19 +273,6 @@
     <category>Binary Classification</category>
     <category>Data Science</category>
     <category>Automation</category>
-  </item>
-  <item>
-    <title><![CDATA[Autonomous AI Agents: Everything You Should Know for 2026]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-19-autonomous-ai-agents-everything-you-should-know.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-19-autonomous-ai-agents-everything-you-should-know.html</guid>
-    <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unpack autonomous AI agents. Learn what they are, why they matter, and how to use them effectively in 2026. Master the future of AI automation.]]></description>
-    <enclosure url="https://images.pexels.com/photos/3808822/pexels-photo-3808822.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI Agents</category>
-    <category>Automation</category>
-    <category>Artificial Intelligence</category>
-    <category>Future Tech</category>
-    <category>Productivity Tools</category>
   </item>
 </channel>
 </rss>
