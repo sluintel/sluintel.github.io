@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 638
+Total Posts Published: 639
 Last Updated: 2026-06-21
-Latest Post: Pau Cubarsí: The Latest Updates on Barcelona's Defensive Gem for 2026
-Latest Post URL: https://sluintel.github.io/posts/2026-06-21-pau-cubarsi-latest-updates-2026.html
+Latest Post: Pau Cubarsí: Everything You Should Know About Barcelona's Defensive Gem
+Latest Post URL: https://sluintel.github.io/posts/2026-06-21-pau-cubarsi-everything-you-should-know.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Pau Cubarsí: Everything You Should Know About Barcelona's Defensive Gem](https://sluintel.github.io/posts/2026-06-21-pau-cubarsi-everything-you-should-know.html) — 2026-06-21 — Pau Cubarsí, FC Barcelona, La Masia
 - [Pau Cubarsí: The Latest Updates on Barcelona's Defensive Gem for 2026](https://sluintel.github.io/posts/2026-06-21-pau-cubarsi-latest-updates-2026.html) — 2026-06-21 — Pau Cubarsí, Barcelona, Football
 - [Mikel Oyarzabal: Decoding the Top Internet Reactions](https://sluintel.github.io/posts/2026-06-21-top-internet-reactions-mikel-oyarzabal.html) — 2026-06-21 — Mikel Oyarzabal, football reactions, fan sentiment
 - [Pedri: Everything You Should Know About Barcelona's Midfield Maestro](https://sluintel.github.io/posts/2026-06-21-everything-you-should-know-about-pedri.html) — 2026-06-21 — Pedri, FC Barcelona, La Liga
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [India vs South Africa: Top Internet Reactions You Missed](https://sluintel.github.io/posts/2026-06-21-top-internet-reactions-india-vs-south-africa.html) — 2026-06-21 — cricket, India vs South Africa, internet reactions
 - [Bangladesh vs Australia: The Evolving Dynamics You Need to Understand Now](https://sluintel.github.io/posts/2026-06-21-bangladesh-vs-australia-everything-you-should-know.html) — 2026-06-21 — Bangladesh, Australia, International Relations
 - [Xiaomi's Digital Pulse: Top Internet Reactions Unpacked](https://sluintel.github.io/posts/2026-06-21-top-internet-reactions-xiaomi.html) — 2026-06-21 — Xiaomi, Tech Reactions, Online Sentiment
-- [Tunisia vs Japan: What People Are Saying About Their Global Stance](https://sluintel.github.io/posts/2026-06-21-tunisia-vs-japan-what-people-are-saying.html) — 2026-06-21 — Tunisia, Japan, Geopolitics
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
