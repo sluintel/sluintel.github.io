@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 22 Jun 2026 13:45:03 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 22 Jun 2026 15:03:14 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Everything You Should Know About Initial Public Offering (IPO)]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-22-initial-public-offering-everything-you-should-know.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-22-initial-public-offering-everything-you-should-know.html</guid>
+    <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Demystify the Initial Public Offering (IPO) process. Learn what an IPO is, why companies go public, how to invest, and common pitfalls to avoid for smarter investment decisions in 2026.]]></description>
+    <enclosure url="https://images.pexels.com/photos/8386759/pexels-photo-8386759.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>IPO</category>
+    <category>Investing</category>
+    <category>Stock Market</category>
+    <category>Finance</category>
+    <category>Going Public</category>
+  </item>
   <item>
     <title><![CDATA[Unpacking Top Reactions to Uzbekistan National Football Team]]></title>
     <link>https://sluintel.github.io/posts/2026-06-22-top-reactions-to-uzbekistan-national-football-team.html</link>
@@ -260,19 +273,6 @@
     <category>internet reactions</category>
     <category>fan culture</category>
     <category>viral moments</category>
-  </item>
-  <item>
-    <title><![CDATA[Bangladesh vs Australia: The Evolving Dynamics You Need to Understand Now]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-21-bangladesh-vs-australia-everything-you-should-know.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-21-bangladesh-vs-australia-everything-you-should-know.html</guid>
-    <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unlock the complexities of Bangladesh vs Australia. From cricket rivalries to economic shifts, discover what truly defines their relationship and why it matters for you.]]></description>
-    <enclosure url="https://images.pexels.com/photos/5837131/pexels-photo-5837131.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Bangladesh</category>
-    <category>Australia</category>
-    <category>International Relations</category>
-    <category>Cricket Rivalry</category>
-    <category>Economic Ties</category>
   </item>
 </channel>
 </rss>
