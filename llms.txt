@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 646
+Total Posts Published: 647
 Last Updated: 2026-06-22
-Latest Post: MLC Explained Simply: Unlock AI Model Performance
-Latest Post URL: https://sluintel.github.io/posts/2026-06-22-mlc-explained-simply.html
+Latest Post: Why Initial Public Offering (IPO) Is Exploding in 2026
+Latest Post URL: https://sluintel.github.io/posts/2026-06-22-initial-public-offering-trending-2026.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Why Initial Public Offering (IPO) Is Exploding in 2026](https://sluintel.github.io/posts/2026-06-22-initial-public-offering-trending-2026.html) — 2026-06-22 — IPO, Stock Market, Investing
 - [MLC Explained Simply: Unlock AI Model Performance](https://sluintel.github.io/posts/2026-06-22-mlc-explained-simply.html) — 2026-06-22 — machine learning, AI, compilers
 - [Why Argentina vs Austria World Cup Buzz is Trending Right Now](https://sluintel.github.io/posts/2026-06-22-why-argentina-vs-austria-world-cup-trending-sports-right-now.html) — 2026-06-22 — World Cup 2026, Football Trends, Argentina Football
 - [Uruguay vs Cabo Verde Explained Simply: The Unexpected Showdown](https://sluintel.github.io/posts/2026-06-22-uruguay-vs-cabo-verde-explained-simply.html) — 2026-06-22 — Uruguay, Cabo Verde, Cultural Comparison
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Chipotle App Down? How to Fix Ordering & Get Your Burrito Fast](https://sluintel.github.io/posts/2026-06-21-chipotle-app-down-fix-ordering-guide.html) — 2026-06-21 — Chipotle app, app down, mobile ordering
 - [Pau Cubarsí: Everything You Should Know About Barcelona's Defensive Gem](https://sluintel.github.io/posts/2026-06-21-pau-cubarsi-everything-you-should-know.html) — 2026-06-21 — Pau Cubarsí, FC Barcelona, La Masia
 - [Pau Cubarsí: The Latest Updates on Barcelona's Defensive Gem for 2026](https://sluintel.github.io/posts/2026-06-21-pau-cubarsi-latest-updates-2026.html) — 2026-06-21 — Pau Cubarsí, Barcelona, Football
-- [Mikel Oyarzabal: Decoding the Top Internet Reactions](https://sluintel.github.io/posts/2026-06-21-top-internet-reactions-mikel-oyarzabal.html) — 2026-06-21 — Mikel Oyarzabal, football reactions, fan sentiment
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/

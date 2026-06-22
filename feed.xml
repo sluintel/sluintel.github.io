@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 22 Jun 2026 10:15:23 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 22 Jun 2026 10:49:02 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Why Initial Public Offering (IPO) Is Exploding in 2026]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-22-initial-public-offering-trending-2026.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-22-initial-public-offering-trending-2026.html</guid>
+    <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Curious why initial public offering (IPO) activity is soaring in 2026? Unpack the drivers behind the market's hottest trend and learn how to spot winning opportunities.]]></description>
+    <enclosure url="https://images.pexels.com/photos/5849588/pexels-photo-5849588.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>IPO</category>
+    <category>Stock Market</category>
+    <category>Investing</category>
+    <category>Finance Trends</category>
+    <category>Wealth Building</category>
+  </item>
   <item>
     <title><![CDATA[MLC Explained Simply: Unlock AI Model Performance]]></title>
     <link>https://sluintel.github.io/posts/2026-06-22-mlc-explained-simply.html</link>
@@ -260,19 +273,6 @@
     <category>Spain Football</category>
     <category>Saudi Arabia Football</category>
     <category>Sports Tech</category>
-  </item>
-  <item>
-    <title><![CDATA[The Latest Updates on Spencer Johnson: Timeless Wisdom for 2026]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-21-the-latest-updates-on-spencer-johnson.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-21-the-latest-updates-on-spencer-johnson.html</guid>
-    <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Discover the latest updates on Spencer Johnson's timeless principles for navigating change and success in 2026. Learn how his wisdom applies to our AI-driven world.]]></description>
-    <enclosure url="https://images.pexels.com/photos/13883855/pexels-photo-13883855.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Spencer Johnson</category>
-    <category>Change Management</category>
-    <category>Adaptability</category>
-    <category>Personal Growth</category>
-    <category>AI Impact</category>
   </item>
 </channel>
 </rss>
