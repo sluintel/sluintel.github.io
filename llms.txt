@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 648
+Total Posts Published: 649
 Last Updated: 2026-06-22
-Latest Post: AI Impact on Consulting Industry: Your 2026 Strategic Blueprint
-Latest Post URL: https://sluintel.github.io/posts/2026-06-22-ai-impact-on-consulting-industry.html
+Latest Post: पेन्सन Explained Simply: Your Future, Securely Unpacked
+Latest Post URL: https://sluintel.github.io/posts/2026-06-22-explained-simply.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [पेन्सन Explained Simply: Your Future, Securely Unpacked](https://sluintel.github.io/posts/2026-06-22-explained-simply.html) — 2026-06-22 — पेन्सन, retirement planning, financial security
 - [AI Impact on Consulting Industry: Your 2026 Strategic Blueprint](https://sluintel.github.io/posts/2026-06-22-ai-impact-on-consulting-industry.html) — 2026-06-22 — AI Consulting, Future of Consulting, AI Strategy
 - [Why Initial Public Offering (IPO) Is Exploding in 2026](https://sluintel.github.io/posts/2026-06-22-initial-public-offering-trending-2026.html) — 2026-06-22 — IPO, Stock Market, Investing
 - [MLC Explained Simply: Unlock AI Model Performance](https://sluintel.github.io/posts/2026-06-22-mlc-explained-simply.html) — 2026-06-22 — machine learning, AI, compilers
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Uruguay vs Cape Verde: Your Essential Guide to This Unexpected Clash](https://sluintel.github.io/posts/2026-06-21-uruguay-vs-cape-verde-everything-you-should-know.html) — 2026-06-21 — football analysis, Uruguay, Cape Verde
 - [What People Are Saying About iPhone: Decoding the 2026 Buzz](https://sluintel.github.io/posts/2026-06-21-what-people-are-saying-about-iphone-2026-buzz.html) — 2026-06-21 — iPhone, Apple, Tech Trends
 - [Chipotle App Down? How to Fix Ordering & Get Your Burrito Fast](https://sluintel.github.io/posts/2026-06-21-chipotle-app-down-fix-ordering-guide.html) — 2026-06-21 — Chipotle app, app down, mobile ordering
-- [Pau Cubarsí: Everything You Should Know About Barcelona's Defensive Gem](https://sluintel.github.io/posts/2026-06-21-pau-cubarsi-everything-you-should-know.html) — 2026-06-21 — Pau Cubarsí, FC Barcelona, La Masia
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
