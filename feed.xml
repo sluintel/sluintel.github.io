@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 22 Jun 2026 17:59:02 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 22 Jun 2026 18:17:15 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Decoding Dibu: What People Are Saying About Emiliano Martínez]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-22-what-people-are-saying-about-emiliano-martinez.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-22-what-people-are-saying-about-emiliano-martinez.html</guid>
+    <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Uncover the real sentiment surrounding Emiliano Martínez. Go beyond headlines to understand fan opinions, criticisms, and the lasting impact of Argentina's star goalkeeper in 2026. Get the true picture.]]></description>
+    <enclosure url="https://images.pexels.com/photos/35555156/pexels-photo-35555156.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Emiliano Martínez</category>
+    <category>Dibu Martínez</category>
+    <category>Football Analysis</category>
+    <category>Fan Sentiment</category>
+    <category>Public Opinion</category>
+  </item>
   <item>
     <title><![CDATA[Why Thiago Almada Is Trending Right Now: Decoding His 2026 Buzz]]></title>
     <link>https://sluintel.github.io/posts/2026-06-22-why-thiago-almada-is-trending-right-now.html</link>
@@ -262,19 +275,6 @@
     <category>fan sentiment</category>
     <category>social media analysis</category>
     <category>sports commentary</category>
-  </item>
-  <item>
-    <title><![CDATA[Pedri: Everything You Should Know About Barcelona's Midfield Maestro]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-21-everything-you-should-know-about-pedri.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-21-everything-you-should-know-about-pedri.html</guid>
-    <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unpack everything you should know about Pedri, Barcelona's midfield phenom. Discover his playing style, rise to stardom, and what makes him one of football's brightest talents.]]></description>
-    <enclosure url="https://images.pexels.com/photos/5428829/pexels-photo-5428829.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Pedri</category>
-    <category>FC Barcelona</category>
-    <category>La Liga</category>
-    <category>Football</category>
-    <category>Midfielder</category>
   </item>
 </channel>
 </rss>
