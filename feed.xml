@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 22 Jun 2026 09:21:48 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 22 Jun 2026 10:15:23 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[MLC Explained Simply: Unlock AI Model Performance]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-22-mlc-explained-simply.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-22-mlc-explained-simply.html</guid>
+    <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Demystify MLC (Machine Learning Compilers) with our simple guide. Discover how these essential AI tools boost model speed and efficiency, making your AI projects fly. Get the edge you need!]]></description>
+    <enclosure url="https://images.pexels.com/photos/6340666/pexels-photo-6340666.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>machine learning</category>
+    <category>AI</category>
+    <category>compilers</category>
+    <category>AI optimization</category>
+    <category>deep learning</category>
+  </item>
   <item>
     <title><![CDATA[Why Argentina vs Austria World Cup Buzz is Trending Right Now]]></title>
     <link>https://sluintel.github.io/posts/2026-06-22-why-argentina-vs-austria-world-cup-trending-sports-right-now.html</link>
@@ -260,19 +273,6 @@
     <category>Adaptability</category>
     <category>Personal Growth</category>
     <category>AI Impact</category>
-  </item>
-  <item>
-    <title><![CDATA[Father's Day 2026: The Latest Updates on "Is Today Father's Day?"]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-21-fathers-day-2026-latest-updates.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-21-fathers-day-2026-latest-updates.html</guid>
-    <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Stop wondering, "Is today Father's Day?" Get the definitive 2026 date, understand global variations, and plan the perfect celebration with our latest updates. Don't miss out!]]></description>
-    <enclosure url="https://images.pexels.com/photos/9822748/pexels-photo-9822748.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Father's Day</category>
-    <category>2026 Holidays</category>
-    <category>Parenting Tips</category>
-    <category>Calendar Updates</category>
-    <category>Gift Ideas</category>
   </item>
 </channel>
 </rss>
