@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 652
+Total Posts Published: 653
 Last Updated: 2026-06-22
-Latest Post: Namibia vs Hong Kong Explained Simply: Your 2026 Global Compass
-Latest Post URL: https://sluintel.github.io/posts/2026-06-22-namibia-vs-hong-kong-explained-simply.html
+Latest Post: France vs Iraq: Everything You Should Know About Their Complex Relationship
+Latest Post URL: https://sluintel.github.io/posts/2026-06-22-france-vs-iraq-everything-you-should-know.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [France vs Iraq: Everything You Should Know About Their Complex Relationship](https://sluintel.github.io/posts/2026-06-22-france-vs-iraq-everything-you-should-know.html) — 2026-06-22 — Geopolitics, International Relations, Middle East
 - [Namibia vs Hong Kong Explained Simply: Your 2026 Global Compass](https://sluintel.github.io/posts/2026-06-22-namibia-vs-hong-kong-explained-simply.html) — 2026-06-22 — Namibia, Hong Kong, Global Opportunities
 - [Everything You Should Know About Initial Public Offering (IPO)](https://sluintel.github.io/posts/2026-06-22-initial-public-offering-everything-you-should-know.html) — 2026-06-22 — IPO, Investing, Stock Market
 - [Unpacking Top Reactions to Uzbekistan National Football Team](https://sluintel.github.io/posts/2026-06-22-top-reactions-to-uzbekistan-national-football-team.html) — 2026-06-22 — Uzbekistan Football, Fan Reactions, Asian Football
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [MLC Explained Simply: Unlock AI Model Performance](https://sluintel.github.io/posts/2026-06-22-mlc-explained-simply.html) — 2026-06-22 — machine learning, AI, compilers
 - [Why Argentina vs Austria World Cup Buzz is Trending Right Now](https://sluintel.github.io/posts/2026-06-22-why-argentina-vs-austria-world-cup-trending-sports-right-now.html) — 2026-06-22 — World Cup 2026, Football Trends, Argentina Football
 - [Uruguay vs Cabo Verde Explained Simply: The Unexpected Showdown](https://sluintel.github.io/posts/2026-06-22-uruguay-vs-cabo-verde-explained-simply.html) — 2026-06-22 — Uruguay, Cabo Verde, Cultural Comparison
-- [Pau Cubarsí: Why The Young Star Is Trending Right Now](https://sluintel.github.io/posts/2026-06-22-pau-cubarsi-trending-right-now.html) — 2026-06-22 — Pau Cubarsí, Football, La Liga
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
