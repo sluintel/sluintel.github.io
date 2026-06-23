@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 23 Jun 2026 10:43:07 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 23 Jun 2026 12:47:35 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Bishnu Paudel Explained Simply: Nepal's Enduring Political Force]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-23-bishnu-paudel-explained-simply.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-23-bishnu-paudel-explained-simply.html</guid>
+    <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Understand Bishnu Paudel explained simply. Discover his profound impact on Nepal's politics and economy, his key roles, and why he remains a central figure in 2026. Get clarity now.]]></description>
+    <enclosure url="https://images.pexels.com/photos/21085320/pexels-photo-21085320.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Nepal Politics</category>
+    <category>Bishnu Paudel</category>
+    <category>Finance Minister</category>
+    <category>CPN UML</category>
+    <category>Nepali Government</category>
+  </item>
   <item>
     <title><![CDATA[What is a Data Breach? Protect Your Digital Life in 2026]]></title>
     <link>https://sluintel.github.io/posts/2026-06-23-what-is-a-data-breach-protect-digital-life.html</link>
@@ -260,19 +273,6 @@
     <category>financial security</category>
     <category>investing</category>
     <category>future planning</category>
-  </item>
-  <item>
-    <title><![CDATA[AI Impact on Consulting Industry: Your 2026 Strategic Blueprint]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-22-ai-impact-on-consulting-industry.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-22-ai-impact-on-consulting-industry.html</guid>
-    <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Uncover the profound AI impact on the consulting industry in 2026. Learn how AI is reshaping strategies, roles, and client value, ensuring your firm stays ahead.]]></description>
-    <enclosure url="https://images.pexels.com/photos/29393022/pexels-photo-29393022.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI Consulting</category>
-    <category>Future of Consulting</category>
-    <category>AI Strategy</category>
-    <category>Digital Transformation</category>
-    <category>Automation in Consulting</category>
   </item>
 </channel>
 </rss>
