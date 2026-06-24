@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 24 Jun 2026 07:53:46 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 24 Jun 2026 08:35:04 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Decoding the Top Internet Reactions to Luis Suárez: A Digital Deep Dive]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-24-top-internet-reactions-luis-suarez-2.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-24-top-internet-reactions-luis-suarez-2.html</guid>
+    <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Dive into the top internet reactions to Luis Suárez, understanding fan sentiment, controversy, and digital impact. Discover how social media amplifies every moment. Essential insights for fans.]]></description>
+    <enclosure url="https://images.pexels.com/photos/7236566/pexels-photo-7236566.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Luis Suárez</category>
+    <category>Football Reactions</category>
+    <category>Social Media Trends</category>
+    <category>Fan Sentiment</category>
+    <category>Sports Analytics</category>
+  </item>
   <item>
     <title><![CDATA[What People Are Saying About Diogo Costa: A Data-Driven View]]></title>
     <link>https://sluintel.github.io/posts/2026-06-24-what-people-are-saying-about-diogo-costa.html</link>
@@ -258,19 +271,6 @@
     <category>National Security</category>
     <category>Cybersecurity</category>
     <category>Responsible AI</category>
-  </item>
-  <item>
-    <title><![CDATA[What People Are Saying About France: Beyond the Postcard Myths]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-22-what-people-are-saying-about-france.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-22-what-people-are-saying-about-france.html</guid>
-    <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unpack the true sentiment: what people are saying about France in 2026. Discover common perceptions, underlying realities, and how global opinions shape its future.]]></description>
-    <enclosure url="https://images.pexels.com/photos/27252045/pexels-photo-27252045.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>France</category>
-    <category>Global Opinion</category>
-    <category>Cultural Analysis</category>
-    <category>Travel Trends</category>
-    <category>Societal Insights</category>
   </item>
 </channel>
 </rss>
