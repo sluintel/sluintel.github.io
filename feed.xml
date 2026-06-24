@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 24 Jun 2026 21:43:23 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 24 Jun 2026 22:40:16 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Lenny Joseph: Everything You Need to Know About Football's Rising Star]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-24-lenny-joseph-everything-you-should-know.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-24-lenny-joseph-everything-you-should-know.html</guid>
+    <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Discover Lenny Joseph, football's exciting new talent. Learn his playstyle, impact, and future prospects. Get the inside scoop before he explodes!]]></description>
+    <enclosure url="https://images.pexels.com/photos/6958636/pexels-photo-6958636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Lenny Joseph</category>
+    <category>football talent</category>
+    <category>rising stars</category>
+    <category>player profiles</category>
+    <category>sports analysis</category>
+  </item>
   <item>
     <title><![CDATA[Michigan Voter Registration Data Appeal: Your 2026 Guide to Electoral Integrity]]></title>
     <link>https://sluintel.github.io/posts/2026-06-24-michigan-voter-registration-data-appeal.html</link>
@@ -260,19 +273,6 @@
     <category>New Zealand Cricket</category>
     <category>Cricket Standings</category>
     <category>Sports Analytics</category>
-  </item>
-  <item>
-    <title><![CDATA[Bishnu Paudel Explained Simply: Nepal's Enduring Political Force]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-23-bishnu-paudel-explained-simply.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-23-bishnu-paudel-explained-simply.html</guid>
-    <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Understand Bishnu Paudel explained simply. Discover his profound impact on Nepal's politics and economy, his key roles, and why he remains a central figure in 2026. Get clarity now.]]></description>
-    <enclosure url="https://images.pexels.com/photos/21085320/pexels-photo-21085320.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Nepal Politics</category>
-    <category>Bishnu Paudel</category>
-    <category>Finance Minister</category>
-    <category>CPN UML</category>
-    <category>Nepali Government</category>
   </item>
 </channel>
 </rss>
