@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 25 Jun 2026 11:58:11 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 25 Jun 2026 12:33:39 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Why Venezuela Is Trending Right Now: Geopolitics & Economic Shifts]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-25-why-venezuela-is-trending-right-now-2.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-25-why-venezuela-is-trending-right-now-2.html</guid>
+    <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unravel the reasons why Venezuela is trending right now in 2026. Explore its economic shifts, geopolitical influence, and the impact on global markets. Stay informed.]]></description>
+    <enclosure url="https://images.pexels.com/photos/20843857/pexels-photo-20843857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Venezuela</category>
+    <category>Geopolitics</category>
+    <category>Economy</category>
+    <category>Current Events</category>
+    <category>Trending Topics</category>
+  </item>
   <item>
     <title><![CDATA[Onlinekhabar Explained Simply: Your Guide to Nepal's Digital News Leader]]></title>
     <link>https://sluintel.github.io/posts/2026-06-25-onlinekhabar-explained-simply-2.html</link>
@@ -261,19 +274,6 @@
     <category>Social Media Trends</category>
     <category>Fan Sentiment</category>
     <category>Sports Analytics</category>
-  </item>
-  <item>
-    <title><![CDATA[What People Are Saying About Diogo Costa: A Data-Driven View]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-24-what-people-are-saying-about-diogo-costa.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-24-what-people-are-saying-about-diogo-costa.html</guid>
-    <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Discover what people are saying about Diogo Costa using AI and data insights. Uncover fan sentiment, performance narratives, and future predictions with our expert analysis.]]></description>
-    <enclosure url="https://images.pexels.com/photos/34680735/pexels-photo-34680735.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Diogo Costa</category>
-    <category>Football Analytics</category>
-    <category>AI Sentiment</category>
-    <category>Sports Tech</category>
-    <category>Fan Engagement</category>
   </item>
 </channel>
 </rss>
