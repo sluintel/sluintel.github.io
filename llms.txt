@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 702
+Total Posts Published: 703
 Last Updated: 2026-06-25
-Latest Post: Marco Palestra: The Latest Updates on an AI Visionary's 2026 Impact
-Latest Post URL: https://sluintel.github.io/posts/2026-06-25-marco-palestra-latest-updates-ai-visionary.html
+Latest Post: What People Are Saying About Venezuela: Decoding Global Sentiment
+Latest Post URL: https://sluintel.github.io/posts/2026-06-25-what-people-are-saying-about-venezuela.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [What People Are Saying About Venezuela: Decoding Global Sentiment](https://sluintel.github.io/posts/2026-06-25-what-people-are-saying-about-venezuela.html) — 2026-06-25 — Venezuela, geopolitics, public opinion
 - [Marco Palestra: The Latest Updates on an AI Visionary's 2026 Impact](https://sluintel.github.io/posts/2026-06-25-marco-palestra-latest-updates-ai-visionary.html) — 2026-06-25 — AI, Automation, Tech Leadership
 - [Why Ratopati Is Trending Right Now: Decoding Nepal's Digital News Buzz](https://sluintel.github.io/posts/2026-06-25-why-ratopati-is-trending-right-now.html) — 2026-06-25 — Ratopati, Nepal News, Digital Media
 - [Why Venezuela Is Trending Right Now: Geopolitics & Economic Shifts](https://sluintel.github.io/posts/2026-06-25-why-venezuela-is-trending-right-now-2.html) — 2026-06-25 — Venezuela, Geopolitics, Economy
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Czech Republic vs Mexico: What's Next for Football Standings?](https://sluintel.github.io/posts/2026-06-25-whats-next-czech-republic-national-football-team-vs-mexico-national-football-team-standings.html) — 2026-06-25 — football analysis, Czech Republic football, Mexico football
 - [What is a Data Breach? Your 2026 Guide to Digital Security](https://sluintel.github.io/posts/2026-06-25-what-is-a-data-breach-digital-security-guide-2026.html) — 2026-06-25 — data breach, cybersecurity, data protection
 - [What is a Data Breach? Your 2026 Guide to Digital Safety](https://sluintel.github.io/posts/2026-06-25-what-is-a-data-breach-guide-2026.html) — 2026-06-25 — Data Breach, Cybersecurity, Data Protection
-- [Unpacking Top Internet Reactions to Neymar: Why They Matter in 2026](https://sluintel.github.io/posts/2026-06-25-top-internet-reactions-neymar.html) — 2026-06-25 — Neymar, Internet Reactions, Social Media
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
