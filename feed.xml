@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 25 Jun 2026 15:45:10 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 25 Jun 2026 16:35:27 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Marie-Claude Barrette: Mastering Media & AI Insights for Lasting Influence]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-25-marie-claude-barrette-media-ai-strategy.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-25-marie-claude-barrette-media-ai-strategy.html</guid>
+    <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Discover Marie-Claude Barrette's enduring media strategy and how AI can analyze personal brand success. Learn to build lasting digital influence in 2026.]]></description>
+    <enclosure url="https://images.pexels.com/photos/25626431/pexels-photo-25626431.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Marie-Claude Barrette</category>
+    <category>Media Strategy</category>
+    <category>Personal Branding</category>
+    <category>AI Content Analysis</category>
+    <category>Digital Influence</category>
+  </item>
   <item>
     <title><![CDATA[What People Are Saying About Venezuela: Decoding Global Sentiment]]></title>
     <link>https://sluintel.github.io/posts/2026-06-25-what-people-are-saying-about-venezuela.html</link>
@@ -259,19 +272,6 @@
     <category>OTT Platform</category>
     <category>Indian Content</category>
     <category>User Reviews</category>
-  </item>
-  <item>
-    <title><![CDATA[Why Luis Suárez Is Trending: Decoding His 2026 Buzz]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-24-why-luis-suarez-is-trending-right-now.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-24-why-luis-suarez-is-trending-right-now.html</guid>
-    <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unpack why Luis Suárez is trending right now in 2026. From his MLS triumphs with Messi to World Cup legacy whispers, discover the key factors driving his current buzz and what's next.]]></description>
-    <enclosure url="https://images.pexels.com/photos/36737326/pexels-photo-36737326.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Luis Suárez</category>
-    <category>Football</category>
-    <category>Inter Miami</category>
-    <category>World Cup 2026</category>
-    <category>Sports Trends</category>
   </item>
 </channel>
 </rss>
