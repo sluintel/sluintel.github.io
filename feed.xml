@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 25 Jun 2026 13:27:07 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 25 Jun 2026 14:53:01 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Marco Palestra: The Latest Updates on an AI Visionary's 2026 Impact]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-25-marco-palestra-latest-updates-ai-visionary.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-25-marco-palestra-latest-updates-ai-visionary.html</guid>
+    <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Dive into the latest updates on Marco Palestra, an AI automation pioneer. Discover his 2026 strategic moves, groundbreaking projects, and future predictions that will shape the tech landscape. Stay ahead of the curve.]]></description>
+    <enclosure url="https://images.pexels.com/photos/16345434/pexels-photo-16345434.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI</category>
+    <category>Automation</category>
+    <category>Tech Leadership</category>
+    <category>Innovation</category>
+    <category>Future of AI</category>
+  </item>
   <item>
     <title><![CDATA[Why Ratopati Is Trending Right Now: Decoding Nepal's Digital News Buzz]]></title>
     <link>https://sluintel.github.io/posts/2026-06-25-why-ratopati-is-trending-right-now.html</link>
@@ -259,21 +272,6 @@
     <category>ghana</category>
     <category>sports analysis</category>
     <category>AI predictions</category>
-  </item>
-  <item>
-    <title><![CDATA[Francisco Conceição: Everything You Should Know About Portugal's Rising Star]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-24-francisco-conceicao-everything-you-should-know.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-24-francisco-conceicao-everything-you-should-know.html</guid>
-    <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unpack everything you should know about Francisco Conceição, Portugal's electric winger. Discover his journey, playing style, and future impact in football.]]></description>
-    <enclosure url="https://images.pexels.com/photos/7034051/pexels-photo-7034051.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Francisco Conceição</category>
-    <category>Football</category>
-    <category>Portugal National Team</category>
-    <category>FC Porto</category>
-    <category>Winger</category>
-    <category>Rising Star</category>
-    <category>Euro 2024</category>
   </item>
 </channel>
 </rss>
