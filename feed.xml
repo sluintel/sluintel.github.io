@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 25 Jun 2026 18:23:57 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 25 Jun 2026 19:19:26 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[What People Are Saying About Venezuela Earthquakes: Decoding Sentiment]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-25-what-people-are-saying-about-venezuela-earthquakes.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-25-what-people-are-saying-about-venezuela-earthquakes.html</guid>
+    <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Discover what people are saying about Venezuela earthquakes, from official responses to community resilience. Uncover critical insights into seismic activity and humanitarian efforts in 2026.]]></description>
+    <enclosure url="https://images.pexels.com/photos/2351723/pexels-photo-2351723.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Venezuela</category>
+    <category>Earthquakes</category>
+    <category>Seismic Activity</category>
+    <category>Public Opinion</category>
+    <category>Crisis Communication</category>
+  </item>
   <item>
     <title><![CDATA[Ratopati Explained Simply: Your Guide to Nepal's Digital News Giant]]></title>
     <link>https://sluintel.github.io/posts/2026-06-25-ratopati-explained-simply.html</link>
@@ -259,19 +272,6 @@
     <category>rising stars</category>
     <category>player profiles</category>
     <category>sports analysis</category>
-  </item>
-  <item>
-    <title><![CDATA[Michigan Voter Registration Data Appeal: Your 2026 Guide to Electoral Integrity]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-24-michigan-voter-registration-data-appeal.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-24-michigan-voter-registration-data-appeal.html</guid>
-    <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Facing issues with your voter registration? Learn how to navigate the Michigan voter registration data appeal process in 2026, ensure accuracy, and protect your right to vote. Get expert tips!]]></description>
-    <enclosure url="https://images.pexels.com/photos/5926255/pexels-photo-5926255.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Michigan elections</category>
-    <category>voter registration</category>
-    <category>data appeal</category>
-    <category>electoral integrity</category>
-    <category>voter rights</category>
   </item>
 </channel>
 </rss>
