@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 728
+Total Posts Published: 729
 Last Updated: 2026-06-26
-Latest Post: GPT 5.6: The AI Evolution You Can't Afford to Ignore in 2026
-Latest Post URL: https://sluintel.github.io/posts/2026-06-26-gpt-5-6-ai-evolution-2026.html
+Latest Post: Ireland vs India: What People Are Saying – The Ultimate Showdown
+Latest Post URL: https://sluintel.github.io/posts/2026-06-26-ireland-vs-india-what-people-are-saying.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Ireland vs India: What People Are Saying – The Ultimate Showdown](https://sluintel.github.io/posts/2026-06-26-ireland-vs-india-what-people-are-saying.html) — 2026-06-26 — cricket, Ireland vs India, sports analysis
 - [GPT 5.6: The AI Evolution You Can't Afford to Ignore in 2026](https://sluintel.github.io/posts/2026-06-26-gpt-5-6-ai-evolution-2026.html) — 2026-06-26 — gpt 5.6, AI tools, automation
 - [Why FIFA World Cup Brackets Are Dominating Sports Right Now](https://sluintel.github.io/posts/2026-06-26-why-fifa-world-cup-brackets-trending-sports-right-now.html) — 2026-06-26 — FIFA World Cup, Sports Prediction, Bracketology
 - [Matthew Hollard's Latest Updates: Navigating AI's Next Frontier](https://sluintel.github.io/posts/2026-06-26-matthew-hollard-latest-updates-ai-automation-2026.html) — 2026-06-26 — Matthew Hollard, AI Trends, Automation
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [What People Are Saying About Today's Weather: AI Uncovers Trends](https://sluintel.github.io/posts/2026-06-26-what-people-are-saying-about-today-weather.html) — 2026-06-26 — AI, Sentiment Analysis, Weather Trends
 - [Top Reactions to World Cup Table: What Fans Are Really Saying](https://sluintel.github.io/posts/2026-06-26-top-reactions-to-world-cup-table.html) — 2026-06-26 — World Cup 2026, Football Fans, Social Media Trends
 - [FIFA World Cup Brackets: Latest Updates & Winning Predictions](https://sluintel.github.io/posts/2026-06-26-fifa-world-cup-brackets-latest-updates-predictions-2.html) — 2026-06-26 — FIFA World Cup, Football Predictions, World Cup Brackets
-- [FIFA World Cup Standings: Highlights Fans Can't Stop Talking About](https://sluintel.github.io/posts/2026-06-26-fifa-world-cup-standings-highlights-fans-are-talking-about.html) — 2026-06-26 — FIFA World Cup, Standings Analysis, Football Highlights
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
