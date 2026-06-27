@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 733
-Last Updated: 2026-06-26
-Latest Post: Decoding Public Opinion: What People Are Saying About ICC in 2026
-Latest Post URL: https://sluintel.github.io/posts/2026-06-26-what-people-are-saying-about-icc-2026.html
+Total Posts Published: 734
+Last Updated: 2026-06-27
+Latest Post: What People Are Saying About Ben Duckett: Unpacking Public Sentiment with AI
+Latest Post URL: https://sluintel.github.io/posts/2026-06-27-what-people-are-saying-about-ben-duckett.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [What People Are Saying About Ben Duckett: Unpacking Public Sentiment with AI](https://sluintel.github.io/posts/2026-06-27-what-people-are-saying-about-ben-duckett.html) — 2026-06-27 — AI, Sentiment Analysis, Cricket
 - [Decoding Public Opinion: What People Are Saying About ICC in 2026](https://sluintel.github.io/posts/2026-06-26-what-people-are-saying-about-icc-2026.html) — 2026-06-26 — AI tools, sentiment analysis, public opinion
 - [Why Sanju Samson Is Trending Right Now: Decoding His 2026 Surge](https://sluintel.github.io/posts/2026-06-26-why-sanju-samson-is-trending-right-now.html) — 2026-06-26 — Sanju Samson, Cricket, IPL
 - [Why Jørgen Strand Larsen Is Trending Right Now: Decoding His 2026 Rise](https://sluintel.github.io/posts/2026-06-26-why-jorgen-strand-larsen-is-trending-right-now.html) — 2026-06-26 — Jørgen Strand Larsen, Football, Trending
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Why FIFA World Cup Brackets Are Dominating Sports Right Now](https://sluintel.github.io/posts/2026-06-26-why-fifa-world-cup-brackets-trending-sports-right-now.html) — 2026-06-26 — FIFA World Cup, Sports Prediction, Bracketology
 - [Matthew Hollard's Latest Updates: Navigating AI's Next Frontier](https://sluintel.github.io/posts/2026-06-26-matthew-hollard-latest-updates-ai-automation-2026.html) — 2026-06-26 — Matthew Hollard, AI Trends, Automation
 - [Japan vs Sweden: Cultures, Innovations, & Everything You Should Know](https://sluintel.github.io/posts/2026-06-26-japan-vs-sweden-everything-you-should-know.html) — 2026-06-26 — Japan, Sweden, Culture
-- [AI's Game Plan: How AI is Transforming Paraguay vs Australia](https://sluintel.github.io/posts/2026-06-26-how-ai-is-transforming-paraguay-vs-australia.html) — 2026-06-26 — AI in Sports, Football Analytics, Sports Tech
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
