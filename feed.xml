@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 28 Jun 2026 00:14:25 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 28 Jun 2026 04:52:11 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[James Rodríguez: AI's Latest Updates on a Dynamic Football Career]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-28-james-rodriguez-latest-updates-ai-football.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-28-james-rodriguez-latest-updates-ai-football.html</guid>
+    <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Uncover the latest updates on James Rodríguez through an AI lens. See how advanced analytics track his career, predict future impact, and redefine football insights. Essential for sports tech enthusiasts!]]></description>
+    <enclosure url="https://images.pexels.com/photos/28919444/pexels-photo-28919444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI in Sports</category>
+    <category>Football Analytics</category>
+    <category>James Rodríguez</category>
+    <category>Player Performance</category>
+    <category>Sports Tech</category>
+  </item>
   <item>
     <title><![CDATA[Amir Jangoo Explained Simply: Unpacking the West Indies Wicketkeeper]]></title>
     <link>https://sluintel.github.io/posts/2026-06-28-amir-jangoo-explained-simply.html</link>
@@ -258,19 +271,6 @@
     <category>Digital Services Tax</category>
     <category>Tech Regulation</category>
     <category>EU US Trade</category>
-  </item>
-  <item>
-    <title><![CDATA[Why The Jungle Movie Is Breaking The Internet in 2026]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-27-why-the-jungle-movie-is-breaking-the-internet.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-27-why-the-jungle-movie-is-breaking-the-internet.html</guid>
-    <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Uncover why The Jungle Movie is breaking the internet. We dissect its viral secrets, from compelling characters to meme-worthy moments, and how it's dominating 2026 culture. Learn how movies go viral now.]]></description>
-    <enclosure url="https://images.pexels.com/photos/17872012/pexels-photo-17872012.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>viral movies</category>
-    <category>internet trends</category>
-    <category>film analysis</category>
-    <category>social media marketing</category>
-    <category>2026 pop culture</category>
   </item>
 </channel>
 </rss>
