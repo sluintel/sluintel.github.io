@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 754
-Last Updated: 2026-06-27
-Latest Post: Decoding the Top Internet Reactions to Weather Tomorrow
-Latest Post URL: https://sluintel.github.io/posts/2026-06-27-top-internet-reactions-to-weather-tomorrow-2.html
+Total Posts Published: 755
+Last Updated: 2026-06-28
+Latest Post: Amir Jangoo Explained Simply: Unpacking the West Indies Wicketkeeper
+Latest Post URL: https://sluintel.github.io/posts/2026-06-28-amir-jangoo-explained-simply.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Amir Jangoo Explained Simply: Unpacking the West Indies Wicketkeeper](https://sluintel.github.io/posts/2026-06-28-amir-jangoo-explained-simply.html) — 2026-06-28 — Amir Jangoo, Cricket, West Indies Cricket
 - [Decoding the Top Internet Reactions to Weather Tomorrow](https://sluintel.github.io/posts/2026-06-27-top-internet-reactions-to-weather-tomorrow-2.html) — 2026-06-27 — weather analytics, social media trends, digital sentiment
 - [Lockup Season 2 Explained Simply: Navigating 2026's Tech Investment Phases](https://sluintel.github.io/posts/2026-06-27-lockup-season-2-explained-simply.html) — 2026-06-27 — Investment, Tech Finance, Startups
 - [Top Internet Reactions to Weather Tomorrow: Predicting Digital Chatter](https://sluintel.github.io/posts/2026-06-27-top-internet-reactions-to-weather-tomorrow.html) — 2026-06-27 — AI Tools, Social Media Trends, Weather Forecasting
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Pakistan vs Netherlands: Why This Match Is Trending Now](https://sluintel.github.io/posts/2026-06-27-pakistan-vs-netherlands-trending-right-now.html) — 2026-06-27 — cricket, sports trends, AI analytics
 - [Egypt vs Iran Football Standings: Highlights Fans Are Talking About](https://sluintel.github.io/posts/2026-06-27-egypt-iran-national-football-team-standings-highlights-fans-are-talking-about.html) — 2026-06-27 — Egypt National Football Team, Iran National Football Team, Football Standings
 - [Unpacking the Top Internet Reactions to Pakistan vs Netherlands](https://sluintel.github.io/posts/2026-06-27-top-internet-reactions-pakistan-vs-netherlands.html) — 2026-06-27 — Cricket Reactions, Pakistan Cricket, Netherlands Cricket
-- [Unpacking Top Reactions to Egypt vs Iran Football Standings](https://sluintel.github.io/posts/2026-06-27-top-reactions-egypt-national-football-team-vs-iran-national-football-team-standings.html) — 2026-06-27 — football analysis, national teams, Egypt football
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
