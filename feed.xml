@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 29 Jun 2026 10:00:07 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 29 Jun 2026 11:23:11 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[What's Next for T20 World Cup? The Future of Global Cricket]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-29-whats-next-for-t20-world-cup.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-29-whats-next-for-t20-world-cup.html</guid>
+    <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Curious what's next for T20 World Cup? Unpack the future of international cricket, from format changes to global impact. Discover key trends and predictions.]]></description>
+    <enclosure url="https://images.pexels.com/photos/37394087/pexels-photo-37394087.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>T20 World Cup</category>
+    <category>Cricket</category>
+    <category>ICC</category>
+    <category>Future of Cricket</category>
+    <category>Sports Analysis</category>
+  </item>
   <item>
     <title><![CDATA[Why Renuka Singh Is Trending Right Now: Decoding Her 2026 Rise]]></title>
     <link>https://sluintel.github.io/posts/2026-06-29-why-renuka-singh-is-trending-right-now.html</link>
@@ -258,19 +271,6 @@
     <category>Football Prospects</category>
     <category>Midfielder</category>
     <category>La Liga</category>
-  </item>
-  <item>
-    <title><![CDATA[What's Next for WWE SmackDown? Your 2026 Outlook]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-28-whats-next-for-wwe-smackdown.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-28-whats-next-for-wwe-smackdown.html</guid>
-    <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Wondering what's next for WWE SmackDown in 2026? Unpack potential roster changes, evolving storylines, and major creative shifts that will reshape the blue brand. Get ahead of the curve!]]></description>
-    <enclosure url="https://images.pexels.com/photos/4398904/pexels-photo-4398904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>WWE SmackDown</category>
-    <category>Professional Wrestling</category>
-    <category>WWE 2026</category>
-    <category>Wrestling News</category>
-    <category>Sports Entertainment</category>
   </item>
 </channel>
 </rss>
