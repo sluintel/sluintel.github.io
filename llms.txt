@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 790
+Total Posts Published: 791
 Last Updated: 2026-06-29
-Latest Post: Everything You Should Know About Bonus Share: An Investor's Guide
-Latest Post URL: https://sluintel.github.io/posts/2026-06-29-everything-you-should-know-about-bonus-share.html
+Latest Post: गोरखापत्र: Everything You Should Know About Nepal's Oldest Daily
+Latest Post URL: https://sluintel.github.io/posts/2026-06-29-gorkhapatra-everything-you-should-know.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [गोरखापत्र: Everything You Should Know About Nepal's Oldest Daily](https://sluintel.github.io/posts/2026-06-29-gorkhapatra-everything-you-should-know.html) — 2026-06-29 — Nepal, News, Government Media
 - [Everything You Should Know About Bonus Share: An Investor's Guide](https://sluintel.github.io/posts/2026-06-29-everything-you-should-know-about-bonus-share.html) — 2026-06-29 — Bonus Shares, Stock Market, Investing
 - [Latest Updates on Mausam: AI's Forecast for 2026](https://sluintel.github.io/posts/2026-06-29-latest-updates-on-mausam-ai-forecast.html) — 2026-06-29 — AI Forecasting, Weather Tech, Climate Change
 - [South Africa vs Canada: What People Are Truly Saying in 2026](https://sluintel.github.io/posts/2026-06-29-south-africa-vs-canada-what-people-are-saying.html) — 2026-06-29 — South Africa, Canada, Global Affairs
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Decoding Top Internet Reactions to कल का मौसम: Why Weather Goes Viral](https://sluintel.github.io/posts/2026-06-29-top-internet-reactions-kal-ka-mausam.html) — 2026-06-29 — AI Tools, Social Listening, Weather Trends
 - [What's Next for T20 World Cup? The Future of Global Cricket](https://sluintel.github.io/posts/2026-06-29-whats-next-for-t20-world-cup.html) — 2026-06-29 — T20 World Cup, Cricket, ICC
 - [Why Renuka Singh Is Trending Right Now: Decoding Her 2026 Rise](https://sluintel.github.io/posts/2026-06-29-why-renuka-singh-is-trending-right-now.html) — 2026-06-29 — Renuka Singh, Indian Cricket, Women's Cricket
-- [What People Are Saying About Weather Forecasts (2026 Edition)](https://sluintel.github.io/posts/2026-06-29-what-people-are-saying-about-weather-forecast.html) — 2026-06-29 — weather forecast, AI tools, public sentiment
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/

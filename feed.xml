@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 29 Jun 2026 16:41:31 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 29 Jun 2026 17:11:40 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[गोरखापत्र: Everything You Should Know About Nepal's Oldest Daily]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-29-gorkhapatra-everything-you-should-know.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-29-gorkhapatra-everything-you-should-know.html</guid>
+    <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Discover everything about गोरखापत्र, Nepal's historic national daily. Learn its significance, how to access it, and why it's crucial for official news and cultural insight.]]></description>
+    <enclosure url="https://images.pexels.com/photos/14898109/pexels-photo-14898109.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Nepal</category>
+    <category>News</category>
+    <category>Government Media</category>
+    <category>History</category>
+    <category>Public Information</category>
+  </item>
   <item>
     <title><![CDATA[Everything You Should Know About Bonus Share: An Investor's Guide]]></title>
     <link>https://sluintel.github.io/posts/2026-06-29-everything-you-should-know-about-bonus-share.html</link>
@@ -258,19 +271,6 @@
     <category>Automation</category>
     <category>Renuka Singh</category>
     <category>Future of AI</category>
-  </item>
-  <item>
-    <title><![CDATA[Sanju Samson Explained Simply: Decoding Cricket's Enigma]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-28-sanju-samson-explained-simply.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-28-sanju-samson-explained-simply.html</guid>
-    <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Get Sanju Samson explained simply: Unpack the talent, controversies, and unique impact of India's cricket sensation. Master his story in minutes.]]></description>
-    <enclosure url="https://images.pexels.com/photos/30401164/pexels-photo-30401164.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Sanju Samson</category>
-    <category>Cricket India</category>
-    <category>IPL</category>
-    <category>T20 Cricket</category>
-    <category>Wicketkeeper Batsman</category>
   </item>
 </channel>
 </rss>
