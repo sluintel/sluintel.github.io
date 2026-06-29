@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 29 Jun 2026 17:48:20 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 29 Jun 2026 18:21:25 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[The Rise of AI in Kaishū Sano: Mastering Strategy with Machine Intelligence]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-29-the-rise-of-ai-in-kaishu-sano.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-29-the-rise-of-ai-in-kaishu-sano.html</guid>
+    <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Discover how the rise of AI in Kaishū Sano is revolutionizing strategic execution. Learn practical applications, pro tips, and essential tools to supercharge your decision-making in 2026.]]></description>
+    <enclosure url="https://images.pexels.com/photos/30479288/pexels-photo-30479288.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI Strategy</category>
+    <category>Automation</category>
+    <category>Kaishu Sano</category>
+    <category>Tech Innovation</category>
+    <category>Business Transformation</category>
+  </item>
   <item>
     <title><![CDATA[What People Are Saying About Bonus Share: Investor Sentiment Unpacked]]></title>
     <link>https://sluintel.github.io/posts/2026-06-29-what-people-are-saying-about-bonus-share.html</link>
@@ -259,19 +272,6 @@
     <category>Cultural Exchange</category>
     <category>International Relations</category>
     <category>Immigration</category>
-  </item>
-  <item>
-    <title><![CDATA[Granit Xhaka AI: Latest Updates for Winning Strategies in 2026]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-28-granit-xhaka-latest-updates-ai-strategy.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-28-granit-xhaka-latest-updates-ai-strategy.html</guid>
-    <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Discover the latest updates on Granit Xhaka AI, your ultimate tool for data-driven strategic decisions. Learn how to optimize performance and gain a competitive edge in 2026.]]></description>
-    <enclosure url="https://images.pexels.com/photos/7567227/pexels-photo-7567227.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI Strategy</category>
-    <category>Decision Intelligence</category>
-    <category>Automation</category>
-    <category>Predictive Analytics</category>
-    <category>Machine Learning</category>
   </item>
 </channel>
 </rss>

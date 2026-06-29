@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 792
+Total Posts Published: 793
 Last Updated: 2026-06-29
-Latest Post: What People Are Saying About Bonus Share: Investor Sentiment Unpacked
-Latest Post URL: https://sluintel.github.io/posts/2026-06-29-what-people-are-saying-about-bonus-share.html
+Latest Post: The Rise of AI in Kaishū Sano: Mastering Strategy with Machine Intelligence
+Latest Post URL: https://sluintel.github.io/posts/2026-06-29-the-rise-of-ai-in-kaishu-sano.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [The Rise of AI in Kaishū Sano: Mastering Strategy with Machine Intelligence](https://sluintel.github.io/posts/2026-06-29-the-rise-of-ai-in-kaishu-sano.html) — 2026-06-29 — AI Strategy, Automation, Kaishu Sano
 - [What People Are Saying About Bonus Share: Investor Sentiment Unpacked](https://sluintel.github.io/posts/2026-06-29-what-people-are-saying-about-bonus-share.html) — 2026-06-29 — Bonus Share, Stock Market, Investor Sentiment
 - [गोरखापत्र: Everything You Should Know About Nepal's Oldest Daily](https://sluintel.github.io/posts/2026-06-29-gorkhapatra-everything-you-should-know.html) — 2026-06-29 — Nepal, News, Government Media
 - [Everything You Should Know About Bonus Share: An Investor's Guide](https://sluintel.github.io/posts/2026-06-29-everything-you-should-know-about-bonus-share.html) — 2026-06-29 — Bonus Shares, Stock Market, Investing
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Brazil vs Japan Explained Simply: Unpacking Global Dynamics](https://sluintel.github.io/posts/2026-06-29-brazil-vs-japan-explained-simply.html) — 2026-06-29 — Brazil, Japan, Geopolitics
 - [Why Granit Xhaka Is Trending: Decoding His 2026 Renaissance](https://sluintel.github.io/posts/2026-06-29-why-granit-xhaka-is-trending-right-now.html) — 2026-06-29 — football, Granit Xhaka, sports analytics
 - [Decoding Top Internet Reactions to कल का मौसम: Why Weather Goes Viral](https://sluintel.github.io/posts/2026-06-29-top-internet-reactions-kal-ka-mausam.html) — 2026-06-29 — AI Tools, Social Listening, Weather Trends
-- [What's Next for T20 World Cup? The Future of Global Cricket](https://sluintel.github.io/posts/2026-06-29-whats-next-for-t20-world-cup.html) — 2026-06-29 — T20 World Cup, Cricket, ICC
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
