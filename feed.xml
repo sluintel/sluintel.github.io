@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 29 Jun 2026 18:21:25 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 29 Jun 2026 19:17:00 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Ayase Ueda: Decoding Top Internet Reactions & Why They Matter]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-29-top-internet-reactions-ayase-ueda.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-29-top-internet-reactions-ayase-ueda.html</guid>
+    <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack the top internet reactions to Ayase Ueda, understand their digital impact in 2026, and learn how to analyze online sentiment. Stay ahead of the curve!]]></description>
+    <enclosure url="https://images.pexels.com/photos/5849579/pexels-photo-5849579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Ayase Ueda</category>
+    <category>internet reactions</category>
+    <category>social media</category>
+    <category>football analytics</category>
+    <category>digital trends</category>
+  </item>
   <item>
     <title><![CDATA[The Rise of AI in Kaishū Sano: Mastering Strategy with Machine Intelligence]]></title>
     <link>https://sluintel.github.io/posts/2026-06-29-the-rise-of-ai-in-kaishu-sano.html</link>
@@ -259,19 +272,6 @@
     <category>Japan football</category>
     <category>tactical breakdown</category>
     <category>2026 football insights</category>
-  </item>
-  <item>
-    <title><![CDATA[Brazil vs Japan: The Ultimate Guide to Their Cultures & Connections]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-28-brazil-vs-japan-ultimate-guide-cultures-connections.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-28-brazil-vs-japan-ultimate-guide-cultures-connections.html</guid>
-    <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unlock the fascinating world of Brazil vs Japan! Discover their deep cultural ties, economic powerhouse clashes, and surprising shared histories. Get practical insights into what makes these nations unique and intertwined.]]></description>
-    <enclosure url="https://images.pexels.com/photos/37276316/pexels-photo-37276316.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Brazil</category>
-    <category>Japan</category>
-    <category>Cultural Exchange</category>
-    <category>International Relations</category>
-    <category>Immigration</category>
   </item>
 </channel>
 </rss>
