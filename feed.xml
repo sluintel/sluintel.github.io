@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 30 Jun 2026 11:54:20 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 30 Jun 2026 12:23:54 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Cody Gakpo Explained Simply: Unpacking Liverpool's Dynamic Forward]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-30-cody-gakpo-explained-simply.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-30-cody-gakpo-explained-simply.html</guid>
+    <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Get Cody Gakpo explained simply. Uncover his crucial role at Liverpool, his playing style, and why this Dutch star is key for 2026. Essential insights for fans!]]></description>
+    <enclosure url="https://images.pexels.com/photos/7528618/pexels-photo-7528618.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Cody Gakpo</category>
+    <category>Liverpool FC</category>
+    <category>Football Analysis</category>
+    <category>Premier League</category>
+    <category>Dutch National Team</category>
+  </item>
   <item>
     <title><![CDATA[Decoding Fan Buzz: What People Are Saying About Cody Gakpo in 2026]]></title>
     <link>https://sluintel.github.io/posts/2026-06-30-what-people-are-saying-about-cody-gakpo.html</link>
@@ -260,19 +273,6 @@
     <category>Government Media</category>
     <category>History</category>
     <category>Public Information</category>
-  </item>
-  <item>
-    <title><![CDATA[Everything You Should Know About Bonus Share: An Investor's Guide]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-29-everything-you-should-know-about-bonus-share.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-29-everything-you-should-know-about-bonus-share.html</guid>
-    <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unlock the secrets of bonus shares. Discover what they are, how they impact your investments, and strategies for smart financial planning. Get all the insights here!]]></description>
-    <enclosure url="https://images.pexels.com/photos/7014310/pexels-photo-7014310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Bonus Shares</category>
-    <category>Stock Market</category>
-    <category>Investing</category>
-    <category>Shareholder Value</category>
-    <category>Corporate Actions</category>
   </item>
 </channel>
 </rss>
