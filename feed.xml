@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 30 Jun 2026 21:45:31 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 30 Jun 2026 23:37:09 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[West Indies vs Australia: Top Internet Reactions Unpacked]]></title>
+    <link>https://sluintel.github.io/posts/2026-06-30-top-internet-reactions-west-indies-vs-australia.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-30-top-internet-reactions-west-indies-vs-australia.html</guid>
+    <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Dive into the wildest West Indies vs Australia internet reactions! Understand fan psychology, meme culture, and viral moments that shaped cricket's biggest digital showdowns. Get expert insights.]]></description>
+    <enclosure url="https://images.pexels.com/photos/16545274/pexels-photo-16545274.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>cricket</category>
+    <category>West Indies</category>
+    <category>Australia</category>
+    <category>internet reactions</category>
+    <category>fan culture</category>
+  </item>
   <item>
     <title><![CDATA[Guo Wengui: Unpacking the Latest Updates & What You Need to Know]]></title>
     <link>https://sluintel.github.io/posts/2026-06-30-the-latest-updates-on-guo-wengui.html</link>
@@ -259,19 +272,6 @@
     <category>Sports Rivalry</category>
     <category>Rugby</category>
     <category>Cricket</category>
-  </item>
-  <item>
-    <title><![CDATA[Cody Gakpo: Everything You Need to Know About Liverpool's Star]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-30-cody-gakpo-everything-you-should-know.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-30-cody-gakpo-everything-you-should-know.html</guid>
-    <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unpack Cody Gakpo's journey, playing style, and future impact. Discover why he's vital for Liverpool and the Netherlands. Get the full scoop here!]]></description>
-    <enclosure url="https://images.pexels.com/photos/7014310/pexels-photo-7014310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Football</category>
-    <category>Premier League</category>
-    <category>Liverpool FC</category>
-    <category>Netherlands</category>
-    <category>Cody Gakpo</category>
   </item>
 </channel>
 </rss>
