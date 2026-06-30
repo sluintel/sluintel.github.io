@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 819
+Total Posts Published: 820
 Last Updated: 2026-06-30
-Latest Post: Martin Ødegaard Explained Simply: Arsenal's Midfield Maestro Unpacked
-Latest Post URL: https://sluintel.github.io/posts/2026-06-30-martin-degaard-explained-simply.html
+Latest Post: Guo Wengui: Unpacking the Latest Updates & What You Need to Know
+Latest Post URL: https://sluintel.github.io/posts/2026-06-30-the-latest-updates-on-guo-wengui.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Guo Wengui: Unpacking the Latest Updates & What You Need to Know](https://sluintel.github.io/posts/2026-06-30-the-latest-updates-on-guo-wengui.html) — 2026-06-30 — Guo Wengui, financial fraud, legal challenges
 - [Martin Ødegaard Explained Simply: Arsenal's Midfield Maestro Unpacked](https://sluintel.github.io/posts/2026-06-30-martin-degaard-explained-simply.html) — 2026-06-30 — Martin Ødegaard, Arsenal, Premier League
 - [FIFA Ranking: What's Next for Global Football Supremacy?](https://sluintel.github.io/posts/2026-06-30-whats-next-for-fifa-ranking.html) — 2026-06-30 — FIFA ranking, football analytics, World Cup qualification
 - [Ange-Yoan Bonny Explained Simply: Unpacking Football's Rising Star](https://sluintel.github.io/posts/2026-06-30-ange-yoan-bonny-explained-simply.html) — 2026-06-30 — Ange-Yoan Bonny, FootballExplained, Clermont Foot
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Why Netherlands vs Morocco is Trending Right Now: Decoding the 2026 Buzz](https://sluintel.github.io/posts/2026-06-30-why-netherlands-vs-morocco-is-trending-right-now.html) — 2026-06-30 — Netherlands, Morocco, Trending 2026
 - [West Indies vs Australia: Everything You Should Know About This Rivalry](https://sluintel.github.io/posts/2026-06-30-west-indies-vs-australia-everything-you-should-know.html) — 2026-06-30 — cricket, West Indies, Australia
 - [Why Cody Gakpo Is Trending Right Now: Decoding His 2026 Surge](https://sluintel.github.io/posts/2026-06-30-why-cody-gakpo-is-trending-right-now.html) — 2026-06-30 — Cody Gakpo, Football, Liverpool FC
-- [Cody Gakpo Explained Simply: Unpacking Liverpool's Dynamic Forward](https://sluintel.github.io/posts/2026-06-30-cody-gakpo-explained-simply.html) — 2026-06-30 — Cody Gakpo, Liverpool FC, Football Analysis
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
