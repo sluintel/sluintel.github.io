@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 835
+Total Posts Published: 836
 Last Updated: 2026-07-01
-Latest Post: Humanoid Robot: The Future Workforce You Need to Understand
-Latest Post URL: https://sluintel.github.io/posts/2026-07-01-humanoid-robot-future-workforce.html
+Latest Post: India vs England Explained Simply: A Deep Dive into Their Complex Relationship
+Latest Post URL: https://sluintel.github.io/posts/2026-07-01-india-vs-england-explained-simply.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [India vs England Explained Simply: A Deep Dive into Their Complex Relationship](https://sluintel.github.io/posts/2026-07-01-india-vs-england-explained-simply.html) — 2026-07-01 — india england relations, geopolitics 2026, cricket rivalry
 - [Humanoid Robot: The Future Workforce You Need to Understand](https://sluintel.github.io/posts/2026-07-01-humanoid-robot-future-workforce.html) — 2026-07-01 — humanoid robots, AI, robotics
 - [Julián Quiñones Explained Simply: Decoding Liga MX's Dynamic Forward](https://sluintel.github.io/posts/2026-07-01-julian-quinones-explained-simply.html) — 2026-07-01 — Julián Quiñones, Liga MX, Club América
 - [Why Eng vs Ind is Trending Right Now: AI Decodes the Cricket Craze](https://sluintel.github.io/posts/2026-07-01-why-eng-vs-ind-is-trending-right-now.html) — 2026-07-01 — AI Trends, Sports Analytics, Cricket
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Why Brazil vs Norway is Trending Right Now: Decoding the 2026 Buzz](https://sluintel.github.io/posts/2026-07-01-why-brazil-vs-norway-is-trending-right-now-2.html) — 2026-07-01 — BrazilNorway, SportsTrends, AIinSports
 - [FIFA World Cup Brackets: Everything Happening & Your Winning Playbook](https://sluintel.github.io/posts/2026-07-01-everything-happening-around-fifa-world-cup-brackets.html) — 2026-07-01 — FIFA World Cup 2026, World Cup Brackets, Football Prediction
 - [Why Brazil vs Norway is Trending Right Now: Decoding the 2026 Buzz](https://sluintel.github.io/posts/2026-07-01-why-brazil-vs-norway-is-trending-right-now.html) — 2026-07-01 — Brazil Football, Norway Football, Trending Topics 2026
-- [Delivery Robot: Your Guide to Autonomous Last-Mile Logistics](https://sluintel.github.io/posts/2026-07-01-delivery-robot-autonomous-last-mile-logistics.html) — 2026-07-01 — delivery robot, AI automation, robotics
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
