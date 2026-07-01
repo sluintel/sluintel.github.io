@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 842
+Total Posts Published: 843
 Last Updated: 2026-07-01
-Latest Post: Lionel Mpasi Reactions: Decoding Top Internet Fan Sentiment
-Latest Post URL: https://sluintel.github.io/posts/2026-07-01-top-internet-reactions-lionel-mpasi.html
+Latest Post: Adil Rashid Explained Simply: England's Spin Wizard Unpacked
+Latest Post URL: https://sluintel.github.io/posts/2026-07-01-adil-rashid-explained-simply.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Adil Rashid Explained Simply: England's Spin Wizard Unpacked](https://sluintel.github.io/posts/2026-07-01-adil-rashid-explained-simply.html) — 2026-07-01 — Adil Rashid, England Cricket, Cricket Explained
 - [Lionel Mpasi Reactions: Decoding Top Internet Fan Sentiment](https://sluintel.github.io/posts/2026-07-01-top-internet-reactions-lionel-mpasi.html) — 2026-07-01 — Lionel Mpasi, football reactions, fan sentiment
 - [Aaron Wan-Bissaka: Everything You Need to Know About 'The Spider'](https://sluintel.github.io/posts/2026-07-01-aaron-wan-bissaka-everything-you-should-know.html) — 2026-07-01 — football, premier league, manchester united
 - [Top Internet Reactions to Jordan Pickford: Decoding Fan Culture](https://sluintel.github.io/posts/2026-07-01-top-internet-reactions-to-jordan-pickford.html) — 2026-07-01 — Jordan Pickford, Internet Reactions, Football Culture
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [India vs England Explained Simply: A Deep Dive into Their Complex Relationship](https://sluintel.github.io/posts/2026-07-01-india-vs-england-explained-simply.html) — 2026-07-01 — india england relations, geopolitics 2026, cricket rivalry
 - [Humanoid Robot: The Future Workforce You Need to Understand](https://sluintel.github.io/posts/2026-07-01-humanoid-robot-future-workforce.html) — 2026-07-01 — humanoid robots, AI, robotics
 - [Julián Quiñones Explained Simply: Decoding Liga MX's Dynamic Forward](https://sluintel.github.io/posts/2026-07-01-julian-quinones-explained-simply.html) — 2026-07-01 — Julián Quiñones, Liga MX, Club América
-- [Why Eng vs Ind is Trending Right Now: AI Decodes the Cricket Craze](https://sluintel.github.io/posts/2026-07-01-why-eng-vs-ind-is-trending-right-now.html) — 2026-07-01 — AI Trends, Sports Analytics, Cricket
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/

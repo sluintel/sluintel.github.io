@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 01 Jul 2026 22:40:09 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 01 Jul 2026 23:40:49 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Adil Rashid Explained Simply: England's Spin Wizard Unpacked]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-01-adil-rashid-explained-simply.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-01-adil-rashid-explained-simply.html</guid>
+    <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Demystify Adil Rashid's genius! Understand how this leg-spinner became England's white-ball cricket linchpin, his crucial variations, and why he's vital. Adil Rashid explained simply.]]></description>
+    <enclosure url="https://images.pexels.com/photos/30207231/pexels-photo-30207231.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Adil Rashid</category>
+    <category>England Cricket</category>
+    <category>Cricket Explained</category>
+    <category>Leg-Spin</category>
+    <category>White-Ball Cricket</category>
+  </item>
   <item>
     <title><![CDATA[Lionel Mpasi Reactions: Decoding Top Internet Fan Sentiment]]></title>
     <link>https://sluintel.github.io/posts/2026-07-01-top-internet-reactions-lionel-mpasi.html</link>
@@ -259,19 +272,6 @@
     <category>Sports Betting</category>
     <category>Bracketology</category>
     <category>Tournament Strategy</category>
-  </item>
-  <item>
-    <title><![CDATA[Martin Ødegaard: The Latest Updates on Arsenal's AI-Driven Midfield Maestro]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-01-the-latest-updates-on-martin-degaard.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-01-the-latest-updates-on-martin-degaard.html</guid>
-    <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Stay ahead on the latest updates on Martin Ødegaard! Discover his 2026 performance, tactical shifts, and how AI is shaping his future. Essential for fans and fantasy managers.]]></description>
-    <enclosure url="https://images.pexels.com/photos/5798972/pexels-photo-5798972.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Martin Ødegaard</category>
-    <category>Arsenal</category>
-    <category>Premier League</category>
-    <category>Football Analytics</category>
-    <category>AI in Sports</category>
   </item>
 </channel>
 </rss>
