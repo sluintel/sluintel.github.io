@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 01 Jul 2026 21:45:29 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 01 Jul 2026 22:40:09 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Lionel Mpasi Reactions: Decoding Top Internet Fan Sentiment]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-01-top-internet-reactions-lionel-mpasi.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-01-top-internet-reactions-lionel-mpasi.html</guid>
+    <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack the top internet reactions to Lionel Mpasi's viral moments. Discover what drives fan sentiment, shapes athlete narratives, and impacts digital football culture in 2026.]]></description>
+    <enclosure url="https://images.pexels.com/photos/3928259/pexels-photo-3928259.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Lionel Mpasi</category>
+    <category>football reactions</category>
+    <category>fan sentiment</category>
+    <category>social media trends</category>
+    <category>goalkeeper performance</category>
+  </item>
   <item>
     <title><![CDATA[Aaron Wan-Bissaka: Everything You Need to Know About 'The Spider']]></title>
     <link>https://sluintel.github.io/posts/2026-07-01-aaron-wan-bissaka-everything-you-should-know.html</link>
@@ -259,19 +272,6 @@
     <category>Premier League</category>
     <category>Football Analytics</category>
     <category>AI in Sports</category>
-  </item>
-  <item>
-    <title><![CDATA[Guo Wengui Updates: What's New in His Legal Battles?]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-01-guo-wengui-updates-legal-battles.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-01-guo-wengui-updates-legal-battles.html</guid>
-    <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Stay informed on the latest updates on Guo Wengui's legal battles, fraud allegations, and extradition efforts. Understand the complex implications for global finance and dissent.]]></description>
-    <enclosure url="https://images.pexels.com/photos/34067357/pexels-photo-34067357.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Guo Wengui</category>
-    <category>Chinese Dissident</category>
-    <category>Financial Fraud</category>
-    <category>Legal Updates</category>
-    <category>Rule of Law Foundation</category>
   </item>
 </channel>
 </rss>
