@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 01 Jul 2026 11:34:01 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 01 Jul 2026 12:18:19 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Mexico vs Ecuador: Everything You Should Know About Their Fiery Rivalry]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-01-mexico-vs-ecuador-everything-you-should-know.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-01-mexico-vs-ecuador-everything-you-should-know.html</guid>
+    <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack the dynamic Mexico vs Ecuador rivalry. Discover their football history, economic ties, and what makes these nations distinct. Get expert insights for 2026.]]></description>
+    <enclosure url="https://images.pexels.com/photos/14772272/pexels-photo-14772272.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Football Rivalries</category>
+    <category>Mexico Football</category>
+    <category>Ecuador Football</category>
+    <category>Latin American Soccer</category>
+    <category>International Football</category>
+  </item>
   <item>
     <title><![CDATA[Why Brazil vs Norway is Trending Right Now: Decoding the 2026 Buzz]]></title>
     <link>https://sluintel.github.io/posts/2026-07-01-why-brazil-vs-norway-is-trending-right-now-2.html</link>
@@ -259,19 +272,6 @@
     <category>Liverpool FC</category>
     <category>Eredivisie</category>
     <category>Transfer Rumors</category>
-  </item>
-  <item>
-    <title><![CDATA[Cody Gakpo Explained Simply: Unpacking Liverpool's Dynamic Forward]]></title>
-    <link>https://sluintel.github.io/posts/2026-06-30-cody-gakpo-explained-simply.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-06-30-cody-gakpo-explained-simply.html</guid>
-    <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Get Cody Gakpo explained simply. Uncover his crucial role at Liverpool, his playing style, and why this Dutch star is key for 2026. Essential insights for fans!]]></description>
-    <enclosure url="https://images.pexels.com/photos/7528618/pexels-photo-7528618.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Cody Gakpo</category>
-    <category>Liverpool FC</category>
-    <category>Football Analysis</category>
-    <category>Premier League</category>
-    <category>Dutch National Team</category>
   </item>
 </channel>
 </rss>
