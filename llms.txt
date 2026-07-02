@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 844
+Total Posts Published: 845
 Last Updated: 2026-07-02
-Latest Post: TikTok Latest Buzz: Decoding Fan Reactions & Viral Trends
-Latest Post URL: https://sluintel.github.io/posts/2026-07-02-tiktok-latest-buzz-fan-reactions.html
+Latest Post: Jude Bellingham: The Midfield Maestro You Can't Ignore
+Latest Post URL: https://sluintel.github.io/posts/2026-07-02-jude-bellingham-everything-you-should-know.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Jude Bellingham: The Midfield Maestro You Can't Ignore](https://sluintel.github.io/posts/2026-07-02-jude-bellingham-everything-you-should-know.html) — 2026-07-02 — Jude Bellingham, football, Real Madrid
 - [TikTok Latest Buzz: Decoding Fan Reactions & Viral Trends](https://sluintel.github.io/posts/2026-07-02-tiktok-latest-buzz-fan-reactions.html) — 2026-07-02 — TikTok, Social Media, Viral Trends
 - [Adil Rashid Explained Simply: England's Spin Wizard Unpacked](https://sluintel.github.io/posts/2026-07-01-adil-rashid-explained-simply.html) — 2026-07-01 — Adil Rashid, England Cricket, Cricket Explained
 - [Lionel Mpasi Reactions: Decoding Top Internet Fan Sentiment](https://sluintel.github.io/posts/2026-07-01-top-internet-reactions-lionel-mpasi.html) — 2026-07-01 — Lionel Mpasi, football reactions, fan sentiment
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Vinícius Júnior Explained Simply: Real Madrid's Global Superstar](https://sluintel.github.io/posts/2026-07-01-vinicius-junior-explained-simply.html) — 2026-07-01 — Vinicius Junior, Real Madrid, Football
 - [Unpacking Top Internet Reactions to Belgium vs Senegal](https://sluintel.github.io/posts/2026-07-01-top-internet-reactions-belgium-vs-senegal.html) — 2026-07-01 — Football, Fan Reactions, Belgium
 - [India vs England Explained Simply: A Deep Dive into Their Complex Relationship](https://sluintel.github.io/posts/2026-07-01-india-vs-england-explained-simply.html) — 2026-07-01 — india england relations, geopolitics 2026, cricket rivalry
-- [Humanoid Robot: The Future Workforce You Need to Understand](https://sluintel.github.io/posts/2026-07-01-humanoid-robot-future-workforce.html) — 2026-07-01 — humanoid robots, AI, robotics
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
