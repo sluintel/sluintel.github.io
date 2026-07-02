@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 863
+Total Posts Published: 864
 Last Updated: 2026-07-02
-Latest Post: Tesla Model Y Long Range: Still Your Top EV Pick for 2026?
-Latest Post URL: https://sluintel.github.io/posts/2026-07-02-tesla-model-y-long-range-review-2026.html
+Latest Post: Unpacking Top Internet Reactions to NEPSE: A Digital Deep Dive
+Latest Post URL: https://sluintel.github.io/posts/2026-07-02-top-internet-reactions-to-nepse.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Unpacking Top Internet Reactions to NEPSE: A Digital Deep Dive](https://sluintel.github.io/posts/2026-07-02-top-internet-reactions-to-nepse.html) — 2026-07-02 — NEPSE, Stock Market Nepal, Market Sentiment
 - [Tesla Model Y Long Range: Still Your Top EV Pick for 2026?](https://sluintel.github.io/posts/2026-07-02-tesla-model-y-long-range-review-2026.html) — 2026-07-02 — Tesla Model Y, Electric SUV, EV Review
 - [Álex Baena: Everything You Should Know About La Liga's Rising Star](https://sluintel.github.io/posts/2026-07-02-alex-baena-everything-you-should-know.html) — 2026-07-02 — Álex Baena, Villarreal CF, La Liga
 - [Mastering the Model Y Long Range: Your 2026 EV Playbook](https://sluintel.github.io/posts/2026-07-02-tesla-model-y-long-range-guide.html) — 2026-07-02 — Tesla Model Y, Electric SUV, EV Range
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Portugal vs Croatia: Everything You Should Know for 2026 Showdowns](https://sluintel.github.io/posts/2026-07-02-portugal-vs-croatia-everything-you-should-know.html) — 2026-07-02 — Football, Portugal, Croatia
 - [Football FIFA World Cup Latest Updates & Predictions: Your 2026 Guide](https://sluintel.github.io/posts/2026-07-02-football-fifa-world-cup-latest-updates-predictions.html) — 2026-07-02 — FIFA World Cup, Football Predictions, World Cup 2026
 - [AI-Powered Innovations in Spain vs Austria: Who Leads the Tech Race?](https://sluintel.github.io/posts/2026-07-02-ai-powered-innovations-in-spain-vs-austria.html) — 2026-07-02 — AI Innovation, Spain AI, Austria AI
-- [USA vs Bosnia and Herzegovina: The Latest Updates & AI Insights](https://sluintel.github.io/posts/2026-07-02-latest-updates-usa-vs-bosnia-and-herzegovina-ai-analysis.html) — 2026-07-02 — USA soccer, Bosnia and Herzegovina football, AI sports analysis
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
