@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 852
+Total Posts Published: 853
 Last Updated: 2026-07-02
-Latest Post: Why Jordan Pickford Is Trending Right Now: Decoding His 2026 Buzz
-Latest Post URL: https://sluintel.github.io/posts/2026-07-02-why-jordan-pickford-is-trending-right-now.html
+Latest Post: Decoding the Buzz: What People Are Saying About Shreyas Iyer in 2026
+Latest Post URL: https://sluintel.github.io/posts/2026-07-02-what-people-are-saying-about-shreyas-iyer.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Decoding the Buzz: What People Are Saying About Shreyas Iyer in 2026](https://sluintel.github.io/posts/2026-07-02-what-people-are-saying-about-shreyas-iyer.html) — 2026-07-02 — Shreyas Iyer, cricket analysis, fan sentiment
 - [Why Jordan Pickford Is Trending Right Now: Decoding His 2026 Buzz](https://sluintel.github.io/posts/2026-07-02-why-jordan-pickford-is-trending-right-now.html) — 2026-07-02 — Jordan Pickford, football, goalkeeper
 - [Portugal vs Croatia Explained Simply: Unpacking Key Differences](https://sluintel.github.io/posts/2026-07-02-portugal-vs-croatia-explained-simply.html) — 2026-07-02 — Portugal, Croatia, European Union
 - [Why Vinícius Júnior Is Trending Right Now: Decoding His 2026 Buzz](https://sluintel.github.io/posts/2026-07-02-why-vinicius-junior-is-trending-right-now.html) — 2026-07-02 — Vinicius Junior, Football Trends, Real Madrid
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [What People Are Saying About Sanju Samson: Fan Buzz Unpacked](https://sluintel.github.io/posts/2026-07-02-what-people-are-saying-about-sanju-samson.html) — 2026-07-02 — Sanju Samson, Cricket Sentiment, IPL 2026
 - [Jude Bellingham: The Midfield Maestro You Can't Ignore](https://sluintel.github.io/posts/2026-07-02-jude-bellingham-everything-you-should-know.html) — 2026-07-02 — Jude Bellingham, football, Real Madrid
 - [TikTok Latest Buzz: Decoding Fan Reactions & Viral Trends](https://sluintel.github.io/posts/2026-07-02-tiktok-latest-buzz-fan-reactions.html) — 2026-07-02 — TikTok, Social Media, Viral Trends
-- [Adil Rashid Explained Simply: England's Spin Wizard Unpacked](https://sluintel.github.io/posts/2026-07-01-adil-rashid-explained-simply.html) — 2026-07-01 — Adil Rashid, England Cricket, Cricket Explained
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
