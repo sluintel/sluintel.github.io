@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 878
+Total Posts Published: 879
 Last Updated: 2026-07-03
-Latest Post: Your Edge: Football World Cup Latest Updates & Predictions for 2026
-Latest Post URL: https://sluintel.github.io/posts/2026-07-03-football-world-cup-latest-updates-predictions.html
+Latest Post: Decoding RBB: Everything You Should Know About Real-time Bidding
+Latest Post URL: https://sluintel.github.io/posts/2026-07-03-rbb-real-time-bidding-everything-you-should-know.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Decoding RBB: Everything You Should Know About Real-time Bidding](https://sluintel.github.io/posts/2026-07-03-rbb-real-time-bidding-everything-you-should-know.html) — 2026-07-03 — AI Tools, Automation, Ad Tech
 - [Your Edge: Football World Cup Latest Updates & Predictions for 2026](https://sluintel.github.io/posts/2026-07-03-football-world-cup-latest-updates-predictions.html) — 2026-07-03 — World Cup 2026, Football Predictions, AI Sports Analytics
 - [What People Are Saying About the Empire State Building in 2026](https://sluintel.github.io/posts/2026-07-03-what-people-are-saying-about-empire-state-building.html) — 2026-07-03 — Empire State Building, NYC Travel, Tourist Reviews
 - [FIFA Latest Updates & Predictions: Master the Beautiful Game](https://sluintel.github.io/posts/2026-07-03-fifa-latest-updates-predictions.html) — 2026-07-03 — FIFA, World Cup 2026, Football Predictions
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Empire State Building: Latest Updates You Can't Miss (2026)](https://sluintel.github.io/posts/2026-07-03-the-latest-updates-on-empire-state-building.html) — 2026-07-03 — Empire State Building, NYC attractions, tourism
 - [Álex Baena Explained Simply: Unpacking La Liga's Midfield Maestro](https://sluintel.github.io/posts/2026-07-03-alex-baena-explained-simply.html) — 2026-07-03 — Álex Baena, La Liga, Villarreal
 - [Mikel Oyarzabal: Everything You Should Know About La Liga's Silent Leader](https://sluintel.github.io/posts/2026-07-03-mikel-oyarzabal-everything-you-should-know.html) — 2026-07-03 — Mikel Oyarzabal, Real Sociedad, La Liga
-- [Diogo Jota Explained Simply: Decoding Football's Tactical Wizard](https://sluintel.github.io/posts/2026-07-03-jota-explained-simply-2.html) — 2026-07-03 — Diogo Jota, Football Analysis, Premier League
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
