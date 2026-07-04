@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 890
+Total Posts Published: 891
 Last Updated: 2026-07-04
-Latest Post: What People Are Saying About Argentina vs Cabo Verde: The Unexpected Buzz
-Latest Post URL: https://sluintel.github.io/posts/2026-07-04-what-people-are-saying-about-argentina-vs-cabo-verde.html
+Latest Post: Deroy Duarte Explained Simply: Fortuna Sittard's Midfield General
+Latest Post URL: https://sluintel.github.io/posts/2026-07-04-deroy-duarte-explained-simply.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Deroy Duarte Explained Simply: Fortuna Sittard's Midfield General](https://sluintel.github.io/posts/2026-07-04-deroy-duarte-explained-simply.html) — 2026-07-04 — Deroy Duarte, Football, Fortuna Sittard
 - [What People Are Saying About Argentina vs Cabo Verde: The Unexpected Buzz](https://sluintel.github.io/posts/2026-07-04-what-people-are-saying-about-argentina-vs-cabo-verde.html) — 2026-07-04 — Argentina, Cabo Verde, Football
 - [Why the Empire State Building Is Trending: Decoding Its 2026 Buzz](https://sluintel.github.io/posts/2026-07-04-why-empire-state-building-is-trending-right-now.html) — 2026-07-04 — Empire State Building, Trending 2026, AI in Tourism
 - [What People Are Saying About WI vs SL: The Ultimate Cricket Showdown](https://sluintel.github.io/posts/2026-07-03-what-people-are-saying-about-wi-vs-sl.html) — 2026-07-03 — Cricket, WI vs SL, Sports Analysis
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Claude Giroux: The Enduring Legacy of an NHL Star in 2026](https://sluintel.github.io/posts/2026-07-03-claude-giroux-nhl-legacy-strategy.html) — 2026-07-03 — Claude Giroux, NHL, Hockey Strategy
 - [Sri Lanka vs West Indies: Your Ultimate Guide to Cricket's Island Clash](https://sluintel.github.io/posts/2026-07-03-sri-lanka-vs-west-indies-ultimate-guide.html) — 2026-07-03 — Cricket Analysis, Sri Lanka Cricket, West Indies Cricket
 - [UIDAI App Email Update Service: Secure Your Aadhaar, Stay Current](https://sluintel.github.io/posts/2026-07-03-uidai-app-email-update-service-2.html) — 2026-07-03 — UIDAI, Aadhaar, Email Update
-- [UIDAI App Email Update Service: Secure Your Digital Aadhaar](https://sluintel.github.io/posts/2026-07-03-uidai-app-email-update-service.html) — 2026-07-03 — Aadhaar, UIDAI, Email Update
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
