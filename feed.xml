@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 04 Jul 2026 11:02:34 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 04 Jul 2026 11:46:13 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[How Generative AI is Impacting WhatsApp Usernames (2026 Guide)]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-04-how-generative-ai-is-impacting-whatsapp-usernames.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-04-how-generative-ai-is-impacting-whatsapp-usernames.html</guid>
+    <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Discover how generative AI is profoundly impacting WhatsApp usernames, transforming digital identity, and offering new, creative ways to craft your online persona. Get expert insights into AI-powered naming strategies.]]></description>
+    <enclosure url="https://images.pexels.com/photos/6473733/pexels-photo-6473733.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>generative AI</category>
+    <category>WhatsApp</category>
+    <category>usernames</category>
+    <category>digital identity</category>
+    <category>AI tools</category>
+  </item>
   <item>
     <title><![CDATA[Why Colombia vs Ghana is Trending Right Now: AI Decodes the Buzz]]></title>
     <link>https://sluintel.github.io/posts/2026-07-04-why-colombia-vs-ghana-is-trending-right-now.html</link>
@@ -260,19 +273,6 @@
     <category>Email Update</category>
     <category>Digital Identity</category>
     <category>Government Services</category>
-  </item>
-  <item>
-    <title><![CDATA[What People Are Saying About RBB: Decoding the Future of AI Interaction]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-03-what-people-are-saying-about-rbb.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-03-what-people-are-saying-about-rbb.html</guid>
-    <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Discover what people are saying about RBB, the cutting-edge AI platform. Unpack user sentiment, future predictions, and practical tips for engaging with this transformative technology in 2026.]]></description>
-    <enclosure url="https://images.pexels.com/photos/15354593/pexels-photo-15354593.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI tools</category>
-    <category>automation</category>
-    <category>tech trends</category>
-    <category>user sentiment</category>
-    <category>RBB</category>
   </item>
 </channel>
 </rss>
