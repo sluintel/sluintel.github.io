@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 05 Jul 2026 12:42:18 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 05 Jul 2026 14:04:24 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Instagram in 2026: Everything to Know for Growth & Connection]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-05-everything-to-know-about-instagram.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-05-everything-to-know-about-instagram.html</guid>
+    <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Master Instagram in 2026! Discover its core features, latest trends, and expert strategies to boost your presence. Get everything to know about Instagram and dominate your niche.]]></description>
+    <enclosure url="https://images.pexels.com/photos/6941099/pexels-photo-6941099.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Instagram</category>
+    <category>Social Media</category>
+    <category>Digital Marketing</category>
+    <category>AI Tools</category>
+    <category>Automation</category>
+  </item>
   <item>
     <title><![CDATA[Jos Buttler's Latest Updates: An AI-Driven Performance Review]]></title>
     <link>https://sluintel.github.io/posts/2026-07-05-jos-buttler-latest-updates-performance-review.html</link>
@@ -259,20 +272,6 @@
     <category>T20 Cricket</category>
     <category>Trending</category>
     <category>Sports Analysis</category>
-  </item>
-  <item>
-    <title><![CDATA[Shreyas Iyer: Decoding What People Are Saying in 2026]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-04-what-people-are-saying-about-shreyas-iyer.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-04-what-people-are-saying-about-shreyas-iyer.html</guid>
-    <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Uncover the real-time buzz around Shreyas Iyer in 2026. This comprehensive guide leverages sentiment analysis to reveal fan opinions, performance debates, and future expectations. Stay informed!]]></description>
-    <enclosure url="https://images.pexels.com/photos/20418610/pexels-photo-20418610.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Shreyas Iyer</category>
-    <category>Cricket</category>
-    <category>Sentiment Analysis</category>
-    <category>Social Listening</category>
-    <category>Sports Tech</category>
-    <category>AI Analytics</category>
   </item>
 </channel>
 </rss>
