@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 05 Jul 2026 11:47:51 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 05 Jul 2026 12:42:18 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Jos Buttler's Latest Updates: An AI-Driven Performance Review]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-05-jos-buttler-latest-updates-performance-review.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-05-jos-buttler-latest-updates-performance-review.html</guid>
+    <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unlock the latest updates on Jos Buttler's career. Dive deep into his performance, strategic impact, and future prospects with an data-informed analysis. Stay ahead of the game!]]></description>
+    <enclosure url="https://images.pexels.com/photos/38375326/pexels-photo-38375326.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Jos Buttler</category>
+    <category>Cricket Analytics</category>
+    <category>Sports Strategy</category>
+    <category>Performance Data</category>
+    <category>AI in Sports</category>
+  </item>
   <item>
     <title><![CDATA[AI's Pitch: How AI is Transforming Paraguay vs France Football]]></title>
     <link>https://sluintel.github.io/posts/2026-07-05-how-ai-is-transforming-paraguay-vs-france-football.html</link>
@@ -260,19 +273,6 @@
     <category>Social Listening</category>
     <category>Sports Tech</category>
     <category>AI Analytics</category>
-  </item>
-  <item>
-    <title><![CDATA[The Latest Updates on Play Store: Your 2026 App Guide]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-04-the-latest-updates-on-play-store.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-04-the-latest-updates-on-play-store.html</guid>
-    <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Discover the latest updates on Play Store for 2026. Uncover new features, enhanced security, and smarter app discovery to optimize your Android experience. Get ahead of the curve!]]></description>
-    <enclosure url="https://images.pexels.com/photos/31113917/pexels-photo-31113917.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Play Store</category>
-    <category>Android Apps</category>
-    <category>Google Play</category>
-    <category>App Updates</category>
-    <category>Tech 2026</category>
   </item>
 </channel>
 </rss>
