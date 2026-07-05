@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 927
+Total Posts Published: 928
 Last Updated: 2026-07-05
-Latest Post: Top Internet Reactions to Morocco vs Canada: Decoding Fan Frenzy
-Latest Post URL: https://sluintel.github.io/posts/2026-07-05-top-internet-reactions-morocco-vs-canada-2.html
+Latest Post: Achraf Hakimi: Everything You Should Know About Football's Dynamic Wing-Back
+Latest Post URL: https://sluintel.github.io/posts/2026-07-05-achraf-hakimi-everything-you-should-know.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Achraf Hakimi: Everything You Should Know About Football's Dynamic Wing-Back](https://sluintel.github.io/posts/2026-07-05-achraf-hakimi-everything-you-should-know.html) — 2026-07-05 — Achraf Hakimi, Football, PSG
 - [Top Internet Reactions to Morocco vs Canada: Decoding Fan Frenzy](https://sluintel.github.io/posts/2026-07-05-top-internet-reactions-morocco-vs-canada-2.html) — 2026-07-05 — football, social media, fan reactions
 - [Instagram in 2026: Everything to Know for Growth & Connection](https://sluintel.github.io/posts/2026-07-05-everything-to-know-about-instagram.html) — 2026-07-05 — Instagram, Social Media, Digital Marketing
 - [Jos Buttler's Latest Updates: An AI-Driven Performance Review](https://sluintel.github.io/posts/2026-07-05-jos-buttler-latest-updates-performance-review.html) — 2026-07-05 — Jos Buttler, Cricket Analytics, Sports Strategy
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Achraf Hakimi Explained Simply: The Modern Right-Back's Brilliance](https://sluintel.github.io/posts/2026-07-05-achraf-hakimi-explained-simply-2.html) — 2026-07-05 — Football, Achraf Hakimi, PSG
 - [Achraf Hakimi Explained Simply: The Dynamic Right-Back's Impact](https://sluintel.github.io/posts/2026-07-05-achraf-hakimi-explained-simply.html) — 2026-07-05 — Achraf Hakimi, Football, Right-Back
 - [मौसम Explained Simply: Master Weather Forecasts & Stay Ahead](https://sluintel.github.io/posts/2026-07-05-mausam-explained-simply.html) — 2026-07-05 — मौसम, weather forecast, AI tools
-- [Morocco vs Canada: Unpacking Two Nations' Global Footprints](https://sluintel.github.io/posts/2026-07-05-morocco-vs-canada-everything-you-should-know.html) — 2026-07-05 — Morocco, Canada, Geopolitics
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
