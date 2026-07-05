@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 05 Jul 2026 07:37:32 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 05 Jul 2026 08:19:48 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[मौसम Explained Simply: Master Weather Forecasts & Stay Ahead]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-05-mausam-explained-simply.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-05-mausam-explained-simply.html</guid>
+    <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unlock the secrets of मौसम explained simply. Discover how understanding weather impacts your daily life, plans, and even safety. Get practical insights and master forecasts with AI tools.]]></description>
+    <enclosure url="https://images.pexels.com/photos/15066081/pexels-photo-15066081.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>मौसम</category>
+    <category>weather forecast</category>
+    <category>AI tools</category>
+    <category>automation</category>
+    <category>climate</category>
+  </item>
   <item>
     <title><![CDATA[Morocco vs Canada: Unpacking Two Nations' Global Footprints]]></title>
     <link>https://sluintel.github.io/posts/2026-07-05-morocco-vs-canada-everything-you-should-know.html</link>
@@ -259,19 +272,6 @@
     <category>usernames</category>
     <category>digital identity</category>
     <category>AI tools</category>
-  </item>
-  <item>
-    <title><![CDATA[Why Colombia vs Ghana is Trending Right Now: AI Decodes the Buzz]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-04-why-colombia-vs-ghana-is-trending-right-now.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-04-why-colombia-vs-ghana-is-trending-right-now.html</guid>
-    <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unpack why Colombia vs Ghana is a hot topic. Discover the surprising factors, AI insights, and what's truly driving this trend in 2026. Get ahead of the curve.]]></description>
-    <enclosure url="https://images.pexels.com/photos/38225906/pexels-photo-38225906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI</category>
-    <category>Sports Analytics</category>
-    <category>Football Trends</category>
-    <category>Automation</category>
-    <category>World Cup 2026</category>
   </item>
 </channel>
 </rss>
