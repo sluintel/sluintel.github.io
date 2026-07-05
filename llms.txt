@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 920
+Total Posts Published: 921
 Last Updated: 2026-07-05
-Latest Post: Achraf Hakimi Explained Simply: The Dynamic Right-Back's Impact
-Latest Post URL: https://sluintel.github.io/posts/2026-07-05-achraf-hakimi-explained-simply.html
+Latest Post: Achraf Hakimi Explained Simply: The Modern Right-Back's Brilliance
+Latest Post URL: https://sluintel.github.io/posts/2026-07-05-achraf-hakimi-explained-simply-2.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Achraf Hakimi Explained Simply: The Modern Right-Back's Brilliance](https://sluintel.github.io/posts/2026-07-05-achraf-hakimi-explained-simply-2.html) — 2026-07-05 — Football, Achraf Hakimi, PSG
 - [Achraf Hakimi Explained Simply: The Dynamic Right-Back's Impact](https://sluintel.github.io/posts/2026-07-05-achraf-hakimi-explained-simply.html) — 2026-07-05 — Achraf Hakimi, Football, Right-Back
 - [मौसम Explained Simply: Master Weather Forecasts & Stay Ahead](https://sluintel.github.io/posts/2026-07-05-mausam-explained-simply.html) — 2026-07-05 — मौसम, weather forecast, AI tools
 - [Morocco vs Canada: Unpacking Two Nations' Global Footprints](https://sluintel.github.io/posts/2026-07-05-morocco-vs-canada-everything-you-should-know.html) — 2026-07-05 — Morocco, Canada, Geopolitics
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Tom Banton: Everything You Should Know About Cricket's Explosive Talent](https://sluintel.github.io/posts/2026-07-05-tom-banton-everything-you-should-know.html) — 2026-07-05 — Tom Banton, Cricket, T20 Cricket
 - [AI's Game Plan: How AI is Transforming France vs Paraguay](https://sluintel.github.io/posts/2026-07-05-how-ai-is-transforming-france-vs-paraguay.html) — 2026-07-05 — AI in Sports, Football Analytics, Sports Tech
 - [Why Morocco vs Canada is Trending Right Now: Decoding the 2026 Buzz](https://sluintel.github.io/posts/2026-07-04-why-morocco-vs-canada-is-trending-right-now.html) — 2026-07-04 — Morocco, Canada, Trending
-- [Achraf Hakimi Explained Simply: The Modern Right-Back Unpacked](https://sluintel.github.io/posts/2026-07-04-achraf-hakimi-explained-simply.html) — 2026-07-04 — Achraf Hakimi, footballer, PSG
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
