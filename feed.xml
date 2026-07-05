@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 05 Jul 2026 11:14:50 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 05 Jul 2026 11:47:51 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[AI's Pitch: How AI is Transforming Paraguay vs France Football]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-05-how-ai-is-transforming-paraguay-vs-france-football.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-05-how-ai-is-transforming-paraguay-vs-france-football.html</guid>
+    <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack how AI is transforming Paraguay vs France football strategy. Discover AI's role in analytics, player scouting, and game-day tactics for a competitive edge. Get actionable insights.]]></description>
+    <enclosure url="https://images.pexels.com/photos/9535729/pexels-photo-9535729.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI in Sports</category>
+    <category>Football Analytics</category>
+    <category>Predictive AI</category>
+    <category>Paraguay Football</category>
+    <category>France Football</category>
+  </item>
   <item>
     <title><![CDATA[Morocco vs Canada Explained Simply: Unpacking Two Global Players]]></title>
     <link>https://sluintel.github.io/posts/2026-07-05-morocco-vs-canada-explained-simply.html</link>
@@ -260,19 +273,6 @@
     <category>Google Play</category>
     <category>App Updates</category>
     <category>Tech 2026</category>
-  </item>
-  <item>
-    <title><![CDATA[India vs England: The AI & Automation Battle for Global Leadership]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-04-india-vs-england-ai-automation-rivalry.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-04-india-vs-england-ai-automation-rivalry.html</guid>
-    <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Dive into the evolving India vs England rivalry, dissecting their tech and economic ambitions. Discover how AI and automation are shaping this global competition. Unlock insights now.]]></description>
-    <enclosure url="https://images.pexels.com/photos/37276317/pexels-photo-37276317.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI Strategy</category>
-    <category>Automation Trends</category>
-    <category>Geopolitics</category>
-    <category>Economic Rivalry</category>
-    <category>Tech Innovation</category>
   </item>
 </channel>
 </rss>
