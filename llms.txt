@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 952
+Total Posts Published: 953
 Last Updated: 2026-07-06
-Latest Post: FIFA World Cup Brackets: Everything Happening & Your Winning Playbook
-Latest Post URL: https://sluintel.github.io/posts/2026-07-06-everything-happening-around-fifa-world-cup-brackets.html
+Latest Post: Fan Frenzy: Top Reactions to Mexico vs England Lineups Revealed
+Latest Post URL: https://sluintel.github.io/posts/2026-07-06-top-reactions-mexico-national-football-team-vs-england-national-football-team-lineups.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Fan Frenzy: Top Reactions to Mexico vs England Lineups Revealed](https://sluintel.github.io/posts/2026-07-06-top-reactions-mexico-national-football-team-vs-england-national-football-team-lineups.html) — 2026-07-06 — Football, Mexico National Team, England National Team
 - [FIFA World Cup Brackets: Everything Happening & Your Winning Playbook](https://sluintel.github.io/posts/2026-07-06-everything-happening-around-fifa-world-cup-brackets.html) — 2026-07-06 — FIFA World Cup 2026, Football Brackets, World Cup Predictions
 - [Jarell Quansah: Everything You Should Know About Liverpool's Rising Star](https://sluintel.github.io/posts/2026-07-06-jarell-quansah-everything-you-should-know.html) — 2026-07-06 — Jarell Quansah, Liverpool FC, Football
 - [How AI is Transforming Portugal vs Spain: The Iberian Tech Race](https://sluintel.github.io/posts/2026-07-06-how-ai-is-transforming-portugal-vs-spain.html) — 2026-07-06 — AI Transformation, Portugal AI, Spain AI
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Julián Quiñones: Decoding the Top Internet Reactions (2026)](https://sluintel.github.io/posts/2026-07-06-top-internet-reactions-to-julian-quinones.html) — 2026-07-06 — Julián Quiñones, Internet Reactions, Football
 - [Mexico vs England: Decoding Top Internet Reactions & Fan Frenzy](https://sluintel.github.io/posts/2026-07-06-top-internet-reactions-mexico-vs-england.html) — 2026-07-06 — Mexico vs England, Football Reactions, Fan Culture
 - [England vs Explained Simply: Unpacking Identity & Rivalries](https://sluintel.github.io/posts/2026-07-06-england-vs-explained-simply.html) — 2026-07-06 — England, United Kingdom, British Identity
-- [Why Mexico vs England Lineups Are Trending in Sports Right Now](https://sluintel.github.io/posts/2026-07-06-why-mexico-national-football-team-vs-england-national-football-team-lineups-is-trending-in-sports-right-now.html) — 2026-07-06 — football, national teams, Mexico
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
