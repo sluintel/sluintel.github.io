@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 07 Jul 2026 12:39:08 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 13:27:25 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Unai Simón's AI Future: Redefining Goalkeeping in 2026]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-07-unai-simon-ai-future-goalkeeping.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-07-unai-simon-ai-future-goalkeeping.html</guid>
+    <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Explore the future of Unai Simón with AI. Discover how advanced analytics and predictive models are transforming goalkeeping performance and training. Uncover the edge AI offers in 2026.]]></description>
+    <enclosure url="https://images.pexels.com/photos/7689082/pexels-photo-7689082.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Unai Simon</category>
+    <category>AI in Football</category>
+    <category>Goalkeeper Training</category>
+    <category>Sports Analytics</category>
+    <category>Predictive Performance</category>
+  </item>
   <item>
     <title><![CDATA[Why Nuno Mendes is Trending: Unpacking His 2026 Buzz]]></title>
     <link>https://sluintel.github.io/posts/2026-07-07-why-nuno-mendes-is-trending-right-now.html</link>
@@ -258,19 +271,6 @@
     <category>World Cup Predictions</category>
     <category>Tournament Strategy</category>
     <category>Fan Engagement</category>
-  </item>
-  <item>
-    <title><![CDATA[Jarell Quansah: Everything You Should Know About Liverpool's Rising Star]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-06-jarell-quansah-everything-you-should-know.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-06-jarell-quansah-everything-you-should-know.html</guid>
-    <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Uncover everything you should know about Jarell Quansah, Liverpool's rising defensive star. Explore his journey, playing style, and what makes him a crucial talent for the future.]]></description>
-    <enclosure url="https://images.pexels.com/photos/3683053/pexels-photo-3683053.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Jarell Quansah</category>
-    <category>Liverpool FC</category>
-    <category>Football</category>
-    <category>Premier League</category>
-    <category>Young Talent</category>
   </item>
 </channel>
 </rss>
