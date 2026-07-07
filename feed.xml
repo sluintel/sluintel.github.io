@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 07 Jul 2026 18:17:34 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 19:15:55 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Mostafa Shobeir: Everything You Should Know About Egypt's Goalkeeping Prodigy]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-07-mostafa-shobeir-everything-you-should-know.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-07-mostafa-shobeir-everything-you-should-know.html</guid>
+    <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Uncover everything you should know about Mostafa Shobeir, Al Ahly's rising star goalkeeper. Learn about his career, key skills, and why he's a name to watch in football. Get the full scoop here.]]></description>
+    <enclosure url="https://images.pexels.com/photos/4258113/pexels-photo-4258113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Mostafa Shobeir</category>
+    <category>Al Ahly</category>
+    <category>Egyptian Football</category>
+    <category>Goalkeeper</category>
+    <category>Player Profile</category>
+  </item>
   <item>
     <title><![CDATA[Lamine Yamal Explained Simply: Barcelona's Teen Phenom Unpacked]]></title>
     <link>https://sluintel.github.io/posts/2026-07-07-lamine-yamal-explained-simply.html</link>
@@ -259,19 +272,6 @@
     <category>Football</category>
     <category>Social Media</category>
     <category>Fan Reactions</category>
-  </item>
-  <item>
-    <title><![CDATA[Mikel Oyarzabal: Unpacking the Genius of Real Sociedad's Captain]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-06-mikel-oyarzabal-everything-you-should-know.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-06-mikel-oyarzabal-everything-you-should-know.html</guid>
-    <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Dive deep into everything you should know about Mikel Oyarzabal. Discover why this Real Sociedad captain is a quiet force in La Liga and a penalty expert. Get the full scouting report now!]]></description>
-    <enclosure url="https://images.pexels.com/photos/38394918/pexels-photo-38394918.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Mikel Oyarzabal</category>
-    <category>Real Sociedad</category>
-    <category>La Liga</category>
-    <category>Spanish Football</category>
-    <category>Player Profile</category>
   </item>
 </channel>
 </rss>

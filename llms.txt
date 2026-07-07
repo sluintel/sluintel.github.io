@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 976
+Total Posts Published: 977
 Last Updated: 2026-07-07
-Latest Post: Lamine Yamal Explained Simply: Barcelona's Teen Phenom Unpacked
-Latest Post URL: https://sluintel.github.io/posts/2026-07-07-lamine-yamal-explained-simply.html
+Latest Post: Mostafa Shobeir: Everything You Should Know About Egypt's Goalkeeping Prodigy
+Latest Post URL: https://sluintel.github.io/posts/2026-07-07-mostafa-shobeir-everything-you-should-know.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Mostafa Shobeir: Everything You Should Know About Egypt's Goalkeeping Prodigy](https://sluintel.github.io/posts/2026-07-07-mostafa-shobeir-everything-you-should-know.html) — 2026-07-07 — Mostafa Shobeir, Al Ahly, Egyptian Football
 - [Lamine Yamal Explained Simply: Barcelona's Teen Phenom Unpacked](https://sluintel.github.io/posts/2026-07-07-lamine-yamal-explained-simply.html) — 2026-07-07 — Lamine Yamal, FC Barcelona, Football Prodigy
 - [Lamine Yamal: Everything You Should Know About Football's Next Icon](https://sluintel.github.io/posts/2026-07-07-lamine-yamal-everything-you-should-know.html) — 2026-07-07 — Lamine Yamal, Barcelona, Football Prodigy
 - [What People Are Saying About USA vs Belgium: Fan Frenzy Decoded](https://sluintel.github.io/posts/2026-07-07-what-people-are-saying-about-usa-vs-belgium-2.html) — 2026-07-07 — USA vs Belgium, Football Rivalry, Fan Sentiment
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Why Nuno Mendes is Trending: Unpacking His 2026 Buzz](https://sluintel.github.io/posts/2026-07-07-why-nuno-mendes-is-trending-right-now.html) — 2026-07-07 — Nuno Mendes, PSG, Portugal Football
 - [Folarin Balogun: Everything You Should Know About Football's Rising Star](https://sluintel.github.io/posts/2026-07-07-folarin-balogun-everything-you-should-know.html) — 2026-07-07 — football, striker, Folarin Balogun
 - [Claude Lemieux AI: Revolutionizing Productivity & Strategy in 2026](https://sluintel.github.io/posts/2026-07-07-claude-lemieux-ai-productivity-strategy-2026-2.html) — 2026-07-07 — AI productivity, AI strategy, automation
-- [Claude Lemieux AI: Boosting Your Productivity & Strategy in 2026](https://sluintel.github.io/posts/2026-07-07-claude-lemieux-ai-productivity-strategy-2026.html) — 2026-07-07 — AI Tools, Automation, Claude AI
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
