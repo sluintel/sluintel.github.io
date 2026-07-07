@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 971
+Total Posts Published: 972
 Last Updated: 2026-07-07
-Latest Post: Unai Simón's AI Future: Redefining Goalkeeping in 2026
-Latest Post URL: https://sluintel.github.io/posts/2026-07-07-unai-simon-ai-future-goalkeeping.html
+Latest Post: What People Are Saying About USA vs Belgium: Fan Frenzy & Rivalry
+Latest Post URL: https://sluintel.github.io/posts/2026-07-07-what-people-are-saying-about-usa-vs-belgium.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [What People Are Saying About USA vs Belgium: Fan Frenzy & Rivalry](https://sluintel.github.io/posts/2026-07-07-what-people-are-saying-about-usa-vs-belgium.html) — 2026-07-07 — USA vs Belgium, football, soccer
 - [Unai Simón's AI Future: Redefining Goalkeeping in 2026](https://sluintel.github.io/posts/2026-07-07-unai-simon-ai-future-goalkeeping.html) — 2026-07-07 — Unai Simon, AI in Football, Goalkeeper Training
 - [Why Nuno Mendes is Trending: Unpacking His 2026 Buzz](https://sluintel.github.io/posts/2026-07-07-why-nuno-mendes-is-trending-right-now.html) — 2026-07-07 — Nuno Mendes, PSG, Portugal Football
 - [Folarin Balogun: Everything You Should Know About Football's Rising Star](https://sluintel.github.io/posts/2026-07-07-folarin-balogun-everything-you-should-know.html) — 2026-07-07 — football, striker, Folarin Balogun
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [OpenAI: Unlocking AI's Potential for Your Business in 2026](https://sluintel.github.io/posts/2026-07-07-openai-unlocking-ais-potential-2026.html) — 2026-07-07 — AI Tools, OpenAI, Generative AI
 - [OpenAI: Decoding the Future of AI Innovation](https://sluintel.github.io/posts/2026-07-07-openai-decoding-future-ai-innovation.html) — 2026-07-07 — AI Tools, Automation, OpenAI
 - [OpenAI's Dominance: Your 2026 Guide to AI's Powerhouse](https://sluintel.github.io/posts/2026-07-07-openai-dominance-2026-guide.html) — 2026-07-07 — OpenAI, AI Tools, Generative AI
-- [Folarin Balogun: What People Are Saying About the Striker](https://sluintel.github.io/posts/2026-07-07-what-people-are-saying-about-folarin-balogun.html) — 2026-07-07 — Folarin Balogun, Football, Soccer
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
