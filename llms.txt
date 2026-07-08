@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 983
+Total Posts Published: 984
 Last Updated: 2026-07-08
-Latest Post: Everything Happening Around World Cup Schedule: Master Your 2026 Viewing
-Latest Post URL: https://sluintel.github.io/posts/2026-07-08-everything-happening-around-world-cup-schedule.html
+Latest Post: France vs Morocco Explained Simply: Beyond the Headlines
+Latest Post URL: https://sluintel.github.io/posts/2026-07-08-france-vs-morocco-explained-simply.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [France vs Morocco Explained Simply: Beyond the Headlines](https://sluintel.github.io/posts/2026-07-08-france-vs-morocco-explained-simply.html) — 2026-07-08 — France, Morocco, Geopolitics
 - [Everything Happening Around World Cup Schedule: Master Your 2026 Viewing](https://sluintel.github.io/posts/2026-07-08-everything-happening-around-world-cup-schedule.html) — 2026-07-08 — FIFA World Cup, World Cup 2026, Football Schedule
 - [Why Mostafa Shobeir Is Trending Right Now: Decoding His 2026 Rise](https://sluintel.github.io/posts/2026-07-07-mostafa-shobeir-trending-right-now.html) — 2026-07-07 — Mostafa Shobeir, Al Ahly, Egyptian Football
 - [Decoding the Top Internet Reactions to Enzo Fernández's Impact](https://sluintel.github.io/posts/2026-07-07-top-internet-reactions-enzo-fernandez.html) — 2026-07-07 — Enzo Fernández, football reactions, fan culture
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Mostafa Shobeir: Everything You Should Know About Egypt's Goalkeeping Prodigy](https://sluintel.github.io/posts/2026-07-07-mostafa-shobeir-everything-you-should-know.html) — 2026-07-07 — Mostafa Shobeir, Al Ahly, Egyptian Football
 - [Lamine Yamal Explained Simply: Barcelona's Teen Phenom Unpacked](https://sluintel.github.io/posts/2026-07-07-lamine-yamal-explained-simply.html) — 2026-07-07 — Lamine Yamal, FC Barcelona, Football Prodigy
 - [Lamine Yamal: Everything You Should Know About Football's Next Icon](https://sluintel.github.io/posts/2026-07-07-lamine-yamal-everything-you-should-know.html) — 2026-07-07 — Lamine Yamal, Barcelona, Football Prodigy
-- [What People Are Saying About USA vs Belgium: Fan Frenzy Decoded](https://sluintel.github.io/posts/2026-07-07-what-people-are-saying-about-usa-vs-belgium-2.html) — 2026-07-07 — USA vs Belgium, Football Rivalry, Fan Sentiment
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
