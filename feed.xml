@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 08 Jul 2026 09:33:38 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 08 Jul 2026 10:31:21 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Switzerland vs Colombia Explained Simply: A Global Showdown]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-08-switzerland-vs-colombia-explained-simply.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-08-switzerland-vs-colombia-explained-simply.html</guid>
+    <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack the core differences between Switzerland and Colombia. This guide explains simply their economies, cultures, and global roles, helping you understand their unique contributions.]]></description>
+    <enclosure url="https://images.pexels.com/photos/37729851/pexels-photo-37729851.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Switzerland</category>
+    <category>Colombia</category>
+    <category>Global Comparison</category>
+    <category>Country Analysis</category>
+    <category>Economic Differences</category>
+  </item>
   <item>
     <title><![CDATA[OpenAI: Shaping AI's Future & Your Strategy in 2026]]></title>
     <link>https://sluintel.github.io/posts/2026-07-08-openai-shaping-ai-future-2026.html</link>
@@ -259,19 +272,6 @@
     <category>soccer</category>
     <category>fan opinions</category>
     <category>match analysis</category>
-  </item>
-  <item>
-    <title><![CDATA[Unai Simón's AI Future: Redefining Goalkeeping in 2026]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-07-unai-simon-ai-future-goalkeeping.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-07-unai-simon-ai-future-goalkeeping.html</guid>
-    <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Explore the future of Unai Simón with AI. Discover how advanced analytics and predictive models are transforming goalkeeping performance and training. Uncover the edge AI offers in 2026.]]></description>
-    <enclosure url="https://images.pexels.com/photos/7689082/pexels-photo-7689082.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Unai Simon</category>
-    <category>AI in Football</category>
-    <category>Goalkeeper Training</category>
-    <category>Sports Analytics</category>
-    <category>Predictive Performance</category>
   </item>
 </channel>
 </rss>
