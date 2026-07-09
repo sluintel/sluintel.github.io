@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 09 Jul 2026 07:53:02 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 09 Jul 2026 08:46:57 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Navigating the Nepal Stock Exchange: Your 2026 Investor's Guide]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-09-nepal-stock-exchange-everything-you-should-know.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-09-nepal-stock-exchange-everything-you-should-know.html</guid>
+    <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Uncover everything you should know about the Nepal Stock Exchange. This 2026 guide reveals how to invest, avoid pitfalls, and grow your wealth in Nepal's dynamic share market.]]></description>
+    <enclosure url="https://images.pexels.com/photos/3769156/pexels-photo-3769156.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Nepal Stock Exchange</category>
+    <category>NEPSE</category>
+    <category>Stock Market Nepal</category>
+    <category>Investing</category>
+    <category>Financial Education</category>
+  </item>
   <item>
     <title><![CDATA[GPT 5.6: Unlocking AI's Next Frontier for Your Business]]></title>
     <link>https://sluintel.github.io/posts/2026-07-09-gpt-5-6-ai-next-frontier.html</link>
@@ -259,19 +272,6 @@
     <category>Soccer 2026</category>
     <category>Player Buzz</category>
     <category>Trending Analysis</category>
-  </item>
-  <item>
-    <title><![CDATA[Switzerland vs Colombia Explained Simply: A Global Showdown]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-08-switzerland-vs-colombia-explained-simply.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-08-switzerland-vs-colombia-explained-simply.html</guid>
-    <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unpack the core differences between Switzerland and Colombia. This guide explains simply their economies, cultures, and global roles, helping you understand their unique contributions.]]></description>
-    <enclosure url="https://images.pexels.com/photos/37729851/pexels-photo-37729851.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Switzerland</category>
-    <category>Colombia</category>
-    <category>Global Comparison</category>
-    <category>Country Analysis</category>
-    <category>Economic Differences</category>
   </item>
 </channel>
 </rss>
