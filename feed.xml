@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 09 Jul 2026 11:20:09 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 09 Jul 2026 12:22:15 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[OpenAI's Future: Mastering AI for Your Business in 2026]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-09-openai-mastering-ai-future-2026.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-09-openai-mastering-ai-future-2026.html</guid>
+    <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Uncover how OpenAI is shaping the future of AI and how you can leverage its cutting-edge tools. Master AI strategies for business growth in 2026.]]></description>
+    <enclosure url="https://images.pexels.com/photos/12662875/pexels-photo-12662875.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI Tools</category>
+    <category>Generative AI</category>
+    <category>GPT</category>
+    <category>DALL-E</category>
+    <category>AI Strategy</category>
+  </item>
   <item>
     <title><![CDATA[OpenAI: Unlocking AI's True Potential in 2026]]></title>
     <link>https://sluintel.github.io/posts/2026-07-09-openai-unlocking-ai-potential-2026.html</link>
@@ -259,19 +272,6 @@
     <category>AI weather</category>
     <category>climate change</category>
     <category>weather tools</category>
-  </item>
-  <item>
-    <title><![CDATA[Switzerland vs Colombia: Everything You Should Know About Their Stark Contrasts]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-08-switzerland-vs-colombia-everything-you-should-know.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-08-switzerland-vs-colombia-everything-you-should-know.html</guid>
-    <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Curious about Switzerland vs Colombia? Unpack the dramatic contrasts in culture, economy, geography, and lifestyle. Discover what makes these nations uniquely compelling and vastly different.]]></description>
-    <enclosure url="https://images.pexels.com/photos/15576965/pexels-photo-15576965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Switzerland</category>
-    <category>Colombia</category>
-    <category>Country Comparison</category>
-    <category>Culture</category>
-    <category>Travel</category>
   </item>
 </channel>
 </rss>
