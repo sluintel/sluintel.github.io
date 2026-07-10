@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 10 Jul 2026 18:47:08 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 19:51:15 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[निजामती सेवा Explained Simply: Your Guide to Nepal's Civil Service]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-10-nijamati-sewa-explained-simply.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-10-nijamati-sewa-explained-simply.html</guid>
+    <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Confused by Nepal's government jobs? Get निजामती सेवा explained simply, its importance, and how it shapes your everyday life. Demystify bureaucracy today!]]></description>
+    <enclosure url="https://images.pexels.com/photos/29274959/pexels-photo-29274959.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Nepal Civil Service</category>
+    <category>Nijamati Sewa</category>
+    <category>Government Jobs Nepal</category>
+    <category>Public Service Commission</category>
+    <category>Nepal Administration</category>
+  </item>
   <item>
     <title><![CDATA[Ganesh Nepali: Decoding Nepal's Digital Trailblazer]]></title>
     <link>https://sluintel.github.io/posts/2026-07-10-ganesh-nepali-everything-you-should-know.html</link>
@@ -258,19 +271,6 @@
     <category>Jean-Philippe Mateta</category>
     <category>Crystal Palace</category>
     <category>Striker</category>
-  </item>
-  <item>
-    <title><![CDATA[What People Are Saying About Manu Koné: Unpacking the Hype]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-09-what-people-are-saying-about-manu-kone.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-09-what-people-are-saying-about-manu-kone.html</guid>
-    <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Dive into what people are saying about Manu Koné, the midfield powerhouse. Uncover fan opinions, expert analysis, and transfer rumors shaping his career.]]></description>
-    <enclosure url="https://images.pexels.com/photos/30608641/pexels-photo-30608641.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Manu Koné</category>
-    <category>Football Analysis</category>
-    <category>Transfer Rumors</category>
-    <category>Bundesliga</category>
-    <category>Player Profiles</category>
   </item>
 </channel>
 </rss>
