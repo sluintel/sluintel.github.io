@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 11 Jul 2026 05:22:52 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 11 Jul 2026 05:49:29 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[The Latest Updates on MLC: Powering AI's Data Demands]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-11-the-latest-updates-on-mlc.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-11-the-latest-updates-on-mlc.html</guid>
+    <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack the latest updates on MLC flash memory and its crucial role in AI. Discover why these storage advancements are vital for future data-intensive applications. Get ahead for 2026!]]></description>
+    <enclosure url="https://images.pexels.com/photos/5961652/pexels-photo-5961652.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>MLC</category>
+    <category>NAND Flash</category>
+    <category>AI Storage</category>
+    <category>Data Centers</category>
+    <category>SSD Technology</category>
+  </item>
   <item>
     <title><![CDATA[Why Dani Olmo is Trending Right Now: Decoding His 2026 Buzz]]></title>
     <link>https://sluintel.github.io/posts/2026-07-11-why-dani-olmo-is-trending-right-now.html</link>
@@ -258,19 +271,6 @@
     <category>Generative AI</category>
     <category>Productivity</category>
     <category>Automation</category>
-  </item>
-  <item>
-    <title><![CDATA[ChatGPT in 2026: Unlock Its Power for Peak Productivity]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-10-chatgpt-unlock-power-productivity.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-10-chatgpt-unlock-power-productivity.html</guid>
-    <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Master ChatGPT in 2026 with this expert guide. Learn how to leverage AI for unmatched productivity, avoid common pitfalls, and discover essential tools. Your AI success starts here!]]></description>
-    <enclosure url="https://images.pexels.com/photos/30530414/pexels-photo-30530414.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>ChatGPT</category>
-    <category>AI Tools</category>
-    <category>Productivity</category>
-    <category>Automation</category>
-    <category>Large Language Models</category>
   </item>
 </channel>
 </rss>
