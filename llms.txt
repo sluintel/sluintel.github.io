@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1065
+Total Posts Published: 1066
 Last Updated: 2026-07-11
-Latest Post: Jos Buttler: Latest Updates & Performance Insights for 2026
-Latest Post URL: https://sluintel.github.io/posts/2026-07-11-jos-buttler-latest-updates.html
+Latest Post: Why England vs India Cricket Scorecard is Trending Now
+Latest Post URL: https://sluintel.github.io/posts/2026-07-11-why-england-cricket-team-vs-india-national-cricket-team-match-scorecard-is-trending-in-sports-right-now.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Why England vs India Cricket Scorecard is Trending Now](https://sluintel.github.io/posts/2026-07-11-why-england-cricket-team-vs-india-national-cricket-team-match-scorecard-is-trending-in-sports-right-now.html) — 2026-07-11 — Cricket, England Cricket, India Cricket
 - [Jos Buttler: Latest Updates & Performance Insights for 2026](https://sluintel.github.io/posts/2026-07-11-jos-buttler-latest-updates.html) — 2026-07-11 — Jos Buttler, Cricket, England Cricket
 - [The Latest Updates on MLC: Powering Next-Gen AI Innovation](https://sluintel.github.io/posts/2026-07-11-the-latest-updates-on-mlc-ai-innovation.html) — 2026-07-11 — MLC, AI, Machine Learning
 - [Jayden Adams Explained Simply: Your Guide to South Africa's Rising Star](https://sluintel.github.io/posts/2026-07-11-jayden-adams-explained-simply.html) — 2026-07-11 — Jayden Adams, Cricket, South Africa Cricket
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Initial Public Offering: Why It's Trending Right Now in 2026](https://sluintel.github.io/posts/2026-07-11-why-initial-public-offering-is-trending-right-now.html) — 2026-07-11 — IPO trends, stock market 2026, public offering
 - [Senne Lammens Explained Simply: Belgium's Goalkeeping Star](https://sluintel.github.io/posts/2026-07-11-senne-lammens-explained-simply.html) — 2026-07-11 — Football, Belgium, Goalkeeper
 - [Why the World Cup Schedule is Exploding in Sports Right Now](https://sluintel.github.io/posts/2026-07-11-why-world-cup-schedule-trending-sports-right-now.html) — 2026-07-11 — World Cup 2026, Sports Trends, Football Schedule
-- [Initial Public Offering Explained Simply: Your 2026 IPO Guide](https://sluintel.github.io/posts/2026-07-11-initial-public-offering-explained-simply.html) — 2026-07-11 — IPO, Investing, Stock Market
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
