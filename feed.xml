@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 11 Jul 2026 23:06:52 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 12 Jul 2026 00:09:25 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Jordan Pickford Explained Simply: The Modern Goalkeeper's Blueprint]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-12-jordan-pickford-explained-simply.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-12-jordan-pickford-explained-simply.html</guid>
+    <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Demystify Jordan Pickford's unique goalkeeping style. Learn how his distribution, leadership, and penalty prowess make him crucial for England. Get Jordan Pickford explained simply.]]></description>
+    <enclosure url="https://images.pexels.com/photos/13097466/pexels-photo-13097466.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Jordan Pickford</category>
+    <category>Goalkeeping</category>
+    <category>England Football</category>
+    <category>Football Analysis</category>
+    <category>Sports Tactics</category>
+  </item>
   <item>
     <title><![CDATA[Why Andreas Schjelderup Is Trending Right Now: Decoding His 2026 Buzz]]></title>
     <link>https://sluintel.github.io/posts/2026-07-11-why-andreas-schjelderup-is-trending-right-now.html</link>
@@ -261,19 +274,6 @@
     <category>AI Storage</category>
     <category>Data Centers</category>
     <category>SSD Technology</category>
-  </item>
-  <item>
-    <title><![CDATA[Why Dani Olmo is Trending Right Now: Decoding His 2026 Buzz]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-11-why-dani-olmo-is-trending-right-now.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-11-why-dani-olmo-is-trending-right-now.html</guid>
-    <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unpack why Dani Olmo is trending right now. Discover the key factors driving his 2026 buzz – from transfer rumors to on-pitch brilliance. Get the inside scoop.]]></description>
-    <enclosure url="https://images.pexels.com/photos/18838719/pexels-photo-18838719.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Dani Olmo</category>
-    <category>football trends</category>
-    <category>transfer rumors</category>
-    <category>RB Leipzig</category>
-    <category>Spain national team</category>
   </item>
 </channel>
 </rss>
