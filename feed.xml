@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 12 Jul 2026 11:30:55 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 12 Jul 2026 12:08:46 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[José Manuel López: Navigating His Latest Updates in 2026]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-12-jose-manuel-lopez-latest-updates-2026.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-12-jose-manuel-lopez-latest-updates-2026.html</guid>
+    <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Stay informed on the latest updates from José Manuel López. Discover key developments, policy impacts, and how to track his influence effectively for 2026. Get expert insights now.]]></description>
+    <enclosure url="https://images.pexels.com/photos/30868621/pexels-photo-30868621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>José Manuel López</category>
+    <category>Political Updates</category>
+    <category>Current Affairs</category>
+    <category>Public Policy</category>
+    <category>Spain</category>
+  </item>
   <item>
     <title><![CDATA[ChatGPT Down? Don't Panic! Your 2026 AI Outage Survival Guide]]></title>
     <link>https://sluintel.github.io/posts/2026-07-12-chatgpt-down-outage-survival-guide-2026.html</link>
@@ -260,19 +273,6 @@
     <category>La Liga</category>
     <category>Football Tactics</category>
     <category>Midfielder</category>
-  </item>
-  <item>
-    <title><![CDATA[Robot Revolution: Your Guide to Automation's Next Era]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-11-robot-revolution-automation-guide.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-11-robot-revolution-automation-guide.html</guid>
-    <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unpack the robot phenomenon. Discover how AI-powered robots are transforming industries, daily life, and the future of work. Get actionable insights to thrive in the automated age.]]></description>
-    <enclosure url="https://images.pexels.com/photos/35280285/pexels-photo-35280285.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>robots</category>
-    <category>automation</category>
-    <category>AI</category>
-    <category>robotics</category>
-    <category>futuretech</category>
   </item>
 </channel>
 </rss>

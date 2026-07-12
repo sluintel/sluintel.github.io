@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1079
+Total Posts Published: 1080
 Last Updated: 2026-07-12
-Latest Post: ChatGPT Down? Don't Panic! Your 2026 AI Outage Survival Guide
-Latest Post URL: https://sluintel.github.io/posts/2026-07-12-chatgpt-down-outage-survival-guide-2026.html
+Latest Post: José Manuel López: Navigating His Latest Updates in 2026
+Latest Post URL: https://sluintel.github.io/posts/2026-07-12-jose-manuel-lopez-latest-updates-2026.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [José Manuel López: Navigating His Latest Updates in 2026](https://sluintel.github.io/posts/2026-07-12-jose-manuel-lopez-latest-updates-2026.html) — 2026-07-12 — José Manuel López, Political Updates, Current Affairs
 - [ChatGPT Down? Don't Panic! Your 2026 AI Outage Survival Guide](https://sluintel.github.io/posts/2026-07-12-chatgpt-down-outage-survival-guide-2026.html) — 2026-07-12 — AI Tools, ChatGPT, AI Outage
 - [ChatGPT Down? Your 2026 Guide to AI Outage Survival](https://sluintel.github.io/posts/2026-07-12-chatgpt-down-outage-survival-guide.html) — 2026-07-12 — ChatGPT, AI tools, downtime
 - [Decoding the Top Internet Reactions to Golden Boot Winners](https://sluintel.github.io/posts/2026-07-12-top-internet-reactions-to-golden-boot.html) — 2026-07-12 — football, golden boot, social media
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [José Manuel López: What People Are Saying & Why It Matters](https://sluintel.github.io/posts/2026-07-12-what-people-are-saying-about-jose-manuel-lopez.html) — 2026-07-12 — José Manuel López, Spanish Politics, Public Opinion
 - [Unpacking Top Internet Reactions to Breel Embolo's Viral Moments](https://sluintel.github.io/posts/2026-07-12-top-internet-reactions-to-breel-embolo.html) — 2026-07-12 — Breel Embolo, football, social media
 - [Jordan Pickford Explained Simply: The Modern Goalkeeper's Blueprint](https://sluintel.github.io/posts/2026-07-12-jordan-pickford-explained-simply.html) — 2026-07-12 — Jordan Pickford, Goalkeeping, England Football
-- [Why Andreas Schjelderup Is Trending Right Now: Decoding His 2026 Buzz](https://sluintel.github.io/posts/2026-07-11-why-andreas-schjelderup-is-trending-right-now.html) — 2026-07-11 — Andreas Schjelderup, Football Trends, AI Sports Analytics
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
