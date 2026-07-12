@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 12 Jul 2026 10:44:55 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 12 Jul 2026 11:30:55 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[ChatGPT Down? Don't Panic! Your 2026 AI Outage Survival Guide]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-12-chatgpt-down-outage-survival-guide-2026.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-12-chatgpt-down-outage-survival-guide-2026.html</guid>
+    <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Is ChatGPT down again? Discover why AI outages happen in 2026, how to check its status, and practical steps to maintain your productivity. Stay ahead!]]></description>
+    <enclosure url="https://images.pexels.com/photos/16094061/pexels-photo-16094061.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI Tools</category>
+    <category>ChatGPT</category>
+    <category>AI Outage</category>
+    <category>Productivity</category>
+    <category>Automation</category>
+  </item>
   <item>
     <title><![CDATA[ChatGPT Down? Your 2026 Guide to AI Outage Survival]]></title>
     <link>https://sluintel.github.io/posts/2026-07-12-chatgpt-down-outage-survival-guide.html</link>
@@ -260,19 +273,6 @@
     <category>AI</category>
     <category>robotics</category>
     <category>futuretech</category>
-  </item>
-  <item>
-    <title><![CDATA[Initial Public Offering: Why It's Trending Right Now in 2026]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-11-why-initial-public-offering-is-trending-right-now.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-11-why-initial-public-offering-is-trending-right-now.html</guid>
-    <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Curious why initial public offering (IPO) activity is soaring in 2026? Uncover the market forces, investment opportunities, and what's driving this trend. Get ready to invest smarter.]]></description>
-    <enclosure url="https://images.pexels.com/photos/7172830/pexels-photo-7172830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>IPO trends</category>
-    <category>stock market 2026</category>
-    <category>public offering</category>
-    <category>investment strategy</category>
-    <category>financial growth</category>
   </item>
 </channel>
 </rss>
