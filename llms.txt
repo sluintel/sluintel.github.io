@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1106
+Total Posts Published: 1107
 Last Updated: 2026-07-13
-Latest Post: Unpacking the Top Internet Reactions to Nepal vs Jersey Cricket
-Latest Post URL: https://sluintel.github.io/posts/2026-07-13-top-internet-reactions-to-nepal-vs-jersey.html
+Latest Post: Onlinekhabar Explained Simply: Nepal's Digital News Powerhouse
+Latest Post URL: https://sluintel.github.io/posts/2026-07-13-onlinekhabar-explained-simply.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Onlinekhabar Explained Simply: Nepal's Digital News Powerhouse](https://sluintel.github.io/posts/2026-07-13-onlinekhabar-explained-simply.html) — 2026-07-13 — onlinekhabar, nepal news, digital media
 - [Unpacking the Top Internet Reactions to Nepal vs Jersey Cricket](https://sluintel.github.io/posts/2026-07-13-top-internet-reactions-to-nepal-vs-jersey.html) — 2026-07-13 — cricket, Nepal cricket, Jersey cricket
 - [Latest Updates on Mausam: AI's Forecast Revolution for 2026](https://sluintel.github.io/posts/2026-07-13-latest-updates-on-mausam.html) — 2026-07-13 — AI Weather, Mausam 2026, Climate Tech
 - [Data Breach: Your 2026 Guide to Digital Resilience](https://sluintel.github.io/posts/2026-07-13-data-breach-digital-resilience-guide-2026.html) — 2026-07-13 — Cybersecurity, Data Protection, Digital Safety
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Singer Janaki Moments Trending Worldwide: Your Guide to Viral Stardom](https://sluintel.github.io/posts/2026-07-13-singer-janaki-moments-trending-worldwide.html) — 2026-07-13 — Singer Janaki, trending moments, viral music
 - [OpenAI: Shaping AI's Future & Unlocking Your Potential in 2026](https://sluintel.github.io/posts/2026-07-13-openai-shaping-ais-future-unlocking-potential-2026.html) — 2026-07-13 — OpenAI, AI Tools, Generative AI
 - [Claude AI India: Navigating the Future of Generative AI Adoption](https://sluintel.github.io/posts/2026-07-13-claude-ai-india-future-generative-ai-adoption.html) — 2026-07-13 — Claude AI, AI in India, Generative AI
-- [Everything You Should Know About Video in 2026](https://sluintel.github.io/posts/2026-07-13-everything-you-should-know-about-video.html) — 2026-07-13 — Video Marketing, AI in Video, Content Creation
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
