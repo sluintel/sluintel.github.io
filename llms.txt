@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1089
-Last Updated: 2026-07-12
-Latest Post: Tata Consultancy Services AI Engineers: Building Tomorrow's Tech
-Latest Post URL: https://sluintel.github.io/posts/2026-07-12-tata-consultancy-services-ai-engineers-2.html
+Total Posts Published: 1090
+Last Updated: 2026-07-13
+Latest Post: Ireland vs West Indies Explained Simply: Cricket's Evolving Rivalry
+Latest Post URL: https://sluintel.github.io/posts/2026-07-13-ireland-vs-west-indies-explained-simply.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Ireland vs West Indies Explained Simply: Cricket's Evolving Rivalry](https://sluintel.github.io/posts/2026-07-13-ireland-vs-west-indies-explained-simply.html) — 2026-07-13 — Cricket, Ireland Cricket, West Indies Cricket
 - [Tata Consultancy Services AI Engineers: Building Tomorrow's Tech](https://sluintel.github.io/posts/2026-07-12-tata-consultancy-services-ai-engineers-2.html) — 2026-07-12 — AI Engineering, TCS, Artificial Intelligence
 - [Tata Consultancy Services AI Engineers: Powering Tomorrow's Tech](https://sluintel.github.io/posts/2026-07-12-tata-consultancy-services-ai-engineers.html) — 2026-07-12 — AI Engineering, TCS, Artificial Intelligence
 - [Why FIFA Ranking Is Trending in Sports Right Now: Your Guide](https://sluintel.github.io/posts/2026-07-12-why-fifa-ranking-is-trending-in-sports-right-now-2.html) — 2026-07-12 — FIFA Ranking, Football Trends, Sports Analytics
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [What's Next for FIFA Ranking? The Future of Global Football](https://sluintel.github.io/posts/2026-07-12-whats-next-for-fifa-ranking.html) — 2026-07-12 — FIFA Ranking, Football Analytics, National Teams
 - [What People Are Saying About Argentina vs England: Fan Fire & Expert Foresight](https://sluintel.github.io/posts/2026-07-12-what-people-are-saying-about-argentina-vs-england.html) — 2026-07-12 — Football Rivalry, Argentina Football, England Football
 - [Why Argentina vs England is Trending Right Now: Decoding the Rivalry](https://sluintel.github.io/posts/2026-07-12-why-argentina-vs-england-is-trending-right-now.html) — 2026-07-12 — Argentina vs England, Football Rivalry, Sports Trends 2026
-- [José Manuel López: Navigating His Latest Updates in 2026](https://sluintel.github.io/posts/2026-07-12-jose-manuel-lopez-latest-updates-2026.html) — 2026-07-12 — José Manuel López, Political Updates, Current Affairs
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
