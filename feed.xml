@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 14 Jul 2026 06:24:21 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 07:22:11 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[What People Are Saying About West Indies vs New Zealand's Fierce Rivalry]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-14-what-people-are-saying-about-west-indies-vs-new-zealand.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-14-what-people-are-saying-about-west-indies-vs-new-zealand.html</guid>
+    <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Dive into the electric buzz surrounding West Indies vs New Zealand cricket clashes. Uncover fan predictions, expert insights, and why this rivalry ignites passion across the globe.]]></description>
+    <enclosure url="https://images.pexels.com/photos/26238656/pexels-photo-26238656.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Cricket</category>
+    <category>West Indies Cricket</category>
+    <category>New Zealand Cricket</category>
+    <category>Fan Opinion</category>
+    <category>Sports Analysis</category>
+  </item>
   <item>
     <title><![CDATA[Top Internet Reactions to Notizie del Mondo: Decoding Global Buzz]]></title>
     <link>https://sluintel.github.io/posts/2026-07-14-top-internet-reactions-notizie-del-mondo.html</link>
@@ -259,19 +272,6 @@
     <category>Weather Trends</category>
     <category>Social Media Analytics</category>
     <category>Content Marketing</category>
-  </item>
-  <item>
-    <title><![CDATA[The Latest Updates on Weather Today: Your AI-Powered Forecast Edge]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-13-the-latest-updates-on-weather-today.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-13-the-latest-updates-on-weather-today.html</guid>
-    <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Get the latest updates on weather today! Discover how AI tools provide hyper-accurate forecasts, critical for planning your 2026. Stay ahead, avoid surprises.]]></description>
-    <enclosure url="https://images.pexels.com/photos/6347956/pexels-photo-6347956.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI weather</category>
-    <category>weather forecasting</category>
-    <category>daily weather</category>
-    <category>weather updates</category>
-    <category>automation</category>
   </item>
 </channel>
 </rss>
