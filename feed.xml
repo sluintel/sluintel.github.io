@@ -5,13 +5,27 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 15 Jul 2026 04:17:30 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 15 Jul 2026 05:10:20 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Pau Cubarsí Explained Simply: Barcelona's Defensive Future Unpacked]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-15-pau-cubarsi-explained-simply.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-15-pau-cubarsi-explained-simply.html</guid>
+    <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Get Pau Cubarsí explained simply. Discover who he is, his unique defensive style, and why he's a crucial player for Barcelona in 2026. Understand his impact clearly.]]></description>
+    <enclosure url="https://images.pexels.com/photos/34042931/pexels-photo-34042931.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Pau Cubarsí</category>
+    <category>FC Barcelona</category>
+    <category>La Liga</category>
+    <category>Football Prodigy</category>
+    <category>Centre-Back</category>
+    <category>Youth Talent</category>
+  </item>
   <item>
     <title><![CDATA[AI Unleashed: Your 2026 Guide to Artificial Intelligence Mastery]]></title>
     <link>https://sluintel.github.io/posts/2026-07-15-ai-unleashed-mastery-guide-2026.html</link>
@@ -261,19 +275,6 @@
     <category>Belichick Family</category>
     <category>Media Scrutiny</category>
     <category>Social Sentiment</category>
-  </item>
-  <item>
-    <title><![CDATA[What People Are Saying About Notizie del Mondo: Unpacking the Buzz]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-14-what-people-are-saying-about-notizie-del-mondo.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-14-what-people-are-saying-about-notizie-del-mondo.html</guid>
-    <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Curious about what people are saying about Notizie del Mondo? Discover public sentiment, key opinions, and how to gauge media reception in 2026. Get the real story!]]></description>
-    <enclosure url="https://images.pexels.com/photos/9009568/pexels-photo-9009568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Notizie del Mondo</category>
-    <category>media analysis</category>
-    <category>public opinion</category>
-    <category>news review</category>
-    <category>Italian news</category>
   </item>
 </channel>
 </rss>

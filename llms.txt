@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1134
+Total Posts Published: 1135
 Last Updated: 2026-07-15
-Latest Post: AI Unleashed: Your 2026 Guide to Artificial Intelligence Mastery
-Latest Post URL: https://sluintel.github.io/posts/2026-07-15-ai-unleashed-mastery-guide-2026.html
+Latest Post: Pau Cubarsí Explained Simply: Barcelona's Defensive Future Unpacked
+Latest Post URL: https://sluintel.github.io/posts/2026-07-15-pau-cubarsi-explained-simply.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Pau Cubarsí Explained Simply: Barcelona's Defensive Future Unpacked](https://sluintel.github.io/posts/2026-07-15-pau-cubarsi-explained-simply.html) — 2026-07-15 — Pau Cubarsí, FC Barcelona, La Liga
 - [AI Unleashed: Your 2026 Guide to Artificial Intelligence Mastery](https://sluintel.github.io/posts/2026-07-15-ai-unleashed-mastery-guide-2026.html) — 2026-07-15 — Artificial Intelligence, AI Tools, Generative AI
 - [AI Unleashed: Your Essential Guide to Navigating the Future](https://sluintel.github.io/posts/2026-07-15-ai-unleashed-your-future-guide.html) — 2026-07-15 — AI, Artificial Intelligence, Machine Learning
 - [Nico Williams: What People Are Saying About This Rising Star](https://sluintel.github.io/posts/2026-07-14-what-people-are-saying-about-nico-williams.html) — 2026-07-14 — Nico Williams, football analysis, La Liga
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Lucas Digne Explained Simply: The Modern Left-Back's True Value](https://sluintel.github.io/posts/2026-07-14-lucas-digne-explained-simply.html) — 2026-07-14 — Lucas Digne, Football Explained, Premier League
 - [Unpacking the Buzz: What People Are Saying About KL Rahul in 2026](https://sluintel.github.io/posts/2026-07-14-what-people-are-saying-about-kl-rahul.html) — 2026-07-14 — KL Rahul, Cricket Analysis, Indian Cricket
 - [Prasidh Krishna: Decoding the Top Internet Reactions to India's Pacer](https://sluintel.github.io/posts/2026-07-14-top-internet-reactions-to-prasidh-krishna.html) — 2026-07-14 — Prasidh Krishna, Cricket, Indian Cricket
-- [The Mandalorian & Grogu Digital Release: Your Essential 2026 Guide](https://sluintel.github.io/posts/2026-07-14-the-mandalorian-grogu-digital-release.html) — 2026-07-14 — Star Wars, Digital Release, Streaming
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
