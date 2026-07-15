@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 15 Jul 2026 06:28:12 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 15 Jul 2026 07:25:14 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Top Internet Reactions to Bradley Barcola: Decoding the Digital Buzz]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-15-top-internet-reactions-to-bradley-barcola.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-15-top-internet-reactions-to-bradley-barcola.html</guid>
+    <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack the top internet reactions to Bradley Barcola's rise. Discover what's driving the online conversation and why his impact extends beyond the pitch. Get the real story.]]></description>
+    <enclosure url="https://images.pexels.com/photos/11527803/pexels-photo-11527803.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Bradley Barcola</category>
+    <category>Football Reactions</category>
+    <category>Social Media Trends</category>
+    <category>Sports Analytics</category>
+    <category>Player Impact</category>
+  </item>
   <item>
     <title><![CDATA[Ferran Torres: Everything You Need to Know About the Spanish Talent]]></title>
     <link>https://sluintel.github.io/posts/2026-07-15-ferran-torres-everything-you-should-know.html</link>
@@ -265,19 +278,6 @@
     <category>ai</category>
     <category>future-tech</category>
     <category>robotics</category>
-  </item>
-  <item>
-    <title><![CDATA[CT Lottery Explained Simply: Your Guide to Games, Wins, & Responsible Play]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-14-ct-lottery-explained-simply.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-14-ct-lottery-explained-simply.html</guid>
-    <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Want the CT Lottery explained simply? Discover game types, how to play, and smart strategies to maximize your chances. Your ultimate guide to Connecticut's lottery scene.]]></description>
-    <enclosure url="https://images.pexels.com/photos/5942523/pexels-photo-5942523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>CT Lottery</category>
-    <category>Connecticut</category>
-    <category>Lottery Games</category>
-    <category>Responsible Gaming</category>
-    <category>Winning Strategies</category>
   </item>
 </channel>
 </rss>
