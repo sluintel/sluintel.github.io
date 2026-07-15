@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 15 Jul 2026 11:48:29 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 15 Jul 2026 12:43:42 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Partnered Health Data Breach: Navigate the Risks & Protect Your Privacy]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-15-partnered-health-data-breach-privacy-protection.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-15-partnered-health-data-breach-privacy-protection.html</guid>
+    <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Don't let a partnered health data breach compromise your privacy. Learn how these breaches happen, who's responsible, and crucial steps to protect your sensitive medical information in 2026. Stay secure!]]></description>
+    <enclosure url="https://images.pexels.com/photos/8413332/pexels-photo-8413332.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>healthcare cybersecurity</category>
+    <category>data privacy</category>
+    <category>HIPAA compliance</category>
+    <category>data breaches</category>
+    <category>patient safety</category>
+  </item>
   <item>
     <title><![CDATA[Partnered Health Data Breach: Your Guide to Staying Secure]]></title>
     <link>https://sluintel.github.io/posts/2026-07-15-partnered-health-data-breach-security-guide.html</link>
@@ -261,22 +274,6 @@
     <category>Digital Release</category>
     <category>Streaming</category>
     <category>Disney+</category>
-    <category>Sci-Fi</category>
-  </item>
-  <item>
-    <title><![CDATA[The Mandalorian and Grogu Digital Release: Your 2026 Guide]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-14-the-mandalorian-and-grogu-digital-release.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-14-the-mandalorian-and-grogu-digital-release.html</guid>
-    <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Don't miss a beat with The Mandalorian and Grogu digital release! Discover where to buy, exclusive bonus content, and why digital ownership matters in 2026. Your ultimate guide to securing the galaxy's favorite duo.]]></description>
-    <enclosure url="https://images.pexels.com/photos/5255319/pexels-photo-5255319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>The Mandalorian</category>
-    <category>Grogu</category>
-    <category>Digital Release</category>
-    <category>Star Wars</category>
-    <category>Disney Plus</category>
-    <category>Digital Ownership</category>
-    <category>Streaming</category>
     <category>Sci-Fi</category>
   </item>
 </channel>
