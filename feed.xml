@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 15 Jul 2026 17:36:05 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 15 Jul 2026 18:33:16 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Top Internet Reactions to Derio vs Athletic: Fan Frenzy Decoded]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-15-top-internet-reactions-derio-vs-athletic.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-15-top-internet-reactions-derio-vs-athletic.html</guid>
+    <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Dive into the top internet reactions to Derio vs Athletic! Uncover viral memes, heated debates, and surprising fan insights. Get the real pulse of the biggest moments.]]></description>
+    <enclosure url="https://images.pexels.com/photos/38553651/pexels-photo-38553651.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI in Sports</category>
+    <category>Sports Analytics</category>
+    <category>Fan Engagement</category>
+    <category>Social Media Trends</category>
+    <category>Football Analysis</category>
+  </item>
   <item>
     <title><![CDATA[The Latest Updates on QuantumMind AI: What You Need for 2026]]></title>
     <link>https://sluintel.github.io/posts/2026-07-15-the-latest-updates-on-quantummind-ai.html</link>
@@ -262,19 +275,6 @@
     <category>Football Analytics</category>
     <category>Sports Tech</category>
     <category>Kylian Mbappe</category>
-  </item>
-  <item>
-    <title><![CDATA[Why Football is Trending in Sports Right Now: Your 2026 Deep Dive]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-14-why-football-is-trending-in-sports-right-now.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-14-why-football-is-trending-in-sports-right-now.html</guid>
-    <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Discover why football is trending in sports right now. Unpack 2026's key drivers from global tournaments to tactical shifts. Stay ahead of the game!]]></description>
-    <enclosure url="https://images.pexels.com/photos/27617204/pexels-photo-27617204.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>football</category>
-    <category>sports trends</category>
-    <category>soccer</category>
-    <category>2026</category>
-    <category>global sports</category>
   </item>
 </channel>
 </rss>
