@@ -5,13 +5,28 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 15 Jul 2026 23:10:31 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 16 Jul 2026 00:08:22 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Ezri Konsa: Unpacking the Internet's Wildest Reactions]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-16-ezri-konsa-internet-reactions-analysis.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-16-ezri-konsa-internet-reactions-analysis.html</guid>
+    <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Dive into the top internet reactions to Ezri Konsa's latest moments. Discover what makes a player go viral and how fan sentiment shapes narratives online.]]></description>
+    <enclosure url="https://images.pexels.com/photos/3768689/pexels-photo-3768689.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Ezri Konsa</category>
+    <category>Football</category>
+    <category>Premier League</category>
+    <category>Fan Reactions</category>
+    <category>Social Media</category>
+    <category>Sports Analytics</category>
+    <category>Viral Moments</category>
+  </item>
   <item>
     <title><![CDATA[FIFA World Cup Final: Everything Happening & Your Ultimate Guide]]></title>
     <link>https://sluintel.github.io/posts/2026-07-15-everything-happening-around-fifa-world-cup-final.html</link>
@@ -261,19 +276,6 @@
     <category>Manchester City</category>
     <category>Spanish Football</category>
     <category>Player Profile</category>
-  </item>
-  <item>
-    <title><![CDATA[ENG vs IND: Everything You Should Know About Cricket's Hottest Rivalry]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-15-eng-vs-ind-everything-you-should-know.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-15-eng-vs-ind-everything-you-should-know.html</guid>
-    <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unpack everything you should know about ENG vs IND cricket rivalry. Discover its history, key moments, and what makes these clashes unmissable. Get insider tips!]]></description>
-    <enclosure url="https://images.pexels.com/photos/6832200/pexels-photo-6832200.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Cricket</category>
-    <category>ENG vs IND</category>
-    <category>Sports Rivalries</category>
-    <category>England Cricket</category>
-    <category>India Cricket</category>
   </item>
 </channel>
 </rss>
