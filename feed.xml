@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 16 Jul 2026 08:31:01 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 16 Jul 2026 09:24:38 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Gemini AI: The Future You Can't Afford to Ignore in 2026]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-16-gemini-ai-future-productivity-mastery.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-16-gemini-ai-future-productivity-mastery.html</guid>
+    <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unlock the power of Gemini AI. Discover how this advanced Google model is reshaping productivity and innovation. Dive into practical tips and strategies for mastering AI in 2026.]]></description>
+    <enclosure url="https://images.pexels.com/photos/17484975/pexels-photo-17484975.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI tools</category>
+    <category>automation</category>
+    <category>Google Gemini</category>
+    <category>machine learning</category>
+    <category>tech trends</category>
+  </item>
   <item>
     <title><![CDATA[Decoding the Top Reactions to World Cup Top Scorer Frenzy]]></title>
     <link>https://sluintel.github.io/posts/2026-07-16-top-reactions-to-world-cup-top-scorer-frenzy.html</link>
@@ -260,19 +273,6 @@
     <category>HIPAA compliance</category>
     <category>data breaches</category>
     <category>patient safety</category>
-  </item>
-  <item>
-    <title><![CDATA[Partnered Health Data Breach: Your Guide to Staying Secure]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-15-partnered-health-data-breach-security-guide.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-15-partnered-health-data-breach-security-guide.html</guid>
-    <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Uncover the critical risks of a partnered health data breach and learn practical strategies to protect your sensitive medical information in 2026. Stay ahead of evolving cyber threats.]]></description>
-    <enclosure url="https://images.pexels.com/photos/5926389/pexels-photo-5926389.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>healthcare security</category>
-    <category>data breach</category>
-    <category>patient privacy</category>
-    <category>cybersecurity</category>
-    <category>HIPAA compliance</category>
   </item>
 </channel>
 </rss>
