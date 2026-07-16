@@ -5,13 +5,27 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 16 Jul 2026 09:24:38 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 16 Jul 2026 10:22:02 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[How Automation is Changing Kylian Mbappé's Elite Game]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-16-how-automation-is-changing-kylian-mbappe.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-16-how-automation-is-changing-kylian-mbappe.html</guid>
+    <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Uncover how automation is fundamentally changing Kylian Mbappé's training, performance, and strategy on the pitch. Discover the tech secrets behind elite football success in 2026.]]></description>
+    <enclosure url="https://images.pexels.com/photos/8386358/pexels-photo-8386358.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI</category>
+    <category>Automation</category>
+    <category>Football</category>
+    <category>Kylian Mbappé</category>
+    <category>Sports Tech</category>
+    <category>Performance Analytics</category>
+  </item>
   <item>
     <title><![CDATA[Gemini AI: The Future You Can't Afford to Ignore in 2026]]></title>
     <link>https://sluintel.github.io/posts/2026-07-16-gemini-ai-future-productivity-mastery.html</link>
@@ -260,19 +274,6 @@
     <category>trending topics</category>
     <category>data analysis</category>
     <category>search intent</category>
-  </item>
-  <item>
-    <title><![CDATA[Partnered Health Data Breach: Navigate the Risks & Protect Your Privacy]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-15-partnered-health-data-breach-privacy-protection.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-15-partnered-health-data-breach-privacy-protection.html</guid>
-    <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Don't let a partnered health data breach compromise your privacy. Learn how these breaches happen, who's responsible, and crucial steps to protect your sensitive medical information in 2026. Stay secure!]]></description>
-    <enclosure url="https://images.pexels.com/photos/8413332/pexels-photo-8413332.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>healthcare cybersecurity</category>
-    <category>data privacy</category>
-    <category>HIPAA compliance</category>
-    <category>data breaches</category>
-    <category>patient safety</category>
   </item>
 </channel>
 </rss>
