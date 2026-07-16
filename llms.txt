@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1174
+Total Posts Published: 1175
 Last Updated: 2026-07-16
-Latest Post: Decoding the Phenomenon: Top Internet Reactions to Jasprit Bumrah
-Latest Post URL: https://sluintel.github.io/posts/2026-07-16-top-internet-reactions-to-jasprit-bumrah.html
+Latest Post: What People Are Saying About Gurnoor Brar: An AI Strategist's Impact
+Latest Post URL: https://sluintel.github.io/posts/2026-07-16-what-people-are-saying-about-gurnoor-brar.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [What People Are Saying About Gurnoor Brar: An AI Strategist's Impact](https://sluintel.github.io/posts/2026-07-16-what-people-are-saying-about-gurnoor-brar.html) — 2026-07-16 — AI Strategy, Automation, Gurnoor Brar
 - [Decoding the Phenomenon: Top Internet Reactions to Jasprit Bumrah](https://sluintel.github.io/posts/2026-07-16-top-internet-reactions-to-jasprit-bumrah.html) — 2026-07-16 — Jasprit Bumrah, Cricket, Social Media
 - [Desjardins Data Leak Fugitive: Your 2026 Security Guide](https://sluintel.github.io/posts/2026-07-16-desjardins-data-leak-fugitive-security-guide.html) — 2026-07-16 — desjardins, data leak, cybersecurity
 - [Ishan Kishan Updates: What's Next for India's Dynamic Wicketkeeper?](https://sluintel.github.io/posts/2026-07-16-ishan-kishan-latest-updates.html) — 2026-07-16 — Ishan Kishan, Indian Cricket, IPL
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Decoding Public Opinion: What People Are Saying About ICC in 2026](https://sluintel.github.io/posts/2026-07-16-what-people-are-saying-about-icc-2026.html) — 2026-07-16 — ICC, Cricket, Sports Governance
 - [ENG vs IND Explained Simply: Why This Cricket Rivalry Matters](https://sluintel.github.io/posts/2026-07-16-eng-vs-ind-explained-simply.html) — 2026-07-16 — Cricket, ENG vs IND, Sports Rivalries
 - [AI Breakthroughs: What Argentina vs Spain Means for Sports Tech](https://sluintel.github.io/posts/2026-07-16-ai-breakthroughs-related-to-argentina-vs-spain.html) — 2026-07-16 — AI in Sports, Sports Analytics, Automation
-- [Decoding the Top Internet Reactions to Jude Bellingham's Rise](https://sluintel.github.io/posts/2026-07-16-top-internet-reactions-to-jude-bellingham.html) — 2026-07-16 — Jude Bellingham, Football, Real Madrid
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
