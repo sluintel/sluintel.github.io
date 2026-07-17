@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 17 Jul 2026 05:23:14 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 17 Jul 2026 05:50:22 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Deces Claude Lemieux: Decoding the End of Outdated AI]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-17-deces-claude-lemieux-ai-paradigm-shift.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-17-deces-claude-lemieux-ai-paradigm-shift.html</guid>
+    <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[The 'deces claude lemieux' signals a crucial shift in AI strategy. Discover why old AI assumptions are failing and how to embrace the future of intelligence for unmatched productivity. Unlock 2026's edge.]]></description>
+    <enclosure url="https://images.pexels.com/photos/8294620/pexels-photo-8294620.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI Strategy</category>
+    <category>AI Productivity</category>
+    <category>Claude Lemieux AI</category>
+    <category>Future of AI</category>
+    <category>Automation</category>
+  </item>
   <item>
     <title><![CDATA[Decoding the 'Deces Claude Lemieux': AI Evolution, Not End]]></title>
     <link>https://sluintel.github.io/posts/2026-07-17-deces-claude-lemieux-ai-evolution.html</link>
@@ -260,19 +273,6 @@
     <category>Golden Boot</category>
     <category>Football Analytics</category>
     <category>Fan Reactions</category>
-  </item>
-  <item>
-    <title><![CDATA[Decoding Top Internet Reactions to WC: What You Need to Know]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-16-top-internet-reactions-to-wc.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-16-top-internet-reactions-to-wc.html</guid>
-    <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Discover the top internet reactions to WC, why they go viral, and how to understand digital culture. Get expert insights into trends and AI analysis.]]></description>
-    <enclosure url="https://images.pexels.com/photos/16367703/pexels-photo-16367703.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>internet culture</category>
-    <category>viral trends</category>
-    <category>social media</category>
-    <category>AI analysis</category>
-    <category>digital marketing</category>
   </item>
 </channel>
 </rss>
