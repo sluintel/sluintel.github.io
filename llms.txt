@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1181
+Total Posts Published: 1182
 Last Updated: 2026-07-17
-Latest Post: Deces Claude Lemieux: Decoding the End of Outdated AI
-Latest Post URL: https://sluintel.github.io/posts/2026-07-17-deces-claude-lemieux-ai-paradigm-shift.html
+Latest Post: Major League Cricket Latest Updates & Bold 2026 Predictions
+Latest Post URL: https://sluintel.github.io/posts/2026-07-17-major-league-cricket-latest-updates-predictions.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Major League Cricket Latest Updates & Bold 2026 Predictions](https://sluintel.github.io/posts/2026-07-17-major-league-cricket-latest-updates-predictions.html) — 2026-07-17 — Major League Cricket, MLC, Cricket Predictions
 - [Deces Claude Lemieux: Decoding the End of Outdated AI](https://sluintel.github.io/posts/2026-07-17-deces-claude-lemieux-ai-paradigm-shift.html) — 2026-07-17 — AI Strategy, AI Productivity, Claude Lemieux AI
 - [Decoding the 'Deces Claude Lemieux': AI Evolution, Not End](https://sluintel.github.io/posts/2026-07-17-deces-claude-lemieux-ai-evolution.html) — 2026-07-17 — AI Tools, Automation, AI Strategy
 - [Shivam Dube: What People Are Saying About This Power Hitter's Rise](https://sluintel.github.io/posts/2026-07-17-what-people-are-saying-about-shivam-dube.html) — 2026-07-17 — Shivam Dube, Cricket, IPL
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [What People Are Saying About Gurnoor Brar: An AI Strategist's Impact](https://sluintel.github.io/posts/2026-07-16-what-people-are-saying-about-gurnoor-brar.html) — 2026-07-16 — AI Strategy, Automation, Gurnoor Brar
 - [Decoding the Phenomenon: Top Internet Reactions to Jasprit Bumrah](https://sluintel.github.io/posts/2026-07-16-top-internet-reactions-to-jasprit-bumrah.html) — 2026-07-16 — Jasprit Bumrah, Cricket, Social Media
 - [Desjardins Data Leak Fugitive: Your 2026 Security Guide](https://sluintel.github.io/posts/2026-07-16-desjardins-data-leak-fugitive-security-guide.html) — 2026-07-16 — desjardins, data leak, cybersecurity
-- [Ishan Kishan Updates: What's Next for India's Dynamic Wicketkeeper?](https://sluintel.github.io/posts/2026-07-16-ishan-kishan-latest-updates.html) — 2026-07-16 — Ishan Kishan, Indian Cricket, IPL
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
