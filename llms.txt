@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1197
+Total Posts Published: 1198
 Last Updated: 2026-07-17
-Latest Post: FIFA World Cup Argentina: Everything Happening & Why It Matters
-Latest Post URL: https://sluintel.github.io/posts/2026-07-17-everything-happening-around-fifa-world-cup-argentina.html
+Latest Post: What People Are Saying About Ballon d'Or: Decoding the Buzz
+Latest Post URL: https://sluintel.github.io/posts/2026-07-17-what-people-are-saying-about-ballon-dor.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [What People Are Saying About Ballon d'Or: Decoding the Buzz](https://sluintel.github.io/posts/2026-07-17-what-people-are-saying-about-ballon-dor.html) — 2026-07-17 — Ballon d'Or, Football Awards, Player of the Year
 - [FIFA World Cup Argentina: Everything Happening & Why It Matters](https://sluintel.github.io/posts/2026-07-17-everything-happening-around-fifa-world-cup-argentina.html) — 2026-07-17 — FIFA World Cup, Argentina Football, Fan Experience
 - [Ballon d'Or Reactions: Unpacking the Internet's Wildest Takes](https://sluintel.github.io/posts/2026-07-17-top-internet-reactions-ballon-dor.html) — 2026-07-17 — Ballon d'Or, football, soccer
 - [The Latest Updates on DR Congo: Why 2026 Demands Your Attention](https://sluintel.github.io/posts/2026-07-17-dr-congo-latest-updates-2026.html) — 2026-07-17 — DR Congo, Geopolitics, Africa
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [What People Are Saying About England vs France: Fan Fury & Expert Forecasts](https://sluintel.github.io/posts/2026-07-17-what-people-are-saying-about-england-vs-france.html) — 2026-07-17 — England vs France, Football, Rugby
 - [Why Ballon d'Or Is Trending: Unpacking the 2026 Football Buzz](https://sluintel.github.io/posts/2026-07-17-why-ballon-dor-is-trending-right-now.html) — 2026-07-17 — Ballon d'Or, football awards, trending topics
 - [Your Digital Odyssey Explained Simply: Navigate Complex Journeys](https://sluintel.github.io/posts/2026-07-17-odyssey-explained-simply.html) — 2026-07-17 — AI transformation, digital strategy, project management
-- [Claude Lemieux AI: Mastering Digital Strategy in 2026](https://sluintel.github.io/posts/2026-07-17-claude-lemieux-ai-mastering-digital-strategy.html) — 2026-07-17 — AI Strategy, Digital Transformation, Automation
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
