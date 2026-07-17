@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1179
+Total Posts Published: 1180
 Last Updated: 2026-07-17
-Latest Post: Shivam Dube: What People Are Saying About This Power Hitter's Rise
-Latest Post URL: https://sluintel.github.io/posts/2026-07-17-what-people-are-saying-about-shivam-dube.html
+Latest Post: Decoding the 'Deces Claude Lemieux': AI Evolution, Not End
+Latest Post URL: https://sluintel.github.io/posts/2026-07-17-deces-claude-lemieux-ai-evolution.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Decoding the 'Deces Claude Lemieux': AI Evolution, Not End](https://sluintel.github.io/posts/2026-07-17-deces-claude-lemieux-ai-evolution.html) — 2026-07-17 — AI Tools, Automation, AI Strategy
 - [Shivam Dube: What People Are Saying About This Power Hitter's Rise](https://sluintel.github.io/posts/2026-07-17-what-people-are-saying-about-shivam-dube.html) — 2026-07-17 — Shivam Dube, Cricket, IPL
 - [Why Sam Curran Is Trending Right Now: Decoding His 2026 Buzz](https://sluintel.github.io/posts/2026-07-17-why-sam-curran-is-trending-right-now.html) — 2026-07-17 — Sam Curran, Cricket Trends, Sports Analysis
 - [Claude Lemieux AI: Master Your Strategy & Productivity in 2026](https://sluintel.github.io/posts/2026-07-16-claude-lemieux-ai-productivity-strategy-2026.html) — 2026-07-16 — AI Strategy, Productivity Tools, Automation
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Desjardins Data Leak Fugitive: Your 2026 Security Guide](https://sluintel.github.io/posts/2026-07-16-desjardins-data-leak-fugitive-security-guide.html) — 2026-07-16 — desjardins, data leak, cybersecurity
 - [Ishan Kishan Updates: What's Next for India's Dynamic Wicketkeeper?](https://sluintel.github.io/posts/2026-07-16-ishan-kishan-latest-updates.html) — 2026-07-16 — Ishan Kishan, Indian Cricket, IPL
 - [The Latest Updates on कल का मौसम: Your 2026 AI-Powered Forecast Edge](https://sluintel.github.io/posts/2026-07-16-the-latest-updates-on-kal-ka-mausam.html) — 2026-07-16 — AI Weather, Weather Forecast, Predictive Analytics
-- [Virat Kohli Latest Updates & Bold Predictions for 2026](https://sluintel.github.io/posts/2026-07-16-virat-kohli-latest-updates-predictions.html) — 2026-07-16 — Virat Kohli, Cricket, Team India
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
