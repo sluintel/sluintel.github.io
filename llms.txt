@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1186
+Total Posts Published: 1187
 Last Updated: 2026-07-17
-Latest Post: Sam Curran Explained Simply: Decoding England's Cricket All-Rounder
-Latest Post URL: https://sluintel.github.io/posts/2026-07-17-sam-curran-explained-simply.html
+Latest Post: Claude Lemieux AI: Mastering Disruption & Digital Strategy in 2026
+Latest Post URL: https://sluintel.github.io/posts/2026-07-17-claude-lemieux-ai-mastering-disruption.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Claude Lemieux AI: Mastering Disruption & Digital Strategy in 2026](https://sluintel.github.io/posts/2026-07-17-claude-lemieux-ai-mastering-disruption.html) — 2026-07-17 — AI Strategy, Digital Productivity, Automation
 - [Sam Curran Explained Simply: Decoding England's Cricket All-Rounder](https://sluintel.github.io/posts/2026-07-17-sam-curran-explained-simply.html) — 2026-07-17 — Sam Curran, Cricket Explained, England Cricket
 - [AI Odyssey Explained Simply: Navigating Complex Tech Journeys](https://sluintel.github.io/posts/2026-07-17-ai-odyssey-explained-simply.html) — 2026-07-17 — AI Strategy, Project Management, Automation
 - [Deces Claude Lemieux: Decoding AI's Paradigm Shift & What's Next](https://sluintel.github.io/posts/2026-07-17-deces-claude-lemieux-ai-paradigm-shift-2.html) — 2026-07-17 — AI evolution, AI strategy, automation trends
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Decoding the 'Deces Claude Lemieux': AI Evolution, Not End](https://sluintel.github.io/posts/2026-07-17-deces-claude-lemieux-ai-evolution.html) — 2026-07-17 — AI Tools, Automation, AI Strategy
 - [Shivam Dube: What People Are Saying About This Power Hitter's Rise](https://sluintel.github.io/posts/2026-07-17-what-people-are-saying-about-shivam-dube.html) — 2026-07-17 — Shivam Dube, Cricket, IPL
 - [Why Sam Curran Is Trending Right Now: Decoding His 2026 Buzz](https://sluintel.github.io/posts/2026-07-17-why-sam-curran-is-trending-right-now.html) — 2026-07-17 — Sam Curran, Cricket Trends, Sports Analysis
-- [Claude Lemieux AI: Master Your Strategy & Productivity in 2026](https://sluintel.github.io/posts/2026-07-16-claude-lemieux-ai-productivity-strategy-2026.html) — 2026-07-16 — AI Strategy, Productivity Tools, Automation
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
