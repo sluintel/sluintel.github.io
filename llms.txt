@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1193
+Total Posts Published: 1194
 Last Updated: 2026-07-17
-Latest Post: Decoding the Buzz: What People Are Saying About Jethalal in 2026
-Latest Post URL: https://sluintel.github.io/posts/2026-07-17-what-people-are-saying-about-jethalal.html
+Latest Post: England vs France Explained Simply: A Timeless Rivalry Unpacked
+Latest Post URL: https://sluintel.github.io/posts/2026-07-17-england-vs-france-explained-simply.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [England vs France Explained Simply: A Timeless Rivalry Unpacked](https://sluintel.github.io/posts/2026-07-17-england-vs-france-explained-simply.html) — 2026-07-17 — Anglo-French relations, Geopolitics, European history
 - [Decoding the Buzz: What People Are Saying About Jethalal in 2026](https://sluintel.github.io/posts/2026-07-17-what-people-are-saying-about-jethalal.html) — 2026-07-17 — Jethalal, TMKOC, Indian Television
 - [What People Are Saying About कल का मौसम: Decoding Tomorrow's Forecast Buzz](https://sluintel.github.io/posts/2026-07-17-what-people-are-saying-about-kal-ka-mausam.html) — 2026-07-17 — AI Tools, Weather Forecasting, Automation
 - [What People Are Saying About England vs France: Fan Fury & Expert Forecasts](https://sluintel.github.io/posts/2026-07-17-what-people-are-saying-about-england-vs-france.html) — 2026-07-17 — England vs France, Football, Rugby
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Claude Lemieux AI: Mastering Disruption & Digital Strategy in 2026](https://sluintel.github.io/posts/2026-07-17-claude-lemieux-ai-mastering-disruption.html) — 2026-07-17 — AI Strategy, Digital Productivity, Automation
 - [Sam Curran Explained Simply: Decoding England's Cricket All-Rounder](https://sluintel.github.io/posts/2026-07-17-sam-curran-explained-simply.html) — 2026-07-17 — Sam Curran, Cricket Explained, England Cricket
 - [AI Odyssey Explained Simply: Navigating Complex Tech Journeys](https://sluintel.github.io/posts/2026-07-17-ai-odyssey-explained-simply.html) — 2026-07-17 — AI Strategy, Project Management, Automation
-- [Deces Claude Lemieux: Decoding AI's Paradigm Shift & What's Next](https://sluintel.github.io/posts/2026-07-17-deces-claude-lemieux-ai-paradigm-shift-2.html) — 2026-07-17 — AI evolution, AI strategy, automation trends
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
