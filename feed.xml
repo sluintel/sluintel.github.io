@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 17 Jul 2026 08:25:57 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 17 Jul 2026 09:19:24 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Deces Claude Lemieux: Decoding AI's Paradigm Shift & What's Next]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-17-deces-claude-lemieux-ai-paradigm-shift-2.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-17-deces-claude-lemieux-ai-paradigm-shift-2.html</guid>
+    <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[What does 'deces claude lemieux' truly mean for AI? Unpack the end of outdated AI paradigms, understand the new era, and future-proof your strategy. Get ahead.]]></description>
+    <enclosure url="https://images.pexels.com/photos/8294625/pexels-photo-8294625.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI evolution</category>
+    <category>AI strategy</category>
+    <category>automation trends</category>
+    <category>future of AI</category>
+    <category>tech leadership</category>
+  </item>
   <item>
     <title><![CDATA[Joe Root Explained Simply: Why England's Maestro Still Dominates]]></title>
     <link>https://sluintel.github.io/posts/2026-07-17-joe-root-explained-simply.html</link>
@@ -259,20 +272,6 @@
     <category>Real Madrid</category>
     <category>Social Media Trends</category>
     <category>Fan Engagement</category>
-  </item>
-  <item>
-    <title><![CDATA[How Automation is Changing Kylian Mbappé's Elite Game]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-16-how-automation-is-changing-kylian-mbappe.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-16-how-automation-is-changing-kylian-mbappe.html</guid>
-    <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Uncover how automation is fundamentally changing Kylian Mbappé's training, performance, and strategy on the pitch. Discover the tech secrets behind elite football success in 2026.]]></description>
-    <enclosure url="https://images.pexels.com/photos/8386358/pexels-photo-8386358.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI</category>
-    <category>Automation</category>
-    <category>Football</category>
-    <category>Kylian Mbappé</category>
-    <category>Sports Tech</category>
-    <category>Performance Analytics</category>
   </item>
 </channel>
 </rss>
