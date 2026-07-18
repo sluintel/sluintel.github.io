@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1200
+Total Posts Published: 1201
 Last Updated: 2026-07-18
-Latest Post: Weather Today Explained Simply: Your Quick Guide to What's Outside
-Latest Post URL: https://sluintel.github.io/posts/2026-07-18-weather-today-explained-simply.html
+Latest Post: How Generative AI is Impacting Turkish Airlines: Your 2026 Guide
+Latest Post URL: https://sluintel.github.io/posts/2026-07-18-how-generative-ai-is-impacting-turkish-airlines.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [How Generative AI is Impacting Turkish Airlines: Your 2026 Guide](https://sluintel.github.io/posts/2026-07-18-how-generative-ai-is-impacting-turkish-airlines.html) — 2026-07-18 — Generative AI, Turkish Airlines, Aviation Tech
 - [Weather Today Explained Simply: Your Quick Guide to What's Outside](https://sluintel.github.io/posts/2026-07-18-weather-today-explained-simply.html) — 2026-07-18 — weather, forecasts, meteorology
 - [Top Reactions to FIFA World Cup Argentina: Fan Frenzy Decoded](https://sluintel.github.io/posts/2026-07-17-top-reactions-to-fifa-world-cup-argentina.html) — 2026-07-17 — FIFA World Cup, Argentina Football, Fan Reactions
 - [What People Are Saying About Ballon d'Or: Decoding the Buzz](https://sluintel.github.io/posts/2026-07-17-what-people-are-saying-about-ballon-dor.html) — 2026-07-17 — Ballon d'Or, Football Awards, Player of the Year
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [England vs France Explained Simply: A Timeless Rivalry Unpacked](https://sluintel.github.io/posts/2026-07-17-england-vs-france-explained-simply.html) — 2026-07-17 — Anglo-French relations, Geopolitics, European history
 - [Decoding the Buzz: What People Are Saying About Jethalal in 2026](https://sluintel.github.io/posts/2026-07-17-what-people-are-saying-about-jethalal.html) — 2026-07-17 — Jethalal, TMKOC, Indian Television
 - [What People Are Saying About कल का मौसम: Decoding Tomorrow's Forecast Buzz](https://sluintel.github.io/posts/2026-07-17-what-people-are-saying-about-kal-ka-mausam.html) — 2026-07-17 — AI Tools, Weather Forecasting, Automation
-- [What People Are Saying About England vs France: Fan Fury & Expert Forecasts](https://sluintel.github.io/posts/2026-07-17-what-people-are-saying-about-england-vs-france.html) — 2026-07-17 — England vs France, Football, Rugby
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
