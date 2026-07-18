@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1220
+Total Posts Published: 1221
 Last Updated: 2026-07-18
-Latest Post: Decoding the Top Internet Reactions to Dundee vs Everton
-Latest Post URL: https://sluintel.github.io/posts/2026-07-18-top-internet-reactions-dundee-vs-everton.html
+Latest Post: Unpacking the Numbers: FIFA World Cup Stats Highlights Fans Are Talking About
+Latest Post URL: https://sluintel.github.io/posts/2026-07-18-fifa-world-cup-stats-highlights-fans-are-talking-about.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Unpacking the Numbers: FIFA World Cup Stats Highlights Fans Are Talking About](https://sluintel.github.io/posts/2026-07-18-fifa-world-cup-stats-highlights-fans-are-talking-about.html) — 2026-07-18 — FIFA World Cup, Football Stats, Player Performance
 - [Decoding the Top Internet Reactions to Dundee vs Everton](https://sluintel.github.io/posts/2026-07-18-top-internet-reactions-dundee-vs-everton.html) — 2026-07-18 — football reactions, fan sentiment, social media
 - [What's Next for France vs England World Cup: Future Face-Offs Revealed](https://sluintel.github.io/posts/2026-07-18-whats-next-for-france-vs-england-world-cup.html) — 2026-07-18 — Football, World Cup, France National Team
 - [What People Are Saying About Leioa vs Athletic: Rivalry Decoded](https://sluintel.github.io/posts/2026-07-18-what-people-are-saying-about-leioa-vs-athletic.html) — 2026-07-18 — Leioa Football, Athletic Bilbao, Basque Derby
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Notts County vs Forest: Why This Historic Rivalry Is Trending Now](https://sluintel.github.io/posts/2026-07-18-notts-county-vs-nottm-forest-trending-now.html) — 2026-07-18 — Football Trends, Nottingham Derby, Sports Analytics
 - [AI's Take: The Latest Updates on Notts County vs Nottm Forest](https://sluintel.github.io/posts/2026-07-18-the-latest-updates-on-notts-county-vs-nottm-forest-ai-analysis.html) — 2026-07-18 — AI in Sports, Football Analytics, Notts County
 - [Man United vs Wrexham: What People Are Saying & Why It Matters](https://sluintel.github.io/posts/2026-07-18-what-people-are-saying-about-man-united-vs-wrexham.html) — 2026-07-18 — Man United, Wrexham AFC, Football Analysis
-- [Dundee vs Everton: Everything You Should Know About This Uncommon Pairing](https://sluintel.github.io/posts/2026-07-18-dundee-vs-everton-everything-you-should-know.html) — 2026-07-18 — football analysis, scottish premiership, premier league
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
