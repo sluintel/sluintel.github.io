@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 19 Jul 2026 19:32:02 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 19 Jul 2026 20:12:21 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[What People Are Saying About Nicolás Otamendi: Legacy & Debates]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-19-what-people-are-saying-about-nicolas-otamendi.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-19-what-people-are-saying-about-nicolas-otamendi.html</guid>
+    <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Dive deep into what people are saying about Nicolás Otamendi's enduring legacy. Understand fan sentiment, expert analysis, and why this Argentine defender continues to spark debate in 2026.]]></description>
+    <enclosure url="https://images.pexels.com/photos/16966301/pexels-photo-16966301.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>nicolas otamendi</category>
+    <category>football</category>
+    <category>argentina</category>
+    <category>defender</category>
+    <category>player analysis</category>
+  </item>
   <item>
     <title><![CDATA[BBC iPlayer Highlights Fans Are Talking About: Your Must-Watch Guide]]></title>
     <link>https://sluintel.github.io/posts/2026-07-19-bbc-iplayer-highlights-fans-are-talking-about.html</link>
@@ -260,19 +273,6 @@
     <category>Soccer Stats</category>
     <category>Player Rankings</category>
     <category>Sports Analytics</category>
-  </item>
-  <item>
-    <title><![CDATA[Why Michael Olise is Trending Right Now: Decoding His 2026 Buzz]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-19-why-michael-olise-is-trending-right-now.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-19-why-michael-olise-is-trending-right-now.html</guid>
-    <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Michael Olise is dominating headlines! Discover why the football sensation is trending in 2026, from transfer rumors to on-field brilliance. Get the inside scoop on his future.]]></description>
-    <enclosure url="https://images.pexels.com/photos/26946434/pexels-photo-26946434.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Michael Olise</category>
-    <category>Football Trends</category>
-    <category>Premier League</category>
-    <category>Transfer Rumours</category>
-    <category>Sports Analysis</category>
   </item>
 </channel>
 </rss>
