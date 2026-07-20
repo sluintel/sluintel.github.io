@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1266
+Total Posts Published: 1267
 Last Updated: 2026-07-20
-Latest Post: Why FC Basel Is Trending: Swiss Football's Resurgence Explained
-Latest Post URL: https://sluintel.github.io/posts/2026-07-20-why-fc-basel-is-trending-in-sports-right-now.html
+Latest Post: What People Are Saying About AI Content Generation
+Latest Post URL: https://sluintel.github.io/posts/2026-07-20-what-people-are-saying-about-ai-content-generation.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [What People Are Saying About AI Content Generation](https://sluintel.github.io/posts/2026-07-20-what-people-are-saying-about-ai-content-generation.html) — 2026-07-20 — AI Content Generation, Artificial Intelligence, Content Marketing
 - [Why FC Basel Is Trending: Swiss Football's Resurgence Explained](https://sluintel.github.io/posts/2026-07-20-why-fc-basel-is-trending-in-sports-right-now.html) — 2026-07-20 — FC Basel, Swiss Football, Football Trends
 - [Decoding Top Internet Reactions to NEPSE for Smarter Investing](https://sluintel.github.io/posts/2026-07-20-top-internet-reactions-to-nepse.html) — 2026-07-20 — NEPSE, Stock Market Nepal, Investor Sentiment
 - [NHAI Rajmargyatra App Local Pass: Your Essential Guide for Smart Commuting](https://sluintel.github.io/posts/2026-07-20-nhai-rajmargyatra-app-local-pass.html) — 2026-07-20 — NHAI, Rajmargyatra App, Local Pass
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [What's Next for FC Basel: Charting a Course Back to Glory](https://sluintel.github.io/posts/2026-07-20-whats-next-for-fc-basel.html) — 2026-07-20 — FC Basel, Swiss Super League, Football Strategy
 - [Decoding the Top Reactions to FC Basel's Tumultuous Season](https://sluintel.github.io/posts/2026-07-20-top-reactions-to-fc-basel.html) — 2026-07-20 — FC Basel, Swiss Super League, Fan Reactions
 - [Mastering MTAR Tech Lower Circuit Trading: Your 2026 Survival Guide](https://sluintel.github.io/posts/2026-07-20-mtar-tech-lower-circuit-trading-2026-guide.html) — 2026-07-20 — MTAR Tech, Lower Circuit, Stock Market
-- [NEPSE Buzz: What People Are Saying About Nepal's Stock Market](https://sluintel.github.io/posts/2026-07-20-what-people-are-saying-about-nepse-2.html) — 2026-07-20 — nepse, nepal stock exchange, investor sentiment
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
