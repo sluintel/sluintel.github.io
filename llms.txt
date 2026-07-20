@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1252
+Total Posts Published: 1253
 Last Updated: 2026-07-20
-Latest Post: Golden Boot Showdown: Who Won Golden Boot in World Cup Highlights Fans Are Talking About
-Latest Post URL: https://sluintel.github.io/posts/2026-07-20-who-won-golden-boot-in-world-cup-highlights-fans-are-talking-about.html
+Latest Post: What People Are Saying About NEPSE: Investor Sentiment Unpacked
+Latest Post URL: https://sluintel.github.io/posts/2026-07-20-what-people-are-saying-about-nepse.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [What People Are Saying About NEPSE: Investor Sentiment Unpacked](https://sluintel.github.io/posts/2026-07-20-what-people-are-saying-about-nepse.html) — 2026-07-20 — NEPSE, Nepal Stock Exchange, Stock Market
 - [Golden Boot Showdown: Who Won Golden Boot in World Cup Highlights Fans Are Talking About](https://sluintel.github.io/posts/2026-07-20-who-won-golden-boot-in-world-cup-highlights-fans-are-talking-about.html) — 2026-07-20 — World Cup, Golden Boot, Football Highlights
 - [Why Setopati Is Trending Right Now: Decoding Nepal's Digital News Giant](https://sluintel.github.io/posts/2026-07-20-why-setopati-is-trending-right-now.html) — 2026-07-20 — Setopati, Nepal news, online journalism
 - [Setopati Explained Simply: Your Guide to Nepal's Top Digital News](https://sluintel.github.io/posts/2026-07-20-setopati-explained-simply.html) — 2026-07-20 — Setopati, Nepali News, Digital Media
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [AI Unleashed: Mastering the Future of Work in 2026](https://sluintel.github.io/posts/2026-07-20-ai-unleashed-mastering-future-work-2026.html) — 2026-07-20 — AI, Artificial Intelligence, Automation
 - [The Golden Ball Unpacked: Everything You Should Know About Peak Performance](https://sluintel.github.io/posts/2026-07-19-golden-ball-everything-you-should-know.html) — 2026-07-19 — Sports Analytics, Performance Optimization, AI in Sports
 - [Enzo Fernández Explained Simply: Decoding Football's Midfield Maestro](https://sluintel.github.io/posts/2026-07-19-enzo-fernandez-explained-simply.html) — 2026-07-19 — Enzo Fernández, Chelsea FC, Midfielder
-- [Unpacking the Top Internet Reactions to Lisandro Martínez](https://sluintel.github.io/posts/2026-07-19-top-internet-reactions-to-lisandro-martinez.html) — 2026-07-19 — Lisandro Martinez, Football, Social Media
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
