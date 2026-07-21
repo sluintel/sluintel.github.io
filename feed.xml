@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 21 Jul 2026 09:36:57 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 21 Jul 2026 10:34:18 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Why '1' Is Trending Right Now: The Drive for Singular Impact]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-21-why-1-is-trending-right-now-2.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-21-why-1-is-trending-right-now-2.html</guid>
+    <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack why '1' – from top trends to singular focus – dominates in 2026. Discover how AI predicts the next big thing and shapes our world. Get ahead of the curve.]]></description>
+    <enclosure url="https://images.pexels.com/photos/7887850/pexels-photo-7887850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>trending topics</category>
+    <category>AI analysis</category>
+    <category>future trends</category>
+    <category>data insights</category>
+    <category>impact analysis</category>
+  </item>
   <item>
     <title><![CDATA[The Latest Updates on ESPNcricinfo: Your 2026 Cricket Command Center]]></title>
     <link>https://sluintel.github.io/posts/2026-07-21-the-latest-updates-on-espncricinfo.html</link>
@@ -260,19 +273,6 @@
     <category>Stock Market</category>
     <category>Trading Strategy</category>
     <category>Risk Management</category>
-  </item>
-  <item>
-    <title><![CDATA[NEPSE Buzz: What People Are Saying About Nepal's Stock Market]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-20-what-people-are-saying-about-nepse-2.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-20-what-people-are-saying-about-nepse-2.html</guid>
-    <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Curious about NEPSE? Discover what people are saying about Nepal's stock exchange, the latest market sentiment, and how to navigate its unique trends. Get ahead with expert insights.]]></description>
-    <enclosure url="https://images.pexels.com/photos/8122053/pexels-photo-8122053.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>nepse</category>
-    <category>nepal stock exchange</category>
-    <category>investor sentiment</category>
-    <category>stock market nepal</category>
-    <category>market analysis</category>
   </item>
 </channel>
 </rss>
