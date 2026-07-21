@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 21 Jul 2026 15:16:22 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 21 Jul 2026 15:51:53 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[AI Bubble: Is the Tech Hype Sustainable in 2026?]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-21-ai-bubble-sustainable-hype-2026.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-21-ai-bubble-sustainable-hype-2026.html</guid>
+    <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Navigating the AI bubble in 2026? Understand if the tech hype is sustainable, how to identify real value, and smart strategies to thrive in a volatile market. Get expert insights!]]></description>
+    <enclosure url="https://images.pexels.com/photos/5473955/pexels-photo-5473955.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI bubble</category>
+    <category>tech hype</category>
+    <category>AI investing</category>
+    <category>future of AI</category>
+    <category>automation</category>
+  </item>
   <item>
     <title><![CDATA[Navigating the AI Bubble: Smart Strategies for 2026's Tech Tides]]></title>
     <link>https://sluintel.github.io/posts/2026-07-21-ai-bubble-smart-strategies-2026.html</link>
@@ -260,19 +273,6 @@
     <category>Local Pass</category>
     <category>Toll Payments</category>
     <category>Smart Commuting</category>
-  </item>
-  <item>
-    <title><![CDATA[Why Map Is Trending Right Now: Decoding the Era of Intelligent Geospatial Data]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-20-why-map-is-trending-right-now.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-20-why-map-is-trending-right-now.html</guid>
-    <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Uncover why map technology is exploding in popularity right now. Learn how AI, real-time data, and advanced visualization are revolutionizing every industry and transforming our digital world. Don't miss out!]]></description>
-    <enclosure url="https://images.pexels.com/photos/5302807/pexels-photo-5302807.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>mapping</category>
-    <category>AI</category>
-    <category>geospatial</category>
-    <category>automation</category>
-    <category>data visualization</category>
   </item>
 </channel>
 </rss>
