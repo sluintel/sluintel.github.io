@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 22 Jul 2026 21:21:01 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 22 Jul 2026 22:16:21 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Chick-fil-A Data Breach: What You Need to Know for 2026 Digital Security]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-22-chick-fil-a-data-breach-security-guide.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-22-chick-fil-a-data-breach-security-guide.html</guid>
+    <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Concerned about a Chick-fil-A data breach? Understand the risks to your customer data and learn practical steps to protect your personal information in 2026. Stay secure!]]></description>
+    <enclosure url="https://images.pexels.com/photos/20870805/pexels-photo-20870805.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Data Security</category>
+    <category>Cybersecurity</category>
+    <category>Customer Data</category>
+    <category>Identity Protection</category>
+    <category>Online Privacy</category>
+  </item>
   <item>
     <title><![CDATA[Decoding the Top Internet Reactions to Nottm Forest vs Blackburn Rovers]]></title>
     <link>https://sluintel.github.io/posts/2026-07-22-top-internet-reactions-nottm-forest-vs-blackburn-rovers.html</link>
@@ -260,19 +273,6 @@
     <category>Generative AI</category>
     <category>Automation</category>
     <category>Future of AI</category>
-  </item>
-  <item>
-    <title><![CDATA[Kaylee Hottle: The Latest Updates on Her Impactful Career]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-21-the-latest-updates-on-kaylee-hottle.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-21-the-latest-updates-on-kaylee-hottle.html</guid>
-    <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Don't miss the latest updates on Kaylee Hottle's career, her advocacy, and future projects. Discover how this trailblazing deaf actress is reshaping Hollywood. Get the inside scoop!]]></description>
-    <enclosure url="https://images.pexels.com/photos/28927575/pexels-photo-28927575.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Kaylee Hottle</category>
-    <category>Deaf Actress</category>
-    <category>Hollywood</category>
-    <category>ASL</category>
-    <category>Godzilla vs Kong</category>
   </item>
 </channel>
 </rss>
