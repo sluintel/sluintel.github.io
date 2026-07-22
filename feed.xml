@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 22 Jul 2026 09:36:38 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 22 Jul 2026 10:35:02 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[AI Solves Math Problem: Unlocking Computational Genius in 2026]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-22-ai-solves-math-problem-computational-genius-2026.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-22-ai-solves-math-problem-computational-genius-2026.html</guid>
+    <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Discover how AI solves math problems, from basic algebra to complex calculus. Learn the tools, methods, and future of computational genius with AI in 2026.]]></description>
+    <enclosure url="https://images.pexels.com/photos/6256068/pexels-photo-6256068.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI Tools</category>
+    <category>Math Automation</category>
+    <category>AI in Education</category>
+    <category>Computational Genius</category>
+    <category>Problem Solving AI</category>
+  </item>
   <item>
     <title><![CDATA[Hugging Face vs. OpenAI: Navigating AI's Dual Paths in 2026]]></title>
     <link>https://sluintel.github.io/posts/2026-07-22-hugging-face-openai-navigating-ai-paths.html</link>
@@ -258,19 +271,6 @@
     <category>Football Predictions</category>
     <category>Argentina Football</category>
     <category>GOAT</category>
-  </item>
-  <item>
-    <title><![CDATA[Why The Odyssey Movie Is Breaking The Internet in 2026]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-21-why-the-odyssey-movie-is-breaking-the-internet.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-21-why-the-odyssey-movie-is-breaking-the-internet.html</guid>
-    <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unpack why The Odyssey movie is breaking the internet. Discover the viral strategies, audience psychology, and specific elements making this film a 2026 cultural phenomenon.]]></description>
-    <enclosure url="https://images.pexels.com/photos/160483/hiker-traveler-trip-travel-160483.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI in Film</category>
-    <category>Viral Content</category>
-    <category>Movie Marketing</category>
-    <category>Audience Engagement</category>
-    <category>Cultural Impact</category>
   </item>
 </channel>
 </rss>
