@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1331
+Total Posts Published: 1332
 Last Updated: 2026-07-23
-Latest Post: The Latest Updates on Andy Burnham Cabinet: Your 2026 Playbook
-Latest Post URL: https://sluintel.github.io/posts/2026-07-23-the-latest-updates-on-andy-burnham-cabinet.html
+Latest Post: AI Breakthroughs: Decoding Naimisha Pradhan's Impact on Future Tech
+Latest Post URL: https://sluintel.github.io/posts/2026-07-23-ai-breakthroughs-naimisha-pradhan.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [AI Breakthroughs: Decoding Naimisha Pradhan's Impact on Future Tech](https://sluintel.github.io/posts/2026-07-23-ai-breakthroughs-naimisha-pradhan.html) — 2026-07-23 — AI, Machine Learning, Ethical AI
 - [The Latest Updates on Andy Burnham Cabinet: Your 2026 Playbook](https://sluintel.github.io/posts/2026-07-23-the-latest-updates-on-andy-burnham-cabinet.html) — 2026-07-23 — Andy Burnham, Greater Manchester, Devolution
 - [Mastering Modern Software: Your Digital Edge in 2026](https://sluintel.github.io/posts/2026-07-23-software-digital-edge-2026.html) — 2026-07-23 — Software, AI Tools, Automation
 - [Why Ashok Sharma Is Trending: Decoding the AI Visionary's Impact](https://sluintel.github.io/posts/2026-07-23-why-ashok-sharma-is-trending-right-now.html) — 2026-07-23 — AI Trends, Automation, Predictive Analytics
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Why Ben Curran is Trending Right Now: Unpacking the 2026 Buzz](https://sluintel.github.io/posts/2026-07-23-why-ben-curran-is-trending-right-now.html) — 2026-07-23 — Ben Curran, Cricket, Sports Trends
 - [Rahul Gandhi: Everything You Should Know About India's Dynamic Politician](https://sluintel.github.io/posts/2026-07-23-rahul-gandhi-everything-you-should-know.html) — 2026-07-23 — Rahul Gandhi, Indian Politics, Congress
 - [Why Zimbabwe vs India is Trending Right Now: Decoding the Buzz](https://sluintel.github.io/posts/2026-07-23-why-zimbabwe-vs-india-is-trending-right-now.html) — 2026-07-23 — Cricket, Zimbabwe Cricket, Indian Cricket
-- [Top Internet Reactions to Nepal vs Netherlands: Fan Frenzy Decoded](https://sluintel.github.io/posts/2026-07-23-top-internet-reactions-nepal-vs-netherlands.html) — 2026-07-23 — cricket, sports fan reaction, Nepal cricket
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
