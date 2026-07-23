@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1315
+Total Posts Published: 1316
 Last Updated: 2026-07-23
-Latest Post: Why Nigeria is Trending Right Now: Decoding Its Global Surge in 2026
-Latest Post URL: https://sluintel.github.io/posts/2026-07-23-why-nigeria-is-trending-right-now.html
+Latest Post: What People Are Saying About Nigeria: Unpacking the 2026 Global Discourse
+Latest Post URL: https://sluintel.github.io/posts/2026-07-23-what-people-are-saying-about-nigeria-discourse-2026.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [What People Are Saying About Nigeria: Unpacking the 2026 Global Discourse](https://sluintel.github.io/posts/2026-07-23-what-people-are-saying-about-nigeria-discourse-2026.html) — 2026-07-23 — Nigeria, African Economy, Global Perceptions
 - [Why Nigeria is Trending Right Now: Decoding Its Global Surge in 2026](https://sluintel.github.io/posts/2026-07-23-why-nigeria-is-trending-right-now.html) — 2026-07-23 — Nigeria, Afrobeats, Tech Hub
 - [AI Decodes the Latest Updates on Spurs vs MK Dons Data](https://sluintel.github.io/posts/2026-07-23-ai-decodes-latest-updates-spurs-mk-dons-data.html) — 2026-07-23 — AI in Sports, Football Analytics, Machine Learning
 - [Inter Miami vs Chicago Explained Simply: MLS Showdown Unpacked](https://sluintel.github.io/posts/2026-07-23-inter-miami-vs-chicago-explained-simply.html) — 2026-07-23 — MLS, Inter Miami, Chicago Fire
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Unpacking the Top Internet Reactions to Napoli vs Arezzo](https://sluintel.github.io/posts/2026-07-22-top-internet-reactions-napoli-vs-arezzo.html) — 2026-07-22 — Football, Serie A, Social Media
 - [Why कीर्तिपुर is Trending Right Now: Nepal's Urban Gem Ascends](https://sluintel.github.io/posts/2026-07-22-why-kirtipur-is-trending-right-now.html) — 2026-07-22 — Kirtipur, Nepal, Trending 2026
 - [Lock Upp Episode 21 Explained Simply: Unraveling the Drama & Key Moments](https://sluintel.github.io/posts/2026-07-22-lock-upp-episode-21-explained-simply.html) — 2026-07-22 — reality TV, Lock Upp, episode summary
-- [Nottm Forest vs Blackburn Rovers: Unpacking a Historic Rivalry](https://sluintel.github.io/posts/2026-07-22-nottm-forest-vs-blackburn-rovers-historic-rivalry.html) — 2026-07-22 — Football Rivalries, Championship Football, Nottm Forest
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
