@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 24 Jul 2026 05:30:22 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 24 Jul 2026 06:03:58 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Navigating the Superannuation Growth Funds AI Boom in 2026]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-24-superannuation-growth-funds-ai-boom.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-24-superannuation-growth-funds-ai-boom.html</guid>
+    <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unlock the power of AI in superannuation growth funds. Discover how intelligent automation is shaping your retirement savings and smart strategies to thrive in the 2026 AI boom. Don't miss out!]]></description>
+    <enclosure url="https://images.pexels.com/photos/5849554/pexels-photo-5849554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>superannuation</category>
+    <category>AI investing</category>
+    <category>retirement planning</category>
+    <category>wealth management</category>
+    <category>fintech</category>
+  </item>
   <item>
     <title><![CDATA[Jana Nayagan Movie Latest Buzz & Fan Reactions: Your Guide]]></title>
     <link>https://sluintel.github.io/posts/2026-07-24-jana-nayagan-movie-latest-buzz-fan-reactions.html</link>
@@ -258,19 +271,6 @@
     <category>AI tech</category>
     <category>mobile reviews</category>
     <category>Android</category>
-  </item>
-  <item>
-    <title><![CDATA[The Latest Updates on Inter Miami: Your 2026 Season Playbook]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-23-the-latest-updates-on-inter-miami.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-23-the-latest-updates-on-inter-miami.html</guid>
-    <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Don't miss a beat! Get the latest updates on Inter Miami, covering key player moves, tactical shifts, and what it all means for their 2026 campaign. Stay ahead with expert insights.]]></description>
-    <enclosure url="https://images.pexels.com/photos/16689311/pexels-photo-16689311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Inter Miami</category>
-    <category>MLS</category>
-    <category>Football</category>
-    <category>Soccer</category>
-    <category>Sports Updates</category>
   </item>
 </channel>
 </rss>
