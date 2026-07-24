@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 24 Jul 2026 06:39:26 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 24 Jul 2026 07:42:51 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Mastering Tech: Your 2026 Guide to AI & Automation Success]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-24-mastering-tech-ai-automation-2026.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-24-mastering-tech-ai-automation-2026.html</guid>
+    <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Feeling lost in the rapid pace of tech? Discover how to navigate AI, automation, and emerging technologies in 2026 to stay ahead, boost efficiency, and secure your future. Actionable insights await.]]></description>
+    <enclosure url="https://images.pexels.com/photos/5614259/pexels-photo-5614259.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI</category>
+    <category>Automation</category>
+    <category>Future Tech</category>
+    <category>Technology Strategy</category>
+    <category>Digital Transformation</category>
+  </item>
   <item>
     <title><![CDATA[Superannuation Growth Funds AI Boom: Smart Retirement in 2026]]></title>
     <link>https://sluintel.github.io/posts/2026-07-24-superannuation-growth-funds-ai-boom-2.html</link>
@@ -258,19 +271,6 @@
     <category>Nepal cricket</category>
     <category>Netherlands cricket</category>
     <category>social media trends</category>
-  </item>
-  <item>
-    <title><![CDATA[Data Center Demystified: Powering Tomorrow's AI & Automation]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-23-data-center-demystified-ai-automation.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-23-data-center-demystified-ai-automation.html</guid>
-    <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unravel the complexities of a modern data center. Learn why this crucial digital backbone drives AI, automation, and your business's future. Discover essential tips for 2026.]]></description>
-    <enclosure url="https://images.pexels.com/photos/34924856/pexels-photo-34924856.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>data center</category>
-    <category>cloud computing</category>
-    <category>AI infrastructure</category>
-    <category>automation</category>
-    <category>IT strategy</category>
   </item>
 </channel>
 </rss>
