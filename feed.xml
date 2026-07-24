@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 24 Jul 2026 06:03:58 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 24 Jul 2026 06:39:26 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Superannuation Growth Funds AI Boom: Smart Retirement in 2026]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-24-superannuation-growth-funds-ai-boom-2.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-24-superannuation-growth-funds-ai-boom-2.html</guid>
+    <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Navigate the superannuation growth funds AI boom in 2026. Discover how AI transforms retirement savings, minimizes risk, and maximizes returns. Unlock smarter investing now!]]></description>
+    <enclosure url="https://images.pexels.com/photos/7948043/pexels-photo-7948043.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI Investing</category>
+    <category>Superannuation</category>
+    <category>Fintech</category>
+    <category>Retirement Planning</category>
+    <category>Wealth Management</category>
+  </item>
   <item>
     <title><![CDATA[Navigating the Superannuation Growth Funds AI Boom in 2026]]></title>
     <link>https://sluintel.github.io/posts/2026-07-24-superannuation-growth-funds-ai-boom.html</link>
@@ -258,19 +271,6 @@
     <category>AI infrastructure</category>
     <category>automation</category>
     <category>IT strategy</category>
-  </item>
-  <item>
-    <title><![CDATA[Xiaomi 18 Pro Max: The Latest Updates & Why They Matter for 2026]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-23-latest-updates-xiaomi-18-pro-max.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-23-latest-updates-xiaomi-18-pro-max.html</guid>
-    <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unpack the latest updates on Xiaomi 18 Pro Max for 2026. Discover groundbreaking camera tech, battery innovations, and performance boosts. Is it your next flagship?]]></description>
-    <enclosure url="https://images.pexels.com/photos/163097/twitter-social-media-communication-internet-network-163097.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Xiaomi 18 Pro Max</category>
-    <category>smartphone</category>
-    <category>AI tech</category>
-    <category>mobile reviews</category>
-    <category>Android</category>
   </item>
 </channel>
 </rss>
