@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 25 Jul 2026 09:09:26 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 25 Jul 2026 10:03:06 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Mastering ChatGPT: Your Essential Guide to AI's Power]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-25-chat-gpt-master-guide-ai-power.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-25-chat-gpt-master-guide-ai-power.html</guid>
+    <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unlock ChatGPT's true potential for business and personal productivity in 2026. This guide reveals expert strategies to master AI conversations and automation.]]></description>
+    <enclosure url="https://images.pexels.com/photos/8284724/pexels-photo-8284724.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>ChatGPT</category>
+    <category>AI tools</category>
+    <category>Generative AI</category>
+    <category>Automation</category>
+    <category>Prompt Engineering</category>
+  </item>
   <item>
     <title><![CDATA[Why Adarsh Baal Vidyalaya Is Trending Right Now: Learning's Future?]]></title>
     <link>https://sluintel.github.io/posts/2026-07-25-why-adarsh-baal-vidyalaya-is-trending-right-now.html</link>
@@ -265,19 +278,6 @@
     <category>future tech</category>
     <category>AI strategy</category>
     <category>digital transformation</category>
-  </item>
-  <item>
-    <title><![CDATA[Northern Virginia Data Center Disconnect: Your 2026 Survival Guide]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-24-northern-virginia-data-center-disconnect.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-24-northern-virginia-data-center-disconnect.html</guid>
-    <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Don't let a Northern Virginia data center disconnect halt your operations. Learn essential strategies for redundancy, risk mitigation, and seamless continuity in 2026.]]></description>
-    <enclosure url="https://images.pexels.com/photos/1181337/pexels-photo-1181337.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>data centers</category>
-    <category>northern virginia</category>
-    <category>disaster recovery</category>
-    <category>network security</category>
-    <category>cloud computing</category>
   </item>
 </channel>
 </rss>
