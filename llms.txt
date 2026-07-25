@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1379
+Total Posts Published: 1380
 Last Updated: 2026-07-25
-Latest Post: Top Internet Reactions to Wehen Wiesbaden vs Bayern: An SEO Deep Dive
-Latest Post URL: https://sluintel.github.io/posts/2026-07-25-top-internet-reactions-wehen-wiesbaden-vs-bayern-seo.html
+Latest Post: Jana Nayagan: What People Are Saying About This AI Breakthrough
+Latest Post URL: https://sluintel.github.io/posts/2026-07-25-jana-nayagan-what-people-are-saying.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Jana Nayagan: What People Are Saying About This AI Breakthrough](https://sluintel.github.io/posts/2026-07-25-jana-nayagan-what-people-are-saying.html) — 2026-07-25 — AI, Automation, Tech Trends
 - [Top Internet Reactions to Wehen Wiesbaden vs Bayern: An SEO Deep Dive](https://sluintel.github.io/posts/2026-07-25-top-internet-reactions-wehen-wiesbaden-vs-bayern-seo.html) — 2026-07-25 — football, internet reactions, fan sentiment
 - [West Indies vs Pakistan: Everything You Should Know](https://sluintel.github.io/posts/2026-07-25-west-indies-vs-pakistan-everything-you-should-know.html) — 2026-07-25 — cricket, West Indies, Pakistan
 - [What People Are Saying About Mayank Yadav: Unpacking the Hype](https://sluintel.github.io/posts/2026-07-25-what-people-are-saying-about-mayank-yadav.html) — 2026-07-25 — Mayank Yadav, AI, Automation
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [ChatGPT Outage: Your 2026 Survival Guide to AI Downtime](https://sluintel.github.io/posts/2026-07-25-chatgpt-outage-survival-guide.html) — 2026-07-25 — ChatGPT, AI tools, Outage
 - [Why West Indies vs Pakistan is Trending Right Now: Decoding the Buzz](https://sluintel.github.io/posts/2026-07-25-why-west-indies-vs-pakistan-is-trending-right-now.html) — 2026-07-25 — cricket, West Indies, Pakistan
 - [The Latest Updates on India vs Zimbabwe: AI's Predictive Power](https://sluintel.github.io/posts/2026-07-25-the-latest-updates-on-india-vs-zimbabwe-ai-predictions.html) — 2026-07-25 — Cricket, India Cricket, Zimbabwe Cricket
-- [Why Dharmendra Pradhan Is Trending Right Now: Decoding His Impact in 2026](https://sluintel.github.io/posts/2026-07-25-dharmendra-pradhan-trending-right-now.html) — 2026-07-25 — Dharmendra Pradhan, Education Minister, Skill Development
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
