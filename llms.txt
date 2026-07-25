@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1376
+Total Posts Published: 1377
 Last Updated: 2026-07-25
-Latest Post: Mayank Yadav Explained Simply: Unpacking Cricket's Fastest Star
-Latest Post URL: https://sluintel.github.io/posts/2026-07-25-mayank-yadav-explained-simply.html
+Latest Post: What People Are Saying About Mayank Yadav: Unpacking the Hype
+Latest Post URL: https://sluintel.github.io/posts/2026-07-25-what-people-are-saying-about-mayank-yadav.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [What People Are Saying About Mayank Yadav: Unpacking the Hype](https://sluintel.github.io/posts/2026-07-25-what-people-are-saying-about-mayank-yadav.html) — 2026-07-25 — Mayank Yadav, AI, Automation
 - [Mayank Yadav Explained Simply: Unpacking Cricket's Fastest Star](https://sluintel.github.io/posts/2026-07-25-mayank-yadav-explained-simply.html) — 2026-07-25 — Cricket, Mayank Yadav, IPL
 - [Unpacking The Latest Updates on West Indies vs Pakistan Cricket Rivalry](https://sluintel.github.io/posts/2026-07-25-the-latest-updates-on-west-indies-vs-pakistan.html) — 2026-07-25 — Cricket, West Indies, Pakistan
 - [Navigating a ChatGPT Outage: Your 2026 Downtime Survival](https://sluintel.github.io/posts/2026-07-25-chatgpt-outage-downtime-survival.html) — 2026-07-25 — ChatGPT, AI Tools, Outage
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Why Dharmendra Pradhan Is Trending Right Now: Decoding His Impact in 2026](https://sluintel.github.io/posts/2026-07-25-dharmendra-pradhan-trending-right-now.html) — 2026-07-25 — Dharmendra Pradhan, Education Minister, Skill Development
 - [Top Internet Reactions to Düsseldorf vs Dortmund: Decoding Fan Frenzy](https://sluintel.github.io/posts/2026-07-25-top-internet-reactions-dusseldorf-vs-dortmund.html) — 2026-07-25 — football, Bundesliga, fan reactions
 - [Why Pakistan vs Sri Lanka is Trending: Decoding Cricket's Hottest Rivalry](https://sluintel.github.io/posts/2026-07-25-why-pakistan-vs-sri-lanka-is-trending-right-now.html) — 2026-07-25 — Cricket, Pakistan, Sri Lanka
-- [ChatGPT Unlocked: Your Guide to AI Productivity in 2026](https://sluintel.github.io/posts/2026-07-25-chat-gpt-unlocked-ai-productivity.html) — 2026-07-25 — ChatGPT, AI tools, automation
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
