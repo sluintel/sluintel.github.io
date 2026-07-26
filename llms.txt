@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1388
+Total Posts Published: 1389
 Last Updated: 2026-07-26
-Latest Post: Everything You Should Know About Série A: Italian Football's Enduring Allure
-Latest Post URL: https://sluintel.github.io/posts/2026-07-26-everything-you-should-know-about-serie-a.html
+Latest Post: Decoding the Top Internet Reactions to Standard vs Juventus
+Latest Post URL: https://sluintel.github.io/posts/2026-07-26-top-internet-reactions-standard-vs-juventus.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Decoding the Top Internet Reactions to Standard vs Juventus](https://sluintel.github.io/posts/2026-07-26-top-internet-reactions-standard-vs-juventus.html) — 2026-07-26 — football, social media, fan reactions
 - [Everything You Should Know About Série A: Italian Football's Enduring Allure](https://sluintel.github.io/posts/2026-07-26-everything-you-should-know-about-serie-a.html) — 2026-07-26 — Série A, Italian Football, Calcio
 - [Standard vs Juventus Explained Simply: Unpacking Club Identity](https://sluintel.github.io/posts/2026-07-26-standard-vs-juventus-explained-simply.html) — 2026-07-26 — Juventus, Football Club, Sports Analytics
 - [Why Neymar Is Trending Right Now: Decoding His 2026 Buzz](https://sluintel.github.io/posts/2026-07-26-why-neymar-is-trending-right-now.html) — 2026-07-26 — Neymar, Football, Soccer
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [The Latest MLS Updates: What Every Fan Needs to Know in 2026](https://sluintel.github.io/posts/2026-07-26-the-latest-updates-on-mls.html) — 2026-07-26 — MLS, Major League Soccer, Sports Tech
 - [What People Are Saying About Montréal vs Inter Miami: The Real Story](https://sluintel.github.io/posts/2026-07-26-what-people-are-saying-about-montreal-vs-inter-miami.html) — 2026-07-26 — MLS, Inter Miami, CF Montréal
 - [Jana Nayagan: What People Are Saying About This AI Breakthrough](https://sluintel.github.io/posts/2026-07-25-jana-nayagan-what-people-are-saying.html) — 2026-07-25 — AI, Automation, Tech Trends
-- [Top Internet Reactions to Wehen Wiesbaden vs Bayern: An SEO Deep Dive](https://sluintel.github.io/posts/2026-07-25-top-internet-reactions-wehen-wiesbaden-vs-bayern-seo.html) — 2026-07-25 — football, internet reactions, fan sentiment
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
