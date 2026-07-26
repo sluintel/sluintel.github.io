@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1382
+Total Posts Published: 1383
 Last Updated: 2026-07-26
-Latest Post: The Latest MLS Updates: What Every Fan Needs to Know in 2026
-Latest Post URL: https://sluintel.github.io/posts/2026-07-26-the-latest-updates-on-mls.html
+Latest Post: Rogue Agent AI: Taming Autonomous Systems Before They Rebel
+Latest Post URL: https://sluintel.github.io/posts/2026-07-26-rogue-agent-ai-taming-autonomous-systems.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Rogue Agent AI: Taming Autonomous Systems Before They Rebel](https://sluintel.github.io/posts/2026-07-26-rogue-agent-ai-taming-autonomous-systems.html) — 2026-07-26 — AI Security, AI Governance, Automation Risks
 - [The Latest MLS Updates: What Every Fan Needs to Know in 2026](https://sluintel.github.io/posts/2026-07-26-the-latest-updates-on-mls.html) — 2026-07-26 — MLS, Major League Soccer, Sports Tech
 - [What People Are Saying About Montréal vs Inter Miami: The Real Story](https://sluintel.github.io/posts/2026-07-26-what-people-are-saying-about-montreal-vs-inter-miami.html) — 2026-07-26 — MLS, Inter Miami, CF Montréal
 - [Jana Nayagan: What People Are Saying About This AI Breakthrough](https://sluintel.github.io/posts/2026-07-25-jana-nayagan-what-people-are-saying.html) — 2026-07-25 — AI, Automation, Tech Trends
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Mayank Yadav Explained Simply: Unpacking Cricket's Fastest Star](https://sluintel.github.io/posts/2026-07-25-mayank-yadav-explained-simply.html) — 2026-07-25 — Cricket, Mayank Yadav, IPL
 - [Unpacking The Latest Updates on West Indies vs Pakistan Cricket Rivalry](https://sluintel.github.io/posts/2026-07-25-the-latest-updates-on-west-indies-vs-pakistan.html) — 2026-07-25 — Cricket, West Indies, Pakistan
 - [Navigating a ChatGPT Outage: Your 2026 Downtime Survival](https://sluintel.github.io/posts/2026-07-25-chatgpt-outage-downtime-survival.html) — 2026-07-25 — ChatGPT, AI Tools, Outage
-- [ChatGPT Outage: Your 2026 Survival Guide to AI Downtime](https://sluintel.github.io/posts/2026-07-25-chatgpt-outage-survival-guide.html) — 2026-07-25 — ChatGPT, AI tools, Outage
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
