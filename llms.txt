@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1400
+Total Posts Published: 1401
 Last Updated: 2026-07-26
-Latest Post: What People Are Saying About Abhishek Sharma: Decoding the Digital Buzz
-Latest Post URL: https://sluintel.github.io/posts/2026-07-26-what-people-are-saying-about-abhishek-sharma-2.html
+Latest Post: Brian Bennett: Everything You Should Know About Tech's Sharpest Critic
+Latest Post URL: https://sluintel.github.io/posts/2026-07-26-brian-bennett-tech-critic-guide.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Brian Bennett: Everything You Should Know About Tech's Sharpest Critic](https://sluintel.github.io/posts/2026-07-26-brian-bennett-tech-critic-guide.html) — 2026-07-26 — Brian Bennett, Tech Journalism, AI Tools
 - [What People Are Saying About Abhishek Sharma: Decoding the Digital Buzz](https://sluintel.github.io/posts/2026-07-26-what-people-are-saying-about-abhishek-sharma-2.html) — 2026-07-26 — Abhishek Sharma, Public Opinion, Digital Reputation
 - [Brian Bennett Updates: Navigating AI's Future in 2026](https://sluintel.github.io/posts/2026-07-26-latest-updates-on-brian-bennett.html) — 2026-07-26 — AI Ethics, Automation Trends, Responsible AI
 - [Unpacking the Top Internet Reactions to Sikandar Raza's Impact](https://sluintel.github.io/posts/2026-07-26-top-internet-reactions-to-sikandar-raza.html) — 2026-07-26 — Sikandar Raza, Cricket, Fan Reactions
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [What People Are Saying About Abhishek Sharma: Decoding the Digital Buzz](https://sluintel.github.io/posts/2026-07-26-what-people-are-saying-about-abhishek-sharma.html) — 2026-07-26 — Abhishek Sharma, AI influencer, Tech industry
 - [Decoding the Top Internet Reactions to Samsung's Latest Moves](https://sluintel.github.io/posts/2026-07-26-top-internet-reactions-to-samsung.html) — 2026-07-26 — Samsung, Internet Reactions, Tech Trends
 - [Everything You Should Know About Samsung: Beyond the Galaxy](https://sluintel.github.io/posts/2026-07-26-everything-you-should-know-about-samsung.html) — 2026-07-26 — Samsung, Tech Innovation, Smartphones
-- [Why Santos is Trending Right Now: Unpacking the 2026 Phenomenon](https://sluintel.github.io/posts/2026-07-26-why-santos-is-trending-right-now.html) — 2026-07-26 — Santos FC, Brazilian Football, AI in Sports
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/

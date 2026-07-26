@@ -5,13 +5,27 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 26 Jul 2026 20:18:13 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 26 Jul 2026 21:10:29 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Brian Bennett: Everything You Should Know About Tech's Sharpest Critic]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-26-brian-bennett-tech-critic-guide.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-26-brian-bennett-tech-critic-guide.html</guid>
+    <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Uncover Brian Bennett's essential insights into AI, gadgets, and automation. Learn why his tech journalism matters in 2026 and how his reviews shape your future tech decisions.]]></description>
+    <enclosure url="https://images.pexels.com/photos/6919776/pexels-photo-6919776.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Brian Bennett</category>
+    <category>Tech Journalism</category>
+    <category>AI Tools</category>
+    <category>Gadget Reviews</category>
+    <category>Automation</category>
+    <category>Consumer Tech</category>
+  </item>
   <item>
     <title><![CDATA[What People Are Saying About Abhishek Sharma: Decoding the Digital Buzz]]></title>
     <link>https://sluintel.github.io/posts/2026-07-26-what-people-are-saying-about-abhishek-sharma-2.html</link>
@@ -261,19 +275,6 @@
     <category>Sports Tech</category>
     <category>AI in Sports</category>
     <category>Football Analytics</category>
-  </item>
-  <item>
-    <title><![CDATA[What People Are Saying About Montréal vs Inter Miami: The Real Story]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-26-what-people-are-saying-about-montreal-vs-inter-miami.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-26-what-people-are-saying-about-montreal-vs-inter-miami.html</guid>
-    <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Dive deep into what people are saying about Montréal vs Inter Miami. Uncover fan opinions, expert analysis, and the real sentiment shaping this MLS rivalry in 2026. Get the inside scoop!]]></description>
-    <enclosure url="https://images.pexels.com/photos/6832245/pexels-photo-6832245.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>MLS</category>
-    <category>Inter Miami</category>
-    <category>CF Montréal</category>
-    <category>Football Rivalries</category>
-    <category>Fan Opinions</category>
   </item>
 </channel>
 </rss>
