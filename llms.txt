@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1402
+Total Posts Published: 1403
 Last Updated: 2026-07-26
-Latest Post: What People Are Saying About Samsung: The Buzz in 2026
-Latest Post URL: https://sluintel.github.io/posts/2026-07-26-what-people-are-saying-about-samsung.html
+Latest Post: D4vd's 'I Did It': Everything You Should Know About the Indie Anthem
+Latest Post URL: https://sluintel.github.io/posts/2026-07-26-d4vd-i-did-it-everything-you-should-know.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [D4vd's 'I Did It': Everything You Should Know About the Indie Anthem](https://sluintel.github.io/posts/2026-07-26-d4vd-i-did-it-everything-you-should-know.html) — 2026-07-26 — d4vd, i did it, indie pop
 - [What People Are Saying About Samsung: The Buzz in 2026](https://sluintel.github.io/posts/2026-07-26-what-people-are-saying-about-samsung.html) — 2026-07-26 — Samsung, Tech Trends, Smartphones
 - [Brian Bennett: Everything You Should Know About Tech's Sharpest Critic](https://sluintel.github.io/posts/2026-07-26-brian-bennett-tech-critic-guide.html) — 2026-07-26 — Brian Bennett, Tech Journalism, AI Tools
 - [What People Are Saying About Abhishek Sharma: Decoding the Digital Buzz](https://sluintel.github.io/posts/2026-07-26-what-people-are-saying-about-abhishek-sharma-2.html) — 2026-07-26 — Abhishek Sharma, Public Opinion, Digital Reputation
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Série A Explained Simply: Your Guide to Italian Football Dominance](https://sluintel.github.io/posts/2026-07-26-srie-a-explained-simply.html) — 2026-07-26 — Serie A, Italian Football, Calcio
 - [Decoding the Top Internet Reactions to Samsung's Latest Moves](https://sluintel.github.io/posts/2026-07-26-top-internet-reactions-to-samsung-2.html) — 2026-07-26 — Samsung, internet reactions, social media
 - [What People Are Saying About Abhishek Sharma: Decoding the Digital Buzz](https://sluintel.github.io/posts/2026-07-26-what-people-are-saying-about-abhishek-sharma.html) — 2026-07-26 — Abhishek Sharma, AI influencer, Tech industry
-- [Decoding the Top Internet Reactions to Samsung's Latest Moves](https://sluintel.github.io/posts/2026-07-26-top-internet-reactions-to-samsung.html) — 2026-07-26 — Samsung, Internet Reactions, Tech Trends
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
