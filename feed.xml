@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 26 Jul 2026 05:42:06 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 26 Jul 2026 06:14:22 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Pralhad Joshi: Everything You Should Know About India's Key Minister]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-26-pralhad-joshi-everything-you-should-know.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-26-pralhad-joshi-everything-you-should-know.html</guid>
+    <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Uncover everything you should know about Pralhad Joshi, a pivotal figure in Indian politics. Understand his influence, key roles, and impact on national policy by 2026.]]></description>
+    <enclosure url="https://images.pexels.com/photos/7034473/pexels-photo-7034473.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Pralhad Joshi</category>
+    <category>Indian Politics</category>
+    <category>BJP</category>
+    <category>Union Minister</category>
+    <category>Governance</category>
+  </item>
   <item>
     <title><![CDATA[Rogue Agent AI: Your Guide to Taming Autonomous Systems]]></title>
     <link>https://sluintel.github.io/posts/2026-07-26-rogue-agent-taming-autonomous-ai.html</link>
@@ -260,19 +273,6 @@
     <category>Generative AI</category>
     <category>Automation</category>
     <category>Prompt Engineering</category>
-  </item>
-  <item>
-    <title><![CDATA[Why Adarsh Baal Vidyalaya Is Trending Right Now: Learning's Future?]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-25-why-adarsh-baal-vidyalaya-is-trending-right-now.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-25-why-adarsh-baal-vidyalaya-is-trending-right-now.html</guid>
-    <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Discover why Adarsh Baal Vidyalaya is trending right now, showcasing groundbreaking AI-driven education models. Unpack the secrets to their success and what it means for your child's future learning. Get ahead of the curve!]]></description>
-    <enclosure url="https://images.pexels.com/photos/20556414/pexels-photo-20556414.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Adarsh Baal Vidyalaya</category>
-    <category>AI in Education</category>
-    <category>EdTech</category>
-    <category>Future of Learning</category>
-    <category>School Trends</category>
   </item>
 </channel>
 </rss>

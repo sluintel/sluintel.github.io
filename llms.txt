@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1384
+Total Posts Published: 1385
 Last Updated: 2026-07-26
-Latest Post: Rogue Agent AI: Your Guide to Taming Autonomous Systems
-Latest Post URL: https://sluintel.github.io/posts/2026-07-26-rogue-agent-taming-autonomous-ai.html
+Latest Post: Pralhad Joshi: Everything You Should Know About India's Key Minister
+Latest Post URL: https://sluintel.github.io/posts/2026-07-26-pralhad-joshi-everything-you-should-know.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Pralhad Joshi: Everything You Should Know About India's Key Minister](https://sluintel.github.io/posts/2026-07-26-pralhad-joshi-everything-you-should-know.html) — 2026-07-26 — Pralhad Joshi, Indian Politics, BJP
 - [Rogue Agent AI: Your Guide to Taming Autonomous Systems](https://sluintel.github.io/posts/2026-07-26-rogue-agent-taming-autonomous-ai.html) — 2026-07-26 — AI, Autonomous Systems, AI Security
 - [Rogue Agent AI: Taming Autonomous Systems Before They Rebel](https://sluintel.github.io/posts/2026-07-26-rogue-agent-ai-taming-autonomous-systems.html) — 2026-07-26 — AI Security, AI Governance, Automation Risks
 - [The Latest MLS Updates: What Every Fan Needs to Know in 2026](https://sluintel.github.io/posts/2026-07-26-the-latest-updates-on-mls.html) — 2026-07-26 — MLS, Major League Soccer, Sports Tech
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [West Indies vs Pakistan: Everything You Should Know](https://sluintel.github.io/posts/2026-07-25-west-indies-vs-pakistan-everything-you-should-know.html) — 2026-07-25 — cricket, West Indies, Pakistan
 - [What People Are Saying About Mayank Yadav: Unpacking the Hype](https://sluintel.github.io/posts/2026-07-25-what-people-are-saying-about-mayank-yadav.html) — 2026-07-25 — Mayank Yadav, AI, Automation
 - [Mayank Yadav Explained Simply: Unpacking Cricket's Fastest Star](https://sluintel.github.io/posts/2026-07-25-mayank-yadav-explained-simply.html) — 2026-07-25 — Cricket, Mayank Yadav, IPL
-- [Unpacking The Latest Updates on West Indies vs Pakistan Cricket Rivalry](https://sluintel.github.io/posts/2026-07-25-the-latest-updates-on-west-indies-vs-pakistan.html) — 2026-07-25 — Cricket, West Indies, Pakistan
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
