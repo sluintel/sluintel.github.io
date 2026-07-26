@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 26 Jul 2026 21:10:29 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 26 Jul 2026 22:11:58 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[What People Are Saying About Samsung: The Buzz in 2026]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-26-what-people-are-saying-about-samsung.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-26-what-people-are-saying-about-samsung.html</guid>
+    <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Curious what people are saying about Samsung? Unpack the latest tech debates, user reviews, and market trends shaping their reputation in 2026. Get the real story behind the buzz.]]></description>
+    <enclosure url="https://images.pexels.com/photos/32090012/pexels-photo-32090012.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Samsung</category>
+    <category>Tech Trends</category>
+    <category>Smartphones</category>
+    <category>AI Devices</category>
+    <category>Consumer Electronics</category>
+  </item>
   <item>
     <title><![CDATA[Brian Bennett: Everything You Should Know About Tech's Sharpest Critic]]></title>
     <link>https://sluintel.github.io/posts/2026-07-26-brian-bennett-tech-critic-guide.html</link>
@@ -262,19 +275,6 @@
     <category>Automation Risks</category>
     <category>Machine Ethics</category>
     <category>Autonomous Systems</category>
-  </item>
-  <item>
-    <title><![CDATA[The Latest MLS Updates: What Every Fan Needs to Know in 2026]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-26-the-latest-updates-on-mls.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-26-the-latest-updates-on-mls.html</guid>
-    <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Stay ahead with the latest updates on MLS in 2026. Discover AI-driven insights, crucial rule changes, and enhanced fan engagement strategies. Don't miss a beat!]]></description>
-    <enclosure url="https://images.pexels.com/photos/5876546/pexels-photo-5876546.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>MLS</category>
-    <category>Major League Soccer</category>
-    <category>Sports Tech</category>
-    <category>AI in Sports</category>
-    <category>Football Analytics</category>
   </item>
 </channel>
 </rss>
