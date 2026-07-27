@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 27 Jul 2026 11:41:26 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 27 Jul 2026 12:38:11 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Namibia vs Nepal: Latest Updates & AI Predictions for 2026 Cricket]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-27-latest-updates-namibia-vs-nepal-ai-cricket.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-27-latest-updates-namibia-vs-nepal-ai-cricket.html</guid>
+    <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Don't just watch the game, understand it. Get the latest updates on Namibia vs Nepal cricket, enhanced by AI insights for performance trends and future predictions. Stay ahead!]]></description>
+    <enclosure url="https://images.pexels.com/photos/18821571/pexels-photo-18821571.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Cricket Analysis</category>
+    <category>AI Predictions</category>
+    <category>Sports Tech</category>
+    <category>Namibia Cricket</category>
+    <category>Nepal Cricket</category>
+  </item>
   <item>
     <title><![CDATA[Shan Masood Explained Simply: Decoding Pakistan's Test Captain]]></title>
     <link>https://sluintel.github.io/posts/2026-07-27-shan-masood-explained-simply.html</link>
@@ -262,19 +275,6 @@
     <category>tech trends</category>
     <category>online sentiment</category>
     <category>marketing strategy</category>
-  </item>
-  <item>
-    <title><![CDATA[What People Are Saying About Abhishek Sharma: Decoding the Digital Buzz]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-26-what-people-are-saying-about-abhishek-sharma.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-26-what-people-are-saying-about-abhishek-sharma.html</guid>
-    <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Curious what people are saying about Abhishek Sharma? Dive into the digital discourse, uncover key trends, and learn how to discern genuine influence in the AI and tech world. Get the real story.]]></description>
-    <enclosure url="https://images.pexels.com/photos/684319/pexels-photo-684319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Abhishek Sharma</category>
-    <category>AI influencer</category>
-    <category>Tech industry</category>
-    <category>Online reputation</category>
-    <category>Digital trends</category>
   </item>
 </channel>
 </rss>
