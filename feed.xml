@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 27 Jul 2026 15:50:09 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 27 Jul 2026 16:33:14 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Everything You Should Know About Série A: Italian Football's Heartbeat]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-27-everything-you-should-know-about-serie-a.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-27-everything-you-should-know-about-serie-a.html</guid>
+    <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack everything you should know about Série A, Italian football's premier league. Discover its tactics, teams, and how to follow the drama. Get expert insights now!]]></description>
+    <enclosure url="https://images.pexels.com/photos/9558266/pexels-photo-9558266.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Serie A</category>
+    <category>Italian Football</category>
+    <category>Football Tactics</category>
+    <category>Calcio</category>
+    <category>Sports Analytics</category>
+  </item>
   <item>
     <title><![CDATA[Jan Frylinck: Everything You Should Know About Cricket's Unsung Hero]]></title>
     <link>https://sluintel.github.io/posts/2026-07-27-jan-frylinck-everything-you-should-know.html</link>
@@ -259,19 +272,6 @@
     <category>Digital Reputation</category>
     <category>Social Media Analysis</category>
     <category>Indian Cricket</category>
-  </item>
-  <item>
-    <title><![CDATA[Brian Bennett Updates: Navigating AI's Future in 2026]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-26-latest-updates-on-brian-bennett.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-26-latest-updates-on-brian-bennett.html</guid>
-    <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Stay ahead! Discover the latest updates on Brian Bennett's pivotal work in AI ethics and automation. Understand his insights and how they'll shape your tech strategy for 2026.]]></description>
-    <enclosure url="https://images.pexels.com/photos/33547741/pexels-photo-33547741.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI Ethics</category>
-    <category>Automation Trends</category>
-    <category>Responsible AI</category>
-    <category>Tech Leadership</category>
-    <category>Future of AI</category>
   </item>
 </channel>
 </rss>
