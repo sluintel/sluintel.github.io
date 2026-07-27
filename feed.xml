@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 27 Jul 2026 00:11:13 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 27 Jul 2026 04:03:18 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[How AI is Transforming Vaibhav Sooryavanshi's Career Today]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-27-how-ai-is-transforming-vaibhav-sooryavanshi.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-27-how-ai-is-transforming-vaibhav-sooryavanshi.html</guid>
+    <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Discover how AI is transforming Vaibhav Sooryavanshi's professional landscape, boosting productivity and sparking innovation. Learn to apply these AI strategies yourself.]]></description>
+    <enclosure url="https://images.pexels.com/photos/7562249/pexels-photo-7562249.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI productivity</category>
+    <category>career transformation</category>
+    <category>AI for professionals</category>
+    <category>future of work</category>
+    <category>automation</category>
+  </item>
   <item>
     <title><![CDATA[Why Ashok Sharma Is Trending Right Now: The AI Visionary's Rise]]></title>
     <link>https://sluintel.github.io/posts/2026-07-27-why-ashok-sharma-is-trending-right-now.html</link>
@@ -262,19 +275,6 @@
     <category>Soccer</category>
     <category>Trending 2026</category>
     <category>Sports Marketing</category>
-  </item>
-  <item>
-    <title><![CDATA[Pralhad Joshi: Everything You Should Know About India's Key Minister]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-26-pralhad-joshi-everything-you-should-know.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-26-pralhad-joshi-everything-you-should-know.html</guid>
-    <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Uncover everything you should know about Pralhad Joshi, a pivotal figure in Indian politics. Understand his influence, key roles, and impact on national policy by 2026.]]></description>
-    <enclosure url="https://images.pexels.com/photos/7034473/pexels-photo-7034473.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Pralhad Joshi</category>
-    <category>Indian Politics</category>
-    <category>BJP</category>
-    <category>Union Minister</category>
-    <category>Governance</category>
   </item>
 </channel>
 </rss>
