@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1408
+Total Posts Published: 1409
 Last Updated: 2026-07-27
-Latest Post: Sam Altman's AI Singularity Views: A Deep Dive into Our Future
-Latest Post URL: https://sluintel.github.io/posts/2026-07-27-sam-altman-ai-singularity-views.html
+Latest Post: What People Are Saying About Santos: Decoding the Real Buzz
+Latest Post URL: https://sluintel.github.io/posts/2026-07-27-what-people-are-saying-about-santos.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [What People Are Saying About Santos: Decoding the Real Buzz](https://sluintel.github.io/posts/2026-07-27-what-people-are-saying-about-santos.html) — 2026-07-27 — Santos, Sentiment Analysis, AI Tools
 - [Sam Altman's AI Singularity Views: A Deep Dive into Our Future](https://sluintel.github.io/posts/2026-07-27-sam-altman-ai-singularity-views.html) — 2026-07-27 — AI Singularity, Sam Altman, OpenAI
 - [Why Abhishek Sharma Is Trending Right Now: Decoding His 2026 Buzz](https://sluintel.github.io/posts/2026-07-27-why-abhishek-sharma-is-trending-right-now.html) — 2026-07-27 — Abhishek Sharma, Trending 2026, AI Analytics
 - [The Latest Updates on Today Weather: Master Your Day's Forecast](https://sluintel.github.io/posts/2026-07-27-the-latest-updates-on-today-weather.html) — 2026-07-27 — weather forecast, daily weather, weather updates
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [What People Are Saying About Samsung: The Buzz in 2026](https://sluintel.github.io/posts/2026-07-26-what-people-are-saying-about-samsung.html) — 2026-07-26 — Samsung, Tech Trends, Smartphones
 - [Brian Bennett: Everything You Should Know About Tech's Sharpest Critic](https://sluintel.github.io/posts/2026-07-26-brian-bennett-tech-critic-guide.html) — 2026-07-26 — Brian Bennett, Tech Journalism, AI Tools
 - [What People Are Saying About Abhishek Sharma: Decoding the Digital Buzz](https://sluintel.github.io/posts/2026-07-26-what-people-are-saying-about-abhishek-sharma-2.html) — 2026-07-26 — Abhishek Sharma, Public Opinion, Digital Reputation
-- [Brian Bennett Updates: Navigating AI's Future in 2026](https://sluintel.github.io/posts/2026-07-26-latest-updates-on-brian-bennett.html) — 2026-07-26 — AI Ethics, Automation Trends, Responsible AI
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
