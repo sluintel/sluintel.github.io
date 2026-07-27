@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 27 Jul 2026 17:07:00 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 27 Jul 2026 17:53:57 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Unpacking the Top Internet Reactions to Abhishek Sharma]]></title>
+    <link>https://sluintel.github.io/posts/2026-07-27-top-internet-reactions-abhishek-sharma.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-27-top-internet-reactions-abhishek-sharma.html</guid>
+    <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Dive into the top internet reactions to Abhishek Sharma's electrifying performances. Understand why fans are buzzing and what drives online sports trends in 2026.]]></description>
+    <enclosure url="https://images.pexels.com/photos/6333514/pexels-photo-6333514.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Abhishek Sharma</category>
+    <category>Cricket Reactions</category>
+    <category>IPL 2026</category>
+    <category>Social Media Trends</category>
+    <category>Sports Analytics</category>
+  </item>
   <item>
     <title><![CDATA[Shan Masood: Everything You Should Know About Pakistan's Modern Cricket Leader]]></title>
     <link>https://sluintel.github.io/posts/2026-07-27-shan-masood-everything-you-should-know.html</link>
@@ -258,20 +271,6 @@
     <category>Smartphones</category>
     <category>AI Devices</category>
     <category>Consumer Electronics</category>
-  </item>
-  <item>
-    <title><![CDATA[Brian Bennett: Everything You Should Know About Tech's Sharpest Critic]]></title>
-    <link>https://sluintel.github.io/posts/2026-07-26-brian-bennett-tech-critic-guide.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-07-26-brian-bennett-tech-critic-guide.html</guid>
-    <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Uncover Brian Bennett's essential insights into AI, gadgets, and automation. Learn why his tech journalism matters in 2026 and how his reviews shape your future tech decisions.]]></description>
-    <enclosure url="https://images.pexels.com/photos/6919776/pexels-photo-6919776.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Brian Bennett</category>
-    <category>Tech Journalism</category>
-    <category>AI Tools</category>
-    <category>Gadget Reviews</category>
-    <category>Automation</category>
-    <category>Consumer Tech</category>
   </item>
 </channel>
 </rss>
