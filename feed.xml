@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 05 Aug 2026 14:29:41 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 05 Aug 2026 15:25:17 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Why K League All-Stars vs Man City is Trending in Sports]]></title>
+    <link>https://sluintel.github.io/posts/2026-08-05-k-league-all-stars-vs-man-city-trending-sports.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-05-k-league-all-stars-vs-man-city-trending-sports.html</guid>
+    <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Discover why K League All-Stars vs Man City is dominating sports headlines. Unpack the rivalries, global impact, and cultural buzz driving this unexpected trend in 2026. Get the inside story!]]></description>
+    <enclosure url="https://images.pexels.com/photos/13907421/pexels-photo-13907421.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Football</category>
+    <category>K League</category>
+    <category>Man City</category>
+    <category>Sports Trends</category>
+    <category>Global Football</category>
+  </item>
   <item>
     <title><![CDATA[What's Next for K League All-Stars vs Man City: Beyond the Friendly]]></title>
     <link>https://sluintel.github.io/posts/2026-08-05-whats-next-for-k-league-all-stars-vs-man-city.html</link>
@@ -263,19 +276,6 @@
     <category>Premier League</category>
     <category>Social Media Trends</category>
     <category>Fan Engagement</category>
-  </item>
-  <item>
-    <title><![CDATA[Jeju vs Bayern Explained Simply: A Global Football Showdown]]></title>
-    <link>https://sluintel.github.io/posts/2026-08-04-jeju-vs-bayern-explained-simply.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-04-jeju-vs-bayern-explained-simply.html</guid>
-    <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Confused about Jeju vs Bayern? Get a simple, expert breakdown of these two football titans. Understand their league differences, strategies, and global impact. Unpack the football comparison.]]></description>
-    <enclosure url="https://images.pexels.com/photos/16879249/pexels-photo-16879249.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>football</category>
-    <category>k-league</category>
-    <category>bundesliga</category>
-    <category>jeju united</category>
-    <category>fc bayern munich</category>
   </item>
 </channel>
 </rss>
