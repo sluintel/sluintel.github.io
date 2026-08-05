@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 05 Aug 2026 08:50:19 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 05 Aug 2026 09:45:31 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Top Reactions to Leagues Cup: Decoding Fan Sentiment]]></title>
+    <link>https://sluintel.github.io/posts/2026-08-05-top-reactions-to-leagues-cup.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-05-top-reactions-to-leagues-cup.html</guid>
+    <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack the top reactions to Leagues Cup 2026. Discover what fans, pundits, and players are really saying about the tournament's biggest moments and what it means for North American football. Get the full scoop.]]></description>
+    <enclosure url="https://images.pexels.com/photos/29873467/pexels-photo-29873467.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Leagues Cup</category>
+    <category>Fan Reactions</category>
+    <category>Football Analysis</category>
+    <category>MLS</category>
+    <category>Liga MX</category>
+  </item>
   <item>
     <title><![CDATA[Unpacking the Latest Updates on नेपाली सेना: What You Need for 2026]]></title>
     <link>https://sluintel.github.io/posts/2026-08-05-the-latest-updates-on-nepali-sena.html</link>
@@ -262,19 +275,6 @@
     <category>Aston Villa</category>
     <category>BG Pathum United</category>
     <category>Sports Analytics</category>
-  </item>
-  <item>
-    <title><![CDATA[Bruno Guimarães Explained Simply: Newcastle's Midfield Maestro]]></title>
-    <link>https://sluintel.github.io/posts/2026-08-04-bruno-guimaraes-explained-simply.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-04-bruno-guimaraes-explained-simply.html</guid>
-    <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Ever wondered what makes Bruno Guimarães a Premier League powerhouse? Get Bruno Guimarães explained simply, from his tactical brilliance to his impact on Newcastle's rise. Unlock his midfield magic now.]]></description>
-    <enclosure url="https://images.pexels.com/photos/6326048/pexels-photo-6326048.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>football</category>
-    <category>Premier League</category>
-    <category>Newcastle United</category>
-    <category>Bruno Guimarães</category>
-    <category>midfield tactics</category>
   </item>
 </channel>
 </rss>
