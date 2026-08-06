@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1514
+Total Posts Published: 1515
 Last Updated: 2026-08-06
-Latest Post: Samsung Galaxy F70 Pro Price: Unpacking Your Investment
-Latest Post URL: https://sluintel.github.io/posts/2026-08-06-samsung-galaxy-f70-pro-price-explained-simply-2.html
+Latest Post: How Generative AI Is Impacting Air India: Your 2026 Flight Plan
+Latest Post URL: https://sluintel.github.io/posts/2026-08-06-how-generative-ai-is-impacting-air-india.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [How Generative AI Is Impacting Air India: Your 2026 Flight Plan](https://sluintel.github.io/posts/2026-08-06-how-generative-ai-is-impacting-air-india.html) — 2026-08-06 — Generative AI, Air India, Aviation Tech
 - [Samsung Galaxy F70 Pro Price: Unpacking Your Investment](https://sluintel.github.io/posts/2026-08-06-samsung-galaxy-f70-pro-price-explained-simply-2.html) — 2026-08-06 — Samsung Galaxy F70 Pro, Smartphone Price, Tech Buying Guide
 - [Winner of Lockup Season 2 Explained Simply: AI Security Takes the Crown](https://sluintel.github.io/posts/2026-08-06-winner-of-lockup-season-2-explained-simply.html) — 2026-08-06 — AI Security, Tech Startups, Venture Capital
 - [Conquer the Peaks: Best AI Tools for Nimsdai Purja in 2026](https://sluintel.github.io/posts/2026-08-06-best-ai-tools-for-nimsdai-purja.html) — 2026-08-06 — AI Tools, Mountaineering, Nimsdai Purja
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Air India's AI Breakthroughs: Reshaping Future Travel](https://sluintel.github.io/posts/2026-08-06-ai-breakthroughs-related-to-air-india.html) — 2026-08-06 — Air India AI, Aviation Tech, AI in Airlines
 - [What People Are Saying About West Indies vs Pakistan: Fan Debates Unpacked](https://sluintel.github.io/posts/2026-08-06-what-people-are-saying-about-west-indies-vs-pakistan.html) — 2026-08-06 — Cricket, West Indies, Pakistan
 - [The Rise of AI in Air India: Revolutionizing Air Travel by 2026](https://sluintel.github.io/posts/2026-08-06-the-rise-of-ai-in-air-india.html) — 2026-08-06 — AI in Aviation, Air India, Airline Technology
-- [K League All-Stars vs Man City: Everything Happening Around This Global Clash](https://sluintel.github.io/posts/2026-08-06-k-league-all-stars-vs-man-city-everything-happening-around.html) — 2026-08-06 — K League, Manchester City, Football
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
