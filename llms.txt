@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1505
+Total Posts Published: 1506
 Last Updated: 2026-08-06
-Latest Post: K League All-Stars vs Man City: Everything Happening Around This Global Clash
-Latest Post URL: https://sluintel.github.io/posts/2026-08-06-k-league-all-stars-vs-man-city-everything-happening-around.html
+Latest Post: The Rise of AI in Air India: Revolutionizing Air Travel by 2026
+Latest Post URL: https://sluintel.github.io/posts/2026-08-06-the-rise-of-ai-in-air-india.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [The Rise of AI in Air India: Revolutionizing Air Travel by 2026](https://sluintel.github.io/posts/2026-08-06-the-rise-of-ai-in-air-india.html) — 2026-08-06 — AI in Aviation, Air India, Airline Technology
 - [K League All-Stars vs Man City: Everything Happening Around This Global Clash](https://sluintel.github.io/posts/2026-08-06-k-league-all-stars-vs-man-city-everything-happening-around.html) — 2026-08-06 — K League, Manchester City, Football
 - [Mastering AI Security: Unpacking the Lockup Season 2 Winner](https://sluintel.github.io/posts/2026-08-06-lockup-season-2-winner-ai-security.html) — 2026-08-06 — AI Security, Cybersecurity, Automation
 - [Lockup Season 2 Winner Explained Simply: Who Took the Crown?](https://sluintel.github.io/posts/2026-08-05-lockup-season-2-winner-explained-simply.html) — 2026-08-05 — AI Investment, Tech Startups, Lockup Season 2
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Beacon CRM Data Breach: Protect Your Customer Data Now](https://sluintel.github.io/posts/2026-08-05-beacon-crm-data-breach-protection-guide.html) — 2026-08-05 — CRM Security, Data Breach, Cybersecurity
 - [Claude AI: The Intelligent Partner You Need in 2026](https://sluintel.github.io/posts/2026-08-05-claude-ai-mastery-guide-2026.html) — 2026-08-05 — Claude AI, Generative AI, AI Tools
 - [Claude AI: Your Intelligent Partner for 2026 Productivity](https://sluintel.github.io/posts/2026-08-05-claude-ai-intelligent-partner-2026.html) — 2026-08-05 — Claude AI, Generative AI, AI Tools
-- [Mastering Claude AI: Your Essential Guide to Advanced Capabilities](https://sluintel.github.io/posts/2026-08-05-claude-ai-essential-guide-2026.html) — 2026-08-05 — Claude AI, AI tools, automation
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
