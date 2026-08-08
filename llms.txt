@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1551
+Total Posts Published: 1552
 Last Updated: 2026-08-08
-Latest Post: Why Brewers Score is Trending Right Now: Your Edge in 2026 Sports Analytics
-Latest Post URL: https://sluintel.github.io/posts/2026-08-08-why-brewers-score-is-trending-right-now.html
+Latest Post: Afghanistan vs Ireland: What People Are Saying – Fan Debates & Rivalries
+Latest Post URL: https://sluintel.github.io/posts/2026-08-08-what-people-are-saying-about-afghanistan-vs-ireland.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Afghanistan vs Ireland: What People Are Saying – Fan Debates & Rivalries](https://sluintel.github.io/posts/2026-08-08-what-people-are-saying-about-afghanistan-vs-ireland.html) — 2026-08-08 — Cricket Rivalry, Afghanistan Cricket, Ireland Cricket
 - [Why Brewers Score is Trending Right Now: Your Edge in 2026 Sports Analytics](https://sluintel.github.io/posts/2026-08-08-why-brewers-score-is-trending-right-now.html) — 2026-08-08 — sports analytics, brewers score, performance metrics
 - [Why Ind vs SL Is Trending Right Now: Decoding the Cricket Buzz](https://sluintel.github.io/posts/2026-08-08-why-ind-vs-sl-is-trending-right-now.html) — 2026-08-08 — cricket, India vs Sri Lanka, trending sports
 - [Why LIC OFS is Trending: Your 2026 Investment Playbook](https://sluintel.github.io/posts/2026-08-07-why-lic-ofs-is-trending-right-now.html) — 2026-08-07 — LIC OFS, Investment Strategy, Stock Market India
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Why Scotland vs Canada Is Trending: Unpacking the 2026 Buzz](https://sluintel.github.io/posts/2026-08-07-why-scotland-vs-canada-is-trending-right-now.html) — 2026-08-07 — Scotland, Canada, Trending
 - [Chicago vs. Necaxa: What People Are Saying About This Rivalry](https://sluintel.github.io/posts/2026-08-07-what-people-are-saying-about-chicago-vs-necaxa-2.html) — 2026-08-07 — soccer analysis, fan sentiment, Necaxa
 - [Ind vs Sl: The Ultimate Guide to Cricket's Fiery Rivalry](https://sluintel.github.io/posts/2026-08-07-ind-vs-sl-everything-you-should-know.html) — 2026-08-07 — Cricket, India Cricket, Sri Lanka Cricket
-- [What People Are Saying About IND vs SL: Fan Frenzy & Predictions](https://sluintel.github.io/posts/2026-08-07-what-people-are-saying-about-ind-vs-sl.html) — 2026-08-07 — Cricket, IND vs SL, Fan Reactions
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
