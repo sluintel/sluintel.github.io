@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 08 Aug 2026 05:09:57 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 08 Aug 2026 05:58:28 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[OpenAI: Shaping Our AI Future & Your Role in 2026]]></title>
+    <link>https://sluintel.github.io/posts/2026-08-08-openai-shaping-ai-future-2026.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-08-openai-shaping-ai-future-2026.html</guid>
+    <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Discover how OpenAI is redefining AI, from GPT models to DALL-E. Unpack its impact, practical uses, and ethical considerations for a smarter 2026.]]></description>
+    <enclosure url="https://images.pexels.com/photos/8294742/pexels-photo-8294742.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI Tools</category>
+    <category>OpenAI</category>
+    <category>Generative AI</category>
+    <category>Automation</category>
+    <category>Future Tech</category>
+  </item>
   <item>
     <title><![CDATA[OpenAI: Mastering AI's Future & Unlocking Your Potential in 2026]]></title>
     <link>https://sluintel.github.io/posts/2026-08-08-openai-mastering-ai-future-potential-2026.html</link>
@@ -258,19 +271,6 @@
     <category>online reactions</category>
     <category>social media analysis</category>
     <category>sentiment tracking</category>
-  </item>
-  <item>
-    <title><![CDATA[Class 12 Result: What People Are Saying & Why It Matters]]></title>
-    <link>https://sluintel.github.io/posts/2026-08-07-what-people-are-saying-about-class-12-result-2.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-07-what-people-are-saying-about-class-12-result-2.html</guid>
-    <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Curious about what people are saying about Class 12 result? Dive into the real buzz, understand its impact, and discover smart strategies for students and parents. Get the full scoop!]]></description>
-    <enclosure url="https://images.pexels.com/photos/27252045/pexels-photo-27252045.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Class 12 Result</category>
-    <category>Exam Results</category>
-    <category>Student Life</category>
-    <category>Career Planning</category>
-    <category>Education News</category>
   </item>
 </channel>
 </rss>
