@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1558
+Total Posts Published: 1559
 Last Updated: 2026-08-08
-Latest Post: What People Are Saying About Redmi 17 5G: The Honest Buzz
-Latest Post URL: https://sluintel.github.io/posts/2026-08-08-what-people-are-saying-about-redmi-17-5g.html
+Latest Post: The Latest Updates on Video: What's Changing in 2026
+Latest Post URL: https://sluintel.github.io/posts/2026-08-08-the-latest-updates-on-video.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [The Latest Updates on Video: What's Changing in 2026](https://sluintel.github.io/posts/2026-08-08-the-latest-updates-on-video.html) — 2026-08-08 — video trends, AI video, content strategy
 - [What People Are Saying About Redmi 17 5G: The Honest Buzz](https://sluintel.github.io/posts/2026-08-08-what-people-are-saying-about-redmi-17-5g.html) — 2026-08-08 — Redmi 17 5G, smartphone reviews, 5G phones
 - [Columbus vs Pachuca: The Definitive Showdown You Need to Understand](https://sluintel.github.io/posts/2026-08-08-columbus-vs-pachuca-everything-you-should-know.html) — 2026-08-08 — football analysis, MLS vs Liga MX, CONCACAF
 - [Liverpool Explained Simply: Decoding the Red Machine's Enduring Power](https://sluintel.github.io/posts/2026-08-08-liverpool-explained-simply.html) — 2026-08-08 — Liverpool FC, Premier League, Football Tactics
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Afghanistan vs Ireland: What People Are Saying – Fan Debates & Rivalries](https://sluintel.github.io/posts/2026-08-08-what-people-are-saying-about-afghanistan-vs-ireland.html) — 2026-08-08 — Cricket Rivalry, Afghanistan Cricket, Ireland Cricket
 - [Why Brewers Score is Trending Right Now: Your Edge in 2026 Sports Analytics](https://sluintel.github.io/posts/2026-08-08-why-brewers-score-is-trending-right-now.html) — 2026-08-08 — sports analytics, brewers score, performance metrics
 - [Why Ind vs SL Is Trending Right Now: Decoding the Cricket Buzz](https://sluintel.github.io/posts/2026-08-08-why-ind-vs-sl-is-trending-right-now.html) — 2026-08-08 — cricket, India vs Sri Lanka, trending sports
-- [Why LIC OFS is Trending: Your 2026 Investment Playbook](https://sluintel.github.io/posts/2026-08-07-why-lic-ofs-is-trending-right-now.html) — 2026-08-07 — LIC OFS, Investment Strategy, Stock Market India
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
