@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 08 Aug 2026 23:43:15 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 09 Aug 2026 02:29:45 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[What People Are Saying About Barca: Decoding Fan & Expert Opinion]]></title>
+    <link>https://sluintel.github.io/posts/2026-08-09-what-people-are-saying-about-barca.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-09-what-people-are-saying-about-barca.html</guid>
+    <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack what people are saying about Barca, from fan sentiments to expert analyses. Discover the true pulse of the club in 2026. Get insights now!]]></description>
+    <enclosure url="https://images.pexels.com/photos/33282924/pexels-photo-33282924.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Barca</category>
+    <category>FC Barcelona</category>
+    <category>Football Analysis</category>
+    <category>Fan Opinion</category>
+    <category>Sports Blogging</category>
+  </item>
   <item>
     <title><![CDATA[Aston Villa vs Bayern: Unpacking Top Internet Reactions]]></title>
     <link>https://sluintel.github.io/posts/2026-08-08-top-internet-reactions-aston-villa-vs-bayern.html</link>
@@ -261,19 +274,6 @@
     <category>Generative AI</category>
     <category>Automation</category>
     <category>Future Tech</category>
-  </item>
-  <item>
-    <title><![CDATA[OpenAI: Mastering AI's Future & Unlocking Your Potential in 2026]]></title>
-    <link>https://sluintel.github.io/posts/2026-08-08-openai-mastering-ai-future-potential-2026.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-08-openai-mastering-ai-future-potential-2026.html</guid>
-    <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Uncover how OpenAI is shaping the future of AI in 2026, from revolutionary tools to robust business solutions. Master its potential and stay ahead.]]></description>
-    <enclosure url="https://images.pexels.com/photos/8728106/pexels-photo-8728106.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI</category>
-    <category>OpenAI</category>
-    <category>Generative AI</category>
-    <category>Automation</category>
-    <category>Tech Trends</category>
   </item>
 </channel>
 </rss>
