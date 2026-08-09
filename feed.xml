@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 09 Aug 2026 22:46:54 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 09 Aug 2026 23:45:11 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[UAE vs Scotland: Everything You Should Know for 2026]]></title>
+    <link>https://sluintel.github.io/posts/2026-08-09-uae-vs-scotland-everything-you-should-know.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-09-uae-vs-scotland-everything-you-should-know.html</guid>
+    <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Curious about UAE vs Scotland? Discover the key differences, economic landscapes, cultural nuances, and global impact of these two distinct nations. Get informed for 2026!]]></description>
+    <enclosure url="https://images.pexels.com/photos/1080882/pexels-photo-1080882.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>UAE</category>
+    <category>Scotland</category>
+    <category>International Comparison</category>
+    <category>Global Affairs</category>
+    <category>Culture</category>
+  </item>
   <item>
     <title><![CDATA[Bajaj Pulsar N160 SS: Your Ultimate Guide for 2026]]></title>
     <link>https://sluintel.github.io/posts/2026-08-09-bajaj-pulsar-n160-ss-everything-you-should-know.html</link>
@@ -261,19 +274,6 @@
     <category>Public Opinion</category>
     <category>Travel Trends</category>
     <category>Social Analysis</category>
-  </item>
-  <item>
-    <title><![CDATA[Decoding the Top Internet Reactions to नेपाल: Insights for 2026]]></title>
-    <link>https://sluintel.github.io/posts/2026-08-09-top-internet-reactions-to-nepal.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-09-top-internet-reactions-to-nepal.html</guid>
-    <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Uncover the top internet reactions to नेपाल and learn how to analyze global online sentiment. This guide reveals key trends and tools for 2026.]]></description>
-    <enclosure url="https://images.pexels.com/photos/4681361/pexels-photo-4681361.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Nepal</category>
-    <category>Internet Reactions</category>
-    <category>Social Media Trends</category>
-    <category>Digital Strategy</category>
-    <category>Online Sentiment</category>
   </item>
 </channel>
 </rss>
