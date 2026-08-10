@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1614
+Total Posts Published: 1615
 Last Updated: 2026-08-10
-Latest Post: id Software's Enduring Legacy: Shaping Gaming & Tech's Future
-Latest Post URL: https://sluintel.github.io/posts/2026-08-10-id-software-legacy-gaming-tech-future.html
+Latest Post: i d software: The Unseen Architect of Modern Tech
+Latest Post URL: https://sluintel.github.io/posts/2026-08-10-i-d-software-unseen-architect-modern-tech.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [i d software: The Unseen Architect of Modern Tech](https://sluintel.github.io/posts/2026-08-10-i-d-software-unseen-architect-modern-tech.html) — 2026-08-10 — id Software, Gaming Tech, Game Engines
 - [id Software's Enduring Legacy: Shaping Gaming & Tech's Future](https://sluintel.github.io/posts/2026-08-10-id-software-legacy-gaming-tech-future.html) — 2026-08-10 — id software, gaming history, game development
 - [id Software's Enduring Legacy: Shaping Gaming & Tech's Future](https://sluintel.github.io/posts/2026-08-10-id-software-legacy-gaming-tech.html) — 2026-08-10 — id Software, Gaming History, Game Development
 - [Why 'Weather Today' Is Trending Right Now: Your AI-Powered Guide](https://sluintel.github.io/posts/2026-08-10-why-weather-today-trending-right-now.html) — 2026-08-10 — AI weather, weather trends, predictive analytics
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Decoding the Top Internet Reactions to Weather Today](https://sluintel.github.io/posts/2026-08-10-top-internet-reactions-to-weather-today.html) — 2026-08-10 — weather trends, social media analysis, digital climate
 - [Marseille vs Athletic: Everything You Should Know About Their Rivalry](https://sluintel.github.io/posts/2026-08-10-marseille-vs-athletic-everything-you-should-know.html) — 2026-08-10 — Football Rivalries, Marseille, Athletic Club
 - [Origin Energy Cybersecurity Data Breach: Your 2026 Protection Plan](https://sluintel.github.io/posts/2026-08-10-origin-energy-cybersecurity-data-breach-2.html) — 2026-08-10 — Cybersecurity, Data Breach, Origin Energy
-- [Origin Energy Cybersecurity Data Breach: Your 2026 Protection Plan](https://sluintel.github.io/posts/2026-08-10-origin-energy-cybersecurity-data-breach.html) — 2026-08-10 — Cybersecurity, Data Breach, Origin Energy
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
