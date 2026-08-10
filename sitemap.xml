@@ -5,57 +5,63 @@
           http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://sluintel.github.io/</loc>
-    <lastmod>2026-08-10T20:59:35+00:00</lastmod>
+    <lastmod>2026-08-10T21:57:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://sluintel.github.io/category/trending</loc>
-    <lastmod>2026-08-10T20:59:35+00:00</lastmod>
+    <lastmod>2026-08-10T21:57:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://sluintel.github.io/category/ai-automation</loc>
-    <lastmod>2026-08-10T20:59:35+00:00</lastmod>
+    <lastmod>2026-08-10T21:57:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://sluintel.github.io/category/sports</loc>
-    <lastmod>2026-08-10T20:59:35+00:00</lastmod>
+    <lastmod>2026-08-10T21:57:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://sluintel.github.io/category/finance</loc>
-    <lastmod>2026-08-10T20:59:35+00:00</lastmod>
+    <lastmod>2026-08-10T21:57:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://sluintel.github.io/category/entertainment</loc>
-    <lastmod>2026-08-10T20:59:35+00:00</lastmod>
+    <lastmod>2026-08-10T21:57:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://sluintel.github.io/category/technology</loc>
-    <lastmod>2026-08-10T20:59:35+00:00</lastmod>
+    <lastmod>2026-08-10T21:57:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://sluintel.github.io/category/deep-dives</loc>
-    <lastmod>2026-08-10T20:59:35+00:00</lastmod>
+    <lastmod>2026-08-10T21:57:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://sluintel.github.io/category/all</loc>
-    <lastmod>2026-08-10T20:59:35+00:00</lastmod>
+    <lastmod>2026-08-10T21:57:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://sluintel.github.io/posts/2026-08-10-weather-today-explained-simply.html</loc>
+    <lastmod>2026-08-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
   </url>
   <url>
     <loc>https://sluintel.github.io/posts/2026-08-10-sanyukt-rajya-america-explained-simply.html</loc>
