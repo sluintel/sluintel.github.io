@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1624
+Total Posts Published: 1625
 Last Updated: 2026-08-11
-Latest Post: Jung Hoo Lee: Everything You Should Know About MLB's New Star
-Latest Post URL: https://sluintel.github.io/posts/2026-08-11-jung-hoo-lee-everything-you-should-know.html
+Latest Post: What People Are Saying About Junior Caminero: Decoding the Hype
+Latest Post URL: https://sluintel.github.io/posts/2026-08-11-what-people-are-saying-about-junior-caminero.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [What People Are Saying About Junior Caminero: Decoding the Hype](https://sluintel.github.io/posts/2026-08-11-what-people-are-saying-about-junior-caminero.html) — 2026-08-11 — Junior Caminero, MLB Prospects, Baseball Hype
 - [Jung Hoo Lee: Everything You Should Know About MLB's New Star](https://sluintel.github.io/posts/2026-08-11-jung-hoo-lee-everything-you-should-know.html) — 2026-08-11 — Jung Hoo Lee, MLB, KBO
 - [WWE Raw Highlights Fans Are Talking About: Don't Miss These Moments](https://sluintel.github.io/posts/2026-08-11-wwe-raw-highlights-fans-are-talking-about.html) — 2026-08-11 — WWE Raw, Wrestling Highlights, Pro Wrestling
 - [Oliver Larkin Updates: Navigating AI's Next Frontier with Responsible Tech](https://sluintel.github.io/posts/2026-08-11-the-latest-updates-on-oliver-larkin.html) — 2026-08-11 — AI Ethics, Automation, Machine Learning
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [संयुक्त राज्य अमेरिका Explained Simply: Understanding the USA](https://sluintel.github.io/posts/2026-08-10-sanyukt-rajya-america-explained-simply.html) — 2026-08-10 — USA explained, American history, US politics
 - [What People Are Saying About Trump Vaccines: Decoding Public Discourse](https://sluintel.github.io/posts/2026-08-10-what-people-are-saying-about-trump-vaccines.html) — 2026-08-10 — Trump vaccines, public health, vaccine sentiment
 - [What People Are Saying About Ireland vs Afghanistan Cricket: Fan Debates Decoded](https://sluintel.github.io/posts/2026-08-10-what-people-are-saying-about-ireland-vs-afghanistan.html) — 2026-08-10 — Cricket, Ireland Cricket, Afghanistan Cricket
-- [i d software: The Unseen Architect of Modern Tech](https://sluintel.github.io/posts/2026-08-10-i-d-software-unseen-architect-modern-tech.html) — 2026-08-10 — id Software, Gaming Tech, Game Engines
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
