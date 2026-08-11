@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 11 Aug 2026 16:10:37 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 11 Aug 2026 17:10:35 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Why Palermo vs Juventus is Trending: Beyond the Pitch]]></title>
+    <link>https://sluintel.github.io/posts/2026-08-11-why-palermo-vs-juventus-is-trending-right-now.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-11-why-palermo-vs-juventus-is-trending-right-now.html</guid>
+    <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Curious why Palermo vs Juventus is trending right now? Uncover the hidden forces, AI predictions, and fan frenzy driving this unexpected buzz in 2026. Get the inside story.]]></description>
+    <enclosure url="https://images.pexels.com/photos/16466066/pexels-photo-16466066.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Palermo Juventus</category>
+    <category>Serie A</category>
+    <category>Football Trends</category>
+    <category>AI Sports Analytics</category>
+    <category>Fan Culture</category>
+  </item>
   <item>
     <title><![CDATA[Unpacking the Top Internet Reactions to Rohit Paudel]]></title>
     <link>https://sluintel.github.io/posts/2026-08-11-top-internet-reactions-rohit-paudel.html</link>
@@ -259,19 +272,6 @@
     <category>meteorology</category>
     <category>daily weather</category>
     <category>climate understanding</category>
-  </item>
-  <item>
-    <title><![CDATA[संयुक्त राज्य अमेरिका Explained Simply: Understanding the USA]]></title>
-    <link>https://sluintel.github.io/posts/2026-08-10-sanyukt-rajya-america-explained-simply.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-10-sanyukt-rajya-america-explained-simply.html</guid>
-    <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Confused by headlines about the USA? Get संयुक्त राज्य अमेरिका explained simply. Discover its history, impact, and future – clear, concise, and crucial for 2026. Understand America better.]]></description>
-    <enclosure url="https://images.pexels.com/photos/36033641/pexels-photo-36033641.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>USA explained</category>
-    <category>American history</category>
-    <category>US politics</category>
-    <category>global impact</category>
-    <category>understanding America</category>
   </item>
 </channel>
 </rss>
