@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 11 Aug 2026 03:12:08 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 11 Aug 2026 03:55:20 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Jung Hoo Lee: Everything You Should Know About MLB's New Star]]></title>
+    <link>https://sluintel.github.io/posts/2026-08-11-jung-hoo-lee-everything-you-should-know.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-11-jung-hoo-lee-everything-you-should-know.html</guid>
+    <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack the phenomenon of Jung Hoo Lee, MLB's 'Grandson of the Wind.' Discover his journey from KBO MVP to Giants sensation, his unique skills, and what makes him a must-watch player in 2026.]]></description>
+    <enclosure url="https://images.pexels.com/photos/10981241/pexels-photo-10981241.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Jung Hoo Lee</category>
+    <category>MLB</category>
+    <category>KBO</category>
+    <category>Baseball</category>
+    <category>San Francisco Giants</category>
+  </item>
   <item>
     <title><![CDATA[WWE Raw Highlights Fans Are Talking About: Don't Miss These Moments]]></title>
     <link>https://sluintel.github.io/posts/2026-08-11-wwe-raw-highlights-fans-are-talking-about.html</link>
@@ -259,19 +272,6 @@
     <category>Origin Energy</category>
     <category>Digital Security</category>
     <category>Identity Protection</category>
-  </item>
-  <item>
-    <title><![CDATA[What People Are Saying About Marseille vs Athletic: Fan Echoes & Rivalry Decoded]]></title>
-    <link>https://sluintel.github.io/posts/2026-08-10-what-people-are-saying-about-marseille-vs-athletic.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-10-what-people-are-saying-about-marseille-vs-athletic.html</guid>
-    <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Uncover what people are saying about Marseille vs Athletic. Dive into fan predictions, tactical insights, and social media buzz surrounding this iconic European clash. Get the real fan pulse.]]></description>
-    <enclosure url="https://images.pexels.com/photos/11155148/pexels-photo-11155148.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Marseille</category>
-    <category>Athletic Bilbao</category>
-    <category>Football Rivalry</category>
-    <category>Fan Culture</category>
-    <category>European Football</category>
   </item>
 </channel>
 </rss>
