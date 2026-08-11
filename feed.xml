@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 11 Aug 2026 13:37:07 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 11 Aug 2026 14:30:53 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Why 'Weather Columbus Ohio' is Trending: Your 2026 Forecast Deep Dive]]></title>
+    <link>https://sluintel.github.io/posts/2026-08-11-why-weather-columbus-ohio-trending-right-now.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-11-why-weather-columbus-ohio-trending-right-now.html</guid>
+    <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Discover why 'Weather Columbus Ohio' is a hot search in 2026. Get expert insights, AI tools, and practical tips to master Columbus's unpredictable climate.]]></description>
+    <enclosure url="https://images.pexels.com/photos/36839423/pexels-photo-36839423.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Columbus Ohio</category>
+    <category>Weather Forecast</category>
+    <category>AI Tools</category>
+    <category>Climate Change</category>
+    <category>Automation</category>
+  </item>
   <item>
     <title><![CDATA[Palermo vs Juventus: Essential Insights You Need Now]]></title>
     <link>https://sluintel.github.io/posts/2026-08-11-palermo-vs-juventus-essential-insights.html</link>
@@ -259,19 +272,6 @@
     <category>Afghanistan Cricket</category>
     <category>Sports Analysis</category>
     <category>Fan Debates</category>
-  </item>
-  <item>
-    <title><![CDATA[i d software: The Unseen Architect of Modern Tech]]></title>
-    <link>https://sluintel.github.io/posts/2026-08-10-i-d-software-unseen-architect-modern-tech.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-10-i-d-software-unseen-architect-modern-tech.html</guid>
-    <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Uncover how i d software shaped modern tech and gaming. Learn its profound impact on engine tech, open source, and future innovation. A must-read.]]></description>
-    <enclosure url="https://images.pexels.com/photos/8386358/pexels-photo-8386358.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>id Software</category>
-    <category>Gaming Tech</category>
-    <category>Game Engines</category>
-    <category>Tech Innovation</category>
-    <category>Doom</category>
   </item>
 </channel>
 </rss>
