@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1640
+Total Posts Published: 1641
 Last Updated: 2026-08-11
-Latest Post: Initial Public Offering: Why It's Trending Right Now
-Latest Post URL: https://sluintel.github.io/posts/2026-08-11-initial-public-offering-trending-right-now.html
+Latest Post: Toyota Camry Recall Explained Simply: Your Guide to Vehicle Safety
+Latest Post URL: https://sluintel.github.io/posts/2026-08-11-toyota-camry-recall-explained-simply.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Toyota Camry Recall Explained Simply: Your Guide to Vehicle Safety](https://sluintel.github.io/posts/2026-08-11-toyota-camry-recall-explained-simply.html) — 2026-08-11 — Toyota Camry, Car Recall, Vehicle Safety
 - [Initial Public Offering: Why It's Trending Right Now](https://sluintel.github.io/posts/2026-08-11-initial-public-offering-trending-right-now.html) — 2026-08-11 — IPO, Stock Market, Investment
 - [The Latest Updates on Initial Public Offering: Your 2026 Guide](https://sluintel.github.io/posts/2026-08-11-the-latest-updates-on-initial-public-offering.html) — 2026-08-11 — IPO, stock market, investing
 - [Why Palermo vs Juventus is Trending: Beyond the Pitch](https://sluintel.github.io/posts/2026-08-11-why-palermo-vs-juventus-is-trending-right-now.html) — 2026-08-11 — Palermo Juventus, Serie A, Football Trends
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Palermo vs Juventus: Essential Insights You Need Now](https://sluintel.github.io/posts/2026-08-11-palermo-vs-juventus-essential-insights.html) — 2026-08-11 — Palermo, Juventus, Serie A
 - [Why 76ers Is Trending Right Now: Unpacking Philly's 2026 Buzz](https://sluintel.github.io/posts/2026-08-11-why-76ers-is-trending-right-now.html) — 2026-08-11 — 76ers, NBA, Basketball
 - [Palermo vs Juventus: Everything You Should Know About This Historic Clash](https://sluintel.github.io/posts/2026-08-11-palermo-vs-juventus-everything-you-should-know.html) — 2026-08-11 — Serie A, Football Rivalries, Juventus
-- [Content Policy: Daniel Kinahan and Sensitive Topics](https://sluintel.github.io/posts/2026-08-11-content-policy-daniel-kinahan.html) — 2026-08-11 — content-policy, safety-guidelines, sensitive-topics
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
