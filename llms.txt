@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1665
+Total Posts Published: 1666
 Last Updated: 2026-08-12
-Latest Post: Arsenal vs Como: What People Are Saying & Why It's Buzzing
-Latest Post URL: https://sluintel.github.io/posts/2026-08-12-arsenal-vs-como-what-people-are-saying.html
+Latest Post: Mastering The Gunners: Everything You Should Know About Arsenal
+Latest Post URL: https://sluintel.github.io/posts/2026-08-12-everything-you-should-know-about-arsenal.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Mastering The Gunners: Everything You Should Know About Arsenal](https://sluintel.github.io/posts/2026-08-12-everything-you-should-know-about-arsenal.html) — 2026-08-12 — Arsenal FC, Premier League, Football History
 - [Arsenal vs Como: What People Are Saying & Why It's Buzzing](https://sluintel.github.io/posts/2026-08-12-arsenal-vs-como-what-people-are-saying.html) — 2026-08-12 — Arsenal, Como 1907, Football
 - [Julián Álvarez: What People Are Saying About the Spider](https://sluintel.github.io/posts/2026-08-12-what-people-are-saying-about-julian-alvarez.html) — 2026-08-12 — Julián Álvarez, Football Analysis, Manchester City
 - [What People Are Saying About सीतामढ़ी: Uncovering Its True Pulse](https://sluintel.github.io/posts/2026-08-12-what-people-are-saying-about-sitamarhi.html) — 2026-08-12 — Sitamarhi, Bihar, India Travel
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Why ICC CWC League 2 Is Trending in Sports Right Now](https://sluintel.github.io/posts/2026-08-12-icc-cwc-league-2-trending-sports.html) — 2026-08-12 — cricket, ICC CWC League 2, sports trends
 - [CPI Data Decoded: Your Guide to Inflation & Economic Shifts](https://sluintel.github.io/posts/2026-08-12-cpi-data-decoded-inflation-economic-shifts.html) — 2026-08-12 — CPI Data, Inflation, Economics
 - [The Robot Vacuum Ban: Navigating AI Home Device Privacy](https://sluintel.github.io/posts/2026-08-12-robot-vacuum-ban-ai-privacy.html) — 2026-08-12 — AI Ethics, Smart Home Security, Data Privacy
-- [What People Are Saying About Rohit Paudel: Decoding the Buzz](https://sluintel.github.io/posts/2026-08-12-what-people-are-saying-about-rohit-paudel.html) — 2026-08-12 — Rohit Paudel, cricket analysis, public sentiment
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
