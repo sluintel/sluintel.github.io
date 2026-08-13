@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 13 Aug 2026 15:12:12 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 13 Aug 2026 16:08:49 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Aus vs Ban: Decoding the Top Internet Reactions]]></title>
+    <link>https://sluintel.github.io/posts/2026-08-13-top-internet-reactions-aus-vs-ban.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-13-top-internet-reactions-aus-vs-ban.html</guid>
+    <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack the top internet reactions to Aus vs Ban, from viral memes to expert analysis. Understand fan psychology and online trends.]]></description>
+    <enclosure url="https://images.pexels.com/photos/10397776/pexels-photo-10397776.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>cricket</category>
+    <category>internet culture</category>
+    <category>social media</category>
+    <category>fan reactions</category>
+    <category>sports analysis</category>
+  </item>
   <item>
     <title><![CDATA[What People Are Saying: Australia vs Bangladesh Cricket Rivalry in 2026]]></title>
     <link>https://sluintel.github.io/posts/2026-08-13-what-people-are-saying-australia-vs-bangladesh.html</link>
@@ -259,19 +272,6 @@
     <category>Football History</category>
     <category>Gunners</category>
     <category>Club Strategy</category>
-  </item>
-  <item>
-    <title><![CDATA[Arsenal vs Como: What People Are Saying & Why It's Buzzing]]></title>
-    <link>https://sluintel.github.io/posts/2026-08-12-arsenal-vs-como-what-people-are-saying.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-12-arsenal-vs-como-what-people-are-saying.html</guid>
-    <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Dive into what people are saying about Arsenal vs Como! Unpack fan reactions, expert predictions, and the potential impact of this unexpected clash. Get the real story behind the buzz.]]></description>
-    <enclosure url="https://images.pexels.com/photos/8693712/pexels-photo-8693712.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Arsenal</category>
-    <category>Como 1907</category>
-    <category>Football</category>
-    <category>Serie A</category>
-    <category>Premier League</category>
   </item>
 </channel>
 </rss>
