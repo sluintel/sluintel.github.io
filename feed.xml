@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 13 Aug 2026 19:20:27 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 13 Aug 2026 20:01:05 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Unleash Gemini: Your Guide to AI Mastery in 2026]]></title>
+    <link>https://sluintel.github.io/posts/2026-08-13-gemini-ai-mastery-guide.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-13-gemini-ai-mastery-guide.html</guid>
+    <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Master Gemini AI in 2026. This guide breaks down what Gemini is, why it's critical for productivity, and how to harness its multimodal power for unmatched automation and creativity.]]></description>
+    <enclosure url="https://images.pexels.com/photos/8294596/pexels-photo-8294596.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Gemini AI</category>
+    <category>AI Tools</category>
+    <category>Automation</category>
+    <category>Google AI</category>
+    <category>Productivity</category>
+  </item>
   <item>
     <title><![CDATA[Gemini: The AI Revolution You Need to Master in 2026]]></title>
     <link>https://sluintel.github.io/posts/2026-08-13-gemini-ai-mastery-guide-2026.html</link>
@@ -259,19 +272,6 @@
     <category>Real Madrid</category>
     <category>Deportivo La Coruña</category>
     <category>Spanish Football</category>
-  </item>
-  <item>
-    <title><![CDATA[Why PSG Is Trending Right Now: Unpacking Football's Global Phenomenon]]></title>
-    <link>https://sluintel.github.io/posts/2026-08-12-why-psg-is-trending-right-now.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-12-why-psg-is-trending-right-now.html</guid>
-    <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Curious why PSG dominates headlines? Discover the real reasons why PSG is trending right now, from superstar transfers to Champions League drama. Get the inside scoop.]]></description>
-    <enclosure url="https://images.pexels.com/photos/12313948/pexels-photo-12313948.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>PSG</category>
-    <category>Football</category>
-    <category>Trending</category>
-    <category>Ligue 1</category>
-    <category>Sports News</category>
   </item>
 </channel>
 </rss>

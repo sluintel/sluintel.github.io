@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1688
+Total Posts Published: 1689
 Last Updated: 2026-08-13
-Latest Post: Gemini: The AI Revolution You Need to Master in 2026
-Latest Post URL: https://sluintel.github.io/posts/2026-08-13-gemini-ai-mastery-guide-2026.html
+Latest Post: Unleash Gemini: Your Guide to AI Mastery in 2026
+Latest Post URL: https://sluintel.github.io/posts/2026-08-13-gemini-ai-mastery-guide.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Unleash Gemini: Your Guide to AI Mastery in 2026](https://sluintel.github.io/posts/2026-08-13-gemini-ai-mastery-guide.html) — 2026-08-13 — Gemini AI, AI Tools, Automation
 - [Gemini: The AI Revolution You Need to Master in 2026](https://sluintel.github.io/posts/2026-08-13-gemini-ai-mastery-guide-2026.html) — 2026-08-13 — Gemini AI, AI tools, automation
 - [Gemini: The AI Powerhouse Redefining Digital Creation in 2026](https://sluintel.github.io/posts/2026-08-13-gemini-ai-powerhouse-digital-creation.html) — 2026-08-13 — AI, Gemini, Automation
 - [L&T NVIDIA B300 AI Factory: Your Blueprint for AI Dominance](https://sluintel.github.io/posts/2026-08-13-l-t-nvidia-b300-ai-factory-blueprint.html) — 2026-08-13 — AI Infrastructure, NVIDIA B300, L&T
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Top Internet Reactions to Libra Horoscope Today: Unpacking Digital Vibes](https://sluintel.github.io/posts/2026-08-13-top-internet-reactions-to-libra-horoscope-today.html) — 2026-08-13 — Libra Horoscope, Internet Reactions, Astrology Trends
 - [PSG vs: Mastering Football's Fiercest Rivalries and Why They Matter](https://sluintel.github.io/posts/2026-08-13-psg-vs-everything-you-should-know.html) — 2026-08-13 — PSG, Football Rivalries, Ligue 1
 - [What People Are Saying About Inter Miami vs León: Fan Fury & Tactical Talks](https://sluintel.github.io/posts/2026-08-13-what-people-are-saying-about-inter-miami-vs-leon-2.html) — 2026-08-13 — Inter Miami, Club León, Leagues Cup
-- [Arsenal Explained Simply: Your AI & Automation Toolkit for 2026](https://sluintel.github.io/posts/2026-08-13-arsenal-explained-simply.html) — 2026-08-13 — AI Tools, Automation, Tech Strategy
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
