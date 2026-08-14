@@ -5,13 +5,27 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 14 Aug 2026 14:19:46 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 14 Aug 2026 15:05:01 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Deciphering the Top Internet Reactions to Twins vs Phillies]]></title>
+    <link>https://sluintel.github.io/posts/2026-08-14-top-internet-reactions-to-twins-vs-phillies.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-14-top-internet-reactions-to-twins-vs-phillies.html</guid>
+    <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack the top internet reactions to Twins vs Phillies games. Learn to analyze fan sentiment, identify viral moments, and understand online sports discourse effectively.]]></description>
+    <enclosure url="https://images.pexels.com/photos/31107749/pexels-photo-31107749.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>internet reactions</category>
+    <category>sports analysis</category>
+    <category>MLB</category>
+    <category>fan culture</category>
+    <category>social media</category>
+    <category>AI tools</category>
+  </item>
   <item>
     <title><![CDATA[Why Santos vs Macará is Trending: The 2026 Football Buzz Decoded]]></title>
     <link>https://sluintel.github.io/posts/2026-08-14-why-santos-vs-macara-is-trending-right-now.html</link>
@@ -258,19 +272,6 @@
     <category>Automation</category>
     <category>Google AI</category>
     <category>Productivity</category>
-  </item>
-  <item>
-    <title><![CDATA[Gemini: The AI Revolution You Need to Master in 2026]]></title>
-    <link>https://sluintel.github.io/posts/2026-08-13-gemini-ai-mastery-guide-2026.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-13-gemini-ai-mastery-guide-2026.html</guid>
-    <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Master Gemini AI with this expert guide. Uncover its power, core features, and pro tips to boost productivity and innovation in 2026. Your future starts now.]]></description>
-    <enclosure url="https://images.pexels.com/photos/30530426/pexels-photo-30530426.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Gemini AI</category>
-    <category>AI tools</category>
-    <category>automation</category>
-    <category>productivity</category>
-    <category>tech trends</category>
   </item>
 </channel>
 </rss>
