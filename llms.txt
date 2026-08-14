@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1696
+Total Posts Published: 1697
 Last Updated: 2026-08-14
-Latest Post: Kishor Shrestha: What People Are Saying About This Visionary Leader
-Latest Post URL: https://sluintel.github.io/posts/2026-08-14-what-people-are-saying-about-kishor-shrestha.html
+Latest Post: Scotland vs Canada Explained Simply: Your Guide to Two Great Nations
+Latest Post URL: https://sluintel.github.io/posts/2026-08-14-scotland-vs-canada-explained-simply.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Scotland vs Canada Explained Simply: Your Guide to Two Great Nations](https://sluintel.github.io/posts/2026-08-14-scotland-vs-canada-explained-simply.html) — 2026-08-14 — Scotland, Canada, Travel
 - [Kishor Shrestha: What People Are Saying About This Visionary Leader](https://sluintel.github.io/posts/2026-08-14-what-people-are-saying-about-kishor-shrestha.html) — 2026-08-14 — Kishor Shrestha, Tech Leaders, AI Innovation
 - [Realme 16x 5G Explained Simply: Your Next Budget Powerhouse](https://sluintel.github.io/posts/2026-08-14-realme-16x-5g-explained-simply.html) — 2026-08-14 — realme 16x, 5G smartphone, budget phone
 - [Mapping the Future: The Latest Updates on Map Technology](https://sluintel.github.io/posts/2026-08-14-the-latest-updates-on-map-technology.html) — 2026-08-14 — AI maps, navigation, geospatial tech
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Inter Miami vs Club León Standings: Your Ultimate 2026 Guide](https://sluintel.github.io/posts/2026-08-13-inter-miami-vs-club-leon-standings-2026-guide.html) — 2026-08-13 — Inter Miami, Club León, MLS
 - [Unleash Gemini: Your Guide to AI Mastery in 2026](https://sluintel.github.io/posts/2026-08-13-gemini-ai-mastery-guide.html) — 2026-08-13 — Gemini AI, AI Tools, Automation
 - [Gemini: The AI Revolution You Need to Master in 2026](https://sluintel.github.io/posts/2026-08-13-gemini-ai-mastery-guide-2026.html) — 2026-08-13 — Gemini AI, AI tools, automation
-- [Gemini: The AI Powerhouse Redefining Digital Creation in 2026](https://sluintel.github.io/posts/2026-08-13-gemini-ai-powerhouse-digital-creation.html) — 2026-08-13 — AI, Gemini, Automation
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
