@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 15 Aug 2026 22:35:10 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 15 Aug 2026 23:33:39 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Gemini 3.7 Flash: Master Real-Time AI Efficiency & Speed]]></title>
+    <link>https://sluintel.github.io/posts/2026-08-15-gemini-3-7-flash-real-time-ai-efficiency-5.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-15-gemini-3-7-flash-real-time-ai-efficiency-5.html</guid>
+    <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unlock the power of Gemini 3.7 Flash! Discover how this AI model boosts real-time efficiency, slashes latency, and transforms your automation workflows. Get actionable strategies.]]></description>
+    <enclosure url="https://images.pexels.com/photos/16135549/pexels-photo-16135549.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI Tools</category>
+    <category>Gemini 3.7 Flash</category>
+    <category>Automation</category>
+    <category>LLMs</category>
+    <category>Real-Time AI</category>
+  </item>
   <item>
     <title><![CDATA[Gemini 3.7 Flash: Unleash Real-Time AI Power & Efficiency]]></title>
     <link>https://sluintel.github.io/posts/2026-08-15-gemini-3-7-flash-real-time-ai-efficiency-4.html</link>
@@ -260,19 +273,6 @@
     <category>trending topics</category>
     <category>AI analysis</category>
     <category>fan engagement</category>
-  </item>
-  <item>
-    <title><![CDATA[Decoding the Top Internet Reactions to Gianni Infantino: Why They Matter]]></title>
-    <link>https://sluintel.github.io/posts/2026-08-15-top-internet-reactions-to-gianni-infantino.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-15-top-internet-reactions-to-gianni-infantino.html</guid>
-    <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unpack the top internet reactions to Gianni Infantino. Discover key trends, controversies, and how online sentiment shapes public opinion around FIFA's leader. Essential for understanding digital discourse.]]></description>
-    <enclosure url="https://images.pexels.com/photos/6605132/pexels-photo-6605132.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Gianni Infantino</category>
-    <category>FIFA</category>
-    <category>internet reactions</category>
-    <category>social media analysis</category>
-    <category>football controversies</category>
   </item>
 </channel>
 </rss>
