@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 16 Aug 2026 16:39:53 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 16 Aug 2026 17:36:03 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Club Friendlies: Everything You Should Know Before Kick-Off]]></title>
+    <link>https://sluintel.github.io/posts/2026-08-16-club-friendlies-everything-you-should-know.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-16-club-friendlies-everything-you-should-know.html</guid>
+    <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unlock the secrets of club friendlies! Learn why these pre-season clashes matter for teams, players, and fans. Get insider tips and never miss a beat.]]></description>
+    <enclosure url="https://images.pexels.com/photos/7320594/pexels-photo-7320594.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>football</category>
+    <category>soccer</category>
+    <category>pre-season</category>
+    <category>club friendlies</category>
+    <category>team preparation</category>
+  </item>
   <item>
     <title><![CDATA[Real Madrid Explained Simply: Unpacking Football's Global Giant]]></title>
     <link>https://sluintel.github.io/posts/2026-08-16-real-madrid-explained-simply.html</link>
@@ -259,19 +272,6 @@
     <category>Automation</category>
     <category>Machine Learning</category>
     <category>Future Tech</category>
-  </item>
-  <item>
-    <title><![CDATA[Gemini 3.7 Flash: Master Real-Time AI Efficiency Now]]></title>
-    <link>https://sluintel.github.io/posts/2026-08-15-gemini-3-7-flash-real-time-ai-efficiency-3.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-15-gemini-3-7-flash-real-time-ai-efficiency-3.html</guid>
-    <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Discover how Gemini 3.7 Flash delivers lightning-fast AI, boosting real-time decision-making and efficiency. Master its power now.]]></description>
-    <enclosure url="https://images.pexels.com/photos/30547579/pexels-photo-30547579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI Tools</category>
-    <category>Generative AI</category>
-    <category>Gemini 3.7 Flash</category>
-    <category>Automation</category>
-    <category>Tech Trends 2026</category>
   </item>
 </channel>
 </rss>
