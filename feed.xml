@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 16 Aug 2026 02:35:36 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 16 Aug 2026 03:13:09 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[7.7 Magnitude Earthquake Indonesia: What People Are Truly Saying]]></title>
+    <link>https://sluintel.github.io/posts/2026-08-16-what-people-are-saying-about-7-7-magnitude-earthquake-indonesia.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-16-what-people-are-saying-about-7-7-magnitude-earthquake-indonesia.html</guid>
+    <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Uncover what people are saying about the 7.7 magnitude earthquake in Indonesia. Get insights into public reactions, aid efforts, and expert analysis.]]></description>
+    <enclosure url="https://images.pexels.com/photos/7203649/pexels-photo-7203649.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Indonesia Earthquake</category>
+    <category>Seismic Activity</category>
+    <category>Disaster Response</category>
+    <category>Public Sentiment</category>
+    <category>Natural Disasters</category>
+  </item>
   <item>
     <title><![CDATA[Decoding Top Internet Reactions to Dortmund vs Roma]]></title>
     <link>https://sluintel.github.io/posts/2026-08-16-top-internet-reactions-dortmund-vs-roma.html</link>
@@ -260,19 +273,6 @@
     <category>Sports Tech</category>
     <category>AI in Sports</category>
     <category>Fantasy Cricket</category>
-  </item>
-  <item>
-    <title><![CDATA[Steve Smith: Everything You Should Know About Cricket's Enigma]]></title>
-    <link>https://sluintel.github.io/posts/2026-08-15-steve-smith-everything-you-should-know.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-15-steve-smith-everything-you-should-know.html</guid>
-    <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unpack Steve Smith's unique cricket genius, controversies, and enduring legacy. Get everything you should know about cricket's most captivating batsman. Discover his secrets to success.]]></description>
-    <enclosure url="https://images.pexels.com/photos/3808822/pexels-photo-3808822.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Cricket</category>
-    <category>Steve Smith</category>
-    <category>Sports Analytics</category>
-    <category>Athlete Profile</category>
-    <category>Test Cricket</category>
   </item>
 </channel>
 </rss>
