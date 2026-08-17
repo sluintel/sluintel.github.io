@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1773
+Total Posts Published: 1774
 Last Updated: 2026-08-17
-Latest Post: Qantas Aircraft Tool Left in Wing: A Safety Wake-Up Call for 2026
-Latest Post URL: https://sluintel.github.io/posts/2026-08-17-qantas-aircraft-tool-left-in-wing.html
+Latest Post: Nishan Madushka Updates: Sri Lanka's Cricket Prodigy in 2026
+Latest Post URL: https://sluintel.github.io/posts/2026-08-17-latest-updates-on-nishan-madushka.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Nishan Madushka Updates: Sri Lanka's Cricket Prodigy in 2026](https://sluintel.github.io/posts/2026-08-17-latest-updates-on-nishan-madushka.html) — 2026-08-17 — Nishan Madushka, Sri Lanka Cricket, Emerging Talent
 - [Qantas Aircraft Tool Left in Wing: A Safety Wake-Up Call for 2026](https://sluintel.github.io/posts/2026-08-17-qantas-aircraft-tool-left-in-wing.html) — 2026-08-17 — aviation safety, Qantas incident, aircraft maintenance
 - [What People Are Saying: Lens vs PSG Showdown Analysis](https://sluintel.github.io/posts/2026-08-17-what-people-are-saying-lens-vs-psg.html) — 2026-08-17 — Lens vs PSG, Ligue 1, Football Analysis
 - [Burnley vs West Ham: Everything You Should Know for 2026](https://sluintel.github.io/posts/2026-08-17-burnley-vs-west-ham-everything-you-should-know.html) — 2026-08-17 — Football, Premier League, Burnley FC
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Vasco vs Santos: What People Are Truly Saying About This Rivalry](https://sluintel.github.io/posts/2026-08-17-what-people-are-saying-about-vasco-vs-santos.html) — 2026-08-17 — Vasco da Gama, Santos FC, Brazilian Football
 - [Trophée des Champions Highlights Fans Are Talking About: Don't Miss These Moments](https://sluintel.github.io/posts/2026-08-17-trophee-des-champions-highlights-fans-are-talking-about.html) — 2026-08-17 — Trophée des Champions, Football Highlights, French Football
 - [Mastering Claude AI: Your Essential Guide to Intelligent Automation](https://sluintel.github.io/posts/2026-08-16-claude-ai-essential-guide.html) — 2026-08-16 — Claude AI, AI tools, Generative AI
-- [Claude AI: Your Expert Guide to Mastering Advanced AI in 2026](https://sluintel.github.io/posts/2026-08-16-claude-ai-mastery-guide-2026.html) — 2026-08-16 — AI Tools, Claude, Anthropic
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
