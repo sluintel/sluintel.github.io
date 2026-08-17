@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1787
+Total Posts Published: 1788
 Last Updated: 2026-08-17
-Latest Post: Claude AI Demystified: Boost Your Productivity in 2026
-Latest Post URL: https://sluintel.github.io/posts/2026-08-17-claude-ai-demystified-productivity-2026.html
+Latest Post: Qantas Aircraft Tool Left in Wing: A Crucial Safety Wake-Up Call
+Latest Post URL: https://sluintel.github.io/posts/2026-08-17-qantas-aircraft-tool-left-in-wing-2.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Qantas Aircraft Tool Left in Wing: A Crucial Safety Wake-Up Call](https://sluintel.github.io/posts/2026-08-17-qantas-aircraft-tool-left-in-wing-2.html) — 2026-08-17 — Aviation Safety, Qantas Incident, Aircraft Maintenance
 - [Claude AI Demystified: Boost Your Productivity in 2026](https://sluintel.github.io/posts/2026-08-17-claude-ai-demystified-productivity-2026.html) — 2026-08-17 — Claude AI, AI Tools, Generative AI
 - [Claude AI: Your Intelligent Partner for Tomorrow's Productivity](https://sluintel.github.io/posts/2026-08-17-claude-ai-intelligent-partner-productivity-guide.html) — 2026-08-17 — Claude AI, AI tools, automation
 - [Claude AI: Your Essential Guide to Intelligent Automation in 2026](https://sluintel.github.io/posts/2026-08-17-claude-ai-intelligent-automation-guide-2026.html) — 2026-08-17 — Claude AI, AI Tools, Automation
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Keshara Nuwantha: Everything You Should Know About Sri Lanka's Rising Pace Star](https://sluintel.github.io/posts/2026-08-17-keshara-nuwantha-everything-you-should-know.html) — 2026-08-17 — Keshara Nuwantha, Sri Lanka Cricket, Emerging Talent
 - [Hayden Panettiere: What People Are Truly Saying About Her Journey](https://sluintel.github.io/posts/2026-08-17-hayden-panettiere-what-people-are-saying.html) — 2026-08-17 — Hayden Panettiere, Celebrity News, Public Opinion
 - [Grand Theft Auto VI Explained Simply: Your Guide to the Next Gaming Epic](https://sluintel.github.io/posts/2026-08-17-grand-theft-auto-vi-explained-simply.html) — 2026-08-17 — GTA 6, Rockstar Games, Open World
-- [Sonal Dinusha Explained Simply: Unpacking Their Digital Influence](https://sluintel.github.io/posts/2026-08-17-sonal-dinusha-explained-simply.html) — 2026-08-17 — Sonal Dinusha, Digital Influence, Social Media Strategy
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
