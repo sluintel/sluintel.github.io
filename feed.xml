@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 17 Aug 2026 05:52:32 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 17 Aug 2026 07:13:50 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[What People Are Saying: Lens vs PSG Showdown Analysis]]></title>
+    <link>https://sluintel.github.io/posts/2026-08-17-what-people-are-saying-lens-vs-psg.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-17-what-people-are-saying-lens-vs-psg.html</guid>
+    <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack the fan frenzy and expert opinions surrounding Lens vs PSG. Discover key match insights, player performances, and what the latest chatter reveals about this epic rivalry. Dive in!]]></description>
+    <enclosure url="https://images.pexels.com/photos/29715707/pexels-photo-29715707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Lens vs PSG</category>
+    <category>Ligue 1</category>
+    <category>Football Analysis</category>
+    <category>Fan Reactions</category>
+    <category>Sports Analytics</category>
+  </item>
   <item>
     <title><![CDATA[Burnley vs West Ham: Everything You Should Know for 2026]]></title>
     <link>https://sluintel.github.io/posts/2026-08-17-burnley-vs-west-ham-everything-you-should-know.html</link>
@@ -259,19 +272,6 @@
     <category>Hoffenheim</category>
     <category>fan reactions</category>
     <category>social media</category>
-  </item>
-  <item>
-    <title><![CDATA[Top Internet Reactions to Dortmund vs Roma: Decoding Fan Sentiment]]></title>
-    <link>https://sluintel.github.io/posts/2026-08-16-top-internet-reactions-dortmund-vs-roma-2.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-16-top-internet-reactions-dortmund-vs-roma-2.html</guid>
-    <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unpack the top internet reactions to Dortmund vs Roma. Discover why understanding fan sentiment online is crucial and learn expert tips for analyzing social media buzz.]]></description>
-    <enclosure url="https://images.pexels.com/photos/38225884/pexels-photo-38225884.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Dortmund</category>
-    <category>Roma</category>
-    <category>Football</category>
-    <category>Fan Reactions</category>
-    <category>Social Media</category>
   </item>
 </channel>
 </rss>
