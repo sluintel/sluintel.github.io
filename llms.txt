@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1812
+Total Posts Published: 1813
 Last Updated: 2026-08-18
-Latest Post: What People Are Saying About Asitha Fernando: Decoding Public Opinion in 2026
-Latest Post URL: https://sluintel.github.io/posts/2026-08-18-what-people-are-saying-about-asitha-fernando.html
+Latest Post: Asitha Fernando: Everything You Need to Know About Sri Lanka's Pace Spearhead
+Latest Post URL: https://sluintel.github.io/posts/2026-08-18-asitha-fernando-everything-you-should-know.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Asitha Fernando: Everything You Need to Know About Sri Lanka's Pace Spearhead](https://sluintel.github.io/posts/2026-08-18-asitha-fernando-everything-you-should-know.html) — 2026-08-18 — Asitha Fernando, Sri Lankan Cricket, Fast Bowler
 - [What People Are Saying About Asitha Fernando: Decoding Public Opinion in 2026](https://sluintel.github.io/posts/2026-08-18-what-people-are-saying-about-asitha-fernando.html) — 2026-08-18 — Asitha Fernando, Sri Lankan Cricket, Cricket Opinion
 - [Jamal Musiala Explained Simply: Unpacking Football's 'Bambi' Phenom](https://sluintel.github.io/posts/2026-08-18-jamal-musiala-explained-simply.html) — 2026-08-18 — Jamal Musiala, Football Analysis, Bundesliga
 - [Generative AI and Niu Lai Box Office: A 2026 Impact Report](https://sluintel.github.io/posts/2026-08-18-how-generative-ai-is-impacting-niu-lai-box-office.html) — 2026-08-18 — Generative AI, Niu Lai Box Office, AI in Entertainment
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Jeremy Jacquet: Everything You Should Know About This Defender](https://sluintel.github.io/posts/2026-08-18-jeremy-jacquet-everything-you-should-know.html) — 2026-08-18 — Jeremy Jacquet, French Football, Ligue 1
 - [Honor Robot Phone: The Future of AI in Your Pocket](https://sluintel.github.io/posts/2026-08-18-honor-robot-phone-future-ai-mobile.html) — 2026-08-18 — AI Phones, Honor Technology, Robotics
 - [Top Internet Reactions to Asitha Fernando: Unpacking the Digital Buzz](https://sluintel.github.io/posts/2026-08-18-top-internet-reactions-asitha-fernando.html) — 2026-08-18 — Asitha Fernando, Cricket, Internet Reactions
-- [Unpacking the Latest Updates on Pasindu Sooriyabandara with AI Insights](https://sluintel.github.io/posts/2026-08-18-latest-updates-pasindu-sooriyabandara-ai.html) — 2026-08-18 — AI in Sports, Sports Analytics, Performance Tracking
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
