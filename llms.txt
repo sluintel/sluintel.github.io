@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1808
+Total Posts Published: 1809
 Last Updated: 2026-08-18
-Latest Post: Diriyah vs Al-Nassr: The Latest Updates & Tactical Deep Dive
-Latest Post URL: https://sluintel.github.io/posts/2026-08-18-the-latest-updates-on-diriyah-vs-al-nassr.html
+Latest Post: Indian Army Chief Explained Simply: Who Leads India's Forces?
+Latest Post URL: https://sluintel.github.io/posts/2026-08-18-indian-army-chief-explained-simply.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Indian Army Chief Explained Simply: Who Leads India's Forces?](https://sluintel.github.io/posts/2026-08-18-indian-army-chief-explained-simply.html) — 2026-08-18 — Indian Army, Army Chief, Military Leadership
 - [Diriyah vs Al-Nassr: The Latest Updates & Tactical Deep Dive](https://sluintel.github.io/posts/2026-08-18-the-latest-updates-on-diriyah-vs-al-nassr.html) — 2026-08-18 — Diriyah FC, Al-Nassr FC, Saudi Pro League
 - [Al-Raed vs Al-Hilal: What People Are Saying & Why It Matters](https://sluintel.github.io/posts/2026-08-18-what-people-are-saying-about-al-raed-vs-al-hilal.html) — 2026-08-18 — SaudiProLeague, AlHilal, AlRaed
 - [Jeremy Jacquet: Everything You Should Know About This Defender](https://sluintel.github.io/posts/2026-08-18-jeremy-jacquet-everything-you-should-know.html) — 2026-08-18 — Jeremy Jacquet, French Football, Ligue 1
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Jamal Musiala: Everything You Should Know About 'Bambi'](https://sluintel.github.io/posts/2026-08-18-jamal-musiala-everything-you-should-know.html) — 2026-08-18 — Jamal Musiala, Bayern Munich, Football
 - [Why 'न्यायाधीश' (Judge) Is Trending Now: AI & Justice in 2026](https://sluintel.github.io/posts/2026-08-18-nyayadhish-trending-now.html) — 2026-08-18 — न्यायाधीश, AI in Law, Judicial Reform
 - [Din Thomas: Everything You Should Know About the MMA Legend](https://sluintel.github.io/posts/2026-08-18-din-thomas-everything-you-should-know.html) — 2026-08-18 — MMA, Din Thomas, UFC
-- [State Farm Dividend: Unpacking the Top Internet Reactions](https://sluintel.github.io/posts/2026-08-18-top-internet-reactions-to-state-farm-dividend.html) — 2026-08-18 — State Farm, insurance, dividends
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
