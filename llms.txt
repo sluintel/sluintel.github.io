@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1829
+Total Posts Published: 1830
 Last Updated: 2026-08-19
-Latest Post: What People Are Saying About Flow: Unlock Peak Productivity
-Latest Post URL: https://sluintel.github.io/posts/2026-08-19-what-people-are-saying-about-flow-2.html
+Latest Post: Geoffrey Hinton AI: Why His Breakthroughs Still Shape 2026
+Latest Post URL: https://sluintel.github.io/posts/2026-08-19-geoffrey-hinton-ai-deep-learning-2026.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Geoffrey Hinton AI: Why His Breakthroughs Still Shape 2026](https://sluintel.github.io/posts/2026-08-19-geoffrey-hinton-ai-deep-learning-2026.html) — 2026-08-19 — Geoffrey Hinton, AI, Deep Learning
 - [What People Are Saying About Flow: Unlock Peak Productivity](https://sluintel.github.io/posts/2026-08-19-what-people-are-saying-about-flow-2.html) — 2026-08-19 — Flow State, Productivity, Deep Work
 - [Alberto Mendoza Georgia Tech Transfer: A Strategic Play in 2026](https://sluintel.github.io/posts/2026-08-19-alberto-mendoza-georgia-tech-transfer.html) — 2026-08-19 — Georgia Tech, Alberto Mendoza, NCAA Transfer Portal
 - [Manav Suthar: Everything You Should Know About India's Rising Spin Star](https://sluintel.github.io/posts/2026-08-19-manav-suthar-everything-you-should-know.html) — 2026-08-19 — Cricket, Manav Suthar, IPL
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [The Future of Niu Lai Chinese Box Office with AI Unlocked](https://sluintel.github.io/posts/2026-08-19-the-future-of-niu-lai-chinese-movie-box-office-with-ai.html) — 2026-08-19 — AI in Film, Chinese Cinema, Box Office Prediction
 - [What People Are Saying About Flow: Unlock Peak Productivity](https://sluintel.github.io/posts/2026-08-19-what-people-are-saying-about-flow.html) — 2026-08-19 — AI Tools, Automation, Productivity
 - [The Latest Updates on Keshara Nuwantha: Your 2026 Performance Breakdown](https://sluintel.github.io/posts/2026-08-19-the-latest-updates-on-keshara-nuwantha.html) — 2026-08-19 — Keshara Nuwantha, Cricket Updates, Sri Lanka Cricket
-- [Keshara Nuwantha Explained Simply: Decoding Sri Lanka's Prodigy](https://sluintel.github.io/posts/2026-08-19-keshara-nuwantha-explained-simply.html) — 2026-08-19 — Keshara Nuwantha, Sri Lanka Cricket, Fast Bowlers
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
