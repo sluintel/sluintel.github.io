@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1814
+Total Posts Published: 1815
 Last Updated: 2026-08-19
-Latest Post: Nishan Madushka Explained Simply: Sri Lanka's Next Cricket Star?
-Latest Post URL: https://sluintel.github.io/posts/2026-08-19-nishan-madushka-explained-simply.html
+Latest Post: Why Asitha Fernando is Trending Right Now: Unpacking His 2026 Buzz
+Latest Post URL: https://sluintel.github.io/posts/2026-08-19-why-asitha-fernando-is-trending-right-now.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Why Asitha Fernando is Trending Right Now: Unpacking His 2026 Buzz](https://sluintel.github.io/posts/2026-08-19-why-asitha-fernando-is-trending-right-now.html) — 2026-08-19 — Asitha Fernando, Cricket, Sri Lanka Cricket
 - [Nishan Madushka Explained Simply: Sri Lanka's Next Cricket Star?](https://sluintel.github.io/posts/2026-08-19-nishan-madushka-explained-simply.html) — 2026-08-19 — Nishan Madushka, Sri Lankan Cricket, Cricket Prodigy
 - [Asitha Fernando: Everything You Need to Know About Sri Lanka's Pace Spearhead](https://sluintel.github.io/posts/2026-08-18-asitha-fernando-everything-you-should-know.html) — 2026-08-18 — Asitha Fernando, Sri Lankan Cricket, Fast Bowler
 - [What People Are Saying About Asitha Fernando: Decoding Public Opinion in 2026](https://sluintel.github.io/posts/2026-08-18-what-people-are-saying-about-asitha-fernando.html) — 2026-08-18 — Asitha Fernando, Sri Lankan Cricket, Cricket Opinion
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Diriyah vs Al-Nassr: The Latest Updates & Tactical Deep Dive](https://sluintel.github.io/posts/2026-08-18-the-latest-updates-on-diriyah-vs-al-nassr.html) — 2026-08-18 — Diriyah FC, Al-Nassr FC, Saudi Pro League
 - [Al-Raed vs Al-Hilal: What People Are Saying & Why It Matters](https://sluintel.github.io/posts/2026-08-18-what-people-are-saying-about-al-raed-vs-al-hilal.html) — 2026-08-18 — SaudiProLeague, AlHilal, AlRaed
 - [Jeremy Jacquet: Everything You Should Know About This Defender](https://sluintel.github.io/posts/2026-08-18-jeremy-jacquet-everything-you-should-know.html) — 2026-08-18 — Jeremy Jacquet, French Football, Ligue 1
-- [Honor Robot Phone: The Future of AI in Your Pocket](https://sluintel.github.io/posts/2026-08-18-honor-robot-phone-future-ai-mobile.html) — 2026-08-18 — AI Phones, Honor Technology, Robotics
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
