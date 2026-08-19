@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1815
+Total Posts Published: 1816
 Last Updated: 2026-08-19
-Latest Post: Why Asitha Fernando is Trending Right Now: Unpacking His 2026 Buzz
-Latest Post URL: https://sluintel.github.io/posts/2026-08-19-why-asitha-fernando-is-trending-right-now.html
+Latest Post: Diriyah vs Al-Nassr: What People Are Saying About This Fiery Rivalry
+Latest Post URL: https://sluintel.github.io/posts/2026-08-19-what-people-are-saying-about-diriyah-vs-al-nassr.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Diriyah vs Al-Nassr: What People Are Saying About This Fiery Rivalry](https://sluintel.github.io/posts/2026-08-19-what-people-are-saying-about-diriyah-vs-al-nassr.html) — 2026-08-19 — Saudi Football, Al-Nassr, Diriyah
 - [Why Asitha Fernando is Trending Right Now: Unpacking His 2026 Buzz](https://sluintel.github.io/posts/2026-08-19-why-asitha-fernando-is-trending-right-now.html) — 2026-08-19 — Asitha Fernando, Cricket, Sri Lanka Cricket
 - [Nishan Madushka Explained Simply: Sri Lanka's Next Cricket Star?](https://sluintel.github.io/posts/2026-08-19-nishan-madushka-explained-simply.html) — 2026-08-19 — Nishan Madushka, Sri Lankan Cricket, Cricket Prodigy
 - [Asitha Fernando: Everything You Need to Know About Sri Lanka's Pace Spearhead](https://sluintel.github.io/posts/2026-08-18-asitha-fernando-everything-you-should-know.html) — 2026-08-18 — Asitha Fernando, Sri Lankan Cricket, Fast Bowler
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Indian Army Chief Explained Simply: Who Leads India's Forces?](https://sluintel.github.io/posts/2026-08-18-indian-army-chief-explained-simply.html) — 2026-08-18 — Indian Army, Army Chief, Military Leadership
 - [Diriyah vs Al-Nassr: The Latest Updates & Tactical Deep Dive](https://sluintel.github.io/posts/2026-08-18-the-latest-updates-on-diriyah-vs-al-nassr.html) — 2026-08-18 — Diriyah FC, Al-Nassr FC, Saudi Pro League
 - [Al-Raed vs Al-Hilal: What People Are Saying & Why It Matters](https://sluintel.github.io/posts/2026-08-18-what-people-are-saying-about-al-raed-vs-al-hilal.html) — 2026-08-18 — SaudiProLeague, AlHilal, AlRaed
-- [Jeremy Jacquet: Everything You Should Know About This Defender](https://sluintel.github.io/posts/2026-08-18-jeremy-jacquet-everything-you-should-know.html) — 2026-08-18 — Jeremy Jacquet, French Football, Ligue 1
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
