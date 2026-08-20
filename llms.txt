@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1837
-Last Updated: 2026-08-19
-Latest Post: Unpacking the Top Internet Reactions to Atlético Madrid vs Málaga
-Latest Post URL: https://sluintel.github.io/posts/2026-08-19-top-internet-reactions-atletico-madrid-vs-malaga.html
+Total Posts Published: 1838
+Last Updated: 2026-08-20
+Latest Post: Unlock Your Potential with the Ultimate GCSE Grades App
+Latest Post URL: https://sluintel.github.io/posts/2026-08-20-gcse-grades-app-ultimate-guide.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Unlock Your Potential with the Ultimate GCSE Grades App](https://sluintel.github.io/posts/2026-08-20-gcse-grades-app-ultimate-guide.html) — 2026-08-20 — GCSE, exam prep, student apps
 - [Unpacking the Top Internet Reactions to Atlético Madrid vs Málaga](https://sluintel.github.io/posts/2026-08-19-top-internet-reactions-atletico-madrid-vs-malaga.html) — 2026-08-19 — Atlético Madrid, Málaga CF, La Liga
 - [Ali Usman Explained Simply: Unpacking the AI Visionary](https://sluintel.github.io/posts/2026-08-19-ali-usman-explained-simply.html) — 2026-08-19 — AI strategy, automation trends, tech leadership
 - [Abdullah Shafique Updates: Your 2026 Guide to Pakistan's Batting Star](https://sluintel.github.io/posts/2026-08-19-the-latest-updates-on-abdullah-shafique.html) — 2026-08-19 — Abdullah Shafique, Pakistan Cricket, Cricket Updates
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Geoffrey Hinton AI: The Quiet Revolution Still Shaping 2026](https://sluintel.github.io/posts/2026-08-19-geoffrey-hinton-ai-revolution-2026.html) — 2026-08-19 — Geoffrey Hinton, AI, Deep Learning
 - [Geoffrey Hinton AI: Why His Breakthroughs Still Shape 2026](https://sluintel.github.io/posts/2026-08-19-geoffrey-hinton-ai-deep-learning-2026.html) — 2026-08-19 — Geoffrey Hinton, AI, Deep Learning
 - [What People Are Saying About Flow: Unlock Peak Productivity](https://sluintel.github.io/posts/2026-08-19-what-people-are-saying-about-flow-2.html) — 2026-08-19 — Flow State, Productivity, Deep Work
-- [Alberto Mendoza Georgia Tech Transfer: A Strategic Play in 2026](https://sluintel.github.io/posts/2026-08-19-alberto-mendoza-georgia-tech-transfer.html) — 2026-08-19 — Georgia Tech, Alberto Mendoza, NCAA Transfer Portal
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
