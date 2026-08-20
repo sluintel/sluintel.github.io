@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 20 Aug 2026 01:52:28 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 20 Aug 2026 02:31:23 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Philadelphia vs Inter Miami: Everything You Need to Know]]></title>
+    <link>https://sluintel.github.io/posts/2026-08-20-philadelphia-vs-inter-miami-everything-you-should-know.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-20-philadelphia-vs-inter-miami-everything-you-should-know.html</guid>
+    <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Dive into everything about Philadelphia vs Inter Miami. Unpack tactics, key players, and match predictions for this thrilling MLS rivalry. Stay ahead of the game!]]></description>
+    <enclosure url="https://images.pexels.com/photos/6669437/pexels-photo-6669437.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>MLS</category>
+    <category>Soccer Rivalries</category>
+    <category>Inter Miami</category>
+    <category>Philadelphia Union</category>
+    <category>Sports Analytics</category>
+  </item>
   <item>
     <title><![CDATA[Unlock Your Potential with the Ultimate GCSE Grades App]]></title>
     <link>https://sluintel.github.io/posts/2026-08-20-gcse-grades-app-ultimate-guide.html</link>
@@ -258,19 +271,6 @@
     <category>Sri Lanka Cricket</category>
     <category>Fast Bowlers</category>
     <category>Cricket Analysis</category>
-    <category>Emerging Talent</category>
-  </item>
-  <item>
-    <title><![CDATA[Why Pasindu Sooriyabandara is Trending Right Now: 2026 Insights]]></title>
-    <link>https://sluintel.github.io/posts/2026-08-19-why-pasindu-sooriyabandara-is-trending-right-now.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-19-why-pasindu-sooriyabandara-is-trending-right-now.html</guid>
-    <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Pasindu Sooriyabandara is everywhere! Discover the surprising reasons behind his sudden surge in popularity and what his trajectory means for future talents in 2026. Get the inside story!]]></description>
-    <enclosure url="https://images.pexels.com/photos/5213566/pexels-photo-5213566.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Pasindu Sooriyabandara</category>
-    <category>Trending</category>
-    <category>Cricket</category>
-    <category>Sports Analysis</category>
     <category>Emerging Talent</category>
   </item>
 </channel>
