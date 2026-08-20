@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1860
+Total Posts Published: 1861
 Last Updated: 2026-08-20
-Latest Post: Why FC Barcelona vs Al Ahly is Trending in Sports Right Now
-Latest Post URL: https://sluintel.github.io/posts/2026-08-20-why-fc-barcelona-vs-al-ahly-is-trending-in-sports-right-now.html
+Latest Post: The AI Bubble: Separating Hype from Reality in 2026
+Latest Post URL: https://sluintel.github.io/posts/2026-08-20-the-ai-bubble-separating-hype-from-reality.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [The AI Bubble: Separating Hype from Reality in 2026](https://sluintel.github.io/posts/2026-08-20-the-ai-bubble-separating-hype-from-reality.html) — 2026-08-20 — AI bubble, AI investment, tech hype
 - [Why FC Barcelona vs Al Ahly is Trending in Sports Right Now](https://sluintel.github.io/posts/2026-08-20-why-fc-barcelona-vs-al-ahly-is-trending-in-sports-right-now.html) — 2026-08-20 — FC Barcelona, Al Ahly, football trends
 - [Lionel Messi Latest Updates & Predictions: What's Next for Leo?](https://sluintel.github.io/posts/2026-08-20-lionel-messi-latest-updates-predictions.html) — 2026-08-20 — Lionel Messi, Football Predictions, Inter Miami CF
 - [Orlando City vs Chicago: The Latest Updates & AI's Tactical Edge](https://sluintel.github.io/posts/2026-08-20-the-latest-updates-on-orlando-city-vs-chicago-2.html) — 2026-08-20 — MLS, Orlando City, Chicago Fire
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [MLS 2026: Unpacking The Latest Updates for Fans & Analysts](https://sluintel.github.io/posts/2026-08-20-the-latest-updates-on-mls.html) — 2026-08-20 — MLS, Major League Soccer, Soccer 2026
 - [What People Are Saying About GTA 6: Decoding the Hype Train](https://sluintel.github.io/posts/2026-08-20-what-people-are-saying-about-gta6.html) — 2026-08-20 — GTA 6, Video Games, Gaming Community
 - [Orlando City vs Chicago: Everything You Should Know About This Fiery MLS Rivalry](https://sluintel.github.io/posts/2026-08-20-orlando-city-vs-chicago-everything-you-should-know.html) — 2026-08-20 — MLS, Orlando City, Chicago Fire
-- [What People Are Saying About NY Red Bulls vs Nashville: The Inside Scoop](https://sluintel.github.io/posts/2026-08-20-what-people-are-saying-about-ny-red-bulls-vs-nashville.html) — 2026-08-20 — MLS, NY Red Bulls, Nashville SC
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
