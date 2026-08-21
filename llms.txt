@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1877
+Total Posts Published: 1878
 Last Updated: 2026-08-21
-Latest Post: Garima Chaudhary Explained Simply: India's Judo Pioneer
-Latest Post URL: https://sluintel.github.io/posts/2026-08-21-garima-chaudhary-explained-simply.html
+Latest Post: Prompt Layering: Everything You Should Know About PL for AI Mastery
+Latest Post URL: https://sluintel.github.io/posts/2026-08-21-prompt-layering-everything-you-should-know-about-pl.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Prompt Layering: Everything You Should Know About PL for AI Mastery](https://sluintel.github.io/posts/2026-08-21-prompt-layering-everything-you-should-know-about-pl.html) — 2026-08-21 — AI Tools, Automation, Prompt Engineering
 - [Garima Chaudhary Explained Simply: India's Judo Pioneer](https://sluintel.github.io/posts/2026-08-21-garima-chaudhary-explained-simply.html) — 2026-08-21 — Garima Chaudhary, Judo India, Olympics
 - [Kick Explained Simply: Why This Streaming Platform Matters in 2026](https://sluintel.github.io/posts/2026-08-21-kick-explained-simply.html) — 2026-08-21 — streaming, creator economy, live content
 - [Unpacking the Top Internet Reactions to GTA Leaks](https://sluintel.github.io/posts/2026-08-21-top-internet-reactions-to-gta-leaks.html) — 2026-08-21 — GTA Leaks, Gaming Community, Rockstar Games
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Unlock Your Crypto Future: A Deep Dive into the Binance App](https://sluintel.github.io/posts/2026-08-21-binance-app-deep-dive-2026.html) — 2026-08-21 — Binance app, crypto trading, mobile crypto
 - [OpenAI: Unlocking AI's Potential & Shaping Our Future](https://sluintel.github.io/posts/2026-08-21-openai-deep-dive-ai-future-2026.html) — 2026-08-21 — AI, OpenAI, Generative AI
 - [Dan Lawrence Updates: What's New & Why It Matters for 2026](https://sluintel.github.io/posts/2026-08-21-the-latest-updates-on-dan-lawrence.html) — 2026-08-21 — Dan Lawrence, Cricket Analysis, Player Performance
-- [Origin Energy Data Breach: Your 2026 Action Plan for Security](https://sluintel.github.io/posts/2026-08-21-origin-energy-data-breach-action-plan-2026.html) — 2026-08-21 — Origin Energy, Data Breach, Cybersecurity
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
