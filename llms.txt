@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1867
+Total Posts Published: 1868
 Last Updated: 2026-08-21
-Latest Post: Origin Energy Data Breach: Your 2026 Protection Guide
-Latest Post URL: https://sluintel.github.io/posts/2026-08-21-origin-energy-data-breach-protection.html
+Latest Post: Origin Energy Data Breach: Your 2026 Action Plan for Security
+Latest Post URL: https://sluintel.github.io/posts/2026-08-21-origin-energy-data-breach-action-plan-2026.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Origin Energy Data Breach: Your 2026 Action Plan for Security](https://sluintel.github.io/posts/2026-08-21-origin-energy-data-breach-action-plan-2026.html) — 2026-08-21 — Origin Energy, Data Breach, Cybersecurity
 - [Origin Energy Data Breach: Your 2026 Protection Guide](https://sluintel.github.io/posts/2026-08-21-origin-energy-data-breach-protection.html) — 2026-08-21 — Origin Energy, data breach, cybersecurity
 - [OpenAI: Mastering AI's Future & Unlocking Your Potential](https://sluintel.github.io/posts/2026-08-21-openai-mastering-ais-future-potential.html) — 2026-08-21 — OpenAI, AI Tools, Generative AI
 - [Macará vs Santos: Unpacking the Top Internet Reactions](https://sluintel.github.io/posts/2026-08-21-top-internet-reactions-macara-vs-santos.html) — 2026-08-21 — Football, Fan Reactions, Social Media
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [The AI Bubble: Separating Hype from Reality in 2026](https://sluintel.github.io/posts/2026-08-20-the-ai-bubble-separating-hype-from-reality.html) — 2026-08-20 — AI bubble, AI investment, tech hype
 - [Why FC Barcelona vs Al Ahly is Trending in Sports Right Now](https://sluintel.github.io/posts/2026-08-20-why-fc-barcelona-vs-al-ahly-is-trending-in-sports-right-now.html) — 2026-08-20 — FC Barcelona, Al Ahly, football trends
 - [Lionel Messi Latest Updates & Predictions: What's Next for Leo?](https://sluintel.github.io/posts/2026-08-20-lionel-messi-latest-updates-predictions.html) — 2026-08-20 — Lionel Messi, Football Predictions, Inter Miami CF
-- [Orlando City vs Chicago: The Latest Updates & AI's Tactical Edge](https://sluintel.github.io/posts/2026-08-20-the-latest-updates-on-orlando-city-vs-chicago-2.html) — 2026-08-20 — MLS, Orlando City, Chicago Fire
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
