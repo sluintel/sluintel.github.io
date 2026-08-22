@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 22 Aug 2026 10:40:09 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 22 Aug 2026 11:35:23 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Your Data Center Survival Guide: Powering Tomorrow's AI]]></title>
+    <link>https://sluintel.github.io/posts/2026-08-22-data-center-survival-guide-ai-automation.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-22-data-center-survival-guide-ai-automation.html</guid>
+    <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unlock the secrets of the modern data center. Learn why this digital backbone is crucial for AI and automation in 2026, and how to navigate its complexities. Get expert insights now!]]></description>
+    <enclosure url="https://images.pexels.com/photos/5473960/pexels-photo-5473960.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>data center</category>
+    <category>AI infrastructure</category>
+    <category>cloud computing</category>
+    <category>automation</category>
+    <category>digital transformation</category>
+  </item>
   <item>
     <title><![CDATA[Navigating the 75 Countries Visa Pause Update: Your 2026 Guide]]></title>
     <link>https://sluintel.github.io/posts/2026-08-22-75-countries-visa-pause-update-2026-guide.html</link>
@@ -259,19 +272,6 @@
     <category>Prompt Engineering</category>
     <category>Large Language Models</category>
     <category>AI Strategy</category>
-  </item>
-  <item>
-    <title><![CDATA[Garima Chaudhary Explained Simply: India's Judo Pioneer]]></title>
-    <link>https://sluintel.github.io/posts/2026-08-21-garima-chaudhary-explained-simply.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-21-garima-chaudhary-explained-simply.html</guid>
-    <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unpack the legacy of Garima Chaudhary explained simply. Discover how India's trailblazing judoka broke barriers and inspired a generation in a sport often overlooked.]]></description>
-    <enclosure url="https://images.pexels.com/photos/3502225/pexels-photo-3502225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Garima Chaudhary</category>
-    <category>Judo India</category>
-    <category>Olympics</category>
-    <category>Indian Athletes</category>
-    <category>Sports History</category>
   </item>
 </channel>
 </rss>
