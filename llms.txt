@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1887
+Total Posts Published: 1888
 Last Updated: 2026-08-22
-Latest Post: What People Are Saying About AUS vs BAN: Fan Frenzy Decoded
-Latest Post URL: https://sluintel.github.io/posts/2026-08-22-what-people-are-saying-about-aus-vs-ban.html
+Latest Post: Top Internet Reactions to Cricbuzz: Unpacking Fan Sentiment
+Latest Post URL: https://sluintel.github.io/posts/2026-08-22-top-internet-reactions-to-cricbuzz.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Top Internet Reactions to Cricbuzz: Unpacking Fan Sentiment](https://sluintel.github.io/posts/2026-08-22-top-internet-reactions-to-cricbuzz.html) — 2026-08-22 — Cricbuzz, Cricket Fans, Online Reactions
 - [What People Are Saying About AUS vs BAN: Fan Frenzy Decoded](https://sluintel.github.io/posts/2026-08-22-what-people-are-saying-about-aus-vs-ban.html) — 2026-08-22 — Cricket, Sports Analysis, Fan Reactions
 - [Decoding Top Internet Reactions to पुलिस: Public Sentiment Unpacked](https://sluintel.github.io/posts/2026-08-22-top-internet-reactions-to.html) — 2026-08-22 — Internet Reactions, Social Media, Law Enforcement
 - [Decoding Top Internet Reactions to पुलिस: What You Need to Know](https://sluintel.github.io/posts/2026-08-21-top-internet-reactions-to-police.html) — 2026-08-21 — Social Media, Public Opinion, Digital Trends
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Al-Riyadh vs Al-Nassr: Decoding Top Internet Reactions](https://sluintel.github.io/posts/2026-08-21-top-internet-reactions-al-riyadh-vs-al-nassr.html) — 2026-08-21 — Al-Riyadh, Al-Nassr, Saudi Pro League
 - [Fantasy Premier League Highlights Fans Are Talking About: Win Your Mini-League](https://sluintel.github.io/posts/2026-08-21-fantasy-premier-league-highlights-fans-are-talking-about.html) — 2026-08-21 — Fantasy Premier League, FPL Tips, Premier League
 - [What People Are Saying About PL: Your Guide to the AI Buzz](https://sluintel.github.io/posts/2026-08-21-what-people-are-saying-about-pl.html) — 2026-08-21 — AI Tools, Automation, Tech Reviews
-- [Prompt Layering: Everything You Should Know About PL for AI Mastery](https://sluintel.github.io/posts/2026-08-21-prompt-layering-everything-you-should-know-about-pl.html) — 2026-08-21 — AI Tools, Automation, Prompt Engineering
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
