@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 23 Aug 2026 16:40:16 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 23 Aug 2026 17:37:50 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Frosinone vs Juventus: AI's Take on the Latest Updates]]></title>
+    <link>https://sluintel.github.io/posts/2026-08-23-frosinone-vs-juventus-latest-updates-ai-analysis.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-23-frosinone-vs-juventus-latest-updates-ai-analysis.html</guid>
+    <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Get AI-driven insights into the latest Frosinone vs Juventus updates. Understand team form, tactical shifts, and expert predictions to stay ahead. Unlock smarter sports analysis.]]></description>
+    <enclosure url="https://images.pexels.com/photos/29658139/pexels-photo-29658139.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Frosinone</category>
+    <category>Juventus</category>
+    <category>Serie A</category>
+    <category>AI Sports Analytics</category>
+    <category>Football Predictions</category>
+  </item>
   <item>
     <title><![CDATA[Frosinone vs Juventus: Your Essential 2026 Match Guide]]></title>
     <link>https://sluintel.github.io/posts/2026-08-23-frosinone-vs-juventus-everything-you-should-know.html</link>
@@ -259,19 +272,6 @@
     <category>La Liga</category>
     <category>Football Updates</category>
     <category>AI Sports Analysis</category>
-  </item>
-  <item>
-    <title><![CDATA[Why Espanyol vs Real Madrid is Trending Right Now: Decoding the Unexpected Buzz]]></title>
-    <link>https://sluintel.github.io/posts/2026-08-22-why-espanyol-vs-real-madrid-is-trending-right-now.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-22-why-espanyol-vs-real-madrid-is-trending-right-now.html</guid>
-    <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Uncover why Espanyol vs Real Madrid is trending right now in 2026. This expert guide decodes the unexpected buzz, offering insights into sports analytics and fan psychology.]]></description>
-    <enclosure url="https://images.pexels.com/photos/38615632/pexels-photo-38615632.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Espanyol</category>
-    <category>Real Madrid</category>
-    <category>La Liga</category>
-    <category>Football Trends</category>
-    <category>Sports Analytics</category>
   </item>
 </channel>
 </rss>
