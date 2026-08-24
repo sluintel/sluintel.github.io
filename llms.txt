@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1950
+Total Posts Published: 1951
 Last Updated: 2026-08-24
-Latest Post: What People Are Saying About Toxic: Navigating Digital Toxicity
-Latest Post URL: https://sluintel.github.io/posts/2026-08-24-what-people-are-saying-about-toxic.html
+Latest Post: Why 'Toxic' Is Trending Right Now: Decoding Modern Discourse
+Latest Post URL: https://sluintel.github.io/posts/2026-08-24-why-toxic-is-trending-right-now.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Why 'Toxic' Is Trending Right Now: Decoding Modern Discourse](https://sluintel.github.io/posts/2026-08-24-why-toxic-is-trending-right-now.html) — 2026-08-24 — ToxicCulture, DigitalWellbeing, SocialMediaTrends
 - [What People Are Saying About Toxic: Navigating Digital Toxicity](https://sluintel.github.io/posts/2026-08-24-what-people-are-saying-about-toxic.html) — 2026-08-24 — AI tools, automation, digital wellness
 - [Ferran Torres: Unpacking the Journey of Spain's Dynamic Forward](https://sluintel.github.io/posts/2026-08-24-ferran-torres-everything-you-should-know.html) — 2026-08-24 — Ferran Torres, Football, La Liga
 - [Dhruv Jurel: Everything You Should Know About Cricket's Rising Star](https://sluintel.github.io/posts/2026-08-24-dhruv-jurel-everything-you-should-know.html) — 2026-08-24 — Dhruv Jurel, Indian Cricket, Wicketkeeper
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Rishabh Pant Explained Simply: Cricket's Unstoppable Enigma](https://sluintel.github.io/posts/2026-08-24-rishabh-pant-explained-simply.html) — 2026-08-24 — Rishabh Pant, Indian Cricket, Cricket Explained
 - [Tracking Asitha Fernando: The Latest Updates on His Cricket Journey for 2026](https://sluintel.github.io/posts/2026-08-24-the-latest-updates-on-asitha-fernando.html) — 2026-08-24 — Asitha Fernando, Sri Lanka Cricket, Cricket Analysis
 - [Top Internet Reactions to Santos vs Mirassol: Decoding Fan Frenzy](https://sluintel.github.io/posts/2026-08-24-top-internet-reactions-santos-vs-mirassol.html) — 2026-08-24 — Santos FC, Mirassol, Football Reactions
-- [Decoding What People Are Saying About Xavi Espart's AI Vision](https://sluintel.github.io/posts/2026-08-24-what-people-are-saying-about-xavi-espart.html) — 2026-08-24 — AI Ethics, Automation Strategy, Xavi Espart
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
