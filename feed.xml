@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 26 Aug 2026 05:52:05 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 26 Aug 2026 07:06:09 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[What People Are Saying About Dolly Parton: Decoding Her Enduring Appeal]]></title>
+    <link>https://sluintel.github.io/posts/2026-08-26-what-people-are-saying-about-dolly-parton-enduring-appeal.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-26-what-people-are-saying-about-dolly-parton-enduring-appeal.html</guid>
+    <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Uncover what people are saying about Dolly Parton in 2026. Explore her impact, evolving public sentiment, and how she remains a cultural icon. Get expert insights on her lasting legacy.]]></description>
+    <enclosure url="https://images.pexels.com/photos/25568562/pexels-photo-25568562.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Dolly Parton</category>
+    <category>Public Sentiment</category>
+    <category>Celebrity Analysis</category>
+    <category>Cultural Icon</category>
+    <category>AI Sentiment Analysis</category>
+  </item>
   <item>
     <title><![CDATA[Valencia vs Betis Explained Simply: La Liga's Enduring Battle]]></title>
     <link>https://sluintel.github.io/posts/2026-08-26-valencia-vs-betis-explained-simply.html</link>
@@ -258,19 +271,6 @@
     <category>fan reactions</category>
     <category>social media trends</category>
     <category>sports SEO</category>
-  </item>
-  <item>
-    <title><![CDATA[Why Hallescher vs Schalke is Trending: Unpacking the 2026 Upset]]></title>
-    <link>https://sluintel.github.io/posts/2026-08-25-why-hallescher-vs-schalke-is-trending-right-now-2.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-25-why-hallescher-vs-schalke-is-trending-right-now-2.html</guid>
-    <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Curious why Hallescher vs Schalke is trending right now? We unpack the unexpected reasons, fan reactions, and future implications of this sensational 2026 football moment. Don't miss out!]]></description>
-    <enclosure url="https://images.pexels.com/photos/13039251/pexels-photo-13039251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>football trends</category>
-    <category>Bundesliga 2026</category>
-    <category>Schalke 04</category>
-    <category>Hallescher FC</category>
-    <category>sports analytics</category>
   </item>
 </channel>
 </rss>
