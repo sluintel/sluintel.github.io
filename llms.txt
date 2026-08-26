@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 1992
+Total Posts Published: 1993
 Last Updated: 2026-08-26
-Latest Post: The Latest Updates on Rasuwa: What You Need to Know for 2026
-Latest Post URL: https://sluintel.github.io/posts/2026-08-26-the-latest-updates-on-rasuwa.html
+Latest Post: Kamindu Mendis Updates: What's Driving His Ascent in 2026?
+Latest Post URL: https://sluintel.github.io/posts/2026-08-26-kamindu-mendis-latest-updates.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Kamindu Mendis Updates: What's Driving His Ascent in 2026?](https://sluintel.github.io/posts/2026-08-26-kamindu-mendis-latest-updates.html) — 2026-08-26 — Kamindu Mendis, Cricket News, Sri Lanka Cricket
 - [The Latest Updates on Rasuwa: What You Need to Know for 2026](https://sluintel.github.io/posts/2026-08-26-the-latest-updates-on-rasuwa.html) — 2026-08-26 — Rasuwa, Nepal, Development
 - [What People Are Saying About News: Decoding Public Sentiment](https://sluintel.github.io/posts/2026-08-26-what-people-are-saying-about-news.html) — 2026-08-26 — News Trends, Public Opinion, Media Literacy
 - [What People Are Saying About BBC: Decoding Public Sentiment in 2026](https://sluintel.github.io/posts/2026-08-26-what-people-are-saying-about-bbc.html) — 2026-08-26 — BBC, Media, Public Opinion
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Fulham Unpacked: Everything You Should Know About This Iconic Club](https://sluintel.github.io/posts/2026-08-26-fulham-everything-you-should-know.html) — 2026-08-26 — Fulham FC, Premier League, London Football
 - [Birmingham vs Brentford: Your Ultimate Guide to This Football Showdown](https://sluintel.github.io/posts/2026-08-26-birmingham-vs-brentford-ultimate-guide.html) — 2026-08-26 — Football Analysis, EFL Championship, Premier League
 - [Unpacking the Latest Updates on Pasindu Sooriyabandara](https://sluintel.github.io/posts/2026-08-26-latest-updates-pasindu-sooriyabandara.html) — 2026-08-26 — Pasindu Sooriyabandara, career updates, athlete tracking
-- [What People Are Saying About Dolly Parton: Decoding Public Sentiment](https://sluintel.github.io/posts/2026-08-26-what-people-are-saying-about-dolly-parton.html) — 2026-08-26 — Dolly Parton, Public Sentiment, AI Analysis
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
