@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 2031
+Total Posts Published: 2032
 Last Updated: 2026-08-28
-Latest Post: Sony LIV Review: What People Are Saying About India's Streaming Giant
-Latest Post URL: https://sluintel.github.io/posts/2026-08-28-what-people-are-saying-about-sony-liv.html
+Latest Post: Live TV Explained Simply: Cut the Cord, Not the Content
+Latest Post URL: https://sluintel.github.io/posts/2026-08-28-live-tv-explained-simply.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Live TV Explained Simply: Cut the Cord, Not the Content](https://sluintel.github.io/posts/2026-08-28-live-tv-explained-simply.html) — 2026-08-28 — live tv, streaming, cord cutting
 - [Sony LIV Review: What People Are Saying About India's Streaming Giant](https://sluintel.github.io/posts/2026-08-28-what-people-are-saying-about-sony-liv.html) — 2026-08-28 — Sony LIV, streaming reviews, Indian OTT
 - [The Rise of AI in Happy Raksha Bandhan: Smarter Sibling Bonds](https://sluintel.github.io/posts/2026-08-28-the-rise-of-ai-in-happy-raksha-bandhan.html) — 2026-08-28 — AI tools, Raksha Bandhan, festive tech
 - [Decoding the Top Internet Reactions to Game Releases & Events](https://sluintel.github.io/posts/2026-08-28-top-internet-reactions-to-game.html) — 2026-08-28 — gaming, community management, social media
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Lamine Yamal's Digital Buzz: Top Internet Reactions Unpacked](https://sluintel.github.io/posts/2026-08-28-top-internet-reactions-lamine-yamal.html) — 2026-08-28 — Lamine Yamal, Football, Social Media
 - [Unpacking the Latest Updates on Monaco vs Górnik Zabrze with AI](https://sluintel.github.io/posts/2026-08-28-latest-updates-monaco-vs-gornik-zabrze-ai.html) — 2026-08-28 — AI Football Analysis, Sports Tech, Monaco
 - [Mohammad Ali Explained Simply: Understanding 'The Greatest'](https://sluintel.github.io/posts/2026-08-28-mohammad-ali-explained-simply.html) — 2026-08-28 — Mohammad Ali, Boxing, Civil Rights
-- [Lamine Yamal's Viral Rise: Top Internet Reactions Unpacked](https://sluintel.github.io/posts/2026-08-28-lamine-yamal-top-internet-reactions-unpacked.html) — 2026-08-28 — Lamine Yamal, Football, Social Media
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
