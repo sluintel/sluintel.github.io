@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 29 Aug 2026 03:10:18 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 29 Aug 2026 03:42:50 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[AC Milan Explained Simply: The Rossoneri's Enduring Legacy]]></title>
+    <link>https://sluintel.github.io/posts/2026-08-29-ac-milan-explained-simply.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-29-ac-milan-explained-simply.html</guid>
+    <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unlock the secrets behind AC Milan's global appeal. Discover their legendary history, fierce rivalries, and why they're more than just a football club. Get AC Milan explained simply here!]]></description>
+    <enclosure url="https://images.pexels.com/photos/16732399/pexels-photo-16732399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AC Milan</category>
+    <category>Serie A</category>
+    <category>Football Club</category>
+    <category>Rossoneri</category>
+    <category>Italian Football</category>
+  </item>
   <item>
     <title><![CDATA[Mastering the Bayern Munich vs VfB Stuttgart Standings: Your 2026 Playbook]]></title>
     <link>https://sluintel.github.io/posts/2026-08-29-bayern-munich-vs-vfb-stuttgart-standings.html</link>
@@ -262,19 +275,6 @@
     <category>Application Tips</category>
     <category>Student Life</category>
     <category>Higher Education</category>
-  </item>
-  <item>
-    <title><![CDATA[Common App 2026: Your Essential Guide to College Admissions]]></title>
-    <link>https://sluintel.github.io/posts/2026-08-28-common-app-guide-college-admissions-2026.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-28-common-app-guide-college-admissions-2026.html</guid>
-    <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Navigate the Common App for college admissions in 2026 with confidence. This expert guide reveals strategies, pro tips, and avoids common mistakes for your best application.]]></description>
-    <enclosure url="https://images.pexels.com/photos/29393022/pexels-photo-29393022.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Common App</category>
-    <category>College Admissions</category>
-    <category>University Applications</category>
-    <category>Higher Education</category>
-    <category>Application Strategy</category>
   </item>
 </channel>
 </rss>
