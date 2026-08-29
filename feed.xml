@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 29 Aug 2026 03:42:50 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 29 Aug 2026 04:09:00 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Mastering Google: The Latest Updates You Can't Ignore for 2026]]></title>
+    <link>https://sluintel.github.io/posts/2026-08-29-the-latest-updates-on-google.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-29-the-latest-updates-on-google.html</guid>
+    <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Stay ahead with the latest updates on Google's AI, search, and privacy changes for 2026. Discover practical strategies to adapt and win online. Don't fall behind!]]></description>
+    <enclosure url="https://images.pexels.com/photos/8886104/pexels-photo-8886104.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Google Updates</category>
+    <category>SEO 2026</category>
+    <category>AI in Search</category>
+    <category>Digital Marketing</category>
+    <category>Tech News</category>
+  </item>
   <item>
     <title><![CDATA[AC Milan Explained Simply: The Rossoneri's Enduring Legacy]]></title>
     <link>https://sluintel.github.io/posts/2026-08-29-ac-milan-explained-simply.html</link>
@@ -262,19 +275,6 @@
     <category>AI in Sports</category>
     <category>Fan Engagement</category>
     <category>Digital Streaming</category>
-  </item>
-  <item>
-    <title><![CDATA[Common App 2026: Master Your College Admissions Journey]]></title>
-    <link>https://sluintel.github.io/posts/2026-08-28-common-app-college-admissions-guide-2026.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-28-common-app-college-admissions-guide-2026.html</guid>
-    <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Navigate the Common App for 2026 college admissions with expert tips. Learn how to craft a stand-out application, avoid pitfalls, and secure your spot.]]></description>
-    <enclosure url="https://images.pexels.com/photos/34924856/pexels-photo-34924856.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Common App</category>
-    <category>College Admissions</category>
-    <category>Application Tips</category>
-    <category>Student Life</category>
-    <category>Higher Education</category>
   </item>
 </channel>
 </rss>
