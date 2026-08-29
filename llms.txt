@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 2045
-Last Updated: 2026-08-28
-Latest Post: AC Milan Explained Simply: Unpacking Football's Rossoneri Empire
-Latest Post URL: https://sluintel.github.io/posts/2026-08-28-ac-milan-explained-simply.html
+Total Posts Published: 2046
+Last Updated: 2026-08-29
+Latest Post: LOSC vs PSG Explained Simply: Unpacking France's Fiercest Football Rivalry
+Latest Post URL: https://sluintel.github.io/posts/2026-08-29-losc-vs-psg-explained-simply.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [LOSC vs PSG Explained Simply: Unpacking France's Fiercest Football Rivalry](https://sluintel.github.io/posts/2026-08-29-losc-vs-psg-explained-simply.html) — 2026-08-29 — LOSC, PSG, Ligue 1
 - [AC Milan Explained Simply: Unpacking Football's Rossoneri Empire](https://sluintel.github.io/posts/2026-08-28-ac-milan-explained-simply.html) — 2026-08-28 — AC Milan, Serie A, Football Club
 - [Decoding the Top Internet Reactions to Syabrubesi, Nepal](https://sluintel.github.io/posts/2026-08-28-top-internet-reactions-to-syabrubesi-nepal.html) — 2026-08-28 — Syabrubesi, Nepal Tourism, Internet Reactions
 - [Decoding Top Internet Reactions to Al-Nassr vs Al-Taawoun](https://sluintel.github.io/posts/2026-08-28-top-internet-reactions-al-nassr-vs-al-taawoun.html) — 2026-08-28 — AlNassr, AlTaawoun, SaudiProLeague
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Why Bayern vs VfB Stuttgart is Trending Right Now: Decoding the Buzz](https://sluintel.github.io/posts/2026-08-28-bayern-vs-vfb-stuttgart-trending-right-now.html) — 2026-08-28 — Bayern Munich, VfB Stuttgart, Bundesliga
 - [Why LOSC vs PSG Dominates Trends: Decoding Football's Hottest Rivalry](https://sluintel.github.io/posts/2026-08-28-why-losc-vs-psg-is-trending-right-now.html) — 2026-08-28 — Ligue 1, Football Trends, PSG
 - [How Automation Is Changing Azan Awais: Your Future Edge](https://sluintel.github.io/posts/2026-08-28-how-automation-is-changing-azan-awais.html) — 2026-08-28 — AI Automation, Personal Productivity, Career Growth
-- [Al-Riyadh vs NEOM: Why This Saudi Showdown is Trending](https://sluintel.github.io/posts/2026-08-28-al-riyadh-vs-neom-trending-right-now.html) — 2026-08-28 — Saudi Arabia, NEOM, Al-Riyadh
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
