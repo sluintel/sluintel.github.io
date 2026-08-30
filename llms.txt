@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 2085
+Total Posts Published: 2086
 Last Updated: 2026-08-30
-Latest Post: Everything You Should Know About the iPhone 18's AI Revolution
-Latest Post URL: https://sluintel.github.io/posts/2026-08-30-everything-you-should-know-about-iphone-18.html
+Latest Post: What People Are Saying About Nepal Police: Unpacking Public Sentiment
+Latest Post URL: https://sluintel.github.io/posts/2026-08-30-what-people-are-saying-about-nepalpolice.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [What People Are Saying About Nepal Police: Unpacking Public Sentiment](https://sluintel.github.io/posts/2026-08-30-what-people-are-saying-about-nepalpolice.html) — 2026-08-30 — Nepal Police, Public Opinion, Sentiment Analysis
 - [Everything You Should Know About the iPhone 18's AI Revolution](https://sluintel.github.io/posts/2026-08-30-everything-you-should-know-about-iphone-18.html) — 2026-08-30 — iPhone 18, Apple, AI
 - [The Whisper Man Cast: Unmasking the Stars Behind the Thrills](https://sluintel.github.io/posts/2026-08-30-the-whisper-man-cast.html) — 2026-08-30 — Whisper Man, Cast, Netflix Thriller
 - [Unraveling The Whisper Man Netflix Adaptation: What You Need to Know](https://sluintel.github.io/posts/2026-08-30-the-whisper-man-netflix-adaptation.html) — 2026-08-30 — The Whisper Man, Netflix Thriller, Psychological Horror
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Tottenham Talk: What People Are Saying About Spurs in 2026](https://sluintel.github.io/posts/2026-08-30-what-people-are-saying-about-tottenham.html) — 2026-08-30 — Tottenham Hotspur, Spurs, Premier League
 - [Top Internet Reactions to Sevilla vs Atlético Madrid: Decoding Fan Fury & Fanfare](https://sluintel.github.io/posts/2026-08-30-top-internet-reactions-sevilla-vs-atletico-madrid.html) — 2026-08-30 — football analysis, La Liga, fan engagement
 - [Juventus vs Parma Explained Simply: Unpacking an Italian Football Rivalry](https://sluintel.github.io/posts/2026-08-30-juventus-vs-parma-explained-simply.html) — 2026-08-30 — Italian Football, Serie A, Juventus
-- [Top Internet Reactions to Argentina vs Australia: A Deep Dive](https://sluintel.github.io/posts/2026-08-29-top-internet-reactions-argentina-vs-australia.html) — 2026-08-29 — Football Reactions, Argentina, Australia
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/

@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 30 Aug 2026 11:51:04 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 30 Aug 2026 12:50:13 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[What People Are Saying About Nepal Police: Unpacking Public Sentiment]]></title>
+    <link>https://sluintel.github.io/posts/2026-08-30-what-people-are-saying-about-nepalpolice.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-30-what-people-are-saying-about-nepalpolice.html</guid>
+    <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Dive deep into what people are saying about Nepal Police. Discover how to understand public sentiment, analyze online discussions, and gauge community trust in 2026.]]></description>
+    <enclosure url="https://images.pexels.com/photos/6669294/pexels-photo-6669294.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Nepal Police</category>
+    <category>Public Opinion</category>
+    <category>Sentiment Analysis</category>
+    <category>Community Trust</category>
+    <category>Law Enforcement</category>
+  </item>
   <item>
     <title><![CDATA[Everything You Should Know About the iPhone 18's AI Revolution]]></title>
     <link>https://sluintel.github.io/posts/2026-08-30-everything-you-should-know-about-iphone-18.html</link>
@@ -259,19 +272,6 @@
     <category>West Ham</category>
     <category>Watford</category>
     <category>Match Analysis</category>
-  </item>
-  <item>
-    <title><![CDATA[Coventry vs Hull: What People Are Saying & Why It's Hot]]></title>
-    <link>https://sluintel.github.io/posts/2026-08-29-what-people-are-saying-about-coventry-vs-hull.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-29-what-people-are-saying-about-coventry-vs-hull.html</guid>
-    <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Dive deep into what people are saying about Coventry vs Hull. Uncover fan sentiment, city rivalries, and expert analysis for 2026. Get the true story behind the chatter.]]></description>
-    <enclosure url="https://images.pexels.com/photos/13652992/pexels-photo-13652992.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Coventry</category>
-    <category>Hull</category>
-    <category>Fan Sentiment</category>
-    <category>City Rivalry</category>
-    <category>Football Debate</category>
   </item>
 </channel>
 </rss>
