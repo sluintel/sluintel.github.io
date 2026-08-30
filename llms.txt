@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 2078
+Total Posts Published: 2079
 Last Updated: 2026-08-30
-Latest Post: Top Internet Reactions to Sevilla vs Atlético Madrid: Decoding Fan Fury & Fanfare
-Latest Post URL: https://sluintel.github.io/posts/2026-08-30-top-internet-reactions-sevilla-vs-atletico-madrid.html
+Latest Post: Tottenham Talk: What People Are Saying About Spurs in 2026
+Latest Post URL: https://sluintel.github.io/posts/2026-08-30-what-people-are-saying-about-tottenham.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Tottenham Talk: What People Are Saying About Spurs in 2026](https://sluintel.github.io/posts/2026-08-30-what-people-are-saying-about-tottenham.html) — 2026-08-30 — Tottenham Hotspur, Spurs, Premier League
 - [Top Internet Reactions to Sevilla vs Atlético Madrid: Decoding Fan Fury & Fanfare](https://sluintel.github.io/posts/2026-08-30-top-internet-reactions-sevilla-vs-atletico-madrid.html) — 2026-08-30 — football analysis, La Liga, fan engagement
 - [Juventus vs Parma Explained Simply: Unpacking an Italian Football Rivalry](https://sluintel.github.io/posts/2026-08-30-juventus-vs-parma-explained-simply.html) — 2026-08-30 — Italian Football, Serie A, Juventus
 - [Top Internet Reactions to Argentina vs Australia: A Deep Dive](https://sluintel.github.io/posts/2026-08-29-top-internet-reactions-argentina-vs-australia.html) — 2026-08-29 — Football Reactions, Argentina, Australia
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Argentina vs Australia Explained Simply: Unpacking Global Dynamics](https://sluintel.github.io/posts/2026-08-29-argentina-vs-australia-explained-simply.html) — 2026-08-29 — Argentina, Australia, Geopolitics
 - [Levante vs Betis: Your Essential Guide to This Spanish Football Rivalry](https://sluintel.github.io/posts/2026-08-29-levante-vs-betis-everything-you-should-know.html) — 2026-08-29 — La Liga, Spanish Football, Levante UD
 - [The Whisper Man Cast: Why These Stars Will Haunt Your Screens](https://sluintel.github.io/posts/2026-08-29-the-whisper-man-cast.html) — 2026-08-29 — The Whisper Man, Alex North, TV Adaptation
-- [Julián Álvarez Updates: What You Need to Know for 2026](https://sluintel.github.io/posts/2026-08-29-julian-alvarez-latest-updates.html) — 2026-08-29 — Julián Álvarez, Manchester City, Football Updates
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
