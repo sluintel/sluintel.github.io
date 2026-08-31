@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 2107
+Total Posts Published: 2108
 Last Updated: 2026-08-31
-Latest Post: Nepal vs Bahrain Cricket Live: AI's Future Impact
-Latest Post URL: https://sluintel.github.io/posts/2026-08-31-the-future-of-nepal-vs-bahrain-cricket-live-with-ai.html
+Latest Post: Decoding What People Are Saying About Muhammad Wasim in 2026
+Latest Post URL: https://sluintel.github.io/posts/2026-08-31-what-people-are-saying-about-muhammad-wasim.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Decoding What People Are Saying About Muhammad Wasim in 2026](https://sluintel.github.io/posts/2026-08-31-what-people-are-saying-about-muhammad-wasim.html) — 2026-08-31 — Muhammad Wasim, Public Sentiment, Social Listening
 - [Nepal vs Bahrain Cricket Live: AI's Future Impact](https://sluintel.github.io/posts/2026-08-31-the-future-of-nepal-vs-bahrain-cricket-live-with-ai.html) — 2026-08-31 — AI in Sports, Cricket Analytics, Nepal Cricket
 - [Data Breach Survival: Your Ultimate 2026 Protection Guide](https://sluintel.github.io/posts/2026-08-31-data-breach-survival-guide-2026.html) — 2026-08-31 — data breach, cybersecurity, identity theft
 - [Andrew Bailey's AI Market Risks: Navigate Tomorrow's Economy](https://sluintel.github.io/posts/2026-08-31-andrew-bailey-ai-market-risks.html) — 2026-08-31 — AI risks, financial markets, Andrew Bailey
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Real Madrid vs Málaga CF Standings: Unpacking a Historic Rivalry](https://sluintel.github.io/posts/2026-08-31-real-madrid-vs-malaga-cf-standings.html) — 2026-08-31 — Real Madrid, Málaga CF, La Liga History
 - [Manchester United F.C. vs Ipswich Town Standings: Simply Explained for 2026](https://sluintel.github.io/posts/2026-08-30-manchester-united-fc-vs-ipswich-town-standings-explained-simply.html) — 2026-08-30 — Football Analytics, Premier League, EFL Championship
 - [Unpacking the Top Internet Reactions to Inter Milan](https://sluintel.github.io/posts/2026-08-30-top-internet-reactions-to-inter-milan.html) — 2026-08-30 — Inter Milan, Serie A, Football Fan Reactions
-- [Augsburg vs Schalke Explained Simply: Beyond the Pitch](https://sluintel.github.io/posts/2026-08-30-augsburg-vs-schalke-explained-simply.html) — 2026-08-30 — Bundesliga, Football Rivalry, Augsburg
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
