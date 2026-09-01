@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 01 Sep 2026 07:49:27 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 01 Sep 2026 08:38:06 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[What People Are Saying About Krishna Bhir Nepal: Truth Revealed]]></title>
+    <link>https://sluintel.github.io/posts/2026-09-01-what-people-are-saying-about-krishna-bhir-nepal.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-01-what-people-are-saying-about-krishna-bhir-nepal.html</guid>
+    <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Uncover the true public sentiment about Krishna Bhir Nepal. From breathtaking views to challenging roads, see what travelers and locals are discussing and how to navigate this iconic spot.]]></description>
+    <enclosure url="https://images.pexels.com/photos/36425623/pexels-photo-36425623.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Nepal travel</category>
+    <category>Krishna Bhir</category>
+    <category>public opinion</category>
+    <category>road safety</category>
+    <category>tourism</category>
+  </item>
   <item>
     <title><![CDATA[What People Are Saying About Barcelona vs Rayo Vallecano: Fan Pulse & Predictions]]></title>
     <link>https://sluintel.github.io/posts/2026-09-01-what-people-are-saying-about-barcelona-vs-rayo-vallecano.html</link>
@@ -258,19 +271,6 @@
     <category>Southern Africa</category>
     <category>Sports Rivalry</category>
     <category>Economic Comparison</category>
-  </item>
-  <item>
-    <title><![CDATA[Cricinfo's Latest Updates: Your Guide to Cricket Intelligence in 2026]]></title>
-    <link>https://sluintel.github.io/posts/2026-08-31-the-latest-updates-on-cricinfo.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-08-31-the-latest-updates-on-cricinfo.html</guid>
-    <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Stay ahead of the game with the latest updates on Cricinfo in 2026. Discover new features, expert analysis, and how to master the ultimate cricket hub.]]></description>
-    <enclosure url="https://images.pexels.com/photos/5417692/pexels-photo-5417692.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Cricinfo</category>
-    <category>Cricket News</category>
-    <category>Sports Tech</category>
-    <category>Live Scores</category>
-    <category>Cricket Analysis</category>
   </item>
 </channel>
 </rss>
