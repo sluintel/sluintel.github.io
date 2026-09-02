@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 2165
+Total Posts Published: 2166
 Last Updated: 2026-09-02
-Latest Post: Unpacking the Latest Updates on Trump White House Construction Ruling
-Latest Post URL: https://sluintel.github.io/posts/2026-09-02-the-latest-updates-on-trump-white-house-construction-ruling.html
+Latest Post: Gemini 3.8 Flash: The AI Leap You Can't Afford to Ignore
+Latest Post URL: https://sluintel.github.io/posts/2026-09-02-gemini-3-8-flash-ai-leap-speed.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Gemini 3.8 Flash: The AI Leap You Can't Afford to Ignore](https://sluintel.github.io/posts/2026-09-02-gemini-3-8-flash-ai-leap-speed.html) — 2026-09-02 — AI Tools, Automation, Gemini
 - [Unpacking the Latest Updates on Trump White House Construction Ruling](https://sluintel.github.io/posts/2026-09-02-the-latest-updates-on-trump-white-house-construction-ruling.html) — 2026-09-02 — trump administration, legal rulings, construction law
 - [Unlock Growth: Everything You Should Know About Drift's AI Power](https://sluintel.github.io/posts/2026-09-02-everything-you-should-know-about-drift.html) — 2026-09-02 — AI Tools, Drift, Chatbots
 - [What People Are Saying About QAT vs OMA: Fan Frenzy & Forecasts](https://sluintel.github.io/posts/2026-09-02-what-people-are-saying-about-qat-vs-oma.html) — 2026-09-02 — QAT vs OMA, Sports Analysis, Fan Reactions
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [ChatGPT Mastery: Your Guide to AI Productivity in 2026](https://sluintel.github.io/posts/2026-09-02-chatgpt-mastery-ai-productivity-2026.html) — 2026-09-02 — AI tools, ChatGPT, automation
 - [ChatGPT: Master AI for Unmatched Productivity & Innovation](https://sluintel.github.io/posts/2026-09-02-chatgpt-master-ai-productivity-innovation.html) — 2026-09-02 — ChatGPT, AI tools, automation
 - [ChatGPT Explained: Master AI for 2026 Success](https://sluintel.github.io/posts/2026-09-02-chatgpt-explained-ai-mastery-2026.html) — 2026-09-02 — ChatGPT, AI tools, Automation
-- [ChatGPT Masterclass: Unlocking AI's Full Potential in 2026](https://sluintel.github.io/posts/2026-09-02-chatgpt-masterclass-ai-potential-2026.html) — 2026-09-02 — ChatGPT, AI tools, Productivity
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
