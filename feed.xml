@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 02 Sep 2026 11:13:25 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 02 Sep 2026 12:05:51 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[ChatGPT: Master AI for Unmatched Productivity & Innovation]]></title>
+    <link>https://sluintel.github.io/posts/2026-09-02-chatgpt-master-ai-productivity-innovation.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-02-chatgpt-master-ai-productivity-innovation.html</guid>
+    <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unlock ChatGPT's full potential in 2026. This expert guide reveals how to use AI for peak productivity, creative problem-solving, and staying ahead. Master ChatGPT now!]]></description>
+    <enclosure url="https://images.pexels.com/photos/20870799/pexels-photo-20870799.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>ChatGPT</category>
+    <category>AI tools</category>
+    <category>automation</category>
+    <category>productivity</category>
+    <category>content strategy</category>
+  </item>
   <item>
     <title><![CDATA[ChatGPT Explained: Master AI for 2026 Success]]></title>
     <link>https://sluintel.github.io/posts/2026-09-02-chatgpt-explained-ai-mastery-2026.html</link>
@@ -258,19 +271,6 @@
     <category>Viral Content</category>
     <category>Global Cinema</category>
     <category>Digital Marketing</category>
-  </item>
-  <item>
-    <title><![CDATA[Generative AI: How It's Impacting Pakistan vs Thailand in 2026]]></title>
-    <link>https://sluintel.github.io/posts/2026-09-01-generative-ai-impacting-pakistan-vs-thailand.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-01-generative-ai-impacting-pakistan-vs-thailand.html</guid>
-    <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Explore how generative AI is impacting Pakistan vs Thailand's economies and societies in 2026. Discover the opportunities, challenges, and strategic shifts driving their digital future.]]></description>
-    <enclosure url="https://images.pexels.com/photos/9367718/pexels-photo-9367718.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Generative AI</category>
-    <category>Pakistan</category>
-    <category>Thailand</category>
-    <category>Economic Impact</category>
-    <category>AI Adoption</category>
   </item>
 </channel>
 </rss>
