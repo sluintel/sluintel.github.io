@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 2151
+Total Posts Published: 2152
 Last Updated: 2026-09-02
-Latest Post: Analyzing Top Internet Reactions to QAT vs OMA Showdown
-Latest Post URL: https://sluintel.github.io/posts/2026-09-02-top-internet-reactions-to-qat-vs-oma.html
+Latest Post: Mastering RAG UDD: Your Guide to Dynamic AI Interactions
+Latest Post URL: https://sluintel.github.io/posts/2026-09-02-rag-udd-dynamic-ai-interactions.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Mastering RAG UDD: Your Guide to Dynamic AI Interactions](https://sluintel.github.io/posts/2026-09-02-rag-udd-dynamic-ai-interactions.html) — 2026-09-02 — AI tools, RAG, Generative AI
 - [Analyzing Top Internet Reactions to QAT vs OMA Showdown](https://sluintel.github.io/posts/2026-09-02-top-internet-reactions-to-qat-vs-oma.html) — 2026-09-02 — football, social media analysis, fan engagement
 - [Krishna Bhir Nepal: Latest Updates & Why It Matters for 2026](https://sluintel.github.io/posts/2026-09-02-latest-updates-krishna-bhir-nepal.html) — 2026-09-02 — Nepal Infrastructure, Road Safety, Landslide Mitigation
 - [Hanuman Ansh Movie: Everything You Need to Know for 2026](https://sluintel.github.io/posts/2026-09-02-hanuman-ansh-movie-everything-to-know.html) — 2026-09-02 — mythological film, Indian cinema, Hanuman Ansh movie
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Guyana Amazon Warriors Explained Simply: Dominance Unpacked](https://sluintel.github.io/posts/2026-09-01-guyana-amazon-warriors-explained-simply.html) — 2026-09-01 — Cricket, CPL, Guyana Amazon Warriors
 - [DraftKings App: Your Ultimate Mobile Sports & DFS Playbook](https://sluintel.github.io/posts/2026-09-01-draftkings-app-ultimate-mobile-sports-dfs-playbook.html) — 2026-09-01 — DraftKings App, Sports Betting, DFS
 - [The Sony Digital Game Ownership Lawsuit: What It Means for Your PS5 Library](https://sluintel.github.io/posts/2026-09-01-sony-digital-game-ownership-lawsuit.html) — 2026-09-01 — Digital Game Ownership, Sony PlayStation, Consumer Rights
-- [DraftKings App: Your Winning Edge in 2026 Sports & DFS](https://sluintel.github.io/posts/2026-09-01-draftkings-app-winning-edge-2026.html) — 2026-09-01 — DraftKings, Sports Betting, Daily Fantasy Sports
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/

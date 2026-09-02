@@ -1,5 +1,20 @@
 [
   {
+    "url": "posts/2026-09-02-rag-udd-dynamic-ai-interactions.html",
+    "title": "Mastering RAG UDD: Your Guide to Dynamic AI Interactions",
+    "date": "2026-09-02",
+    "image": "https://images.pexels.com/photos/18069517/pexels-photo-18069517.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "tags": [
+      "AI tools",
+      "RAG",
+      "Generative AI",
+      "AI automation",
+      "LLM customization"
+    ],
+    "excerpt": "Unlock the power of RAG UDD to build smarter, context-aware AI. Learn how to integrate user-defined data for personalized and up-to-date generative models. Discover practical strategies and tools.",
+    "wordCount": 224
+  },
+  {
     "url": "posts/2026-09-02-top-internet-reactions-to-qat-vs-oma.html",
     "title": "Analyzing Top Internet Reactions to QAT vs OMA Showdown",
     "date": "2026-09-02",
