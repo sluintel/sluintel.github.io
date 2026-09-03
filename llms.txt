@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 2175
+Total Posts Published: 2176
 Last Updated: 2026-09-03
-Latest Post: Why Facebook is Trending Right Now: Unpacking Its 2026 Resurgence
-Latest Post URL: https://sluintel.github.io/posts/2026-09-03-why-facebook-is-trending-right-now.html
+Latest Post: Why Malaysia vs Nepal is Trending: Unpacking the 2026 Dynamics
+Latest Post URL: https://sluintel.github.io/posts/2026-09-03-why-malaysia-vs-nepal-is-trending-right-now.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Why Malaysia vs Nepal is Trending: Unpacking the 2026 Dynamics](https://sluintel.github.io/posts/2026-09-03-why-malaysia-vs-nepal-is-trending-right-now.html) — 2026-09-03 — Malaysia, Nepal, Migration
 - [Why Facebook is Trending Right Now: Unpacking Its 2026 Resurgence](https://sluintel.github.io/posts/2026-09-03-why-facebook-is-trending-right-now.html) — 2026-09-03 — Facebook Trends, Social Media 2026, AI in Social Media
 - [Top Internet Reactions to Santa Fe - Millonarios: Fan Frenzy Decoded](https://sluintel.github.io/posts/2026-09-03-top-internet-reactions-santa-fe-millonarios.html) — 2026-09-03 — AI tools, Social Media Analytics, Football Rivalries
 - [Automation's Shifting Tides: How It's Changing Bahrain vs Hong Kong](https://sluintel.github.io/posts/2026-09-03-how-automation-is-changing-bahrain-vs-hong-kong.html) — 2026-09-03 — automation, Bahrain economy, Hong Kong innovation
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Decoding the Top Internet Reactions to Isla Fisher: Beyond the Buzz](https://sluintel.github.io/posts/2026-09-02-top-internet-reactions-isla-fisher.html) — 2026-09-02 — Isla Fisher, Celebrity Reactions, Internet Culture
 - [Mastering the Latest Updates on Bayern Munich for True Fans](https://sluintel.github.io/posts/2026-09-02-the-latest-updates-on-bayern-munich.html) — 2026-09-02 — Bayern Munich, Bundesliga, Football News
 - [Why HEBC vs Dortmund Is Trending Right Now: Decoding the Buzz](https://sluintel.github.io/posts/2026-09-02-why-hebc-vs-dortmund-is-trending-right-now.html) — 2026-09-02 — football trends, German football, sports analytics
-- [Gemini 3.8 Flash: The AI Leap You Can't Afford to Ignore](https://sluintel.github.io/posts/2026-09-02-gemini-3-8-flash-ai-leap-speed.html) — 2026-09-02 — AI Tools, Automation, Gemini
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
