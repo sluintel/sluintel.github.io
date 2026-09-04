@@ -1,5 +1,20 @@
 [
   {
+    "url": "posts/2026-09-04-chatgpt-astra-advanced-ai-vector-databases.html",
+    "title": "ChatGPT Astra: Unlock Advanced AI with Vector Databases",
+    "date": "2026-09-04",
+    "image": "https://images.pexels.com/photos/30530409/pexels-photo-30530409.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "tags": [
+      "ChatGPT",
+      "Astra DB",
+      "Vector Databases",
+      "AI Automation",
+      "RAG"
+    ],
+    "excerpt": "Tired of generic AI answers? Discover how ChatGPT Astra integrates with vector databases like Astra DB to create powerful, context-aware AI. Learn to build custom RAG solutions and unlock enterprise-grade AI productivity.",
+    "wordCount": 256
+  },
+  {
     "url": "posts/2026-09-04-latest-updates-betis-vs-real-madrid-ai-analysis.html",
     "title": "Unpacking the Latest Updates on Betis vs Real Madrid: An AI Perspective",
     "date": "2026-09-04",
