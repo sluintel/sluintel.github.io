@@ -1,5 +1,20 @@
 [
   {
+    "url": "posts/2026-09-07-chatgpt-gpt-astra-real-time-ai-revolution.html",
+    "title": "ChatGPT GPT Astra: Revolutionize Your AI with Real-Time Data",
+    "date": "2026-09-07",
+    "image": "https://images.pexels.com/photos/8294609/pexels-photo-8294609.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "tags": [
+      "AI Tools",
+      "Generative AI",
+      "Vector Database",
+      "RAG",
+      "Astra DB"
+    ],
+    "excerpt": "Unlock the power of ChatGPT GPT Astra to revolutionize your AI. Learn how combining LLMs with Astra DB drives real-time data insights, reduces hallucinations, and scales enterprise AI for 2026.",
+    "wordCount": 240
+  },
+  {
     "url": "posts/2026-09-07-chatgpt-gpt-astra-real-time-ai.html",
     "title": "ChatGPT GPT Astra: Unlock Real-Time AI for Strategic Advantage",
     "date": "2026-09-07",
