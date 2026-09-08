@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 08 Sep 2026 19:56:06 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 08 Sep 2026 21:09:37 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[What People Are Saying About Palace vs Middlesbrough: Fan Verdicts & Key Insights]]></title>
+    <link>https://sluintel.github.io/posts/2026-09-08-what-people-are-saying-about-palace-vs-middlesbrough.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-08-what-people-are-saying-about-palace-vs-middlesbrough.html</guid>
+    <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Curious what fans predict for Palace vs Middlesbrough? Dive into the real buzz, understand emerging trends, and learn how to cut through the noise to find authentic fan sentiment. Get ahead of the game!]]></description>
+    <enclosure url="https://images.pexels.com/photos/2820894/pexels-photo-2820894.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>football analysis</category>
+    <category>fan sentiment</category>
+    <category>Palace vs Middlesbrough</category>
+    <category>EPL</category>
+    <category>Championship</category>
+  </item>
   <item>
     <title><![CDATA[Unlock Creative Power: Mastering Muse AI for Content in 2026]]></title>
     <link>https://sluintel.github.io/posts/2026-09-08-muse-ai-content-creation-guide.html</link>
@@ -258,19 +271,6 @@
     <category>Astra DB</category>
     <category>Real-time AI</category>
     <category>Generative AI</category>
-  </item>
-  <item>
-    <title><![CDATA[ChatGPT GPT Astra: Unlock Real-Time AI Power & Edge]]></title>
-    <link>https://sluintel.github.io/posts/2026-09-08-chatgpt-gpt-astra-real-time-ai-power.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-08-chatgpt-gpt-astra-real-time-ai-power.html</guid>
-    <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Frustrated by slow, generic AI? Discover how combining ChatGPT, custom GPTs, and Astra DB unlocks powerful, real-time AI solutions. Master the "chatgpt gpt astra" synergy for a critical competitive advantage.]]></description>
-    <enclosure url="https://images.pexels.com/photos/12662875/pexels-photo-12662875.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI Tools</category>
-    <category>Generative AI</category>
-    <category>ChatGPT</category>
-    <category>Vector Databases</category>
-    <category>Real-Time AI</category>
   </item>
 </channel>
 </rss>
