@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 08 Sep 2026 19:25:04 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 08 Sep 2026 19:56:06 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Unlock Creative Power: Mastering Muse AI for Content in 2026]]></title>
+    <link>https://sluintel.github.io/posts/2026-09-08-muse-ai-content-creation-guide.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-08-muse-ai-content-creation-guide.html</guid>
+    <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Discover how Muse AI is revolutionizing content creation, media analysis, and video workflows. Learn its core features, pro tips, and why it's essential for creators in 2026.]]></description>
+    <enclosure url="https://images.pexels.com/photos/8728221/pexels-photo-8728221.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Muse AI</category>
+    <category>AI Tools</category>
+    <category>Content Creation</category>
+    <category>Video Automation</category>
+    <category>Creative Tech</category>
+  </item>
   <item>
     <title><![CDATA[What People Are Saying About Al Qadsiah vs Al-Ahli: Fan Frenzy & Forecasts]]></title>
     <link>https://sluintel.github.io/posts/2026-09-08-what-people-are-saying-about-al-qadsiah-vs-al-ahli.html</link>
@@ -258,19 +271,6 @@
     <category>ChatGPT</category>
     <category>Vector Databases</category>
     <category>Real-Time AI</category>
-  </item>
-  <item>
-    <title><![CDATA[ChatGPT GPT Astra: Supercharging Real-Time AI Workflows]]></title>
-    <link>https://sluintel.github.io/posts/2026-09-07-chatgpt-gpt-astra-supercharge-real-time-ai-workflows-2.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-07-chatgpt-gpt-astra-supercharge-real-time-ai-workflows-2.html</guid>
-    <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Discover how ChatGPT GPT Astra is revolutionizing real-time AI workflows. Learn its core value, practical applications, and expert tips to gain a strategic advantage in 2026. Master real-time insights today.]]></description>
-    <enclosure url="https://images.pexels.com/photos/17153194/pexels-photo-17153194.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI Tools</category>
-    <category>ChatGPT</category>
-    <category>GPT Astra</category>
-    <category>Real-Time AI</category>
-    <category>Automation</category>
   </item>
 </channel>
 </rss>
