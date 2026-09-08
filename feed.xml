@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 08 Sep 2026 08:51:58 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 08 Sep 2026 09:45:02 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[The Latest Updates on Real Madrid vs Inter Milan: A Tactical Deep Dive]]></title>
+    <link>https://sluintel.github.io/posts/2026-09-08-the-latest-updates-on-real-madrid-vs-inter-milan.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-08-the-latest-updates-on-real-madrid-vs-inter-milan.html</guid>
+    <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Get the latest updates on Real Madrid vs Inter Milan! Dive into tactical breakdowns, key player insights, and expert predictions to stay ahead of the game with AI-driven analysis.]]></description>
+    <enclosure url="https://images.pexels.com/photos/34152394/pexels-photo-34152394.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Real Madrid</category>
+    <category>Inter Milan</category>
+    <category>Football Analysis</category>
+    <category>Champions League</category>
+    <category>AI Sports Tech</category>
+  </item>
   <item>
     <title><![CDATA[ChatGPT GPT Astra: Unlocking Real-Time AI's True Potential]]></title>
     <link>https://sluintel.github.io/posts/2026-09-08-chatgpt-gpt-astra-real-time-ai-potential.html</link>
@@ -261,19 +274,6 @@
     <category>Real-Time AI</category>
     <category>AI Automation</category>
     <category>Business Intelligence</category>
-  </item>
-  <item>
-    <title><![CDATA[ChatGPT GPT Astra: Unleash Real-Time AI for Business Success]]></title>
-    <link>https://sluintel.github.io/posts/2026-09-07-chatgpt-gpt-astra-real-time-ai-business.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-07-chatgpt-gpt-astra-real-time-ai-business.html</guid>
-    <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Discover how ChatGPT GPT Astra empowers real-time AI and dynamic data processing for enterprises. Unlock unprecedented AI performance and automation for 2026 success.]]></description>
-    <enclosure url="https://images.pexels.com/photos/8294742/pexels-photo-8294742.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>ChatGPT</category>
-    <category>GPT Astra</category>
-    <category>Real-time AI</category>
-    <category>Vector Database</category>
-    <category>Enterprise AI</category>
   </item>
 </channel>
 </rss>
