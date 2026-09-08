@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 08 Sep 2026 17:54:41 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 08 Sep 2026 18:39:34 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Why Blue Video Is Trending Right Now: Master the Algorithmic & Emotional Edge]]></title>
+    <link>https://sluintel.github.io/posts/2026-09-08-why-blue-video-is-trending-right-now.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-08-why-blue-video-is-trending-right-now.html</guid>
+    <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Discover why blue video is trending right now, dominating feeds and captivating audiences. Unpack the psychology, tech, and creative strategies behind this visual phenomenon.]]></description>
+    <enclosure url="https://images.pexels.com/photos/3391934/pexels-photo-3391934.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Blue Video</category>
+    <category>Video Trends</category>
+    <category>Content Strategy</category>
+    <category>Digital Marketing</category>
+    <category>Visual Psychology</category>
+  </item>
   <item>
     <title><![CDATA[Earthquake Explained Simply: Unpacking Earth's Shakes]]></title>
     <link>https://sluintel.github.io/posts/2026-09-08-earthquake-explained-simply.html</link>
@@ -258,22 +271,6 @@
     <category>GPT-4</category>
     <category>Astra</category>
     <category>Automation</category>
-  </item>
-  <item>
-    <title><![CDATA[ChatGPT GPT Astra: Real-Time AI Power for 2026 Success]]></title>
-    <link>https://sluintel.github.io/posts/2026-09-07-chatgpt-gpt-astra-real-time-ai-advantage-3.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-07-chatgpt-gpt-astra-real-time-ai-advantage-3.html</guid>
-    <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unlock the future with ChatGPT GPT Astra. Discover how real-time AI and advanced data processing give you an unmatched strategic advantage in 2026.]]></description>
-    <enclosure url="https://images.pexels.com/photos/8294742/pexels-photo-8294742.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI Tools</category>
-    <category>ChatGPT</category>
-    <category>GPT Astra</category>
-    <category>Real-time AI</category>
-    <category>Automation</category>
-    <category>Data Processing</category>
-    <category>Generative AI</category>
-    <category>Enterprise AI</category>
   </item>
 </channel>
 </rss>
