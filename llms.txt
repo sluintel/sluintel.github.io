@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 2307
+Total Posts Published: 2308
 Last Updated: 2026-09-08
-Latest Post: What People Are Saying About Bangladesh vs UAE: Your Expat Guide
-Latest Post URL: https://sluintel.github.io/posts/2026-09-08-what-people-are-saying-about-bangladesh-vs-uae.html
+Latest Post: Why Anak Krakatau Is Trending: Decoding Indonesia's Volcano Buzz
+Latest Post URL: https://sluintel.github.io/posts/2026-09-08-indonesia-volcano-eruption-anak-krakatau-trending-right-now.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Why Anak Krakatau Is Trending: Decoding Indonesia's Volcano Buzz](https://sluintel.github.io/posts/2026-09-08-indonesia-volcano-eruption-anak-krakatau-trending-right-now.html) — 2026-09-08 — Anak Krakatau, volcano, Indonesia
 - [What People Are Saying About Bangladesh vs UAE: Your Expat Guide](https://sluintel.github.io/posts/2026-09-08-what-people-are-saying-about-bangladesh-vs-uae.html) — 2026-09-08 — Expat Life, UAE Economy, Bangladesh Opportunities
 - [Ballon d'Or 2026: Everything You Should Know About Football's Top Prize](https://sluintel.github.io/posts/2026-09-08-everything-you-should-know-about-ballon-dor.html) — 2026-09-08 — Ballon d'Or, Football Awards, Soccer
 - [Green Card Explained Simply: Your Path to U.S. Residency](https://sluintel.github.io/posts/2026-09-08-green-card-explained-simply.html) — 2026-09-08 — immigration, green card, USA
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Hong Kong vs Nepal Explained Simply: Your Global Guide for 2026](https://sluintel.github.io/posts/2026-09-08-hong-kong-vs-nepal-explained-simply.html) — 2026-09-08 — Hong Kong, Nepal, Global Comparison
 - [The Latest Updates on Real Madrid vs Inter Milan: A Tactical Deep Dive](https://sluintel.github.io/posts/2026-09-08-the-latest-updates-on-real-madrid-vs-inter-milan.html) — 2026-09-08 — Real Madrid, Inter Milan, Football Analysis
 - [ChatGPT GPT Astra: Unlocking Real-Time AI's True Potential](https://sluintel.github.io/posts/2026-09-08-chatgpt-gpt-astra-real-time-ai-potential.html) — 2026-09-08 — ChatGPT, GPT-Astra, Real-Time AI
-- [ChatGPT GPT Astra: Unlock Real-Time AI Power Now](https://sluintel.github.io/posts/2026-09-08-chatgpt-gpt-astra-real-time-ai-power-2.html) — 2026-09-08 — ChatGPT, GPT-Astra, Real-Time AI
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
