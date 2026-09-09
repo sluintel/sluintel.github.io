@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 09 Sep 2026 13:46:30 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 09 Sep 2026 14:36:17 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[नक्कली Explained Simply: Navigating AI's Synthetic Reality]]></title>
+    <link>https://sluintel.github.io/posts/2026-09-09-nakkali-explained-simply.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-09-nakkali-explained-simply.html</guid>
+    <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack 'नक्कली' – the artificial in our AI-driven world. Learn to spot deepfakes, synthetic content, and protect your digital trust by 2026. Essential insights await!]]></description>
+    <enclosure url="https://images.pexels.com/photos/38773214/pexels-photo-38773214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI</category>
+    <category>Deepfakes</category>
+    <category>Misinformation</category>
+    <category>Digital Authenticity</category>
+    <category>AI Ethics</category>
+  </item>
   <item>
     <title><![CDATA[The Latest Updates on Muse: Elevate Your AI Workflow in 2026]]></title>
     <link>https://sluintel.github.io/posts/2026-09-09-the-latest-updates-on-muse-ai.html</link>
@@ -267,19 +280,6 @@
     <category>Saudi Pro League</category>
     <category>Football Analysis</category>
     <category>Fan Sentiment</category>
-  </item>
-  <item>
-    <title><![CDATA[Why Blue Video Is Trending Right Now: Master the Algorithmic & Emotional Edge]]></title>
-    <link>https://sluintel.github.io/posts/2026-09-08-why-blue-video-is-trending-right-now.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-08-why-blue-video-is-trending-right-now.html</guid>
-    <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Discover why blue video is trending right now, dominating feeds and captivating audiences. Unpack the psychology, tech, and creative strategies behind this visual phenomenon.]]></description>
-    <enclosure url="https://images.pexels.com/photos/3391934/pexels-photo-3391934.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Blue Video</category>
-    <category>Video Trends</category>
-    <category>Content Strategy</category>
-    <category>Digital Marketing</category>
-    <category>Visual Psychology</category>
   </item>
 </channel>
 </rss>
