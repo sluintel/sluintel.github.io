@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 09 Sep 2026 17:08:58 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 09 Sep 2026 17:48:26 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Google AI: Unlocking Tomorrow's Tech Today for Your Business]]></title>
+    <link>https://sluintel.github.io/posts/2026-09-09-google-ai-unlocking-tomorrow-tech-today.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-09-google-ai-unlocking-tomorrow-tech-today.html</guid>
+    <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Dive into Google AI and discover its transformative power for 2026. Learn how Google's cutting-edge innovations are reshaping industries and boosting your competitive edge.]]></description>
+    <enclosure url="https://images.pexels.com/photos/7688761/pexels-photo-7688761.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Google AI</category>
+    <category>Artificial Intelligence</category>
+    <category>AI Tools</category>
+    <category>Automation</category>
+    <category>Machine Learning</category>
+  </item>
   <item>
     <title><![CDATA[Ballon d'Or Nominees Ranking: What People Are Saying in 2026]]></title>
     <link>https://sluintel.github.io/posts/2026-09-09-what-people-are-saying-about-ballon-d-or-nominees-ranking.html</link>
@@ -267,19 +280,6 @@
     <category>Political AI</category>
     <category>Misinformation</category>
     <category>Digital Forensics</category>
-  </item>
-  <item>
-    <title><![CDATA[Decoding Top Internet Reactions to Palace vs Middlesbrough: A Fan's Guide]]></title>
-    <link>https://sluintel.github.io/posts/2026-09-08-top-internet-reactions-palace-vs-middlesbrough.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-08-top-internet-reactions-palace-vs-middlesbrough.html</guid>
-    <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unpack the top internet reactions to Palace vs Middlesbrough, understand fan sentiment, and learn how to analyze online buzz. Stay ahead of the digital matchday conversation!]]></description>
-    <enclosure url="https://images.pexels.com/photos/8007172/pexels-photo-8007172.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>football reactions</category>
-    <category>Crystal Palace</category>
-    <category>Middlesbrough FC</category>
-    <category>fan sentiment</category>
-    <category>social media analysis</category>
   </item>
 </channel>
 </rss>
