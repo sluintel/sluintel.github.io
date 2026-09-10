@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 2350
+Total Posts Published: 2351
 Last Updated: 2026-09-10
-Latest Post: What's Next for Lionel Messi: Unpacking the GOAT's Final Acts
-Latest Post URL: https://sluintel.github.io/posts/2026-09-10-whats-next-for-lionel-messi.html
+Latest Post: What People Are Saying About Cricinfo: Fan Verdicts & Future
+Latest Post URL: https://sluintel.github.io/posts/2026-09-10-what-people-are-saying-about-cricinfo.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [What People Are Saying About Cricinfo: Fan Verdicts & Future](https://sluintel.github.io/posts/2026-09-10-what-people-are-saying-about-cricinfo.html) — 2026-09-10 — Cricket News, Sports Tech, Fan Engagement
 - [What's Next for Lionel Messi: Unpacking the GOAT's Final Acts](https://sluintel.github.io/posts/2026-09-10-whats-next-for-lionel-messi.html) — 2026-09-10 — Lionel Messi, Messi Future, Football GOAT
 - [ChatGPT Demystified: Master Conversational AI in 2026](https://sluintel.github.io/posts/2026-09-10-chatgpt-master-conversational-ai.html) — 2026-09-10 — ChatGPT, AI tools, Generative AI
 - [Anthropic AI: Powering Safe & Ethical AI for 2026](https://sluintel.github.io/posts/2026-09-10-anthropic-ai-safe-ethical-2026.html) — 2026-09-10 — Anthropic AI, Claude AI, AI Ethics
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [What People Are Saying About Orangutans: Public Opinion & Conservation](https://sluintel.github.io/posts/2026-09-10-what-people-are-saying-about-orangutans.html) — 2026-09-10 — orangutans, wildlife conservation, endangered species
 - [Santos vs Atlético Mineiro: Decoding the 2026 Football Buzz](https://sluintel.github.io/posts/2026-09-10-santos-vs-atletico-mineiro-trending-now.html) — 2026-09-10 — football trends, Série A, fan engagement
 - [Debunking the Claude Mythos: Reality vs. Hype in AI](https://sluintel.github.io/posts/2026-09-10-claude-mythos-reality-vs-hype.html) — 2026-09-10 — AI, Claude, LLM
-- [Claude Mythos: Unmasking Reality Behind AI's Biggest Legends](https://sluintel.github.io/posts/2026-09-09-claude-mythos-unmasking-ai-legends.html) — 2026-09-09 — Claude AI, AI Myths, Generative AI
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
