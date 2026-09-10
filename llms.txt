@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 2360
+Total Posts Published: 2361
 Last Updated: 2026-09-10
-Latest Post: AI: Your Essential Guide to Understanding and Leveraging Artificial Intelligence
-Latest Post URL: https://sluintel.github.io/posts/2026-09-10-ai-understanding-leveraging-artificial-intelligence.html
+Latest Post: Jacob Coxon Leaves Anthropic AI: What It Means for Responsible AI
+Latest Post URL: https://sluintel.github.io/posts/2026-09-10-jacob-coxon-leaves-anthropic-ai.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Jacob Coxon Leaves Anthropic AI: What It Means for Responsible AI](https://sluintel.github.io/posts/2026-09-10-jacob-coxon-leaves-anthropic-ai.html) — 2026-09-10 — Anthropic AI, Jacob Coxon, AI Ethics
 - [AI: Your Essential Guide to Understanding and Leveraging Artificial Intelligence](https://sluintel.github.io/posts/2026-09-10-ai-understanding-leveraging-artificial-intelligence.html) — 2026-09-10 — AI, Artificial Intelligence, Machine Learning
 - [AI Demystified: Your Guide to Artificial Intelligence in 2026](https://sluintel.github.io/posts/2026-09-10-ai-demystified-artificial-intelligence-2026.html) — 2026-09-10 — AI, Artificial Intelligence, AI Tools
 - [Meta Muse AI Agent: Your Next-Gen Autonomous AI Assistant](https://sluintel.github.io/posts/2026-09-10-meta-muse-ai-agent-autonomous-assistant.html) — 2026-09-10 — AI Agents, Automation, Meta Muse AI
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [What's Next for Nepal National Cricket Team? Your 2026 Roadmap](https://sluintel.github.io/posts/2026-09-10-whats-next-for-nepal-national-cricket-team.html) — 2026-09-10 — Nepal Cricket, Cricket Development, Sports Strategy
 - [Mastering PPI Data: Your 2026 Guide to Economic Forecasting](https://sluintel.github.io/posts/2026-09-10-ppi-data-economic-forecasting-guide.html) — 2026-09-10 — PPI Data, Inflation, Economic Indicators
 - [Why UAE vs HK Is Trending Right Now: The New Global Business Frontier](https://sluintel.github.io/posts/2026-09-10-why-uae-vs-hk-is-trending-right-now.html) — 2026-09-10 — UAE, Hong Kong, Global Business
-- [What People Are Saying About Cricinfo: Fan Verdicts & Future](https://sluintel.github.io/posts/2026-09-10-what-people-are-saying-about-cricinfo.html) — 2026-09-10 — Cricket News, Sports Tech, Fan Engagement
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
