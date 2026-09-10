@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 2342
+Total Posts Published: 2343
 Last Updated: 2026-09-10
-Latest Post: Debunking the Claude Mythos: Reality vs. Hype in AI
-Latest Post URL: https://sluintel.github.io/posts/2026-09-10-claude-mythos-reality-vs-hype.html
+Latest Post: Santos vs Atlético Mineiro: Decoding the 2026 Football Buzz
+Latest Post URL: https://sluintel.github.io/posts/2026-09-10-santos-vs-atletico-mineiro-trending-now.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Santos vs Atlético Mineiro: Decoding the 2026 Football Buzz](https://sluintel.github.io/posts/2026-09-10-santos-vs-atletico-mineiro-trending-now.html) — 2026-09-10 — football trends, Série A, fan engagement
 - [Debunking the Claude Mythos: Reality vs. Hype in AI](https://sluintel.github.io/posts/2026-09-10-claude-mythos-reality-vs-hype.html) — 2026-09-10 — AI, Claude, LLM
 - [Claude Mythos: Unmasking Reality Behind AI's Biggest Legends](https://sluintel.github.io/posts/2026-09-09-claude-mythos-unmasking-ai-legends.html) — 2026-09-09 — Claude AI, AI Myths, Generative AI
 - [Claude Mythos: Debunking AI Legends & Unveiling Reality](https://sluintel.github.io/posts/2026-09-09-claude-mythos-debunking-ai-legends.html) — 2026-09-09 — Claude AI, AI Myths, AI Automation
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [The Latest Updates on Ermedin Demirović: 2026's Unstoppable Force](https://sluintel.github.io/posts/2026-09-09-the-latest-updates-on-ermedin-demirovic.html) — 2026-09-09 — Ermedin Demirović, Bundesliga, Football Analysis
 - [VfB Stuttgart vs Viking: The Ultimate Clash You Need to Know](https://sluintel.github.io/posts/2026-09-09-vfb-stuttgart-vs-viking-everything-you-should-know.html) — 2026-09-09 — Football Analysis, Bundesliga, Eliteserien
 - [Google AI: Unlocking Tomorrow's Tech Today for Your Business](https://sluintel.github.io/posts/2026-09-09-google-ai-unlocking-tomorrow-tech-today.html) — 2026-09-09 — Google AI, Artificial Intelligence, AI Tools
-- [Ballon d'Or Nominees Ranking: What People Are Saying in 2026](https://sluintel.github.io/posts/2026-09-09-what-people-are-saying-about-ballon-d-or-nominees-ranking.html) — 2026-09-09 — Ballon d'Or, Football Awards, Player Rankings
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
