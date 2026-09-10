@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 10 Sep 2026 05:59:47 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 10 Sep 2026 07:18:50 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Decoding the Top Internet Reactions to Nepal vs Oman Cricket]]></title>
+    <link>https://sluintel.github.io/posts/2026-09-10-top-internet-reactions-nepal-vs-oman.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-10-top-internet-reactions-nepal-vs-oman.html</guid>
+    <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack the top internet reactions to Nepal vs Oman cricket. Understand fan sentiment, viral moments, and the digital impact of this intense rivalry. Stay ahead of the curve.]]></description>
+    <enclosure url="https://images.pexels.com/photos/38503136/pexels-photo-38503136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Cricket</category>
+    <category>Nepal Cricket</category>
+    <category>Oman Cricket</category>
+    <category>Fan Reactions</category>
+    <category>Social Media Trends</category>
+  </item>
   <item>
     <title><![CDATA[Nepal vs Oman Explained Simply: Cultures, Economies & Opportunities]]></title>
     <link>https://sluintel.github.io/posts/2026-09-10-nepal-vs-oman-explained-simply.html</link>
@@ -264,19 +277,6 @@
     <category>England Cricket</category>
     <category>Sporting History</category>
     <category>International Relations</category>
-  </item>
-  <item>
-    <title><![CDATA[Muse AI: Everything You Should Know About Your Smart Workspace]]></title>
-    <link>https://sluintel.github.io/posts/2026-09-09-muse-ai-everything-you-should-know.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-09-muse-ai-everything-you-should-know.html</guid>
-    <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unlock peak productivity with Muse AI. Discover everything you should know about Muse's smart features, organization, and how it can revolutionize your digital workspace in 2026. Get started now!]]></description>
-    <enclosure url="https://images.pexels.com/photos/6860840/pexels-photo-6860840.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI Tools</category>
-    <category>Productivity</category>
-    <category>Digital Workspace</category>
-    <category>Notetaking</category>
-    <category>Automation</category>
   </item>
 </channel>
 </rss>
