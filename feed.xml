@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 10 Sep 2026 13:39:35 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 10 Sep 2026 14:26:14 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[What's Next for Nepal National Cricket Team? Your 2026 Roadmap]]></title>
+    <link>https://sluintel.github.io/posts/2026-09-10-whats-next-for-nepal-national-cricket-team.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-10-whats-next-for-nepal-national-cricket-team.html</guid>
+    <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Curious what's next for Nepal National Cricket Team? Discover the strategic roadmap, key challenges, and bright future for Nepali cricket in 2026 and beyond. Get expert insights now!]]></description>
+    <enclosure url="https://images.pexels.com/photos/28831413/pexels-photo-28831413.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Nepal Cricket</category>
+    <category>Cricket Development</category>
+    <category>Sports Strategy</category>
+    <category>Asian Cricket</category>
+    <category>ICC Status</category>
+  </item>
   <item>
     <title><![CDATA[Mastering PPI Data: Your 2026 Guide to Economic Forecasting]]></title>
     <link>https://sluintel.github.io/posts/2026-09-10-ppi-data-economic-forecasting-guide.html</link>
@@ -260,19 +273,6 @@
     <category>Eliteserien</category>
     <category>European Football</category>
     <category>Match Prediction</category>
-  </item>
-  <item>
-    <title><![CDATA[Google AI: Unlocking Tomorrow's Tech Today for Your Business]]></title>
-    <link>https://sluintel.github.io/posts/2026-09-09-google-ai-unlocking-tomorrow-tech-today.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-09-google-ai-unlocking-tomorrow-tech-today.html</guid>
-    <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Dive into Google AI and discover its transformative power for 2026. Learn how Google's cutting-edge innovations are reshaping industries and boosting your competitive edge.]]></description>
-    <enclosure url="https://images.pexels.com/photos/7688761/pexels-photo-7688761.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Google AI</category>
-    <category>Artificial Intelligence</category>
-    <category>AI Tools</category>
-    <category>Automation</category>
-    <category>Machine Learning</category>
   </item>
 </channel>
 </rss>
