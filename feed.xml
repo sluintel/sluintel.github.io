@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 11 Sep 2026 11:14:45 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 11 Sep 2026 12:11:21 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[The Latest Updates on Pak vs Eng: AI's Edge in Cricket Analysis]]></title>
+    <link>https://sluintel.github.io/posts/2026-09-11-the-latest-updates-on-pak-vs-eng-ai-analysis.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-11-the-latest-updates-on-pak-vs-eng-ai-analysis.html</guid>
+    <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Stay ahead with the latest updates on Pak vs Eng cricket. Discover how AI transforms match predictions and player performance analysis. Unlock deeper insights now!]]></description>
+    <enclosure url="https://images.pexels.com/photos/29356359/pexels-photo-29356359.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Cricket Analysis</category>
+    <category>AI in Sports</category>
+    <category>Pakistan Cricket</category>
+    <category>England Cricket</category>
+    <category>Predictive Analytics</category>
+  </item>
   <item>
     <title><![CDATA[What People Are Saying About Navier-Stokes Equations: The Unsolved Frontier]]></title>
     <link>https://sluintel.github.io/posts/2026-09-11-what-people-are-saying-about-navier-stokes-equations.html</link>
@@ -259,19 +272,6 @@
     <category>Digital Monopolies</category>
     <category>Tech Regulation</category>
     <category>Automation</category>
-  </item>
-  <item>
-    <title><![CDATA[Mastering AI: Your 2026 Guide to Artificial Intelligence]]></title>
-    <link>https://sluintel.github.io/posts/2026-09-10-mastering-ai-artificial-intelligence-2026.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-10-mastering-ai-artificial-intelligence-2026.html</guid>
-    <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unlock the true potential of AI. This 2026 guide cuts through the hype, explaining what AI is, why it matters, and how to harness its power for real-world impact. Get practical tips & essential tools.]]></description>
-    <enclosure url="https://images.pexels.com/photos/17483868/pexels-photo-17483868.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI</category>
-    <category>Artificial Intelligence</category>
-    <category>Automation</category>
-    <category>Machine Learning</category>
-    <category>Tech Trends 2026</category>
   </item>
 </channel>
 </rss>
