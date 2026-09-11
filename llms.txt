@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 2388
+Total Posts Published: 2389
 Last Updated: 2026-09-11
-Latest Post: New iPhone 18 Pro Max: Your Ultimate 2026 Guide
-Latest Post URL: https://sluintel.github.io/posts/2026-09-11-new-iphone-18-pro-max-ultimate-guide.html
+Latest Post: AI Content Generation: What People Are Saying & Why It Matters
+Latest Post URL: https://sluintel.github.io/posts/2026-09-11-what-people-are-saying-about-ai-content-generation.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [AI Content Generation: What People Are Saying & Why It Matters](https://sluintel.github.io/posts/2026-09-11-what-people-are-saying-about-ai-content-generation.html) — 2026-09-11 — AI Tools, Content Marketing, SEO Strategy
 - [New iPhone 18 Pro Max: Your Ultimate 2026 Guide](https://sluintel.github.io/posts/2026-09-11-new-iphone-18-pro-max-ultimate-guide.html) — 2026-09-11 — iPhone 18 Pro Max, Apple, AI Phones
 - [Why Razaullah Is Trending Right Now: Unpacking the 2026 Buzz](https://sluintel.github.io/posts/2026-09-11-why-razaullah-is-trending-right-now.html) — 2026-09-11 — Razaullah, trending topics, viral content
 - [Why Autonomous AI Agents Are Trending: Your Guide to 2026's AI Revolution](https://sluintel.github.io/posts/2026-09-11-why-autonomous-ai-agents-are-trending-right-now.html) — 2026-09-11 — AI Agents, Automation, Productivity
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Mastering AI: Your Guide to Automation & Innovation in 2026](https://sluintel.github.io/posts/2026-09-11-mastering-ai-automation-innovation.html) — 2026-09-11 — AI, Automation, Machine Learning
 - [गोरखापत्र Updates: What You Need to Know for 2026](https://sluintel.github.io/posts/2026-09-11-the-latest-updates-on-gorkhapatra.html) — 2026-09-11 — गोरखापत्र, Nepal News, Digital Media
 - [Al Qadsiah vs Al-Ettifaq: Latest Updates & AI Match Insights](https://sluintel.github.io/posts/2026-09-11-the-latest-updates-on-al-qadsiah-vs-al-ettifaq.html) — 2026-09-11 — AI Football Analysis, Saudi Pro League, Al Qadsiah
-- [Como Explained Simply: Your Guide to Smarter AI Decisions](https://sluintel.github.io/posts/2026-09-11-como-explained-simply.html) — 2026-09-11 — AI, Automation, Business Strategy
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
