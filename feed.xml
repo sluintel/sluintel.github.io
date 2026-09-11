@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 11 Sep 2026 06:01:30 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 11 Sep 2026 07:17:45 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Why PSV vs Shakhtar Donetsk Is Trending Right Now: Decoding the Buzz]]></title>
+    <link>https://sluintel.github.io/posts/2026-09-11-why-psv-vs-shakhtar-donetsk-is-trending-right-now.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-11-why-psv-vs-shakhtar-donetsk-is-trending-right-now.html</guid>
+    <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack why PSV vs Shakhtar Donetsk is trending right now. Discover the hidden stories, fan psychology, and AI tools tracking this football phenomenon. Stay ahead of the curve.]]></description>
+    <enclosure url="https://images.pexels.com/photos/32266298/pexels-photo-32266298.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Football Trends</category>
+    <category>Sports Analytics</category>
+    <category>AI in Sports</category>
+    <category>PSV Eindhoven</category>
+    <category>Shakhtar Donetsk</category>
+  </item>
   <item>
     <title><![CDATA[Manchester United Trending: Decoding the 2026 Buzz]]></title>
     <link>https://sluintel.github.io/posts/2026-09-11-why-manchester-united-is-trending-right-now.html</link>
@@ -258,19 +271,6 @@
     <category>Fan Engagement</category>
     <category>Digital Media</category>
     <category>AI in Sports</category>
-  </item>
-  <item>
-    <title><![CDATA[What's Next for Lionel Messi: Unpacking the GOAT's Final Acts]]></title>
-    <link>https://sluintel.github.io/posts/2026-09-10-whats-next-for-lionel-messi.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-10-whats-next-for-lionel-messi.html</guid>
-    <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Curious about what's next for Lionel Messi? Dive deep into predictions, career shifts, and the legacy of the GOAT in 2026. Get expert insights on his future.]]></description>
-    <enclosure url="https://images.pexels.com/photos/35595349/pexels-photo-35595349.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Lionel Messi</category>
-    <category>Messi Future</category>
-    <category>Football GOAT</category>
-    <category>MLS</category>
-    <category>Argentina National Team</category>
   </item>
 </channel>
 </rss>
