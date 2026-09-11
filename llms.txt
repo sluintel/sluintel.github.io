@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 2383
+Total Posts Published: 2384
 Last Updated: 2026-09-11
-Latest Post: AI Demystified: Your Essential Guide to Artificial Intelligence in 2026
-Latest Post URL: https://sluintel.github.io/posts/2026-09-11-ai-demystified-essential-guide.html
+Latest Post: AI Unpacked: Your Guide to Artificial Intelligence in 2026
+Latest Post URL: https://sluintel.github.io/posts/2026-09-11-ai-unpacked-guide-2026.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [AI Unpacked: Your Guide to Artificial Intelligence in 2026](https://sluintel.github.io/posts/2026-09-11-ai-unpacked-guide-2026.html) — 2026-09-11 — AI, Artificial Intelligence, Automation
 - [AI Demystified: Your Essential Guide to Artificial Intelligence in 2026](https://sluintel.github.io/posts/2026-09-11-ai-demystified-essential-guide.html) — 2026-09-11 — AI, Artificial Intelligence, Machine Learning
 - [Mastering AI: Your Guide to Automation & Innovation in 2026](https://sluintel.github.io/posts/2026-09-11-mastering-ai-automation-innovation.html) — 2026-09-11 — AI, Automation, Machine Learning
 - [गोरखापत्र Updates: What You Need to Know for 2026](https://sluintel.github.io/posts/2026-09-11-the-latest-updates-on-gorkhapatra.html) — 2026-09-11 — गोरखापत्र, Nepal News, Digital Media
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [US Inflation Data: Your 2026 Guide to Economic Shifts](https://sluintel.github.io/posts/2026-09-11-us-inflation-data-guide-economic-shifts.html) — 2026-09-11 — Inflation, Economic Data, US Economy
 - [US CPI Data: Your 2026 Guide to Inflation & Economic Health](https://sluintel.github.io/posts/2026-09-11-us-cpi-data-guide-2026-inflation-economic-health.html) — 2026-09-11 — CPI Data, Inflation, Economic Indicators
 - [The Latest Updates on Pak vs Eng: AI's Edge in Cricket Analysis](https://sluintel.github.io/posts/2026-09-11-the-latest-updates-on-pak-vs-eng-ai-analysis.html) — 2026-09-11 — Cricket Analysis, AI in Sports, Pakistan Cricket
-- [What People Are Saying About Navier-Stokes Equations: The Unsolved Frontier](https://sluintel.github.io/posts/2026-09-11-what-people-are-saying-about-navier-stokes-equations.html) — 2026-09-11 — Navier-Stokes, Fluid Dynamics, AI in Engineering
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
