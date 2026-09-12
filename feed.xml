@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 12 Sep 2026 07:54:39 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 12 Sep 2026 08:38:44 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[What is a Data Breach? Your 2026 Guide to Digital Safety]]></title>
+    <link>https://sluintel.github.io/posts/2026-09-12-what-is-a-data-breach-digital-safety-guide-2026.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-12-what-is-a-data-breach-digital-safety-guide-2026.html</guid>
+    <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Worried about digital security in 2026? Learn exactly what is a data breach, why it matters, and how to protect your personal information from cyber threats. Stay safe online!]]></description>
+    <enclosure url="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Data Breach</category>
+    <category>Cybersecurity</category>
+    <category>Online Safety</category>
+    <category>Digital Privacy</category>
+    <category>Identity Theft Protection</category>
+  </item>
   <item>
     <title><![CDATA[Decoding Public Opinion: What People Are Saying About ICC's Impact]]></title>
     <link>https://sluintel.github.io/posts/2026-09-12-what-people-are-saying-about-icc.html</link>
@@ -260,19 +273,6 @@
     <category>US Economy</category>
     <category>CPI</category>
     <category>Interest Rates</category>
-  </item>
-  <item>
-    <title><![CDATA[US CPI Data: Your 2026 Guide to Inflation & Economic Health]]></title>
-    <link>https://sluintel.github.io/posts/2026-09-11-us-cpi-data-guide-2026-inflation-economic-health.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-11-us-cpi-data-guide-2026-inflation-economic-health.html</guid>
-    <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Demystify US CPI data, understand its impact on inflation, interest rates, and your wallet. Get actionable insights to navigate economic shifts in 2026.]]></description>
-    <enclosure url="https://images.pexels.com/photos/6770775/pexels-photo-6770775.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>CPI Data</category>
-    <category>Inflation</category>
-    <category>Economic Indicators</category>
-    <category>Investing</category>
-    <category>Federal Reserve</category>
   </item>
 </channel>
 </rss>
