@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 2390
+Total Posts Published: 2391
 Last Updated: 2026-09-12
-Latest Post: Unpacking the 1980s AI Photo Trend: Why Retro AI is Hot Again
-Latest Post URL: https://sluintel.github.io/posts/2026-09-12-1980s-ai-photo-trend-retro-art.html
+Latest Post: Retro Reboot: Why the 1980s AI Photo Trend is Exploding
+Latest Post URL: https://sluintel.github.io/posts/2026-09-12-1980s-ai-photo-trend-retro-explosion.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Retro Reboot: Why the 1980s AI Photo Trend is Exploding](https://sluintel.github.io/posts/2026-09-12-1980s-ai-photo-trend-retro-explosion.html) — 2026-09-12 — AI photography, 1980s aesthetic, retro AI
 - [Unpacking the 1980s AI Photo Trend: Why Retro AI is Hot Again](https://sluintel.github.io/posts/2026-09-12-1980s-ai-photo-trend-retro-art.html) — 2026-09-12 — AI Art, Generative AI, 1980s Aesthetic
 - [AI Content Generation: What People Are Saying & Why It Matters](https://sluintel.github.io/posts/2026-09-11-what-people-are-saying-about-ai-content-generation.html) — 2026-09-11 — AI Tools, Content Marketing, SEO Strategy
 - [New iPhone 18 Pro Max: Your Ultimate 2026 Guide](https://sluintel.github.io/posts/2026-09-11-new-iphone-18-pro-max-ultimate-guide.html) — 2026-09-11 — iPhone 18 Pro Max, Apple, AI Phones
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [AI Unpacked: Your Guide to Artificial Intelligence in 2026](https://sluintel.github.io/posts/2026-09-11-ai-unpacked-guide-2026.html) — 2026-09-11 — AI, Artificial Intelligence, Automation
 - [AI Demystified: Your Essential Guide to Artificial Intelligence in 2026](https://sluintel.github.io/posts/2026-09-11-ai-demystified-essential-guide.html) — 2026-09-11 — AI, Artificial Intelligence, Machine Learning
 - [Mastering AI: Your Guide to Automation & Innovation in 2026](https://sluintel.github.io/posts/2026-09-11-mastering-ai-automation-innovation.html) — 2026-09-11 — AI, Automation, Machine Learning
-- [गोरखापत्र Updates: What You Need to Know for 2026](https://sluintel.github.io/posts/2026-09-11-the-latest-updates-on-gorkhapatra.html) — 2026-09-11 — गोरखापत्र, Nepal News, Digital Media
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
