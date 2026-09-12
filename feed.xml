@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 12 Sep 2026 16:16:38 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 12 Sep 2026 17:05:53 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Revolut Data Breach: Your Essential Guide to Digital Safety in 2026]]></title>
+    <link>https://sluintel.github.io/posts/2026-09-12-revolut-data-breach-digital-safety-guide-2026.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-12-revolut-data-breach-digital-safety-guide-2026.html</guid>
+    <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Concerned about a Revolut data breach? Learn what happened, how it impacts your financial security, and actionable steps to protect your data in 2026. Stay safe online!]]></description>
+    <enclosure url="https://images.pexels.com/photos/17153194/pexels-photo-17153194.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Revolut</category>
+    <category>data breach</category>
+    <category>cybersecurity</category>
+    <category>financial safety</category>
+    <category>identity theft</category>
+  </item>
   <item>
     <title><![CDATA[F1: Everything You Should Know About Formula 1 Racing]]></title>
     <link>https://sluintel.github.io/posts/2026-09-12-everything-you-should-know-about-f1.html</link>
@@ -260,19 +273,6 @@
     <category>viral content</category>
     <category>AI trends</category>
     <category>digital marketing</category>
-  </item>
-  <item>
-    <title><![CDATA[Why Autonomous AI Agents Are Trending: Your Guide to 2026's AI Revolution]]></title>
-    <link>https://sluintel.github.io/posts/2026-09-11-why-autonomous-ai-agents-are-trending-right-now.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-11-why-autonomous-ai-agents-are-trending-right-now.html</guid>
-    <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Curious why Autonomous AI Agents are trending right now? Discover what they are, why they're crucial for productivity in 2026, and expert tips to harness their power.]]></description>
-    <enclosure url="https://images.pexels.com/photos/38905598/pexels-photo-38905598.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI Agents</category>
-    <category>Automation</category>
-    <category>Productivity</category>
-    <category>Future of Work</category>
-    <category>AI Tools</category>
   </item>
 </channel>
 </rss>
