@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 12 Sep 2026 13:36:53 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 12 Sep 2026 14:09:26 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Decoding the Top Internet Reactions to Liverpool vs Fulham]]></title>
+    <link>https://sluintel.github.io/posts/2026-09-12-top-internet-reactions-liverpool-vs-fulham.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-12-top-internet-reactions-liverpool-vs-fulham.html</guid>
+    <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Uncover the most viral internet reactions to Liverpool vs Fulham. Learn what fans and pundits truly thought and why it matters for content strategy. Get insights now!]]></description>
+    <enclosure url="https://images.pexels.com/photos/32424865/pexels-photo-32424865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Football</category>
+    <category>Liverpool FC</category>
+    <category>Fulham FC</category>
+    <category>Fan Reactions</category>
+    <category>Social Media Trends</category>
+  </item>
   <item>
     <title><![CDATA[iPhone 18 Pro Max AI: What's Next for Apple's Flagship?]]></title>
     <link>https://sluintel.github.io/posts/2026-09-12-future-of-iphone-18-pro-max-apple-with-ai.html</link>
@@ -260,19 +273,6 @@
     <category>Automation</category>
     <category>Tech Trends</category>
     <category>Future of Work</category>
-  </item>
-  <item>
-    <title><![CDATA[AI Demystified: Your Essential Guide to Artificial Intelligence in 2026]]></title>
-    <link>https://sluintel.github.io/posts/2026-09-11-ai-demystified-essential-guide.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-11-ai-demystified-essential-guide.html</guid>
-    <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Demystify AI and unlock its power for your business in 2026. Learn practical applications, common pitfalls, and essential tools in this comprehensive guide to Artificial Intelligence.]]></description>
-    <enclosure url="https://images.pexels.com/photos/8294659/pexels-photo-8294659.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI</category>
-    <category>Artificial Intelligence</category>
-    <category>Machine Learning</category>
-    <category>Automation</category>
-    <category>Tech Trends 2026</category>
   </item>
 </channel>
 </rss>
