@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 2413
+Total Posts Published: 2414
 Last Updated: 2026-09-12
-Latest Post: La Tech vs LSU: Navigating Louisiana's AI & Tech Powerhouses
-Latest Post URL: https://sluintel.github.io/posts/2026-09-12-la-tech-vs-lsu-ai-tech-powerhouses.html
+Latest Post: Tennessee vs Georgia Tech: Decoding the 2026 Gridiron Showdown
+Latest Post URL: https://sluintel.github.io/posts/2026-09-12-tennessee-vs-georgia-tech-2026-analysis.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Tennessee vs Georgia Tech: Decoding the 2026 Gridiron Showdown](https://sluintel.github.io/posts/2026-09-12-tennessee-vs-georgia-tech-2026-analysis.html) — 2026-09-12 — College Football, Tennessee Volunteers, Georgia Tech Yellow Jackets
 - [La Tech vs LSU: Navigating Louisiana's AI & Tech Powerhouses](https://sluintel.github.io/posts/2026-09-12-la-tech-vs-lsu-ai-tech-powerhouses.html) — 2026-09-12 — AI Tools, Automation, Higher Education
 - [What People Are Saying About Borussia Dortmund vs SC Paderborn 07 Standings](https://sluintel.github.io/posts/2026-09-12-what-people-are-saying-about-borussia-dortmund-vs-sc-paderborn-07-standings.html) — 2026-09-12 — Borussia Dortmund, SC Paderborn 07, Bundesliga
 - [Liverpool F.C. vs Fulham F.C. Standings: Latest Updates You Can't Miss](https://sluintel.github.io/posts/2026-09-12-liverpool-fc-vs-fulham-fc-standings-latest-updates.html) — 2026-09-12 — Premier League, Football Analytics, Liverpool FC
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Lazio vs Milan Explained Simply: The Intense Serie A Rivalry](https://sluintel.github.io/posts/2026-09-12-lazio-vs-milan-explained-simply.html) — 2026-09-12 — Serie A, Lazio, AC Milan
 - [Revolut Data Breach: Your Essential Guide to Digital Safety in 2026](https://sluintel.github.io/posts/2026-09-12-revolut-data-breach-digital-safety-guide-2026.html) — 2026-09-12 — Revolut, data breach, cybersecurity
 - [F1: Everything You Should Know About Formula 1 Racing](https://sluintel.github.io/posts/2026-09-12-everything-you-should-know-about-f1.html) — 2026-09-12 — F1, Formula 1, Motorsport
-- [Old Dominion vs Virginia Tech: The Ultimate Showdown for Your Future](https://sluintel.github.io/posts/2026-09-12-old-dominion-vs-virginia-tech-showdown.html) — 2026-09-12 — Virginia Tech, Old Dominion University, College Comparison
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
