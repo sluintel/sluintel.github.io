@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 12 Sep 2026 21:27:52 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 12 Sep 2026 22:14:35 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[What People Are Saying About Borussia Dortmund vs SC Paderborn 07 Standings]]></title>
+    <link>https://sluintel.github.io/posts/2026-09-12-what-people-are-saying-about-borussia-dortmund-vs-sc-paderborn-07-standings.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-12-what-people-are-saying-about-borussia-dortmund-vs-sc-paderborn-07-standings.html</guid>
+    <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack the real fan buzz and expert analysis on what people are saying about Borussia Dortmund vs SC Paderborn 07 standings. Get ahead of the narrative.]]></description>
+    <enclosure url="https://images.pexels.com/photos/6538958/pexels-photo-6538958.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Borussia Dortmund</category>
+    <category>SC Paderborn 07</category>
+    <category>Bundesliga</category>
+    <category>Football Standings</category>
+    <category>Fan Sentiment</category>
+  </item>
   <item>
     <title><![CDATA[Liverpool F.C. vs Fulham F.C. Standings: Latest Updates You Can't Miss]]></title>
     <link>https://sluintel.github.io/posts/2026-09-12-liverpool-fc-vs-fulham-fc-standings-latest-updates.html</link>
@@ -260,19 +273,6 @@
     <category>Sports Tech</category>
     <category>Live Scores</category>
     <category>Automation</category>
-  </item>
-  <item>
-    <title><![CDATA[Why US Open Is Trending Right Now: Unpacking the 2026 Buzz]]></title>
-    <link>https://sluintel.github.io/posts/2026-09-12-why-us-open-is-trending-right-now.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-12-why-us-open-is-trending-right-now.html</guid>
-    <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Discover why the US Open is trending right now. Unpack the factors driving its massive 2026 digital buzz, from athlete drama to AI-driven fan engagement.]]></description>
-    <enclosure url="https://images.pexels.com/photos/8224428/pexels-photo-8224428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>US Open</category>
-    <category>tennis</category>
-    <category>sports trends</category>
-    <category>AI in sports</category>
-    <category>fan engagement</category>
   </item>
 </channel>
 </rss>
