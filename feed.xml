@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 12 Sep 2026 19:24:39 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 12 Sep 2026 20:33:15 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[LSU vs La Tech: Decoding the 2026 AI Battleground]]></title>
+    <link>https://sluintel.github.io/posts/2026-09-12-lsu-vs-la-tech-ai-showdown.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-12-lsu-vs-la-tech-ai-showdown.html</guid>
+    <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack the future of LSU vs La Tech in 2026. Discover how AI transforms their academic and athletic rivalry, and what it means for Louisiana's tech landscape. Get ahead now!]]></description>
+    <enclosure url="https://images.pexels.com/photos/19955057/pexels-photo-19955057.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI in sports</category>
+    <category>university tech</category>
+    <category>Louisiana tech</category>
+    <category>AI research</category>
+    <category>rivalry analytics</category>
+  </item>
   <item>
     <title><![CDATA[What's Next for Saudi Pro League: Decoding its Future]]></title>
     <link>https://sluintel.github.io/posts/2026-09-12-whats-next-for-saudi-pro-league.html</link>
@@ -260,19 +273,6 @@
     <category>retro AI</category>
     <category>digital art</category>
     <category>AI tools</category>
-  </item>
-  <item>
-    <title><![CDATA[Unpacking the 1980s AI Photo Trend: Why Retro AI is Hot Again]]></title>
-    <link>https://sluintel.github.io/posts/2026-09-12-1980s-ai-photo-trend-retro-art.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-12-1980s-ai-photo-trend-retro-art.html</guid>
-    <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Dive into the captivating 1980s AI photo trend. Discover why vintage aesthetics are dominating generative AI and how you can create your own retro AI art. Unlock visual nostalgia.]]></description>
-    <enclosure url="https://images.pexels.com/photos/8072536/pexels-photo-8072536.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI Art</category>
-    <category>Generative AI</category>
-    <category>1980s Aesthetic</category>
-    <category>Retrofuturism</category>
-    <category>Digital Art</category>
   </item>
 </channel>
 </rss>
