@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 12 Sep 2026 12:11:44 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 12 Sep 2026 12:54:12 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[How Generative AI Is Impacting iPhone 18 Pro Max Apple]]></title>
+    <link>https://sluintel.github.io/posts/2026-09-12-how-generative-ai-is-impacting-iphone-18-pro-max-apple.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-12-how-generative-ai-is-impacting-iphone-18-pro-max-apple.html</guid>
+    <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Discover how generative AI is radically transforming the iPhone 18 Pro Max. Unlock advanced features, hyper-personalization, and new capabilities for your Apple device in 2026.]]></description>
+    <enclosure url="https://images.pexels.com/photos/30889270/pexels-photo-30889270.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Generative AI</category>
+    <category>iPhone 18 Pro Max</category>
+    <category>Apple</category>
+    <category>AI Features</category>
+    <category>Tech 2026</category>
+  </item>
   <item>
     <title><![CDATA[Cricbuzz Explained Simply: Your Ultimate Cricket Companion]]></title>
     <link>https://sluintel.github.io/posts/2026-09-12-cricbuzz-explained-simply-2.html</link>
@@ -260,19 +273,6 @@
     <category>Machine Learning</category>
     <category>Tech Trends</category>
     <category>Business Strategy</category>
-  </item>
-  <item>
-    <title><![CDATA[गोरखापत्र Updates: What You Need to Know for 2026]]></title>
-    <link>https://sluintel.github.io/posts/2026-09-11-the-latest-updates-on-gorkhapatra.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-11-the-latest-updates-on-gorkhapatra.html</guid>
-    <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Stay informed on the latest updates on गोरखापत्र for 2026. Discover new digital features, content initiatives, and how Nepal's oldest newspaper is evolving. Don't miss out!]]></description>
-    <enclosure url="https://images.pexels.com/photos/33705550/pexels-photo-33705550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>गोरखापत्र</category>
-    <category>Nepal News</category>
-    <category>Digital Media</category>
-    <category>Nepali Journalism</category>
-    <category>Media Updates</category>
   </item>
 </channel>
 </rss>
