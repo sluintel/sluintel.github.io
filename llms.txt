@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 2431
+Total Posts Published: 2432
 Last Updated: 2026-09-13
-Latest Post: Decoding the Top Internet Reactions to Manchester Derby
-Latest Post URL: https://sluintel.github.io/posts/2026-09-13-top-internet-reactions-to-manchester-derby.html
+Latest Post: Shree Charani: Unlocking Ancient Wisdom for Modern Clarity
+Latest Post URL: https://sluintel.github.io/posts/2026-09-13-everything-you-should-know-shree-charani.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Shree Charani: Unlocking Ancient Wisdom for Modern Clarity](https://sluintel.github.io/posts/2026-09-13-everything-you-should-know-shree-charani.html) — 2026-09-13 — spirituality, mindfulness, personal-growth
 - [Decoding the Top Internet Reactions to Manchester Derby](https://sluintel.github.io/posts/2026-09-13-top-internet-reactions-to-manchester-derby.html) — 2026-09-13 — AI Tools, Social Listening, Fan Engagement
 - [Everything You Should Know About Bayern: Football's Strategic Powerhouse](https://sluintel.github.io/posts/2026-09-13-everything-you-should-know-about-bayern.html) — 2026-09-13 — FC Bayern, Bundesliga, Football Strategy
 - [The Latest Updates on Man City: Staying Ahead with AI Insights](https://sluintel.github.io/posts/2026-09-13-the-latest-updates-on-man-city.html) — 2026-09-13 — Man City, Football Analytics, AI in Sports
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [AI Breakthroughs Reshaping the iPhone 18 Pro Max](https://sluintel.github.io/posts/2026-09-13-ai-breakthroughs-apple-iphone-18-pro-max.html) — 2026-09-13 — AI, iPhone 18 Pro Max, Apple Intelligence
 - [Digital Arrest Scam: Your 2026 Guide to Outsmarting Cybercriminals](https://sluintel.github.io/posts/2026-09-13-digital-arrest-scam-guide-2026.html) — 2026-09-13 — digital security, online scams, cybercrime
 - [Anthropic AI Explained: Your Guide to Safe & Powerful Generative AI](https://sluintel.github.io/posts/2026-09-13-anthropic-ai-explained-safe-powerful-generative-ai.html) — 2026-09-13 — Anthropic AI, Claude AI, Generative AI
-- [MLS Explained Simply: Your Guide to North America's Top Soccer League](https://sluintel.github.io/posts/2026-09-13-mls-explained-simply.html) — 2026-09-13 — MLS, Major League Soccer, Soccer Explained
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
