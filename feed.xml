@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 13 Sep 2026 21:27:42 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 13 Sep 2026 22:23:38 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[What People Are Saying About Napoli: Fan Verdicts & Expert Insights]]></title>
+    <link>https://sluintel.github.io/posts/2026-09-13-what-people-are-saying-about-napoli.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-13-what-people-are-saying-about-napoli.html</guid>
+    <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Uncover what people are saying about Napoli, from passionate fan debates to critical media analyses. Understand the club's current standing and future prospects.]]></description>
+    <enclosure url="https://images.pexels.com/photos/33282924/pexels-photo-33282924.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Napoli FC</category>
+    <category>Serie A</category>
+    <category>Football Analysis</category>
+    <category>Fan Opinion</category>
+    <category>Sports Journalism</category>
+  </item>
   <item>
     <title><![CDATA[Napoli: Everything You Should Know About This Football Icon]]></title>
     <link>https://sluintel.github.io/posts/2026-09-13-everything-you-should-know-about-napoli.html</link>
@@ -258,19 +271,6 @@
     <category>Asia Comparison</category>
     <category>Economic Analysis</category>
     <category>Travel Guide</category>
-  </item>
-  <item>
-    <title><![CDATA[Al-Khaleej Club vs Al-Nassr Standings: What People Are Saying]]></title>
-    <link>https://sluintel.github.io/posts/2026-09-13-what-people-are-saying-about-al-khaleej-club-vs-al-nassr-standings.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-13-what-people-are-saying-about-al-khaleej-club-vs-al-nassr-standings.html</guid>
-    <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unpack what people are saying about Al-Khaleej Club vs Al-Nassr standings. Get expert analysis, fan perspectives, and key factors impacting their Saudi Pro League positions.]]></description>
-    <enclosure url="https://images.pexels.com/photos/8084840/pexels-photo-8084840.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Saudi Pro League</category>
-    <category>Al-Nassr</category>
-    <category>Al-Khaleej</category>
-    <category>Football Analysis</category>
-    <category>Fan Commentary</category>
   </item>
 </channel>
 </rss>
