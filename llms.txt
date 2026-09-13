@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 2426
+Total Posts Published: 2427
 Last Updated: 2026-09-13
-Latest Post: Coventry vs Brighton: What People Are Saying About the Looming Showdown
-Latest Post URL: https://sluintel.github.io/posts/2026-09-13-what-people-are-saying-about-coventry-vs-brighton.html
+Latest Post: Man Utd vs Man City: Latest Updates & AI's Derby Dominance
+Latest Post URL: https://sluintel.github.io/posts/2026-09-13-latest-updates-on-man-utd-vs-man-city.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Man Utd vs Man City: Latest Updates & AI's Derby Dominance](https://sluintel.github.io/posts/2026-09-13-latest-updates-on-man-utd-vs-man-city.html) — 2026-09-13 — manchester derby, man utd, man city
 - [Coventry vs Brighton: What People Are Saying About the Looming Showdown](https://sluintel.github.io/posts/2026-09-13-what-people-are-saying-about-coventry-vs-brighton.html) — 2026-09-13 — Football, Match Analysis, Fan Sentiment
 - [AI Breakthroughs Reshaping the iPhone 18 Pro Max](https://sluintel.github.io/posts/2026-09-13-ai-breakthroughs-apple-iphone-18-pro-max.html) — 2026-09-13 — AI, iPhone 18 Pro Max, Apple Intelligence
 - [Digital Arrest Scam: Your 2026 Guide to Outsmarting Cybercriminals](https://sluintel.github.io/posts/2026-09-13-digital-arrest-scam-guide-2026.html) — 2026-09-13 — digital security, online scams, cybercrime
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Why Japan vs Malaysia is Trending: Decoding the 2026 Digital Buzz](https://sluintel.github.io/posts/2026-09-13-why-japan-vs-malaysia-is-trending-right-now.html) — 2026-09-13 — Japan, Malaysia, economic trends
 - [What People Are Saying About Real Madrid vs Rayo Vallecano Standings: Fan Verdict](https://sluintel.github.io/posts/2026-09-13-what-people-are-saying-about-real-madrid-vs-rayo-vallecano-standings.html) — 2026-09-13 — Real Madrid, Rayo Vallecano, La Liga
 - [Why UFC is Trending in Sports Right Now: The Unstoppable Rise of MMA](https://sluintel.github.io/posts/2026-09-13-why-ufc-is-trending-in-sports-right-now.html) — 2026-09-13 — UFC, MMA, Combat Sports
-- [Japan vs Malaysia Explained Simply: Your Guide to Two Asian Giants](https://sluintel.github.io/posts/2026-09-13-japan-vs-malaysia-explained-simply.html) — 2026-09-13 — Japan, Malaysia, Asia Comparison
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
