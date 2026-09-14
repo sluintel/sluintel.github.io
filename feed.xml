@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 14 Sep 2026 01:02:29 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 14 Sep 2026 04:58:38 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Real Sociedad vs Atlético Madrid Standings: Explained Simply]]></title>
+    <link>https://sluintel.github.io/posts/2026-09-14-real-sociedad-vs-atletico-madrid-standings-explained-simply.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-14-real-sociedad-vs-atletico-madrid-standings-explained-simply.html</guid>
+    <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Confused by La Liga tables? Get the Real Sociedad vs Atlético Madrid standings explained simply. Discover crucial factors, rivalries, and what it means for the title race in 2026. Unpack the stats now!]]></description>
+    <enclosure url="https://images.pexels.com/photos/38615685/pexels-photo-38615685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Real Sociedad</category>
+    <category>Atlético Madrid</category>
+    <category>La Liga Standings</category>
+    <category>Football Analysis</category>
+    <category>Spanish Football</category>
+  </item>
   <item>
     <title><![CDATA[Stade Brestois vs PSG Standings: AI Decodes the Latest Updates]]></title>
     <link>https://sluintel.github.io/posts/2026-09-14-stade-brestois-vs-psg-standings-latest-updates-ai.html</link>
@@ -258,19 +271,6 @@
     <category>Sports Trends</category>
     <category>Combat Sports</category>
     <category>Digital Strategy</category>
-  </item>
-  <item>
-    <title><![CDATA[Why Japan vs Malaysia is Trending: Decoding the 2026 Digital Buzz]]></title>
-    <link>https://sluintel.github.io/posts/2026-09-13-why-japan-vs-malaysia-is-trending-right-now.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-13-why-japan-vs-malaysia-is-trending-right-now.html</guid>
-    <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unpack why Japan vs Malaysia is trending right now in 2026. Discover the economic, tech, and cultural shifts driving this buzz and what it means for you. Get expert insights!]]></description>
-    <enclosure url="https://images.pexels.com/photos/20594357/pexels-photo-20594357.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Japan</category>
-    <category>Malaysia</category>
-    <category>economic trends</category>
-    <category>tech innovation</category>
-    <category>geopolitics</category>
   </item>
 </channel>
 </rss>
