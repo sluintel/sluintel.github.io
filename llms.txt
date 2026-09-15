@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 2482
+Total Posts Published: 2483
 Last Updated: 2026-09-15
-Latest Post: How AI is Transforming Al Ain FC vs Al-Nassr Standings
-Latest Post URL: https://sluintel.github.io/posts/2026-09-15-how-ai-is-transforming-al-ain-fc-vs-al-nassr-standings.html
+Latest Post: Aneurin Donald Explained Simply: Decoding Cricket's Dynamic Batter
+Latest Post URL: https://sluintel.github.io/posts/2026-09-15-aneurin-donald-explained-simply.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Aneurin Donald Explained Simply: Decoding Cricket's Dynamic Batter](https://sluintel.github.io/posts/2026-09-15-aneurin-donald-explained-simply.html) — 2026-09-15 — Aneurin Donald, cricket, Glamorgan
 - [How AI is Transforming Al Ain FC vs Al-Nassr Standings](https://sluintel.github.io/posts/2026-09-15-how-ai-is-transforming-al-ain-fc-vs-al-nassr-standings.html) — 2026-09-15 — AI in Football, Sports Analytics, Football Tech
 - [Why West Ham vs Fulham is Trending: Decoding the Football Buzz](https://sluintel.github.io/posts/2026-09-15-why-west-ham-vs-fulham-is-trending-right-now.html) — 2026-09-15 — football trends, premier league, london derby
 - [What Is a Data Breach? Your 2026 Guide to Digital Safety](https://sluintel.github.io/posts/2026-09-15-what-is-a-data-breach-digital-safety-guide-2026.html) — 2026-09-15 — data breach, cyber security, digital safety
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [प्रकोप Explained Simply: Decoding Disaster & How Tech Helps](https://sluintel.github.io/posts/2026-09-15-prakop-explained-simply.html) — 2026-09-15 — Prakop, Disaster Management, AI for Good
 - [David Warner Explained Simply: Unpacking Cricket's Enigma](https://sluintel.github.io/posts/2026-09-15-david-warner-explained-simply-3.html) — 2026-09-15 — Cricket, David Warner, Sports Analysis
 - [Mastering the Art of Photo: Everything You Should Know](https://sluintel.github.io/posts/2026-09-15-everything-you-should-know-about-photo.html) — 2026-09-15 — photography, AI tools, digital imaging
-- [David Warner Explained Simply: Cricket's Controversial Dynamo Unpacked](https://sluintel.github.io/posts/2026-09-15-david-warner-explained-simply-2.html) — 2026-09-15 — David Warner, Cricket, Australian Cricket
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
