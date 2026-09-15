@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 2483
+Total Posts Published: 2484
 Last Updated: 2026-09-15
-Latest Post: Aneurin Donald Explained Simply: Decoding Cricket's Dynamic Batter
-Latest Post URL: https://sluintel.github.io/posts/2026-09-15-aneurin-donald-explained-simply.html
+Latest Post: Aneurin Donald: What People Are Saying & Why It Matters (AI View)
+Latest Post URL: https://sluintel.github.io/posts/2026-09-15-what-people-are-saying-about-aneurin-donald.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Aneurin Donald: What People Are Saying & Why It Matters (AI View)](https://sluintel.github.io/posts/2026-09-15-what-people-are-saying-about-aneurin-donald.html) — 2026-09-15 — Aneurin Donald, Public Sentiment, AI Analysis
 - [Aneurin Donald Explained Simply: Decoding Cricket's Dynamic Batter](https://sluintel.github.io/posts/2026-09-15-aneurin-donald-explained-simply.html) — 2026-09-15 — Aneurin Donald, cricket, Glamorgan
 - [How AI is Transforming Al Ain FC vs Al-Nassr Standings](https://sluintel.github.io/posts/2026-09-15-how-ai-is-transforming-al-ain-fc-vs-al-nassr-standings.html) — 2026-09-15 — AI in Football, Sports Analytics, Football Tech
 - [Why West Ham vs Fulham is Trending: Decoding the Football Buzz](https://sluintel.github.io/posts/2026-09-15-why-west-ham-vs-fulham-is-trending-right-now.html) — 2026-09-15 — football trends, premier league, london derby
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Alavés vs Valencia Explained Simply: Decoding La Liga's Clash](https://sluintel.github.io/posts/2026-09-15-alaves-vs-valencia-explained-simply.html) — 2026-09-15 — La Liga, Spanish Football, Deportivo Alavés
 - [प्रकोप Explained Simply: Decoding Disaster & How Tech Helps](https://sluintel.github.io/posts/2026-09-15-prakop-explained-simply.html) — 2026-09-15 — Prakop, Disaster Management, AI for Good
 - [David Warner Explained Simply: Unpacking Cricket's Enigma](https://sluintel.github.io/posts/2026-09-15-david-warner-explained-simply-3.html) — 2026-09-15 — Cricket, David Warner, Sports Analysis
-- [Mastering the Art of Photo: Everything You Should Know](https://sluintel.github.io/posts/2026-09-15-everything-you-should-know-about-photo.html) — 2026-09-15 — photography, AI tools, digital imaging
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
