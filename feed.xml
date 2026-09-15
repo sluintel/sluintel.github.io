@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 15 Sep 2026 15:01:16 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 15 Sep 2026 15:34:52 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[David Warner Explained Simply: Unpacking Cricket's Enigma]]></title>
+    <link>https://sluintel.github.io/posts/2026-09-15-david-warner-explained-simply-3.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-15-david-warner-explained-simply-3.html</guid>
+    <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Confused by David Warner's complex career? Get David Warner explained simply in this guide. Understand his rise, controversies, and lasting legacy in cricket today.]]></description>
+    <enclosure url="https://images.pexels.com/photos/34483068/pexels-photo-34483068.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Cricket</category>
+    <category>David Warner</category>
+    <category>Sports Analysis</category>
+    <category>Australian Cricket</category>
+    <category>Controversy</category>
+  </item>
   <item>
     <title><![CDATA[Mastering the Art of Photo: Everything You Should Know]]></title>
     <link>https://sluintel.github.io/posts/2026-09-15-everything-you-should-know-about-photo.html</link>
@@ -258,19 +271,6 @@
     <category>Sassuolo</category>
     <category>Football Analysis</category>
     <category>Italian Football</category>
-  </item>
-  <item>
-    <title><![CDATA[Torino vs Roma Explained Simply: Why This Serie A Clash Matters]]></title>
-    <link>https://sluintel.github.io/posts/2026-09-14-torino-vs-roma-explained-simply.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-14-torino-vs-roma-explained-simply.html</guid>
-    <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Curious about Torino vs Roma? Get a simple breakdown of this pivotal Serie A fixture, its historical context, current stakes, and tactical nuances. Understand the rivalry today.]]></description>
-    <enclosure url="https://images.pexels.com/photos/11906370/pexels-photo-11906370.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Serie A</category>
-    <category>Italian Football</category>
-    <category>AS Roma</category>
-    <category>Torino FC</category>
-    <category>Football Analysis</category>
   </item>
 </channel>
 </rss>
