@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 2473
+Total Posts Published: 2474
 Last Updated: 2026-09-15
-Latest Post: David Warner Explained Simply: Cricket's Controversial Dynamo Unpacked
-Latest Post URL: https://sluintel.github.io/posts/2026-09-15-david-warner-explained-simply-2.html
+Latest Post: Mastering the Art of Photo: Everything You Should Know
+Latest Post URL: https://sluintel.github.io/posts/2026-09-15-everything-you-should-know-about-photo.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Mastering the Art of Photo: Everything You Should Know](https://sluintel.github.io/posts/2026-09-15-everything-you-should-know-about-photo.html) — 2026-09-15 — photography, AI tools, digital imaging
 - [David Warner Explained Simply: Cricket's Controversial Dynamo Unpacked](https://sluintel.github.io/posts/2026-09-15-david-warner-explained-simply-2.html) — 2026-09-15 — David Warner, Cricket, Australian Cricket
 - [David Warner Explained Simply: Unpacking Cricket's Enigma](https://sluintel.github.io/posts/2026-09-15-david-warner-explained-simply.html) — 2026-09-15 — David Warner, Cricket, Australian Cricket
 - [Decoding the Top Internet Reactions to David Warner's Career](https://sluintel.github.io/posts/2026-09-15-top-internet-reactions-to-david-warner.html) — 2026-09-15 — David Warner, Cricket, Social Media
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [What is a Data Breach? Your 2026 Digital Security Playbook](https://sluintel.github.io/posts/2026-09-15-what-is-a-data-breach-digital-security-playbook-2026.html) — 2026-09-15 — Data Breach, Cybersecurity, Data Protection
 - [What is a Data Breach? Your 2026 Digital Defense Guide](https://sluintel.github.io/posts/2026-09-15-what-is-a-data-breach-digital-defense-guide.html) — 2026-09-15 — data breach, cybersecurity, data protection
 - [Al-Shamal vs Al-Ittihad Explained Simply: The Saudi Showdown](https://sluintel.github.io/posts/2026-09-15-al-shamal-vs-al-ittihad-explained-simply.html) — 2026-09-15 — Saudi Pro League, Al-Shamal, Al-Ittihad
-- [What People Are Saying About Al-Shamal vs Al-Ittihad: Fan Battleground](https://sluintel.github.io/posts/2026-09-15-what-people-are-saying-about-al-shamal-vs-al-ittihad.html) — 2026-09-15 — AlShamal, AlIttihad, SaudiProLeague
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
