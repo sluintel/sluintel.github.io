@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 2516
+Total Posts Published: 2517
 Last Updated: 2026-09-17
-Latest Post: Decoding Top Internet Reactions: AC Milan vs Benfica Standings
-Latest Post URL: https://sluintel.github.io/posts/2026-09-17-top-internet-reactions-ac-milan-vs-benfica-standings.html
+Latest Post: Oracle Workforce Reduction: AI Spending & What It Means For You
+Latest Post URL: https://sluintel.github.io/posts/2026-09-17-oracle-workforce-reduction-ai-spending.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Oracle Workforce Reduction: AI Spending & What It Means For You](https://sluintel.github.io/posts/2026-09-17-oracle-workforce-reduction-ai-spending.html) — 2026-09-17 — Oracle, AI spending, Workforce Reduction
 - [Decoding Top Internet Reactions: AC Milan vs Benfica Standings](https://sluintel.github.io/posts/2026-09-17-top-internet-reactions-ac-milan-vs-benfica-standings.html) — 2026-09-17 — AC Milan, Benfica, Football Reactions
 - [Data Breach Explained: Your Essential 2026 Digital Defense](https://sluintel.github.io/posts/2026-09-17-what-is-a-data-breach-digital-defense-2026-2.html) — 2026-09-17 — Data Security, Cybersecurity, Data Breach
 - [What is a Data Breach? Your 2026 Essential Digital Defense Guide](https://sluintel.github.io/posts/2026-09-17-what-is-a-data-breach-digital-defense-2026.html) — 2026-09-17 — data breach, cybersecurity, data protection
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Why Barcelona vs Racing Santander is Trending Right Now: Decoding the Buzz](https://sluintel.github.io/posts/2026-09-16-why-barcelona-vs-racing-santander-is-trending-right-now.html) — 2026-09-16 — Barcelona, Racing Santander, Football Trends
 - [FC Barcelona vs Racing Santander Standings: What's Really Happening?](https://sluintel.github.io/posts/2026-09-16-fc-barcelona-vs-racing-santander-standings-whats-happening.html) — 2026-09-16 — La Liga, Football Analysis, FC Barcelona
 - [Europa League Latest Updates & Predictions: Your 2026 Edge](https://sluintel.github.io/posts/2026-09-16-europa-league-latest-updates-predictions.html) — 2026-09-16 — Europa League, Football Predictions, European Football
-- [Top Internet Reactions to JJ Gabriel: Decoding the Digital Buzz](https://sluintel.github.io/posts/2026-09-16-top-internet-reactions-to-jj-gabriel.html) — 2026-09-16 — AI Trends, Social Media Analysis, Online Sentiment
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
