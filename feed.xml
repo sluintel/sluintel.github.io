@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 17 Sep 2026 12:34:30 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 17 Sep 2026 13:30:41 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Why OM Is Trending Right Now: Finding Calm in Chaos]]></title>
+    <link>https://sluintel.github.io/posts/2026-09-17-why-om-is-trending-right-now.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-17-why-om-is-trending-right-now.html</guid>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Discover why OM is trending right now, exploring its surprising resurgence and how this ancient practice offers profound benefits for modern challenges. Find your peace.]]></description>
+    <enclosure url="https://images.pexels.com/photos/39353380/pexels-photo-39353380.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>OM</category>
+    <category>Meditation</category>
+    <category>Mindfulness</category>
+    <category>Wellness</category>
+    <category>Stress Relief</category>
+  </item>
   <item>
     <title><![CDATA[Decoding What People Are Saying About Ceuta: Insights & Outlook]]></title>
     <link>https://sluintel.github.io/posts/2026-09-17-what-people-are-saying-about-ceuta.html</link>
@@ -258,19 +271,6 @@
     <category>productivity tools</category>
     <category>AI for business</category>
     <category>digital transformation</category>
-  </item>
-  <item>
-    <title><![CDATA[Mastering the FC27 Web App: Your Guide to Unrivaled Efficiency]]></title>
-    <link>https://sluintel.github.io/posts/2026-09-16-fc27-web-app-efficiency-guide.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-16-fc27-web-app-efficiency-guide.html</guid>
-    <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unlock peak productivity with the FC27 web app. This guide reveals how to streamline workflows, automate tasks, and revolutionize your digital experience in 2026. Get expert insights now!]]></description>
-    <enclosure url="https://images.pexels.com/photos/20694602/pexels-photo-20694602.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>FC27</category>
-    <category>Web App</category>
-    <category>Productivity</category>
-    <category>Automation</category>
-    <category>Workflow</category>
   </item>
 </channel>
 </rss>
