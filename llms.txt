@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 2553
+Total Posts Published: 2554
 Last Updated: 2026-09-18
-Latest Post: US Military AI False Intelligence Reports: A Critical Threat
-Latest Post URL: https://sluintel.github.io/posts/2026-09-18-us-military-ai-false-intelligence-report.html
+Latest Post: The Looming Threat: US Military AI False Intelligence Reports
+Latest Post URL: https://sluintel.github.io/posts/2026-09-18-us-military-ai-false-intelligence-report-2.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [The Looming Threat: US Military AI False Intelligence Reports](https://sluintel.github.io/posts/2026-09-18-us-military-ai-false-intelligence-report-2.html) — 2026-09-18 — AI ethics, military AI, false intelligence
 - [US Military AI False Intelligence Reports: A Critical Threat](https://sluintel.github.io/posts/2026-09-18-us-military-ai-false-intelligence-report.html) — 2026-09-18 — AI Ethics, Military AI, National Security
 - [Decoding the Top Internet Reactions to Nepal Police in 2026](https://sluintel.github.io/posts/2026-09-18-top-internet-reactions-nepal-police.html) — 2026-09-18 — Nepal Police, Online Reactions, Social Media Nepal
 - [Australia vs Zimbabwe: What People Are Saying & Why It Matters in 2026](https://sluintel.github.io/posts/2026-09-18-what-people-are-saying-australia-vs-zimbabwe.html) — 2026-09-18 — Cricket Analysis, Australia Cricket, Zimbabwe Cricket
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Mastering समाचार: Everything You Should Know About News in the AI Age](https://sluintel.github.io/posts/2026-09-18-samachar-everything-you-should-know-ai-age.html) — 2026-09-18 — news, media literacy, AI
 - [The Data Centers You Don't See: Powering Our AI Future](https://sluintel.github.io/posts/2026-09-18-data-centers-powering-ai-future.html) — 2026-09-18 — Data Centers, AI Infrastructure, Cloud Computing
 - [Málaga CF vs Villarreal CF Standings: The Latest Updates You Need](https://sluintel.github.io/posts/2026-09-18-malaga-cf-vs-villarreal-cf-standings-latest-updates.html) — 2026-09-18 — La Liga, Málaga CF, Villarreal CF
-- [Why सेतोपाटी Is Trending Right Now: Decoding Its Digital Edge](https://sluintel.github.io/posts/2026-09-18-setopati-trending-right-now-digital-edge.html) — 2026-09-18 — सेतोपाटी, Nepal news, SEO strategy
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
