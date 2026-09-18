@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 2552
+Total Posts Published: 2553
 Last Updated: 2026-09-18
-Latest Post: Decoding the Top Internet Reactions to Nepal Police in 2026
-Latest Post URL: https://sluintel.github.io/posts/2026-09-18-top-internet-reactions-nepal-police.html
+Latest Post: US Military AI False Intelligence Reports: A Critical Threat
+Latest Post URL: https://sluintel.github.io/posts/2026-09-18-us-military-ai-false-intelligence-report.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [US Military AI False Intelligence Reports: A Critical Threat](https://sluintel.github.io/posts/2026-09-18-us-military-ai-false-intelligence-report.html) — 2026-09-18 — AI Ethics, Military AI, National Security
 - [Decoding the Top Internet Reactions to Nepal Police in 2026](https://sluintel.github.io/posts/2026-09-18-top-internet-reactions-nepal-police.html) — 2026-09-18 — Nepal Police, Online Reactions, Social Media Nepal
 - [Australia vs Zimbabwe: What People Are Saying & Why It Matters in 2026](https://sluintel.github.io/posts/2026-09-18-what-people-are-saying-australia-vs-zimbabwe.html) — 2026-09-18 — Cricket Analysis, Australia Cricket, Zimbabwe Cricket
 - [What People Are Saying About Japan vs India: Global Dynamics Explained](https://sluintel.github.io/posts/2026-09-18-what-people-are-saying-about-japan-vs-india.html) — 2026-09-18 — Japan, India, Geopolitics
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [The Data Centers You Don't See: Powering Our AI Future](https://sluintel.github.io/posts/2026-09-18-data-centers-powering-ai-future.html) — 2026-09-18 — Data Centers, AI Infrastructure, Cloud Computing
 - [Málaga CF vs Villarreal CF Standings: The Latest Updates You Need](https://sluintel.github.io/posts/2026-09-18-malaga-cf-vs-villarreal-cf-standings-latest-updates.html) — 2026-09-18 — La Liga, Málaga CF, Villarreal CF
 - [Why सेतोपाटी Is Trending Right Now: Decoding Its Digital Edge](https://sluintel.github.io/posts/2026-09-18-setopati-trending-right-now-digital-edge.html) — 2026-09-18 — सेतोपाटी, Nepal news, SEO strategy
-- [Decoding the Top Internet Reactions to सेतोपाटी](https://sluintel.github.io/posts/2026-09-18-top-internet-reactions-to-setopati.html) — 2026-09-18 — Nepali News, Online Sentiment, Digital Media
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
