@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 2571
+Total Posts Published: 2572
 Last Updated: 2026-09-19
-Latest Post: Japan vs Hong Kong: Why This Rivalry is Trending Right Now
-Latest Post URL: https://sluintel.github.io/posts/2026-09-19-why-japan-vs-hong-kong-is-trending-right-now.html
+Latest Post: Decoding the Top Internet Reactions to Google's AI Shifts
+Latest Post URL: https://sluintel.github.io/posts/2026-09-19-top-internet-reactions-to-google-ai-shifts.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Decoding the Top Internet Reactions to Google's AI Shifts](https://sluintel.github.io/posts/2026-09-19-top-internet-reactions-to-google-ai-shifts.html) — 2026-09-19 — Google AI, Internet Reactions, Search Engine
 - [Japan vs Hong Kong: Why This Rivalry is Trending Right Now](https://sluintel.github.io/posts/2026-09-19-why-japan-vs-hong-kong-is-trending-right-now.html) — 2026-09-19 — Japan economy, Hong Kong finance, Asia trends
 - [What People Are Saying About Games: The Unfiltered 2026 Pulse](https://sluintel.github.io/posts/2026-09-19-what-people-are-saying-about-games.html) — 2026-09-19 — gaming trends, video games, gaming community
 - [Japan vs Hong Kong: Latest Updates & AI-Driven Insights for 2026](https://sluintel.github.io/posts/2026-09-19-japan-vs-hong-kong-latest-updates-ai-insights.html) — 2026-09-19 — Japan, Hong Kong, AI
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Espanyol vs Elche CF Standings: Why It's Trending Now](https://sluintel.github.io/posts/2026-09-19-espanyol-vs-elche-cf-standings-trending-now.html) — 2026-09-19 — Espanyol, Elche CF, La Liga
 - [Japan vs Hong Kong: Everything You Should Know for 2026](https://sluintel.github.io/posts/2026-09-19-japan-vs-hong-kong-everything-you-should-know.html) — 2026-09-19 — Japan, Hong Kong, Travel
 - [Brentford vs Chelsea Standings: What People Are Saying Now](https://sluintel.github.io/posts/2026-09-19-what-people-are-saying-about-brentford-vs-chelsea-standings.html) — 2026-09-19 — Brentford FC, Chelsea FC, Premier League
-- [What People Are Saying About CPL: Decoding Cost Per Lead in 2026](https://sluintel.github.io/posts/2026-09-19-what-people-are-saying-about-cpl.html) — 2026-09-19 — CPL, Cost Per Lead, Lead Generation
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
