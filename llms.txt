@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 2563
+Total Posts Published: 2564
 Last Updated: 2026-09-19
-Latest Post: Brentford vs Chelsea Standings: What People Are Saying Now
-Latest Post URL: https://sluintel.github.io/posts/2026-09-19-what-people-are-saying-about-brentford-vs-chelsea-standings.html
+Latest Post: Japan vs Hong Kong: Everything You Should Know for 2026
+Latest Post URL: https://sluintel.github.io/posts/2026-09-19-japan-vs-hong-kong-everything-you-should-know.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Japan vs Hong Kong: Everything You Should Know for 2026](https://sluintel.github.io/posts/2026-09-19-japan-vs-hong-kong-everything-you-should-know.html) — 2026-09-19 — Japan, Hong Kong, Travel
 - [Brentford vs Chelsea Standings: What People Are Saying Now](https://sluintel.github.io/posts/2026-09-19-what-people-are-saying-about-brentford-vs-chelsea-standings.html) — 2026-09-19 — Brentford FC, Chelsea FC, Premier League
 - [What People Are Saying About CPL: Decoding Cost Per Lead in 2026](https://sluintel.github.io/posts/2026-09-19-what-people-are-saying-about-cpl.html) — 2026-09-19 — CPL, Cost Per Lead, Lead Generation
 - [Espanyol vs Elche: Everything You Should Know About Their La Liga Clashes](https://sluintel.github.io/posts/2026-09-19-espanyol-vs-elche-everything-you-should-know.html) — 2026-09-19 — Football, La Liga, Espanyol
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [What People Are Saying About समाचार: Decoding Digital News Perception](https://sluintel.github.io/posts/2026-09-18-what-people-are-saying-about-samachar.html) — 2026-09-18 — AI News, Media Trends, Public Opinion
 - [Jev AI Explained: Unlock Future Automation & Insights](https://sluintel.github.io/posts/2026-09-18-jev-ai-automation-insights-2026.html) — 2026-09-18 — AI automation, predictive analytics, machine learning
 - [Why João Pedro Is Trending Right Now: Unpacking the 2026 Buzz](https://sluintel.github.io/posts/2026-09-18-joao-pedro-trending-right-now.html) — 2026-09-18 — João Pedro, Football, Trending 2026
-- [The Looming Threat: US Military AI False Intelligence Reports](https://sluintel.github.io/posts/2026-09-18-us-military-ai-false-intelligence-report-2.html) — 2026-09-18 — AI ethics, military AI, false intelligence
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
