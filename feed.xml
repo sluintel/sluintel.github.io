@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 19 Sep 2026 08:48:25 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 19 Sep 2026 09:34:48 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Mastering the App Ecosystem: Your 2026 Digital Advantage]]></title>
+    <link>https://sluintel.github.io/posts/2026-09-19-mastering-the-app-ecosystem.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-19-mastering-the-app-ecosystem.html</guid>
+    <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Uncover the true power of an app in 2026. This guide shows you how to choose, optimize, and future-proof your digital tools for peak productivity and innovation.]]></description>
+    <enclosure url="https://images.pexels.com/photos/8728285/pexels-photo-8728285.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>apps</category>
+    <category>AI tools</category>
+    <category>automation</category>
+    <category>productivity</category>
+    <category>digital workflow</category>
+  </item>
   <item>
     <title><![CDATA[Japan vs Hong Kong: Latest Updates & Rivalry Analysis for 2026]]></title>
     <link>https://sluintel.github.io/posts/2026-09-19-the-latest-updates-on-japan-vs-hong-kong.html</link>
@@ -258,19 +271,6 @@
     <category>Athletics</category>
     <category>Sports News</category>
     <category>Athlete Stories</category>
-  </item>
-  <item>
-    <title><![CDATA[Mastering समाचार: Everything You Should Know About News in the AI Age]]></title>
-    <link>https://sluintel.github.io/posts/2026-09-18-samachar-everything-you-should-know-ai-age.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-18-samachar-everything-you-should-know-ai-age.html</guid>
-    <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Navigate the complex world of समाचार like a pro. Discover how to identify reliable news, combat misinformation, and stay truly informed in 2026. Get all the insights you need.]]></description>
-    <enclosure url="https://images.pexels.com/photos/9572697/pexels-photo-9572697.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>news</category>
-    <category>media literacy</category>
-    <category>AI</category>
-    <category>journalism</category>
-    <category>misinformation</category>
   </item>
 </channel>
 </rss>
