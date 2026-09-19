@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 2567
+Total Posts Published: 2568
 Last Updated: 2026-09-19
-Latest Post: Mastering the App Ecosystem: Your 2026 Digital Advantage
-Latest Post URL: https://sluintel.github.io/posts/2026-09-19-mastering-the-app-ecosystem.html
+Latest Post: What People Are Saying About Google: Dominance, AI, & Your Future
+Latest Post URL: https://sluintel.github.io/posts/2026-09-19-what-people-are-saying-about-google.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [What People Are Saying About Google: Dominance, AI, & Your Future](https://sluintel.github.io/posts/2026-09-19-what-people-are-saying-about-google.html) — 2026-09-19 — Google, AI, Tech Trends
 - [Mastering the App Ecosystem: Your 2026 Digital Advantage](https://sluintel.github.io/posts/2026-09-19-mastering-the-app-ecosystem.html) — 2026-09-19 — apps, AI tools, automation
 - [Japan vs Hong Kong: Latest Updates & Rivalry Analysis for 2026](https://sluintel.github.io/posts/2026-09-19-the-latest-updates-on-japan-vs-hong-kong.html) — 2026-09-19 — Japan Sports, Hong Kong Sports, Sports Rivalries
 - [Espanyol vs Elche CF Standings: Why It's Trending Now](https://sluintel.github.io/posts/2026-09-19-espanyol-vs-elche-cf-standings-trending-now.html) — 2026-09-19 — Espanyol, Elche CF, La Liga
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Espanyol vs Elche: Everything You Should Know About Their La Liga Clashes](https://sluintel.github.io/posts/2026-09-19-espanyol-vs-elche-everything-you-should-know.html) — 2026-09-19 — Football, La Liga, Espanyol
 - [Decoding the Top Internet Reactions to Bigg Boss](https://sluintel.github.io/posts/2026-09-19-top-internet-reactions-to-bigg-boss.html) — 2026-09-19 — Bigg Boss, Reality TV, Social Media Trends
 - [Top Internet Reactions to Alavés vs Barcelona: Decoding the Digital Verdict](https://sluintel.github.io/posts/2026-09-18-top-internet-reactions-alaves-vs-barcelona.html) — 2026-09-18 — football, Barcelona, Alaves
-- [Bayern vs Union Berlin Explained Simply: The Bundesliga Battle](https://sluintel.github.io/posts/2026-09-18-bayern-vs-union-berlin-explained-simply.html) — 2026-09-18 — Bundesliga, Football Analysis, Bayern Munich
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
