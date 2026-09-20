@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 2590
+Total Posts Published: 2591
 Last Updated: 2026-09-20
-Latest Post: Flights Explained Simply: Demystifying Air Travel in 2026
-Latest Post URL: https://sluintel.github.io/posts/2026-09-20-flights-explained-simply.html
+Latest Post: Everything You Should Know About Search in the AI Era
+Latest Post URL: https://sluintel.github.io/posts/2026-09-20-everything-you-should-know-about-search.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Everything You Should Know About Search in the AI Era](https://sluintel.github.io/posts/2026-09-20-everything-you-should-know-about-search.html) — 2026-09-20 — search engines, AI, SEO
 - [Flights Explained Simply: Demystifying Air Travel in 2026](https://sluintel.github.io/posts/2026-09-20-flights-explained-simply.html) — 2026-09-20 — flights, air travel, aviation
 - [Future-Proofing Your Feed: AI-Powered Innovations in Technology News](https://sluintel.github.io/posts/2026-09-20-ai-powered-innovations-technology-news.html) — 2026-09-20 — AI Tools, Tech News, Automation
 - [The Latest Updates on Bet365: Your 2026 Betting Edge](https://sluintel.github.io/posts/2026-09-20-the-latest-updates-on-bet-365.html) — 2026-09-20 — Bet365 updates, online betting, sports betting
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [The Latest Updates on Roblox: Your 2026 Blueprint for Success](https://sluintel.github.io/posts/2026-09-20-the-latest-updates-on-roblox.html) — 2026-09-20 — Roblox, Metaverse, Game Development
 - [App State Football: Unpacking the Mountaineers' Enduring Dominance](https://sluintel.github.io/posts/2026-09-19-app-state-football-mountaineers-dominance.html) — 2026-09-19 — App State Football, Mountaineers, College Football
 - [Play Store Explained Simply: Your 2026 Guide to Android's App Hub](https://sluintel.github.io/posts/2026-09-19-play-store-explained-simply.html) — 2026-09-19 — Google Play Store, Android Apps, App Store
-- [Unlock Success: The Latest Updates on Play Store for 2026](https://sluintel.github.io/posts/2026-09-19-the-latest-updates-on-play-store.html) — 2026-09-19 — Play Store, Android Apps, App Discovery
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
