@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 20 Sep 2026 23:15:06 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 21 Sep 2026 00:13:48 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Decoding Top Internet Reactions to Arsenal's Digital Drama]]></title>
+    <link>https://sluintel.github.io/posts/2026-09-21-top-internet-reactions-to-arsenal.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-21-top-internet-reactions-to-arsenal.html</guid>
+    <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack the top internet reactions to Arsenal's highs and lows. Discover how AI tools analyze fan sentiment, predict trends, and shape club strategy in 2026. Stay ahead of the digital curve.]]></description>
+    <enclosure url="https://images.pexels.com/photos/13797847/pexels-photo-13797847.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>Arsenal FC</category>
+    <category>Fan Engagement</category>
+    <category>Social Media Analytics</category>
+    <category>AI in Sports</category>
+    <category>Football Culture</category>
+  </item>
   <item>
     <title><![CDATA[Decoding the Top Internet Reactions to Real Madrid's Digital Pulse]]></title>
     <link>https://sluintel.github.io/posts/2026-09-20-top-internet-reactions-real-madrid-2.html</link>
@@ -263,19 +276,6 @@
     <category>Automation</category>
     <category>Journalism</category>
     <category>Content Strategy</category>
-  </item>
-  <item>
-    <title><![CDATA[The Latest Updates on Bet365: Your 2026 Betting Edge]]></title>
-    <link>https://sluintel.github.io/posts/2026-09-20-the-latest-updates-on-bet-365.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-20-the-latest-updates-on-bet-365.html</guid>
-    <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Stay ahead with the latest updates on Bet365 for 2026. Discover new features, refined betting strategies, and how to maximize your wins. Don't miss out on vital changes!]]></description>
-    <enclosure url="https://images.pexels.com/photos/31905853/pexels-photo-31905853.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Bet365 updates</category>
-    <category>online betting</category>
-    <category>sports betting</category>
-    <category>betting strategies</category>
-    <category>2026 predictions</category>
   </item>
 </channel>
 </rss>
