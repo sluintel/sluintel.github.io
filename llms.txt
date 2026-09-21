@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 2619
+Total Posts Published: 2620
 Last Updated: 2026-09-21
-Latest Post: Gemini Unleashed: Google's AI Powerhouse for 2026
-Latest Post URL: https://sluintel.github.io/posts/2026-09-21-gemini-unleashed-google-ai.html
+Latest Post: Gemini AI: Google's Intelligence Powerhouse for 2026
+Latest Post URL: https://sluintel.github.io/posts/2026-09-21-gemini-ai-google-powerhouse-2026.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Gemini AI: Google's Intelligence Powerhouse for 2026](https://sluintel.github.io/posts/2026-09-21-gemini-ai-google-powerhouse-2026.html) — 2026-09-21 — Gemini AI, Google AI, Multimodal AI
 - [Gemini Unleashed: Google's AI Powerhouse for 2026](https://sluintel.github.io/posts/2026-09-21-gemini-unleashed-google-ai.html) — 2026-09-21 — Gemini AI, Multimodal AI, Google AI
 - [Gemini AI Unpacked: Why Google's Multimodal Powerhouse Dominates 2026](https://sluintel.github.io/posts/2026-09-21-gemini-ai-unpacked-2026.html) — 2026-09-21 — Gemini AI, Google AI, Multimodal AI
 - [Mastering Gemini: Your AI Co-Pilot for Unrivaled Productivity](https://sluintel.github.io/posts/2026-09-21-mastering-gemini-ai-productivity-2026.html) — 2026-09-21 — AI Tools, Gemini AI, Google AI
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Gemini AI: Unlocking the Future of Multimodal Intelligence](https://sluintel.github.io/posts/2026-09-21-gemini-ai-future-multimodal-intelligence.html) — 2026-09-21 — Gemini AI, AI Tools, Generative AI
 - [Google AI: Your Unseen Edge in Tomorrow's Tech Landscape](https://sluintel.github.io/posts/2026-09-21-google-ai-unseen-edge-tech-landscape.html) — 2026-09-21 — google-ai, ai-tools, artificial-intelligence
 - [Google AI: Your Edge in 2026's Digital Frontier](https://sluintel.github.io/posts/2026-09-21-google-ai-edge-digital-frontier-2026.html) — 2026-09-21 — google ai, artificial intelligence, ai tools
-- [Spencer Shrader: Everything You Should Know About This Kicking Phenom](https://sluintel.github.io/posts/2026-09-21-everything-you-should-know-about-spencer-shrader.html) — 2026-09-21 — Spencer Shrader, college football, NFL kicker
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
