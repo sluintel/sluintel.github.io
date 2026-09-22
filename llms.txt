@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 2647
+Total Posts Published: 2648
 Last Updated: 2026-09-22
-Latest Post: Gemini Unleashed: Your AI Co-Pilot for 2026 Productivity
-Latest Post URL: https://sluintel.github.io/posts/2026-09-22-gemini-google-ai-powerhouse-2026.html
+Latest Post: Gemini: Unleash Google's AI Powerhouse for 2026 Productivity
+Latest Post URL: https://sluintel.github.io/posts/2026-09-22-gemini-google-ai-powerhouse-2026-2.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Gemini: Unleash Google's AI Powerhouse for 2026 Productivity](https://sluintel.github.io/posts/2026-09-22-gemini-google-ai-powerhouse-2026-2.html) — 2026-09-22 — Gemini AI, Google AI, Multimodal AI
 - [Gemini Unleashed: Your AI Co-Pilot for 2026 Productivity](https://sluintel.github.io/posts/2026-09-22-gemini-google-ai-powerhouse-2026.html) — 2026-09-22 — AI Tools, Gemini, Google AI
 - [Gemini AI: Master Google's Multimodal Power for 2026](https://sluintel.github.io/posts/2026-09-22-gemini-ai-mastery-2026.html) — 2026-09-22 — Gemini AI, Google AI, Multimodal AI
 - [Gemini: The AI Powerhouse Redefining Digital Workflows](https://sluintel.github.io/posts/2026-09-22-gemini-ai-powerhouse-digital-workflows.html) — 2026-09-22 — Gemini AI, Multimodal AI, Google AI
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Gemini Unleashed: Google's AI You Can't Ignore in 2026](https://sluintel.github.io/posts/2026-09-22-gemini-google-ai-multimodal-power.html) — 2026-09-22 — Gemini AI, Google AI, Multimodal AI
 - [Gemini Mastery: Unlock Google's Multimodal AI in 2026](https://sluintel.github.io/posts/2026-09-22-mastering-gemini-ai-multimodal-2026.html) — 2026-09-22 — Gemini AI, Multimodal AI, Google AI
 - [Gemini AI: Master Google's Multimodal Future Today](https://sluintel.github.io/posts/2026-09-22-gemini-ai-google-multimodal-future-2.html) — 2026-09-22 — Gemini AI, Google AI, Multimodal
-- [Gemini AI: Master Google's Multimodal Future for 2026 Productivity](https://sluintel.github.io/posts/2026-09-22-gemini-ai-google-multimodal-future.html) — 2026-09-22 — Gemini AI, Multimodal AI, Google AI
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
