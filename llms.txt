@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 2669
+Total Posts Published: 2670
 Last Updated: 2026-09-23
-Latest Post: Everything You Should Know About Weather Today
-Latest Post URL: https://sluintel.github.io/posts/2026-09-23-everything-you-should-know-about-weather-today.html
+Latest Post: What People Are Saying About Harvey Weinstein: Unpacking the 2026 Verdict
+Latest Post URL: https://sluintel.github.io/posts/2026-09-23-what-people-are-saying-about-harvey-weinstein.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [What People Are Saying About Harvey Weinstein: Unpacking the 2026 Verdict](https://sluintel.github.io/posts/2026-09-23-what-people-are-saying-about-harvey-weinstein.html) — 2026-09-23 — Harvey Weinstein, MeToo, Public Opinion
 - [Everything You Should Know About Weather Today](https://sluintel.github.io/posts/2026-09-23-everything-you-should-know-about-weather-today.html) — 2026-09-23 — weather forecast, meteorology, climate change
 - [Unlock the Sky: Everything You Should Know About Weather for 2026](https://sluintel.github.io/posts/2026-09-23-everything-you-should-know-about-weather.html) — 2026-09-23 — Weather Forecasting, Climate Change, Meteorology
 - [Jamaal Williams: Everything You Should Know About the NFL's Unsung Hero](https://sluintel.github.io/posts/2026-09-23-jamaal-williams-everything-you-should-know.html) — 2026-09-23 — NFL, Jamaal Williams, Running Back
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Unpacking the Top Internet Reactions to Pluto TV in 2026](https://sluintel.github.io/posts/2026-09-23-top-internet-reactions-to-pluto-tv.html) — 2026-09-23 — Pluto TV, free streaming, cord cutting
 - [Unpacking the Latest Updates on David Adeang Nauru Name Change UN](https://sluintel.github.io/posts/2026-09-23-latest-updates-david-adeang-nauru-name-change-un.html) — 2026-09-23 — geopolitics, nauru, david adeang
 - [Why मौसम (Weather) Is Trending Right Now: AI's Predictive Power](https://sluintel.github.io/posts/2026-09-23-mausam-weather-trending-right-now-ai-power.html) — 2026-09-23 — AI, Weather Forecasting, Automation
-- [India vs Japan: What People Are Saying About Their Evolving Dynamics](https://sluintel.github.io/posts/2026-09-23-india-vs-japan-what-people-are-saying-2026.html) — 2026-09-23 — India, Japan, Geopolitics
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
