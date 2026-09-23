@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 23 Sep 2026 19:03:31 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 23 Sep 2026 19:40:13 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Top Internet Reactions to Weather Today: Decoding Digital Buzz]]></title>
+    <link>https://sluintel.github.io/posts/2026-09-23-top-internet-reactions-to-weather-today.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-23-top-internet-reactions-to-weather-today.html</guid>
+    <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack the top internet reactions to weather today! Discover why digital chatter matters, how to track trends, and leverage insights from viral memes to local alerts. Stay ahead of the digital storm.]]></description>
+    <enclosure url="https://images.pexels.com/photos/3880893/pexels-photo-3880893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI Tools</category>
+    <category>Social Listening</category>
+    <category>Weather Trends</category>
+    <category>Digital Marketing</category>
+    <category>Content Strategy</category>
+  </item>
   <item>
     <title><![CDATA[Iraq vs Oman: Everything You Should Know About Their Contrasting Paths]]></title>
     <link>https://sluintel.github.io/posts/2026-09-23-iraq-vs-oman-everything-you-should-know.html</link>
@@ -261,19 +274,6 @@
     <category>AI Tools</category>
     <category>Automation</category>
     <category>Productivity</category>
-  </item>
-  <item>
-    <title><![CDATA[Gemini: Unleashing Google's AI for Next-Gen Productivity in 2026]]></title>
-    <link>https://sluintel.github.io/posts/2026-09-22-gemini-google-ai-power-2026.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-22-gemini-google-ai-power-2026.html</guid>
-    <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Discover Gemini, Google's powerful AI, and learn how it's redefining productivity and innovation in 2026. Get expert strategies to master multimodal AI and automation.]]></description>
-    <enclosure url="https://images.pexels.com/photos/34804017/pexels-photo-34804017.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>Gemini AI</category>
-    <category>Google AI</category>
-    <category>Multimodal AI</category>
-    <category>AI Productivity</category>
-    <category>Automation Tools</category>
   </item>
 </channel>
 </rss>
