@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 23 Sep 2026 13:40:41 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 23 Sep 2026 14:16:22 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Jamaal Williams: Everything You Should Know About the NFL's Unsung Hero]]></title>
+    <link>https://sluintel.github.io/posts/2026-09-23-jamaal-williams-everything-you-should-know.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-23-jamaal-williams-everything-you-should-know.html</guid>
+    <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack everything you should know about Jamaal Williams – his infectious personality, gritty running style, and true value in the NFL. Discover what makes him a fan favorite and a coach's dream.]]></description>
+    <enclosure url="https://images.pexels.com/photos/5311498/pexels-photo-5311498.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>NFL</category>
+    <category>Jamaal Williams</category>
+    <category>Running Back</category>
+    <category>Football Analysis</category>
+    <category>Sports Personalities</category>
+  </item>
   <item>
     <title><![CDATA[The Latest Updates on Weather Today: Master Your AI-Powered Forecast]]></title>
     <link>https://sluintel.github.io/posts/2026-09-23-the-latest-updates-on-weather-today.html</link>
@@ -259,19 +272,6 @@
     <category>Google AI</category>
     <category>Multimodal AI</category>
     <category>AI Tools 2026</category>
-    <category>Automation</category>
-  </item>
-  <item>
-    <title><![CDATA[Gemini Unleashed: Your AI Co-Pilot for 2026 Productivity]]></title>
-    <link>https://sluintel.github.io/posts/2026-09-22-gemini-google-ai-powerhouse-2026.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-22-gemini-google-ai-powerhouse-2026.html</guid>
-    <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Unlock the power of Gemini, Google's advanced AI. Discover how multimodal capabilities can supercharge your workflows and productivity in 2026. Learn to master this essential AI tool now.]]></description>
-    <enclosure url="https://images.pexels.com/photos/34804017/pexels-photo-34804017.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI Tools</category>
-    <category>Gemini</category>
-    <category>Google AI</category>
-    <category>Productivity</category>
     <category>Automation</category>
   </item>
 </channel>
