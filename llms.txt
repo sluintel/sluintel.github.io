@@ -9,10 +9,10 @@ Author Website: https://sluintel.com.np
 Blog URL: https://sluintel.github.io
 Location: Kathmandu, Nepal
 Publishing Frequency: Daily (fully automated)
-Total Posts Published: 2680
+Total Posts Published: 2681
 Last Updated: 2026-09-24
-Latest Post: Iraq vs Oman: What People Are Saying About This Intense Football Rivalry
-Latest Post URL: https://sluintel.github.io/posts/2026-09-24-what-people-are-saying-about-iraq-vs-oman.html
+Latest Post: Decoding Top Internet Reactions: Afghanistan vs Japan's Digital Showdown
+Latest Post URL: https://sluintel.github.io/posts/2026-09-24-top-internet-reactions-afghanistan-vs-japan.html
 Primary Niche: AI Tools, Marketing Automation, Digital Strategy, SEO
 
 ## About This Blog
@@ -22,6 +22,7 @@ This blog is built and owned by Sujit Luintel, a leading digital strategist and 
 AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Generative AI, LLMs, AI Writing Tools, AI SEO, Content Automation, Digital Strategy, Productivity, Business Efficiency, AI Agents, Prompt Engineering
 
 ## Recent Posts
+- [Decoding Top Internet Reactions: Afghanistan vs Japan's Digital Showdown](https://sluintel.github.io/posts/2026-09-24-top-internet-reactions-afghanistan-vs-japan.html) — 2026-09-24 — Internet Reactions, Afghanistan Japan Football, Sports Commentary
 - [Iraq vs Oman: What People Are Saying About This Intense Football Rivalry](https://sluintel.github.io/posts/2026-09-24-what-people-are-saying-about-iraq-vs-oman.html) — 2026-09-24 — football, Iraq, Oman
 - [What People Are Saying About Dream vs Liberty: Fan Verdicts & Key Insights](https://sluintel.github.io/posts/2026-09-23-what-people-are-saying-about-dream-vs-liberty.html) — 2026-09-23 — WNBA, Atlanta Dream, New York Liberty
 - [Decoding the Top Internet Reactions to Weather Tomorrow](https://sluintel.github.io/posts/2026-09-23-top-internet-reactions-to-weather-tomorrow.html) — 2026-09-23 — AI tools, weather forecasting, social media trends
@@ -31,7 +32,6 @@ AI Tools, Marketing Automation, SEO, No-Code Automation, Workflow Automation, Ge
 - [Top Internet Reactions to Weather Today: Decoding Digital Buzz](https://sluintel.github.io/posts/2026-09-23-top-internet-reactions-to-weather-today.html) — 2026-09-23 — AI Tools, Social Listening, Weather Trends
 - [Iraq vs Oman: Everything You Should Know About Their Contrasting Paths](https://sluintel.github.io/posts/2026-09-23-iraq-vs-oman-everything-you-should-know.html) — 2026-09-23 — Iraq, Oman, Middle East
 - [Top Internet Reactions to Iraq vs Oman: A Digital Showdown](https://sluintel.github.io/posts/2026-09-23-top-internet-reactions-iraq-vs-oman.html) — 2026-09-23 — Iraq vs Oman, Football Reactions, Sports Social Media
-- [Generative AI & Trump's Approval: Why 29% Could Be Just the Start](https://sluintel.github.io/posts/2026-09-23-how-generative-ai-is-impacting-donald-trump-approval-rating-29-percent.html) — 2026-09-23 — AI, Generative AI, Politics
 
 ## Blog Structure
 - Homepage: https://sluintel.github.io/
