@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 24 Sep 2026 19:59:23 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 24 Sep 2026 20:32:26 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[DR Congo vs Equatorial Guinea: Latest Updates & AI Analysis]]></title>
+    <link>https://sluintel.github.io/posts/2026-09-24-dr-congo-vs-equatorial-guinea-latest-updates.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-24-dr-congo-vs-equatorial-guinea-latest-updates.html</guid>
+    <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Unpack the latest updates on DR Congo vs Equatorial Guinea. Discover cutting-edge AI insights, key player stats, and tactical breakdowns for their anticipated clashes.]]></description>
+    <enclosure url="https://images.pexels.com/photos/38503112/pexels-photo-38503112.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>DR Congo Football</category>
+    <category>Equatorial Guinea</category>
+    <category>African Football</category>
+    <category>AI Sports Analysis</category>
+    <category>Match Previews</category>
+  </item>
   <item>
     <title><![CDATA[Netherlands vs Germany: Everything You Need to Know]]></title>
     <link>https://sluintel.github.io/posts/2026-09-24-netherlands-vs-germany-everything-you-should-know.html</link>
@@ -258,19 +271,6 @@
     <category>Oman</category>
     <category>sports rivalry</category>
     <category>fan sentiment</category>
-  </item>
-  <item>
-    <title><![CDATA[What People Are Saying About Dream vs Liberty: Fan Verdicts & Key Insights]]></title>
-    <link>https://sluintel.github.io/posts/2026-09-23-what-people-are-saying-about-dream-vs-liberty.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-23-what-people-are-saying-about-dream-vs-liberty.html</guid>
-    <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Dive into the heated debates and passionate fan reactions surrounding Dream vs Liberty matchups. Discover why these WNBA rivalries ignite such fierce discussion.]]></description>
-    <enclosure url="https://images.pexels.com/photos/5739200/pexels-photo-5739200.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>WNBA</category>
-    <category>Atlanta Dream</category>
-    <category>New York Liberty</category>
-    <category>Sports Commentary</category>
-    <category>Fan Reactions</category>
   </item>
 </channel>
 </rss>
