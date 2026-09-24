@@ -5,13 +5,26 @@
   <link>https://sluintel.github.io/</link>
   <description>Daily AI tools and automation insights, auto-published every day.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 24 Sep 2026 22:27:23 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 24 Sep 2026 23:12:14 +0000</lastBuildDate>
   <atom:link href="https://sluintel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <image>
     <url>https://sluintel.github.io/favicon.ico</url>
     <title>Sujit Luintel</title>
     <link>https://sluintel.github.io/</link>
   </image>
+  <item>
+    <title><![CDATA[Norway vs Denmark: AI Decodes Latest Rivalry Updates]]></title>
+    <link>https://sluintel.github.io/posts/2026-09-24-norway-vs-denmark-ai-updates.html</link>
+    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-24-norway-vs-denmark-ai-updates.html</guid>
+    <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Uncover the latest updates on Norway vs Denmark through AI's lens. Get predictive insights, tactical breakdowns, and expert analysis for this fierce sports rivalry.]]></description>
+    <enclosure url="https://images.pexels.com/photos/6416411/pexels-photo-6416411.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
+    <category>AI Sports Analysis</category>
+    <category>Norway Denmark Rivalry</category>
+    <category>Sports Prediction</category>
+    <category>Machine Learning</category>
+    <category>Football Analytics</category>
+  </item>
   <item>
     <title><![CDATA[Why Everyone Is Talking About Paradise Movie: Unpacking the Viral Buzz]]></title>
     <link>https://sluintel.github.io/posts/2026-09-24-why-everyone-is-talking-about-paradise-movie.html</link>
@@ -258,19 +271,6 @@
     <category>GPT-4</category>
     <category>DALL-E</category>
     <category>AI Strategy</category>
-  </item>
-  <item>
-    <title><![CDATA[The Latest Updates on Weather: Your AI-Powered Forecast Edge]]></title>
-    <link>https://sluintel.github.io/posts/2026-09-24-the-latest-updates-on-weather-ai-forecast.html</link>
-    <guid isPermaLink="true">https://sluintel.github.io/posts/2026-09-24-the-latest-updates-on-weather-ai-forecast.html</guid>
-    <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Stay ahead with the latest updates on weather. Discover how AI transforms forecasts, from hyper-local predictions to extreme event alerts. Unlock your personal weather advantage!]]></description>
-    <enclosure url="https://images.pexels.com/photos/29502371/pexels-photo-29502371.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" type="image/jpeg" length="0"/>
-    <category>AI</category>
-    <category>Weather Forecasting</category>
-    <category>Automation</category>
-    <category>Climate Tech</category>
-    <category>Predictive Analytics</category>
   </item>
 </channel>
 </rss>
